@@ -27,7 +27,9 @@ def get_catalog() -> list[dict]:
 	)
 	for p in pages:
 		p.preview = _abs_url(p.preview)
-		p.live_url = _abs_url(f"/{p.route}") if p.route else None
+		# absolute URL of the published page on this hub (opened in a new tab as
+		# the template preview). _abs_url only handles asset paths, so build it here.
+		p.live_url = f"{get_url()}/{p.route}" if p.route else None
 
 	by_group: dict[str, list] = {}
 	for p in pages:
