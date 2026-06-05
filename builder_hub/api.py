@@ -13,12 +13,49 @@ from frappe.utils import get_url
 
 @frappe.whitelist(allow_guest=True)
 def get_catalog() -> list[dict]:
-	"""Template groups with their pages, for any builder site's picker.
-	Preview + per-page live_url are absolute (so a remote consumer can load
-	images and open Preview against this hub)."""
-	from builder.api import build_template_catalog
+	"""Template groups with their pages, for any builder site's picker. Built from
+	this hub's published template pages + on-disk group manifests. Preview +
+	per-page live_url are absolute so a remote consumer can load them."""
+	from builder.template_sync import get_all_group_manifests
 
-	return build_template_catalog(app="builder_hub", absolute_preview=True)
+	pages = frappe.get_all(
+		"Builder Page",
+		filters={"is_template": 1, "template_group": ("is", "set")},
+		fields=["name", "page_title", "preview", "route", "template_group"],
+		order_by="creation asc",
+		ignore_permissions=True,
+	)
+	for p in pages:
+		p.preview = _abs_url(p.preview)
+		p.live_url = _abs_url(f"/{p.route}") if p.route else None
+
+	by_group: dict[str, list] = {}
+	for p in pages:
+		by_group.setdefault(p.template_group, []).append(p)
+
+	groups = []
+	for group, manifest in get_all_group_manifests("builder_hub").items():
+		group_pages = by_group.pop(group, [])
+		if not group_pages:
+			continue
+		order = {
+			pg.get("name"): i
+			for i, pg in enumerate(manifest.get("pages") or [])
+			if isinstance(pg, dict)
+		}
+		group_pages.sort(key=lambda p: (order.get(p.name, len(order)), p.page_title or ""))
+		groups.append(
+			{
+				"name": group,
+				"title": manifest.get("title") or group.replace("_", " ").title(),
+				"description": manifest.get("description") or "",
+				"preview": _abs_url(manifest.get("preview")) or group_pages[0].preview,
+				"order": manifest.get("order"),
+				"pages": group_pages,
+			}
+		)
+	groups.sort(key=lambda g: (g.get("order") is None, g.get("order") or 0, g["title"]))
+	return groups
 
 
 @frappe.whitelist(allow_guest=True)
