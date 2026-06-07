@@ -1,5 +1,6 @@
 {
- "description": "A warm personal portfolio for designers & makers \u2014 work grid, services, testimonials, and an experience timeline. Repeater-driven, with hover micro-interactions.",
+ "description": "A warm personal portfolio for designers & makers — work grid, services, testimonials, and an experience timeline. Repeater-driven, with hover micro-interactions.",
+ "order": 5,
  "pages": [
   {
    "name": "folio_home"
@@ -14,6 +15,5 @@
    "name": "folio_contact"
   }
  ],
- "title": "Folio",
- "order": 5
+ "title": "Folio"
 }

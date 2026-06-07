@@ -20,48 +20,48 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "e482af01c5",
+     "blockId": "544c0dc77e",
      "blockName": "Navbar",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "adc504b98e",
+       "blockId": "c1ada1f15f",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "6a6046e32a",
+         "blockId": "489411c457",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "df0261f058",
+           "blockId": "cfeda9632c",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "f359ca4437",
+             "blockId": "e6e175c001",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "folio_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "f080ba8107",
+             "referenceBlockId": "daeec2d685",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "5c1b69150a",
+             "blockId": "2cfbac3767",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "folio_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "4321f83aa8",
+             "referenceBlockId": "4feddc9b66",
              "tabletStyles": {}
             }
            ],
@@ -70,51 +70,51 @@
            "isChildOfComponent": "folio_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "ad159cff59",
+           "referenceBlockId": "7e1f45fb3b",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "f105149b54",
+           "blockId": "ad49679682",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "9e2f9b5f6a",
+             "blockId": "764ae4ed84",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "folio_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "9bf1912540",
+             "referenceBlockId": "715af128fb",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "805d2a8163",
+             "blockId": "c57c687bb4",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "folio_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "5d3daab299",
+             "referenceBlockId": "c9b9e09f9d",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "b273181d2f",
+             "blockId": "fba417099d",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "folio_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "e9ac213766",
+             "referenceBlockId": "d8a2ca48fd",
              "tabletStyles": {}
             }
            ],
@@ -123,20 +123,74 @@
            "isChildOfComponent": "folio_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "b5e9d253ed",
+           "referenceBlockId": "ec6247f450",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "da584f4aa6",
-           "children": [],
+           "blockId": "bfd6626106",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "eb47fa16ad",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "609f2aab05",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "folio_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "ec366fcef5",
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "75d95a2246",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "folio_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "e1cb9e2d51",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "folio_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "d147fa6f38",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "dcc62a1313",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "folio_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "5cfa879508",
+             "tabletStyles": {}
+            }
+           ],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "folio_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "c3e10d62a0",
+           "referenceBlockId": "5ebba25ef8",
            "tabletStyles": {}
           }
          ],
@@ -145,7 +199,7 @@
          "isChildOfComponent": "folio_navbar",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "10dddab27d",
+         "referenceBlockId": "078247ced8",
          "tabletStyles": {}
         }
        ],
@@ -154,7 +208,7 @@
        "isChildOfComponent": "folio_navbar",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "46782df34d",
+       "referenceBlockId": "e5023518ba",
        "tabletStyles": {}
       }
      ],
@@ -178,7 +232,7 @@
       "paddingTop": "72px",
       "width": "100%"
      },
-     "blockId": "4d86bff83f",
+     "blockId": "92b5f6810d",
      "blockName": "Section · Work Hero",
      "children": [
       {
@@ -195,7 +249,7 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "894555ebe4",
+       "blockId": "13b89d77d6",
        "blockName": "Work Hero Container",
        "children": [
         {
@@ -208,7 +262,7 @@
           "maxWidth": "680px",
           "overflow": "hidden"
          },
-         "blockId": "653ac24b34",
+         "blockId": "4cabfe15b1",
          "blockName": "Work Hero Stack",
          "children": [
           {
@@ -222,7 +276,7 @@
             "overflow": "hidden",
             "width": "fit-content"
            },
-           "blockId": "18e0fcbb3a",
+           "blockId": "b441278471",
            "blockName": "Eyebrow",
            "children": [
             {
@@ -236,7 +290,7 @@
               "overflow": "hidden",
               "width": "28px"
              },
-             "blockId": "194545eb08",
+             "blockId": "d47f211056",
              "blockName": "Eyebrow Line",
              "children": [],
              "classes": [],
@@ -260,7 +314,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "168811468e",
+             "blockId": "48228ec844",
              "blockName": "Eyebrow Text",
              "children": [],
              "classes": [],
@@ -292,7 +346,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "fa8ca6c07e",
+           "blockId": "c0a44f8fcc",
            "blockName": "Work Page Title",
            "children": [],
            "classes": [],
@@ -317,7 +371,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "539c5d386c",
+           "blockId": "f92dced578",
            "blockName": "Work Page Sub",
            "children": [],
            "classes": [],
@@ -364,7 +418,7 @@
       "paddingBottom": "96px",
       "width": "100%"
      },
-     "blockId": "5befdc38c0",
+     "blockId": "c52a993bd0",
      "blockName": "Section · Work Grid",
      "children": [
       {
@@ -381,7 +435,7 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "cfa0cbfa4f",
+       "blockId": "3ce3d1147c",
        "blockName": "Work Grid Container",
        "children": [
         {
@@ -395,7 +449,7 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "94bbc7ecca",
+         "blockId": "1cb96057a3",
          "blockName": "Work Projects Repeater",
          "children": [
           {
@@ -412,7 +466,7 @@
             "textDecoration": "none",
             "width": "100%"
            },
-           "blockId": "e45bcc3ef0",
+           "blockId": "12c7c272a1",
            "blockName": "Project Card",
            "children": [
             {
@@ -427,7 +481,7 @@
               "overflow": "hidden",
               "width": "100%"
              },
-             "blockId": "e64745d465",
+             "blockId": "8a44d462db",
              "blockName": "PC Media",
              "children": [
               {
@@ -443,7 +497,7 @@
                 "transition": "transform 0.5s ease",
                 "width": "100%"
                },
-               "blockId": "bb8ead6c8e",
+               "blockId": "2d5e66933c",
                "blockName": "PC Image",
                "children": [],
                "classes": [],
@@ -482,7 +536,7 @@
               "paddingTop": "16px",
               "width": "100%"
              },
-             "blockId": "cc61bcaf1c",
+             "blockId": "3d53d7f2c8",
              "blockName": "PC Meta",
              "children": [
               {
@@ -494,7 +548,7 @@
                 "gap": "3px",
                 "overflow": "hidden"
                },
-               "blockId": "6493d84436",
+               "blockId": "cd81e94b46",
                "blockName": "PC Copy",
                "children": [
                 {
@@ -511,7 +565,7 @@
                   "transition": "color 0.15s ease-out",
                   "width": "fit-content"
                  },
-                 "blockId": "c5e884266a",
+                 "blockId": "ff2b0eb2f1",
                  "blockName": "PC Title",
                  "children": [],
                  "classes": [],
@@ -541,7 +595,7 @@
                   "minWidth": "10px",
                   "width": "fit-content"
                  },
-                 "blockId": "6946fc638c",
+                 "blockId": "b795a40f28",
                  "blockName": "PC Tags",
                  "children": [],
                  "classes": [],
@@ -581,7 +635,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "23688047b7",
+               "blockId": "9393be9499",
                "blockName": "PC Year",
                "children": [],
                "classes": [],
@@ -658,56 +712,56 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "7cef418f29",
+     "blockId": "15445918dc",
      "blockName": "Footer",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "5871a77ef5",
+       "blockId": "7a5f8fc6ad",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "75040b1239",
+         "blockId": "7c9d98c69a",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "779327398d",
+           "blockId": "94ada4a6d0",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "folio_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "43f8598c89",
+           "referenceBlockId": "d9a362e4de",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "88ae848c0d",
+           "blockId": "3259b0bae8",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "folio_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "68fa901f17",
+           "referenceBlockId": "520e05f38a",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "f0de0e6aa6",
+           "blockId": "1e131082b1",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "folio_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "1a6b76c81b",
+           "referenceBlockId": "55c9f96595",
            "tabletStyles": {}
           }
          ],
@@ -716,64 +770,64 @@
          "isChildOfComponent": "folio_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "3370c17837",
+         "referenceBlockId": "10c85dccf3",
          "tabletStyles": {}
         },
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "b6979b463c",
+         "blockId": "25df8bc0b4",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "67146e318d",
+           "blockId": "744f7a895b",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "folio_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "5f95fc8d79",
+           "referenceBlockId": "6614ebc240",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "428aba7991",
+           "blockId": "8a6d9ffb8f",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "folio_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "ad8764bc6e",
+           "referenceBlockId": "42e69f4443",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "916c023b18",
+           "blockId": "5db8582db6",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "folio_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "05f0b3634b",
+           "referenceBlockId": "395fa79280",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "57f30f8b86",
+           "blockId": "1d05b714b7",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "folio_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "4a839e7db7",
+           "referenceBlockId": "670007d92b",
            "tabletStyles": {}
           }
          ],
@@ -782,43 +836,43 @@
          "isChildOfComponent": "folio_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "ab6ba2b6a3",
+         "referenceBlockId": "3826c55038",
          "tabletStyles": {}
         },
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "689405c5aa",
+         "blockId": "bf9d2edfae",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "de5e618d5d",
+           "blockId": "6809c2851c",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "0c641b2ef6",
+             "blockId": "0a76f6be7b",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "folio_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "f65f020d92",
+             "referenceBlockId": "2d783739d6",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "c3799fb309",
+             "blockId": "a3f09e6c63",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "folio_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "8e19340aa8",
+             "referenceBlockId": "c63ec10dd1",
              "tabletStyles": {}
             }
            ],
@@ -827,20 +881,20 @@
            "isChildOfComponent": "folio_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "bf2cb6b0aa",
+           "referenceBlockId": "725f6fe144",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "f87a9c1bfe",
+           "blockId": "157c37f448",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "folio_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "6023170134",
+           "referenceBlockId": "ac1daf14e5",
            "tabletStyles": {}
           }
          ],
@@ -849,7 +903,7 @@
          "isChildOfComponent": "folio_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "7af1039f6d",
+         "referenceBlockId": "5d8a3a13d0",
          "tabletStyles": {}
         }
        ],
@@ -858,7 +912,7 @@
        "isChildOfComponent": "folio_footer",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "530e34f21d",
+       "referenceBlockId": "a0ee8c6b7a",
        "tabletStyles": {}
       }
      ],
@@ -879,8 +933,15 @@
    "tabletStyles": {}
   }
  ],
- "client_scripts": [],
- "creation": "2026-06-05 03:09:55.226413",
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  }
+ ],
+ "creation": "2026-06-07 18:16:00.570162",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -890,14 +951,14 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Selected product design and brand work by Maya Reyes.",
- "modified": "2026-06-05 03:09:55.228760",
+ "modified": "2026-06-07 18:16:00.605419",
  "modified_by": "Administrator",
  "name": "folio_work",
  "owner": "Administrator",
  "page_data_script": "data.projects = [{'title': 'Orbit — habit tracker', 'tags': 'Product design · iOS', 'year': '2026', 'image': 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=1100', 'url': '/work'}, {'title': 'Maroot — plant delivery', 'tags': 'Brand · Web', 'year': '2025', 'image': 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&q=80&w=1100', 'url': '/work'}, {'title': 'Sonic — music for focus', 'tags': 'Product · Motion', 'year': '2025', 'image': 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=1100', 'url': '/work'}, {'title': 'Atlas — travel journal', 'tags': 'Brand · App', 'year': '2024', 'image': 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=1100', 'url': '/work'}, {'title': 'Ember — recipe box', 'tags': 'Web · Illustration', 'year': '2024', 'image': 'https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&q=80&w=1100', 'url': '/work'}, {'title': 'Quanta — analytics', 'tags': 'Product design', 'year': '2023', 'image': 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1100', 'url': '/work'}]",
  "page_name": "folio_work",
  "page_title": "Work",
- "preview": "/builder_assets/folio/folio_work/preview.webp",
+ "preview": "/assets/builder/images/fallback.png",
  "project_folder": null,
  "published": 0,
  "published_at": null,

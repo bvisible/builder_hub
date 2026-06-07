@@ -5,8 +5,8 @@
    "attributes": {},
    "baseStyles": {
     "alignItems": "center",
-    "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #0F0F0E)",
-    "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+    "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #FAFAF7)",
+    "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
     "display": "flex",
     "flexDirection": "column",
     "flexShrink": 0,
@@ -20,48 +20,48 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "e6dc0d033d",
+     "blockId": "26e8a136e9",
      "blockName": "Navbar",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "b2169d536d",
+       "blockId": "7105da9574",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "96bf71ed9a",
+         "blockId": "c2a67e36aa",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "b5b927306d",
+           "blockId": "9af3df1921",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "469df539c7",
+             "blockId": "b3ff3be095",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "607e440fd6",
+             "referenceBlockId": "2e89285358",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "4f9ee9faf2",
+             "blockId": "0702818ec6",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "b2cb9d9dea",
+             "referenceBlockId": "2f0cce0e63",
              "tabletStyles": {}
             }
            ],
@@ -70,51 +70,51 @@
            "isChildOfComponent": "mono_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "b46d626597",
+           "referenceBlockId": "aa08ec08c9",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "35ade39b78",
+           "blockId": "b36a587e33",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "f346057949",
+             "blockId": "569ce4bf85",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "ec8a46a64d",
+             "referenceBlockId": "f9b1d04b58",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "9e5ee11073",
+             "blockId": "2dec2f45b7",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "37d223606c",
+             "referenceBlockId": "6ee63641db",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "893ac4a797",
+             "blockId": "9a3dd7e562",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "355d47ec7f",
+             "referenceBlockId": "fbf66c04a3",
              "tabletStyles": {}
             }
            ],
@@ -123,20 +123,74 @@
            "isChildOfComponent": "mono_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "386882a7dc",
+           "referenceBlockId": "b5800ebab1",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "0844894659",
-           "children": [],
+           "blockId": "3083d4d52d",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "ac5a2ee26e",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "41943d95e9",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "mono_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "310c8d3db2",
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "47d7c842ad",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "mono_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "1e97433fd5",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "mono_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "f8cc54f41c",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "0fba966867",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "mono_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "d29cb42d18",
+             "tabletStyles": {}
+            }
+           ],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "mono_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "be1ec495a7",
+           "referenceBlockId": "9081ec3f6d",
            "tabletStyles": {}
           }
          ],
@@ -145,7 +199,7 @@
          "isChildOfComponent": "mono_navbar",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "6213ebca16",
+         "referenceBlockId": "c52953bcd8",
          "tabletStyles": {}
         }
        ],
@@ -154,7 +208,7 @@
        "isChildOfComponent": "mono_navbar",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "036860d5f9",
+       "referenceBlockId": "206549d584",
        "tabletStyles": {}
       }
      ],
@@ -169,7 +223,7 @@
      "attributes": {},
      "baseStyles": {
       "alignItems": "center",
-      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #0F0F0E)",
+      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #FAFAF7)",
       "display": "flex",
       "flexDirection": "column",
       "flexShrink": 0,
@@ -178,7 +232,7 @@
       "paddingTop": "104px",
       "width": "100%"
      },
-     "blockId": "282f39c1fd",
+     "blockId": "b1f3532efb",
      "blockName": "Section · Hero",
      "children": [
       {
@@ -195,7 +249,7 @@
         "paddingRight": "32px",
         "width": "100%"
        },
-       "blockId": "1d9888e114",
+       "blockId": "34ba9240e0",
        "blockName": "Hero Container",
        "children": [
         {
@@ -208,7 +262,7 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "35e0651f87",
+         "blockId": "b7e19e15c6",
          "blockName": "Hero Stack",
          "children": [
           {
@@ -222,13 +276,13 @@
             "overflow": "hidden",
             "width": "fit-content"
            },
-           "blockId": "3b0db3c660",
+           "blockId": "d5dda113db",
            "blockName": "Eyebrow",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "backgroundColor": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #D9F551)",
+              "backgroundColor": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #7E9B1C)",
               "borderRadius": "100px",
               "display": "flex",
               "flexDirection": "column",
@@ -237,7 +291,7 @@
               "overflow": "hidden",
               "width": "8px"
              },
-             "blockId": "1c6d4f1c31",
+             "blockId": "31c621d6cc",
              "blockName": "Eyebrow Dot",
              "children": [],
              "classes": [],
@@ -250,7 +304,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
               "fontFamily": "Inter",
               "fontSize": "12px",
               "fontWeight": "500",
@@ -261,7 +315,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "bee97d06ee",
+             "blockId": "0022ef3e94",
              "blockName": "Eyebrow Text",
              "children": [],
              "classes": [],
@@ -283,7 +337,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+            "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
             "fontFamily": "Space Grotesk",
             "fontSize": "88px",
             "fontWeight": "500",
@@ -294,7 +348,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "e0cefc484f",
+           "blockId": "cc28fdcb08",
            "blockName": "Hero Title",
            "children": [],
            "classes": [],
@@ -320,13 +374,13 @@
             "overflow": "hidden",
             "width": "100%"
            },
-           "blockId": "7af929239e",
+           "blockId": "22cf3d308b",
            "blockName": "Hero Bottom Row",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
               "fontFamily": "Inter",
               "fontSize": "18px",
               "height": "fit-content",
@@ -335,7 +389,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "9ba5e7908f",
+             "blockId": "ba33f64595",
              "blockName": "Hero Subtitle",
              "children": [],
              "classes": [],
@@ -356,7 +410,7 @@
               "gap": "12px",
               "overflow": "hidden"
              },
-             "blockId": "7a72e5f705",
+             "blockId": "5a86177fcd",
              "blockName": "Hero Actions",
              "children": [
               {
@@ -365,9 +419,9 @@
                },
                "baseStyles": {
                 "alignItems": "center",
-                "backgroundColor": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #D9F551)",
+                "backgroundColor": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #7E9B1C)",
                 "borderRadius": "100px",
-                "color": "var(--49c14d2a-0a7b-4e82-a82d-1cf6a9041e0a, #101009)",
+                "color": "var(--49c14d2a-0a7b-4e82-a82d-1cf6a9041e0a, #FFFFFF)",
                 "cursor": "pointer",
                 "display": "inline-flex",
                 "fontFamily": "Space Grotesk",
@@ -384,7 +438,7 @@
                 "textDecoration": "none",
                 "width": "fit-content"
                },
-               "blockId": "662d112d7c",
+               "blockId": "bb2faf5b4f",
                "blockName": "Hero CTA",
                "children": [],
                "classes": [],
@@ -405,11 +459,11 @@
                "baseStyles": {
                 "alignItems": "center",
                 "backgroundColor": "transparent",
-                "borderColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #2A2A27)",
+                "borderColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #E7E6DE)",
                 "borderRadius": "100px",
                 "borderStyle": "solid",
                 "borderWidth": "1px",
-                "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+                "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
                 "cursor": "pointer",
                 "display": "inline-flex",
                 "fontFamily": "Space Grotesk",
@@ -426,7 +480,7 @@
                 "textDecoration": "none",
                 "width": "fit-content"
                },
-               "blockId": "586aafff5d",
+               "blockId": "6f4ccca067",
                "blockName": "Hero Secondary",
                "children": [],
                "classes": [],
@@ -435,7 +489,7 @@
                "innerHTML": "About the studio",
                "mobileStyles": {},
                "rawStyles": {
-                "hover:borderColor": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                "hover:borderColor": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                 "transition": "border-color 0.15s ease-out"
                },
                "tabletStyles": {}
@@ -484,7 +538,7 @@
      "attributes": {},
      "baseStyles": {
       "alignItems": "center",
-      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #0F0F0E)",
+      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #FAFAF7)",
       "display": "flex",
       "flexDirection": "column",
       "flexShrink": 0,
@@ -493,7 +547,7 @@
       "paddingTop": "40px",
       "width": "100%"
      },
-     "blockId": "d1185059e4",
+     "blockId": "a709c9766c",
      "blockName": "Section · Work",
      "children": [
       {
@@ -505,7 +559,7 @@
         "overflow": "hidden",
         "width": "100%"
        },
-       "blockId": "9f4fd70aec",
+       "blockId": "963355afc5",
        "blockName": "Work Anchor",
        "children": [
         {
@@ -522,7 +576,7 @@
           "paddingRight": "32px",
           "width": "100%"
          },
-         "blockId": "7738cd0cf0",
+         "blockId": "21e3555bf8",
          "blockName": "Work Container",
          "children": [
           {
@@ -539,13 +593,13 @@
             "overflow": "hidden",
             "width": "100%"
            },
-           "blockId": "0343b17545",
+           "blockId": "116e93a0ca",
            "blockName": "Work Head",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
               "fontFamily": "Space Grotesk",
               "fontSize": "44px",
               "fontWeight": "500",
@@ -555,7 +609,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "c6831e9014",
+             "blockId": "0efced299a",
              "blockName": "Work Title",
              "children": [],
              "classes": [],
@@ -571,7 +625,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
               "fontFamily": "Inter",
               "fontSize": "12px",
               "fontWeight": "500",
@@ -582,7 +636,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "5fac99b86e",
+             "blockId": "205b6397d7",
              "blockName": "Work Range",
              "children": [],
              "classes": [],
@@ -612,7 +666,7 @@
             "overflow": "hidden",
             "width": "100%"
            },
-           "blockId": "57886fd75f",
+           "blockId": "a681a3bcef",
            "blockName": "Work Grid",
            "children": [
             {
@@ -629,7 +683,7 @@
               "textDecoration": "none",
               "width": "100%"
              },
-             "blockId": "5ba31513e9",
+             "blockId": "2db348e647",
              "blockName": "Project · Nova",
              "children": [
               {
@@ -644,7 +698,7 @@
                 "objectFit": "cover",
                 "width": "100%"
                },
-               "blockId": "65836ff4a5",
+               "blockId": "342fbb8f66",
                "blockName": "Card Image",
                "children": [],
                "classes": [],
@@ -668,7 +722,7 @@
                 "paddingTop": "16px",
                 "width": "100%"
                },
-               "blockId": "727b028886",
+               "blockId": "b8845ab208",
                "blockName": "Card Meta",
                "children": [
                 {
@@ -680,13 +734,13 @@
                   "gap": "4px",
                   "overflow": "hidden"
                  },
-                 "blockId": "b4726651a9",
+                 "blockId": "454d2bb507",
                  "blockName": "Card Copy",
                  "children": [
                   {
                    "attributes": {},
                    "baseStyles": {
-                    "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+                    "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
                     "fontFamily": "Space Grotesk",
                     "fontSize": "22px",
                     "fontWeight": "500",
@@ -696,7 +750,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "9787b2c8cb",
+                   "blockId": "5c4b53a21c",
                    "blockName": "Card Title",
                    "children": [],
                    "classes": [],
@@ -710,7 +764,7 @@
                   {
                    "attributes": {},
                    "baseStyles": {
-                    "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                    "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                     "fontFamily": "Inter",
                     "fontSize": "13px",
                     "height": "fit-content",
@@ -718,7 +772,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "d0d2e68d4e",
+                   "blockId": "106ce367ce",
                    "blockName": "Card Tags",
                    "children": [],
                    "classes": [],
@@ -740,7 +794,7 @@
                 {
                  "attributes": {},
                  "baseStyles": {
-                  "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                  "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                   "fontFamily": "Inter",
                   "fontSize": "12px",
                   "fontWeight": "500",
@@ -751,7 +805,7 @@
                   "textTransform": "uppercase",
                   "width": "fit-content"
                  },
-                 "blockId": "1435ba4a65",
+                 "blockId": "8884967b8f",
                  "blockName": "Card Year",
                  "children": [],
                  "classes": [],
@@ -792,7 +846,7 @@
               "textDecoration": "none",
               "width": "100%"
              },
-             "blockId": "1cf677596b",
+             "blockId": "d001c6d43f",
              "blockName": "Project · Halide",
              "children": [
               {
@@ -807,7 +861,7 @@
                 "objectFit": "cover",
                 "width": "100%"
                },
-               "blockId": "55871e56dd",
+               "blockId": "c0cb657963",
                "blockName": "Card Image",
                "children": [],
                "classes": [],
@@ -831,7 +885,7 @@
                 "paddingTop": "16px",
                 "width": "100%"
                },
-               "blockId": "e03d7331a8",
+               "blockId": "bd03d90593",
                "blockName": "Card Meta",
                "children": [
                 {
@@ -843,13 +897,13 @@
                   "gap": "4px",
                   "overflow": "hidden"
                  },
-                 "blockId": "055cd8139a",
+                 "blockId": "e241959433",
                  "blockName": "Card Copy",
                  "children": [
                   {
                    "attributes": {},
                    "baseStyles": {
-                    "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+                    "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
                     "fontFamily": "Space Grotesk",
                     "fontSize": "22px",
                     "fontWeight": "500",
@@ -859,7 +913,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "e47d894c52",
+                   "blockId": "4dfec1050f",
                    "blockName": "Card Title",
                    "children": [],
                    "classes": [],
@@ -873,7 +927,7 @@
                   {
                    "attributes": {},
                    "baseStyles": {
-                    "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                    "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                     "fontFamily": "Inter",
                     "fontSize": "13px",
                     "height": "fit-content",
@@ -881,7 +935,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "521de1267e",
+                   "blockId": "db3eae5c40",
                    "blockName": "Card Tags",
                    "children": [],
                    "classes": [],
@@ -903,7 +957,7 @@
                 {
                  "attributes": {},
                  "baseStyles": {
-                  "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                  "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                   "fontFamily": "Inter",
                   "fontSize": "12px",
                   "fontWeight": "500",
@@ -914,7 +968,7 @@
                   "textTransform": "uppercase",
                   "width": "fit-content"
                  },
-                 "blockId": "d8c5dd4e91",
+                 "blockId": "42b4a9f66a",
                  "blockName": "Card Year",
                  "children": [],
                  "classes": [],
@@ -955,7 +1009,7 @@
               "textDecoration": "none",
               "width": "100%"
              },
-             "blockId": "26e8032a61",
+             "blockId": "920f778521",
              "blockName": "Project · Field Notes",
              "children": [
               {
@@ -970,7 +1024,7 @@
                 "objectFit": "cover",
                 "width": "100%"
                },
-               "blockId": "afaa65591c",
+               "blockId": "5912941cb3",
                "blockName": "Card Image",
                "children": [],
                "classes": [],
@@ -994,7 +1048,7 @@
                 "paddingTop": "16px",
                 "width": "100%"
                },
-               "blockId": "971dd10695",
+               "blockId": "b8588e53f7",
                "blockName": "Card Meta",
                "children": [
                 {
@@ -1006,13 +1060,13 @@
                   "gap": "4px",
                   "overflow": "hidden"
                  },
-                 "blockId": "41348715e6",
+                 "blockId": "774a92c3cc",
                  "blockName": "Card Copy",
                  "children": [
                   {
                    "attributes": {},
                    "baseStyles": {
-                    "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+                    "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
                     "fontFamily": "Space Grotesk",
                     "fontSize": "22px",
                     "fontWeight": "500",
@@ -1022,7 +1076,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "ec725ec7c2",
+                   "blockId": "226835d83d",
                    "blockName": "Card Title",
                    "children": [],
                    "classes": [],
@@ -1036,7 +1090,7 @@
                   {
                    "attributes": {},
                    "baseStyles": {
-                    "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                    "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                     "fontFamily": "Inter",
                     "fontSize": "13px",
                     "height": "fit-content",
@@ -1044,7 +1098,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "f0e4081ff4",
+                   "blockId": "33b4727a1a",
                    "blockName": "Card Tags",
                    "children": [],
                    "classes": [],
@@ -1066,7 +1120,7 @@
                 {
                  "attributes": {},
                  "baseStyles": {
-                  "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                  "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                   "fontFamily": "Inter",
                   "fontSize": "12px",
                   "fontWeight": "500",
@@ -1077,7 +1131,7 @@
                   "textTransform": "uppercase",
                   "width": "fit-content"
                  },
-                 "blockId": "f7ee8b32c2",
+                 "blockId": "8f4131f69b",
                  "blockName": "Card Year",
                  "children": [],
                  "classes": [],
@@ -1118,7 +1172,7 @@
               "textDecoration": "none",
               "width": "100%"
              },
-             "blockId": "cdbfba07ba",
+             "blockId": "da6d741cbd",
              "blockName": "Project · Pluto",
              "children": [
               {
@@ -1133,7 +1187,7 @@
                 "objectFit": "cover",
                 "width": "100%"
                },
-               "blockId": "b31311dfe8",
+               "blockId": "86951a0c27",
                "blockName": "Card Image",
                "children": [],
                "classes": [],
@@ -1157,7 +1211,7 @@
                 "paddingTop": "16px",
                 "width": "100%"
                },
-               "blockId": "0728935408",
+               "blockId": "40cfd84607",
                "blockName": "Card Meta",
                "children": [
                 {
@@ -1169,13 +1223,13 @@
                   "gap": "4px",
                   "overflow": "hidden"
                  },
-                 "blockId": "5a9f6c7f60",
+                 "blockId": "e630d0fbe8",
                  "blockName": "Card Copy",
                  "children": [
                   {
                    "attributes": {},
                    "baseStyles": {
-                    "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+                    "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
                     "fontFamily": "Space Grotesk",
                     "fontSize": "22px",
                     "fontWeight": "500",
@@ -1185,7 +1239,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "df49cd06a7",
+                   "blockId": "fa09079f25",
                    "blockName": "Card Title",
                    "children": [],
                    "classes": [],
@@ -1199,7 +1253,7 @@
                   {
                    "attributes": {},
                    "baseStyles": {
-                    "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                    "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                     "fontFamily": "Inter",
                     "fontSize": "13px",
                     "height": "fit-content",
@@ -1207,7 +1261,7 @@
                     "minWidth": "10px",
                     "width": "fit-content"
                    },
-                   "blockId": "a2e609a9f0",
+                   "blockId": "bb2f2a027e",
                    "blockName": "Card Tags",
                    "children": [],
                    "classes": [],
@@ -1229,7 +1283,7 @@
                 {
                  "attributes": {},
                  "baseStyles": {
-                  "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                  "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                   "fontFamily": "Inter",
                   "fontSize": "12px",
                   "fontWeight": "500",
@@ -1240,7 +1294,7 @@
                   "textTransform": "uppercase",
                   "width": "fit-content"
                  },
-                 "blockId": "22410ac859",
+                 "blockId": "50c54ea17b",
                  "blockName": "Card Year",
                  "children": [],
                  "classes": [],
@@ -1307,7 +1361,7 @@
      "attributes": {},
      "baseStyles": {
       "alignItems": "center",
-      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #0F0F0E)",
+      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #FAFAF7)",
       "display": "flex",
       "flexDirection": "column",
       "flexShrink": 0,
@@ -1316,7 +1370,7 @@
       "paddingTop": "24px",
       "width": "100%"
      },
-     "blockId": "79557fd886",
+     "blockId": "63ad21c9fb",
      "blockName": "Section · Capabilities",
      "children": [
       {
@@ -1333,7 +1387,7 @@
         "paddingRight": "32px",
         "width": "100%"
        },
-       "blockId": "9aae283b60",
+       "blockId": "748e76707e",
        "blockName": "Capabilities Container",
        "children": [
         {
@@ -1346,7 +1400,7 @@
           "marginBottom": "44px",
           "overflow": "hidden"
          },
-         "blockId": "fbbecf29b8",
+         "blockId": "a0c46dac50",
          "blockName": "Cap Head",
          "children": [
           {
@@ -1360,13 +1414,13 @@
             "overflow": "hidden",
             "width": "fit-content"
            },
-           "blockId": "c6940b69b2",
+           "blockId": "b9f0fbf7a2",
            "blockName": "Eyebrow",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "backgroundColor": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #D9F551)",
+              "backgroundColor": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #7E9B1C)",
               "borderRadius": "100px",
               "display": "flex",
               "flexDirection": "column",
@@ -1375,7 +1429,7 @@
               "overflow": "hidden",
               "width": "8px"
              },
-             "blockId": "00cf5606cf",
+             "blockId": "4305e0ae63",
              "blockName": "Eyebrow Dot",
              "children": [],
              "classes": [],
@@ -1388,7 +1442,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
               "fontFamily": "Inter",
               "fontSize": "12px",
               "fontWeight": "500",
@@ -1399,7 +1453,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "1ca36f865c",
+             "blockId": "f6568f7ab0",
              "blockName": "Eyebrow Text",
              "children": [],
              "classes": [],
@@ -1421,7 +1475,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+            "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
             "fontFamily": "Space Grotesk",
             "fontSize": "44px",
             "fontWeight": "500",
@@ -1431,7 +1485,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "7c8c006d15",
+           "blockId": "c224f0a95c",
            "blockName": "Cap Section Title",
            "children": [],
            "classes": [],
@@ -1463,13 +1517,13 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "b7fa18eedb",
+         "blockId": "06fde8232d",
          "blockName": "Capabilities Grid",
          "children": [
           {
            "attributes": {},
            "baseStyles": {
-            "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #2A2A27)",
+            "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #E7E6DE)",
             "borderTopStyle": "solid",
             "borderTopWidth": "1px",
             "display": "flex",
@@ -1479,13 +1533,13 @@
             "overflow": "hidden",
             "paddingTop": "28px"
            },
-           "blockId": "56fedc7bfa",
+           "blockId": "80052783b7",
            "blockName": "Capability · Brand identity",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #D9F551)",
+              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #7E9B1C)",
               "fontFamily": "Inter",
               "fontSize": "12px",
               "fontWeight": "500",
@@ -1496,7 +1550,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "e671f114d2",
+             "blockId": "9c8d102871",
              "blockName": "Cap Number",
              "children": [],
              "classes": [],
@@ -1510,7 +1564,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
               "fontFamily": "Space Grotesk",
               "fontSize": "26px",
               "fontWeight": "500",
@@ -1520,7 +1574,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "a5e4dd27c1",
+             "blockId": "9765a64f89",
              "blockName": "Cap Title",
              "children": [],
              "classes": [],
@@ -1540,13 +1594,13 @@
               "gap": "8px",
               "overflow": "hidden"
              },
-             "blockId": "0900b86842",
+             "blockId": "afcf65e28c",
              "blockName": "Cap Items",
              "children": [
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                 "fontFamily": "Inter",
                 "fontSize": "15px",
                 "height": "fit-content",
@@ -1554,7 +1608,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "ae42cdddcd",
+               "blockId": "26e1f1990b",
                "blockName": "Cap Item · Strategy & nam",
                "children": [],
                "classes": [],
@@ -1568,7 +1622,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                 "fontFamily": "Inter",
                 "fontSize": "15px",
                 "height": "fit-content",
@@ -1576,7 +1630,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "d3cac8ba3c",
+               "blockId": "835de0b616",
                "blockName": "Cap Item · Visual identit",
                "children": [],
                "classes": [],
@@ -1590,7 +1644,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                 "fontFamily": "Inter",
                 "fontSize": "15px",
                 "height": "fit-content",
@@ -1598,7 +1652,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "db53f0fcbb",
+               "blockId": "7f78bcce14",
                "blockName": "Cap Item · Guidelines",
                "children": [],
                "classes": [],
@@ -1612,7 +1666,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                 "fontFamily": "Inter",
                 "fontSize": "15px",
                 "height": "fit-content",
@@ -1620,7 +1674,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "d4ccb0aee3",
+               "blockId": "0ae9ee084a",
                "blockName": "Cap Item · Art direction",
                "children": [],
                "classes": [],
@@ -1650,7 +1704,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #2A2A27)",
+            "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #E7E6DE)",
             "borderTopStyle": "solid",
             "borderTopWidth": "1px",
             "display": "flex",
@@ -1660,13 +1714,13 @@
             "overflow": "hidden",
             "paddingTop": "28px"
            },
-           "blockId": "de41d41c3f",
+           "blockId": "5f9afa2c23",
            "blockName": "Capability · Product design",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #D9F551)",
+              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #7E9B1C)",
               "fontFamily": "Inter",
               "fontSize": "12px",
               "fontWeight": "500",
@@ -1677,7 +1731,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "16a7948000",
+             "blockId": "de21a68549",
              "blockName": "Cap Number",
              "children": [],
              "classes": [],
@@ -1691,7 +1745,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
               "fontFamily": "Space Grotesk",
               "fontSize": "26px",
               "fontWeight": "500",
@@ -1701,7 +1755,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "6e065d049c",
+             "blockId": "8ea6a72ab0",
              "blockName": "Cap Title",
              "children": [],
              "classes": [],
@@ -1721,13 +1775,13 @@
               "gap": "8px",
               "overflow": "hidden"
              },
-             "blockId": "1d9e4d759b",
+             "blockId": "4c4a35f072",
              "blockName": "Cap Items",
              "children": [
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                 "fontFamily": "Inter",
                 "fontSize": "15px",
                 "height": "fit-content",
@@ -1735,7 +1789,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "a5204fefee",
+               "blockId": "248521b434",
                "blockName": "Cap Item · UX & interface",
                "children": [],
                "classes": [],
@@ -1749,7 +1803,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                 "fontFamily": "Inter",
                 "fontSize": "15px",
                 "height": "fit-content",
@@ -1757,7 +1811,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "632ebd2181",
+               "blockId": "4f9d97c3e2",
                "blockName": "Cap Item · Design systems",
                "children": [],
                "classes": [],
@@ -1771,7 +1825,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                 "fontFamily": "Inter",
                 "fontSize": "15px",
                 "height": "fit-content",
@@ -1779,7 +1833,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "a011283598",
+               "blockId": "801dc0f208",
                "blockName": "Cap Item · Prototyping",
                "children": [],
                "classes": [],
@@ -1793,7 +1847,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                 "fontFamily": "Inter",
                 "fontSize": "15px",
                 "height": "fit-content",
@@ -1801,7 +1855,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "f9c31839e1",
+               "blockId": "3dac406fbb",
                "blockName": "Cap Item · Front-end hand",
                "children": [],
                "classes": [],
@@ -1831,7 +1885,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #2A2A27)",
+            "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #E7E6DE)",
             "borderTopStyle": "solid",
             "borderTopWidth": "1px",
             "display": "flex",
@@ -1841,13 +1895,13 @@
             "overflow": "hidden",
             "paddingTop": "28px"
            },
-           "blockId": "e3db06ed4f",
+           "blockId": "f8291a19dc",
            "blockName": "Capability · Motion",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #D9F551)",
+              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #7E9B1C)",
               "fontFamily": "Inter",
               "fontSize": "12px",
               "fontWeight": "500",
@@ -1858,7 +1912,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "1a7f258eba",
+             "blockId": "ef635a9b13",
              "blockName": "Cap Number",
              "children": [],
              "classes": [],
@@ -1872,7 +1926,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
               "fontFamily": "Space Grotesk",
               "fontSize": "26px",
               "fontWeight": "500",
@@ -1882,7 +1936,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "2493b44b20",
+             "blockId": "bcd4ce12b2",
              "blockName": "Cap Title",
              "children": [],
              "classes": [],
@@ -1902,13 +1956,13 @@
               "gap": "8px",
               "overflow": "hidden"
              },
-             "blockId": "d6f3d6ae88",
+             "blockId": "89fc9150cd",
              "blockName": "Cap Items",
              "children": [
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                 "fontFamily": "Inter",
                 "fontSize": "15px",
                 "height": "fit-content",
@@ -1916,7 +1970,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "f87bad2be8",
+               "blockId": "d1e52c6867",
                "blockName": "Cap Item · Brand films",
                "children": [],
                "classes": [],
@@ -1930,7 +1984,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                 "fontFamily": "Inter",
                 "fontSize": "15px",
                 "height": "fit-content",
@@ -1938,7 +1992,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "3eb460f75f",
+               "blockId": "fde35c6d83",
                "blockName": "Cap Item · Product launch",
                "children": [],
                "classes": [],
@@ -1952,7 +2006,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                 "fontFamily": "Inter",
                 "fontSize": "15px",
                 "height": "fit-content",
@@ -1960,7 +2014,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "13890c0f6c",
+               "blockId": "4d54a70445",
                "blockName": "Cap Item · Lottie & rive",
                "children": [],
                "classes": [],
@@ -1974,7 +2028,7 @@
               {
                "attributes": {},
                "baseStyles": {
-                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+                "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
                 "fontFamily": "Inter",
                 "fontSize": "15px",
                 "height": "fit-content",
@@ -1982,7 +2036,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "ce643c3bbe",
+               "blockId": "fc74cbb673",
                "blockName": "Cap Item · Social cuts",
                "children": [],
                "classes": [],
@@ -2039,7 +2093,7 @@
      "attributes": {},
      "baseStyles": {
       "alignItems": "center",
-      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #0F0F0E)",
+      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #FAFAF7)",
       "display": "flex",
       "flexDirection": "column",
       "flexShrink": 0,
@@ -2047,7 +2101,7 @@
       "paddingBottom": "40px",
       "width": "100%"
      },
-     "blockId": "7dd2ed6e8f",
+     "blockId": "30bbef15d1",
      "blockName": "Section · Quote",
      "children": [
       {
@@ -2064,14 +2118,14 @@
         "paddingRight": "32px",
         "width": "100%"
        },
-       "blockId": "6c4bdc52a2",
+       "blockId": "daceca3b9e",
        "blockName": "Quote Container",
        "children": [
         {
          "attributes": {},
          "baseStyles": {
           "alignItems": "center",
-          "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #2A2A27)",
+          "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #E7E6DE)",
           "borderTopStyle": "solid",
           "borderTopWidth": "1px",
           "display": "flex",
@@ -2083,13 +2137,13 @@
           "paddingTop": "72px",
           "width": "100%"
          },
-         "blockId": "83e8ead05f",
+         "blockId": "393e007a04",
          "blockName": "Quote Stack",
          "children": [
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+            "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
             "fontFamily": "Space Grotesk",
             "fontSize": "34px",
             "fontWeight": "500",
@@ -2101,7 +2155,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "23a72a83ce",
+           "blockId": "63d0cd0a6d",
            "blockName": "Quote Text",
            "children": [],
            "classes": [],
@@ -2117,7 +2171,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
             "fontFamily": "Inter",
             "fontSize": "14px",
             "height": "fit-content",
@@ -2126,7 +2180,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "00f9d90d16",
+           "blockId": "fe9a1082ba",
            "blockName": "Quote Attribution",
            "children": [],
            "classes": [],
@@ -2164,74 +2218,74 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "d9a76399e9",
+     "blockId": "0c6aaea905",
      "blockName": "Footer",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "b71fc6b403",
+       "blockId": "2b3cf0cbae",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "cf13fceec1",
+         "blockId": "ad9de26cca",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "48cb24173e",
+           "blockId": "5143090c4c",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "mono_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "226cc18098",
+           "referenceBlockId": "c89851a910",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "c92f29c555",
+           "blockId": "0050e06062",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "mono_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "a096b3038c",
+           "referenceBlockId": "ac3bac2f68",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "4ecb1b765d",
+           "blockId": "8f1df70d19",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "04af88aa4b",
+             "blockId": "c99d191ef4",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "4a6cf883d8",
+             "referenceBlockId": "853ab473d8",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "9ba7a20639",
+             "blockId": "5abf368ec4",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "7f81f099b6",
+             "referenceBlockId": "a542487fda",
              "tabletStyles": {}
             }
            ],
@@ -2240,7 +2294,7 @@
            "isChildOfComponent": "mono_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "1df1cd1c6b",
+           "referenceBlockId": "a0f0975774",
            "tabletStyles": {}
           }
          ],
@@ -2249,82 +2303,82 @@
          "isChildOfComponent": "mono_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "2d2eea4153",
+         "referenceBlockId": "af12a4dced",
          "tabletStyles": {}
         },
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "a2a16f402a",
+         "blockId": "f4df7d9f33",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "b8c30fdd2e",
+           "blockId": "81386a5452",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "mono_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "ed827e1d65",
+           "referenceBlockId": "204a02025c",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "2a80974531",
+           "blockId": "9cacd63452",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "39c6efbcce",
+             "blockId": "f4adc3e853",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "ce42b2e721",
+             "referenceBlockId": "3cb483e9cc",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "89c71c48d1",
+             "blockId": "0ed64e5a0d",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "b3620f2338",
+             "referenceBlockId": "a66375cf85",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "deeb9d7c9a",
+             "blockId": "59eb64f964",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "41223c3608",
+             "referenceBlockId": "3ffd07303b",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "cbf0ff33c8",
+             "blockId": "1d54eb9d9f",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "9c582829ec",
+             "referenceBlockId": "9577dfa877",
              "tabletStyles": {}
             }
            ],
@@ -2333,20 +2387,20 @@
            "isChildOfComponent": "mono_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "85b0c86168",
+           "referenceBlockId": "58fba402fe",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "cc9a2a4f4e",
+           "blockId": "ce7c5bd2b9",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "mono_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "41d904936e",
+           "referenceBlockId": "0674018717",
            "tabletStyles": {}
           }
          ],
@@ -2355,7 +2409,7 @@
          "isChildOfComponent": "mono_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "a59ebe408f",
+         "referenceBlockId": "3e77236e01",
          "tabletStyles": {}
         }
        ],
@@ -2364,7 +2418,7 @@
        "isChildOfComponent": "mono_footer",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "f06f37b0da",
+       "referenceBlockId": "3bf36756f1",
        "tabletStyles": {}
       }
      ],
@@ -2385,8 +2439,15 @@
    "tabletStyles": {}
   }
  ],
- "client_scripts": [],
- "creation": "2026-06-05 00:04:03.407292",
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  }
+ ],
+ "creation": "2026-06-07 18:19:05.322582",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -2396,13 +2457,13 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Mono is an independent design studio for brand, product and motion.",
- "modified": "2026-06-05 00:04:03.411341",
+ "modified": "2026-06-07 18:19:06.461839",
  "modified_by": "Administrator",
  "name": "mono_home",
  "owner": "Administrator",
  "page_name": "mono_home",
  "page_title": "Work",
- "preview": "/builder_assets/mono/mono_home/preview.webp",
+ "preview": "/assets/builder/images/fallback.png",
  "project_folder": null,
  "published": 0,
  "published_at": null,

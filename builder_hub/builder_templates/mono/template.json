@@ -1,5 +1,6 @@
 {
- "description": "A dark, bold-type portfolio for studios and freelancers \u2014 work grid, case study, about, and contact pages with a shared navbar and footer.",
+ "description": "A dark, bold-type portfolio for studios and freelancers — work grid, case study, about, and contact pages with a shared navbar and footer.",
+ "order": 2,
  "pages": [
   {
    "name": "mono_home"
@@ -14,6 +15,5 @@
    "name": "mono_contact"
   }
  ],
- "title": "Mono",
- "order": 2
+ "title": "Mono"
 }

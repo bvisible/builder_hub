@@ -5,8 +5,8 @@
    "attributes": {},
    "baseStyles": {
     "alignItems": "center",
-    "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #0F0F0E)",
-    "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+    "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #FAFAF7)",
+    "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
     "display": "flex",
     "flexDirection": "column",
     "flexShrink": 0,
@@ -20,48 +20,48 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "6bccdc8b15",
+     "blockId": "09be1aca77",
      "blockName": "Navbar",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "2858957a0e",
+       "blockId": "82b2dbdbd8",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "bcbce1a60a",
+         "blockId": "4a9c46b2ee",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "e3e94835d6",
+           "blockId": "71c87c1279",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "e8dfc9bcad",
+             "blockId": "30dab95c0a",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "607e440fd6",
+             "referenceBlockId": "2e89285358",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "48b4a2ba5c",
+             "blockId": "be22d1289c",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "b2cb9d9dea",
+             "referenceBlockId": "2f0cce0e63",
              "tabletStyles": {}
             }
            ],
@@ -70,51 +70,51 @@
            "isChildOfComponent": "mono_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "b46d626597",
+           "referenceBlockId": "aa08ec08c9",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "ba137d7e17",
+           "blockId": "8168cb2d8a",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "10779f9825",
+             "blockId": "fadb99da0a",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "ec8a46a64d",
+             "referenceBlockId": "f9b1d04b58",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "ef06082130",
+             "blockId": "7d19d4dbfc",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "37d223606c",
+             "referenceBlockId": "6ee63641db",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "2b008d30d4",
+             "blockId": "1c9fe636bf",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "355d47ec7f",
+             "referenceBlockId": "fbf66c04a3",
              "tabletStyles": {}
             }
            ],
@@ -123,20 +123,74 @@
            "isChildOfComponent": "mono_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "386882a7dc",
+           "referenceBlockId": "b5800ebab1",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "4dd2bd2574",
-           "children": [],
+           "blockId": "591da2cc91",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "c3a82e06b2",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "fa3800bc87",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "mono_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "310c8d3db2",
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "e5ddda6c38",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "mono_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "1e97433fd5",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "mono_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "f8cc54f41c",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "b4bd0f95be",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "mono_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "d29cb42d18",
+             "tabletStyles": {}
+            }
+           ],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "mono_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "be1ec495a7",
+           "referenceBlockId": "9081ec3f6d",
            "tabletStyles": {}
           }
          ],
@@ -145,7 +199,7 @@
          "isChildOfComponent": "mono_navbar",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "6213ebca16",
+         "referenceBlockId": "c52953bcd8",
          "tabletStyles": {}
         }
        ],
@@ -154,7 +208,7 @@
        "isChildOfComponent": "mono_navbar",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "036860d5f9",
+       "referenceBlockId": "206549d584",
        "tabletStyles": {}
       }
      ],
@@ -169,7 +223,7 @@
      "attributes": {},
      "baseStyles": {
       "alignItems": "center",
-      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #0F0F0E)",
+      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #FAFAF7)",
       "display": "flex",
       "flexDirection": "column",
       "flexShrink": 0,
@@ -178,7 +232,7 @@
       "paddingTop": "96px",
       "width": "100%"
      },
-     "blockId": "d0e4e36810",
+     "blockId": "c87181e24b",
      "blockName": "Section · About Hero",
      "children": [
       {
@@ -195,7 +249,7 @@
         "paddingRight": "32px",
         "width": "100%"
        },
-       "blockId": "e3348675c8",
+       "blockId": "7720ce1296",
        "blockName": "About Hero Container",
        "children": [
         {
@@ -208,7 +262,7 @@
           "maxWidth": "900px",
           "overflow": "hidden"
          },
-         "blockId": "6d347e8f52",
+         "blockId": "7ae7f180bf",
          "blockName": "About Hero Stack",
          "children": [
           {
@@ -222,13 +276,13 @@
             "overflow": "hidden",
             "width": "fit-content"
            },
-           "blockId": "9e5664263c",
+           "blockId": "09abdf59b3",
            "blockName": "Eyebrow",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "backgroundColor": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #D9F551)",
+              "backgroundColor": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #7E9B1C)",
               "borderRadius": "100px",
               "display": "flex",
               "flexDirection": "column",
@@ -237,7 +291,7 @@
               "overflow": "hidden",
               "width": "8px"
              },
-             "blockId": "4c629e82f8",
+             "blockId": "9fe9f2cca4",
              "blockName": "Eyebrow Dot",
              "children": [],
              "classes": [],
@@ -250,7 +304,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
               "fontFamily": "Inter",
               "fontSize": "12px",
               "fontWeight": "500",
@@ -261,7 +315,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "73afb6d729",
+             "blockId": "bae62f08ae",
              "blockName": "Eyebrow Text",
              "children": [],
              "classes": [],
@@ -283,7 +337,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+            "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
             "fontFamily": "Space Grotesk",
             "fontSize": "76px",
             "fontWeight": "500",
@@ -293,7 +347,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "c49c9dbe22",
+           "blockId": "3b8444cb89",
            "blockName": "About Title",
            "children": [],
            "classes": [],
@@ -309,7 +363,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
             "fontFamily": "Inter",
             "fontSize": "18px",
             "height": "fit-content",
@@ -318,7 +372,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "2d6c6e5e92",
+           "blockId": "4efd910236",
            "blockName": "About Subtitle",
            "children": [],
            "classes": [],
@@ -357,7 +411,7 @@
      "attributes": {},
      "baseStyles": {
       "alignItems": "center",
-      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #0F0F0E)",
+      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #FAFAF7)",
       "display": "flex",
       "flexDirection": "column",
       "flexShrink": 0,
@@ -365,7 +419,7 @@
       "paddingBottom": "96px",
       "width": "100%"
      },
-     "blockId": "3d20901842",
+     "blockId": "f92efd4522",
      "blockName": "Section · About Split",
      "children": [
       {
@@ -382,7 +436,7 @@
         "paddingRight": "32px",
         "width": "100%"
        },
-       "blockId": "bbfe1d1f36",
+       "blockId": "0352e81efd",
        "blockName": "About Split Container",
        "children": [
         {
@@ -396,7 +450,7 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "2cd7c3015f",
+         "blockId": "0553500256",
          "blockName": "About Split",
          "children": [
           {
@@ -412,7 +466,7 @@
             "objectFit": "cover",
             "width": "100%"
            },
-           "blockId": "734954d50f",
+           "blockId": "72072fb202",
            "blockName": "About Image",
            "children": [],
            "classes": [],
@@ -437,13 +491,13 @@
             "minWidth": "0px",
             "overflow": "hidden"
            },
-           "blockId": "a107123b09",
+           "blockId": "f434b976ec",
            "blockName": "About Copy",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #D9F551)",
+              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #7E9B1C)",
               "fontFamily": "Inter",
               "fontSize": "12px",
               "fontWeight": "500",
@@ -454,7 +508,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "fc98a33347",
+             "blockId": "f807824453",
              "blockName": "About Label",
              "children": [],
              "classes": [],
@@ -468,7 +522,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
               "fontFamily": "Space Grotesk",
               "fontSize": "40px",
               "fontWeight": "500",
@@ -478,7 +532,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "6ce4920631",
+             "blockId": "8de390756e",
              "blockName": "About Sub Title",
              "children": [],
              "classes": [],
@@ -494,7 +548,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
               "fontFamily": "Inter",
               "fontSize": "16px",
               "height": "fit-content",
@@ -503,7 +557,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "e4784ed86c",
+             "blockId": "5d1f3867d5",
              "blockName": "About Text 1",
              "children": [],
              "classes": [],
@@ -517,7 +571,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
               "fontFamily": "Inter",
               "fontSize": "16px",
               "height": "fit-content",
@@ -526,7 +580,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "6aa21c931f",
+             "blockId": "0b068720d4",
              "blockName": "About Text 2",
              "children": [],
              "classes": [],
@@ -576,7 +630,7 @@
      "attributes": {},
      "baseStyles": {
       "alignItems": "center",
-      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #0F0F0E)",
+      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #FAFAF7)",
       "display": "flex",
       "flexDirection": "column",
       "flexShrink": 0,
@@ -584,7 +638,7 @@
       "paddingBottom": "96px",
       "width": "100%"
      },
-     "blockId": "e35bc59d81",
+     "blockId": "dbd2a2a577",
      "blockName": "Section · Services",
      "children": [
       {
@@ -601,7 +655,7 @@
         "paddingRight": "32px",
         "width": "100%"
        },
-       "blockId": "13ca3060c0",
+       "blockId": "f967454d7b",
        "blockName": "Services Container",
        "children": [
         {
@@ -614,7 +668,7 @@
           "marginBottom": "40px",
           "overflow": "hidden"
          },
-         "blockId": "bdcec02731",
+         "blockId": "05302cdd55",
          "blockName": "Services Head",
          "children": [
           {
@@ -628,13 +682,13 @@
             "overflow": "hidden",
             "width": "fit-content"
            },
-           "blockId": "bc52204279",
+           "blockId": "ef412360e9",
            "blockName": "Eyebrow",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "backgroundColor": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #D9F551)",
+              "backgroundColor": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #7E9B1C)",
               "borderRadius": "100px",
               "display": "flex",
               "flexDirection": "column",
@@ -643,7 +697,7 @@
               "overflow": "hidden",
               "width": "8px"
              },
-             "blockId": "7bec1e0b1b",
+             "blockId": "e2c95ac710",
              "blockName": "Eyebrow Dot",
              "children": [],
              "classes": [],
@@ -656,7 +710,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
               "fontFamily": "Inter",
               "fontSize": "12px",
               "fontWeight": "500",
@@ -667,7 +721,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "9e617454e1",
+             "blockId": "89aeaa3800",
              "blockName": "Eyebrow Text",
              "children": [],
              "classes": [],
@@ -689,7 +743,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+            "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
             "fontFamily": "Space Grotesk",
             "fontSize": "44px",
             "fontWeight": "500",
@@ -699,7 +753,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "3a62ee380e",
+           "blockId": "8136788083",
            "blockName": "Services Title",
            "children": [],
            "classes": [],
@@ -729,14 +783,14 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "7d7f53d2fd",
+         "blockId": "8059e619b0",
          "blockName": "Service Rows",
          "children": [
           {
            "attributes": {},
            "baseStyles": {
             "alignItems": "baseline",
-            "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #2A2A27)",
+            "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #E7E6DE)",
             "borderTopStyle": "solid",
             "borderTopWidth": "1px",
             "display": "flex",
@@ -748,13 +802,13 @@
             "paddingTop": "26px",
             "width": "100%"
            },
-           "blockId": "a0928f5059",
+           "blockId": "fef4f67afb",
            "blockName": "Service · Identity sprints",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #D9F551)",
+              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #7E9B1C)",
               "fontFamily": "Inter",
               "fontSize": "12px",
               "fontWeight": "500",
@@ -765,7 +819,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "656f383b07",
+             "blockId": "1d81727776",
              "blockName": "Service Number",
              "children": [],
              "classes": [],
@@ -779,7 +833,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
               "fontFamily": "Space Grotesk",
               "fontSize": "30px",
               "fontWeight": "500",
@@ -789,7 +843,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "421786631b",
+             "blockId": "386a2d49e9",
              "blockName": "Service Title",
              "children": [],
              "classes": [],
@@ -805,7 +859,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
               "fontFamily": "Inter",
               "fontSize": "15px",
               "height": "fit-content",
@@ -814,7 +868,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "63952ccd3f",
+             "blockId": "535a03eea9",
              "blockName": "Service Desc",
              "children": [],
              "classes": [],
@@ -840,7 +894,7 @@
            "attributes": {},
            "baseStyles": {
             "alignItems": "baseline",
-            "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #2A2A27)",
+            "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #E7E6DE)",
             "borderTopStyle": "solid",
             "borderTopWidth": "1px",
             "display": "flex",
@@ -852,13 +906,13 @@
             "paddingTop": "26px",
             "width": "100%"
            },
-           "blockId": "b3354b5ea0",
+           "blockId": "d40b18d92d",
            "blockName": "Service · Product partnerships",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #D9F551)",
+              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #7E9B1C)",
               "fontFamily": "Inter",
               "fontSize": "12px",
               "fontWeight": "500",
@@ -869,7 +923,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "81232dc404",
+             "blockId": "e8b41935d7",
              "blockName": "Service Number",
              "children": [],
              "classes": [],
@@ -883,7 +937,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
               "fontFamily": "Space Grotesk",
               "fontSize": "30px",
               "fontWeight": "500",
@@ -893,7 +947,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "b59cbfc7b7",
+             "blockId": "213ee23f11",
              "blockName": "Service Title",
              "children": [],
              "classes": [],
@@ -909,7 +963,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
               "fontFamily": "Inter",
               "fontSize": "15px",
               "height": "fit-content",
@@ -918,7 +972,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "f553b07c84",
+             "blockId": "2d8682634c",
              "blockName": "Service Desc",
              "children": [],
              "classes": [],
@@ -944,7 +998,7 @@
            "attributes": {},
            "baseStyles": {
             "alignItems": "baseline",
-            "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #2A2A27)",
+            "borderTopColor": "var(--bdea6039-60bc-445e-9f9e-5c82000b5839, #E7E6DE)",
             "borderTopStyle": "solid",
             "borderTopWidth": "1px",
             "display": "flex",
@@ -956,13 +1010,13 @@
             "paddingTop": "26px",
             "width": "100%"
            },
-           "blockId": "95614d3ddf",
+           "blockId": "6f81e9ba63",
            "blockName": "Service · Launch films",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #D9F551)",
+              "color": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #7E9B1C)",
               "fontFamily": "Inter",
               "fontSize": "12px",
               "fontWeight": "500",
@@ -973,7 +1027,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "c95c555ee6",
+             "blockId": "067a50eea5",
              "blockName": "Service Number",
              "children": [],
              "classes": [],
@@ -987,7 +1041,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
               "fontFamily": "Space Grotesk",
               "fontSize": "30px",
               "fontWeight": "500",
@@ -997,7 +1051,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "f60068ac92",
+             "blockId": "f3d3029deb",
              "blockName": "Service Title",
              "children": [],
              "classes": [],
@@ -1013,7 +1067,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+              "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
               "fontFamily": "Inter",
               "fontSize": "15px",
               "height": "fit-content",
@@ -1022,7 +1076,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "9e67cebc34",
+             "blockId": "4f0d5d81c6",
              "blockName": "Service Desc",
              "children": [],
              "classes": [],
@@ -1072,7 +1126,7 @@
      "attributes": {},
      "baseStyles": {
       "alignItems": "center",
-      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #0F0F0E)",
+      "backgroundColor": "var(--5084c003-435e-4afe-9606-738d2fe9eaf0, #FAFAF7)",
       "display": "flex",
       "flexDirection": "column",
       "flexShrink": 0,
@@ -1080,7 +1134,7 @@
       "paddingBottom": "96px",
       "width": "100%"
      },
-     "blockId": "d560e4e08c",
+     "blockId": "9eede88680",
      "blockName": "Section · Clients",
      "children": [
       {
@@ -1097,7 +1151,7 @@
         "paddingRight": "32px",
         "width": "100%"
        },
-       "blockId": "72c8d53660",
+       "blockId": "c435d82626",
        "blockName": "Clients Container",
        "children": [
         {
@@ -1110,7 +1164,7 @@
           "marginBottom": "40px",
           "overflow": "hidden"
          },
-         "blockId": "6b09f2c325",
+         "blockId": "af8bdd7181",
          "blockName": "Clients Head",
          "children": [
           {
@@ -1124,13 +1178,13 @@
             "overflow": "hidden",
             "width": "fit-content"
            },
-           "blockId": "0433b613f7",
+           "blockId": "f897625e25",
            "blockName": "Eyebrow",
            "children": [
             {
              "attributes": {},
              "baseStyles": {
-              "backgroundColor": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #D9F551)",
+              "backgroundColor": "var(--a7daf035-5b1d-40aa-bd3e-1b522c705cd5, #7E9B1C)",
               "borderRadius": "100px",
               "display": "flex",
               "flexDirection": "column",
@@ -1139,7 +1193,7 @@
               "overflow": "hidden",
               "width": "8px"
              },
-             "blockId": "8899600cf5",
+             "blockId": "72f85e47e3",
              "blockName": "Eyebrow Dot",
              "children": [],
              "classes": [],
@@ -1152,7 +1206,7 @@
             {
              "attributes": {},
              "baseStyles": {
-              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+              "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
               "fontFamily": "Inter",
               "fontSize": "12px",
               "fontWeight": "500",
@@ -1163,7 +1217,7 @@
               "textTransform": "uppercase",
               "width": "fit-content"
              },
-             "blockId": "ffcdd23e03",
+             "blockId": "7c8647ed00",
              "blockName": "Eyebrow Text",
              "children": [],
              "classes": [],
@@ -1185,7 +1239,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #F4F4F0)",
+            "color": "var(--d6644bcb-e9fe-43a3-b3d2-5c6f8d3a4e16, #14140F)",
             "fontFamily": "Space Grotesk",
             "fontSize": "44px",
             "fontWeight": "500",
@@ -1195,7 +1249,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "9bb69a0ee1",
+           "blockId": "589bc8ed7b",
            "blockName": "Clients Title",
            "children": [],
            "classes": [],
@@ -1227,13 +1281,13 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "b126092f2e",
+         "blockId": "edd6749321",
          "blockName": "Clients Grid",
          "children": [
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
             "fontFamily": "Space Grotesk",
             "fontSize": "26px",
             "fontWeight": "500",
@@ -1243,7 +1297,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "05d8e63ca0",
+           "blockId": "bf25745173",
            "blockName": "Client · Nova",
            "children": [],
            "classes": [],
@@ -1259,7 +1313,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
             "fontFamily": "Space Grotesk",
             "fontSize": "26px",
             "fontWeight": "500",
@@ -1269,7 +1323,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "4145707ed5",
+           "blockId": "d3dc22cd42",
            "blockName": "Client · Halide",
            "children": [],
            "classes": [],
@@ -1285,7 +1339,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
             "fontFamily": "Space Grotesk",
             "fontSize": "26px",
             "fontWeight": "500",
@@ -1295,7 +1349,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "2b33c41933",
+           "blockId": "a9707659f5",
            "blockName": "Client · Pluto",
            "children": [],
            "classes": [],
@@ -1311,7 +1365,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
             "fontFamily": "Space Grotesk",
             "fontSize": "26px",
             "fontWeight": "500",
@@ -1321,7 +1375,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "1285f9c740",
+           "blockId": "9c4aa53737",
            "blockName": "Client · Field Notes",
            "children": [],
            "classes": [],
@@ -1337,7 +1391,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
             "fontFamily": "Space Grotesk",
             "fontSize": "26px",
             "fontWeight": "500",
@@ -1347,7 +1401,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "552d504bfa",
+           "blockId": "93487b74a9",
            "blockName": "Client · Arc Labs",
            "children": [],
            "classes": [],
@@ -1363,7 +1417,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
             "fontFamily": "Space Grotesk",
             "fontSize": "26px",
             "fontWeight": "500",
@@ -1373,7 +1427,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "5a55ddd958",
+           "blockId": "b125dd7578",
            "blockName": "Client · Tonic",
            "children": [],
            "classes": [],
@@ -1389,7 +1443,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
             "fontFamily": "Space Grotesk",
             "fontSize": "26px",
             "fontWeight": "500",
@@ -1399,7 +1453,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "38f9a0010b",
+           "blockId": "27664f7ac1",
            "blockName": "Client · Meridian",
            "children": [],
            "classes": [],
@@ -1415,7 +1469,7 @@
           {
            "attributes": {},
            "baseStyles": {
-            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #98988F)",
+            "color": "var(--71911d82-22b2-4753-bddf-b2d6726a820d, #6B6B61)",
             "fontFamily": "Space Grotesk",
             "fontSize": "26px",
             "fontWeight": "500",
@@ -1425,7 +1479,7 @@
             "minWidth": "10px",
             "width": "fit-content"
            },
-           "blockId": "d1b5e25e5e",
+           "blockId": "84ad75c0e6",
            "blockName": "Client · Koso",
            "children": [],
            "classes": [],
@@ -1467,74 +1521,74 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "a539386161",
+     "blockId": "fe1ddad975",
      "blockName": "Footer",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "636dc4a969",
+       "blockId": "61c22c6c1a",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "08a3521edd",
+         "blockId": "b0ddca9142",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "469d1970f3",
+           "blockId": "7c2f0e0c74",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "mono_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "226cc18098",
+           "referenceBlockId": "c89851a910",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "cefe748494",
+           "blockId": "468cf38355",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "mono_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "a096b3038c",
+           "referenceBlockId": "ac3bac2f68",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "036349784d",
+           "blockId": "47253737b7",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "78bd9f268c",
+             "blockId": "d8b0b57f53",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "4a6cf883d8",
+             "referenceBlockId": "853ab473d8",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "2d0414d3f0",
+             "blockId": "0ea94869e8",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "7f81f099b6",
+             "referenceBlockId": "a542487fda",
              "tabletStyles": {}
             }
            ],
@@ -1543,7 +1597,7 @@
            "isChildOfComponent": "mono_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "1df1cd1c6b",
+           "referenceBlockId": "a0f0975774",
            "tabletStyles": {}
           }
          ],
@@ -1552,82 +1606,82 @@
          "isChildOfComponent": "mono_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "2d2eea4153",
+         "referenceBlockId": "af12a4dced",
          "tabletStyles": {}
         },
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "ee4059bd05",
+         "blockId": "4f73a851fd",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "9b0b189226",
+           "blockId": "94df31e4b8",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "mono_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "ed827e1d65",
+           "referenceBlockId": "204a02025c",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "fc1881ee7d",
+           "blockId": "a508be193f",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "3669f5a916",
+             "blockId": "edfc434aa1",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "ce42b2e721",
+             "referenceBlockId": "3cb483e9cc",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "c947c2638a",
+             "blockId": "9dbdae99b4",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "b3620f2338",
+             "referenceBlockId": "a66375cf85",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "05efa8b11c",
+             "blockId": "1f7776bff0",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "41223c3608",
+             "referenceBlockId": "3ffd07303b",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "34a8b77237",
+             "blockId": "8c62867957",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "mono_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "9c582829ec",
+             "referenceBlockId": "9577dfa877",
              "tabletStyles": {}
             }
            ],
@@ -1636,20 +1690,20 @@
            "isChildOfComponent": "mono_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "85b0c86168",
+           "referenceBlockId": "58fba402fe",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "111e1805a7",
+           "blockId": "7fc09fdbbc",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "mono_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "41d904936e",
+           "referenceBlockId": "0674018717",
            "tabletStyles": {}
           }
          ],
@@ -1658,7 +1712,7 @@
          "isChildOfComponent": "mono_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "a59ebe408f",
+         "referenceBlockId": "3e77236e01",
          "tabletStyles": {}
         }
        ],
@@ -1667,7 +1721,7 @@
        "isChildOfComponent": "mono_footer",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "f06f37b0da",
+       "referenceBlockId": "3bf36756f1",
        "tabletStyles": {}
       }
      ],
@@ -1688,8 +1742,15 @@
    "tabletStyles": {}
   }
  ],
- "client_scripts": [],
- "creation": "2026-06-05 00:04:08.976137",
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  }
+ ],
+ "creation": "2026-06-07 18:19:06.664429",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -1699,13 +1760,13 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Mono is a four-person design studio. Small studio, sharp work.",
- "modified": "2026-06-05 00:04:08.978783",
+ "modified": "2026-06-07 18:19:06.708913",
  "modified_by": "Administrator",
  "name": "mono_about",
  "owner": "Administrator",
  "page_name": "mono_about",
  "page_title": "About",
- "preview": "/builder_assets/mono/mono_about/preview.webp",
+ "preview": "/assets/builder/images/fallback.png",
  "project_folder": null,
  "published": 0,
  "published_at": null,

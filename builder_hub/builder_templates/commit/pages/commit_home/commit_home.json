@@ -20,40 +20,40 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "0d7f4bc845",
+     "blockId": "75a009dc60",
      "blockName": "Navbar",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "ed809b6fd7",
+       "blockId": "3c810fc576",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "23aafe8818",
+         "blockId": "31d64605b4",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "13dcadb70d",
+           "blockId": "b2c97548ab",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "a57e624500",
+             "blockId": "6972948cee",
              "children": [
               {
                "attributes": {},
                "baseStyles": {},
-               "blockId": "36d12d0807",
+               "blockId": "e8d7b26c16",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "isChildOfComponent": "commit_navbar",
                "mobileStyles": {},
                "rawStyles": {},
-               "referenceBlockId": "e5e473367f",
+               "referenceBlockId": "22102a9e9c",
                "tabletStyles": {}
               }
              ],
@@ -62,20 +62,20 @@
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "f169dca8c9",
+             "referenceBlockId": "0b0828f03f",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "f4e54f1d8b",
+             "blockId": "908cca2778",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "3e3d06df5e",
+             "referenceBlockId": "eb61df1248",
              "tabletStyles": {}
             }
            ],
@@ -84,64 +84,64 @@
            "isChildOfComponent": "commit_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "916f28c31b",
+           "referenceBlockId": "5350312fa4",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "f3da127e4f",
+           "blockId": "9ae3949084",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "cf2211b5bf",
+             "blockId": "91cf25d6ba",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "279649472c",
+             "referenceBlockId": "0254b14d96",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "7e1168f2f8",
+             "blockId": "4021b3388c",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "cb5dfa5da0",
+             "referenceBlockId": "760468e059",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "2cbaed9aaf",
+             "blockId": "75a321e675",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "ee7c5c5a76",
+             "referenceBlockId": "6a2c04a521",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "2f72c45b47",
+             "blockId": "0b0fd11b90",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_navbar",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "cbdab10222",
+             "referenceBlockId": "b50e472ce9",
              "tabletStyles": {}
             }
            ],
@@ -150,20 +150,74 @@
            "isChildOfComponent": "commit_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "0055c13860",
+           "referenceBlockId": "2058750ac5",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "b9918c9ed0",
-           "children": [],
+           "blockId": "e8271db5bf",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "0045f57ebf",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "4cf64ee846",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "52043ed5ea",
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "420cf35f71",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "408f0124a0",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "02ff383018",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "8fd83dcbae",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "907152311b",
+             "tabletStyles": {}
+            }
+           ],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_navbar",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "7bbcaacad9",
+           "referenceBlockId": "2f2cfb0840",
            "tabletStyles": {}
           }
          ],
@@ -172,7 +226,7 @@
          "isChildOfComponent": "commit_navbar",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "e7d0d091fb",
+         "referenceBlockId": "93e570215c",
          "tabletStyles": {}
         }
        ],
@@ -181,7 +235,7 @@
        "isChildOfComponent": "commit_navbar",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "a7cabf9f08",
+       "referenceBlockId": "17b0f172ec",
        "tabletStyles": {}
       }
      ],
@@ -206,7 +260,7 @@
       "position": "relative",
       "width": "100%"
      },
-     "blockId": "c9eb683379",
+     "blockId": "b0f9bb3311",
      "blockName": "Section · Hero",
      "children": [
       {
@@ -224,7 +278,7 @@
         "top": "0px",
         "width": "100%"
        },
-       "blockId": "8032f1d201",
+       "blockId": "1cdf3d34fc",
        "blockName": "Hero Blobs",
        "children": [],
        "classes": [],
@@ -251,7 +305,7 @@
         "width": "100%",
         "zIndex": "1"
        },
-       "blockId": "dcb814dd09",
+       "blockId": "2434f23e14",
        "blockName": "Hero Container",
        "children": [
         {
@@ -267,7 +321,7 @@
           "width": "100%",
           "zIndex": "1"
          },
-         "blockId": "98989eabc2",
+         "blockId": "8fdac6acc6",
          "blockName": "Hero Stack",
          "children": [
           {
@@ -287,7 +341,7 @@
             "paddingTop": "7px",
             "width": "fit-content"
            },
-           "blockId": "6c95500889",
+           "blockId": "44abc7ca51",
            "blockName": "Badge",
            "children": [
             {
@@ -299,7 +353,7 @@
               "lineHeight": "0",
               "overflow": "hidden"
              },
-             "blockId": "d08973a794",
+             "blockId": "f2b2b92885",
              "blockName": "Badge Sparkle",
              "children": [],
              "classes": [],
@@ -322,7 +376,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "54d2325ddc",
+             "blockId": "8777027e04",
              "blockName": "Badge Text",
              "children": [],
              "classes": [],
@@ -351,7 +405,7 @@
             "gap": "2px",
             "overflow": "hidden"
            },
-           "blockId": "34564a905c",
+           "blockId": "198e010a99",
            "blockName": "Hero Headline",
            "children": [
             {
@@ -368,7 +422,7 @@
               "textAlign": "center",
               "width": "fit-content"
              },
-             "blockId": "811943ec24",
+             "blockId": "ac97f8498d",
              "blockName": "Hero Title 1",
              "children": [],
              "classes": [],
@@ -399,7 +453,7 @@
               "textAlign": "center",
               "width": "fit-content"
              },
-             "blockId": "831eb21b8e",
+             "blockId": "927b5db8a1",
              "blockName": "Hero Title 2",
              "children": [],
              "classes": [],
@@ -433,7 +487,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "d50966aee2",
+           "blockId": "30e22fa27e",
            "blockName": "Hero Subtitle",
            "children": [],
            "classes": [],
@@ -456,7 +510,7 @@
             "marginTop": "8px",
             "overflow": "hidden"
            },
-           "blockId": "974f7799e9",
+           "blockId": "de07b03eff",
            "blockName": "Hero Actions",
            "children": [
             {
@@ -484,7 +538,7 @@
               "textDecoration": "none",
               "width": "fit-content"
              },
-             "blockId": "cbaddfd201",
+             "blockId": "4cafc635c1",
              "blockName": "Hero CTA",
              "children": [],
              "classes": [],
@@ -526,7 +580,7 @@
               "textDecoration": "none",
               "width": "fit-content"
              },
-             "blockId": "b956c74497",
+             "blockId": "dfdc3fbbe4",
              "blockName": "Hero Secondary",
              "children": [],
              "classes": [],
@@ -560,7 +614,7 @@
             "marginTop": "26px",
             "overflow": "hidden"
            },
-           "blockId": "a90ecbf681",
+           "blockId": "0c24e41c99",
            "blockName": "Countdown",
            "children": [
             {
@@ -582,7 +636,7 @@
               "paddingBottom": "14px",
               "paddingTop": "16px"
              },
-             "blockId": "a38fe96bd7",
+             "blockId": "62a360e149",
              "blockName": "Tile · days",
              "children": [
               {
@@ -597,7 +651,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "0af82453f7",
+               "blockId": "59e9c165c1",
                "blockName": "Value · days",
                "children": [],
                "classes": [],
@@ -624,7 +678,7 @@
                 "textTransform": "uppercase",
                 "width": "fit-content"
                },
-               "blockId": "15cf897806",
+               "blockId": "cae29f1df6",
                "blockName": "Label · days",
                "children": [],
                "classes": [],
@@ -662,7 +716,7 @@
               "paddingBottom": "14px",
               "paddingTop": "16px"
              },
-             "blockId": "2922e130c2",
+             "blockId": "d954d1dcbe",
              "blockName": "Tile · hours",
              "children": [
               {
@@ -677,7 +731,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "396deae178",
+               "blockId": "8a63016498",
                "blockName": "Value · hours",
                "children": [],
                "classes": [],
@@ -704,7 +758,7 @@
                 "textTransform": "uppercase",
                 "width": "fit-content"
                },
-               "blockId": "2a00ef8ead",
+               "blockId": "f73cfe1ec6",
                "blockName": "Label · hours",
                "children": [],
                "classes": [],
@@ -742,7 +796,7 @@
               "paddingBottom": "14px",
               "paddingTop": "16px"
              },
-             "blockId": "2f36b756c9",
+             "blockId": "61db64e0c9",
              "blockName": "Tile · minutes",
              "children": [
               {
@@ -757,7 +811,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "5194e0b976",
+               "blockId": "66db3f5069",
                "blockName": "Value · minutes",
                "children": [],
                "classes": [],
@@ -784,7 +838,7 @@
                 "textTransform": "uppercase",
                 "width": "fit-content"
                },
-               "blockId": "3e276e0bf9",
+               "blockId": "83e3451d54",
                "blockName": "Label · minutes",
                "children": [],
                "classes": [],
@@ -822,7 +876,7 @@
               "paddingBottom": "14px",
               "paddingTop": "16px"
              },
-             "blockId": "9e279e3233",
+             "blockId": "ad8c34a922",
              "blockName": "Tile · seconds",
              "children": [
               {
@@ -837,7 +891,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "80aae8f482",
+               "blockId": "a865480252",
                "blockName": "Value · seconds",
                "children": [],
                "classes": [],
@@ -864,7 +918,7 @@
                 "textTransform": "uppercase",
                 "width": "fit-content"
                },
-               "blockId": "16411a150b",
+               "blockId": "b4219cb0de",
                "blockName": "Label · seconds",
                "children": [],
                "classes": [],
@@ -929,7 +983,7 @@
       "paddingBottom": "72px",
       "width": "100%"
      },
-     "blockId": "38018f885f",
+     "blockId": "e4b057548a",
      "blockName": "Section · Marquee",
      "children": [
       {
@@ -941,7 +995,7 @@
         "overflow": "hidden",
         "width": "100%"
        },
-       "blockId": "c34c00db2c",
+       "blockId": "623620e879",
        "blockName": "Marquee Clip",
        "children": [
         {
@@ -955,7 +1009,7 @@
           "overflow": "hidden",
           "width": "fit-content"
          },
-         "blockId": "287afc2ad2",
+         "blockId": "1b645991a6",
          "blockName": "Marquee Track",
          "children": [
           {
@@ -971,7 +1025,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "85f520d575",
+           "blockId": "3cf9f74481",
            "blockName": "Sponsor · Vercel",
            "children": [],
            "classes": [],
@@ -992,7 +1046,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "f0e082b24d",
+           "blockId": "e3f2dd05f0",
            "blockName": "Star · Vercel",
            "children": [],
            "classes": [],
@@ -1016,7 +1070,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "d84c8bd395",
+           "blockId": "93cd9d6c71",
            "blockName": "Sponsor · Supabase",
            "children": [],
            "classes": [],
@@ -1037,7 +1091,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "5437342d53",
+           "blockId": "f8f6396fc7",
            "blockName": "Star · Supabase",
            "children": [],
            "classes": [],
@@ -1061,7 +1115,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "8a4513d63a",
+           "blockId": "93e8c4c390",
            "blockName": "Sponsor · Railway",
            "children": [],
            "classes": [],
@@ -1082,7 +1136,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "412176cf59",
+           "blockId": "341fc9547a",
            "blockName": "Star · Railway",
            "children": [],
            "classes": [],
@@ -1106,7 +1160,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "cb082801f2",
+           "blockId": "dad57b8643",
            "blockName": "Sponsor · Frappe",
            "children": [],
            "classes": [],
@@ -1127,7 +1181,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "e09b60d8b7",
+           "blockId": "8ad22349e8",
            "blockName": "Star · Frappe",
            "children": [],
            "classes": [],
@@ -1151,7 +1205,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "39efa74bb1",
+           "blockId": "8ca7ae892a",
            "blockName": "Sponsor · Posthog",
            "children": [],
            "classes": [],
@@ -1172,7 +1226,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "74581c14d6",
+           "blockId": "c1c0fb382b",
            "blockName": "Star · Posthog",
            "children": [],
            "classes": [],
@@ -1196,7 +1250,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "b92f4bd41e",
+           "blockId": "f3bfb0e227",
            "blockName": "Sponsor · Sentry",
            "children": [],
            "classes": [],
@@ -1217,7 +1271,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "81e1779304",
+           "blockId": "cf28e37f67",
            "blockName": "Star · Sentry",
            "children": [],
            "classes": [],
@@ -1241,7 +1295,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "57f4d79678",
+           "blockId": "36e9efd43d",
            "blockName": "Sponsor · Resend",
            "children": [],
            "classes": [],
@@ -1262,7 +1316,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "61dc2ecbe9",
+           "blockId": "19d416d7d7",
            "blockName": "Star · Resend",
            "children": [],
            "classes": [],
@@ -1286,7 +1340,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "20bc690df3",
+           "blockId": "ecd134aec1",
            "blockName": "Sponsor · Linear",
            "children": [],
            "classes": [],
@@ -1307,7 +1361,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "bdf4f681be",
+           "blockId": "0052185f68",
            "blockName": "Star · Linear",
            "children": [],
            "classes": [],
@@ -1331,7 +1385,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "61b2c3fa2a",
+           "blockId": "b42996eea9",
            "blockName": "Sponsor · Vercel",
            "children": [],
            "classes": [],
@@ -1352,7 +1406,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "21177eedc0",
+           "blockId": "a6d9998e38",
            "blockName": "Star · Vercel",
            "children": [],
            "classes": [],
@@ -1376,7 +1430,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "4601e0ca5d",
+           "blockId": "554e67403d",
            "blockName": "Sponsor · Supabase",
            "children": [],
            "classes": [],
@@ -1397,7 +1451,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "bb213a214b",
+           "blockId": "057905c573",
            "blockName": "Star · Supabase",
            "children": [],
            "classes": [],
@@ -1421,7 +1475,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "adda991048",
+           "blockId": "2a4ce55d20",
            "blockName": "Sponsor · Railway",
            "children": [],
            "classes": [],
@@ -1442,7 +1496,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "e262b0c43b",
+           "blockId": "9e0a55246c",
            "blockName": "Star · Railway",
            "children": [],
            "classes": [],
@@ -1466,7 +1520,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "aae1eccef4",
+           "blockId": "c12a249f63",
            "blockName": "Sponsor · Frappe",
            "children": [],
            "classes": [],
@@ -1487,7 +1541,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "3a9c67938e",
+           "blockId": "07468cabcb",
            "blockName": "Star · Frappe",
            "children": [],
            "classes": [],
@@ -1511,7 +1565,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "a41bc9306c",
+           "blockId": "83a7a69441",
            "blockName": "Sponsor · Posthog",
            "children": [],
            "classes": [],
@@ -1532,7 +1586,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "faac29f94e",
+           "blockId": "f81a46db53",
            "blockName": "Star · Posthog",
            "children": [],
            "classes": [],
@@ -1556,7 +1610,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "d964c9ea9f",
+           "blockId": "c2ccf1cb73",
            "blockName": "Sponsor · Sentry",
            "children": [],
            "classes": [],
@@ -1577,7 +1631,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "6d03c10d48",
+           "blockId": "d34bc54204",
            "blockName": "Star · Sentry",
            "children": [],
            "classes": [],
@@ -1601,7 +1655,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "4200d836b3",
+           "blockId": "73694831e6",
            "blockName": "Sponsor · Resend",
            "children": [],
            "classes": [],
@@ -1622,7 +1676,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "7110f7eeed",
+           "blockId": "6ede0f5aa5",
            "blockName": "Star · Resend",
            "children": [],
            "classes": [],
@@ -1646,7 +1700,7 @@
             "whiteSpace": "nowrap",
             "width": "fit-content"
            },
-           "blockId": "025d496f4a",
+           "blockId": "c6838a54dd",
            "blockName": "Sponsor · Linear",
            "children": [],
            "classes": [],
@@ -1667,7 +1721,7 @@
             "opacity": "0.6",
             "overflow": "hidden"
            },
-           "blockId": "50b32fc279",
+           "blockId": "03e24c7098",
            "blockName": "Star · Linear",
            "children": [],
            "classes": [],
@@ -1717,7 +1771,7 @@
       "paddingTop": "88px",
       "width": "100%"
      },
-     "blockId": "656dd5e35d",
+     "blockId": "386c8056ef",
      "blockName": "Section · Highlights",
      "children": [
       {
@@ -1734,7 +1788,7 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "6d4b277814",
+       "blockId": "cabb131390",
        "blockName": "Highlights Container",
        "children": [
         {
@@ -1751,7 +1805,7 @@
           "maxWidth": "680px",
           "overflow": "hidden"
          },
-         "blockId": "7ec63af400",
+         "blockId": "553ecff318",
          "blockName": "Section Head",
          "children": [
           {
@@ -1772,7 +1826,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "8812bf8160",
+           "blockId": "c7cae2613c",
            "blockName": "Badge",
            "children": [
             {
@@ -1784,7 +1838,7 @@
               "lineHeight": "0",
               "overflow": "hidden"
              },
-             "blockId": "bfb9fd9b08",
+             "blockId": "004e446de8",
              "blockName": "Badge Sparkle",
              "children": [],
              "classes": [],
@@ -1807,7 +1861,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "2fa829bcb7",
+             "blockId": "4262bb3267",
              "blockName": "Badge Text",
              "children": [],
              "classes": [],
@@ -1840,7 +1894,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "7ab98185ee",
+           "blockId": "50f513ef84",
            "blockName": "Section Title",
            "children": [],
            "classes": [],
@@ -1872,7 +1926,7 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "b78fe44588",
+         "blockId": "10489a5166",
          "blockName": "Highlights Grid",
          "children": [
           {
@@ -1891,7 +1945,7 @@
             "padding": "28px",
             "width": "100%"
            },
-           "blockId": "553ca2a4f8",
+           "blockId": "5023a1c725",
            "blockName": "Highlight · 30 talks, one track",
            "children": [
             {
@@ -1908,7 +1962,7 @@
               "overflow": "hidden",
               "width": "44px"
              },
-             "blockId": "91fcf951bc",
+             "blockId": "476edc4908",
              "blockName": "Highlight Icon",
              "children": [
               {
@@ -1925,7 +1979,7 @@
                 "minWidth": "0px",
                 "width": "fit-content"
                },
-               "blockId": "d438d02609",
+               "blockId": "9674932f54",
                "blockName": "Icon · mic",
                "children": [],
                "classes": [],
@@ -1957,7 +2011,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "53816a3460",
+             "blockId": "6ba778ac58",
              "blockName": "Highlight Title",
              "children": [],
              "classes": [],
@@ -1979,7 +2033,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "20e614be27",
+             "blockId": "d356b67d71",
              "blockName": "Highlight Desc",
              "children": [],
              "classes": [],
@@ -2016,7 +2070,7 @@
             "padding": "28px",
             "width": "100%"
            },
-           "blockId": "1a114de046",
+           "blockId": "ba288ad79f",
            "blockName": "Highlight · 8 hands-on workshops",
            "children": [
             {
@@ -2033,7 +2087,7 @@
               "overflow": "hidden",
               "width": "44px"
              },
-             "blockId": "8a36ac7371",
+             "blockId": "ed7ea35150",
              "blockName": "Highlight Icon",
              "children": [
               {
@@ -2050,7 +2104,7 @@
                 "minWidth": "0px",
                 "width": "fit-content"
                },
-               "blockId": "43da969320",
+               "blockId": "53aa25297f",
                "blockName": "Icon · wrench",
                "children": [],
                "classes": [],
@@ -2082,7 +2136,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "3dad12c645",
+             "blockId": "dc9e26da97",
              "blockName": "Highlight Title",
              "children": [],
              "classes": [],
@@ -2104,7 +2158,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "99427f41ff",
+             "blockId": "de5f6a4689",
              "blockName": "Highlight Desc",
              "children": [],
              "classes": [],
@@ -2141,7 +2195,7 @@
             "padding": "28px",
             "width": "100%"
            },
-           "blockId": "d4b02e0902",
+           "blockId": "dd6f98192b",
            "blockName": "Highlight · One legendary afterparty",
            "children": [
             {
@@ -2158,7 +2212,7 @@
               "overflow": "hidden",
               "width": "44px"
              },
-             "blockId": "2df869ff3a",
+             "blockId": "28e9d80d0c",
              "blockName": "Highlight Icon",
              "children": [
               {
@@ -2175,7 +2229,7 @@
                 "minWidth": "0px",
                 "width": "fit-content"
                },
-               "blockId": "4afcadb41b",
+               "blockId": "4cf1612213",
                "blockName": "Icon · party-popper",
                "children": [],
                "classes": [],
@@ -2207,7 +2261,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "6f88a4ce1b",
+             "blockId": "ac476bce05",
              "blockName": "Highlight Title",
              "children": [],
              "classes": [],
@@ -2229,7 +2283,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "226b3f40f0",
+             "blockId": "f89b12b4a0",
              "blockName": "Highlight Desc",
              "children": [],
              "classes": [],
@@ -2289,7 +2343,7 @@
       "paddingTop": "88px",
       "width": "100%"
      },
-     "blockId": "4ed84d254a",
+     "blockId": "67e987ce10",
      "blockName": "Section · Speakers",
      "children": [
       {
@@ -2306,7 +2360,7 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "06792ea026",
+       "blockId": "2370069802",
        "blockName": "Speakers Container",
        "children": [
         {
@@ -2323,7 +2377,7 @@
           "maxWidth": "680px",
           "overflow": "hidden"
          },
-         "blockId": "fc60f16ff9",
+         "blockId": "3dd6dafce0",
          "blockName": "Section Head",
          "children": [
           {
@@ -2344,7 +2398,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "67e7f3be6f",
+           "blockId": "7779ddcfde",
            "blockName": "Badge",
            "children": [
             {
@@ -2356,7 +2410,7 @@
               "lineHeight": "0",
               "overflow": "hidden"
              },
-             "blockId": "70e85eb3f8",
+             "blockId": "4e42864170",
              "blockName": "Badge Sparkle",
              "children": [],
              "classes": [],
@@ -2379,7 +2433,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "73b8c92ef2",
+             "blockId": "d7311d9602",
              "blockName": "Badge Text",
              "children": [],
              "classes": [],
@@ -2412,7 +2466,7 @@
             "textAlign": "center",
             "width": "fit-content"
            },
-           "blockId": "083cd93dfe",
+           "blockId": "e98e776e39",
            "blockName": "Section Title",
            "children": [],
            "classes": [],
@@ -2444,7 +2498,7 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "a63a254dc5",
+         "blockId": "eb03b8479d",
          "blockName": "Speakers Grid",
          "children": [
           {
@@ -2463,7 +2517,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "25856675e7",
+           "blockId": "958818690f",
            "blockName": "Speaker · Amara Chen",
            "children": [
             {
@@ -2478,7 +2532,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "c568350540",
+             "blockId": "bc706a4da0",
              "blockName": "Speaker Photo",
              "children": [],
              "classes": [],
@@ -2500,7 +2554,7 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "58fd02041d",
+             "blockId": "4e6996a560",
              "blockName": "Speaker Copy",
              "children": [
               {
@@ -2516,7 +2570,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "493a203c82",
+               "blockId": "2e0ac69088",
                "blockName": "Speaker Name",
                "children": [],
                "classes": [],
@@ -2538,7 +2592,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "0fa3dbb177",
+               "blockId": "b2fe1b13d0",
                "blockName": "Speaker Role",
                "children": [],
                "classes": [],
@@ -2560,7 +2614,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "5507f10175",
+               "blockId": "5fa859cfd5",
                "blockName": "Speaker Talk",
                "children": [],
                "classes": [],
@@ -2605,7 +2659,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "2cc710e781",
+           "blockId": "86bb1c3924",
            "blockName": "Speaker · Diego Ferreira",
            "children": [
             {
@@ -2620,7 +2674,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "c80ab9d02b",
+             "blockId": "5033c4ff1a",
              "blockName": "Speaker Photo",
              "children": [],
              "classes": [],
@@ -2642,7 +2696,7 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "e3bdc61e86",
+             "blockId": "3130234b6e",
              "blockName": "Speaker Copy",
              "children": [
               {
@@ -2658,7 +2712,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "1f2308c227",
+               "blockId": "9a3d8f2826",
                "blockName": "Speaker Name",
                "children": [],
                "classes": [],
@@ -2680,7 +2734,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "e275e35cba",
+               "blockId": "afa9815b3d",
                "blockName": "Speaker Role",
                "children": [],
                "classes": [],
@@ -2702,7 +2756,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "487d5235f3",
+               "blockId": "23705d6eff",
                "blockName": "Speaker Talk",
                "children": [],
                "classes": [],
@@ -2747,7 +2801,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "6d7d577615",
+           "blockId": "9c5062de52",
            "blockName": "Speaker · Priya Raman",
            "children": [
             {
@@ -2762,7 +2816,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "d2e950944e",
+             "blockId": "e6bc260bed",
              "blockName": "Speaker Photo",
              "children": [],
              "classes": [],
@@ -2784,7 +2838,7 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "5650e31527",
+             "blockId": "64225b9e77",
              "blockName": "Speaker Copy",
              "children": [
               {
@@ -2800,7 +2854,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "ec2f6caa75",
+               "blockId": "745c092b86",
                "blockName": "Speaker Name",
                "children": [],
                "classes": [],
@@ -2822,7 +2876,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "16169a108c",
+               "blockId": "23e48e6c38",
                "blockName": "Speaker Role",
                "children": [],
                "classes": [],
@@ -2844,7 +2898,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "037c17cc9b",
+               "blockId": "b2076580c7",
                "blockName": "Speaker Talk",
                "children": [],
                "classes": [],
@@ -2889,7 +2943,7 @@
             "padding": "14px",
             "width": "100%"
            },
-           "blockId": "e3f2c5197a",
+           "blockId": "dbdd1b9704",
            "blockName": "Speaker · Tom Okafor",
            "children": [
             {
@@ -2904,7 +2958,7 @@
               "objectFit": "cover",
               "width": "100%"
              },
-             "blockId": "66e8b61fdf",
+             "blockId": "b2a7c46d33",
              "blockName": "Speaker Photo",
              "children": [],
              "classes": [],
@@ -2926,7 +2980,7 @@
               "paddingLeft": "6px",
               "paddingRight": "6px"
              },
-             "blockId": "d680fcd970",
+             "blockId": "3cc2ad499b",
              "blockName": "Speaker Copy",
              "children": [
               {
@@ -2942,7 +2996,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "cc293694a9",
+               "blockId": "3470e633a6",
                "blockName": "Speaker Name",
                "children": [],
                "classes": [],
@@ -2964,7 +3018,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "510c340390",
+               "blockId": "3d0b8a2fc3",
                "blockName": "Speaker Role",
                "children": [],
                "classes": [],
@@ -2986,7 +3040,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "395c6dd1b9",
+               "blockId": "20dcf04427",
                "blockName": "Speaker Talk",
                "children": [],
                "classes": [],
@@ -3036,7 +3090,7 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "82591a54a7",
+         "blockId": "cef37e3f70",
          "blockName": "Speakers More",
          "children": [
           {
@@ -3067,7 +3121,7 @@
             "textDecoration": "none",
             "width": "fit-content"
            },
-           "blockId": "6fe932a3aa",
+           "blockId": "9f3391ec2b",
            "blockName": "Speakers Link",
            "children": [],
            "classes": [],
@@ -3118,7 +3172,7 @@
       "paddingTop": "88px",
       "width": "100%"
      },
-     "blockId": "2de8f10d6c",
+     "blockId": "54c45ed9c5",
      "blockName": "Section · Venue",
      "children": [
       {
@@ -3135,7 +3189,7 @@
         "paddingRight": "28px",
         "width": "100%"
        },
-       "blockId": "82a16bc402",
+       "blockId": "b99a445df5",
        "blockName": "Venue Container",
        "children": [
         {
@@ -3149,7 +3203,7 @@
           "overflow": "hidden",
           "width": "100%"
          },
-         "blockId": "e8f2ab403c",
+         "blockId": "313fcf1cd1",
          "blockName": "Venue Split",
          "children": [
           {
@@ -3164,7 +3218,7 @@
             "minWidth": "0px",
             "overflow": "hidden"
            },
-           "blockId": "9bf586b91e",
+           "blockId": "8325d5fce8",
            "blockName": "Venue Copy",
            "children": [
             {
@@ -3184,7 +3238,7 @@
               "paddingTop": "7px",
               "width": "fit-content"
              },
-             "blockId": "9757aa8ed0",
+             "blockId": "26367593bb",
              "blockName": "Badge",
              "children": [
               {
@@ -3196,7 +3250,7 @@
                 "lineHeight": "0",
                 "overflow": "hidden"
                },
-               "blockId": "5fe5a74fc8",
+               "blockId": "8c99329a63",
                "blockName": "Badge Sparkle",
                "children": [],
                "classes": [],
@@ -3219,7 +3273,7 @@
                 "minWidth": "10px",
                 "width": "fit-content"
                },
-               "blockId": "b8884c19b3",
+               "blockId": "25e5a51285",
                "blockName": "Badge Text",
                "children": [],
                "classes": [],
@@ -3251,7 +3305,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "62bfdcd51d",
+             "blockId": "9c76866b1a",
              "blockName": "Venue Title",
              "children": [],
              "classes": [],
@@ -3276,7 +3330,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "14373d7b06",
+             "blockId": "a0d9e3fe0f",
              "blockName": "Venue Text",
              "children": [],
              "classes": [],
@@ -3299,7 +3353,7 @@
               "minWidth": "10px",
               "width": "fit-content"
              },
-             "blockId": "ebff338fbb",
+             "blockId": "1635d0dcda",
              "blockName": "Venue Text 2",
              "children": [],
              "classes": [],
@@ -3332,7 +3386,7 @@
             "objectFit": "cover",
             "width": "100%"
            },
-           "blockId": "f377e6468c",
+           "blockId": "44c4841730",
            "blockName": "Venue Image",
            "children": [],
            "classes": [],
@@ -3377,69 +3431,69 @@
     {
      "attributes": {},
      "baseStyles": {},
-     "blockId": "72a037e5c7",
+     "blockId": "1c1091a1dd",
      "blockName": "Footer",
      "children": [
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "f37cde8576",
+       "blockId": "2c28689a4b",
        "children": [],
        "classes": [],
        "customAttributes": {},
        "isChildOfComponent": "commit_footer",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "75e8bb7c09",
+       "referenceBlockId": "ca0998d009",
        "tabletStyles": {}
       },
       {
        "attributes": {},
        "baseStyles": {},
-       "blockId": "d71ca2919b",
+       "blockId": "68084c7614",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "62b0025912",
+         "blockId": "c0e6338099",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "d24653c7bf",
+           "blockId": "cdc145a2e7",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "966c942ae3",
+           "referenceBlockId": "10ca716567",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "b139957a3a",
+           "blockId": "2173a0a759",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "fa5b292535",
+           "referenceBlockId": "475e7f2099",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "36869bd59a",
+           "blockId": "0419b28ce7",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "267d75fb02",
+           "referenceBlockId": "f8f6ce220f",
            "tabletStyles": {}
           }
          ],
@@ -3448,77 +3502,77 @@
          "isChildOfComponent": "commit_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "e9d26e37dc",
+         "referenceBlockId": "19522dcec8",
          "tabletStyles": {}
         },
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "2108bd7312",
+         "blockId": "e0a1664ef1",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "3a0c558ea5",
+           "blockId": "5f9a55d4ad",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "789c249d64",
+           "referenceBlockId": "09a7321146",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "02ff918387",
+           "blockId": "d9e35ef6b3",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "be9a014c3d",
+           "referenceBlockId": "ce2aeb2651",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "bb890e9529",
+           "blockId": "1daf5f456b",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "1a595af279",
+           "referenceBlockId": "0c222b0c44",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "44775c93f4",
+           "blockId": "086358a0ca",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "ffffcfcf06",
+           "referenceBlockId": "bd61547c80",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "06e26e2e09",
+           "blockId": "089c31feaa",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "9998062e4b",
+           "referenceBlockId": "50ace3c37a",
            "tabletStyles": {}
           }
          ],
@@ -3527,35 +3581,35 @@
          "isChildOfComponent": "commit_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "2ee25ab6e7",
+         "referenceBlockId": "55c11f9175",
          "tabletStyles": {}
         },
         {
          "attributes": {},
          "baseStyles": {},
-         "blockId": "866b8fd935",
+         "blockId": "beb1085eae",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "22cd857a93",
+           "blockId": "1c2292a24e",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "7d2bad53bf",
+             "blockId": "12deddc38c",
              "children": [
               {
                "attributes": {},
                "baseStyles": {},
-               "blockId": "101c2fab79",
+               "blockId": "6cfcb7d5ef",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "isChildOfComponent": "commit_footer",
                "mobileStyles": {},
                "rawStyles": {},
-               "referenceBlockId": "30dcafc831",
+               "referenceBlockId": "4ab2697e94",
                "tabletStyles": {}
               }
              ],
@@ -3564,20 +3618,20 @@
              "isChildOfComponent": "commit_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "4cdb5633c3",
+             "referenceBlockId": "6e06d5841e",
              "tabletStyles": {}
             },
             {
              "attributes": {},
              "baseStyles": {},
-             "blockId": "cfdf03a167",
+             "blockId": "1108daebd4",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "commit_footer",
              "mobileStyles": {},
              "rawStyles": {},
-             "referenceBlockId": "9e47fd5d5e",
+             "referenceBlockId": "4076c5fd9f",
              "tabletStyles": {}
             }
            ],
@@ -3586,20 +3640,20 @@
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "ea8569b2a4",
+           "referenceBlockId": "d106b35b8a",
            "tabletStyles": {}
           },
           {
            "attributes": {},
            "baseStyles": {},
-           "blockId": "7e84258d65",
+           "blockId": "4d18161808",
            "children": [],
            "classes": [],
            "customAttributes": {},
            "isChildOfComponent": "commit_footer",
            "mobileStyles": {},
            "rawStyles": {},
-           "referenceBlockId": "e7495c1ee0",
+           "referenceBlockId": "9c56d3e96d",
            "tabletStyles": {}
           }
          ],
@@ -3608,7 +3662,7 @@
          "isChildOfComponent": "commit_footer",
          "mobileStyles": {},
          "rawStyles": {},
-         "referenceBlockId": "df5597a298",
+         "referenceBlockId": "5ba8ad5990",
          "tabletStyles": {}
         }
        ],
@@ -3617,7 +3671,7 @@
        "isChildOfComponent": "commit_footer",
        "mobileStyles": {},
        "rawStyles": {},
-       "referenceBlockId": "8b2ebf5124",
+       "referenceBlockId": "c5082b3bf0",
        "tabletStyles": {}
       }
      ],
@@ -3647,9 +3701,15 @@
   },
   {
    "builder_script": "commit-countdown"
+  },
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
   }
  ],
- "creation": "2026-06-05 01:55:07.443003",
+ "creation": "2026-06-07 18:15:54.742432",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -3659,13 +3719,13 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Commit '26 — two days of code, craft & caffeine in Lisbon.",
- "modified": "2026-06-05 01:55:10.977407",
+ "modified": "2026-06-07 18:15:55.744912",
  "modified_by": "Administrator",
  "name": "commit_home",
  "owner": "Administrator",
  "page_name": "commit_home",
  "page_title": "Home",
- "preview": "/builder_assets/commit/commit_home/preview.webp",
+ "preview": "/assets/builder/images/fallback.png",
  "project_folder": null,
  "published": 0,
  "published_at": null,

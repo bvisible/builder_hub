@@ -1,5 +1,6 @@
 {
- "description": "A crisp SaaS starter \u2014 landing, pricing, about, and contact pages with feature grids, plan cards, and FAQs.",
+ "description": "A crisp SaaS starter — landing, pricing, about, and contact pages with feature grids, plan cards, and FAQs.",
+ "order": 3,
  "pages": [
   {
    "name": "relay_landing"
@@ -14,6 +15,5 @@
    "name": "relay_contact"
   }
  ],
- "title": "Relay",
- "order": 3
+ "title": "Relay"
 }

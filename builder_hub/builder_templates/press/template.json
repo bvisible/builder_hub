@@ -1,5 +1,6 @@
 {
- "description": "An editorial blog/magazine \u2014 featured story, post grid, topics, article layout with related posts, and an author masthead. Repeater-driven.",
+ "description": "An editorial blog/magazine — featured story, post grid, topics, article layout with related posts, and an author masthead. Repeater-driven.",
+ "order": 6,
  "pages": [
   {
    "name": "press_home"
@@ -14,6 +15,5 @@
    "name": "press_about"
   }
  ],
- "title": "Press",
- "order": 6
+ "title": "Press"
 }
