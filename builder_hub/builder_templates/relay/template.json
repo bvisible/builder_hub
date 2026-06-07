@@ -1,6 +1,6 @@
 {
  "description": "A crisp SaaS starter — landing, pricing, about, and contact pages with feature grids, plan cards, and FAQs.",
- "order": 3,
+ "order": 2,
  "pages": [
   {
    "name": "relay_landing"

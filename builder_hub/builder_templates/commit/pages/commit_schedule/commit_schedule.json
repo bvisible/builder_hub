@@ -1,1 +1,3146 @@
-{"authenticated_access": 0, "blocks": [{"attributes": {}, "baseStyles": {"alignItems": "center", "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)", "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "display": "flex", "flexDirection": "column", "flexShrink": 0, "flexWrap": "wrap", "fontFamily": "Inter", "width": "100%"}, "blockId": "root", "blockName": "Page", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "fb3d4a64ea", "blockName": "Navbar", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "bc1ef77537", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "2558a92c4c", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "c16afdf9d5", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "c0f877c627", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "f7b6bfead3", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "22102a9e9c", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "0b0828f03f", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "a564514ade", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "eb61df1248", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "5350312fa4", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "2afb3823da", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "84390af59a", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "0254b14d96", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "1b9c5433c9", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "760468e059", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "add72bc6fa", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "6a2c04a521", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "5f27c9dc46", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "b50e472ce9", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "2058750ac5", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "3460218543", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "bf63f75a39", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "b7c9b2d5ea", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "52043ed5ea", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "c2fc9d7378", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "408f0124a0", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "02ff383018", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "bb28f27015", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "907152311b", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "2f2cfb0840", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "93e570215c", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "17b0f172ec", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "extendedFromComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)", "display": "flex", "flexDirection": "column", "flexShrink": 0, "overflow": "hidden", "paddingBottom": "48px", "paddingTop": "88px", "width": "100%"}, "blockId": "e201779483", "blockName": "Section · Schedule Hero", "children": [{"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "marginLeft": "auto", "marginRight": "auto", "maxWidth": "1140px", "overflow": "hidden", "paddingLeft": "28px", "paddingRight": "28px", "width": "100%"}, "blockId": "808024c244", "blockName": "Schedule Hero Container", "children": [{"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "18px", "overflow": "hidden"}, "blockId": "3e2fef82f0", "blockName": "Schedule Hero Stack", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "backgroundColor": "var(--c27ad2fa-eafc-4b58-aa00-73bc26490da3, #F3EEFF)", "borderRadius": "100px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "9px", "overflow": "hidden", "paddingBottom": "7px", "paddingLeft": "16px", "paddingRight": "16px", "paddingTop": "7px", "width": "fit-content"}, "blockId": "2f335e9eb0", "blockName": "Badge", "children": [{"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "lineHeight": "0", "overflow": "hidden"}, "blockId": "6dce808d59", "blockName": "Badge Sparkle", "children": [], "classes": [], "customAttributes": {}, "element": "div", "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "fontFamily": "Inter", "fontSize": "13px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "fit-content"}, "blockId": "9aafdd3077", "blockName": "Badge Text", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Programme", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "60px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "41891280aa", "blockName": "Schedule Title", "children": [], "classes": [], "customAttributes": {}, "element": "h1", "innerHTML": "Two days.<br>Zero filler.", "mobileStyles": {"fontSize": "38px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "17px", "height": "fit-content", "lineHeight": "1.65", "maxWidth": "560px", "minWidth": "10px", "width": "fit-content"}, "blockId": "2c7cc23b4d", "blockName": "Schedule Subtitle", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "One track on day one so nobody misses anything; parallel hands-on workshops on day two. All times WEST.", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)", "display": "flex", "flexDirection": "column", "flexShrink": 0, "overflow": "hidden", "paddingBottom": "80px", "width": "100%"}, "blockId": "b25ded3c17", "blockName": "Section · Schedule", "children": [{"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "marginLeft": "auto", "marginRight": "auto", "maxWidth": "1140px", "overflow": "hidden", "paddingLeft": "28px", "paddingRight": "28px", "width": "100%"}, "blockId": "29e26a15cb", "blockName": "Schedule Container", "children": [{"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "4px", "marginBottom": "56px", "overflow": "hidden", "width": "100%"}, "blockId": "0611e82539", "blockName": "Schedule · Day 1", "children": [{"attributes": {}, "baseStyles": {"alignItems": "baseline", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "14px", "marginBottom": "8px", "overflow": "hidden", "width": "100%"}, "blockId": "d47c073daf", "blockName": "Day 1 Head", "children": [{"attributes": {}, "baseStyles": {"WebkitBackgroundClip": "text", "WebkitTextFillColor": "transparent", "backgroundClip": "text", "backgroundImage": "linear-gradient(120deg, var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED), var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899) 55%, var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B))", "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "30px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "6fed15012d", "blockName": "Day Title", "children": [], "classes": [], "customAttributes": {}, "element": "h2", "innerHTML": "Day 1", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "14px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "4200ce38d5", "blockName": "Day Date", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Wednesday, Oct 15 — talks", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "db8ed9670a", "blockName": "Slot · Doors, coffee & pastéi", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "0fc322a9a0", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "09:00", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "0f4cc331c4", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "f21b9974b1", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Doors, coffee & pastéis", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "674d1fa14c", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Fuel up", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "ec0c3125e5", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Break", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "959874ba12", "blockName": "Slot · The edge is a lie (a u", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "81e902fb9a", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "10:00", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "5e59ea69b3", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "57b3a541a6", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "The edge is a lie (a useful one)", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "7d45b2bd79", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Amara Chen — Vercel", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "a078c4d4d5", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Talk", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "11ae55b27d", "blockName": "Slot · Hypermedia strikes bac", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "05e477be78", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "11:00", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "f179199240", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "baae77a74c", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Hypermedia strikes back", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "ce8cf3528d", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Tom Okafor — htmx-ish", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "368767f5ee", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Talk", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "ba4eaf01ad", "blockName": "Slot · Long lunch by the rive", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "4bff711cf5", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "12:00", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "99767ab03e", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "620413cce8", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Long lunch by the river", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "20b8267c30", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Seafood strongly advised", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "e51cb87a5a", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Break", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "44a4cbd100", "blockName": "Slot · Animating like you mea", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "a3b6de8017", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "14:00", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "7b285ae522", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "b6bbaf1b46", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Animating like you mean it", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "02e816711c", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Diego Ferreira — Linear", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "c17f1e61a4", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Talk", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "cdd180de88", "blockName": "Slot · Your tokens are showin", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "d8aaaaf89a", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "15:00", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "c9dfb07bdd", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "e7b0d42f8a", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Your tokens are showing", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "b7e66f3051", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Lena Vogel — Sentry", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "77e5578827", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Talk", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "7f063bbc09", "blockName": "Slot · What CSS knows that yo", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "854cdf949f", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "17:00", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "804aa21459", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "9a46314e62", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "What CSS knows that you don't", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "d32569293b", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Rafael Costa — CSS WG", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "b1b5d6a034", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Talk", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "c1ff76bf36", "blockName": "Slot · Afterparty at the fact", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "554ad77316", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "19:00", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "6970696940", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "9c7d403bdb", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Afterparty at the factory", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "e4ee5d94fa", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Live synthwave until late", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "d9644a0eb0", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Break", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "4px", "marginBottom": "56px", "overflow": "hidden", "width": "100%"}, "blockId": "0db489dd9f", "blockName": "Schedule · Day 2", "children": [{"attributes": {}, "baseStyles": {"alignItems": "baseline", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "14px", "marginBottom": "8px", "overflow": "hidden", "width": "100%"}, "blockId": "36aed1134d", "blockName": "Day 2 Head", "children": [{"attributes": {}, "baseStyles": {"WebkitBackgroundClip": "text", "WebkitTextFillColor": "transparent", "backgroundClip": "text", "backgroundImage": "linear-gradient(120deg, var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED), var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899) 55%, var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B))", "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "30px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "00e8c19aa5", "blockName": "Day Title", "children": [], "classes": [], "customAttributes": {}, "element": "h2", "innerHTML": "Day 2", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "14px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "a0bae8d083", "blockName": "Day Date", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Thursday, Oct 16 — workshops", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "dc14f735a0", "blockName": "Slot · Agents in production, ", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "6dd2b82998", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "09:30", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "35d0ec5669", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "3fe1c002b2", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Agents in production, honestly", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "ae2a4fbce9", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Yuki Tanaka — Supabase", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "99cf4ede8c", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Workshop", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "7f6d55f488", "blockName": "Slot · Design systems that su", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "e7196c39f6", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "09:30", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "20143a4032", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "e714d1a594", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Design systems that survive v2", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "088555a333", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Diego Ferreira — Linear", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "39fe2f53fc", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Workshop", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "4be9649486", "blockName": "Slot · Lunch & hallway track", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "7928d02907", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "13:00", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "c6602f23b1", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "1813b4443a", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Lunch & hallway track", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "bfb3b630b3", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "The real conference", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "d6cdef2848", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Break", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "df64a643d8", "blockName": "Slot · Web performance, no ex", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "87dcf5bae5", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "14:00", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "a8f39c8ce9", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "7187c9a134", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Web performance, no excuses", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "16fcde2049", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Amara Chen — Vercel", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "90522e1401", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Workshop", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "eb59578c42", "blockName": "Slot · Threat-model your side", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "7f46d3d3c0", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "14:00", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "4e9dc6fabc", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "fd0893cf14", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Threat-model your side project", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "f59306feda", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Lena Vogel — Sentry", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "6c6de449dd", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Workshop", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderBottomStyle": "solid", "borderBottomWidth": "1px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "24px", "overflow": "hidden", "paddingBottom": "18px", "paddingTop": "18px", "width": "100%"}, "blockId": "71738e80b2", "blockName": "Slot · Closing circle & demos", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "flexShrink": 0, "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "84px"}, "blockId": "bb12b6cbec", "blockName": "Slot Time", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "17:30", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexBasis": "0px", "flexDirection": "column", "flexGrow": 1, "flexShrink": 0, "gap": "2px", "minWidth": "200px", "overflow": "hidden"}, "blockId": "8ef78ab024", "blockName": "Slot Copy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "7085a83145", "blockName": "Slot Title", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Closing circle & demos", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "13px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "245c05593c", "blockName": "Slot Speaker", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Show what you built", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "borderRadius": "100px", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "flexShrink": 0, "fontFamily": "Inter", "fontSize": "12px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "paddingBottom": "4px", "paddingLeft": "12px", "paddingRight": "12px", "paddingTop": "4px", "width": "fit-content"}, "blockId": "1a67013374", "blockName": "Slot Tag", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Talk", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {"flexWrap": "wrap", "gap": "10px"}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "7e29f4a854", "blockName": "Footer", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "c307931481", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "ca0998d009", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "d0766c3847", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "86bc159688", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "d403e14688", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "10ca716567", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "9abf2f0ddf", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "475e7f2099", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "4345580f8d", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "f8f6ce220f", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "19522dcec8", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "b465387bd0", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "5d278fe56e", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "09a7321146", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "e4371d3822", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "ce2aeb2651", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "823836a710", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "0c222b0c44", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "76eb1d09c6", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "bd61547c80", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "0b674502ac", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "50ace3c37a", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "55c11f9175", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "43772d4109", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "15e047ad1e", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "2690362217", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "e311fa1683", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "4ab2697e94", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "6e06d5841e", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "ea33ddb316", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "4076c5fd9f", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "d106b35b8a", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "2070f49e69", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "9c56d3e96d", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "5ba8ad5990", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "c5082b3bf0", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "extendedFromComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "originalElement": "body", "rawStyles": {}, "tabletStyles": {}}], "client_scripts": [{"builder_script": "commit-styles"}, {"builder_script": "commit-reveal"}, {"builder_script": "builder_theme_toggle_css"}, {"builder_script": "builder_theme_toggle"}], "creation": "2026-06-07 18:15:55.990584", "disable_indexing": 0, "docstatus": 0, "doctype": "Builder Page", "draft_blocks": null, "dynamic_route": 0, "idx": 0, "is_standard": 0, "is_template": 1, "meta_description": "The full two-day programme of Commit '26.", "modified": "2026-06-07 18:15:56.042584", "modified_by": "Administrator", "name": "commit_schedule", "owner": "Administrator", "page_name": "commit_schedule", "page_title": "Schedule", "preview": "/builder_assets/commit/commit_schedule/preview.webp", "project_folder": null, "published": 0, "published_at": null, "route": "templates/commit/schedule", "template_group": "commit"}
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
+    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "flexWrap": "wrap",
+    "fontFamily": "Inter",
+    "width": "100%"
+   },
+   "blockId": "root",
+   "blockName": "Page",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "99f21d4d0e",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "2e4ed17f24",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "fb2fe88631",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "10b9e875e3",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "aac0c016de",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "63fb5ad48c",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "0fc1f42b82",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "eb90bb710c",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "dfed179e4b",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "38521d2ef7",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_navbar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "3bcb49ebe0",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "58364275f5",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "89246b0add",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "74d23c3c27",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "168e4a173f",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "ef2fb8616b",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "74568b3af4",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "3f56a9ff5e",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "ccacdb21de",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "664311d0b6",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_navbar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "99893715eb",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "bfc4e258cd",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "b4971ee93f",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "4e51b65ef8",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "cb76491718",
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "4271c4bf62",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "c4f4ba9b2d",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "c3fda509ec",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "2e3930437a",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "14a3dec2d9",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_navbar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c8c9b874f4",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "commit_navbar",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "15230846ee",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "commit_navbar",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "cd0ed5ccde",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "extendedFromComponent": "commit_navbar",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "overflow": "hidden",
+      "paddingBottom": "48px",
+      "paddingTop": "88px",
+      "width": "100%"
+     },
+     "blockId": "289016ba0c",
+     "blockName": "Section · Schedule Hero",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": "1140px",
+        "overflow": "hidden",
+        "paddingLeft": "28px",
+        "paddingRight": "28px",
+        "width": "100%"
+       },
+       "blockId": "f36e75fdea",
+       "blockName": "Schedule Hero Container",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "18px",
+          "overflow": "hidden"
+         },
+         "blockId": "0a3667a6b7",
+         "blockName": "Schedule Hero Stack",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "var(--c27ad2fa-eafc-4b58-aa00-73bc26490da3, #F3EEFF)",
+            "borderRadius": "100px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "9px",
+            "overflow": "hidden",
+            "paddingBottom": "7px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px",
+            "paddingTop": "7px",
+            "width": "fit-content"
+           },
+           "blockId": "c5423f04d9",
+           "blockName": "Badge",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "lineHeight": "0",
+              "overflow": "hidden"
+             },
+             "blockId": "b8b963b4a4",
+             "blockName": "Badge Sparkle",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+              "fontFamily": "Inter",
+              "fontSize": "13px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "6aefdaf496",
+             "blockName": "Badge Text",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Programme",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+            "fontFamily": "Bricolage Grotesque",
+            "fontSize": "60px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "-0.02em",
+            "lineHeight": "1.04",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "c7e4c7d6da",
+           "blockName": "Schedule Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h1",
+           "innerHTML": "Two days.<br>Zero filler.",
+           "mobileStyles": {
+            "fontSize": "38px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+            "fontFamily": "Inter",
+            "fontSize": "17px",
+            "height": "fit-content",
+            "lineHeight": "1.65",
+            "maxWidth": "560px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "cfceedea38",
+           "blockName": "Schedule Subtitle",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "One track on day one so nobody misses anything; parallel hands-on workshops on day two. All times WEST.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "overflow": "hidden",
+      "paddingBottom": "80px",
+      "width": "100%"
+     },
+     "blockId": "3efa206046",
+     "blockName": "Section · Schedule",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": "1140px",
+        "overflow": "hidden",
+        "paddingLeft": "28px",
+        "paddingRight": "28px",
+        "width": "100%"
+       },
+       "blockId": "9b7b9dd578",
+       "blockName": "Schedule Container",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "4px",
+          "marginBottom": "56px",
+          "overflow": "hidden",
+          "width": "100%"
+         },
+         "blockId": "7c095989d3",
+         "blockName": "Schedule · Day 1",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "baseline",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "14px",
+            "marginBottom": "8px",
+            "overflow": "hidden",
+            "width": "100%"
+           },
+           "blockId": "aaa32213dd",
+           "blockName": "Day 1 Head",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "WebkitBackgroundClip": "text",
+              "WebkitTextFillColor": "transparent",
+              "backgroundClip": "text",
+              "backgroundImage": "linear-gradient(120deg, var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED), var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899) 55%, var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B))",
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "30px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.02em",
+              "lineHeight": "1.04",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "d60d1b1047",
+             "blockName": "Day Title",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "h2",
+             "innerHTML": "Day 1",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+              "fontFamily": "Inter",
+              "fontSize": "14px",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "39adb14525",
+             "blockName": "Day Date",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Wednesday, Oct 15 — talks",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "7e7e21b832",
+           "blockName": "Slot · Doors, coffee & pastéi",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "0ee407f12d",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "09:00",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "4e290b717a",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "3e33523b72",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "Doors, coffee & pastéis",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "9e91cec561",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Fuel up",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "e53c361b3e",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Break",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "5366a7dfc3",
+           "blockName": "Slot · The edge is a lie (a u",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "0585ed746a",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "10:00",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "f0a7a87511",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "94c96c6e76",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "The edge is a lie (a useful one)",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "9623feb893",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Amara Chen — Vercel",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "864802ec32",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Talk",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "ef362e6ff4",
+           "blockName": "Slot · Hypermedia strikes bac",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "4e18a4998c",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "11:00",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "fa4033656f",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "a29160c97e",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "Hypermedia strikes back",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "f803dcb7eb",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Tom Okafor — htmx-ish",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "b80e3d1be5",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Talk",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "5093a918e8",
+           "blockName": "Slot · Long lunch by the rive",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "d26363c559",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "12:00",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "48f814c039",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "978b78d378",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "Long lunch by the river",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "af31f0ab14",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Seafood strongly advised",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "4e096eab10",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Break",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "cb51599677",
+           "blockName": "Slot · Animating like you mea",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "a43d4d0d90",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "14:00",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "ed46e32731",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "389bd3a25a",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "Animating like you mean it",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "7deedccf1d",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Diego Ferreira — Linear",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "0efd1c35ad",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Talk",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "6a9e1ada73",
+           "blockName": "Slot · Your tokens are showin",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "f8ab564190",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "15:00",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "6b5d5d923b",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "bf026369f6",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "Your tokens are showing",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "c8d4bb7a15",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Lena Vogel — Sentry",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "aee42ff335",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Talk",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "08e2e30ddd",
+           "blockName": "Slot · What CSS knows that yo",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "ebe409b19f",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "17:00",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "e18419ae8a",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "fa5d130ca9",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "What CSS knows that you don't",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "0afc6d3da4",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Rafael Costa — CSS WG",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "13de78d1a4",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Talk",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "2cd9baaf8c",
+           "blockName": "Slot · Afterparty at the fact",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "3d9ba0f10b",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "19:00",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "2d34e96c94",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "28e9a88373",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "Afterparty at the factory",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "1542e879a5",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Live synthwave until late",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "503fce6cce",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Break",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "4px",
+          "marginBottom": "56px",
+          "overflow": "hidden",
+          "width": "100%"
+         },
+         "blockId": "0d0c36e9da",
+         "blockName": "Schedule · Day 2",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "baseline",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "14px",
+            "marginBottom": "8px",
+            "overflow": "hidden",
+            "width": "100%"
+           },
+           "blockId": "3c402c5a96",
+           "blockName": "Day 2 Head",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "WebkitBackgroundClip": "text",
+              "WebkitTextFillColor": "transparent",
+              "backgroundClip": "text",
+              "backgroundImage": "linear-gradient(120deg, var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED), var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899) 55%, var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B))",
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "30px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.02em",
+              "lineHeight": "1.04",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "143929f0f3",
+             "blockName": "Day Title",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "h2",
+             "innerHTML": "Day 2",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+              "fontFamily": "Inter",
+              "fontSize": "14px",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "a113f09925",
+             "blockName": "Day Date",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Thursday, Oct 16 — workshops",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "e7b84e3efd",
+           "blockName": "Slot · Agents in production, ",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "16d611db18",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "09:30",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "7ded2bbfb2",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "f1443dcb21",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "Agents in production, honestly",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "b429ad08ad",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Yuki Tanaka — Supabase",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "1e26a8ebdb",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Workshop",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "25b9b99cd2",
+           "blockName": "Slot · Design systems that su",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "3deebb688c",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "09:30",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "433c8c7034",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "058024db8a",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "Design systems that survive v2",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "b372bb309a",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Diego Ferreira — Linear",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "08c1ea2580",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Workshop",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "33450c1de6",
+           "blockName": "Slot · Lunch & hallway track",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "dde71906a1",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "13:00",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "aace76bec9",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "c16641a09b",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "Lunch & hallway track",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "c943e24e7b",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "The real conference",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "361abed4d5",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Break",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "4ff463c890",
+           "blockName": "Slot · Web performance, no ex",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "8a9083fa14",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "14:00",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "bb2f4d1d7b",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "1b63b53964",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "Web performance, no excuses",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "a0a210f6cb",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Amara Chen — Vercel",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "10f9950055",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Workshop",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "bcec73ade9",
+           "blockName": "Slot · Threat-model your side",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "2ebfd87c3e",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "14:00",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "8baf1aacb7",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "3576769f53",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "Threat-model your side project",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "e3c7dd9ca6",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Lena Vogel — Sentry",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "6973d1218c",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Workshop",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderBottomColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "overflow": "hidden",
+            "paddingBottom": "18px",
+            "paddingTop": "18px",
+            "width": "100%"
+           },
+           "blockId": "84bb533d72",
+           "blockName": "Slot · Closing circle & demos",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "flexShrink": 0,
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "15px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "84px"
+             },
+             "blockId": "dcf7f51ffc",
+             "blockName": "Slot Time",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "17:30",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexBasis": "0px",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 0,
+              "gap": "2px",
+              "minWidth": "200px",
+              "overflow": "hidden"
+             },
+             "blockId": "0cbc2b9f8e",
+             "blockName": "Slot Copy",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "-0.02em",
+                "lineHeight": "1.04",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "8ebeb8b16d",
+               "blockName": "Slot Title",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "h3",
+               "innerHTML": "Closing circle & demos",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                "fontFamily": "Inter",
+                "fontSize": "13px",
+                "height": "fit-content",
+                "lineHeight": "1.65",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "aaec013e2c",
+               "blockName": "Slot Speaker",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Show what you built",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+              "borderRadius": "100px",
+              "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+              "flexShrink": 0,
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingBottom": "4px",
+              "paddingLeft": "12px",
+              "paddingRight": "12px",
+              "paddingTop": "4px",
+              "width": "fit-content"
+             },
+             "blockId": "c8abe98358",
+             "blockName": "Slot Tag",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Talk",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "10px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "c9c762ec33",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "17e72b7e2f",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "commit_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "e648049013",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "df2a9e6867",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "53f1f87899",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "d38322b661",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "cae287cea7",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "610a39530d",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "540844ef4d",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "bfebde21ce",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "fa53f52374",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "commit_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3a80a6694f",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "5d5dd1fdcc",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "990ec2fd30",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "2ef5b11a01",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "7fbab7bf47",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "85dc0c35b4",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "7db53c5a2f",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "0c169e8313",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "1d153c834a",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "111019d313",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "ee5f96086d",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "f2d8ab032e",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "commit_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "ac46635ca3",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "4b646c4cd0",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "2a2e607d33",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "91ca2308ba",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "54c788f7cb",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_footer",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "d4e61ee738",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "4065b1ef08",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "15bb889cee",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "c38e38b517",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c910c17fc3",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "e3d178e500",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "389c0acabe",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "commit_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "f39bc3dab0",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "commit_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "7c743e3526",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "extendedFromComponent": "commit_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "commit-styles"
+  },
+  {
+   "builder_script": "commit-reveal"
+  },
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  }
+ ],
+ "creation": "2026-06-07 23:31:08.462501",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "The full two-day programme of Commit '26.",
+ "modified": "2026-06-07 23:31:08.496891",
+ "modified_by": "Administrator",
+ "name": "commit_schedule",
+ "owner": "Administrator",
+ "page_name": "commit_schedule",
+ "page_title": "Schedule",
+ "preview": "/builder_assets/commit/commit_schedule/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/commit/schedule",
+ "template_group": "commit"
+}

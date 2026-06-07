@@ -1,0 +1,588 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--00a94936-7915-4016-abeb-53f2ac522789, #FFFFFF)",
+    "color": "var(--ee1c6853-3c09-4467-b661-29b74b12b5a9, #111111)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "flexWrap": "wrap",
+    "fontFamily": "Inter",
+    "width": "100%"
+   },
+   "blockId": "root",
+   "blockName": "Page",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexShrink": 0,
+      "minHeight": "100vh",
+      "overflow": "hidden",
+      "width": "100%"
+     },
+     "blockId": "9fd5e98a61",
+     "blockName": "Layout",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "cad16af43b",
+       "blockName": "Sidebar",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "bd6f075462",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "404e719b6f",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "ebc3f6c66b",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "73f3af8891",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "4c39abbe54",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verso_sidebar",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "cce5bf8fce",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "c6f52413fa",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "8a3120517c",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "57004fed13",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "57a4079403",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1550790312",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "7f1776f486",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c6162b11ac",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "60a61b8050",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "3954b68ec6",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verso_sidebar",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "7b5da1ed46",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "ce137190bf",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "ad74300fbf",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "c378d4b889",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "verso_sidebar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "1088b1eb2b",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "ea6c3d203e",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "verso_sidebar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "0367364f73",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "26548c24b8",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "verso_sidebar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "faee59d7d3",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "dafcc0a30d",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "613c955ed6",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "c1637af8ea",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "verso_sidebar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "4a82af88be",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "07ed89050b",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "71894c4ab4",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "verso_sidebar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "bbf90f83fe",
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "fcd9027896",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "verso_sidebar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "b29367df75",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "verso_sidebar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "a32bb3fbd7",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "2bad705096",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verso_sidebar",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "b98451a294",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "extendedFromComponent": "verso_sidebar",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexBasis": "0px",
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 0,
+        "gap": "0px",
+        "maxWidth": "760px",
+        "minWidth": "0px",
+        "overflow": "hidden",
+        "paddingBottom": "96px",
+        "paddingLeft": "72px",
+        "paddingRight": "72px",
+        "paddingTop": "64px"
+       },
+       "blockId": "6debfec30d",
+       "blockName": "Content",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "16px",
+          "marginBottom": "48px",
+          "overflow": "hidden"
+         },
+         "blockId": "a114792b4c",
+         "blockName": "Page Head",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8378d6f2-6bda-4be1-974a-39dd3b5e82e0, #8A8A8A)",
+            "fontFamily": "Geist Mono",
+            "fontSize": "11px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "93a090ef77",
+           "blockName": "Writing Eyebrow",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "span",
+           "innerHTML": "Writing",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--ee1c6853-3c09-4467-b661-29b74b12b5a9, #111111)",
+            "fontFamily": "Inter",
+            "fontSize": "40px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "letterSpacing": "-0.02em",
+            "lineHeight": "1.1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "bcf8626195",
+           "blockName": "Writing Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h1",
+           "innerHTML": "Notes &amp; essays.",
+           "mobileStyles": {
+            "fontSize": "30px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8378d6f2-6bda-4be1-974a-39dd3b5e82e0, #8A8A8A)",
+            "fontFamily": "Inter",
+            "fontSize": "17px",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "520px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "6a043fab45",
+           "blockName": "Writing Intro",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Occasional writing about restraint, type, and making things slowly.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "overflow": "hidden",
+          "width": "100%"
+         },
+         "blockId": "05150fbdbc",
+         "blockName": "Writing List",
+         "children": [
+          {
+           "attributes": {
+            "href": "writing"
+           },
+           "baseStyles": {
+            "alignItems": "baseline",
+            "borderTopColor": "var(--1a22ca9b-25ad-490e-b839-5c684ab432f6, #ECECEC)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "flexDirection": "row",
+            "fontSize": "16px",
+            "gap": "24px",
+            "height": "fit-content",
+            "hover:paddingLeft": "10px",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "paddingBottom": "16px",
+            "paddingTop": "16px",
+            "textDecoration": "none",
+            "transition": "padding-left 0.18s ease-out",
+            "width": "100%"
+           },
+           "blockId": "9f314f563d",
+           "blockName": "Writing Row",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8378d6f2-6bda-4be1-974a-39dd3b5e82e0, #8A8A8A)",
+              "flexShrink": 0,
+              "fontFamily": "Geist Mono",
+              "fontSize": "12px",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "92px"
+             },
+             "blockId": "b909e2e72c",
+             "blockName": "W Date",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "dynamicValues": [
+              {
+               "comesFrom": "dataScript",
+               "key": "date",
+               "property": "innerHTML",
+               "type": "key"
+              }
+             ],
+             "element": "span",
+             "innerHTML": "Date",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--ee1c6853-3c09-4467-b661-29b74b12b5a9, #111111)",
+              "flexBasis": "0px",
+              "flexGrow": 1,
+              "fontFamily": "Inter",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "0px",
+              "width": "fit-content"
+             },
+             "blockId": "607875d94d",
+             "blockName": "W Title",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "dynamicValues": [
+              {
+               "comesFrom": "dataScript",
+               "key": "title",
+               "property": "innerHTML",
+               "type": "key"
+              }
+             ],
+             "element": "h3",
+             "innerHTML": "Title",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "dataKey": {
+          "comesFrom": "dataScript",
+          "key": "writing"
+         },
+         "element": "div",
+         "isRepeaterBlock": true,
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "28px",
+        "paddingRight": "28px",
+        "paddingTop": "40px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "flexDirection": "column"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  }
+ ],
+ "creation": "2026-06-07 23:20:32.187174",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Notes and essays by Iris Kovač.",
+ "modified": "2026-06-07 23:20:32.214656",
+ "modified_by": "Administrator",
+ "name": "verso_writing",
+ "owner": "Administrator",
+ "page_data_script": "data.writing = [{'date': 'May 2026', 'title': 'On leaving whitespace alone'}, {'date': 'Mar 2026', 'title': 'The case for one typeface'}, {'date': 'Jan 2026', 'title': 'Designing in grayscale first'}, {'date': 'Nov 2025', 'title': 'A website is a room'}, {'date': 'Aug 2025', 'title': 'Notes on restraint'}]",
+ "page_name": "verso_writing",
+ "page_title": "Writing",
+ "preview": "/builder_assets/verso/verso_writing/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/verso/writing",
+ "template_group": "verso"
+}

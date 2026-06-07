@@ -11,7 +11,9 @@ sharing a set of Builder Components and Variables. Groups are bundled as fixture
 
 ## Templates
 
-Six multi-page template groups ship today (each a shared navbar/footer + theme across its pages):
+Eight multi-page template groups ship today. Each is a shared navbar/footer + theme
+across its pages, with a built-in light/dark toggle and internal links that resolve
+both in the live hub preview and on a user's own site.
 
 ### Fronds
 
@@ -20,16 +22,6 @@ An earthy multi-page starter for boutique brands.
 ![Fronds — Landing](builder_hub/www/builder_assets/fronds/fronds_landing/preview.webp)
 
 **Pages:** Landing · About · Contact
-
----
-
-### Mono
-
-A dark, bold-type portfolio for studios and freelancers.
-
-![Mono — Work](builder_hub/www/builder_assets/mono/mono_home/preview.webp)
-
-**Pages:** Work · Project (case study) · About · Contact
 
 ---
 
@@ -43,6 +35,59 @@ A crisp SaaS starter — feature grids, plan cards, and FAQs.
 
 ---
 
+### Atelier
+
+A bold studio site for agencies and freelancers — oversized type, a geometric inline-SVG
+hero, a services index, a selected-work grid, and a built-in contact form.
+
+![Atelier — Home](builder_hub/www/builder_assets/atelier/atelier_home/preview.webp)
+
+**Pages:** Home · Work · Contact
+
+---
+
+### Mono
+
+A dark, bold-type portfolio for studios and freelancers.
+
+![Mono — Home](builder_hub/www/builder_assets/mono/mono_home/preview.webp)
+
+**Pages:** Home · Project (case study) · About · Contact
+
+---
+
+### Verso
+
+An ultra-minimal personal site — a fixed left sidebar, typographic lists instead of cards,
+and a near-monochrome palette.
+
+![Verso — Home](builder_hub/www/builder_assets/verso/verso_home/preview.webp)
+
+**Pages:** Home · Work · Writing · About
+
+---
+
+### Husk
+
+An ultra-minimal, warm-toned personal site — a centered single column with a slim nav.
+
+![Husk — Home](builder_hub/www/builder_assets/husk/husk_home/preview.webp)
+
+**Pages:** Home · Work · About
+
+---
+
+### Quill
+
+A clean editorial template for blogs and publications — a featured story, a typographic
+article index, and a full reading layout with pull-quotes and an author note.
+
+![Quill — Home](builder_hub/www/builder_assets/quill/quill_home/preview.webp)
+
+**Pages:** Home · Article · About
+
+---
+
 ### Commit
 
 A vivid conference starter — animated hero with a live countdown, speaker grid, two-day
@@ -51,28 +96,6 @@ schedule, and ticket tiers. Ships with scroll-reveal and marquee client scripts.
 ![Commit — Home](builder_hub/www/builder_assets/commit/commit_home/preview.webp)
 
 **Pages:** Home · Speakers · Schedule · Tickets
-
----
-
-### Folio
-
-A warm personal portfolio for designers & makers. Repeater-driven, with hover
-micro-interactions.
-
-![Folio — Home](builder_hub/www/builder_assets/folio/folio_home/preview.webp)
-
-**Pages:** Home · Work · About · Contact
-
----
-
-### Press
-
-An editorial blog/magazine — featured story, post grid, topics, an article layout with
-related posts, and an author masthead. Repeater-driven.
-
-![Press — Home](builder_hub/www/builder_assets/press/press_home/preview.webp)
-
-**Pages:** Home · Article · Topics · About
 
 ## How it works
 

@@ -1,1 +1,2745 @@
-{"authenticated_access": 0, "blocks": [{"attributes": {}, "baseStyles": {"alignItems": "center", "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)", "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "display": "flex", "flexDirection": "column", "flexShrink": 0, "flexWrap": "wrap", "fontFamily": "Inter", "width": "100%"}, "blockId": "root", "blockName": "Page", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "10420eb33b", "blockName": "Navbar", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "b876cba5d2", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "46c0c50a3a", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "b1dd06fb60", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "73cc74f32c", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "26667aaaae", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "22102a9e9c", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "0b0828f03f", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "579f8195cd", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "eb61df1248", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "5350312fa4", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "6cf1a311d3", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "5f8fc46a4f", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "0254b14d96", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "e5b46c31fc", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "760468e059", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "9d39f13d1b", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "6a2c04a521", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "790bfd5d61", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "b50e472ce9", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "2058750ac5", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "a72150f6c7", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "5b1a0205c6", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "99a3f305e7", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "52043ed5ea", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "bad910d668", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "408f0124a0", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "02ff383018", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "d4d2803058", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "907152311b", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "2f2cfb0840", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "93e570215c", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "17b0f172ec", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "extendedFromComponent": "commit_navbar", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)", "display": "flex", "flexDirection": "column", "flexShrink": 0, "overflow": "hidden", "paddingBottom": "48px", "paddingTop": "88px", "position": "relative", "width": "100%"}, "blockId": "057881fa6d", "blockName": "Section · Tickets Hero", "children": [{"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "height": "100%", "left": "0px", "lineHeight": "0", "overflow": "hidden", "pointerEvents": "none", "position": "absolute", "top": "0px", "width": "100%"}, "blockId": "62b17463dd", "blockName": "Tickets Blobs", "children": [], "classes": [], "customAttributes": {}, "element": "div", "innerHTML": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 1200 640\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\"><defs><radialGradient id=\"cb1\"><stop offset=\"0%\" stop-color=\"#7C3AED\" stop-opacity=\"0.30\"/><stop offset=\"100%\" stop-color=\"#7C3AED\" stop-opacity=\"0\"/></radialGradient><radialGradient id=\"cb2\"><stop offset=\"0%\" stop-color=\"#EC4899\" stop-opacity=\"0.26\"/><stop offset=\"100%\" stop-color=\"#EC4899\" stop-opacity=\"0\"/></radialGradient><radialGradient id=\"cb3\"><stop offset=\"0%\" stop-color=\"#F59E0B\" stop-opacity=\"0.24\"/><stop offset=\"100%\" stop-color=\"#F59E0B\" stop-opacity=\"0\"/></radialGradient></defs><circle class=\"commit-blob\" cx=\"250\" cy=\"210\" r=\"300\" fill=\"url(#cb1)\"/><circle class=\"commit-blob-slow\" cx=\"950\" cy=\"170\" r=\"280\" fill=\"url(#cb2)\"/><circle class=\"commit-blob\" cx=\"640\" cy=\"470\" r=\"320\" fill=\"url(#cb3)\"/></svg>", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "marginLeft": "auto", "marginRight": "auto", "maxWidth": "1140px", "overflow": "hidden", "paddingLeft": "28px", "paddingRight": "28px", "width": "100%"}, "blockId": "2cc2af4a92", "blockName": "Tickets Hero Container", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "18px", "overflow": "hidden", "position": "relative", "zIndex": "1"}, "blockId": "90256c5901", "blockName": "Tickets Hero Stack", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "backgroundColor": "var(--c27ad2fa-eafc-4b58-aa00-73bc26490da3, #F3EEFF)", "borderRadius": "100px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "9px", "overflow": "hidden", "paddingBottom": "7px", "paddingLeft": "16px", "paddingRight": "16px", "paddingTop": "7px", "width": "fit-content"}, "blockId": "4e10cd6c87", "blockName": "Badge", "children": [{"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "lineHeight": "0", "overflow": "hidden"}, "blockId": "a9970484dd", "blockName": "Badge Sparkle", "children": [], "classes": [], "customAttributes": {}, "element": "div", "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "fontFamily": "Inter", "fontSize": "13px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "fit-content"}, "blockId": "45f84ef590", "blockName": "Badge Text", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Tickets", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "64px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "textAlign": "center", "width": "fit-content"}, "blockId": "22063d1259", "blockName": "Tickets Title", "children": [], "classes": [], "customAttributes": {}, "element": "h1", "innerHTML": "Pick your pass.", "mobileStyles": {"fontSize": "38px"}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "17px", "height": "fit-content", "lineHeight": "1.65", "maxWidth": "560px", "minWidth": "10px", "textAlign": "center", "width": "fit-content"}, "blockId": "69c82acba7", "blockName": "Tickets Subtitle", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Every pass includes talks, lunches, and the afterparty. Students get 40% off everything with a valid ID.", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)", "display": "flex", "flexDirection": "column", "flexShrink": 0, "overflow": "hidden", "paddingBottom": "72px", "width": "100%"}, "blockId": "2c988395a2", "blockName": "Section · Ticket Plans", "children": [{"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "marginLeft": "auto", "marginRight": "auto", "maxWidth": "1140px", "overflow": "hidden", "paddingLeft": "28px", "paddingRight": "28px", "width": "100%"}, "blockId": "560966f8c9", "blockName": "Plans Container", "children": [{"attributes": {}, "baseStyles": {"display": "grid", "flexDirection": "column", "flexShrink": 0, "gap": "22px", "gridTemplateColumns": "repeat(3, 1fr)", "overflow": "hidden", "width": "100%"}, "blockId": "25311d3d47", "blockName": "Tickets Grid", "children": [{"attributes": {}, "baseStyles": {"borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderRadius": "18px", "borderStyle": "solid", "borderWidth": "1px", "display": "flex", "flexDirection": "column", "flexShrink": 0, "overflow": "hidden", "padding": "2px", "width": "100%"}, "blockId": "92d7b68210", "blockName": "Ticket · Online", "children": [{"attributes": {}, "baseStyles": {"backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)", "borderRadius": "16px", "display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "18px", "height": "100%", "overflow": "hidden", "padding": "30px", "width": "100%"}, "blockId": "7cd312dbbd", "blockName": "Ticket Inner", "children": [{"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "6px", "overflow": "hidden"}, "blockId": "5c8f14b39f", "blockName": "Ticket Head", "children": [{"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "14px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "fit-content"}, "blockId": "8a16408391", "blockName": "Ticket Name", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Online", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "baseline", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "6px", "overflow": "hidden"}, "blockId": "e13fa2d184", "blockName": "Ticket Price Row", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "44px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "cb6efd5478", "blockName": "Ticket Price", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "€49", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "14px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "9a11bffab7", "blockName": "Ticket Period", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "/ person", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "14px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "b14ed2f0ad", "blockName": "Ticket Blurb", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Every talk, live and on demand.", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {"href": "#"}, "baseStyles": {"alignItems": "center", "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)", "borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderRadius": "100px", "borderStyle": "solid", "borderWidth": "1px", "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "cursor": "pointer", "display": "inline-flex", "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "justifyContent": "center", "lineHeight": "1.4", "marginTop": "8px", "minWidth": "10px", "paddingBottom": "12px", "paddingLeft": "26px", "paddingRight": "26px", "paddingTop": "12px", "textAlign": "center", "textDecoration": "none", "width": "100%"}, "blockId": "d666c94532", "blockName": "Ticket CTA", "children": [], "classes": [], "customAttributes": {}, "element": "a", "innerHTML": "Get online pass", "mobileStyles": {}, "rawStyles": {"hover:borderColor": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "transition": "border-color 0.15s ease-out"}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "11px", "marginTop": "10px", "overflow": "hidden"}, "blockId": "64aeb577dc", "blockName": "Ticket Features", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "10px", "overflow": "hidden"}, "blockId": "0a74db9234", "blockName": "Feature · Live stream of all", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "display": "inline-flex", "flexShrink": 0, "fontSize": "16px", "height": "fit-content", "justifyContent": "center", "lineHeight": "0", "minWidth": "0px", "width": "fit-content"}, "blockId": "0ea5336253", "blockName": "Check", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "e771931c1a", "blockName": "Feature Text", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Live stream of all talks", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "10px", "overflow": "hidden"}, "blockId": "97f3dc07d9", "blockName": "Feature · Recordings the sam", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "display": "inline-flex", "flexShrink": 0, "fontSize": "16px", "height": "fit-content", "justifyContent": "center", "lineHeight": "0", "minWidth": "0px", "width": "fit-content"}, "blockId": "863a2e05f4", "blockName": "Check", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "3b11c38bb8", "blockName": "Feature Text", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Recordings the same week", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "10px", "overflow": "hidden"}, "blockId": "7fc3503a7b", "blockName": "Feature · Discord hallway tr", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "display": "inline-flex", "flexShrink": 0, "fontSize": "16px", "height": "fit-content", "justifyContent": "center", "lineHeight": "0", "minWidth": "0px", "width": "fit-content"}, "blockId": "4dd20ed42e", "blockName": "Check", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "53eb243607", "blockName": "Feature Text", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Discord hallway track", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"backgroundImage": "linear-gradient(160deg, var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED), var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899) 55%, var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B))", "borderRadius": "18px", "boxShadow": "0px 22px 44px -22px rgba(124, 58, 237, 0.45)", "display": "flex", "flexDirection": "column", "flexShrink": 0, "overflow": "hidden", "padding": "2px", "width": "100%"}, "blockId": "6a1e5306a4", "blockName": "Ticket · Conference", "children": [{"attributes": {}, "baseStyles": {"backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)", "borderRadius": "16px", "display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "18px", "height": "100%", "overflow": "hidden", "padding": "30px", "width": "100%"}, "blockId": "a6ff52a110", "blockName": "Ticket Inner", "children": [{"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "6px", "overflow": "hidden"}, "blockId": "cdf9f93f07", "blockName": "Ticket Head", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "fontFamily": "Inter", "fontSize": "14px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "fit-content"}, "blockId": "40fe49a838", "blockName": "Ticket Name", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Conference", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "baseline", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "6px", "overflow": "hidden"}, "blockId": "458e0d4923", "blockName": "Ticket Price Row", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "44px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "84c6d84a4f", "blockName": "Ticket Price", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "€179", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "14px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "954fcd0c10", "blockName": "Ticket Period", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "/ person", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "14px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "4d7e1a2c99", "blockName": "Ticket Blurb", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "The full two days in Lisbon.", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {"href": "#"}, "baseStyles": {"alignItems": "center", "backgroundImage": "linear-gradient(120deg, var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED), var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899) 55%, var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B))", "borderRadius": "100px", "color": "var(--2eb068f1-8ea4-4a60-8bbd-ac9cfd1fa2da, #FFFFFF)", "cursor": "pointer", "display": "inline-flex", "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "justifyContent": "center", "lineHeight": "1.4", "marginTop": "8px", "minWidth": "10px", "paddingBottom": "13px", "paddingLeft": "28px", "paddingRight": "28px", "paddingTop": "13px", "textAlign": "center", "textDecoration": "none", "width": "100%"}, "blockId": "78fd6f9643", "blockName": "Ticket CTA", "children": [], "classes": [], "customAttributes": {}, "element": "a", "innerHTML": "Get conference pass", "mobileStyles": {}, "rawStyles": {"hover:opacity": "0.88", "transition": "opacity 0.15s ease-out"}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "11px", "marginTop": "10px", "overflow": "hidden"}, "blockId": "41d3b45b7e", "blockName": "Ticket Features", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "10px", "overflow": "hidden"}, "blockId": "354117de57", "blockName": "Feature · All talks, day one", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "display": "inline-flex", "flexShrink": 0, "fontSize": "16px", "height": "fit-content", "justifyContent": "center", "lineHeight": "0", "minWidth": "0px", "width": "fit-content"}, "blockId": "50dd61fe08", "blockName": "Check", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "d122343787", "blockName": "Feature Text", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "All talks, day one", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "10px", "overflow": "hidden"}, "blockId": "37d748396a", "blockName": "Feature · Workshops, day two", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "display": "inline-flex", "flexShrink": 0, "fontSize": "16px", "height": "fit-content", "justifyContent": "center", "lineHeight": "0", "minWidth": "0px", "width": "fit-content"}, "blockId": "6798391867", "blockName": "Check", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "ce8ac2c9d1", "blockName": "Feature Text", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Workshops, day two", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "10px", "overflow": "hidden"}, "blockId": "6558f54885", "blockName": "Feature · Lunches & coffee", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "display": "inline-flex", "flexShrink": 0, "fontSize": "16px", "height": "fit-content", "justifyContent": "center", "lineHeight": "0", "minWidth": "0px", "width": "fit-content"}, "blockId": "98c6fa325d", "blockName": "Check", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "9d950f64db", "blockName": "Feature Text", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Lunches & coffee", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "10px", "overflow": "hidden"}, "blockId": "ab26239c0e", "blockName": "Feature · The afterparty", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "display": "inline-flex", "flexShrink": 0, "fontSize": "16px", "height": "fit-content", "justifyContent": "center", "lineHeight": "0", "minWidth": "0px", "width": "fit-content"}, "blockId": "18d4ea0179", "blockName": "Check", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "dcfe0c8ac0", "blockName": "Feature Text", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "The afterparty", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderRadius": "18px", "borderStyle": "solid", "borderWidth": "1px", "display": "flex", "flexDirection": "column", "flexShrink": 0, "overflow": "hidden", "padding": "2px", "width": "100%"}, "blockId": "c4a322ca62", "blockName": "Ticket · All-access", "children": [{"attributes": {}, "baseStyles": {"backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)", "borderRadius": "16px", "display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "18px", "height": "100%", "overflow": "hidden", "padding": "30px", "width": "100%"}, "blockId": "d34f1aed83", "blockName": "Ticket Inner", "children": [{"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "6px", "overflow": "hidden"}, "blockId": "f380dee604", "blockName": "Ticket Head", "children": [{"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "14px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "fit-content"}, "blockId": "1b51e0f037", "blockName": "Ticket Name", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "All-access", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "baseline", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "6px", "overflow": "hidden"}, "blockId": "8c01d6e515", "blockName": "Ticket Price Row", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "44px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "6bef4d29d7", "blockName": "Ticket Price", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "€299", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "14px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "bcfadc64be", "blockName": "Ticket Period", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "/ person", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "14px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "4754026113", "blockName": "Ticket Blurb", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Conference plus the extras.", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {"href": "#"}, "baseStyles": {"alignItems": "center", "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)", "borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderRadius": "100px", "borderStyle": "solid", "borderWidth": "1px", "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "cursor": "pointer", "display": "inline-flex", "fontFamily": "Bricolage Grotesque", "fontSize": "15px", "fontWeight": "700", "height": "fit-content", "justifyContent": "center", "lineHeight": "1.4", "marginTop": "8px", "minWidth": "10px", "paddingBottom": "12px", "paddingLeft": "26px", "paddingRight": "26px", "paddingTop": "12px", "textAlign": "center", "textDecoration": "none", "width": "100%"}, "blockId": "ffb0b64f07", "blockName": "Ticket CTA", "children": [], "classes": [], "customAttributes": {}, "element": "a", "innerHTML": "Get all-access", "mobileStyles": {}, "rawStyles": {"hover:borderColor": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "transition": "border-color 0.15s ease-out"}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "11px", "marginTop": "10px", "overflow": "hidden"}, "blockId": "3612cbafec", "blockName": "Ticket Features", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "10px", "overflow": "hidden"}, "blockId": "3fabcf405f", "blockName": "Feature · Everything in Conf", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "display": "inline-flex", "flexShrink": 0, "fontSize": "16px", "height": "fit-content", "justifyContent": "center", "lineHeight": "0", "minWidth": "0px", "width": "fit-content"}, "blockId": "75f0175308", "blockName": "Check", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "bfd5d76ae3", "blockName": "Feature Text", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Everything in Conference", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "10px", "overflow": "hidden"}, "blockId": "9b96ed867b", "blockName": "Feature · Speaker dinner inv", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "display": "inline-flex", "flexShrink": 0, "fontSize": "16px", "height": "fit-content", "justifyContent": "center", "lineHeight": "0", "minWidth": "0px", "width": "fit-content"}, "blockId": "9180bb1957", "blockName": "Check", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "7940a8b501", "blockName": "Feature Text", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Speaker dinner invite", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "10px", "overflow": "hidden"}, "blockId": "b9865ef321", "blockName": "Feature · Recorded workshop ", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "display": "inline-flex", "flexShrink": 0, "fontSize": "16px", "height": "fit-content", "justifyContent": "center", "lineHeight": "0", "minWidth": "0px", "width": "fit-content"}, "blockId": "00977f6b6d", "blockName": "Check", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "d651963aa2", "blockName": "Feature Text", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Recorded workshop library", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "10px", "overflow": "hidden"}, "blockId": "653aeebdbf", "blockName": "Feature · '27 priority + 20%", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "display": "inline-flex", "flexShrink": 0, "fontSize": "16px", "height": "fit-content", "justifyContent": "center", "lineHeight": "0", "minWidth": "0px", "width": "fit-content"}, "blockId": "229664508d", "blockName": "Check", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "minWidth": "10px", "width": "fit-content"}, "blockId": "3627e872dd", "blockName": "Feature Text", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "'27 priority + 20% off", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {"data-reveal": ""}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {"gridTemplateColumns": "1fr"}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"alignItems": "center", "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)", "display": "flex", "flexDirection": "column", "flexShrink": 0, "overflow": "hidden", "paddingBottom": "88px", "paddingTop": "72px", "width": "100%"}, "blockId": "624274a433", "blockName": "Section · Tickets FAQ", "children": [{"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "marginLeft": "auto", "marginRight": "auto", "maxWidth": "1140px", "overflow": "hidden", "paddingLeft": "28px", "paddingRight": "28px", "width": "100%"}, "blockId": "ebe68507ed", "blockName": "FAQ Container", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "16px", "marginBottom": "32px", "marginLeft": "auto", "marginRight": "auto", "maxWidth": "680px", "overflow": "hidden"}, "blockId": "1ece9acb9a", "blockName": "Section Head", "children": [{"attributes": {}, "baseStyles": {"alignItems": "center", "backgroundColor": "var(--c27ad2fa-eafc-4b58-aa00-73bc26490da3, #F3EEFF)", "borderRadius": "100px", "display": "flex", "flexDirection": "row", "flexShrink": 0, "gap": "9px", "overflow": "hidden", "paddingBottom": "7px", "paddingLeft": "16px", "paddingRight": "16px", "paddingTop": "7px", "textAlign": "center", "width": "fit-content"}, "blockId": "1479992189", "blockName": "Badge", "children": [{"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "lineHeight": "0", "overflow": "hidden"}, "blockId": "0c2547d6bb", "blockName": "Badge Sparkle", "children": [], "classes": [], "customAttributes": {}, "element": "div", "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)", "fontFamily": "Inter", "fontSize": "13px", "fontWeight": "600", "height": "fit-content", "lineHeight": "1.4", "minWidth": "10px", "width": "fit-content"}, "blockId": "cec3c9baab", "blockName": "Badge Text", "children": [], "classes": [], "customAttributes": {}, "element": "span", "innerHTML": "Good to know", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "42px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "textAlign": "center", "width": "fit-content"}, "blockId": "2ab2fc1d9b", "blockName": "Section Title", "children": [], "classes": [], "customAttributes": {}, "element": "h2", "innerHTML": "Tickets, small print.", "mobileStyles": {"fontSize": "30px"}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"display": "flex", "flexDirection": "column", "flexShrink": 0, "marginLeft": "auto", "marginRight": "auto", "maxWidth": "740px", "overflow": "hidden", "width": "100%"}, "blockId": "f7a18302bb", "blockName": "FAQ List", "children": [{"attributes": {}, "baseStyles": {"borderTopColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderTopStyle": "solid", "borderTopWidth": "1px", "display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "8px", "overflow": "hidden", "paddingBottom": "22px", "paddingTop": "22px"}, "blockId": "8a2360b3ce", "blockName": "FAQ · Can my company pay by in", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "97bafbf030", "blockName": "FAQ Question", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Can my company pay by invoice?", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "maxWidth": "700px", "minWidth": "10px", "width": "fit-content"}, "blockId": "423cb41edf", "blockName": "FAQ Answer", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Yes — pick five or more passes and we'll send a proper invoice with all the boring fields your finance team loves.", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"borderTopColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderTopStyle": "solid", "borderTopWidth": "1px", "display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "8px", "overflow": "hidden", "paddingBottom": "22px", "paddingTop": "22px"}, "blockId": "21ec142254", "blockName": "FAQ · What's the refund policy", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "d36110e775", "blockName": "FAQ Question", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "What's the refund policy?", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "maxWidth": "700px", "minWidth": "10px", "width": "fit-content"}, "blockId": "144fb8f7b0", "blockName": "FAQ Answer", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Full refund until September 15, or transfer your ticket to a teammate anytime — even the morning of.", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"borderTopColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)", "borderTopStyle": "solid", "borderTopWidth": "1px", "display": "flex", "flexDirection": "column", "flexShrink": 0, "gap": "8px", "overflow": "hidden", "paddingBottom": "22px", "paddingTop": "22px"}, "blockId": "b7a271e4ba", "blockName": "FAQ · Are workshops included?", "children": [{"attributes": {}, "baseStyles": {"color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)", "fontFamily": "Bricolage Grotesque", "fontSize": "17px", "fontWeight": "700", "height": "fit-content", "letterSpacing": "-0.02em", "lineHeight": "1.04", "minWidth": "10px", "width": "fit-content"}, "blockId": "23c7326bf3", "blockName": "FAQ Question", "children": [], "classes": [], "customAttributes": {}, "element": "h3", "innerHTML": "Are workshops included?", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {"color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)", "fontFamily": "Inter", "fontSize": "15px", "height": "fit-content", "lineHeight": "1.65", "maxWidth": "700px", "minWidth": "10px", "width": "fit-content"}, "blockId": "ed6f514691", "blockName": "FAQ Answer", "children": [], "classes": [], "customAttributes": {}, "element": "p", "innerHTML": "Day-two workshops are included in Conference and All-access passes. Seats are first-come, capped at 30 per room.", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "87e74702d7", "blockName": "Footer", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "f16eb608b1", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "ca0998d009", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "23740750da", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "14d501654f", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "508def03fc", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "10ca716567", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "2700767926", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "475e7f2099", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "169c21c81d", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "f8f6ce220f", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "19522dcec8", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "2c65c4af6d", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "aea337514b", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "09a7321146", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "20434af8c9", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "ce2aeb2651", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "f20f87a201", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "0c222b0c44", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "9f206a360f", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "bd61547c80", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "ca46d7c137", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "50ace3c37a", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "55c11f9175", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "0ff77f6aa8", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "9eb3294b2e", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "f15a2976b9", "children": [{"attributes": {}, "baseStyles": {}, "blockId": "5a7c9648e4", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "4ab2697e94", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "6e06d5841e", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "b2c9d17d76", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "4076c5fd9f", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "d106b35b8a", "tabletStyles": {}}, {"attributes": {}, "baseStyles": {}, "blockId": "3cd7d541fe", "children": [], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "9c56d3e96d", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "5ba8ad5990", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "isChildOfComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "referenceBlockId": "c5082b3bf0", "tabletStyles": {}}], "classes": [], "customAttributes": {}, "extendedFromComponent": "commit_footer", "mobileStyles": {}, "rawStyles": {}, "tabletStyles": {}}], "classes": [], "customAttributes": {}, "element": "div", "mobileStyles": {}, "originalElement": "body", "rawStyles": {}, "tabletStyles": {}}], "client_scripts": [{"builder_script": "commit-styles"}, {"builder_script": "commit-reveal"}, {"builder_script": "builder_theme_toggle_css"}, {"builder_script": "builder_theme_toggle"}], "creation": "2026-06-07 18:15:56.115169", "disable_indexing": 0, "docstatus": 0, "doctype": "Builder Page", "draft_blocks": null, "dynamic_route": 0, "idx": 0, "is_standard": 0, "is_template": 1, "meta_description": "Passes for Commit '26 — online, conference, and all-access.", "modified": "2026-06-07 18:15:56.160293", "modified_by": "Administrator", "name": "commit_tickets", "owner": "Administrator", "page_name": "commit_tickets", "page_title": "Tickets", "preview": "/builder_assets/commit/commit_tickets/preview.webp", "project_folder": null, "published": 0, "published_at": null, "route": "templates/commit/tickets", "template_group": "commit"}
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
+    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "flexWrap": "wrap",
+    "fontFamily": "Inter",
+    "width": "100%"
+   },
+   "blockId": "root",
+   "blockName": "Page",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "2fdbcc6129",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "ae5994aa4f",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "6c497f8d15",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "09da059821",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "f200486b6c",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "b82cd82cac",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "0fc1f42b82",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "eb90bb710c",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "af5314af33",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "38521d2ef7",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_navbar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "3bcb49ebe0",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "c38425625e",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "c5a1c7da15",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "74d23c3c27",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "7f4262f525",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "ef2fb8616b",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "8e0f66dab8",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "3f56a9ff5e",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "a90fb1391f",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "664311d0b6",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_navbar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "99893715eb",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "fe044a2f49",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "0cb3babcab",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "afc60bb311",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "cb76491718",
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "e788b04ddf",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_navbar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "c4f4ba9b2d",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "c3fda509ec",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "d4378c7950",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_navbar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "14a3dec2d9",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_navbar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c8c9b874f4",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "commit_navbar",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "15230846ee",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "commit_navbar",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "cd0ed5ccde",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "extendedFromComponent": "commit_navbar",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "overflow": "hidden",
+      "paddingBottom": "48px",
+      "paddingTop": "88px",
+      "position": "relative",
+      "width": "100%"
+     },
+     "blockId": "ea486e4843",
+     "blockName": "Section · Tickets Hero",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "height": "100%",
+        "left": "0px",
+        "lineHeight": "0",
+        "overflow": "hidden",
+        "pointerEvents": "none",
+        "position": "absolute",
+        "top": "0px",
+        "width": "100%"
+       },
+       "blockId": "26a35608fd",
+       "blockName": "Tickets Blobs",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "innerHTML": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 1200 640\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\"><defs><radialGradient id=\"cb1\"><stop offset=\"0%\" stop-color=\"#7C3AED\" stop-opacity=\"0.30\"/><stop offset=\"100%\" stop-color=\"#7C3AED\" stop-opacity=\"0\"/></radialGradient><radialGradient id=\"cb2\"><stop offset=\"0%\" stop-color=\"#EC4899\" stop-opacity=\"0.26\"/><stop offset=\"100%\" stop-color=\"#EC4899\" stop-opacity=\"0\"/></radialGradient><radialGradient id=\"cb3\"><stop offset=\"0%\" stop-color=\"#F59E0B\" stop-opacity=\"0.24\"/><stop offset=\"100%\" stop-color=\"#F59E0B\" stop-opacity=\"0\"/></radialGradient></defs><circle class=\"commit-blob\" cx=\"250\" cy=\"210\" r=\"300\" fill=\"url(#cb1)\"/><circle class=\"commit-blob-slow\" cx=\"950\" cy=\"170\" r=\"280\" fill=\"url(#cb2)\"/><circle class=\"commit-blob\" cx=\"640\" cy=\"470\" r=\"320\" fill=\"url(#cb3)\"/></svg>",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": "1140px",
+        "overflow": "hidden",
+        "paddingLeft": "28px",
+        "paddingRight": "28px",
+        "width": "100%"
+       },
+       "blockId": "dfd80b31ef",
+       "blockName": "Tickets Hero Container",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "18px",
+          "overflow": "hidden",
+          "position": "relative",
+          "zIndex": "1"
+         },
+         "blockId": "94e5f82b99",
+         "blockName": "Tickets Hero Stack",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "var(--c27ad2fa-eafc-4b58-aa00-73bc26490da3, #F3EEFF)",
+            "borderRadius": "100px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "9px",
+            "overflow": "hidden",
+            "paddingBottom": "7px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px",
+            "paddingTop": "7px",
+            "width": "fit-content"
+           },
+           "blockId": "e7ad179211",
+           "blockName": "Badge",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "lineHeight": "0",
+              "overflow": "hidden"
+             },
+             "blockId": "44f91c8d7b",
+             "blockName": "Badge Sparkle",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+              "fontFamily": "Inter",
+              "fontSize": "13px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "c504434d42",
+             "blockName": "Badge Text",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Tickets",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+            "fontFamily": "Bricolage Grotesque",
+            "fontSize": "64px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "-0.02em",
+            "lineHeight": "1.04",
+            "minWidth": "10px",
+            "textAlign": "center",
+            "width": "fit-content"
+           },
+           "blockId": "3930dc9cec",
+           "blockName": "Tickets Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h1",
+           "innerHTML": "Pick your pass.",
+           "mobileStyles": {
+            "fontSize": "38px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+            "fontFamily": "Inter",
+            "fontSize": "17px",
+            "height": "fit-content",
+            "lineHeight": "1.65",
+            "maxWidth": "560px",
+            "minWidth": "10px",
+            "textAlign": "center",
+            "width": "fit-content"
+           },
+           "blockId": "4bc4a95fc9",
+           "blockName": "Tickets Subtitle",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Every pass includes talks, lunches, and the afterparty. Students get 40% off everything with a valid ID.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "overflow": "hidden",
+      "paddingBottom": "72px",
+      "width": "100%"
+     },
+     "blockId": "3be503e0b3",
+     "blockName": "Section · Ticket Plans",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": "1140px",
+        "overflow": "hidden",
+        "paddingLeft": "28px",
+        "paddingRight": "28px",
+        "width": "100%"
+       },
+       "blockId": "7952dbde9d",
+       "blockName": "Plans Container",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "grid",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "22px",
+          "gridTemplateColumns": "repeat(3, 1fr)",
+          "overflow": "hidden",
+          "width": "100%"
+         },
+         "blockId": "06cff81aa9",
+         "blockName": "Tickets Grid",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderRadius": "18px",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "overflow": "hidden",
+            "padding": "2px",
+            "width": "100%"
+           },
+           "blockId": "b8c4560334",
+           "blockName": "Ticket · Online",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
+              "borderRadius": "16px",
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "gap": "18px",
+              "height": "100%",
+              "overflow": "hidden",
+              "padding": "30px",
+              "width": "100%"
+             },
+             "blockId": "998ec1134a",
+             "blockName": "Ticket Inner",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "gap": "6px",
+                "overflow": "hidden"
+               },
+               "blockId": "d0712d4d2b",
+               "blockName": "Ticket Head",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                  "fontFamily": "Inter",
+                  "fontSize": "14px",
+                  "fontWeight": "600",
+                  "height": "fit-content",
+                  "lineHeight": "1.4",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "967c523ab9",
+                 "blockName": "Ticket Name",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "span",
+                 "innerHTML": "Online",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "baseline",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "6px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "b82c7a06dc",
+                 "blockName": "Ticket Price Row",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Bricolage Grotesque",
+                    "fontSize": "44px",
+                    "fontWeight": "700",
+                    "height": "fit-content",
+                    "letterSpacing": "-0.02em",
+                    "lineHeight": "1.04",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "baedaabee7",
+                   "blockName": "Ticket Price",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "h3",
+                   "innerHTML": "€49",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                    "fontFamily": "Inter",
+                    "fontSize": "14px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "e28dc2a75a",
+                   "blockName": "Ticket Period",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "/ person",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                  "fontFamily": "Inter",
+                  "fontSize": "14px",
+                  "height": "fit-content",
+                  "lineHeight": "1.65",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "597786c0fe",
+                 "blockName": "Ticket Blurb",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Every talk, live and on demand.",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {
+                "href": "#"
+               },
+               "baseStyles": {
+                "alignItems": "center",
+                "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
+                "borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+                "borderRadius": "100px",
+                "borderStyle": "solid",
+                "borderWidth": "1px",
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "cursor": "pointer",
+                "display": "inline-flex",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "15px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "justifyContent": "center",
+                "lineHeight": "1.4",
+                "marginTop": "8px",
+                "minWidth": "10px",
+                "paddingBottom": "12px",
+                "paddingLeft": "26px",
+                "paddingRight": "26px",
+                "paddingTop": "12px",
+                "textAlign": "center",
+                "textDecoration": "none",
+                "width": "100%"
+               },
+               "blockId": "feb853966f",
+               "blockName": "Ticket CTA",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "a",
+               "innerHTML": "Get online pass",
+               "mobileStyles": {},
+               "rawStyles": {
+                "hover:borderColor": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                "transition": "border-color 0.15s ease-out"
+               },
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "gap": "11px",
+                "marginTop": "10px",
+                "overflow": "hidden"
+               },
+               "blockId": "57fa803c13",
+               "blockName": "Ticket Features",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "6ed141e57a",
+                 "blockName": "Feature · Live stream of all",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "alignItems": "center",
+                    "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                    "display": "inline-flex",
+                    "flexShrink": 0,
+                    "fontSize": "16px",
+                    "height": "fit-content",
+                    "justifyContent": "center",
+                    "lineHeight": "0",
+                    "minWidth": "0px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "3f55a6df41",
+                   "blockName": "Check",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "span",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Inter",
+                    "fontSize": "15px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "a93d08d652",
+                   "blockName": "Feature Text",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Live stream of all talks",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "f8e3817beb",
+                 "blockName": "Feature · Recordings the sam",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "alignItems": "center",
+                    "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                    "display": "inline-flex",
+                    "flexShrink": 0,
+                    "fontSize": "16px",
+                    "height": "fit-content",
+                    "justifyContent": "center",
+                    "lineHeight": "0",
+                    "minWidth": "0px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "b539c40905",
+                   "blockName": "Check",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "span",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Inter",
+                    "fontSize": "15px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "3263cf525a",
+                   "blockName": "Feature Text",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Recordings the same week",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "bdc2847e87",
+                 "blockName": "Feature · Discord hallway tr",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "alignItems": "center",
+                    "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                    "display": "inline-flex",
+                    "flexShrink": 0,
+                    "fontSize": "16px",
+                    "height": "fit-content",
+                    "justifyContent": "center",
+                    "lineHeight": "0",
+                    "minWidth": "0px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "cd148d5fa4",
+                   "blockName": "Check",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "span",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Inter",
+                    "fontSize": "15px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "f91598c5cc",
+                   "blockName": "Feature Text",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Discord hallway track",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundImage": "linear-gradient(160deg, var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED), var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899) 55%, var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B))",
+            "borderRadius": "18px",
+            "boxShadow": "0px 22px 44px -22px rgba(124, 58, 237, 0.45)",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "overflow": "hidden",
+            "padding": "2px",
+            "width": "100%"
+           },
+           "blockId": "9f365159a2",
+           "blockName": "Ticket · Conference",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
+              "borderRadius": "16px",
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "gap": "18px",
+              "height": "100%",
+              "overflow": "hidden",
+              "padding": "30px",
+              "width": "100%"
+             },
+             "blockId": "9b6371ae32",
+             "blockName": "Ticket Inner",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "gap": "6px",
+                "overflow": "hidden"
+               },
+               "blockId": "c3f3fc6738",
+               "blockName": "Ticket Head",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                  "fontFamily": "Inter",
+                  "fontSize": "14px",
+                  "fontWeight": "600",
+                  "height": "fit-content",
+                  "lineHeight": "1.4",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "4718511943",
+                 "blockName": "Ticket Name",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "span",
+                 "innerHTML": "Conference",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "baseline",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "6px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "14aaf4d4d6",
+                 "blockName": "Ticket Price Row",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Bricolage Grotesque",
+                    "fontSize": "44px",
+                    "fontWeight": "700",
+                    "height": "fit-content",
+                    "letterSpacing": "-0.02em",
+                    "lineHeight": "1.04",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "ffe5f57ee4",
+                   "blockName": "Ticket Price",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "h3",
+                   "innerHTML": "€179",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                    "fontFamily": "Inter",
+                    "fontSize": "14px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "b3a31ce9b7",
+                   "blockName": "Ticket Period",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "/ person",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                  "fontFamily": "Inter",
+                  "fontSize": "14px",
+                  "height": "fit-content",
+                  "lineHeight": "1.65",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "4f0cfdc79f",
+                 "blockName": "Ticket Blurb",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "The full two days in Lisbon.",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {
+                "href": "#"
+               },
+               "baseStyles": {
+                "alignItems": "center",
+                "backgroundImage": "linear-gradient(120deg, var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED), var(--69306d8f-f2c5-4bf7-a718-365e0c080d43, #EC4899) 55%, var(--a34bd78b-a6a0-4557-9719-bb690c69cf89, #F59E0B))",
+                "borderRadius": "100px",
+                "color": "var(--2eb068f1-8ea4-4a60-8bbd-ac9cfd1fa2da, #FFFFFF)",
+                "cursor": "pointer",
+                "display": "inline-flex",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "15px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "justifyContent": "center",
+                "lineHeight": "1.4",
+                "marginTop": "8px",
+                "minWidth": "10px",
+                "paddingBottom": "13px",
+                "paddingLeft": "28px",
+                "paddingRight": "28px",
+                "paddingTop": "13px",
+                "textAlign": "center",
+                "textDecoration": "none",
+                "width": "100%"
+               },
+               "blockId": "3a0f4c4019",
+               "blockName": "Ticket CTA",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "a",
+               "innerHTML": "Get conference pass",
+               "mobileStyles": {},
+               "rawStyles": {
+                "hover:opacity": "0.88",
+                "transition": "opacity 0.15s ease-out"
+               },
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "gap": "11px",
+                "marginTop": "10px",
+                "overflow": "hidden"
+               },
+               "blockId": "cb5a9bed2a",
+               "blockName": "Ticket Features",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "c4057e4458",
+                 "blockName": "Feature · All talks, day one",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "alignItems": "center",
+                    "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                    "display": "inline-flex",
+                    "flexShrink": 0,
+                    "fontSize": "16px",
+                    "height": "fit-content",
+                    "justifyContent": "center",
+                    "lineHeight": "0",
+                    "minWidth": "0px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "47304dd3be",
+                   "blockName": "Check",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "span",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Inter",
+                    "fontSize": "15px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "2e007c93e0",
+                   "blockName": "Feature Text",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "All talks, day one",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "767fb59f12",
+                 "blockName": "Feature · Workshops, day two",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "alignItems": "center",
+                    "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                    "display": "inline-flex",
+                    "flexShrink": 0,
+                    "fontSize": "16px",
+                    "height": "fit-content",
+                    "justifyContent": "center",
+                    "lineHeight": "0",
+                    "minWidth": "0px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "f68fa8f1fc",
+                   "blockName": "Check",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "span",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Inter",
+                    "fontSize": "15px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "88db6a37e1",
+                   "blockName": "Feature Text",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Workshops, day two",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "9b13ea4202",
+                 "blockName": "Feature · Lunches & coffee",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "alignItems": "center",
+                    "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                    "display": "inline-flex",
+                    "flexShrink": 0,
+                    "fontSize": "16px",
+                    "height": "fit-content",
+                    "justifyContent": "center",
+                    "lineHeight": "0",
+                    "minWidth": "0px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "bfb9e21c64",
+                   "blockName": "Check",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "span",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Inter",
+                    "fontSize": "15px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "cd6b729893",
+                   "blockName": "Feature Text",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Lunches & coffee",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "75381119c6",
+                 "blockName": "Feature · The afterparty",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "alignItems": "center",
+                    "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                    "display": "inline-flex",
+                    "flexShrink": 0,
+                    "fontSize": "16px",
+                    "height": "fit-content",
+                    "justifyContent": "center",
+                    "lineHeight": "0",
+                    "minWidth": "0px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "cadb4b9c8b",
+                   "blockName": "Check",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "span",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Inter",
+                    "fontSize": "15px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "08ce26ca3f",
+                   "blockName": "Feature Text",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "The afterparty",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderRadius": "18px",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "overflow": "hidden",
+            "padding": "2px",
+            "width": "100%"
+           },
+           "blockId": "8c15b4ae9c",
+           "blockName": "Ticket · All-access",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
+              "borderRadius": "16px",
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "gap": "18px",
+              "height": "100%",
+              "overflow": "hidden",
+              "padding": "30px",
+              "width": "100%"
+             },
+             "blockId": "df0f1baaf2",
+             "blockName": "Ticket Inner",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "gap": "6px",
+                "overflow": "hidden"
+               },
+               "blockId": "d17f3f7e73",
+               "blockName": "Ticket Head",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                  "fontFamily": "Inter",
+                  "fontSize": "14px",
+                  "fontWeight": "600",
+                  "height": "fit-content",
+                  "lineHeight": "1.4",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "3736bc8d59",
+                 "blockName": "Ticket Name",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "span",
+                 "innerHTML": "All-access",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "baseline",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "6px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "4d742ab1f1",
+                 "blockName": "Ticket Price Row",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Bricolage Grotesque",
+                    "fontSize": "44px",
+                    "fontWeight": "700",
+                    "height": "fit-content",
+                    "letterSpacing": "-0.02em",
+                    "lineHeight": "1.04",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "d6870a1c23",
+                   "blockName": "Ticket Price",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "h3",
+                   "innerHTML": "€299",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                    "fontFamily": "Inter",
+                    "fontSize": "14px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "d2e4ad88e7",
+                   "blockName": "Ticket Period",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "/ person",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+                  "fontFamily": "Inter",
+                  "fontSize": "14px",
+                  "height": "fit-content",
+                  "lineHeight": "1.65",
+                  "minWidth": "10px",
+                  "width": "fit-content"
+                 },
+                 "blockId": "773ba51003",
+                 "blockName": "Ticket Blurb",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "p",
+                 "innerHTML": "Conference plus the extras.",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {
+                "href": "#"
+               },
+               "baseStyles": {
+                "alignItems": "center",
+                "backgroundColor": "var(--e28e41dc-b70d-444d-809f-2c7c8c233304, #FFFFFF)",
+                "borderColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+                "borderRadius": "100px",
+                "borderStyle": "solid",
+                "borderWidth": "1px",
+                "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                "cursor": "pointer",
+                "display": "inline-flex",
+                "fontFamily": "Bricolage Grotesque",
+                "fontSize": "15px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "justifyContent": "center",
+                "lineHeight": "1.4",
+                "marginTop": "8px",
+                "minWidth": "10px",
+                "paddingBottom": "12px",
+                "paddingLeft": "26px",
+                "paddingRight": "26px",
+                "paddingTop": "12px",
+                "textAlign": "center",
+                "textDecoration": "none",
+                "width": "100%"
+               },
+               "blockId": "48a21b8d92",
+               "blockName": "Ticket CTA",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "a",
+               "innerHTML": "Get all-access",
+               "mobileStyles": {},
+               "rawStyles": {
+                "hover:borderColor": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                "transition": "border-color 0.15s ease-out"
+               },
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexShrink": 0,
+                "gap": "11px",
+                "marginTop": "10px",
+                "overflow": "hidden"
+               },
+               "blockId": "c273368cbd",
+               "blockName": "Ticket Features",
+               "children": [
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "58a511ff54",
+                 "blockName": "Feature · Everything in Conf",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "alignItems": "center",
+                    "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                    "display": "inline-flex",
+                    "flexShrink": 0,
+                    "fontSize": "16px",
+                    "height": "fit-content",
+                    "justifyContent": "center",
+                    "lineHeight": "0",
+                    "minWidth": "0px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "8fa826edf0",
+                   "blockName": "Check",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "span",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Inter",
+                    "fontSize": "15px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "6768ab011d",
+                   "blockName": "Feature Text",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Everything in Conference",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "09f60b7d35",
+                 "blockName": "Feature · Speaker dinner inv",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "alignItems": "center",
+                    "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                    "display": "inline-flex",
+                    "flexShrink": 0,
+                    "fontSize": "16px",
+                    "height": "fit-content",
+                    "justifyContent": "center",
+                    "lineHeight": "0",
+                    "minWidth": "0px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "ef48c604d2",
+                   "blockName": "Check",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "span",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Inter",
+                    "fontSize": "15px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "8a3277d5a8",
+                   "blockName": "Feature Text",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Speaker dinner invite",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "fe7aa8370d",
+                 "blockName": "Feature · Recorded workshop ",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "alignItems": "center",
+                    "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                    "display": "inline-flex",
+                    "flexShrink": 0,
+                    "fontSize": "16px",
+                    "height": "fit-content",
+                    "justifyContent": "center",
+                    "lineHeight": "0",
+                    "minWidth": "0px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "6b8fe90575",
+                   "blockName": "Check",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "span",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Inter",
+                    "fontSize": "15px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "ee98ada7e0",
+                   "blockName": "Feature Text",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "Recorded workshop library",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "attributes": {},
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "flexShrink": 0,
+                  "gap": "10px",
+                  "overflow": "hidden"
+                 },
+                 "blockId": "7ebfe80c1d",
+                 "blockName": "Feature · '27 priority + 20%",
+                 "children": [
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "alignItems": "center",
+                    "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+                    "display": "inline-flex",
+                    "flexShrink": 0,
+                    "fontSize": "16px",
+                    "height": "fit-content",
+                    "justifyContent": "center",
+                    "lineHeight": "0",
+                    "minWidth": "0px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "c1060b6663",
+                   "blockName": "Check",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "span",
+                   "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"17\"\n  height=\"17\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  },
+                  {
+                   "attributes": {},
+                   "baseStyles": {
+                    "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+                    "fontFamily": "Inter",
+                    "fontSize": "15px",
+                    "height": "fit-content",
+                    "lineHeight": "1.65",
+                    "minWidth": "10px",
+                    "width": "fit-content"
+                   },
+                   "blockId": "55cef526ee",
+                   "blockName": "Feature Text",
+                   "children": [],
+                   "classes": [],
+                   "customAttributes": {},
+                   "element": "p",
+                   "innerHTML": "'27 priority + 20% off",
+                   "mobileStyles": {},
+                   "rawStyles": {},
+                   "tabletStyles": {}
+                  }
+                 ],
+                 "classes": [],
+                 "customAttributes": {},
+                 "element": "div",
+                 "mobileStyles": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                }
+               ],
+               "classes": [],
+               "customAttributes": {},
+               "element": "div",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {
+            "data-reveal": ""
+           },
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "gridTemplateColumns": "1fr"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "var(--788fefd1-a190-4f4a-87d2-895c44d0105d, #F7F6FB)",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "overflow": "hidden",
+      "paddingBottom": "88px",
+      "paddingTop": "72px",
+      "width": "100%"
+     },
+     "blockId": "aa480514b5",
+     "blockName": "Section · Tickets FAQ",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": "1140px",
+        "overflow": "hidden",
+        "paddingLeft": "28px",
+        "paddingRight": "28px",
+        "width": "100%"
+       },
+       "blockId": "6604fcebcb",
+       "blockName": "FAQ Container",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "16px",
+          "marginBottom": "32px",
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "maxWidth": "680px",
+          "overflow": "hidden"
+         },
+         "blockId": "cd075b9953",
+         "blockName": "Section Head",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "var(--c27ad2fa-eafc-4b58-aa00-73bc26490da3, #F3EEFF)",
+            "borderRadius": "100px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "9px",
+            "overflow": "hidden",
+            "paddingBottom": "7px",
+            "paddingLeft": "16px",
+            "paddingRight": "16px",
+            "paddingTop": "7px",
+            "textAlign": "center",
+            "width": "fit-content"
+           },
+           "blockId": "8b6a390cc1",
+           "blockName": "Badge",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "lineHeight": "0",
+              "overflow": "hidden"
+             },
+             "blockId": "252ae2825f",
+             "blockName": "Badge Sparkle",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "innerHTML": "<svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 0L14.6 9.4L24 12L14.6 14.6L12 24L9.4 14.6L0 12L9.4 9.4L12 0Z\" fill=\"#F59E0B\"/></svg>",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8b349bf3-08db-47b5-82e9-368c7473467b, #7C3AED)",
+              "fontFamily": "Inter",
+              "fontSize": "13px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "e80528069d",
+             "blockName": "Badge Text",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Good to know",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+            "fontFamily": "Bricolage Grotesque",
+            "fontSize": "42px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "-0.02em",
+            "lineHeight": "1.04",
+            "minWidth": "10px",
+            "textAlign": "center",
+            "width": "fit-content"
+           },
+           "blockId": "d1d44c2ecc",
+           "blockName": "Section Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h2",
+           "innerHTML": "Tickets, small print.",
+           "mobileStyles": {
+            "fontSize": "30px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "maxWidth": "740px",
+          "overflow": "hidden",
+          "width": "100%"
+         },
+         "blockId": "1ba73a0147",
+         "blockName": "FAQ List",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderTopColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "8px",
+            "overflow": "hidden",
+            "paddingBottom": "22px",
+            "paddingTop": "22px"
+           },
+           "blockId": "10bde42752",
+           "blockName": "FAQ · Can my company pay by in",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "17px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.02em",
+              "lineHeight": "1.04",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "e67df191f6",
+             "blockName": "FAQ Question",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "h3",
+             "innerHTML": "Can my company pay by invoice?",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+              "fontFamily": "Inter",
+              "fontSize": "15px",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "maxWidth": "700px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "63628a91e3",
+             "blockName": "FAQ Answer",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Yes — pick five or more passes and we'll send a proper invoice with all the boring fields your finance team loves.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderTopColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "8px",
+            "overflow": "hidden",
+            "paddingBottom": "22px",
+            "paddingTop": "22px"
+           },
+           "blockId": "bc5bcbb55c",
+           "blockName": "FAQ · What's the refund policy",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "17px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.02em",
+              "lineHeight": "1.04",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "7c73d317f7",
+             "blockName": "FAQ Question",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "h3",
+             "innerHTML": "What's the refund policy?",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+              "fontFamily": "Inter",
+              "fontSize": "15px",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "maxWidth": "700px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "1995d89f6d",
+             "blockName": "FAQ Answer",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Full refund until September 15, or transfer your ticket to a teammate anytime — even the morning of.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderTopColor": "var(--7c206579-fa31-4528-a5bf-a70a5c14d673, #E9E6F2)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "8px",
+            "overflow": "hidden",
+            "paddingBottom": "22px",
+            "paddingTop": "22px"
+           },
+           "blockId": "8dc8439de7",
+           "blockName": "FAQ · Are workshops included?",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8dabd629-6a67-4861-ad2b-7ed7da3169bd, #17141F)",
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": "17px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.02em",
+              "lineHeight": "1.04",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "ddf40ef787",
+             "blockName": "FAQ Question",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "h3",
+             "innerHTML": "Are workshops included?",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--00cebeb2-b6de-40df-994c-b740465ccd0e, #6E6880)",
+              "fontFamily": "Inter",
+              "fontSize": "15px",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "maxWidth": "700px",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "459b437ce3",
+             "blockName": "FAQ Answer",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Day-two workshops are included in Conference and All-access passes. Seats are first-come, capped at 30 per room.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "a1f333ca68",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "da8180e96d",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "commit_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "e648049013",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "c5ad91a5cd",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "7e4a098556",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "23183ca595",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "cae287cea7",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "4d60c03d70",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "540844ef4d",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "bae55eb9ec",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "fa53f52374",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "commit_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3a80a6694f",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "3ab40c926d",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "9f75ef7d8c",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "2ef5b11a01",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "3553f059bb",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "85dc0c35b4",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "316fa9dcbd",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "0c169e8313",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "83a8960bda",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "111019d313",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "22358d78c6",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "f2d8ab032e",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "commit_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "ac46635ca3",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "c6405f22a9",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "2dc1cd7efe",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "5c582fd35c",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "43308ce973",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "commit_footer",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "d4e61ee738",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "4065b1ef08",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "9548626c5b",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "commit_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "c38e38b517",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c910c17fc3",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "b76aa4ad3a",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "commit_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "389c0acabe",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "commit_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "f39bc3dab0",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "commit_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "7c743e3526",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "extendedFromComponent": "commit_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "commit-styles"
+  },
+  {
+   "builder_script": "commit-reveal"
+  },
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  }
+ ],
+ "creation": "2026-06-07 23:31:08.548875",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Passes for Commit '26 — online, conference, and all-access.",
+ "modified": "2026-06-07 23:31:08.586395",
+ "modified_by": "Administrator",
+ "name": "commit_tickets",
+ "owner": "Administrator",
+ "page_name": "commit_tickets",
+ "page_title": "Tickets",
+ "preview": "/builder_assets/commit/commit_tickets/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/commit/tickets",
+ "template_group": "commit"
+}

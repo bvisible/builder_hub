@@ -1,0 +1,609 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--00a94936-7915-4016-abeb-53f2ac522789, #FFFFFF)",
+    "color": "var(--ee1c6853-3c09-4467-b661-29b74b12b5a9, #111111)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "flexWrap": "wrap",
+    "fontFamily": "Inter",
+    "width": "100%"
+   },
+   "blockId": "root",
+   "blockName": "Page",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexShrink": 0,
+      "minHeight": "100vh",
+      "overflow": "hidden",
+      "width": "100%"
+     },
+     "blockId": "edeb6460a8",
+     "blockName": "Layout",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "7fa9b92f63",
+       "blockName": "Sidebar",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "ddffe2a162",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "f69986eae1",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "ebc3f6c66b",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "944ef066e6",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "4c39abbe54",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verso_sidebar",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "cce5bf8fce",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "4286bc7700",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "11bc0ce066",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "57004fed13",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "c0cbef0c9f",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1550790312",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "6f4f91bbcc",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c6162b11ac",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "b126f20cdd",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "3954b68ec6",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verso_sidebar",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "7b5da1ed46",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "2b57aec8b7",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "ba1a53e46e",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "f6ae5cc2e2",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "verso_sidebar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "1088b1eb2b",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "60f30ff228",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "verso_sidebar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "0367364f73",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "0ce08218fa",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "verso_sidebar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "faee59d7d3",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "dafcc0a30d",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "2d3a15c5ef",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "82cc5f7904",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "verso_sidebar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "4a82af88be",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "4b7e0611d8",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "89477efcd9",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "verso_sidebar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "bbf90f83fe",
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "f2c9d7b4bb",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "verso_sidebar",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "b29367df75",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "verso_sidebar",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "a32bb3fbd7",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verso_sidebar",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "2bad705096",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verso_sidebar",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "b98451a294",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "extendedFromComponent": "verso_sidebar",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexBasis": "0px",
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 0,
+        "gap": "0px",
+        "maxWidth": "760px",
+        "minWidth": "0px",
+        "overflow": "hidden",
+        "paddingBottom": "96px",
+        "paddingLeft": "72px",
+        "paddingRight": "72px",
+        "paddingTop": "64px"
+       },
+       "blockId": "6531e3319f",
+       "blockName": "Content",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--4deadceb-8459-4140-99c7-d1ef8244c7c0, #FAFAFA)",
+          "borderRadius": "100px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "height": "96px",
+          "marginBottom": "32px",
+          "overflow": "hidden",
+          "width": "96px"
+         },
+         "blockId": "73e8a1b351",
+         "blockName": "About Portrait",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Iris Kovač",
+            "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=300"
+           },
+           "baseStyles": {
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "1dbe35274f",
+           "blockName": "Portrait",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "20px",
+          "maxWidth": "560px",
+          "overflow": "hidden"
+         },
+         "blockId": "d2ba422946",
+         "blockName": "About Prose",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8378d6f2-6bda-4be1-974a-39dd3b5e82e0, #8A8A8A)",
+            "fontFamily": "Geist Mono",
+            "fontSize": "11px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "23804bbabb",
+           "blockName": "About Eyebrow",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "span",
+           "innerHTML": "About",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--ee1c6853-3c09-4467-b661-29b74b12b5a9, #111111)",
+            "fontFamily": "Inter",
+            "fontSize": "34px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "letterSpacing": "-0.02em",
+            "lineHeight": "1.1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "62e6952c8b",
+           "blockName": "About Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h1",
+           "innerHTML": "A designer who writes,<br>and a writer who designs.",
+           "mobileStyles": {
+            "fontSize": "26px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--ee1c6853-3c09-4467-b661-29b74b12b5a9, #111111)",
+            "fontFamily": "Inter",
+            "fontSize": "17px",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "1e4548fbf9",
+           "blockName": "About P1",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "I'm Iris — an independent designer and writer based in Ljubljana. For the last decade I've helped small teams and individuals shape calm, legible, lasting things: identities, interfaces, books, and the occasional radio show.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8378d6f2-6bda-4be1-974a-39dd3b5e82e0, #8A8A8A)",
+            "fontFamily": "Inter",
+            "fontSize": "17px",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "92ada6d9c9",
+           "blockName": "About P2",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "I work alone, slowly, and in grayscale until the very end. If that sounds like your kind of project, I'd love to hear from you.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTopColor": "var(--1a22ca9b-25ad-490e-b839-5c684ab432f6, #ECECEC)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "10px",
+          "marginTop": "48px",
+          "overflow": "hidden",
+          "paddingTop": "32px"
+         },
+         "blockId": "10dcf0f846",
+         "blockName": "Contact Block",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8378d6f2-6bda-4be1-974a-39dd3b5e82e0, #8A8A8A)",
+            "fontFamily": "Geist Mono",
+            "fontSize": "11px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "a675ffc532",
+           "blockName": "Contact Label",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "span",
+           "innerHTML": "Contact",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "mailto:hello@iriskovac.studio"
+           },
+           "baseStyles": {
+            "color": "var(--ee1c6853-3c09-4467-b661-29b74b12b5a9, #111111)",
+            "fontFamily": "Inter",
+            "fontSize": "24px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "hover:opacity": "0.6",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "textDecoration": "none",
+            "transition": "opacity 0.15s ease-out",
+            "width": "fit-content"
+           },
+           "blockId": "654947c0c9",
+           "blockName": "Email",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "hello@iriskovac.studio",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "28px",
+        "paddingRight": "28px",
+        "paddingTop": "40px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "flexDirection": "column"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  }
+ ],
+ "creation": "2026-06-07 23:20:32.253103",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "About Iris Kovač — designer & writer in Ljubljana.",
+ "modified": "2026-06-07 23:20:32.280415",
+ "modified_by": "Administrator",
+ "name": "verso_about",
+ "owner": "Administrator",
+ "page_name": "verso_about",
+ "page_title": "About",
+ "preview": "/builder_assets/verso/verso_about/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/verso/about",
+ "template_group": "verso"
+}

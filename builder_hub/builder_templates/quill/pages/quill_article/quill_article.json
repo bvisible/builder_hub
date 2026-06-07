@@ -1,0 +1,1442 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--48097c0a-75ce-4eb3-8261-cac96b689ab2, #FCFBF9)",
+    "color": "var(--310ed7bb-04f5-4db6-bf5c-f73415698b5a, #1B1815)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "flexWrap": "wrap",
+    "fontFamily": "Inter",
+    "width": "100%"
+   },
+   "blockId": "root",
+   "blockName": "Page",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "ee1d82c2f1",
+     "blockName": "Nav",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "7237a61620",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "50b141c453",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "8dd94a065c",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "quill_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "f58b1afb1c",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "93c8571076",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "quill_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "281db2f130",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "quill_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3d257fa3ac",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "330e30a6d3",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "5ce5ff880c",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "quill_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "b7f80537da",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "b80f804c17",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "quill_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "0639b19410",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "8b323c47eb",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "4c3eb39eb5",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "quill_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "428f8c8347",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "10066c8474",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "quill_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "b9235bbb31",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "quill_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "72760c987b",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "quill_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "1190352dbf",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "quill_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "73bf21a25d",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "extendedFromComponent": "quill_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": "1080px",
+      "overflow": "hidden",
+      "paddingLeft": "32px",
+      "paddingRight": "32px",
+      "width": "100%"
+     },
+     "blockId": "bc988b62eb",
+     "blockName": "Article Head Wrap",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "gap": "20px",
+        "overflow": "hidden",
+        "paddingBottom": "40px",
+        "paddingTop": "72px",
+        "textAlign": "center"
+       },
+       "blockId": "b5ec3e8619",
+       "blockName": "Article Head",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--a993a364-56af-4c34-b2c8-85ffaee59a7f, #9E2B25)",
+          "fontFamily": "Inter",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.12em",
+          "lineHeight": "1.4",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "4ba7df7485",
+         "blockName": "Article Cat",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "span",
+         "innerHTML": "Essay",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--310ed7bb-04f5-4db6-bf5c-f73415698b5a, #1B1815)",
+          "fontFamily": "Fraunces",
+          "fontSize": "46px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.1",
+          "maxWidth": "680px",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "e82f5490b5",
+         "blockName": "Article Title",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "h1",
+         "innerHTML": "The case for the slow web",
+         "mobileStyles": {
+          "fontSize": "32px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--3ac55a8b-e173-4285-9d7a-44e4eacfb33d, #726A5E)",
+          "fontFamily": "Lora",
+          "fontSize": "20px",
+          "height": "fit-content",
+          "lineHeight": "1.75",
+          "maxWidth": "560px",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "b5e398108b",
+         "blockName": "Article Dek",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Why the most memorable sites are the ones that refuse to rush you.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "12px",
+          "overflow": "hidden",
+          "paddingTop": "12px"
+         },
+         "blockId": "b0a81cf94f",
+         "blockName": "Byline",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--2f6f7aea-d688-4db3-98ef-95bfcdf80651, #F4F1EA)",
+            "borderRadius": "100px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "height": "36px",
+            "overflow": "hidden",
+            "width": "36px"
+           },
+           "blockId": "3178c69e80",
+           "blockName": "Avatar",
+           "children": [
+            {
+             "attributes": {
+              "alt": "",
+              "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=120"
+             },
+             "baseStyles": {
+              "flexShrink": 0,
+              "height": "100%",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "416d7f2110",
+             "blockName": "Avatar Img",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "img",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--310ed7bb-04f5-4db6-bf5c-f73415698b5a, #1B1815)",
+            "fontFamily": "Inter",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "e5af5b32a1",
+           "blockName": "Author",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "span",
+           "innerHTML": "Mara Ellison",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--3ac55a8b-e173-4285-9d7a-44e4eacfb33d, #726A5E)",
+            "fontSize": "16px",
+            "height": "fit-content",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "e1cdf29d79",
+           "blockName": "Dot",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "span",
+           "innerHTML": "·",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--3ac55a8b-e173-4285-9d7a-44e4eacfb33d, #726A5E)",
+            "fontFamily": "Inter",
+            "fontSize": "14px",
+            "height": "fit-content",
+            "lineHeight": "1.65",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "35170ee98f",
+           "blockName": "Byline Meta",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Mar 14, 2026 · 8 min read",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "paddingTop": "48px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "paddingLeft": "20px",
+      "paddingRight": "20px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": "900px",
+      "overflow": "hidden",
+      "paddingLeft": "32px",
+      "paddingRight": "32px",
+      "width": "100%"
+     },
+     "blockId": "bc62ae508f",
+     "blockName": "Article Hero Wrap",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--2f6f7aea-d688-4db3-98ef-95bfcdf80651, #F4F1EA)",
+        "borderRadius": "12px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "marginBottom": "8px",
+        "overflow": "hidden",
+        "width": "100%"
+       },
+       "blockId": "f3bccf7a99",
+       "blockName": "Article Hero",
+       "children": [
+        {
+         "attributes": {
+          "alt": "",
+          "src": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=1600"
+         },
+         "baseStyles": {
+          "flexShrink": 0,
+          "height": "auto",
+          "objectFit": "cover",
+          "width": "100%"
+         },
+         "blockId": "a017187a0b",
+         "blockName": "Article Hero Img",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "paddingLeft": "20px",
+      "paddingRight": "20px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": "720px",
+      "overflow": "hidden",
+      "paddingLeft": "32px",
+      "paddingRight": "32px",
+      "width": "100%"
+     },
+     "blockId": "c388b0cc66",
+     "blockName": "Article Body Wrap",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "gap": "26px",
+        "overflow": "hidden",
+        "paddingTop": "48px"
+       },
+       "blockId": "be62918de3",
+       "blockName": "Article Body",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--310ed7bb-04f5-4db6-bf5c-f73415698b5a, #1B1815)",
+          "fontFamily": "Lora",
+          "fontSize": "22px",
+          "height": "fit-content",
+          "lineHeight": "1.75",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "527badc770",
+         "blockName": "Lead",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "There is a particular kind of website that you remember. It loaded without a fight. It asked nothing of you. It let you read.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--310ed7bb-04f5-4db6-bf5c-f73415698b5a, #1B1815)",
+          "fontFamily": "Lora",
+          "fontSize": "19px",
+          "height": "fit-content",
+          "lineHeight": "1.75",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "a2b1db6c7e",
+         "blockName": "Para",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Most of the web is in a hurry. Pages race to interrupt — a banner, a modal, a request to subscribe before you've read a single sentence. The slow web does the opposite. It assumes you came to read, and it gets out of the way.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--310ed7bb-04f5-4db6-bf5c-f73415698b5a, #1B1815)",
+          "fontFamily": "Fraunces",
+          "fontSize": "28px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "-0.01em",
+          "lineHeight": "1.4",
+          "minWidth": "10px",
+          "paddingTop": "12px",
+          "width": "fit-content"
+         },
+         "blockId": "d0ed6ef261",
+         "blockName": "Sub 1",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "h2",
+         "innerHTML": "What restraint buys you",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--310ed7bb-04f5-4db6-bf5c-f73415698b5a, #1B1815)",
+          "fontFamily": "Lora",
+          "fontSize": "19px",
+          "height": "fit-content",
+          "lineHeight": "1.75",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "60daa09576",
+         "blockName": "Para",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Every element you remove is one less thing between the reader and the words. Restraint isn't austerity — it's confidence that the writing can carry the page.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderLeftColor": "var(--a993a364-56af-4c34-b2c8-85ffaee59a7f, #9E2B25)",
+          "borderLeftStyle": "solid",
+          "borderLeftWidth": "3px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "marginBottom": "8px",
+          "marginTop": "8px",
+          "overflow": "hidden",
+          "paddingBottom": "8px",
+          "paddingLeft": "24px",
+          "paddingTop": "8px"
+         },
+         "blockId": "fec2efa70b",
+         "blockName": "Pull Quote",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--310ed7bb-04f5-4db6-bf5c-f73415698b5a, #1B1815)",
+            "fontFamily": "Fraunces",
+            "fontSize": "26px",
+            "fontStyle": "italic",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "5595b56753",
+           "blockName": "Quote",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "“Space isn't empty. It's the part of the page doing the quiet work.”",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--310ed7bb-04f5-4db6-bf5c-f73415698b5a, #1B1815)",
+          "fontFamily": "Lora",
+          "fontSize": "19px",
+          "height": "fit-content",
+          "lineHeight": "1.75",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "2b43b40f34",
+         "blockName": "Para",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "So we kept this page plain on purpose. One column. Generous margins. Type chosen for reading, not for show. If you made it this far, the experiment worked.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "paddingLeft": "20px",
+      "paddingRight": "20px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "overflow": "hidden",
+      "paddingBottom": "8px",
+      "paddingTop": "48px",
+      "width": "100%"
+     },
+     "blockId": "db53ca9fdd",
+     "blockName": "Orn Wrap",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "color": "var(--3ac55a8b-e173-4285-9d7a-44e4eacfb33d, #726A5E)",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "justifyContent": "center",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "overflow": "hidden",
+        "width": "fit-content"
+       },
+       "blockId": "b5fba54171",
+       "blockName": "Ornament",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "innerHTML": "<svg width=\"40\" height=\"12\" viewBox=\"0 0 40 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 6H14\" stroke=\"currentColor\" stroke-width=\"1\"/><path d=\"M26 6H40\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"20\" cy=\"6\" r=\"2.5\" fill=\"currentColor\"/></svg>",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": "720px",
+      "overflow": "hidden",
+      "paddingLeft": "32px",
+      "paddingRight": "32px",
+      "width": "100%"
+     },
+     "blockId": "eb455b4f19",
+     "blockName": "Author Wrap",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "backgroundColor": "var(--2f6f7aea-d688-4db3-98ef-95bfcdf80651, #F4F1EA)",
+        "borderRadius": "12px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "20px",
+        "marginTop": "40px",
+        "overflow": "hidden",
+        "paddingBottom": "28px",
+        "paddingLeft": "28px",
+        "paddingRight": "28px",
+        "paddingTop": "28px"
+       },
+       "blockId": "1657087f9d",
+       "blockName": "Author Card",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderRadius": "100px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "height": "56px",
+          "overflow": "hidden",
+          "width": "56px"
+         },
+         "blockId": "d607625c37",
+         "blockName": "Author Avatar",
+         "children": [
+          {
+           "attributes": {
+            "alt": "",
+            "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=160"
+           },
+           "baseStyles": {
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "fac8e4ac42",
+           "blockName": "AC Img",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 0,
+          "gap": "6px",
+          "minWidth": "0px",
+          "overflow": "hidden"
+         },
+         "blockId": "cebe64daed",
+         "blockName": "Author Text",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--310ed7bb-04f5-4db6-bf5c-f73415698b5a, #1B1815)",
+            "fontFamily": "Inter",
+            "fontSize": "15px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "93b6f22c67",
+           "blockName": "AC Name",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "span",
+           "innerHTML": "Written by Mara Ellison",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--3ac55a8b-e173-4285-9d7a-44e4eacfb33d, #726A5E)",
+            "fontFamily": "Inter",
+            "fontSize": "15px",
+            "height": "fit-content",
+            "lineHeight": "1.65",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "f14038afc2",
+           "blockName": "AC Bio",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Editor of Quill. Writes about typography, interfaces, and the case for doing less.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "12px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "paddingLeft": "20px",
+      "paddingRight": "20px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": "720px",
+      "overflow": "hidden",
+      "paddingLeft": "32px",
+      "paddingRight": "32px",
+      "width": "100%"
+     },
+     "blockId": "d5149b2992",
+     "blockName": "Back Wrap",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "overflow": "hidden",
+        "paddingTop": "40px"
+       },
+       "blockId": "824e7f171b",
+       "blockName": "Back Row",
+       "children": [
+        {
+         "attributes": {
+          "href": "home"
+         },
+         "baseStyles": {
+          "color": "var(--a993a364-56af-4c34-b2c8-85ffaee59a7f, #9E2B25)",
+          "fontFamily": "Inter",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "lineHeight": "1.4",
+          "minWidth": "10px",
+          "textDecoration": "none",
+          "width": "fit-content"
+         },
+         "blockId": "1a297f28f3",
+         "blockName": "Back Link",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "← All essays",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:opacity": "0.75",
+          "transition": "opacity 0.15s ease-out"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "paddingLeft": "20px",
+      "paddingRight": "20px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "backgroundColor": "var(--2f6f7aea-d688-4db3-98ef-95bfcdf80651, #F4F1EA)",
+      "borderTopColor": "var(--f02c00a0-2c0d-4815-b778-7db3092f8d7e, #E7E2D8)",
+      "borderTopStyle": "solid",
+      "borderTopWidth": "1px",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "marginTop": "40px",
+      "overflow": "hidden",
+      "width": "100%"
+     },
+     "blockId": "5933991cbb",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "flexWrap": "wrap",
+        "gap": "32px",
+        "justifyContent": "space-between",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": "1080px",
+        "overflow": "hidden",
+        "paddingBottom": "48px",
+        "paddingLeft": "32px",
+        "paddingRight": "32px",
+        "paddingTop": "40px",
+        "width": "100%"
+       },
+       "blockId": "480db7cd19",
+       "blockName": "Footer Inner",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "8px",
+          "maxWidth": "300px",
+          "overflow": "hidden"
+         },
+         "blockId": "83ca87ac52",
+         "blockName": "Footer Brand",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--310ed7bb-04f5-4db6-bf5c-f73415698b5a, #1B1815)",
+            "fontFamily": "Fraunces",
+            "fontSize": "18px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "cd8168e9d1",
+           "blockName": "Footer Wordmark",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "span",
+           "innerHTML": "Quill",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--3ac55a8b-e173-4285-9d7a-44e4eacfb33d, #726A5E)",
+            "fontFamily": "Inter",
+            "fontSize": "14px",
+            "height": "fit-content",
+            "lineHeight": "1.65",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "bfa79377fc",
+           "blockName": "Footer Note",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "A small publication about design, craft, and the slow web.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "40px",
+          "overflow": "hidden"
+         },
+         "blockId": "d2898c4f0b",
+         "blockName": "Footer Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "10px",
+            "overflow": "hidden"
+           },
+           "blockId": "efbf152918",
+           "blockName": "Footer Col 1",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--3ac55a8b-e173-4285-9d7a-44e4eacfb33d, #726A5E)",
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "365650e0d2",
+             "blockName": "FC1 Head",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Sections",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "home"
+             },
+             "baseStyles": {
+              "color": "var(--3ac55a8b-e173-4285-9d7a-44e4eacfb33d, #726A5E)",
+              "fontFamily": "Inter",
+              "fontSize": "14px",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "textDecoration": "none",
+              "transition": "color 0.15s ease-out",
+              "width": "fit-content"
+             },
+             "blockId": "df5ed6014d",
+             "blockName": "F · Latest",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "a",
+             "innerHTML": "Latest",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "about"
+             },
+             "baseStyles": {
+              "color": "var(--3ac55a8b-e173-4285-9d7a-44e4eacfb33d, #726A5E)",
+              "fontFamily": "Inter",
+              "fontSize": "14px",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "textDecoration": "none",
+              "transition": "color 0.15s ease-out",
+              "width": "fit-content"
+             },
+             "blockId": "dc243b38c1",
+             "blockName": "F · About",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "a",
+             "innerHTML": "About",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "10px",
+            "overflow": "hidden"
+           },
+           "blockId": "43ec721470",
+           "blockName": "Footer Col 2",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--3ac55a8b-e173-4285-9d7a-44e4eacfb33d, #726A5E)",
+              "fontFamily": "Inter",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "21e58fe9d4",
+             "blockName": "FC2 Head",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "span",
+             "innerHTML": "Elsewhere",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "#"
+             },
+             "baseStyles": {
+              "color": "var(--3ac55a8b-e173-4285-9d7a-44e4eacfb33d, #726A5E)",
+              "fontFamily": "Inter",
+              "fontSize": "14px",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "textDecoration": "none",
+              "transition": "color 0.15s ease-out",
+              "width": "fit-content"
+             },
+             "blockId": "b4e88273e8",
+             "blockName": "F · Twitter",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "a",
+             "innerHTML": "Twitter",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "#"
+             },
+             "baseStyles": {
+              "color": "var(--3ac55a8b-e173-4285-9d7a-44e4eacfb33d, #726A5E)",
+              "fontFamily": "Inter",
+              "fontSize": "14px",
+              "height": "fit-content",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "textDecoration": "none",
+              "transition": "color 0.15s ease-out",
+              "width": "fit-content"
+             },
+             "blockId": "f79588707e",
+             "blockName": "F · RSS",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "a",
+             "innerHTML": "RSS",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "gap": "32px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "24px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": "1080px",
+        "overflow": "hidden",
+        "paddingBottom": "40px",
+        "paddingLeft": "32px",
+        "paddingRight": "32px",
+        "width": "100%"
+       },
+       "blockId": "ae58cb1982",
+       "blockName": "Footer Base",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--3ac55a8b-e173-4285-9d7a-44e4eacfb33d, #726A5E)",
+          "fontFamily": "Inter",
+          "fontSize": "12px",
+          "height": "fit-content",
+          "lineHeight": "1.4",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "7fd4d5bf80",
+         "blockName": "Copyright",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "span",
+         "innerHTML": "© 2026 Quill. Set in Fraunces & Lora.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "20px",
+        "paddingRight": "20px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  }
+ ],
+ "creation": "2026-06-07 23:29:27.274599",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "An essay on restraint, whitespace, and the slow web.",
+ "modified": "2026-06-07 23:29:27.279854",
+ "modified_by": "Administrator",
+ "name": "quill_article",
+ "owner": "Administrator",
+ "page_name": "quill_article",
+ "page_title": "The case for the slow web — Quill",
+ "preview": "/builder_assets/quill/quill_article/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/quill/article",
+ "template_group": "quill"
+}
