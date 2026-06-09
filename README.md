@@ -11,9 +11,8 @@ sharing a set of Builder Components and Variables. Groups are bundled as fixture
 
 ## Templates
 
-Eight multi-page template groups ship today. Each is a shared navbar/footer + theme
-across its pages, with a built-in light/dark toggle and internal links that resolve
-both in the live hub preview and on a user's own site.
+Eight multi-page template groups. Each has a shared navbar/footer + theme
+across its pages, with a built-in light/dark toggle.
 
 ### Fronds
 
