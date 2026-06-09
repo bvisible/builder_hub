@@ -9,6 +9,7 @@ builder).
 
 import frappe
 from frappe.utils import get_url
+from frappe.utils.caching import redis_cache
 
 
 @frappe.whitelist(allow_guest=True)
@@ -16,6 +17,11 @@ def get_catalog() -> list[dict]:
 	"""Template groups with their pages, for any builder site's picker. Built from
 	this hub's published template pages + on-disk group manifests. Preview +
 	per-page live_url are absolute so a remote consumer can load them."""
+	return _get_catalog(get_url())
+
+
+@redis_cache(ttl=3600)
+def _get_catalog(base_url: str) -> list[dict]:
 	from builder.template_sync import get_all_group_manifests
 
 	pages = frappe.get_all(
@@ -26,9 +32,9 @@ def get_catalog() -> list[dict]:
 		ignore_permissions=True,
 	)
 	for p in pages:
-		p.preview = _abs_url(p.preview)
+		p.preview = abs_url(p.preview)
 		# absolute URL of the published page on this hub (opened in a new tab as
-		# the template preview). _abs_url only handles asset paths, so build it here.
+		# the template preview). abs_url only handles asset paths, so build it here.
 		p.live_url = f"{get_url()}/{p.route}" if p.route else None
 
 	by_group: dict[str, list] = {}
@@ -41,9 +47,7 @@ def get_catalog() -> list[dict]:
 		if not group_pages:
 			continue
 		order = {
-			pg.get("name"): i
-			for i, pg in enumerate(manifest.get("pages") or [])
-			if isinstance(pg, dict)
+			pg.get("name"): i for i, pg in enumerate(manifest.get("pages") or []) if isinstance(pg, dict)
 		}
 		group_pages.sort(key=lambda p: (order.get(p.name, len(order)), p.page_title or ""))
 		groups.append(
@@ -51,7 +55,7 @@ def get_catalog() -> list[dict]:
 				"name": group,
 				"title": manifest.get("title") or group.replace("_", " ").title(),
 				"description": manifest.get("description") or "",
-				"preview": _abs_url(manifest.get("preview")) or group_pages[0].preview,
+				"preview": abs_url(manifest.get("preview")) or group_pages[0].preview,
 				"order": manifest.get("order"),
 				"pages": group_pages,
 			}
@@ -66,6 +70,11 @@ def get_template_bundle(page: str) -> dict:
 	the page (blocks, scripts, data script), plus its shared components,
 	variables, client scripts and fonts as import-ready dicts. Asset URLs are
 	absoluteized to this hub."""
+	return _get_template_bundle(page, get_url())
+
+
+@redis_cache(ttl=3600)
+def _get_template_bundle(page: str, base_url: str) -> dict:
 	from builder.export_import_standard_page import extract_fonts_from_blocks
 	from builder.utils import extract_components_from_blocks
 
@@ -133,7 +142,7 @@ def get_template_bundle(page: str) -> dict:
 					"doctype": "User Font",
 					"name": font.name,
 					"font_name": font.font_name,
-					"font_file": _abs_url(font.font_file),
+					"font_file": abs_url(font.font_file),
 				}
 			)
 
@@ -141,6 +150,7 @@ def get_template_bundle(page: str) -> dict:
 		"page": {
 			"page_title": page_doc.page_title,
 			"route": page_doc.route,
+			"preview": abs_url(page_doc.preview),
 			"blocks": blocks,
 			"page_data_script": page_doc.page_data_script,
 			"head_html": page_doc.head_html,
@@ -154,7 +164,7 @@ def get_template_bundle(page: str) -> dict:
 	}
 
 
-def _abs_url(path: str | None) -> str | None:
+def abs_url(path: str | None) -> str | None:
 	if isinstance(path, str) and (path.startswith("/builder_assets/") or path.startswith("/files/")):
 		return get_url() + path
 	return path
