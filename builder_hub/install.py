@@ -14,3 +14,8 @@ def _sync():
 	# their routes resolve for public Preview. Reuses builder's importer pointed
 	# at this app (builder imports nothing from builder_hub — no circular dep).
 	sync_builder_templates(app="builder_hub", publish=True)
+
+	# bvisible: role guarding the authenticated publish API (builder_hub.publish)
+	from builder_hub.publish import ensure_publisher_role
+
+	ensure_publisher_role()
