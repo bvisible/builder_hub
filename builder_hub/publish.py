@@ -26,7 +26,6 @@ import re
 import frappe
 from frappe import _
 from frappe.rate_limiter import rate_limit
-from frappe.utils.file_manager import save_file
 
 from builder.template_sync import safe_segment
 
@@ -109,7 +108,17 @@ def upload_template_asset(group: str):
     if existing:
         return {"file_url": existing}
 
-    file_doc = save_file(prefixed, content, None, None, is_private=0)
+    # File doctype (not legacy file_manager.save_file): get_max_file_size()
+    # cint()s frappe.conf.max_file_size, which fleet site_configs carry as a
+    # string — the legacy path compares int > str and crashes.
+    file_doc = frappe.get_doc(
+        {
+            "doctype": "File",
+            "file_name": prefixed,
+            "is_private": 0,
+            "content": content,
+        }
+    ).insert(ignore_permissions=True)
     return {"file_url": file_doc.file_url}
 
 
