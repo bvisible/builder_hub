@@ -4,7 +4,9 @@ authors = [
     { name = "Frappe Technologies Pvt Ltd", email = "suraj@frappe.io"}
 ]
 description = "Centralized hub of Frappe Builder page templates, plugins and components"
-requires-python = ">=3.14"
+# Relaxed from upstream's ">=3.14" (frappe v16 app template default):
+# Neoffice benches run frappe v15 on Python 3.10-3.12.
+requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
 dependencies = [
