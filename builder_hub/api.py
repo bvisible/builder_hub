@@ -58,6 +58,9 @@ def _get_catalog(base_url: str) -> list[dict]:
 				"preview": abs_url(manifest.get("preview")) or group_pages[0].preview,
 				"order": manifest.get("order"),
 				"pages": group_pages,
+				# bvisible: the template's header/footer design, applied by the
+				# consumer to its Website Header Footer Config on group import
+				"header_footer": manifest.get("header_footer"),
 			}
 		)
 	groups.sort(key=lambda g: (g.get("order") is None, g.get("order") or 0, g["title"]))

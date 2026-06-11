@@ -15,5 +15,18 @@
    "name": "verso_about"
   }
  ],
- "title": "Verso"
+ "title": "Verso",
+ "header_footer": {
+  "header_bg_color": "#FFFFFF",
+  "header_text_color": "#111111",
+  "header_height": "Slim",
+  "header_border": "None",
+  "cta_style": "Outline",
+  "cta_shape": "Square",
+  "cta_size": "Small",
+  "footer_bg_color": "#FAFAFA",
+  "footer_text_color": "#111111",
+  "primary_color": "#111111",
+  "secondary_color": "#8A8A8A"
+ }
 }

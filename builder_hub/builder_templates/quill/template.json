@@ -12,5 +12,18 @@
    "name": "quill_about"
   }
  ],
- "title": "Quill"
+ "title": "Quill",
+ "header_footer": {
+  "header_bg_color": "#FCFBF9",
+  "header_text_color": "#1B1815",
+  "header_height": "Slim",
+  "header_border": "Subtle",
+  "cta_style": "Primary",
+  "cta_shape": "Square",
+  "cta_size": "Small",
+  "footer_bg_color": "#F4F1EA",
+  "footer_text_color": "#1B1815",
+  "primary_color": "#9E2B25",
+  "secondary_color": "#1B1815"
+ }
 }

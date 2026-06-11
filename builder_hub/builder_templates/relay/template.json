@@ -15,5 +15,18 @@
    "name": "relay_contact"
   }
  ],
- "title": "Relay"
+ "title": "Relay",
+ "header_footer": {
+  "header_bg_color": "#FFFFFF",
+  "header_text_color": "#16181D",
+  "header_height": "Slim",
+  "header_border": "Subtle",
+  "cta_style": "Primary",
+  "cta_shape": "Pill",
+  "cta_size": "Small",
+  "footer_bg_color": "#F6F7F9",
+  "footer_text_color": "#16181D",
+  "primary_color": "#4F46E5",
+  "secondary_color": "#16181D"
+ }
 }

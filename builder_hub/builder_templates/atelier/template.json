@@ -12,5 +12,18 @@
    "name": "atelier_contact"
   }
  ],
- "title": "Atelier"
+ "title": "Atelier",
+ "header_footer": {
+  "header_bg_color": "#FFFFFF",
+  "header_text_color": "#0E0E0E",
+  "header_height": "Slim",
+  "header_border": "Subtle",
+  "cta_style": "Primary",
+  "cta_shape": "Square",
+  "cta_size": "Small",
+  "footer_bg_color": "#F4F4F2",
+  "footer_text_color": "#0E0E0E",
+  "primary_color": "#2F5BFF",
+  "secondary_color": "#0E0E0E"
+ }
 }

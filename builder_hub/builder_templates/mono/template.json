@@ -15,5 +15,18 @@
    "name": "mono_contact"
   }
  ],
- "title": "Mono"
+ "title": "Mono",
+ "header_footer": {
+  "header_bg_color": "#FAFAF7",
+  "header_text_color": "#14140F",
+  "header_height": "Slim",
+  "header_border": "Subtle",
+  "cta_style": "Primary",
+  "cta_shape": "Pill",
+  "cta_size": "Small",
+  "footer_bg_color": "#14140F",
+  "footer_text_color": "#FAFAF7",
+  "primary_color": "#7E9B1C",
+  "secondary_color": "#14140F"
+ }
 }

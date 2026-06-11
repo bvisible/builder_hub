@@ -15,5 +15,18 @@
    "name": "commit_tickets"
   }
  ],
- "title": "Commit"
+ "title": "Commit",
+ "header_footer": {
+  "header_bg_color": "#FFFFFF",
+  "header_text_color": "#17141F",
+  "header_height": "Slim",
+  "header_border": "Subtle",
+  "cta_style": "Primary",
+  "cta_shape": "Pill",
+  "cta_size": "Small",
+  "footer_bg_color": "#F7F6FB",
+  "footer_text_color": "#17141F",
+  "primary_color": "#7C3AED",
+  "secondary_color": "#17141F"
+ }
 }

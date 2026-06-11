@@ -12,5 +12,18 @@
    "name": "fronds_contact"
   }
  ],
- "title": "Fronds"
+ "title": "Fronds",
+ "header_footer": {
+  "header_bg_color": "#F6F5F1",
+  "header_text_color": "#1F2A24",
+  "header_height": "Slim",
+  "header_border": "Subtle",
+  "cta_style": "Outline",
+  "cta_shape": "Pill",
+  "cta_size": "Small",
+  "footer_bg_color": "#F6F5F1",
+  "footer_text_color": "#1F2A24",
+  "primary_color": "#5E7C58",
+  "secondary_color": "#1F2A24"
+ }
 }
