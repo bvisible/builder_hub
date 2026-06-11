@@ -326,17 +326,22 @@ def unpublish_from_catalog(group: str):
 # helpers
 # ---------------------------------------------------------------------------
 def _reject_foreign_asset_urls(payload: dict):
-    """Every asset reference must be hub-local (/files/... or /builder_assets/...).
-    Absolute URLs pointing elsewhere mean the client skipped the upload step —
-    rejecting them doubles as an SSRF/content guard."""
+    """Frappe site assets must be hub-local: an absolute URL whose path is
+    /files/... or /private/files/... points at the SOURCE instance and would
+    break (or leak) once the template is consumed from the hub — the client
+    must upload those via upload_template_asset first. Other external URLs
+    (placehold.co, CDNs, embeds) are browser-side hotlinks and are fine."""
     blob = frappe.as_json(payload, indent=0)
-    for match in re.finditer(r'"(https?://[^"]+)"', blob):
-        url = match.group(1)
-        if not url.startswith(frappe.utils.get_url()):
+    hub_origin = frappe.utils.get_url()
+    for match in re.finditer(r"https?://[^\"'\\\s<>]+", blob):
+        url = match.group(0)
+        if url.startswith(hub_origin):
+            continue
+        if "/private/files/" in url or "/files/" in url:
             frappe.throw(
-                _("Foreign asset URL in payload: {0} — upload assets via upload_template_asset first").format(
-                    url[:120]
-                )
+                _(
+                    "Foreign site-asset URL in payload: {0} — upload assets via upload_template_asset first"
+                ).format(url[:120])
             )
 
 
