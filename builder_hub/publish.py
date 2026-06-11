@@ -187,13 +187,28 @@ def publish_template_group():
 
 @frappe.whitelist()
 def promote_to_catalog(group: str, title: str | None = None, description: str | None = None):
-    """Turn the staged pages of a group into a published template group.
+    """Queue the promotion of a staged group into the published catalog.
 
-    Administrator action on the hub, after editorial cleanup. Sets the
-    template invariants, writes the manifest + disk fixtures (git-committable)
-    and clears the catalog caches.
+    Runs as a background job: fixture export renders page previews through
+    BuilderPageRenderer, which clobbers frappe.local.request and breaks the
+    HTTP teardown when run inline.
     """
     _check_publisher()
+    group = _validate_group_slug(group)
+    _assert_group_not_protected(group)
+    job = frappe.enqueue(
+        "builder_hub.publish._promote_sync",
+        queue="long",
+        timeout=1800,
+        group=group,
+        title=title,
+        description=description,
+    )
+    return {"queued": True, "job_id": job.id, "group": group}
+
+
+def _promote_sync(group: str, title: str | None = None, description: str | None = None):
+    """Synchronous promotion — runs in the worker (or via bench execute)."""
     group = _validate_group_slug(group)
     _assert_group_not_protected(group)
 
