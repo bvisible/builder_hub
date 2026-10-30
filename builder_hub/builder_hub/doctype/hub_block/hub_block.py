@@ -3,7 +3,7 @@ import frappe
 from frappe import _
 from frappe.model.document import Document
 
-from builder_hub import block_compile, block_format
+from builder_hub import block_compile, block_format, block_preview
 
 
 class HubBlock(Document):
@@ -79,6 +79,24 @@ class HubBlock(Document):
 		page.insert(ignore_permissions=True)
 		self.db_set("source_page", page.name)
 		return page.name
+
+	@frappe.whitelist()
+	def preview_html(
+		self, palette: str = block_preview.DEFAULT_PALETTE, lang: str = "fr", length: str = "longest"
+	) -> str:
+		"""The block as a page, with the look of a palette and sample words (block_preview.py). It draws the tree as it is on the form, saved or
+		not, and only a tree that passes the lint."""
+		self.check_permission("read")
+		errors, _warnings = self.lint()
+		if errors:
+			frappe.throw(
+				_("The block has errors, there is nothing to preview:") + "<br>" + "<br>".join(errors)
+			)
+		if palette not in block_preview.PALETTES:
+			palette = block_preview.DEFAULT_PALETTE
+		return block_preview.render_page(
+			self.parsed_tree(), palette=palette, lang=lang, length=length, ground=self.ground or "plain"
+		)
 
 	@frappe.whitelist()
 	def compile_from_page(self) -> dict:

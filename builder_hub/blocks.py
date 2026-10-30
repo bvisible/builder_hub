@@ -17,7 +17,7 @@ Where blocks come from:
 import frappe
 import yaml
 
-from builder_hub import block_compile, block_format
+from builder_hub import block_compile, block_format, block_preview
 
 SEED_SOURCE = "seed"
 EDITED_SOURCE = "edited in the hub"
@@ -202,3 +202,9 @@ def ensure_block_tokens() -> list[str]:
 	if made:
 		frappe.db.commit()
 	return made
+
+
+@frappe.whitelist()
+def preview_options() -> dict:
+	"""What the preview window of a block offers: the palettes, the languages of the sample words, their lengths, the widths of the devices."""
+	return block_preview.options()
