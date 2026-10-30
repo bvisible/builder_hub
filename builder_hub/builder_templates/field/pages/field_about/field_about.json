@@ -1,0 +1,882 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--55ee66ff-0001-4e01-8e01-eeff0001dd01, #FFFFFF)",
+    "color": "var(--55ee66ff-0002-4e02-8e02-eeff0002dd02, #171412)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Inter",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "fcd79683c5",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "3a12c8ed10",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "e8569f30d3",
+       "blockName": "Rule Bar",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "3331d4fb47",
+         "blockName": "RB Left",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "field_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "2c411b7527",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "db9986622d",
+         "blockName": "RB Mid",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "field_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "27568ba18b",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "31d81fa22c",
+         "blockName": "RB Right",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "c32d7fafc5",
+           "blockName": "RB Sub",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "field_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "6ff23ccb08",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "fb69ef8e34",
+           "blockName": "Theme Toggle",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "d5664c428f",
+             "blockName": "Theme \u00b7 Sun",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "field_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "26eac19c67",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "51cfab50b8",
+             "blockName": "Theme \u00b7 Moon",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "field_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "4ddf89b38b",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "field_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "7788519d76",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "field_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3e46c31674",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "field_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "f70e4dcfdf",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "19c287735c",
+       "blockName": "Masthead",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "field_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "f49dbed9ae",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "6d5b30f12d",
+       "blockName": "Section Links",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "377e553948",
+         "blockName": "Nav \u00b7 Issues",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "field_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "fdc3ee2ffe",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "9480937b71",
+         "blockName": "Nav \u00b7 The Story",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "field_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "e5fb3b49c5",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "40617735f3",
+         "blockName": "Nav \u00b7 About",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "field_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "00249f028a",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "c9c53a8c7b",
+         "blockName": "Nav \u00b7 Archive",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "field_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "c191a59fec",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "b637a817a1",
+         "blockName": "Nav \u00b7 Print",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "field_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "d9c4ad27c0",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "field_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "2676c82e0c",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "field_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "row",
+      "flexShrink": 0,
+      "gap": "6%",
+      "padding": "90px 24px 100px",
+      "width": "100%"
+     },
+     "blockId": "30c1c5808f",
+     "blockName": "Section \u00b7 About",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "width": "56%"
+       },
+       "blockId": "d45748949b",
+       "blockName": "About Copy",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--55ee66ff-0005-4e05-8e05-eeff0005dd05, #0E7A5F)",
+          "fontFamily": "Inter",
+          "fontSize": "11px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.14em",
+          "lineHeight": "1.5",
+          "marginBottom": "22px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "b574a0ebc7",
+         "blockName": "About Label",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "About",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--55ee66ff-0002-4e02-8e02-eeff0002dd02, #171412)",
+          "fontFamily": "Newsreader",
+          "fontSize": "64px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1.05",
+          "width": "fit-content"
+         },
+         "blockId": "9945685df3",
+         "blockName": "About Title",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "h1",
+         "innerHTML": "A journal for the<br>long way round.",
+         "mobileStyles": {
+          "fontSize": "34px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "fontSize": "48px"
+         }
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--55ee66ff-0002-4e02-8e02-eeff0002dd02, #171412)",
+          "fontFamily": "Newsreader",
+          "fontSize": "17px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.8",
+          "margin": "28px 0px 48px",
+          "maxWidth": "560px",
+          "width": "fit-content"
+         },
+         "blockId": "f925e5f1e4",
+         "blockName": "About Text",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Field publishes one long travel story a fortnight - written slowly, photographed on the way, never sponsored by the places it visits. Two paper issues a year for the shelf.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTopColor": "var(--55ee66ff-0004-4e04-8e04-eeff0004dd04, #E8E5E0)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "24px 0px",
+          "width": "100%"
+         },
+         "blockId": "99b7630bbc",
+         "blockName": "About Row \u00b7 The deal",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--55ee66ff-0005-4e05-8e05-eeff0005dd05, #0E7A5F)",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.5",
+            "textTransform": "uppercase",
+            "width": "200px"
+           },
+           "blockId": "d0f187a66c",
+           "blockName": "Row Key",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The deal",
+           "mobileStyles": {
+            "width": "fit-content"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--55ee66ff-0002-4e02-8e02-eeff0002dd02, #171412)",
+            "fontFamily": "Inter",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "maxWidth": "620px",
+            "width": "fit-content"
+           },
+           "blockId": "c419616db2",
+           "blockName": "Row Val",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Every story is free by email. Paper issues fund the travel; subscribers fund the paper.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "8px",
+          "padding": "16px 0px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTopColor": "var(--55ee66ff-0004-4e04-8e04-eeff0004dd04, #E8E5E0)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "24px 0px",
+          "width": "100%"
+         },
+         "blockId": "a10237e21f",
+         "blockName": "About Row \u00b7 Subscribe",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--55ee66ff-0005-4e05-8e05-eeff0005dd05, #0E7A5F)",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.5",
+            "textTransform": "uppercase",
+            "width": "200px"
+           },
+           "blockId": "c8c236803c",
+           "blockName": "Row Key",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Subscribe",
+           "mobileStyles": {
+            "width": "fit-content"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--55ee66ff-0002-4e02-8e02-eeff0002dd02, #171412)",
+            "fontFamily": "Inter",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "maxWidth": "620px",
+            "width": "fit-content"
+           },
+           "blockId": "92d1e54017",
+           "blockName": "Row Val",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "letters@field.journal - reply 'post' with your address for print, or nothing for email only.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "8px",
+          "padding": "16px 0px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTopColor": "var(--55ee66ff-0004-4e04-8e04-eeff0004dd04, #E8E5E0)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "24px 0px",
+          "width": "100%"
+         },
+         "blockId": "e35593c0af",
+         "blockName": "About Row \u00b7 Pitches",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--55ee66ff-0005-4e05-8e05-eeff0005dd05, #0E7A5F)",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.5",
+            "textTransform": "uppercase",
+            "width": "200px"
+           },
+           "blockId": "6ca6c21ccf",
+           "blockName": "Row Key",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Pitches",
+           "mobileStyles": {
+            "width": "fit-content"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--55ee66ff-0002-4e02-8e02-eeff0002dd02, #171412)",
+            "fontFamily": "Inter",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "maxWidth": "620px",
+            "width": "fit-content"
+           },
+           "blockId": "342265f033",
+           "blockName": "Row Val",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "One paragraph, one photograph, where you'd go slowly. We answer everything within a fortnight.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "8px",
+          "padding": "16px 0px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTopColor": "var(--55ee66ff-0004-4e04-8e04-eeff0004dd04, #E8E5E0)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "24px 0px",
+          "width": "100%"
+         },
+         "blockId": "5e98d02e52",
+         "blockName": "About Row \u00b7 The rules",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--55ee66ff-0005-4e05-8e05-eeff0005dd05, #0E7A5F)",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.5",
+            "textTransform": "uppercase",
+            "width": "200px"
+           },
+           "blockId": "7e8220947a",
+           "blockName": "Row Key",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The rules",
+           "mobileStyles": {
+            "width": "fit-content"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--55ee66ff-0002-4e02-8e02-eeff0002dd02, #171412)",
+            "fontFamily": "Inter",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "maxWidth": "620px",
+            "width": "fit-content"
+           },
+           "blockId": "e91d722189",
+           "blockName": "Row Val",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "No junkets, no listicles, no 'hidden gems'. If a place is a gem it can stay hidden.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "8px",
+          "padding": "16px 0px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignSelf": "flex-start",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "gap": "12px",
+        "position": "sticky",
+        "top": "92px",
+        "width": "38%"
+       },
+       "blockId": "1d3fa3b994",
+       "blockName": "About Media",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "aspectRatio": "3 / 4",
+          "backgroundColor": "var(--55ee66ff-0006-4e06-8e06-eeff0006dd06, #F5F3EF)",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "100%"
+         },
+         "blockId": "3763cbf6bc",
+         "blockName": "About Photo",
+         "children": [
+          {
+           "attributes": {
+            "alt": "The coast road, on foot",
+            "src": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=1200"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "6c548dec1c",
+           "blockName": "About Photo \u00b7 Image",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "transition": "transform 1.1s cubic-bezier(0.22, 1, 0.36, 1)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "field-photo"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--55ee66ff-0003-4e03-8e03-eeff0003dd03, #6D6A66)",
+          "fontFamily": "Inter",
+          "fontSize": "9px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.14em",
+          "lineHeight": "1.5",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "e48fff6f89",
+         "blockName": "About Caption",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Issue 06, somewhere above Positano",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "position": "static",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "flexDirection": "column",
+      "gap": "36px",
+      "padding": "48px 16px 56px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "4c6b2f990c",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "8aa2e43ad8",
+       "blockName": "Colophon Word",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "field_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "3445a4474d",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "5616d3d563",
+       "blockName": "Colophon Line",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "field_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "0c83a2a56e",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "3c18603d7c",
+       "blockName": "Colophon Copy",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "field_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "4eefc57068",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "field_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "field_styles"
+  }
+ ],
+ "creation": "2026-07-14 16:14:30.242155",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "What Field Journal is, how to subscribe, and how to pitch a story.",
+ "modified": "2026-07-14 16:14:30.242164",
+ "modified_by": "Administrator",
+ "name": "field_about",
+ "owner": "Administrator",
+ "page_name": "field_about",
+ "page_title": "About Field",
+ "preview": "/builder_assets/field/field_about/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/field/about",
+ "template_group": "field"
+}

@@ -1,0 +1,1445 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--a8c1fa45-7581-4564-858d-9ac9e6155d64, #E9E7E2)",
+    "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "IBM Plex Sans",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "f2613cb3ac",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {
+      "backgroundColor": "var(--2ca1d14b-4362-4532-8fea-82364c8b69e9, #FFFFFF)",
+      "borderRadius": "3px",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "marginBottom": "72px",
+      "marginTop": "40px",
+      "maxWidth": "840px",
+      "padding": "64px 72px",
+      "width": "100%"
+     },
+     "blockId": "4845528651",
+     "blockName": "CV Sheet",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "5ebf9312cf",
+       "blockName": "Letterhead",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "9f3636fbb8",
+         "blockName": "Letterhead Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "ed208a02d3",
+           "blockName": "Letterhead Left",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "94b0c25894",
+             "blockName": "Letterhead Name",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "vitae_letterhead",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "014aaa4c86",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "cfbd19a6f2",
+             "blockName": "Letterhead Role",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "vitae_letterhead",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "03a755e9f7",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "vitae_letterhead",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "24d0546509",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "2701d7c5a8",
+           "blockName": "Letterhead Nav",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "93ae74594e",
+             "blockName": "CV",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "vitae_letterhead",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "e4ca12123c",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "5aa4f7beb5",
+             "blockName": "Engagements",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "vitae_letterhead",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "fe7413e61e",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "bb186ca38e",
+             "blockName": "Contact",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "vitae_letterhead",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "17ef075061",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "c078ac4242",
+             "blockName": "Theme Toggle",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "3932ff784d",
+               "blockName": "Theme · ti-sun",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "vitae_letterhead",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "088e07bf7e",
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "de914f6166",
+               "blockName": "Theme · ti-moon",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "vitae_letterhead",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "a941ea1896",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "vitae_letterhead",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "b18d67edad",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "vitae_letterhead",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "87d7be18db",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "vitae_letterhead",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "e35eda9c1e",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "59f60c80e3",
+         "blockName": "Letterhead Contact",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "vitae_letterhead",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "eb3bc02107",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "62fe235efa",
+         "blockName": "Letterhead Rule",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "vitae_letterhead",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "a793d62b7c",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "extendedFromComponent": "vitae_letterhead",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+        "fontFamily": "IBM Plex Sans",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.75",
+        "marginTop": "28px",
+        "minWidth": "10px",
+        "width": "fit-content"
+       },
+       "blockId": "8154a4c755",
+       "blockName": "Summary",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Fifteen years closing books, raising rounds and untangling unit economics for companies between seed and Series C. I join two days a week, leave the finance function better than I found it, and hand it to your first full-time hire.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "borderBottomColor": "var(--79f05fe5-4f09-4c5d-8a27-9aada2106f3c, #1F3A64)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "2px",
+        "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+        "fontFamily": "IBM Plex Sans",
+        "fontSize": "11px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "0.14em",
+        "lineHeight": "1.6",
+        "marginTop": "34px",
+        "minWidth": "10px",
+        "paddingBottom": "8px",
+        "textTransform": "uppercase",
+        "width": "100%"
+       },
+       "blockId": "bfc7c09666",
+       "blockName": "Sheet Section · Experience",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Experience",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "borderTopColor": "var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)",
+        "borderTopStyle": "solid",
+        "borderTopWidth": "0px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "28px",
+        "padding": "22px 0",
+        "width": "100%"
+       },
+       "blockId": "e07a7a0001",
+       "blockName": "Entry · Fractional CFO",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "flexShrink": 0,
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "10px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.14em",
+          "lineHeight": "1.6",
+          "minWidth": "10px",
+          "paddingTop": "5px",
+          "textTransform": "uppercase",
+          "width": "150px"
+         },
+         "blockId": "3ed1c1cfea",
+         "blockName": "Entry Dates · 2021 – now",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "2021 – now",
+         "mobileStyles": {
+          "paddingTop": "0px",
+          "width": "fit-content"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "4px",
+          "width": "100%"
+         },
+         "blockId": "adeda73407",
+         "blockName": "Entry Body · Fractional CFO",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+            "fontFamily": "EB Garamond",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "bddf3cb14f",
+           "blockName": "Entry Role · Fractional CFO",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Fractional CFO",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--79f05fe5-4f09-4c5d-8a27-9aada2106f3c, #1F3A64)",
+            "fontFamily": "IBM Plex Sans",
+            "fontSize": "10.5px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "9fff83c85c",
+           "blockName": "Entry Org · Portfolio of 4 compani",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Portfolio of 4 companies · Zurich / remote",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "5px",
+            "marginTop": "8px",
+            "width": "100%"
+           },
+           "blockId": "519838e3dc",
+           "blockName": "Entry Bullets · Fractional CFO",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.75",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "84e7ca4007",
+             "blockName": "Bullet · Closed a CHF 18m Serie",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "– Closed a CHF 18m Series B for a logistics platform, 6 weeks from data room to wire.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.75",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "d8c6f1f961",
+             "blockName": "Bullet · Rebuilt reporting for ",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "– Rebuilt reporting for a 90-person SaaS: board pack from 3 weeks late to 3 days early.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.75",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "c9f2295383",
+             "blockName": "Bullet · Two exits prepared and",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "– Two exits prepared and closed, one acquirer NDA still in force.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "8px",
+        "padding": "18px 0"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "borderTopColor": "var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)",
+        "borderTopStyle": "solid",
+        "borderTopWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "28px",
+        "padding": "22px 0",
+        "width": "100%"
+       },
+       "blockId": "46a5b2978d",
+       "blockName": "Entry · VP Finance",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "flexShrink": 0,
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "10px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.14em",
+          "lineHeight": "1.6",
+          "minWidth": "10px",
+          "paddingTop": "5px",
+          "textTransform": "uppercase",
+          "width": "150px"
+         },
+         "blockId": "4d956da6b9",
+         "blockName": "Entry Dates · 2016 – 2021",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "2016 – 2021",
+         "mobileStyles": {
+          "paddingTop": "0px",
+          "width": "fit-content"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "4px",
+          "width": "100%"
+         },
+         "blockId": "6605ee7475",
+         "blockName": "Entry Body · VP Finance",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+            "fontFamily": "EB Garamond",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "b47f154fbf",
+           "blockName": "Entry Role · VP Finance",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "VP Finance",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--79f05fe5-4f09-4c5d-8a27-9aada2106f3c, #1F3A64)",
+            "fontFamily": "IBM Plex Sans",
+            "fontSize": "10.5px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "d2bf44e0e7",
+           "blockName": "Entry Org · Alpine Robotics · Zuri",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Alpine Robotics · Zurich",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "5px",
+            "marginTop": "8px",
+            "width": "100%"
+           },
+           "blockId": "1cc6e5662b",
+           "blockName": "Entry Bullets · VP Finance",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.75",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "da9158764e",
+             "blockName": "Bullet · First finance hire, bu",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "– First finance hire, built the function to a team of 7 through Series A to C.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.75",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "6827957f4d",
+             "blockName": "Bullet · Owned pricing: gross m",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "– Owned pricing: gross margin from 31% to 58% in two years.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "8px",
+        "padding": "18px 0"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "borderTopColor": "var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)",
+        "borderTopStyle": "solid",
+        "borderTopWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "28px",
+        "padding": "22px 0",
+        "width": "100%"
+       },
+       "blockId": "1c23fe55e9",
+       "blockName": "Entry · Senior Manager",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "flexShrink": 0,
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "10px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.14em",
+          "lineHeight": "1.6",
+          "minWidth": "10px",
+          "paddingTop": "5px",
+          "textTransform": "uppercase",
+          "width": "150px"
+         },
+         "blockId": "b847d37704",
+         "blockName": "Entry Dates · 2011 – 2016",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "2011 – 2016",
+         "mobileStyles": {
+          "paddingTop": "0px",
+          "width": "fit-content"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "4px",
+          "width": "100%"
+         },
+         "blockId": "b4c893a133",
+         "blockName": "Entry Body · Senior Manager",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+            "fontFamily": "EB Garamond",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "b7777529aa",
+           "blockName": "Entry Role · Senior Manager",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Senior Manager",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--79f05fe5-4f09-4c5d-8a27-9aada2106f3c, #1F3A64)",
+            "fontFamily": "IBM Plex Sans",
+            "fontSize": "10.5px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "2dfd7a0301",
+           "blockName": "Entry Org · KPMG · Deal Advisory",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "KPMG · Deal Advisory",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "5px",
+            "marginTop": "8px",
+            "width": "100%"
+           },
+           "blockId": "075976e76f",
+           "blockName": "Entry Bullets · Senior Manager",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.75",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "856b059f0c",
+             "blockName": "Bullet · Forty-plus due diligen",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "– Forty-plus due diligence mandates, both sides of the table.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "8px",
+        "padding": "18px 0"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "borderBottomColor": "var(--79f05fe5-4f09-4c5d-8a27-9aada2106f3c, #1F3A64)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "2px",
+        "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+        "fontFamily": "IBM Plex Sans",
+        "fontSize": "11px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "0.14em",
+        "lineHeight": "1.6",
+        "marginTop": "34px",
+        "minWidth": "10px",
+        "paddingBottom": "8px",
+        "textTransform": "uppercase",
+        "width": "100%"
+       },
+       "blockId": "44b7e96b33",
+       "blockName": "Sheet Section · Education",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Education",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "borderTopColor": "var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)",
+        "borderTopStyle": "solid",
+        "borderTopWidth": "0px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "28px",
+        "padding": "22px 0",
+        "width": "100%"
+       },
+       "blockId": "9fba8c197f",
+       "blockName": "Entry · M.A. Accounting & Financ",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "flexShrink": 0,
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "10px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.14em",
+          "lineHeight": "1.6",
+          "minWidth": "10px",
+          "paddingTop": "5px",
+          "textTransform": "uppercase",
+          "width": "150px"
+         },
+         "blockId": "f92db50fd5",
+         "blockName": "Entry Dates · 2009 – 2011",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "2009 – 2011",
+         "mobileStyles": {
+          "paddingTop": "0px",
+          "width": "fit-content"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "4px",
+          "width": "100%"
+         },
+         "blockId": "0a9ea290b6",
+         "blockName": "Entry Body · M.A. Accounting & Fina",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+            "fontFamily": "EB Garamond",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "a35c477561",
+           "blockName": "Entry Role · M.A. Accounting & Fina",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "M.A. Accounting & Finance",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--79f05fe5-4f09-4c5d-8a27-9aada2106f3c, #1F3A64)",
+            "fontFamily": "IBM Plex Sans",
+            "fontSize": "10.5px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "3a71d9f9f3",
+           "blockName": "Entry Org · University of St. Gall",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "University of St. Gallen",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "5px",
+            "marginTop": "8px",
+            "width": "100%"
+           },
+           "blockId": "98c3e0e937",
+           "blockName": "Entry Bullets · M.A. Accounting ",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.75",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "0e0ba2f3a6",
+             "blockName": "Bullet · Swiss CPA. Thesis on e",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "– Swiss CPA. Thesis on early-stage revenue recognition, still occasionally cited, mostly by me.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "8px",
+        "padding": "18px 0"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "borderBottomColor": "var(--79f05fe5-4f09-4c5d-8a27-9aada2106f3c, #1F3A64)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "2px",
+        "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+        "fontFamily": "IBM Plex Sans",
+        "fontSize": "11px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "0.14em",
+        "lineHeight": "1.6",
+        "marginTop": "34px",
+        "minWidth": "10px",
+        "paddingBottom": "8px",
+        "textTransform": "uppercase",
+        "width": "100%"
+       },
+       "blockId": "f98f228dda",
+       "blockName": "Sheet Section · Toolkit",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Toolkit",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "flexWrap": "wrap",
+        "gap": "8px",
+        "paddingTop": "18px",
+        "width": "100%"
+       },
+       "blockId": "84c008517c",
+       "blockName": "Chips Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderColor": "var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)",
+          "borderRadius": "999px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "11px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "lineHeight": "1",
+          "minWidth": "10px",
+          "padding": "8px 14px",
+          "width": "fit-content"
+         },
+         "blockId": "535210d332",
+         "blockName": "Chip · Fundraising",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Fundraising",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderColor": "var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)",
+          "borderRadius": "999px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "11px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "lineHeight": "1",
+          "minWidth": "10px",
+          "padding": "8px 14px",
+          "width": "fit-content"
+         },
+         "blockId": "82ae358e21",
+         "blockName": "Chip · Board reporting",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Board reporting",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderColor": "var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)",
+          "borderRadius": "999px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "11px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "lineHeight": "1",
+          "minWidth": "10px",
+          "padding": "8px 14px",
+          "width": "fit-content"
+         },
+         "blockId": "121116b786",
+         "blockName": "Chip · Pricing",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Pricing",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderColor": "var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)",
+          "borderRadius": "999px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "11px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "lineHeight": "1",
+          "minWidth": "10px",
+          "padding": "8px 14px",
+          "width": "fit-content"
+         },
+         "blockId": "82405d2412",
+         "blockName": "Chip · FP&A",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "FP&A",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderColor": "var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)",
+          "borderRadius": "999px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "11px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "lineHeight": "1",
+          "minWidth": "10px",
+          "padding": "8px 14px",
+          "width": "fit-content"
+         },
+         "blockId": "7d3fae276b",
+         "blockName": "Chip · ERP migrations",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "ERP migrations",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderColor": "var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)",
+          "borderRadius": "999px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "11px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "lineHeight": "1",
+          "minWidth": "10px",
+          "padding": "8px 14px",
+          "width": "fit-content"
+         },
+         "blockId": "000e7f301c",
+         "blockName": "Chip · Exit readiness",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Exit readiness",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "22458cf235",
+       "blockName": "Signature",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "7c9a8867bd",
+         "blockName": "Signature Rule",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "vitae_signature",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "7ae36c044d",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "d158680e74",
+         "blockName": "Signature Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "604ca28f6e",
+           "blockName": "Signature Name",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "vitae_signature",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c89128e82f",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "12eec43cd3",
+           "blockName": "Signature Note",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "vitae_signature",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c3eaddbdf5",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "vitae_signature",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "ee0af5e613",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "extendedFromComponent": "vitae_signature",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "marginBottom": "36px",
+      "marginTop": "16px",
+      "padding": "32px 22px"
+     },
+     "rawStyles": {
+      "box-shadow": "0 24px 60px rgba(35, 35, 35, 0.10), 0 2px 8px rgba(35, 35, 35, 0.06)"
+     },
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "vitae_styles"
+  }
+ ],
+ "creation": "2026-07-15 16:59:32.872557",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "The CV of Adrien Vale, fractional CFO: fifteen years of closes, raises and clean handovers.",
+ "modified": "2026-07-15 17:05:53.143173",
+ "modified_by": "Administrator",
+ "name": "vitae_home",
+ "owner": "Administrator",
+ "page_name": "vitae_home",
+ "page_title": "Adrien Vale · Fractional CFO",
+ "preview": "/builder_assets/vitae/vitae_home/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/vitae/home",
+ "template_group": "vitae"
+}

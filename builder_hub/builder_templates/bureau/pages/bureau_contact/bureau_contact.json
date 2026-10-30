@@ -1,0 +1,956 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--d1f9cf41-0bdf-4c99-8571-c044c4847598, #FAFAF7)",
+    "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Hanken Grotesk",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "08f55203c7",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "ecb5cf0e33",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "c62a974baf",
+       "blockName": "Nav Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "27719d1bcc",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "bureau_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "a580b0a63c",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "d448aee58f",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "a660db6802",
+           "blockName": "Work",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "bureau_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c3c5c7814c",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "f357c8bf44",
+           "blockName": "Contact",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "bureau_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "4f8420fce7",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "111e090046",
+           "blockName": "Nav CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "bureau_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "4f1516611b",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "bureau_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "c9fdc44cb0",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "bureau_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "cef2f544d1",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "bureau_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1200px",
+      "padding": "0 36px 64px",
+      "width": "100%"
+     },
+     "blockId": "9e87171489",
+     "blockName": "Section · Contact Head",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+        "fontFamily": "Hanken Grotesk",
+        "fontSize": "96px",
+        "fontWeight": "800",
+        "height": "fit-content",
+        "letterSpacing": "-0.03em",
+        "lineHeight": "1.02",
+        "minWidth": "10px",
+        "paddingTop": "64px",
+        "width": "fit-content"
+       },
+       "blockId": "7908a5a5c9",
+       "blockName": "Contact Headline",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Start<br><span style=\"background: #C8FF4D; padding: 0 0.12em;\">something</span>.",
+       "mobileStyles": {
+        "fontSize": "42px",
+        "paddingTop": "36px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "fontSize": "66px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--ab705f1e-b7d8-4f81-8907-6be591b2203a, #6E6A63)",
+        "fontFamily": "Hanken Grotesk",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "height": "fit-content",
+        "lineHeight": "1.7",
+        "marginTop": "20px",
+        "maxWidth": "540px",
+        "minWidth": "10px",
+        "width": "100%"
+       },
+       "blockId": "c2e4dd91e9",
+       "blockName": "Contact Sub",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "One email is enough. Tell us what you make, who ignores it today, and when you want that to stop.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {
+        "href": "mailto:new@bureau.studio"
+       },
+       "baseStyles": {
+        "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+        "fontFamily": "Hanken Grotesk",
+        "fontSize": "40px",
+        "fontWeight": "800",
+        "height": "fit-content",
+        "letterSpacing": "-0.03em",
+        "lineHeight": "1.2",
+        "marginTop": "14px",
+        "minWidth": "10px",
+        "textDecoration": "underline",
+        "width": "fit-content"
+       },
+       "blockId": "854fd6b3e1",
+       "blockName": "Contact Mail",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "a",
+       "innerHTML": "new@bureau.studio",
+       "mobileStyles": {
+        "fontSize": "24px"
+       },
+       "rawStyles": {
+        "hover:color": "#5A6B22",
+        "transition": "color 0.15s ease-out"
+       },
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "flexWrap": "wrap",
+        "gap": "10px",
+        "marginTop": "30px",
+        "width": "100%"
+       },
+       "blockId": "54506f8f75",
+       "blockName": "Budget Chips",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderColor": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+          "borderRadius": "999px",
+          "borderStyle": "solid",
+          "borderWidth": "1.5px",
+          "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+          "fontFamily": "Hanken Grotesk",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.12em",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "padding": "10px 16px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "8595b21148",
+         "blockName": "Budget · Brand · from €40k",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Brand · from €40k",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderColor": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+          "borderRadius": "999px",
+          "borderStyle": "solid",
+          "borderWidth": "1.5px",
+          "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+          "fontFamily": "Hanken Grotesk",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.12em",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "padding": "10px 16px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "aa9e7df409",
+         "blockName": "Budget · Brand + site · from €80k",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Brand + site · from €80k",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderColor": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+          "borderRadius": "999px",
+          "borderStyle": "solid",
+          "borderWidth": "1.5px",
+          "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+          "fontFamily": "Hanken Grotesk",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.12em",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "padding": "10px 16px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "6873338503",
+         "blockName": "Budget · The full fight · €150k+",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "The full fight · €150k+",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px 40px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1200px",
+      "padding": "0 36px 80px",
+      "width": "100%"
+     },
+     "blockId": "483a13b37d",
+     "blockName": "Section · Steps",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+        "fontFamily": "Hanken Grotesk",
+        "fontSize": "11px",
+        "fontWeight": "700",
+        "height": "fit-content",
+        "letterSpacing": "0.12em",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "paddingBottom": "16px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "25eb189541",
+       "blockName": "Steps Heading",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "What happens next",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "16px",
+        "width": "100%"
+       },
+       "blockId": "8a51142f90",
+       "blockName": "Steps Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "var(--f2ac0551-474b-402c-8972-52bab60a328f, #E7E4DC)",
+          "borderRadius": "16px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "6px",
+          "padding": "26px 26px",
+          "width": "100%"
+         },
+         "blockId": "dcc5758463",
+         "blockName": "Step · Step 01",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#5A6B22",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "11px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "b327cefd8c",
+           "blockName": "Step No · Step 01",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Step 01",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "24px",
+            "fontWeight": "800",
+            "height": "fit-content",
+            "letterSpacing": "-0.03em",
+            "lineHeight": "1.02",
+            "marginTop": "8px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "bca77bea40",
+           "blockName": "Step Title · Step 01",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "A call that isn't a pitch",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--ab705f1e-b7d8-4f81-8907-6be591b2203a, #6E6A63)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "13.5px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "e7873ac385",
+           "blockName": "Step Blurb · Step 01",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "45 minutes. You talk, we ask rude questions, everyone checks the fit.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "var(--f2ac0551-474b-402c-8972-52bab60a328f, #E7E4DC)",
+          "borderRadius": "16px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "6px",
+          "padding": "26px 26px",
+          "width": "100%"
+         },
+         "blockId": "a2386f3c29",
+         "blockName": "Step · Step 02",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#5A6B22",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "11px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "76be0fb861",
+           "blockName": "Step No · Step 02",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Step 02",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "24px",
+            "fontWeight": "800",
+            "height": "fit-content",
+            "letterSpacing": "-0.03em",
+            "lineHeight": "1.02",
+            "marginTop": "8px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "95823c8d09",
+           "blockName": "Step Title · Step 02",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "A one-page plan",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--ab705f1e-b7d8-4f81-8907-6be591b2203a, #6E6A63)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "13.5px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "1a1800cc93",
+           "blockName": "Step Blurb · Step 02",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Scope, team, timeline, price. No 60-slide credentials deck, we promise.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "var(--f2ac0551-474b-402c-8972-52bab60a328f, #E7E4DC)",
+          "borderRadius": "16px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "6px",
+          "padding": "26px 26px",
+          "width": "100%"
+         },
+         "blockId": "3b5f1f815c",
+         "blockName": "Step · Step 03",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#5A6B22",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "11px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "5c889e2473",
+           "blockName": "Step No · Step 03",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Step 03",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "24px",
+            "fontWeight": "800",
+            "height": "fit-content",
+            "letterSpacing": "-0.03em",
+            "lineHeight": "1.02",
+            "marginTop": "8px",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "23b7cf5fc0",
+           "blockName": "Step Title · Step 03",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "We pick the fight",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--ab705f1e-b7d8-4f81-8907-6be591b2203a, #6E6A63)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "13.5px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "189abb3be5",
+           "blockName": "Step Blurb · Step 03",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Kickoff inside three weeks. Six slots a year; when they're gone, they're gone.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "16px",
+        "marginTop": "34px",
+        "width": "100%"
+       },
+       "blockId": "6b1f032642",
+       "blockName": "Booking Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+          "fontFamily": "Hanken Grotesk",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.12em",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "66dda004b5",
+         "blockName": "Booking Label",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Currently booking",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--10d3bd18-9aa5-4d4f-8bc1-c725a1a7974a, #C8FF4D)",
+          "borderRadius": "999px",
+          "color": "#5A6B22",
+          "fontFamily": "Hanken Grotesk",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.12em",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "padding": "10px 16px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "c0f5e0ffb1",
+         "blockName": "Booking Status",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Q4 2026 · one slot left",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px 48px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "72cfde6563",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "433a4909ec",
+       "blockName": "Footer Inner",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "1ac70aefe5",
+         "blockName": "Footer Kicker",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "bureau_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3187484f17",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "4144dae696",
+         "blockName": "Footer CTA",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "bureau_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3cdad3075e",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "a9965a6116",
+         "blockName": "Footer Meta",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "b58fb7d5a0",
+           "blockName": "Footer Mail",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "bureau_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "3d9a40a29d",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "ab8fb31c72",
+           "blockName": "Footer Loc",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "bureau_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "05bd57a10a",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "7684c5396f",
+           "blockName": "Footer Fine",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "bureau_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "0047913187",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "bureau_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "580d117ad3",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "bureau_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "d59cad585c",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "bureau_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "bureau_styles"
+  }
+ ],
+ "creation": "2026-07-15 22:48:21.879324",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Start something with Bureau: one email, a call that isn't a pitch, a one-page plan.",
+ "modified": "2026-07-15 22:50:18.516606",
+ "modified_by": "Administrator",
+ "name": "bureau_contact",
+ "owner": "Administrator",
+ "page_name": "bureau_contact",
+ "page_title": "Start a project · BUREAU®",
+ "preview": "/builder_assets/bureau/bureau_contact/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/bureau/contact",
+ "template_group": "bureau"
+}

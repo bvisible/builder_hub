@@ -1,0 +1,1381 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--cab82634-ec93-4129-81ba-711dbed3b65e, #F3EFE3)",
+    "color": "var(--ca74dccd-a529-45df-8c61-30a4f5d37696, #171A17)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Inter",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "5cb81b283f",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "2bb7efd69f",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "0888e3f56c",
+       "blockName": "Nav Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "b7b2b7e061",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "candor_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "c6c9286740",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "b95f4f32ba",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "0dbad51eb2",
+           "blockName": "The work",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "candor_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "f86b1c492c",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "a24e93ab01",
+           "blockName": "Start",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "candor_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "b673decbaa",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "e4b5e5ee74",
+           "blockName": "Nav Est",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "candor_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "4968883b12",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "candor_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "68f750fde8",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "candor_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "08f34893a7",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "candor_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1040px",
+      "padding": "0 32px",
+      "paddingBottom": "40px",
+      "width": "100%"
+     },
+     "blockId": "faacc22540",
+     "blockName": "Section · Work Head",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--ca74dccd-a529-45df-8c61-30a4f5d37696, #171A17)",
+        "fontFamily": "Source Serif 4",
+        "fontSize": "58px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "-0.015em",
+        "lineHeight": "1.18",
+        "minWidth": "10px",
+        "paddingTop": "60px",
+        "width": "fit-content"
+       },
+       "blockId": "672c866bab",
+       "blockName": "Work Headline",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "The work,<br>and what it costs.",
+       "mobileStyles": {
+        "fontSize": "32px",
+        "paddingTop": "38px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "fontSize": "44px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--d92117cd-9c49-4ec2-88e8-2f3778b0cfdd, #6E7268)",
+        "fontFamily": "Inter",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.7",
+        "marginTop": "16px",
+        "maxWidth": "560px",
+        "minWidth": "10px",
+        "width": "100%"
+       },
+       "blockId": "4d32878ce2",
+       "blockName": "Work Sub",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Three ways to engage us. Fees are fixed, quoted before we start, and identical for everyone including friends.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px",
+      "paddingBottom": "28px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1040px",
+      "padding": "0 32px",
+      "width": "100%"
+     },
+     "blockId": "63355a799c",
+     "blockName": "Section · Fees",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "borderBottomColor": "var(--24481316-9fa3-4ebb-8a45-1a2e22df76eb, #DEDACB)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "1px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "4d2c7a0fc5",
+       "blockName": "Fee Table",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "borderTopColor": "var(--ca74dccd-a529-45df-8c61-30a4f5d37696, #171A17)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "3px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "24px 0",
+          "width": "100%"
+         },
+         "blockId": "3640c4ad24",
+         "blockName": "Fee Row · The honest h",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexBasis": "0px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "0px",
+            "width": "100%"
+           },
+           "blockId": "e3f4b64424",
+           "blockName": "Fee Copy · The honest h",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--ca74dccd-a529-45df-8c61-30a4f5d37696, #171A17)",
+              "fontFamily": "Source Serif 4",
+              "fontSize": "27px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "-0.015em",
+              "lineHeight": "1.18",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "3b6264ed44",
+             "blockName": "Fee Title · The honest h",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "The honest hour",
+             "mobileStyles": {
+              "fontSize": "22px"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--d92117cd-9c49-4ec2-88e8-2f3778b0cfdd, #6E7268)",
+              "fontFamily": "Inter",
+              "fontSize": "10.5px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.16em",
+              "lineHeight": "1.5",
+              "marginTop": "6px",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "fd8054266e",
+             "blockName": "Fee Dur · The honest h",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "One session",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--d92117cd-9c49-4ec2-88e8-2f3778b0cfdd, #6E7268)",
+              "fontFamily": "Inter",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "marginTop": "10px",
+              "maxWidth": "560px",
+              "minWidth": "10px",
+              "width": "100%"
+             },
+             "blockId": "39f5829200",
+             "blockName": "Fee Blurb · The honest h",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "A single working session on one question. Comes with written notes and no follow-up sales call.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c8b77635-c6fb-42e2-8e11-d616f3d3839b, #17453B)",
+            "flexShrink": 0,
+            "fontFamily": "Source Serif 4",
+            "fontSize": "27px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "-0.015em",
+            "lineHeight": "1.18",
+            "minWidth": "10px",
+            "textAlign": "right",
+            "width": "fit-content"
+           },
+           "blockId": "21e9abf8ff",
+           "blockName": "Fee · The honest h",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "€900",
+           "mobileStyles": {
+            "fontSize": "22px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "8px",
+          "padding": "18px 0"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "borderTopColor": "var(--24481316-9fa3-4ebb-8a45-1a2e22df76eb, #DEDACB)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "24px 0",
+          "width": "100%"
+         },
+         "blockId": "3a60fd867a",
+         "blockName": "Fee Row · The decision",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexBasis": "0px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "0px",
+            "width": "100%"
+           },
+           "blockId": "c862ed7e57",
+           "blockName": "Fee Copy · The decision",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--ca74dccd-a529-45df-8c61-30a4f5d37696, #171A17)",
+              "fontFamily": "Source Serif 4",
+              "fontSize": "27px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "-0.015em",
+              "lineHeight": "1.18",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "d70038c2ee",
+             "blockName": "Fee Title · The decision",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "The decision sprint",
+             "mobileStyles": {
+              "fontSize": "22px"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--d92117cd-9c49-4ec2-88e8-2f3778b0cfdd, #6E7268)",
+              "fontFamily": "Inter",
+              "fontSize": "10.5px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.16em",
+              "lineHeight": "1.5",
+              "marginTop": "6px",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "372b142b12",
+             "blockName": "Fee Dur · The decision",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Three weeks",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--d92117cd-9c49-4ec2-88e8-2f3778b0cfdd, #6E7268)",
+              "fontFamily": "Inter",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "marginTop": "10px",
+              "maxWidth": "560px",
+              "minWidth": "10px",
+              "width": "100%"
+             },
+             "blockId": "095ccad1da",
+             "blockName": "Fee Blurb · The decision",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Positioning, pricing or a hard call, worked to a written recommendation you can hand to the board.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c8b77635-c6fb-42e2-8e11-d616f3d3839b, #17453B)",
+            "flexShrink": 0,
+            "fontFamily": "Source Serif 4",
+            "fontSize": "27px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "-0.015em",
+            "lineHeight": "1.18",
+            "minWidth": "10px",
+            "textAlign": "right",
+            "width": "fit-content"
+           },
+           "blockId": "85b00943ac",
+           "blockName": "Fee · The decision",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "€24,000",
+           "mobileStyles": {
+            "fontSize": "22px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "8px",
+          "padding": "18px 0"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "borderTopColor": "var(--24481316-9fa3-4ebb-8a45-1a2e22df76eb, #DEDACB)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "24px 0",
+          "width": "100%"
+         },
+         "blockId": "f702819f0a",
+         "blockName": "Fee Row · The standing",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexBasis": "0px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "0px",
+            "width": "100%"
+           },
+           "blockId": "ed41366098",
+           "blockName": "Fee Copy · The standing",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--ca74dccd-a529-45df-8c61-30a4f5d37696, #171A17)",
+              "fontFamily": "Source Serif 4",
+              "fontSize": "27px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "-0.015em",
+              "lineHeight": "1.18",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "eb5c705970",
+             "blockName": "Fee Title · The standing",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "The standing argument",
+             "mobileStyles": {
+              "fontSize": "22px"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--d92117cd-9c49-4ec2-88e8-2f3778b0cfdd, #6E7268)",
+              "fontFamily": "Inter",
+              "fontSize": "10.5px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.16em",
+              "lineHeight": "1.5",
+              "marginTop": "6px",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "7962834ee0",
+             "blockName": "Fee Dur · The standing",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Quarterly",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--d92117cd-9c49-4ec2-88e8-2f3778b0cfdd, #6E7268)",
+              "fontFamily": "Inter",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "marginTop": "10px",
+              "maxWidth": "560px",
+              "minWidth": "10px",
+              "width": "100%"
+             },
+             "blockId": "a8603642d5",
+             "blockName": "Fee Blurb · The standing",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "We join four board cycles a year as the designated skeptic. Renewable, cancellable, rarely cancelled.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c8b77635-c6fb-42e2-8e11-d616f3d3839b, #17453B)",
+            "flexShrink": 0,
+            "fontFamily": "Source Serif 4",
+            "fontSize": "27px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "-0.015em",
+            "lineHeight": "1.18",
+            "minWidth": "10px",
+            "textAlign": "right",
+            "width": "fit-content"
+           },
+           "blockId": "d0b5b79684",
+           "blockName": "Fee · The standing",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "€36,000 / yr",
+           "mobileStyles": {
+            "fontSize": "22px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "8px",
+          "padding": "18px 0"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--d92117cd-9c49-4ec2-88e8-2f3778b0cfdd, #6E7268)",
+        "fontFamily": "Inter",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.7",
+        "minWidth": "10px",
+        "padding": "16px 0 56px",
+        "width": "fit-content"
+       },
+       "blockId": "a2dc92c816",
+       "blockName": "Fee Note",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Fees include everything. If a sprint needs a specialist we pay them from our fee and tell you who they were.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px",
+      "paddingBottom": "8px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "var(--c8b77635-c6fb-42e2-8e11-d616f3d3839b, #17453B)",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "width": "100%"
+     },
+     "blockId": "edd87b03c0",
+     "blockName": "Band · Principles",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "maxWidth": "1200px",
+        "padding": "56px 32px 64px",
+        "width": "100%"
+       },
+       "blockId": "17d80008ce",
+       "blockName": "Principles Inner",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "#7FA396",
+          "fontFamily": "Inter",
+          "fontSize": "11px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.16em",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "b15f8339a3",
+         "blockName": "Principles Heading",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Working principles",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "marginTop": "18px",
+          "width": "100%"
+         },
+         "blockId": "597ff1a584",
+         "blockName": "Principles List",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "baseline",
+            "borderTopColor": "var(--54e76e9e-8b84-49ff-8442-1495f6c32aee, #2E5C50)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "0px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "14px",
+            "padding": "16px 0",
+            "width": "100%"
+           },
+           "blockId": "d245c66e75",
+           "blockName": "Principle · I.",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#7FA396",
+              "flexShrink": 0,
+              "fontFamily": "Source Serif 4",
+              "fontSize": "22px",
+              "fontStyle": "italic",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "-0.015em",
+              "lineHeight": "1.18",
+              "minWidth": "10px",
+              "width": "52px"
+             },
+             "blockId": "692764da6f",
+             "blockName": "Pr No · I.",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "I.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#D9E4DD",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "fontFamily": "Inter",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "maxWidth": "680px",
+              "minWidth": "0px",
+              "width": "100%"
+             },
+             "blockId": "32090d235b",
+             "blockName": "Pr Text · I.",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Write it down. If the advice can't survive being written, it isn't advice.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "baseline",
+            "borderTopColor": "var(--54e76e9e-8b84-49ff-8442-1495f6c32aee, #2E5C50)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "14px",
+            "padding": "16px 0",
+            "width": "100%"
+           },
+           "blockId": "6f3732be67",
+           "blockName": "Principle · II.",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#7FA396",
+              "flexShrink": 0,
+              "fontFamily": "Source Serif 4",
+              "fontSize": "22px",
+              "fontStyle": "italic",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "-0.015em",
+              "lineHeight": "1.18",
+              "minWidth": "10px",
+              "width": "52px"
+             },
+             "blockId": "32c26ff431",
+             "blockName": "Pr No · II.",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "II.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#D9E4DD",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "fontFamily": "Inter",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "maxWidth": "680px",
+              "minWidth": "0px",
+              "width": "100%"
+             },
+             "blockId": "b88496c239",
+             "blockName": "Pr Text · II.",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "One question per engagement. Scope creep is how consultants become furniture.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "baseline",
+            "borderTopColor": "var(--54e76e9e-8b84-49ff-8442-1495f6c32aee, #2E5C50)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "14px",
+            "padding": "16px 0",
+            "width": "100%"
+           },
+           "blockId": "45945985c8",
+           "blockName": "Principle · III.",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#7FA396",
+              "flexShrink": 0,
+              "fontFamily": "Source Serif 4",
+              "fontSize": "22px",
+              "fontStyle": "italic",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "-0.015em",
+              "lineHeight": "1.18",
+              "minWidth": "10px",
+              "width": "52px"
+             },
+             "blockId": "5b64b40fc7",
+             "blockName": "Pr No · III.",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "III.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#D9E4DD",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "fontFamily": "Inter",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "maxWidth": "680px",
+              "minWidth": "0px",
+              "width": "100%"
+             },
+             "blockId": "cda3e41c67",
+             "blockName": "Pr Text · III.",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Disagree in the room, commit in the memo.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "baseline",
+            "borderTopColor": "var(--54e76e9e-8b84-49ff-8442-1495f6c32aee, #2E5C50)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "14px",
+            "padding": "16px 0",
+            "width": "100%"
+           },
+           "blockId": "fad0d8c07e",
+           "blockName": "Principle · IV.",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#7FA396",
+              "flexShrink": 0,
+              "fontFamily": "Source Serif 4",
+              "fontSize": "22px",
+              "fontStyle": "italic",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "-0.015em",
+              "lineHeight": "1.18",
+              "minWidth": "10px",
+              "width": "52px"
+             },
+             "blockId": "1ebbbde59a",
+             "blockName": "Pr No · IV.",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "IV.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#D9E4DD",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "fontFamily": "Inter",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "maxWidth": "680px",
+              "minWidth": "0px",
+              "width": "100%"
+             },
+             "blockId": "76f556d2ca",
+             "blockName": "Pr Text · IV.",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "No success fees. We are paid to be right slowly, not agreeable quickly.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "baseline",
+            "borderTopColor": "var(--54e76e9e-8b84-49ff-8442-1495f6c32aee, #2E5C50)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "14px",
+            "padding": "16px 0",
+            "width": "100%"
+           },
+           "blockId": "80605a0866",
+           "blockName": "Principle · V.",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#7FA396",
+              "flexShrink": 0,
+              "fontFamily": "Source Serif 4",
+              "fontSize": "22px",
+              "fontStyle": "italic",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "-0.015em",
+              "lineHeight": "1.18",
+              "minWidth": "10px",
+              "width": "52px"
+             },
+             "blockId": "b7062030d3",
+             "blockName": "Pr No · V.",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "V.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#D9E4DD",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "fontFamily": "Inter",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "maxWidth": "680px",
+              "minWidth": "0px",
+              "width": "100%"
+             },
+             "blockId": "2c7786a25c",
+             "blockName": "Pr Text · V.",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "When we're wrong, the retro is free and public inside your company.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "padding": "36px 18px 42px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "427e6d6d52",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "6e2fce8c07",
+       "blockName": "Footer Inner",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "a0d8417c65",
+         "blockName": "Footer Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "39fe8fc7f3",
+           "blockName": "Footer Left",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "03cabb43f2",
+             "blockName": "Footer Brand",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "candor_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "8d3c49cd3c",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "a9e72f9f09",
+             "blockName": "Footer Line",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "candor_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "39cf4b2195",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "candor_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "b6388c8a4d",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "6f6b86b486",
+           "blockName": "Footer Right",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "5dcf0f5c02",
+             "blockName": "Footer Mail",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "candor_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "d26c71d2b4",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "c1fc78ab47",
+             "blockName": "Footer Loc",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "candor_footer",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "ca0673316a",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "candor_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "b4b2757ec9",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "candor_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "e4ebbe4a6b",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "candor_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "f0741fffc4",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "candor_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "candor_styles"
+  }
+ ],
+ "creation": "2026-07-17 10:48:42.217806",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Three engagements, fixed fees, one table. The honest hour, the decision sprint, the standing argument.",
+ "modified": "2026-07-17 10:49:55.345613",
+ "modified_by": "Administrator",
+ "name": "candor_work",
+ "owner": "Administrator",
+ "page_name": "candor_work",
+ "page_title": "The work and fees · Candor & Co",
+ "preview": "/builder_assets/candor/candor_work/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/candor/work",
+ "template_group": "candor"
+}

@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Editorial"
+ ],
+ "description": "A newspaper style travel journal with a three column front page.",
+ "order": 11,
+ "pages": [
+  {
+   "name": "field_issues"
+  },
+  {
+   "name": "field_story"
+  },
+  {
+   "name": "field_about"
+  }
+ ],
+ "title": "Field"
+}

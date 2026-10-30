@@ -1,0 +1,20 @@
+{
+ "categories": [
+  "Fashion",
+  "Local business"
+ ],
+ "description": "A minimal atelier site framed by a hairline border, with numbered services.",
+ "order": 13,
+ "pages": [
+  {
+   "name": "hem_home"
+  },
+  {
+   "name": "hem_services"
+  },
+  {
+   "name": "hem_studio"
+  }
+ ],
+ "title": "Hem"
+}

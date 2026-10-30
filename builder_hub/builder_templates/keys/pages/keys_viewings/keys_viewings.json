@@ -1,0 +1,1528 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "stretch",
+    "backgroundColor": "var(--44dd55ee-0001-4d01-8d01-ddee0001cc01, #FAFAF8)",
+    "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Hanken Grotesk",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "ac82fce66e",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "fbe10a2e01",
+     "blockName": "Sidebar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "40dcc26c77",
+       "blockName": "Sidebar Top",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "3c71b64da3",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "003be0bb11",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "93c6dc335c",
+         "blockName": "Side Nav",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "04e395d724",
+           "blockName": "Side · Listings",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "43b7efd01e",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "8cb7f50d5d",
+           "blockName": "Side · Property",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "fc77477c47",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "353bb44a91",
+           "blockName": "Side · Viewings",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "baa47a0a8f",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "eae34ed286",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "f6feeeaaca",
+         "blockName": "Side Filters",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "d8b759480c",
+           "blockName": "Filter Label",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c87c983e06",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "a1d6012d88",
+           "blockName": "Chip Stack",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "c96f61c72d",
+             "blockName": "Chip · Lisbon & coast",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "keys_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "af9c927492",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "352e52b054",
+             "blockName": "Chip · 2 - 4 beds",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "keys_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "6afb4bd993",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "0891961498",
+             "blockName": "Chip · Under ₹9 Cr",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "keys_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "3c6e617913",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "1f2a9f975e",
+             "blockName": "Chip · Move-in ready",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "keys_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "bc4d14834f",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "5a57d9fe30",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "0b86f7f527",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "keys_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "c473136f12",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "a63c491cd9",
+       "blockName": "Sidebar Bottom",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "83161d2212",
+         "blockName": "Side Card",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "9ee7800e52",
+           "blockName": "SC Label",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "949cffa36e",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "ff617d3309",
+           "blockName": "SC Text",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "01de6b5d84",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "01651809b6",
+           "blockName": "SC CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1aaef4ca24",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "d972468fa1",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "6503556fd3",
+         "blockName": "Theme Toggle",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "f90ea2f2b0",
+           "blockName": "Theme · Sun",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "9862b4b1b4",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "8ad8b0f4b3",
+           "blockName": "Theme · Moon",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "9b2c8815dd",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "6d815c6be8",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "a64d9b1de7",
+         "blockName": "Side Copy",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "1edba3d891",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "keys_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "deb131c5d2",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "keys_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexGrow": "1",
+      "marginLeft": "264px",
+      "minHeight": "100vh",
+      "width": "auto"
+     },
+     "blockId": "41e20d9f85",
+     "blockName": "Main",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "6%",
+        "padding": "56px 32px",
+        "width": "100%"
+       },
+       "blockId": "594d288b29",
+       "blockName": "Section · Viewings",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "width": "52%"
+         },
+         "blockId": "f8c792f1d1",
+         "blockName": "Viewings Info",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "11px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.5",
+            "marginBottom": "20px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "abd5d7da31",
+           "blockName": "V Label",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Viewings",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "64px",
+            "fontWeight": "800",
+            "height": "fit-content",
+            "letterSpacing": "-0.03em",
+            "lineHeight": "1.02",
+            "width": "fit-content"
+           },
+           "blockId": "ee718427c3",
+           "blockName": "V Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h1",
+           "innerHTML": "See it before<br>you love it.",
+           "mobileStyles": {
+            "fontSize": "36px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {
+            "fontSize": "48px"
+           }
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.65",
+            "margin": "24px 0px 40px",
+            "maxWidth": "460px",
+            "width": "fit-content"
+           },
+           "blockId": "86f875e989",
+           "blockName": "V Text",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Viewings run Tuesday to Saturday and take a full hour - enough time to open every cupboard and sit in the light. Video walkthroughs for the far-away.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderTopColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "padding": "18px 0px",
+            "width": "100%"
+           },
+           "blockId": "aa02cb10b6",
+           "blockName": "Slot · Tuesday - Friday",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "flexShrink": 0,
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.03em",
+              "lineHeight": "1.02",
+              "width": "180px"
+             },
+             "blockId": "6a72e14f0d",
+             "blockName": "Slot Day",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Tuesday - Friday",
+             "mobileStyles": {
+              "width": "100%"
+             },
+             "rawStyles": {},
+             "tabletStyles": {
+              "width": "100%"
+             }
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "flexGrow": "1",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "width": "fit-content"
+             },
+             "blockId": "3d1915095d",
+             "blockName": "Slot Times",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "10:00 · 12:00 · 15:00 · 17:30",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "mailto:hello@keys.pt"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "borderColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+              "borderRadius": "10px",
+              "borderStyle": "solid",
+              "borderWidth": "1px",
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "justifyContent": "center",
+              "lineHeight": "1",
+              "padding": "10px 18px",
+              "textDecoration": "none",
+              "width": "fit-content"
+             },
+             "blockId": "f691c341cb",
+             "blockName": "Slot CTA · Tuesday - Friday",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "a",
+             "innerHTML": "Request",
+             "mobileStyles": {},
+             "rawStyles": {
+              "hover:border-color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+              "hover:color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+              "transition": "border-color 0.15s ease-out, color 0.15s ease-out"
+             },
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "8px 16px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {
+            "flexWrap": "wrap",
+            "gap": "8px 16px"
+           }
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderTopColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "padding": "18px 0px",
+            "width": "100%"
+           },
+           "blockId": "7b5a35e049",
+           "blockName": "Slot · Saturday",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "flexShrink": 0,
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.03em",
+              "lineHeight": "1.02",
+              "width": "180px"
+             },
+             "blockId": "ac8b4d5bbe",
+             "blockName": "Slot Day",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Saturday",
+             "mobileStyles": {
+              "width": "100%"
+             },
+             "rawStyles": {},
+             "tabletStyles": {
+              "width": "100%"
+             }
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "flexGrow": "1",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "width": "fit-content"
+             },
+             "blockId": "d06ae33c91",
+             "blockName": "Slot Times",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "10:00 · 12:00 - mornings only",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "mailto:hello@keys.pt"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "borderColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+              "borderRadius": "10px",
+              "borderStyle": "solid",
+              "borderWidth": "1px",
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "justifyContent": "center",
+              "lineHeight": "1",
+              "padding": "10px 18px",
+              "textDecoration": "none",
+              "width": "fit-content"
+             },
+             "blockId": "d3ad3df5d3",
+             "blockName": "Slot CTA · Saturday",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "a",
+             "innerHTML": "Request",
+             "mobileStyles": {},
+             "rawStyles": {
+              "hover:border-color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+              "hover:color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+              "transition": "border-color 0.15s ease-out, color 0.15s ease-out"
+             },
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "8px 16px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {
+            "flexWrap": "wrap",
+            "gap": "8px 16px"
+           }
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "borderTopColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "padding": "18px 0px",
+            "width": "100%"
+           },
+           "blockId": "cd211594ee",
+           "blockName": "Slot · Remote",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "flexShrink": 0,
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.03em",
+              "lineHeight": "1.02",
+              "width": "180px"
+             },
+             "blockId": "9f16b3097b",
+             "blockName": "Slot Day",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Remote",
+             "mobileStyles": {
+              "width": "100%"
+             },
+             "rawStyles": {},
+             "tabletStyles": {
+              "width": "100%"
+             }
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "flexGrow": "1",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "width": "fit-content"
+             },
+             "blockId": "080a151825",
+             "blockName": "Slot Times",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Video call, any weekday, your timezone",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "mailto:hello@keys.pt"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "borderColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+              "borderRadius": "10px",
+              "borderStyle": "solid",
+              "borderWidth": "1px",
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "justifyContent": "center",
+              "lineHeight": "1",
+              "padding": "10px 18px",
+              "textDecoration": "none",
+              "width": "fit-content"
+             },
+             "blockId": "993fb9656c",
+             "blockName": "Slot CTA · Remote",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "a",
+             "innerHTML": "Request",
+             "mobileStyles": {},
+             "rawStyles": {
+              "hover:border-color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+              "hover:color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+              "transition": "border-color 0.15s ease-out, color 0.15s ease-out"
+             },
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap",
+            "gap": "8px 16px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {
+            "flexWrap": "wrap",
+            "gap": "8px 16px"
+           }
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "gap": "22px",
+            "height": "fit-content",
+            "marginTop": "40px",
+            "width": "fit-content"
+           },
+           "blockId": "91112ce758",
+           "blockName": "V CTAs",
+           "children": [
+            {
+             "attributes": {
+              "href": "mailto:hello@keys.pt"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "backgroundColor": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+              "borderRadius": "10px",
+              "color": "#FAFAF8",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "14px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "justifyContent": "center",
+              "lineHeight": "1",
+              "padding": "16px 28px",
+              "textDecoration": "none",
+              "width": "fit-content"
+             },
+             "blockId": "de6efba44a",
+             "blockName": "Button · hello@keys.pt",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "a",
+             "innerHTML": "hello@keys.pt",
+             "mobileStyles": {},
+             "rawStyles": {
+              "hover:opacity": "0.9",
+              "transition": "opacity 0.15s ease-out"
+             },
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "tel:+351213405512"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "borderColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+              "borderRadius": "10px",
+              "borderStyle": "solid",
+              "borderWidth": "1px",
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "14px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "justifyContent": "center",
+              "lineHeight": "1",
+              "padding": "16px 28px",
+              "textDecoration": "none",
+              "width": "fit-content"
+             },
+             "blockId": "b1f6f11d74",
+             "blockName": "Button · +351 21 340 5512",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "a",
+             "innerHTML": "+351 21 340 5512",
+             "mobileStyles": {},
+             "rawStyles": {
+              "hover:border-color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+              "hover:color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+              "transition": "border-color 0.15s ease-out, color 0.15s ease-out"
+             },
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "width": "100%"
+         }
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignSelf": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "14px",
+          "position": "sticky",
+          "top": "92px",
+          "width": "42%"
+         },
+         "blockId": "917b899f8c",
+         "blockName": "Viewings Media",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "aspectRatio": "4 / 5",
+            "backgroundColor": "var(--44dd55ee-0006-4d06-8d06-ddee0006cc06, #F0EFEA)",
+            "borderRadius": "10px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "overflow": "hidden",
+            "position": "relative",
+            "width": "100%"
+           },
+           "blockId": "0df7fdf233",
+           "blockName": "V Photo",
+           "children": [
+            {
+             "attributes": {
+              "alt": "A living room in the sun",
+              "src": "https://images.unsplash.com/photo-1560184897-ae75f418493e?auto=format&fit=crop&q=80&w=1200"
+             },
+             "baseStyles": {
+              "display": "block",
+              "flexShrink": 0,
+              "height": "100%",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "07b9d3c149",
+             "blockName": "V Photo · Image",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "img",
+             "mobileStyles": {},
+             "rawStyles": {
+              "transition": "transform 1s cubic-bezier(0.22, 1, 0.36, 1)"
+             },
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [
+            "keys-photo"
+           ],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "9px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.5",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "383e47a02d",
+           "blockName": "V Caption",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Casa Branca, 4pm slot",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "position": "static",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "width": "100%"
+         }
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "36px",
+        "padding": "52px 16px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "flexDirection": "column",
+        "gap": "36px",
+        "padding": "52px 16px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "borderTopColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+        "borderTopStyle": "solid",
+        "borderTopWidth": "1px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "gap": "32px",
+        "padding": "48px 32px 72px",
+        "width": "100%"
+       },
+       "blockId": "cb65c6bf9d",
+       "blockName": "Section · Team",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+          "fontFamily": "Hanken Grotesk",
+          "fontSize": "40px",
+          "fontWeight": "800",
+          "height": "fit-content",
+          "letterSpacing": "-0.03em",
+          "lineHeight": "1.02",
+          "width": "fit-content"
+         },
+         "blockId": "22d35263b7",
+         "blockName": "Team Title",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "h2",
+         "innerHTML": "Three of us, one promise each.",
+         "mobileStyles": {
+          "fontSize": "28px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "16px",
+          "width": "100%"
+         },
+         "blockId": "e9e914b408",
+         "blockName": "Team Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--44dd55ee-0006-4d06-8d06-ddee0006cc06, #F0EFEA)",
+            "borderRadius": "10px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 1,
+            "gap": "8px",
+            "padding": "28px 26px",
+            "width": "33.33%"
+           },
+           "blockId": "ff867c43a9",
+           "blockName": "Agent · Inês Duarte",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.03em",
+              "lineHeight": "1.02",
+              "width": "fit-content"
+             },
+             "blockId": "710e60fdea",
+             "blockName": "Agent Name",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "h3",
+             "innerHTML": "Inês Duarte",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "width": "fit-content"
+             },
+             "blockId": "543d9e905b",
+             "blockName": "Agent Role",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Lisbon & Alfama",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "mailto:hello@keys.pt"
+             },
+             "baseStyles": {
+              "color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "marginTop": "10px",
+              "textDecoration": "none",
+              "width": "fit-content"
+             },
+             "blockId": "de53d47058",
+             "blockName": "Agent Mail",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "a",
+             "innerHTML": "Write directly →",
+             "mobileStyles": {},
+             "rawStyles": {
+              "hover:text-decoration": "underline"
+             },
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--44dd55ee-0006-4d06-8d06-ddee0006cc06, #F0EFEA)",
+            "borderRadius": "10px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 1,
+            "gap": "8px",
+            "padding": "28px 26px",
+            "width": "33.33%"
+           },
+           "blockId": "2eb33b433d",
+           "blockName": "Agent · Rui Costa",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.03em",
+              "lineHeight": "1.02",
+              "width": "fit-content"
+             },
+             "blockId": "a80a79fe47",
+             "blockName": "Agent Name",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "h3",
+             "innerHTML": "Rui Costa",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "width": "fit-content"
+             },
+             "blockId": "b6dbcecb8a",
+             "blockName": "Agent Role",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Cascais & Estoril",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "mailto:hello@keys.pt"
+             },
+             "baseStyles": {
+              "color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "marginTop": "10px",
+              "textDecoration": "none",
+              "width": "fit-content"
+             },
+             "blockId": "cb0efcabb3",
+             "blockName": "Agent Mail",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "a",
+             "innerHTML": "Write directly →",
+             "mobileStyles": {},
+             "rawStyles": {
+              "hover:text-decoration": "underline"
+             },
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--44dd55ee-0006-4d06-8d06-ddee0006cc06, #F0EFEA)",
+            "borderRadius": "10px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 1,
+            "gap": "8px",
+            "padding": "28px 26px",
+            "width": "33.33%"
+           },
+           "blockId": "697ca30fc7",
+           "blockName": "Agent · Marta Silva",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.03em",
+              "lineHeight": "1.02",
+              "width": "fit-content"
+             },
+             "blockId": "6204440aa3",
+             "blockName": "Agent Name",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "h3",
+             "innerHTML": "Marta Silva",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "width": "fit-content"
+             },
+             "blockId": "8645594ffd",
+             "blockName": "Agent Role",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Comporta & south",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {
+              "href": "mailto:hello@keys.pt"
+             },
+             "baseStyles": {
+              "color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "marginTop": "10px",
+              "textDecoration": "none",
+              "width": "fit-content"
+             },
+             "blockId": "727df00b9f",
+             "blockName": "Agent Mail",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "a",
+             "innerHTML": "Write directly →",
+             "mobileStyles": {},
+             "rawStyles": {
+              "hover:text-decoration": "underline"
+             },
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "14px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "gap": "20px",
+        "padding": "48px 16px 56px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "3d2c8dc36f",
+       "blockName": "Footer",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "ad1f90654a",
+         "blockName": "Footer Copy",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "7d06eb9bfa",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "f6dd9b70db",
+         "blockName": "Footer Mail",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "586501d0dd",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "d08058f2fe",
+         "blockName": "Footer Addr",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "786f7c949c",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "extendedFromComponent": "keys_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "marginLeft": "0px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "keys_styles"
+  }
+ ],
+ "creation": "2026-07-14 16:14:30.086194",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Book an hour-long viewing with Keys, Tuesday to Saturday, or remote.",
+ "modified": "2026-07-14 22:20:05.429821",
+ "modified_by": "Administrator",
+ "name": "keys_viewings",
+ "owner": "Administrator",
+ "page_name": "keys_viewings",
+ "page_title": "Viewings",
+ "preview": "/builder_assets/keys/keys_viewings/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/keys/viewings",
+ "template_group": "keys"
+}

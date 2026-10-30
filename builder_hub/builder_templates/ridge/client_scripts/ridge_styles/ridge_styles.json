@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-15 16:59:32.563665",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-15 16:59:32.563665",
+ "modified_by": "Administrator",
+ "name": "ridge_styles",
+ "owner": "Administrator",
+ "script": "\nhtml { scroll-behavior: smooth; color-scheme: dark; }\n::selection { background: #FF4D00; color: #101012; }\n.rg-cap { opacity: 0; transform: translateY(6px); transition: opacity 0.25s ease-out, transform 0.25s ease-out; }\n.rg-tile:hover .rg-cap { opacity: 1; transform: none; }\n.rg-tile img { transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1); }\n.rg-tile:hover img { transform: scale(1.025); }\n",
+ "script_type": "CSS"
+}

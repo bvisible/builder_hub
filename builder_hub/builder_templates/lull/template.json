@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Local business"
+ ],
+ "description": "A soft wellness studio with an arch photo hero and a weekly schedule.",
+ "order": 8,
+ "pages": [
+  {
+   "name": "lull_home"
+  },
+  {
+   "name": "lull_classes"
+  },
+  {
+   "name": "lull_visit"
+  }
+ ],
+ "title": "Lull"
+}

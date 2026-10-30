@@ -1,0 +1,835 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--5d317b1d-34c4-4cfa-8601-e01c32db42a9, #0D0B09)",
+    "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Jost",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "cea3e8fbb7",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "05d69c4a60",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "6b207da2fa",
+       "blockName": "Monogram",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "8e20f930aa",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "9da8c78118",
+       "blockName": "Nav Links",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "a66a4cb3e9",
+         "blockName": "Collection",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "silk_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3b4728991a",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "29c3559e41",
+         "blockName": "House",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "silk_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "028f69d4a5",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "a8bd393e72",
+         "blockName": "Appointments",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "silk_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "2ecc342c02",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "a0d3b09a0c",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "silk_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "20px",
+      "padding": "96px 24px 72px",
+      "textAlign": "center",
+      "width": "100%"
+     },
+     "blockId": "adfc4dca13",
+     "blockName": "Section · Statement",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+        "fontFamily": "Jost",
+        "fontSize": "11px",
+        "fontWeight": "500",
+        "height": "fit-content",
+        "letterSpacing": "0.28em",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "2b93091a72",
+       "blockName": "Appt Kicker",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Appointments",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+        "fontFamily": "Italiana",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.05",
+        "minWidth": "10px",
+        "textAlign": "center",
+        "width": "fit-content"
+       },
+       "blockId": "3d9a3324b4",
+       "blockName": "Appt Headline",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "The salon takes<br>one booking a night.",
+       "mobileStyles": {
+        "fontSize": "36px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "56px 20px 40px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "stretch",
+      "borderBottomColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+      "borderBottomStyle": "solid",
+      "borderBottomWidth": "1px",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexShrink": 0,
+      "width": "100%"
+     },
+     "blockId": "a3856006c5",
+     "blockName": "Split",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "borderRightColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+        "borderRightStyle": "solid",
+        "borderRightWidth": "1px",
+        "display": "flex",
+        "flexBasis": "0px",
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "height": "540px",
+        "overflow": "hidden",
+        "width": "100%"
+       },
+       "blockId": "f1751eeddc",
+       "blockName": "Split · Image",
+       "children": [
+        {
+         "attributes": {
+          "alt": "Leaving the salon after a fitting",
+          "src": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=1100"
+         },
+         "baseStyles": {
+          "display": "block",
+          "flexShrink": 0,
+          "height": "100%",
+          "objectFit": "cover",
+          "width": "100%"
+         },
+         "blockId": "96dc1c6612",
+         "blockName": "Image · Leaving the salon af",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {},
+         "rawStyles": {
+          "filter": "saturate(0.85) contrast(1.02)"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "borderRightWidth": "0px",
+        "flexBasis": "auto",
+        "height": "320px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexBasis": "0px",
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "gap": "22px",
+        "justifyContent": "center",
+        "padding": "80px 96px 80px 72px",
+        "width": "100%"
+       },
+       "blockId": "1933a2eb87",
+       "blockName": "Split · Copy",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+          "fontFamily": "Jost",
+          "fontSize": "11px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "letterSpacing": "0.28em",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "1885731e3a",
+         "blockName": "Visiting Kicker",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Visiting",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+          "fontFamily": "Jost",
+          "fontSize": "15px",
+          "fontWeight": "300",
+          "height": "fit-content",
+          "lineHeight": "1.8",
+          "maxWidth": "440px",
+          "minWidth": "10px",
+          "width": "100%"
+         },
+         "blockId": "c100e9ded3",
+         "blockName": "Visit Line 1",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "9 Albemarle Street, London W1. First floor, the brass bell marked S.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+          "fontFamily": "Jost",
+          "fontSize": "15px",
+          "fontWeight": "300",
+          "height": "fit-content",
+          "lineHeight": "1.8",
+          "maxWidth": "440px",
+          "minWidth": "10px",
+          "width": "100%"
+         },
+         "blockId": "70abe08131",
+         "blockName": "Visit Line 2",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Thursday to Saturday, 6pm and 8pm sittings. Allow ninety minutes.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+          "fontFamily": "Jost",
+          "fontSize": "15px",
+          "fontWeight": "300",
+          "height": "fit-content",
+          "lineHeight": "1.8",
+          "maxWidth": "440px",
+          "minWidth": "10px",
+          "width": "100%"
+         },
+         "blockId": "00776fbbaa",
+         "blockName": "Visit Line 3",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Bring the shoes you plan to wear. Everything else is here.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexBasis": "auto",
+        "padding": "44px 24px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "padding": "56px 40px"
+       }
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "flexDirection": "column"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "820px",
+      "padding": "90px 24px 110px",
+      "width": "100%"
+     },
+     "blockId": "b7373088a1",
+     "blockName": "Section · Expect",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+        "fontFamily": "Jost",
+        "fontSize": "11px",
+        "fontWeight": "500",
+        "height": "fit-content",
+        "letterSpacing": "0.28em",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "93c5833d9b",
+       "blockName": "Expect Kicker",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "What to expect",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "marginTop": "26px",
+        "width": "100%"
+       },
+       "blockId": "5cad65f97e",
+       "blockName": "Expect Rows",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTopColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "30px",
+          "padding": "22px 0",
+          "width": "100%"
+         },
+         "blockId": "c94284d9bb",
+         "blockName": "Expect I",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Italiana",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "1bc0f13498",
+           "blockName": "Numeral I.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "I.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+            "fontFamily": "Jost",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "520px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "41eaf05d6f",
+           "blockName": "A conversation about the",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "A conversation about the occasion, over tea or champagne.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "8px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTopColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "30px",
+          "padding": "22px 0",
+          "width": "100%"
+         },
+         "blockId": "6ab910f654",
+         "blockName": "Expect II",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Italiana",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "9572288b41",
+           "blockName": "Numeral II.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "II.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+            "fontFamily": "Jost",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "520px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "22e0e96224",
+           "blockName": "Cloth on the table: you ",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Cloth on the table: you choose from bolts, draped on you in the mirror.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "8px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTopColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "30px",
+          "padding": "22px 0",
+          "width": "100%"
+         },
+         "blockId": "4eb5b3972d",
+         "blockName": "Expect III",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Italiana",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "3174cccdff",
+           "blockName": "Numeral III.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "III.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+            "fontFamily": "Jost",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "520px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "e4fe566348",
+           "blockName": "Measurements, a sketch t",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Measurements, a sketch to take home, and a date for the first fitting.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "8px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {
+        "href": "mailto:appointments@silk.house"
+       },
+       "baseStyles": {
+        "borderColor": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+        "fontFamily": "Jost",
+        "fontSize": "11px",
+        "fontWeight": "500",
+        "height": "fit-content",
+        "letterSpacing": "0.28em",
+        "lineHeight": "1",
+        "marginTop": "40px",
+        "minWidth": "10px",
+        "padding": "18px 32px",
+        "textDecoration": "none",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "622465302c",
+       "blockName": "Appt CTA",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "a",
+       "innerHTML": "Request an evening",
+       "mobileStyles": {},
+       "rawStyles": {
+        "hover:background-color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+        "hover:color": "var(--5d317b1d-34c4-4cfa-8601-e01c32db42a9, #0D0B09)",
+        "transition": "background-color 0.2s ease-out, color 0.2s ease-out"
+       },
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "56px 20px 64px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "725883d9b4",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "5263574204",
+       "blockName": "Footer Monogram",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "8bf6f1414f",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "93755c65d5",
+       "blockName": "Footer Line 1",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "1c3a773786",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "315af29317",
+       "blockName": "Footer Line 2",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "c843544fa8",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "72f8a551de",
+       "blockName": "Footer Enquire",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "9228888678",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "silk_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "silk_styles"
+  }
+ ],
+ "creation": "2026-07-15 16:15:52.097997",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Private evening appointments at the Silk salon, Thursday to Saturday.",
+ "modified": "2026-07-15 16:33:25.504997",
+ "modified_by": "Administrator",
+ "name": "silk_appointments",
+ "owner": "Administrator",
+ "page_name": "silk_appointments",
+ "page_title": "Appointments · SILK",
+ "preview": "/builder_assets/silk/silk_appointments/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/silk/appointments",
+ "template_group": "silk"
+}

@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-14 16:14:30.239473",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-14 16:14:30.239481",
+ "modified_by": "Administrator",
+ "name": "field_styles",
+ "owner": "Administrator",
+ "script": "\n@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap');\n\nhtml { scroll-behavior: smooth; }\n::selection { background: #0E7A5F; color: #FFFFFF; }\n.field-photo img:hover { transform: scale(1.02); }\n",
+ "script_type": "CSS"
+}

@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-15 16:45:30.616341",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-15 16:45:30.616341",
+ "modified_by": "Administrator",
+ "name": "hem_styles",
+ "owner": "Administrator",
+ "script": "\n@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');\n\nhtml { scroll-behavior: smooth; }\n::selection { background: #A56B46; color: #FAF9F7; }\n",
+ "script_type": "CSS"
+}

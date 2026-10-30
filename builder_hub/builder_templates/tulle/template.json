@@ -1,0 +1,20 @@
+{
+ "categories": [
+  "Fashion",
+  "Local business"
+ ],
+ "description": "A blush bridal boutique with layered tissue panels and script accents.",
+ "order": 15,
+ "pages": [
+  {
+   "name": "tulle_home"
+  },
+  {
+   "name": "tulle_dresses"
+  },
+  {
+   "name": "tulle_visit"
+  }
+ ],
+ "title": "Tulle"
+}

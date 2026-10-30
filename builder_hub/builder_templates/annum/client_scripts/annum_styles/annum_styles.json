@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-17 09:48:02.969484",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-17 09:48:02.969484",
+ "modified_by": "Administrator",
+ "name": "annum_styles",
+ "owner": "Administrator",
+ "script": "\nhtml { scroll-behavior: smooth; }\n::selection { background: #3D6B4A; color: #F7F7F3; }\n.an-photo img { transition: transform 0.4s ease-out; }\n.an-photo:hover img { transform: scale(1.02); }\n.an-yr { transition: background-color 0.15s ease-out; }\n.an-yr:hover { background-color: rgba(61, 107, 74, 0.08); }\n.an-yr .an-yr-arrow { transition: transform 0.15s ease-out; }\n.an-yr:hover .an-yr-arrow { transform: translateX(4px); color: #3D6B4A; }\n@keyframes an-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }\n.an-pulse { animation: an-pulse 2.4s ease-in-out infinite; }\nhtml[data-theme=\"dark\"] .an-nav { background-color: rgba(18, 20, 15, 0.8) !important; }\n",
+ "script_type": "CSS"
+}

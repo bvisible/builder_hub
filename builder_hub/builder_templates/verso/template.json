@@ -1,6 +1,9 @@
 {
- "description": "An ultra-minimal personal site — fixed sidebar, typographic lists instead of cards, near-monochrome. Home, Work, Writing, About.",
- "order": 5,
+ "categories": [
+  "Portfolio"
+ ],
+ "description": "An ultra minimal personal site with a fixed sidebar.",
+ "order": 4,
  "pages": [
   {
    "name": "verso_home"

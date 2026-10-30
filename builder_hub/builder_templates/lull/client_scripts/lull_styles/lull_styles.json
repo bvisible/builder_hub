@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-14 16:14:29.772492",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-14 16:14:29.772502",
+ "modified_by": "Administrator",
+ "name": "lull_styles",
+ "owner": "Administrator",
+ "script": "\n@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');\n\nhtml { scroll-behavior: smooth; }\n::selection { background: #71835F; color: #F6F0EB; }\n.lull-photo img:hover { transform: scale(1.03); }\n",
+ "script_type": "CSS"
+}

@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Portfolio"
+ ],
+ "description": "A minimal architect portfolio: a type-only index with hover thumbnails.",
+ "order": 23,
+ "pages": [
+  {
+   "name": "plinth_home"
+  },
+  {
+   "name": "plinth_project"
+  },
+  {
+   "name": "plinth_profile"
+  }
+ ],
+ "title": "Plinth"
+}

@@ -1,0 +1,1212 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--5d317b1d-34c4-4cfa-8601-e01c32db42a9, #0D0B09)",
+    "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Jost",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "116871e912",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "c0d24ced27",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "a1e9b83aea",
+       "blockName": "Monogram",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "8e20f930aa",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "2b826c6de4",
+       "blockName": "Nav Links",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "42bd4557ad",
+         "blockName": "Collection",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "silk_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3b4728991a",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "3476c1cd95",
+         "blockName": "House",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "silk_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "028f69d4a5",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "24b4c2ccdd",
+         "blockName": "Appointments",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "silk_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "2ecc342c02",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "a0d3b09a0c",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "silk_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "stretch",
+      "borderBottomColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+      "borderBottomStyle": "solid",
+      "borderBottomWidth": "1px",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexShrink": 0,
+      "minHeight": "82vh",
+      "width": "100%"
+     },
+     "blockId": "81f4fa4d40",
+     "blockName": "Split",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "borderRightColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+        "borderRightStyle": "solid",
+        "borderRightWidth": "1px",
+        "display": "flex",
+        "flexBasis": "0px",
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "gap": "22px",
+        "justifyContent": "center",
+        "padding": "80px 72px 80px 96px",
+        "width": "100%"
+       },
+       "blockId": "986292b509",
+       "blockName": "Split · Copy",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+          "fontFamily": "Jost",
+          "fontSize": "11px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "letterSpacing": "0.28em",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "f375335980",
+         "blockName": "Hero Kicker",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Evening wear · London",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+          "fontFamily": "Italiana",
+          "fontSize": "72px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.05",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "aa49d78ac7",
+         "blockName": "Hero Headline",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Cut on the bias,<br>worn after dark.",
+         "mobileStyles": {
+          "fontSize": "40px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "fontSize": "54px"
+         }
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+          "fontFamily": "Jost",
+          "fontSize": "15px",
+          "fontWeight": "300",
+          "height": "fit-content",
+          "lineHeight": "1.8",
+          "maxWidth": "440px",
+          "minWidth": "10px",
+          "width": "100%"
+         },
+         "blockId": "6029c67fc4",
+         "blockName": "Hero Copy",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Silk is a small evening-wear house. Two seasons a year, every gown cut to the body that will wear it.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "appointments"
+         },
+         "baseStyles": {
+          "borderBottomColor": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+          "borderBottomStyle": "solid",
+          "borderBottomWidth": "1px",
+          "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+          "fontFamily": "Jost",
+          "fontSize": "11px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "letterSpacing": "0.28em",
+          "lineHeight": "2.2",
+          "minWidth": "10px",
+          "paddingBottom": "2px",
+          "textDecoration": "none",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "880cd806b0",
+         "blockName": "Hero CTA",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "Book a private appointment",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:border-bottom-color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+          "hover:color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+          "transition": "color 0.2s ease-out, border-bottom-color 0.2s ease-out"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "borderRightWidth": "0px",
+        "flexBasis": "auto",
+        "padding": "44px 24px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "padding": "56px 40px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexBasis": "0px",
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "height": "82vh",
+        "overflow": "hidden",
+        "width": "100%"
+       },
+       "blockId": "34fe767988",
+       "blockName": "Split · Image",
+       "children": [
+        {
+         "attributes": {
+          "alt": "A bias-cut gown in low light",
+          "src": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&q=80&w=1100"
+         },
+         "baseStyles": {
+          "display": "block",
+          "flexShrink": 0,
+          "height": "100%",
+          "objectFit": "cover",
+          "width": "100%"
+         },
+         "blockId": "611c9d2dc9",
+         "blockName": "Image · A bias-cut gown in l",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {},
+         "rawStyles": {
+          "filter": "saturate(0.85) contrast(1.02)"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexBasis": "auto",
+        "height": "320px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "flexDirection": "column",
+      "minHeight": "0px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "width": "100%"
+     },
+     "blockId": "b6e28efa6f",
+     "blockName": "Section · Features",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "borderBottomColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "961af9df1f",
+       "blockName": "Split",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderRightColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+          "borderRightStyle": "solid",
+          "borderRightWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "560px",
+          "overflow": "hidden",
+          "width": "100%"
+         },
+         "blockId": "d11aa9e51c",
+         "blockName": "Split · Image",
+         "children": [
+          {
+           "attributes": {
+            "alt": "A gown from the current collection",
+            "src": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&q=80&w=1100"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "f83e3f9d6e",
+           "blockName": "Image · A gown from the curr",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "filter": "saturate(0.85) contrast(1.02)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "borderRightWidth": "0px",
+          "flexBasis": "auto",
+          "height": "320px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "22px",
+          "justifyContent": "center",
+          "padding": "80px 96px 80px 72px",
+          "width": "100%"
+         },
+         "blockId": "2a9be2683a",
+         "blockName": "Split · Copy",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Italiana",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "95279bc42e",
+           "blockName": "Numeral I.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "I.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "fontFamily": "Italiana",
+            "fontSize": "44px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "8c50df247f",
+           "blockName": "Feature 1 Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The gowns",
+           "mobileStyles": {
+            "fontSize": "32px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+            "fontFamily": "Jost",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "440px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "2d0aa44b95",
+           "blockName": "Feature 1 Copy",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Bias-cut silk and crepe, floor length or to the knee. Each gown begins as a toile pinned on you, never on a mannequin.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "collection"
+           },
+           "baseStyles": {
+            "borderBottomColor": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Jost",
+            "fontSize": "11px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "letterSpacing": "0.28em",
+            "lineHeight": "2.2",
+            "minWidth": "10px",
+            "paddingBottom": "2px",
+            "textDecoration": "none",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "45cef84ce4",
+           "blockName": "View the collection",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "View the collection",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:border-bottom-color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "hover:color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "transition": "color 0.2s ease-out, border-bottom-color 0.2s ease-out"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "padding": "44px 24px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "padding": "56px 40px"
+         }
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "borderBottomColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "69b7084e7b",
+       "blockName": "Split",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "borderRightColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+          "borderRightStyle": "solid",
+          "borderRightWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "22px",
+          "justifyContent": "center",
+          "padding": "80px 72px 80px 96px",
+          "width": "100%"
+         },
+         "blockId": "04da300e11",
+         "blockName": "Split · Copy",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Italiana",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "c0dd35bdd1",
+           "blockName": "Numeral II.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "II.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "fontFamily": "Italiana",
+            "fontSize": "44px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "d142dff7cb",
+           "blockName": "Feature 2 Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Black-tie tailoring",
+           "mobileStyles": {
+            "fontSize": "32px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+            "fontFamily": "Jost",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "440px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "dddcae24e7",
+           "blockName": "Feature 2 Copy",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Dinner jackets and column suits in barathea and satin. Sharp in the shoulder, soft everywhere else.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "collection"
+           },
+           "baseStyles": {
+            "borderBottomColor": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Jost",
+            "fontSize": "11px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "letterSpacing": "0.28em",
+            "lineHeight": "2.2",
+            "minWidth": "10px",
+            "paddingBottom": "2px",
+            "textDecoration": "none",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "259e7c8807",
+           "blockName": "View the collection",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "View the collection",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:border-bottom-color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "hover:color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "transition": "color 0.2s ease-out, border-bottom-color 0.2s ease-out"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "borderRightWidth": "0px",
+          "flexBasis": "auto",
+          "padding": "44px 24px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "padding": "56px 40px"
+         }
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "560px",
+          "overflow": "hidden",
+          "width": "100%"
+         },
+         "blockId": "d25fe8cc8b",
+         "blockName": "Split · Image",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Black-tie tailoring, fitted at the house",
+            "src": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=1100"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "6af34683d5",
+           "blockName": "Image · Black-tie tailoring,",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "filter": "saturate(0.85) contrast(1.02)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "height": "320px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "borderBottomColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "ac3caa20a2",
+       "blockName": "Split",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderRightColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+          "borderRightStyle": "solid",
+          "borderRightWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "560px",
+          "overflow": "hidden",
+          "width": "100%"
+         },
+         "blockId": "91ec14b34d",
+         "blockName": "Split · Image",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Leaving the salon after dark",
+            "src": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=1100"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "12fb7a95c6",
+           "blockName": "Image · Leaving the salon af",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "filter": "saturate(0.85) contrast(1.02)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "borderRightWidth": "0px",
+          "flexBasis": "auto",
+          "height": "320px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "22px",
+          "justifyContent": "center",
+          "padding": "80px 96px 80px 72px",
+          "width": "100%"
+         },
+         "blockId": "73d112894e",
+         "blockName": "Split · Copy",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Italiana",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "b358c5e4bf",
+           "blockName": "Numeral III.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "III.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "fontFamily": "Italiana",
+            "fontSize": "44px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "40368182b4",
+           "blockName": "Feature 3 Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The salon",
+           "mobileStyles": {
+            "fontSize": "32px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+            "fontFamily": "Jost",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "440px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "e0a6ab2472",
+           "blockName": "Feature 3 Copy",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Fittings happen in the first-floor salon: one client at a time, champagne optional, opinions honest.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "appointments"
+           },
+           "baseStyles": {
+            "borderBottomColor": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Jost",
+            "fontSize": "11px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "letterSpacing": "0.28em",
+            "lineHeight": "2.2",
+            "minWidth": "10px",
+            "paddingBottom": "2px",
+            "textDecoration": "none",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "6bc9114ee1",
+           "blockName": "Book an appointment",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "Book an appointment",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:border-bottom-color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "hover:color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "transition": "color 0.2s ease-out, border-bottom-color 0.2s ease-out"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "padding": "44px 24px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "padding": "56px 40px"
+         }
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "28px",
+      "maxWidth": "820px",
+      "padding": "110px 24px",
+      "textAlign": "center",
+      "width": "100%"
+     },
+     "blockId": "1ad2b99b64",
+     "blockName": "Section · Quote",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+        "height": "1px",
+        "width": "64px"
+       },
+       "blockId": "367cd2228b",
+       "blockName": "Quote Rule Top",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+        "fontFamily": "Italiana",
+        "fontSize": "34px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.4",
+        "minWidth": "10px",
+        "textAlign": "center",
+        "width": "fit-content"
+       },
+       "blockId": "1fc92fb1f3",
+       "blockName": "Quote",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "“A dress should follow the body,<br>not the other way around.”",
+       "mobileStyles": {
+        "fontSize": "24px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+        "fontFamily": "Jost",
+        "fontSize": "11px",
+        "fontWeight": "500",
+        "height": "fit-content",
+        "letterSpacing": "0.28em",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "bcab914aee",
+       "blockName": "Quote Attribution",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Vera Lin, founder",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "64px 24px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "372efaafc8",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "a0e26d49f2",
+       "blockName": "Footer Monogram",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "8bf6f1414f",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "f4da3617ea",
+       "blockName": "Footer Line 1",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "1c3a773786",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "3abd1ff193",
+       "blockName": "Footer Line 2",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "c843544fa8",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "f04e04c40a",
+       "blockName": "Footer Enquire",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "9228888678",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "silk_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "silk_styles"
+  }
+ ],
+ "creation": "2026-07-15 16:15:52.097997",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Silk is a small evening-wear house in London. Gowns and black-tie tailoring, cut to order.",
+ "modified": "2026-07-15 16:33:25.504997",
+ "modified_by": "Administrator",
+ "name": "silk_home",
+ "owner": "Administrator",
+ "page_name": "silk_home",
+ "page_title": "SILK · Evening wear, cut to order",
+ "preview": "/builder_assets/silk/silk_home/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/silk/home",
+ "template_group": "silk"
+}

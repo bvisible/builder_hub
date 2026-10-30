@@ -1,5 +1,9 @@
 {
- "description": "An earthy multi-page starter for boutique brands — landing, about, and contact pages with a shared navbar, footer, and theme.",
+ "categories": [
+  "Marketing",
+  "Local business"
+ ],
+ "description": "An earthy starter site for boutique brands.",
  "order": 1,
  "pages": [
   {

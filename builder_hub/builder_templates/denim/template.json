@@ -1,0 +1,23 @@
+{
+ "categories": [
+  "Fashion",
+  "Marketing"
+ ],
+ "description": "A loud streetwear drop site with thick borders, tickers and price stickers.",
+ "order": 16,
+ "pages": [
+  {
+   "name": "denim_home"
+  },
+  {
+   "name": "denim_drops"
+  },
+  {
+   "name": "denim_story"
+  },
+  {
+   "name": "denim_stockists"
+  }
+ ],
+ "title": "Denim"
+}

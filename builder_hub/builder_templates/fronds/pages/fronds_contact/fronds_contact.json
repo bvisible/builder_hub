@@ -36,6 +36,7 @@
        "blockClientScript": "",
        "blockDataScript": "",
        "blockId": "5fc21d9288",
+       "blockName": "Header Container",
        "children": [
         {
          "activeState": null,
@@ -44,6 +45,7 @@
          "blockClientScript": "",
          "blockDataScript": "",
          "blockId": "399143db02",
+         "blockName": "Header Row",
          "children": [
           {
            "activeState": null,
@@ -52,6 +54,7 @@
            "blockClientScript": "",
            "blockDataScript": "",
            "blockId": "e5eb9c6e1a",
+           "blockName": "Brand",
            "children": [
             {
              "activeState": null,
@@ -60,6 +63,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "c785e1e531",
+             "blockName": "Brand Mark",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -67,6 +71,7 @@
              "dynamicValues": [],
              "isChildOfComponent": "fronds_navbar",
              "mobileStyles": {},
+             "originalElement": "__raw_html__",
              "props": {},
              "rawStyles": {},
              "referenceBlockId": "ddb587477a",
@@ -79,6 +84,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "1304864d56",
+             "blockName": "Wordmark",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -110,6 +116,7 @@
            "blockClientScript": "",
            "blockDataScript": "",
            "blockId": "52c7821f9d",
+           "blockName": "Primary Nav",
            "children": [
             {
              "activeState": null,
@@ -118,6 +125,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "7e77240e98",
+             "blockName": "Nav · Home",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -137,6 +145,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "f6df35f47d",
+             "blockName": "Nav · About",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -156,6 +165,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "610a221ca1",
+             "blockName": "Nav · Contact",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -187,6 +197,7 @@
            "blockClientScript": "",
            "blockDataScript": "",
            "blockId": "a003766141",
+           "blockName": "Nav Actions",
            "children": [
             {
              "activeState": null,
@@ -195,6 +206,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "053e4c59ba",
+             "blockName": "Theme Toggle",
              "children": [
               {
                "activeState": null,
@@ -203,6 +215,7 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "54da7d537c",
+               "blockName": "Theme · Sun",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -210,6 +223,7 @@
                "dynamicValues": [],
                "isChildOfComponent": "fronds_navbar",
                "mobileStyles": {},
+               "originalElement": "__raw_html__",
                "props": {},
                "rawStyles": {},
                "referenceBlockId": "e6fbd5b89e",
@@ -222,6 +236,7 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "822f7697f1",
+               "blockName": "Theme · Moon",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -229,6 +244,7 @@
                "dynamicValues": [],
                "isChildOfComponent": "fronds_navbar",
                "mobileStyles": {},
+               "originalElement": "__raw_html__",
                "props": {},
                "rawStyles": {},
                "referenceBlockId": "57680874da",
@@ -253,6 +269,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "be5464e8dc",
+             "blockName": "Nav CTA",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -409,7 +426,7 @@
              "dataKey": null,
              "dynamicValues": [],
              "element": "span",
-             "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-mail\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"16\"\n  height=\"16\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\" />\n  <rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\" />\n</svg>\n",
+             "innerHTML": "<svg\n  class=\"lucide lucide-mail\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"16\"\n  height=\"16\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\" />\n  <rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\" />\n</svg>\n",
              "mobileStyles": {},
              "props": {},
              "rawStyles": {},
@@ -684,7 +701,7 @@
                  "dataKey": null,
                  "dynamicValues": [],
                  "element": "span",
-                 "innerHTML": "",
+                 "innerHTML": "<svg\n  class=\"lucide lucide-map-pin\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\" />\n  <circle cx=\"12\" cy=\"10\" r=\"3\" />\n</svg>",
                  "mobileStyles": {},
                  "props": {},
                  "rawStyles": {},
@@ -885,7 +902,7 @@
                  "dataKey": null,
                  "dynamicValues": [],
                  "element": "span",
-                 "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-clock\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"M12 6v6l4 2\" />\n</svg>\n",
+                 "innerHTML": "<svg\n  class=\"lucide lucide-clock\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"M12 6v6l4 2\" />\n</svg>\n",
                  "mobileStyles": {},
                  "props": {},
                  "rawStyles": {},
@@ -969,7 +986,7 @@
                  "dataKey": null,
                  "dynamicValues": [],
                  "element": "p",
-                 "innerHTML": "Wed–Sun, 10am–6pm",
+                 "innerHTML": "Wed-Sun, 10am-6pm",
                  "mobileStyles": {},
                  "props": {},
                  "rawStyles": {},
@@ -1086,7 +1103,7 @@
                  "dataKey": null,
                  "dynamicValues": [],
                  "element": "span",
-                 "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-mail\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\" />\n  <rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\" />\n</svg>\n",
+                 "innerHTML": "<svg\n  class=\"lucide lucide-mail\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\" />\n  <rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\" />\n</svg>\n",
                  "mobileStyles": {},
                  "props": {},
                  "rawStyles": {},
@@ -1259,7 +1276,7 @@
                  "dataKey": null,
                  "dynamicValues": [],
                  "element": "span",
-                 "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-phone\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384\" />\n</svg>\n",
+                 "innerHTML": "<svg\n  class=\"lucide lucide-phone\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384\" />\n</svg>\n",
                  "mobileStyles": {},
                  "props": {},
                  "rawStyles": {},
@@ -1531,7 +1548,9 @@
                  "dataKey": null,
                  "dynamicValues": [],
                  "element": "div",
-                 "mobileStyles": {},
+                 "mobileStyles": {
+                  "flexBasis": "auto"
+                 },
                  "props": {},
                  "rawStyles": {},
                  "tabletStyles": {}
@@ -1625,7 +1644,9 @@
                  "dataKey": null,
                  "dynamicValues": [],
                  "element": "div",
-                 "mobileStyles": {},
+                 "mobileStyles": {
+                  "flexBasis": "auto"
+                 },
                  "props": {},
                  "rawStyles": {},
                  "tabletStyles": {}
@@ -1879,7 +1900,9 @@
            "dataKey": null,
            "dynamicValues": [],
            "element": "div",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "props": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1936,6 +1959,7 @@
        "blockClientScript": "",
        "blockDataScript": "",
        "blockId": "cf72be280b",
+       "blockName": "Footer Container",
        "children": [
         {
          "activeState": null,
@@ -1944,6 +1968,7 @@
          "blockClientScript": "",
          "blockDataScript": "",
          "blockId": "4c30c65745",
+         "blockName": "Footer Columns",
          "children": [
           {
            "activeState": null,
@@ -1952,6 +1977,7 @@
            "blockClientScript": "",
            "blockDataScript": "",
            "blockId": "956b602d2a",
+           "blockName": "Footer Brand Col",
            "children": [
             {
              "activeState": null,
@@ -1960,6 +1986,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "775e5288d6",
+             "blockName": "Footer Brand",
              "children": [
               {
                "activeState": null,
@@ -1968,6 +1995,7 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "dbabd38eea",
+               "blockName": "Brand Mark",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -1975,6 +2003,7 @@
                "dynamicValues": [],
                "isChildOfComponent": "fronds_footer",
                "mobileStyles": {},
+               "originalElement": "__raw_html__",
                "props": {},
                "rawStyles": {},
                "referenceBlockId": "ebde7f91d7",
@@ -1987,6 +2016,7 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "784c697776",
+               "blockName": "Wordmark",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2018,6 +2048,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "81d89dff8d",
+             "blockName": "Footer Blurb",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -2049,6 +2080,7 @@
            "blockClientScript": "",
            "blockDataScript": "",
            "blockId": "670fe43189",
+           "blockName": "Footer · Explore",
            "children": [
             {
              "activeState": null,
@@ -2057,6 +2089,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "5a47774f9a",
+             "blockName": "Col Title",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -2076,6 +2109,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "6c1a0f5249",
+             "blockName": "Col Links",
              "children": [
               {
                "activeState": null,
@@ -2084,6 +2118,7 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "7d14916ce2",
+               "blockName": "Link · Home",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2103,6 +2138,7 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "5241eb53d4",
+               "blockName": "Link · About",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2122,6 +2158,7 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "e7207fd2fc",
+               "blockName": "Link · Contact",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2165,6 +2202,7 @@
            "blockClientScript": "",
            "blockDataScript": "",
            "blockId": "47dfec1d66",
+           "blockName": "Footer · Company",
            "children": [
             {
              "activeState": null,
@@ -2173,6 +2211,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "abb74e4166",
+             "blockName": "Col Title",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -2192,6 +2231,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "63e78a735f",
+             "blockName": "Col Links",
              "children": [
               {
                "activeState": null,
@@ -2200,6 +2240,7 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "23d222a1eb",
+               "blockName": "Link · Our story",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2219,6 +2260,7 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "28992e5559",
+               "blockName": "Link · Sustainability",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2238,6 +2280,7 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "92f32ea616",
+               "blockName": "Link · Stockists",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2281,6 +2324,7 @@
            "blockClientScript": "",
            "blockDataScript": "",
            "blockId": "ee25ea819f",
+           "blockName": "Footer · Support",
            "children": [
             {
              "activeState": null,
@@ -2289,6 +2333,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "3acb9a74b3",
+             "blockName": "Col Title",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -2308,6 +2353,7 @@
              "blockClientScript": "",
              "blockDataScript": "",
              "blockId": "963457e9a5",
+             "blockName": "Col Links",
              "children": [
               {
                "activeState": null,
@@ -2316,6 +2362,7 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "206d2e8376",
+               "blockName": "Link · FAQ",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2335,6 +2382,7 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "772f676f49",
+               "blockName": "Link · Shipping",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2354,6 +2402,7 @@
                "blockClientScript": "",
                "blockDataScript": "",
                "blockId": "915a532642",
+               "blockName": "Link · Care guides",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2409,6 +2458,7 @@
          "blockClientScript": "",
          "blockDataScript": "",
          "blockId": "a1f0bbc8a8",
+         "blockName": "Footer Bottom",
          "children": [
           {
            "activeState": null,
@@ -2417,6 +2467,7 @@
            "blockClientScript": "",
            "blockDataScript": "",
            "blockId": "9b25f28be2",
+           "blockName": "Copyright",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -2436,6 +2487,7 @@
            "blockClientScript": "",
            "blockDataScript": "",
            "blockId": "ab61e53a0d",
+           "blockName": "Footer Note",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -2515,7 +2567,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Get in touch with the Fronds studio.",
- "modified": "2026-06-09 15:53:33.677465",
+ "modified": "2026-07-14 20:31:11.148106",
  "modified_by": "Administrator",
  "name": "fronds_contact",
  "owner": "Administrator",

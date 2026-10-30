@@ -1,0 +1,1389 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--d1f9cf41-0bdf-4c99-8571-c044c4847598, #FAFAF7)",
+    "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Hanken Grotesk",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "1b752a19e1",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "c0878228a1",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "0a34a30e88",
+       "blockName": "Nav Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "7069dd2da4",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "bureau_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "a580b0a63c",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "fe7295c85a",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "8b4fa17c1b",
+           "blockName": "Work",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "bureau_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c3c5c7814c",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "319a76d193",
+           "blockName": "Contact",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "bureau_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "4f8420fce7",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "6b0fc3e022",
+           "blockName": "Nav CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "bureau_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "4f1516611b",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "bureau_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "c9fdc44cb0",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "bureau_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "cef2f544d1",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "bureau_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1200px",
+      "padding": "0 36px 52px",
+      "width": "100%"
+     },
+     "blockId": "e946ddb79e",
+     "blockName": "Section · Work Head",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+        "fontFamily": "Hanken Grotesk",
+        "fontSize": "84px",
+        "fontWeight": "800",
+        "height": "fit-content",
+        "letterSpacing": "-0.03em",
+        "lineHeight": "1.02",
+        "minWidth": "10px",
+        "paddingTop": "64px",
+        "width": "fit-content"
+       },
+       "blockId": "da543be7a7",
+       "blockName": "Work Headline",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "All killer,<br><span style=\"background: #C8FF4D; padding: 0 0.12em;\">no filler</span>.",
+       "mobileStyles": {
+        "fontSize": "38px",
+        "paddingTop": "36px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "fontSize": "60px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--ab705f1e-b7d8-4f81-8907-6be591b2203a, #6E6A63)",
+        "fontFamily": "Hanken Grotesk",
+        "fontSize": "15.5px",
+        "fontWeight": "500",
+        "height": "fit-content",
+        "lineHeight": "1.7",
+        "marginTop": "18px",
+        "maxWidth": "540px",
+        "minWidth": "10px",
+        "width": "100%"
+       },
+       "blockId": "05bf518735",
+       "blockName": "Work Sub",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Six projects a year means every one of these had our full attention. Results below are client-reported and bragged about with permission.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px 34px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "56px",
+      "maxWidth": "1200px",
+      "padding": "0 36px 80px",
+      "width": "100%"
+     },
+     "blockId": "51984ee6e6",
+     "blockName": "Section · Cases",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "ace1d99723",
+       "blockName": "Case · +212% test rides",
+       "children": [
+        {
+         "attributes": {
+          "href": "work"
+         },
+         "baseStyles": {
+          "backgroundColor": "#101010",
+          "borderRadius": "18px",
+          "display": "flex",
+          "flexDirection": "column",
+          "overflow": "hidden",
+          "textDecoration": "none",
+          "width": "100%"
+         },
+         "blockId": "a739ec33f1",
+         "blockName": "Cover · Volt Mobility · Br",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 0,
+            "justifyContent": "center",
+            "padding": "70px 24px",
+            "width": "100%"
+           },
+           "blockId": "a4c142c775",
+           "blockName": "Cover Face · Volt Mobility ",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#FAFAF7",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "56px",
+              "fontWeight": "800",
+              "height": "fit-content",
+              "letterSpacing": "-0.03em",
+              "lineHeight": "1",
+              "minWidth": "10px",
+              "textAlign": "center",
+              "width": "fit-content"
+             },
+             "blockId": "ffa18a6d1e",
+             "blockName": "Cover Brand · Volt Mobility ",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "VOLT<span style=\"color:#C8FF4D;\">.</span>",
+             "mobileStyles": {
+              "fontSize": "38px"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "padding": "48px 16px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "12px",
+            "justifyContent": "space-between",
+            "padding": "0 22px 18px",
+            "width": "100%"
+           },
+           "blockId": "0189c85a1a",
+           "blockName": "Cover Bar · Volt Mobility · ",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#FAFAF7",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "opacity": "0.75",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "cb09db1ee1",
+             "blockName": "Cover Meta · Volt Mobility ",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Volt Mobility · Brand + product · 2026",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#FAFAF7",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "aa4e99d93b",
+             "blockName": "Cover CTA · Volt Mobilit",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "View case ↗",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "bu-cover"
+         ],
+         "customAttributes": {},
+         "element": "a",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "20px",
+          "justifyContent": "space-between",
+          "paddingTop": "16px",
+          "width": "100%"
+         },
+         "blockId": "3c240d008d",
+         "blockName": "Case Bar · +212% test rides",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "560px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "0f239e7fbc",
+           "blockName": "Case Quote · +212% test rid",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "“They renamed the product, the company and, briefly, our CEO's job title. All three stuck.”",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--10d3bd18-9aa5-4d4f-8bc1-c725a1a7974a, #C8FF4D)",
+            "borderRadius": "999px",
+            "color": "#5A6B22",
+            "flexShrink": 0,
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "padding": "10px 16px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "1e573e6c4e",
+           "blockName": "Case Result · +212% test rides",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "+212% test rides",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "10px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "c3a7b508ff",
+       "blockName": "Case · Sold out, 3 weeks",
+       "children": [
+        {
+         "attributes": {
+          "href": "work"
+         },
+         "baseStyles": {
+          "backgroundColor": "#F4CB3E",
+          "borderRadius": "18px",
+          "display": "flex",
+          "flexDirection": "column",
+          "overflow": "hidden",
+          "textDecoration": "none",
+          "width": "100%"
+         },
+         "blockId": "1f2d6e9953",
+         "blockName": "Cover · Mellow Foods · Ide",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 0,
+            "justifyContent": "center",
+            "padding": "70px 24px",
+            "width": "100%"
+           },
+           "blockId": "1fbfb58da7",
+           "blockName": "Cover Face · Mellow Foods ·",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#101010",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "56px",
+              "fontStyle": "italic",
+              "fontWeight": "800",
+              "height": "fit-content",
+              "letterSpacing": "-0.03em",
+              "lineHeight": "1",
+              "minWidth": "10px",
+              "textAlign": "center",
+              "width": "fit-content"
+             },
+             "blockId": "bef69f888e",
+             "blockName": "Cover Brand · Mellow Foods ·",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "mellow",
+             "mobileStyles": {
+              "fontSize": "38px"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "padding": "48px 16px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "12px",
+            "justifyContent": "space-between",
+            "padding": "0 22px 18px",
+            "width": "100%"
+           },
+           "blockId": "6e752d17bc",
+           "blockName": "Cover Bar · Mellow Foods · I",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#101010",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "opacity": "0.75",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "3a6c4addb0",
+             "blockName": "Cover Meta · Mellow Foods ·",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Mellow Foods · Identity + packaging · 2026",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#101010",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "27706c9deb",
+             "blockName": "Cover CTA · Mellow Foods",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "View case ↗",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "bu-cover"
+         ],
+         "customAttributes": {},
+         "element": "a",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "20px",
+          "justifyContent": "space-between",
+          "paddingTop": "16px",
+          "width": "100%"
+         },
+         "blockId": "c31f9f6e2c",
+         "blockName": "Case Bar · Sold out, 3 week",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "560px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "20f239e7e0",
+           "blockName": "Case Quote · Sold out, 3 we",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "“The packaging did the marketing. Retail reorders before the launch campaign even ran.”",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--10d3bd18-9aa5-4d4f-8bc1-c725a1a7974a, #C8FF4D)",
+            "borderRadius": "999px",
+            "color": "#5A6B22",
+            "flexShrink": 0,
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "padding": "10px 16px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "25c45570b4",
+           "blockName": "Case Result · Sold out, 3 week",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Sold out, 3 weeks",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "10px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "2a59f8d729",
+       "blockName": "Case · NPS 31 → 64",
+       "children": [
+        {
+         "attributes": {
+          "href": "work"
+         },
+         "baseStyles": {
+          "backgroundColor": "#1F3AF2",
+          "borderRadius": "18px",
+          "display": "flex",
+          "flexDirection": "column",
+          "overflow": "hidden",
+          "textDecoration": "none",
+          "width": "100%"
+         },
+         "blockId": "b03b986ba1",
+         "blockName": "Cover · Nord/Sea Ferries ·",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 0,
+            "justifyContent": "center",
+            "padding": "70px 24px",
+            "width": "100%"
+           },
+           "blockId": "6dc1133503",
+           "blockName": "Cover Face · Nord/Sea Ferri",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#FAFAF7",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "56px",
+              "fontWeight": "800",
+              "height": "fit-content",
+              "letterSpacing": "-0.03em",
+              "lineHeight": "1",
+              "minWidth": "10px",
+              "textAlign": "center",
+              "width": "fit-content"
+             },
+             "blockId": "b243845f9c",
+             "blockName": "Cover Brand · Nord/Sea Ferri",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "NORD/SEA",
+             "mobileStyles": {
+              "fontSize": "38px"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "padding": "48px 16px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "12px",
+            "justifyContent": "space-between",
+            "padding": "0 22px 18px",
+            "width": "100%"
+           },
+           "blockId": "0ea04ebf32",
+           "blockName": "Cover Bar · Nord/Sea Ferries",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#FAFAF7",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "opacity": "0.75",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "6a3bfed9a2",
+             "blockName": "Cover Meta · Nord/Sea Ferri",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Nord/Sea Ferries · Wayfinding + web · 2025",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#FAFAF7",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "0076932da8",
+             "blockName": "Cover CTA · Nord/Sea Fer",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "View case ↗",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "bu-cover"
+         ],
+         "customAttributes": {},
+         "element": "a",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "20px",
+          "justifyContent": "space-between",
+          "paddingTop": "16px",
+          "width": "100%"
+         },
+         "blockId": "cd7596c197",
+         "blockName": "Case Bar · NPS 31 → 64",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "560px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "b891ded412",
+           "blockName": "Case Quote · NPS 31 → 64",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "“Wayfinding so good passengers stopped asking staff where the boat is. The boat is big.”",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--10d3bd18-9aa5-4d4f-8bc1-c725a1a7974a, #C8FF4D)",
+            "borderRadius": "999px",
+            "color": "#5A6B22",
+            "flexShrink": 0,
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "padding": "10px 16px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "e523613b18",
+           "blockName": "Case Result · NPS 31 → 64",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "NPS 31 → 64",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "10px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "539cc725b8",
+       "blockName": "Case · 4x web conversion",
+       "children": [
+        {
+         "attributes": {
+          "href": "work"
+         },
+         "baseStyles": {
+          "backgroundColor": "#F5E9E1",
+          "borderRadius": "18px",
+          "display": "flex",
+          "flexDirection": "column",
+          "overflow": "hidden",
+          "textDecoration": "none",
+          "width": "100%"
+         },
+         "blockId": "b7c72fad4f",
+         "blockName": "Cover · Bloom & Co · Brand",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 0,
+            "justifyContent": "center",
+            "padding": "70px 24px",
+            "width": "100%"
+           },
+           "blockId": "c4397c5174",
+           "blockName": "Cover Face · Bloom & Co · B",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B03A2E",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "56px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.01em",
+              "lineHeight": "1",
+              "minWidth": "10px",
+              "textAlign": "center",
+              "width": "fit-content"
+             },
+             "blockId": "7985df725e",
+             "blockName": "Cover Brand · Bloom & Co · B",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "bloom&co",
+             "mobileStyles": {
+              "fontSize": "38px"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "padding": "48px 16px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "12px",
+            "justifyContent": "space-between",
+            "padding": "0 22px 18px",
+            "width": "100%"
+           },
+           "blockId": "7faa26cbc0",
+           "blockName": "Cover Bar · Bloom & Co · Bra",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B03A2E",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "opacity": "0.75",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "f5b0c79623",
+             "blockName": "Cover Meta · Bloom & Co · B",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Bloom & Co · Brand + campaign · 2025",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "#B03A2E",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.12em",
+              "lineHeight": "1.5",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "697574a8e4",
+             "blockName": "Cover CTA · Bloom & Co ·",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "View case ↗",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "bu-cover"
+         ],
+         "customAttributes": {},
+         "element": "a",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "20px",
+          "justifyContent": "space-between",
+          "paddingTop": "16px",
+          "width": "100%"
+         },
+         "blockId": "b170bb685b",
+         "blockName": "Case Bar · 4x web conversio",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--25faa831-8b14-4e28-852b-d34a9157db9a, #101010)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "560px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "bc04c29030",
+           "blockName": "Case Quote · 4x web convers",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "“Bureau made a flower subscription feel like a fashion house. Our CAC forgave us.”",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--10d3bd18-9aa5-4d4f-8bc1-c725a1a7974a, #C8FF4D)",
+            "borderRadius": "999px",
+            "color": "#5A6B22",
+            "flexShrink": 0,
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.12em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "padding": "10px 16px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "6dfe214db1",
+           "blockName": "Case Result · 4x web conversio",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "4x web conversion",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "10px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "gap": "40px",
+      "padding": "0 18px 48px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "6a45c21d00",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "599fbcf6fa",
+       "blockName": "Footer Inner",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "b9cb1aa6b9",
+         "blockName": "Footer Kicker",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "bureau_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3187484f17",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "f5895517a5",
+         "blockName": "Footer CTA",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "bureau_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3cdad3075e",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "f5e4d49122",
+         "blockName": "Footer Meta",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "47df83e510",
+           "blockName": "Footer Mail",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "bureau_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "3d9a40a29d",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "584e4592c8",
+           "blockName": "Footer Loc",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "bureau_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "05bd57a10a",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "1a4d30530b",
+           "blockName": "Footer Fine",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "bureau_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "0047913187",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "bureau_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "580d117ad3",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "bureau_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "d59cad585c",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "bureau_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "bureau_styles"
+  }
+ ],
+ "creation": "2026-07-15 22:48:21.879324",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Selected Bureau work with client-reported results: Volt, Mellow, Nord/Sea, Bloom & Co.",
+ "modified": "2026-07-15 22:50:18.516606",
+ "modified_by": "Administrator",
+ "name": "bureau_work",
+ "owner": "Administrator",
+ "page_name": "bureau_work",
+ "page_title": "Work · BUREAU®",
+ "preview": "/builder_assets/bureau/bureau_work/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/bureau/work",
+ "template_group": "bureau"
+}

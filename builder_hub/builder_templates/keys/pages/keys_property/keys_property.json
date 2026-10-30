@@ -1,0 +1,1598 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "stretch",
+    "backgroundColor": "var(--44dd55ee-0001-4d01-8d01-ddee0001cc01, #FAFAF8)",
+    "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Hanken Grotesk",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "e6266c7ff6",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "0a5ac05b4a",
+     "blockName": "Sidebar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "9a0f4eb9c0",
+       "blockName": "Sidebar Top",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "2f9c10ed4d",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "003be0bb11",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "f76a247349",
+         "blockName": "Side Nav",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "bc9137ad6a",
+           "blockName": "Side · Listings",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "43b7efd01e",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "22b7d207c5",
+           "blockName": "Side · Property",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "fc77477c47",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "da1f0f4da3",
+           "blockName": "Side · Viewings",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "baa47a0a8f",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "eae34ed286",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "1a6f6cee41",
+         "blockName": "Side Filters",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "0db4e5b652",
+           "blockName": "Filter Label",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c87c983e06",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "aa4153c866",
+           "blockName": "Chip Stack",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "441f6d2c19",
+             "blockName": "Chip · Lisbon & coast",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "keys_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "af9c927492",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "718659046e",
+             "blockName": "Chip · 2 - 4 beds",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "keys_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "6afb4bd993",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "a12a49ab16",
+             "blockName": "Chip · Under ₹9 Cr",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "keys_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "3c6e617913",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "616be6ed97",
+             "blockName": "Chip · Move-in ready",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "keys_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "bc4d14834f",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "5a57d9fe30",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "0b86f7f527",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "keys_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "c473136f12",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "86b48ea0a0",
+       "blockName": "Sidebar Bottom",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "467737b791",
+         "blockName": "Side Card",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "87fe64322e",
+           "blockName": "SC Label",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "949cffa36e",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "53ca36bbd3",
+           "blockName": "SC Text",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "01de6b5d84",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "3c23b61b59",
+           "blockName": "SC CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1aaef4ca24",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "d972468fa1",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "9f73747357",
+         "blockName": "Theme Toggle",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "4feded6022",
+           "blockName": "Theme · Sun",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "9862b4b1b4",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "5ffc667fe9",
+           "blockName": "Theme · Moon",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "keys_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "9b2c8815dd",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "6d815c6be8",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "296d887977",
+         "blockName": "Side Copy",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "1edba3d891",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "keys_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "deb131c5d2",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "keys_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexGrow": "1",
+      "marginLeft": "264px",
+      "minHeight": "100vh",
+      "width": "auto"
+     },
+     "blockId": "6fb97f3731",
+     "blockName": "Main",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-end",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "40px",
+        "justifyContent": "space-between",
+        "padding": "48px 32px 0px",
+        "width": "100%"
+       },
+       "blockId": "c8aa5bf2c9",
+       "blockName": "Section · Property Header",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "14px",
+          "height": "fit-content",
+          "width": "fit-content"
+         },
+         "blockId": "5074d563b5",
+         "blockName": "Header Left",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "11px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.5",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "1f6daf132c",
+           "blockName": "Prop Ref",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Cascais · Ref KY-0142",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "72px",
+            "fontWeight": "800",
+            "height": "fit-content",
+            "letterSpacing": "-0.03em",
+            "lineHeight": "1.02",
+            "width": "fit-content"
+           },
+           "blockId": "1b49e09054",
+           "blockName": "Prop Name",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h1",
+           "innerHTML": "Casa Branca",
+           "mobileStyles": {
+            "fontSize": "40px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {
+            "fontSize": "54px"
+           }
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-end",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "12px",
+          "height": "fit-content",
+          "width": "fit-content"
+         },
+         "blockId": "9f844fb465",
+         "blockName": "Header Right",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "40px",
+            "fontWeight": "800",
+            "height": "fit-content",
+            "letterSpacing": "-0.03em",
+            "lineHeight": "1.02",
+            "width": "fit-content"
+           },
+           "blockId": "a7f2a670e0",
+           "blockName": "Prop Price",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "₹7.8 Cr",
+           "mobileStyles": {
+            "fontSize": "30px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "viewings"
+           },
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)",
+            "borderRadius": "10px",
+            "color": "#FAFAF8",
+            "display": "inline-flex",
+            "flexShrink": 0,
+            "fontFamily": "Hanken Grotesk",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "justifyContent": "center",
+            "lineHeight": "1",
+            "padding": "16px 28px",
+            "textDecoration": "none",
+            "width": "fit-content"
+           },
+           "blockId": "ac2f552af8",
+           "blockName": "Prop CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "Book a viewing",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:opacity": "0.9",
+            "transition": "opacity 0.15s ease-out"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "alignItems": "flex-start",
+        "flexDirection": "column",
+        "gap": "16px",
+        "padding": "44px 16px 0px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "gap": "14px",
+        "padding": "28px 32px 0px",
+        "width": "100%"
+       },
+       "blockId": "e12ccf8646",
+       "blockName": "Section · Gallery",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "aspectRatio": "21 / 10",
+          "backgroundColor": "var(--44dd55ee-0006-4d06-8d06-ddee0006cc06, #F0EFEA)",
+          "borderRadius": "10px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "100%"
+         },
+         "blockId": "8339a85f00",
+         "blockName": "Gallery Main",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Casa Branca and its pool",
+            "src": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=2000"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "8b71739f45",
+           "blockName": "Gallery Main · Image",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "transition": "transform 1s cubic-bezier(0.22, 1, 0.36, 1)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "keys-photo"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "aspectRatio": "4 / 3"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "14px",
+          "width": "100%"
+         },
+         "blockId": "abebf112b2",
+         "blockName": "Gallery Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "aspectRatio": "4 / 3",
+            "backgroundColor": "var(--44dd55ee-0006-4d06-8d06-ddee0006cc06, #F0EFEA)",
+            "borderRadius": "10px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 1,
+            "overflow": "hidden",
+            "position": "relative",
+            "width": "33.33%"
+           },
+           "blockId": "833ad49909",
+           "blockName": "Gallery 2",
+           "children": [
+            {
+             "attributes": {
+              "alt": "The kitchen",
+              "loading": "lazy",
+              "src": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=900"
+             },
+             "baseStyles": {
+              "display": "block",
+              "flexShrink": 0,
+              "height": "100%",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "3067c66c04",
+             "blockName": "Gallery 2 · Image",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "img",
+             "mobileStyles": {},
+             "rawStyles": {
+              "transition": "transform 1s cubic-bezier(0.22, 1, 0.36, 1)"
+             },
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [
+            "keys-photo"
+           ],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "aspectRatio": "4 / 3",
+            "backgroundColor": "var(--44dd55ee-0006-4d06-8d06-ddee0006cc06, #F0EFEA)",
+            "borderRadius": "10px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 1,
+            "overflow": "hidden",
+            "position": "relative",
+            "width": "33.33%"
+           },
+           "blockId": "3c9b5008de",
+           "blockName": "Gallery 3",
+           "children": [
+            {
+             "attributes": {
+              "alt": "Living room",
+              "loading": "lazy",
+              "src": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&q=80&w=900"
+             },
+             "baseStyles": {
+              "display": "block",
+              "flexShrink": 0,
+              "height": "100%",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "df5b3bf856",
+             "blockName": "Gallery 3 · Image",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "img",
+             "mobileStyles": {},
+             "rawStyles": {
+              "transition": "transform 1s cubic-bezier(0.22, 1, 0.36, 1)"
+             },
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [
+            "keys-photo"
+           ],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "aspectRatio": "4 / 3",
+            "backgroundColor": "var(--44dd55ee-0006-4d06-8d06-ddee0006cc06, #F0EFEA)",
+            "borderRadius": "10px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 1,
+            "overflow": "hidden",
+            "position": "relative",
+            "width": "33.33%"
+           },
+           "blockId": "5c4376d6e2",
+           "blockName": "Gallery 4",
+           "children": [
+            {
+             "attributes": {
+              "alt": "Main bedroom",
+              "loading": "lazy",
+              "src": "https://images.unsplash.com/photo-1560184897-ae75f418493e?auto=format&fit=crop&q=80&w=900"
+             },
+             "baseStyles": {
+              "display": "block",
+              "flexShrink": 0,
+              "height": "100%",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "bca610328e",
+             "blockName": "Gallery 4 · Image",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "img",
+             "mobileStyles": {},
+             "rawStyles": {
+              "transition": "transform 1s cubic-bezier(0.22, 1, 0.36, 1)"
+             },
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [
+            "keys-photo"
+           ],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "padding": "24px 16px 0px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "gap": "36px",
+        "padding": "36px 32px 72px",
+        "width": "100%"
+       },
+       "blockId": "0ac4bb9f52",
+       "blockName": "Section · Detail",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "flexWrap": "wrap",
+          "gap": "14px",
+          "width": "100%"
+         },
+         "blockId": "44624f82ab",
+         "blockName": "Facts Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+            "borderRadius": "10px",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 1,
+            "gap": "6px",
+            "padding": "18px 20px",
+            "width": "25%"
+           },
+           "blockId": "9d1117d5d9",
+           "blockName": "Fact · Bedrooms",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "9px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.14em",
+              "lineHeight": "1.5",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "2b23528328",
+             "blockName": "Fact Key",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Bedrooms",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "22px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.03em",
+              "lineHeight": "1.02",
+              "width": "fit-content"
+             },
+             "blockId": "0307c861b6",
+             "blockName": "Fact Val",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "3",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "width": "47%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+            "borderRadius": "10px",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 1,
+            "gap": "6px",
+            "padding": "18px 20px",
+            "width": "25%"
+           },
+           "blockId": "247c0e90f3",
+           "blockName": "Fact · Bathrooms",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "9px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.14em",
+              "lineHeight": "1.5",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "f01edc44a7",
+             "blockName": "Fact Key",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Bathrooms",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "22px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.03em",
+              "lineHeight": "1.02",
+              "width": "fit-content"
+             },
+             "blockId": "901a00296c",
+             "blockName": "Fact Val",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "2",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "width": "47%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+            "borderRadius": "10px",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 1,
+            "gap": "6px",
+            "padding": "18px 20px",
+            "width": "25%"
+           },
+           "blockId": "98436e5df5",
+           "blockName": "Fact · Interior",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "9px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.14em",
+              "lineHeight": "1.5",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "4341c081f1",
+             "blockName": "Fact Key",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Interior",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "22px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.03em",
+              "lineHeight": "1.02",
+              "width": "fit-content"
+             },
+             "blockId": "6fab2e80da",
+             "blockName": "Fact Val",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "145 m²",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "width": "47%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+            "borderRadius": "10px",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 1,
+            "gap": "6px",
+            "padding": "18px 20px",
+            "width": "25%"
+           },
+           "blockId": "898a4f49d6",
+           "blockName": "Fact · Built",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "9px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.14em",
+              "lineHeight": "1.5",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "8155732358",
+             "blockName": "Fact Key",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Built",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "22px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "-0.03em",
+              "lineHeight": "1.02",
+              "width": "fit-content"
+             },
+             "blockId": "968ca52cf8",
+             "blockName": "Fact Val",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "2019 · A-rated",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "width": "47%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+          "fontFamily": "Hanken Grotesk",
+          "fontSize": "17px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.7",
+          "maxWidth": "760px",
+          "width": "fit-content"
+         },
+         "blockId": "2985c9a1f5",
+         "blockName": "Prop Desc",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "A white courtyard house five minutes' walk from Praia da Rainha, rebuilt in 2019 around an olive tree older than the street. South light all day, a salt pool, and a garage you can actually park in.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "width": "100%"
+         },
+         "blockId": "9d1b034d8d",
+         "blockName": "Feature Rows",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderTopColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "padding": "22px 0px",
+            "width": "100%"
+           },
+           "blockId": "58f1b401f1",
+           "blockName": "Feature · Kitchen",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "flexShrink": 0,
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.14em",
+              "lineHeight": "1.5",
+              "textTransform": "uppercase",
+              "width": "180px"
+             },
+             "blockId": "8f1b160804",
+             "blockName": "Feature Key",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Kitchen",
+             "mobileStyles": {
+              "width": "fit-content"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "maxWidth": "620px",
+              "width": "fit-content"
+             },
+             "blockId": "8fcbf60fdb",
+             "blockName": "Feature Val",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Bulthaup fittings, gas and induction, pantry with a window - the good kind of rare.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexDirection": "column",
+            "gap": "8px",
+            "padding": "16px 0px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderTopColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "padding": "22px 0px",
+            "width": "100%"
+           },
+           "blockId": "c2e29a2480",
+           "blockName": "Feature · Outdoors",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "flexShrink": 0,
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.14em",
+              "lineHeight": "1.5",
+              "textTransform": "uppercase",
+              "width": "180px"
+             },
+             "blockId": "ab08773a4a",
+             "blockName": "Feature Key",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Outdoors",
+             "mobileStyles": {
+              "width": "fit-content"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "maxWidth": "620px",
+              "width": "fit-content"
+             },
+             "blockId": "abed229d60",
+             "blockName": "Feature Val",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Salt pool, outdoor kitchen, olive tree, and 90 m² of terrace over two levels.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexDirection": "column",
+            "gap": "8px",
+            "padding": "16px 0px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderTopColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "padding": "22px 0px",
+            "width": "100%"
+           },
+           "blockId": "b1c33c5fed",
+           "blockName": "Feature · Energy",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "flexShrink": 0,
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.14em",
+              "lineHeight": "1.5",
+              "textTransform": "uppercase",
+              "width": "180px"
+             },
+             "blockId": "0c1da383c5",
+             "blockName": "Feature Key",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Energy",
+             "mobileStyles": {
+              "width": "fit-content"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "maxWidth": "620px",
+              "width": "fit-content"
+             },
+             "blockId": "1d83f38e22",
+             "blockName": "Feature Val",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "A-rated. Solar with 11 kWh storage, underfloor heating downstairs.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexDirection": "column",
+            "gap": "8px",
+            "padding": "16px 0px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderTopColor": "var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "24px",
+            "padding": "22px 0px",
+            "width": "100%"
+           },
+           "blockId": "27c8129bfb",
+           "blockName": "Feature · The area",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)",
+              "flexShrink": 0,
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "10px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.14em",
+              "lineHeight": "1.5",
+              "textTransform": "uppercase",
+              "width": "180px"
+             },
+             "blockId": "233613c5a6",
+             "blockName": "Feature Key",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "The area",
+             "mobileStyles": {
+              "width": "fit-content"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--44dd55ee-0002-4d02-8d02-ddee0002cc02, #1C1C1A)",
+              "fontFamily": "Hanken Grotesk",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.65",
+              "maxWidth": "620px",
+              "width": "fit-content"
+             },
+             "blockId": "7e8e33dace",
+             "blockName": "Feature Val",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Five minutes to the beach, eight to the train, one to a bakery that sells out by ten.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexDirection": "column",
+            "gap": "8px",
+            "padding": "16px 0px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "gap": "24px",
+        "padding": "36px 16px 56px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "0edffc759b",
+       "blockName": "Footer",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "774dbe0259",
+         "blockName": "Footer Copy",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "7d06eb9bfa",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "9014edeaa5",
+         "blockName": "Footer Mail",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "586501d0dd",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "97f5de2ade",
+         "blockName": "Footer Addr",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "keys_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "786f7c949c",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "extendedFromComponent": "keys_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "marginLeft": "0px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "keys_styles"
+  }
+ ],
+ "creation": "2026-07-14 16:14:30.084951",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Casa Branca in Cascais - 3 bed, salt pool, A-rated. ₹7.8 Cr with Keys.",
+ "modified": "2026-07-14 22:20:05.439282",
+ "modified_by": "Administrator",
+ "name": "keys_property",
+ "owner": "Administrator",
+ "page_name": "keys_property",
+ "page_title": "Casa Branca - ₹7.8 Cr",
+ "preview": "/builder_assets/keys/keys_property/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/keys/property",
+ "template_group": "keys"
+}

@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Local business"
+ ],
+ "description": "A property agency in an app shell, with listings as rows.",
+ "order": 10,
+ "pages": [
+  {
+   "name": "keys_listings"
+  },
+  {
+   "name": "keys_property"
+  },
+  {
+   "name": "keys_viewings"
+  }
+ ],
+ "title": "Keys"
+}

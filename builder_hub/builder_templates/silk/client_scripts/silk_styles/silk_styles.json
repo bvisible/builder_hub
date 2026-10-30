@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-15 16:15:52.097997",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-15 16:15:52.097997",
+ "modified_by": "Administrator",
+ "name": "silk_styles",
+ "owner": "Administrator",
+ "script": "\nhtml { scroll-behavior: smooth; color-scheme: dark; }\n::selection { background: #C9A15E; color: #0D0B09; }\n",
+ "script_type": "CSS"
+}

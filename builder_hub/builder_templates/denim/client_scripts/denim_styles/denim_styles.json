@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-15 16:25:26.840436",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-15 16:25:26.840436",
+ "modified_by": "Administrator",
+ "name": "denim_styles",
+ "owner": "Administrator",
+ "script": "\nhtml { scroll-behavior: smooth; }\n::selection { background: #FF6A2B; color: #F5F4EF; }\n.dn-ticker-track { animation: dn-marquee 22s linear infinite; }\n@keyframes dn-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }\n@media (prefers-reduced-motion: reduce) { .dn-ticker-track { animation: none; } }\n",
+ "script_type": "CSS"
+}

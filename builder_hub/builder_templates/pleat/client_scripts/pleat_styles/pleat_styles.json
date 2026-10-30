@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-15 16:29:38.910259",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-15 16:29:38.910259",
+ "modified_by": "Administrator",
+ "name": "pleat_styles",
+ "owner": "Administrator",
+ "script": "\n@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400;1,6..96,500;1,6..96,600&display=swap');\n\nhtml { scroll-behavior: smooth; }\n::selection { background: #B3202C; color: #FFFFFF; }\n",
+ "script_type": "CSS"
+}

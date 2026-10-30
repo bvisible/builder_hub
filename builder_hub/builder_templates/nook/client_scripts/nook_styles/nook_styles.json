@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-14 16:14:29.927444",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-14 16:14:29.927452",
+ "modified_by": "Administrator",
+ "name": "nook_styles",
+ "owner": "Administrator",
+ "script": "\nhtml { scroll-behavior: smooth; }\n::selection { background: #A8894F; color: #F1F2EC; }\n.nook-photo img:hover { transform: scale(1.03); }\n",
+ "script_type": "CSS"
+}

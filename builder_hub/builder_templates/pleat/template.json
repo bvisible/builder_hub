@@ -1,0 +1,20 @@
+{
+ "categories": [
+  "Fashion",
+  "Editorial"
+ ],
+ "description": "An editorial lookbook shot as magazine spreads with folio bars.",
+ "order": 17,
+ "pages": [
+  {
+   "name": "pleat_home"
+  },
+  {
+   "name": "pleat_looks"
+  },
+  {
+   "name": "pleat_studio"
+  }
+ ],
+ "title": "Pleat"
+}

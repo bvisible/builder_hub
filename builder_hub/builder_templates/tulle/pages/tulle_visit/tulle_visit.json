@@ -1,0 +1,1028 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--fa010bf3-8db5-449f-8941-3de743ae1c60, #FCF9F7)",
+    "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Mulish",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "ef86be5b60",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "d90155b8e9",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "e52e9153e6",
+       "blockName": "Nav Pill",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "8b47766ecd",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "tulle_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "79fd2949cc",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "9b97e7e4f4",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "477dd44161",
+           "blockName": "Dresses",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "924f4bde9d",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "ecbaa30574",
+           "blockName": "Visit",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "60a5659379",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "cd108bbcb8",
+           "blockName": "Theme Toggle",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "8464b9e681",
+             "blockName": "Theme · ti-sun",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "tulle_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "bb86c2d4fc",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "92b223932b",
+             "blockName": "Theme · ti-moon",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "tulle_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "b6ffa24c3a",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1abfb5ba28",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "tulle_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "808971815e",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "tulle_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "1dfb0a4e1b",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "tulle_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1140px",
+      "padding": "56px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "68027592dd",
+     "blockName": "Section · Story",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "backgroundColor": "var(--4a68dbf0-27af-40f7-8580-7025648b5d2f, #F6E4DF)",
+        "borderRadius": "24px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "10px",
+        "padding": "16px",
+        "width": "100%"
+       },
+       "blockId": "806a8d7e4d",
+       "blockName": "Story Panel",
+       "children": [
+        {
+         "attributes": {
+          "alt": "Forever and always",
+          "src": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&q=80&w=1200"
+         },
+         "baseStyles": {
+          "borderRadius": "16px",
+          "display": "block",
+          "flexShrink": 0,
+          "height": "460px",
+          "objectFit": "cover",
+          "width": "44%"
+         },
+         "blockId": "72699ed85a",
+         "blockName": "Story Photo",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {
+          "height": "280px",
+          "width": "100%"
+         },
+         "rawStyles": {
+          "filter": "saturate(0.95)"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "12px",
+          "justifyContent": "center",
+          "padding": "10px 26px",
+          "width": "100%"
+         },
+         "blockId": "481cc1377e",
+         "blockName": "Story Copy",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "fontFamily": "Parisienne",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "c08e5151b9",
+           "blockName": "Story Script",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "our story",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+            "fontFamily": "Playfair Display",
+            "fontSize": "44px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.15",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "a5fbb4f27a",
+           "blockName": "Story Headline",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Six hundred brides,<br>and counting.",
+           "mobileStyles": {
+            "fontSize": "30px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+            "fontFamily": "Mulish",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "460px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "b0c10e1c18",
+           "blockName": "Story Para 1",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Tulle began in 2011 with twelve dresses and a borrowed steamer. We are still small on purpose: one bride in the boutique at a time, the kettle always on, opinions gentle but honest.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+            "fontFamily": "Mulish",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "460px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "1652ce88a6",
+           "blockName": "Story Para 2",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Bring the people whose eyes you trust. We will handle the rest, including the tissues.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "padding": "18px 6px 6px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "32px 14px 0"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1140px",
+      "padding": "64px 24px 8px",
+      "width": "100%"
+     },
+     "blockId": "84b3c30398",
+     "blockName": "Section · Expect",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+        "fontFamily": "Parisienne",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.2",
+        "minWidth": "10px",
+        "width": "fit-content"
+       },
+       "blockId": "51b5bf807d",
+       "blockName": "Expect Script",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "what to expect",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "18px",
+        "marginTop": "18px",
+        "width": "100%"
+       },
+       "blockId": "f4c07d1813",
+       "blockName": "Expect Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--fa010bf3-8db5-449f-8941-3de743ae1c60, #FCF9F7)",
+          "borderRadius": "18px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "8px",
+          "padding": "26px 24px",
+          "width": "100%"
+         },
+         "blockId": "60a91d4cd8",
+         "blockName": "Expect · one",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "fontFamily": "Parisienne",
+            "fontSize": "26px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "55bbc75801",
+           "blockName": "Expect No · one",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "one",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+            "fontFamily": "Playfair Display",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.15",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "5cda052af6",
+           "blockName": "Expect Title · one",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Ninety minutes, just you",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+            "fontFamily": "Mulish",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "58aa56765f",
+           "blockName": "Expect Copy · one",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The boutique closes for your appointment. Music yours, pace yours.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--fa010bf3-8db5-449f-8941-3de743ae1c60, #FCF9F7)",
+          "borderRadius": "18px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "8px",
+          "padding": "26px 24px",
+          "width": "100%"
+         },
+         "blockId": "ba2c07d761",
+         "blockName": "Expect · two",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "fontFamily": "Parisienne",
+            "fontSize": "26px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "09b45d5727",
+           "blockName": "Expect No · two",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "two",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+            "fontFamily": "Playfair Display",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.15",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "0bc64f04c9",
+           "blockName": "Expect Title · two",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Honest, kind eyes",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+            "fontFamily": "Mulish",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "d11f4d0e9c",
+           "blockName": "Expect Copy · two",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "We will never sell you a dress that isn't the one. We will tell you when it is.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--fa010bf3-8db5-449f-8941-3de743ae1c60, #FCF9F7)",
+          "borderRadius": "18px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "8px",
+          "padding": "26px 24px",
+          "width": "100%"
+         },
+         "blockId": "48a2d0b7bf",
+         "blockName": "Expect · three",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "fontFamily": "Parisienne",
+            "fontSize": "26px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "85822cbf09",
+           "blockName": "Expect No · three",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "three",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+            "fontFamily": "Playfair Display",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.15",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "65cd596674",
+           "blockName": "Expect Title · three",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Every size, actually here",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+            "fontFamily": "Mulish",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "c4d4ad0b1a",
+           "blockName": "Expect Copy · three",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Samples in sizes 2 to 32 hang on the floor, not in a catalog.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "14px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "40px 14px 8px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "padding": "56px 24px 32px",
+      "width": "100%"
+     },
+     "blockId": "9592f10424",
+     "blockName": "Section · Visit Card",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "backgroundColor": "var(--9f860fa9-65ba-44fd-8998-f6a3014adf5d, #F0E1DB)",
+        "borderRadius": "22px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "gap": "12px",
+        "maxWidth": "820px",
+        "padding": "44px 40px",
+        "textAlign": "center",
+        "width": "100%"
+       },
+       "blockId": "86f78c6646",
+       "blockName": "Visit Inner",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+          "fontFamily": "Parisienne",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.2",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "7d01d2b10e",
+         "blockName": "Visit Script",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "find us",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+          "fontFamily": "Playfair Display",
+          "fontSize": "32px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "lineHeight": "1.15",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "b39ee7976b",
+         "blockName": "Visit Address",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "27 Willow Lane, Portland",
+         "mobileStyles": {
+          "fontSize": "24px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+          "fontFamily": "Mulish",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.8",
+          "maxWidth": "520px",
+          "minWidth": "10px",
+          "textAlign": "center",
+          "width": "100%"
+         },
+         "blockId": "100748a592",
+         "blockName": "Visit Details",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Saturday and Sunday, 10 to 5 · Weekday evenings for working brides · Street parking on Willow, the pink door is ours.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "mailto:hello@tulle.bridal"
+         },
+         "baseStyles": {
+          "borderBottomColor": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+          "borderBottomStyle": "solid",
+          "borderBottomWidth": "1px",
+          "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+          "fontFamily": "Mulish",
+          "fontSize": "13px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.06em",
+          "lineHeight": "1.8",
+          "minWidth": "10px",
+          "textDecoration": "none",
+          "width": "fit-content"
+         },
+         "blockId": "89fcff7380",
+         "blockName": "Visit Mail",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "hello@tulle.bridal",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:color": "#A05B66",
+          "transition": "color 0.15s ease-out"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "padding": "30px 20px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "36px 16px 20px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "b58f9720f3",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "b7167618ce",
+       "blockName": "RSVP Card",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "ab257b461d",
+         "blockName": "RSVP Inner",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "a4390b0622",
+           "blockName": "RSVP Script",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_rsvp_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "05cf39fc73",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "3ae3d50b93",
+           "blockName": "RSVP Headline",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_rsvp_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "0019f21b8d",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "26e82999a2",
+           "blockName": "RSVP Address",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_rsvp_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "be0b0d9eb1",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "a17cabf584",
+           "blockName": "RSVP CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_rsvp_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "4d857685fe",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "tulle_rsvp_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "6bfb192a16",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "tulle_rsvp_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "71dbec6ace",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "d0653729e4",
+       "blockName": "Footer Sign-off",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "tulle_rsvp_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "d3f72f1a0d",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "tulle_rsvp_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "tulle_styles"
+  }
+ ],
+ "creation": "2026-07-15 16:21:10.067523",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Visit Tulle: private ninety-minute appointments at 27 Willow Lane, Portland.",
+ "modified": "2026-07-15 16:33:25.504997",
+ "modified_by": "Administrator",
+ "name": "tulle_visit",
+ "owner": "Administrator",
+ "page_name": "tulle_visit",
+ "page_title": "Visit · Tulle",
+ "preview": "/builder_assets/tulle/tulle_visit/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/tulle/visit",
+ "template_group": "tulle"
+}

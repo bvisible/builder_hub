@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-15 17:23:39.598215",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-15 17:23:39.598215",
+ "modified_by": "Administrator",
+ "name": "plinth_styles",
+ "owner": "Administrator",
+ "script": "\nhtml { scroll-behavior: smooth; }\n::selection { background: #2B5BD7; color: #FFFFFF; }\n.pl-thumb { opacity: 0; transition: opacity 0.2s ease-out, transform 0.25s ease-out; }\n.pl-row:hover .pl-thumb { opacity: 1; transform: rotate(0deg); }\n.pl-row:hover > div { color: #2B5BD7; }\n",
+ "script_type": "CSS"
+}

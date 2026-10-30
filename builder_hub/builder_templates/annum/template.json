@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Portfolio"
+ ],
+ "description": "A one-project-a-year portfolio: full-bleed hero, photo timeline, honest ledger.",
+ "order": 29,
+ "pages": [
+  {
+   "name": "annum_home"
+  },
+  {
+   "name": "annum_ledger"
+  },
+  {
+   "name": "annum_about"
+  }
+ ],
+ "title": "Annum"
+}

@@ -1,0 +1,1371 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--fa010bf3-8db5-449f-8941-3de743ae1c60, #FCF9F7)",
+    "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Mulish",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "8710e0ee00",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "1bba836936",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "c0da92d0ad",
+       "blockName": "Nav Pill",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "32d15af089",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "tulle_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "79fd2949cc",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "da591bdf97",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "f1f365b114",
+           "blockName": "Dresses",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "924f4bde9d",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "6145376f67",
+           "blockName": "Visit",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "60a5659379",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "853122d6aa",
+           "blockName": "Theme Toggle",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "7f471eab2c",
+             "blockName": "Theme · ti-sun",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "tulle_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "bb86c2d4fc",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "832dd7b8d7",
+             "blockName": "Theme · ti-moon",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "tulle_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "b6ffa24c3a",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1abfb5ba28",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "tulle_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "808971815e",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "tulle_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "1dfb0a4e1b",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "tulle_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "18px",
+      "padding": "64px 24px 48px",
+      "textAlign": "center",
+      "width": "100%"
+     },
+     "blockId": "2c3dc1fff6",
+     "blockName": "Section · Header",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+        "fontFamily": "Parisienne",
+        "fontSize": "34px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.2",
+        "minWidth": "10px",
+        "width": "fit-content"
+       },
+       "blockId": "7a95af54aa",
+       "blockName": "Dresses Script",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "the collection",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+        "fontFamily": "Playfair Display",
+        "fontSize": "60px",
+        "fontWeight": "500",
+        "height": "fit-content",
+        "lineHeight": "1.15",
+        "minWidth": "10px",
+        "textAlign": "center",
+        "width": "fit-content"
+       },
+       "blockId": "37809ec32e",
+       "blockName": "Dresses Headline",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Dresses for every aisle.",
+       "mobileStyles": {
+        "fontSize": "36px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+        "fontFamily": "Mulish",
+        "fontSize": "10px",
+        "fontWeight": "700",
+        "height": "fit-content",
+        "letterSpacing": "0.22em",
+        "lineHeight": "1.6",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "b6d488eea7",
+       "blockName": "Dresses Note",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Sizes 2 to 32, kept in the boutique, altered in-house",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "40px 18px 28px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "40px",
+      "maxWidth": "1140px",
+      "padding": "0 24px",
+      "width": "100%"
+     },
+     "blockId": "8c1c636276",
+     "blockName": "Section · Panels",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "alignSelf": "flex-start",
+        "backgroundColor": "var(--4a68dbf0-27af-40f7-8580-7025648b5d2f, #F6E4DF)",
+        "borderRadius": "24px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "10px",
+        "marginTop": "0px",
+        "padding": "16px",
+        "position": "relative",
+        "width": "94%"
+       },
+       "blockId": "3aad5a5314",
+       "blockName": "Dress Panel · no. one",
+       "children": [
+        {
+         "attributes": {
+          "alt": "The Margaux",
+          "src": "https://images.unsplash.com/photo-1519657337289-077653f724ed?auto=format&fit=crop&q=80&w=1200"
+         },
+         "baseStyles": {
+          "borderRadius": "16px",
+          "display": "block",
+          "flexShrink": 0,
+          "height": "440px",
+          "objectFit": "cover",
+          "width": "46%"
+         },
+         "blockId": "f166a42b97",
+         "blockName": "Panel Photo · no. one",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {
+          "height": "300px",
+          "width": "100%"
+         },
+         "rawStyles": {
+          "filter": "saturate(0.95)"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "10px",
+          "justifyContent": "center",
+          "padding": "10px 26px",
+          "width": "100%"
+         },
+         "blockId": "96fea96aba",
+         "blockName": "Panel Copy Col · no. one",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "fontFamily": "Parisienne",
+            "fontSize": "28px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "bd29f1a468",
+           "blockName": "Panel No · no. one",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "no. one",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+            "fontFamily": "Playfair Display",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.15",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "a17a9daad2",
+           "blockName": "Panel Name · no. one",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The Margaux",
+           "mobileStyles": {
+            "fontSize": "28px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+            "fontFamily": "Mulish",
+            "fontSize": "10px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.22em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "7bcee6b49c",
+           "blockName": "Panel Spec · no. one",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "A-line · Chantilly lace · Buttoned back",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+            "fontFamily": "Mulish",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "460px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "4515783b02",
+           "blockName": "Panel Copy · no. one",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Our most-loved gown. Corded lace, a scooped back, and a train that bustles for dancing.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "fontFamily": "Mulish",
+            "fontSize": "11px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.22em",
+            "lineHeight": "1.6",
+            "marginTop": "8px",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "2f074a2e95",
+           "blockName": "Panel Price · no. one",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "From $2,400",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "padding": "18px 6px 6px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "marginTop": "0px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "alignSelf": "flex-end",
+        "backgroundColor": "var(--9f860fa9-65ba-44fd-8998-f6a3014adf5d, #F0E1DB)",
+        "borderRadius": "24px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "10px",
+        "marginTop": "-24px",
+        "padding": "16px",
+        "position": "relative",
+        "width": "94%"
+       },
+       "blockId": "1a819d84c7",
+       "blockName": "Dress Panel · no. two",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "10px",
+          "justifyContent": "center",
+          "padding": "10px 26px",
+          "width": "100%"
+         },
+         "blockId": "e167bbfa68",
+         "blockName": "Panel Copy Col · no. two",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "fontFamily": "Parisienne",
+            "fontSize": "28px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "4171e72940",
+           "blockName": "Panel No · no. two",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "no. two",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+            "fontFamily": "Playfair Display",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.15",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "320db07378",
+           "blockName": "Panel Name · no. two",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The Willa",
+           "mobileStyles": {
+            "fontSize": "28px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+            "fontFamily": "Mulish",
+            "fontSize": "10px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.22em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "1a618e2684",
+           "blockName": "Panel Spec · no. two",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Column · Silk crepe · Off the shoulder",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+            "fontFamily": "Mulish",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "460px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "f2d9dded65",
+           "blockName": "Panel Copy · no. two",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Quietly modern. Worn with the Anna veil, or with grandmother's earrings and nothing else.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "fontFamily": "Mulish",
+            "fontSize": "11px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.22em",
+            "lineHeight": "1.6",
+            "marginTop": "8px",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "865ff9828f",
+           "blockName": "Panel Price · no. two",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "From $1,700",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "padding": "18px 6px 6px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "alt": "The Willa",
+          "src": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&q=80&w=1200"
+         },
+         "baseStyles": {
+          "borderRadius": "16px",
+          "display": "block",
+          "flexShrink": 0,
+          "height": "440px",
+          "objectFit": "cover",
+          "width": "46%"
+         },
+         "blockId": "c7094838db",
+         "blockName": "Panel Photo · no. two",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {
+          "height": "300px",
+          "width": "100%"
+         },
+         "rawStyles": {
+          "filter": "saturate(0.95)"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "marginTop": "0px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "alignSelf": "flex-start",
+        "backgroundColor": "var(--4a68dbf0-27af-40f7-8580-7025648b5d2f, #F6E4DF)",
+        "borderRadius": "24px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "10px",
+        "marginTop": "-24px",
+        "padding": "16px",
+        "position": "relative",
+        "width": "94%"
+       },
+       "blockId": "645b0d5f48",
+       "blockName": "Dress Panel · no. three",
+       "children": [
+        {
+         "attributes": {
+          "alt": "The Ru, in the courtyard",
+          "src": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&q=80&w=1200"
+         },
+         "baseStyles": {
+          "borderRadius": "16px",
+          "display": "block",
+          "flexShrink": 0,
+          "height": "440px",
+          "objectFit": "cover",
+          "width": "46%"
+         },
+         "blockId": "0c15bc2432",
+         "blockName": "Panel Photo · no. three",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {
+          "height": "300px",
+          "width": "100%"
+         },
+         "rawStyles": {
+          "filter": "saturate(0.95)"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "10px",
+          "justifyContent": "center",
+          "padding": "10px 26px",
+          "width": "100%"
+         },
+         "blockId": "52610b96df",
+         "blockName": "Panel Copy Col · no. three",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "fontFamily": "Parisienne",
+            "fontSize": "28px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "2f21d1542c",
+           "blockName": "Panel No · no. three",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "no. three",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+            "fontFamily": "Playfair Display",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.15",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "39d1c6329a",
+           "blockName": "Panel Name · no. three",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The Ru",
+           "mobileStyles": {
+            "fontSize": "28px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+            "fontFamily": "Mulish",
+            "fontSize": "10px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.22em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "5b68f22c93",
+           "blockName": "Panel Spec · no. three",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Ballgown · Tulle · Blush or ivory",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+            "fontFamily": "Mulish",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "460px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "5a5daf6f11",
+           "blockName": "Panel Copy · no. three",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Layer upon layer of soft tulle. The skirt detaches for the reception, because you will want to dance.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "fontFamily": "Mulish",
+            "fontSize": "11px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.22em",
+            "lineHeight": "1.6",
+            "marginTop": "8px",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "eefa19e37d",
+           "blockName": "Panel Price · no. three",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "From $2,900",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "padding": "18px 6px 6px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "marginTop": "0px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "alignSelf": "flex-end",
+        "backgroundColor": "var(--9f860fa9-65ba-44fd-8998-f6a3014adf5d, #F0E1DB)",
+        "borderRadius": "24px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "10px",
+        "marginTop": "-24px",
+        "padding": "16px",
+        "position": "relative",
+        "width": "94%"
+       },
+       "blockId": "b3e02ea248",
+       "blockName": "Dress Panel · no. four",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "10px",
+          "justifyContent": "center",
+          "padding": "10px 26px",
+          "width": "100%"
+         },
+         "blockId": "644fd08688",
+         "blockName": "Panel Copy Col · no. four",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "fontFamily": "Parisienne",
+            "fontSize": "28px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "ae70f8c1f0",
+           "blockName": "Panel No · no. four",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "no. four",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+            "fontFamily": "Playfair Display",
+            "fontSize": "36px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.15",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "fa57abd889",
+           "blockName": "Panel Name · no. four",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "As worn, beautifully",
+           "mobileStyles": {
+            "fontSize": "28px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+            "fontFamily": "Mulish",
+            "fontSize": "10px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.22em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "95cd47cb23",
+           "blockName": "Panel Spec · no. four",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Real weddings · The Tulle brides",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+            "fontFamily": "Mulish",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "460px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "8a1b5021aa",
+           "blockName": "Panel Copy · no. four",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Six hundred brides and counting. Send us a photo and join the wall behind the fitting rooms.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "fontFamily": "Mulish",
+            "fontSize": "11px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.22em",
+            "lineHeight": "1.6",
+            "marginTop": "8px",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "8f46f3dd06",
+           "blockName": "Panel Price · no. four",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Forever free",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "padding": "18px 6px 6px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "alt": "A Tulle bride, mid-confetti",
+          "src": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&q=80&w=1200"
+         },
+         "baseStyles": {
+          "borderRadius": "16px",
+          "display": "block",
+          "flexShrink": 0,
+          "height": "440px",
+          "objectFit": "cover",
+          "width": "46%"
+         },
+         "blockId": "8073526aaf",
+         "blockName": "Panel Photo · no. four",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {
+          "height": "300px",
+          "width": "100%"
+         },
+         "rawStyles": {
+          "filter": "saturate(0.95)"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "marginTop": "0px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "gap": "18px",
+      "padding": "0 14px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "padding": "72px 24px 40px",
+      "width": "100%"
+     },
+     "blockId": "447a026ee7",
+     "blockName": "Section · Fittings Note",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "backgroundColor": "var(--fa010bf3-8db5-449f-8941-3de743ae1c60, #FCF9F7)",
+        "borderRadius": "22px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "gap": "12px",
+        "maxWidth": "820px",
+        "padding": "40px 44px",
+        "textAlign": "center",
+        "width": "100%"
+       },
+       "blockId": "7063bea479",
+       "blockName": "Fittings Panel",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+          "fontFamily": "Parisienne",
+          "fontSize": "28px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.2",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "ad64537aca",
+         "blockName": "Fittings Script",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "a note on fittings",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+          "fontFamily": "Mulish",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.8",
+          "maxWidth": "560px",
+          "minWidth": "10px",
+          "textAlign": "center",
+          "width": "100%"
+         },
+         "blockId": "c494bed503",
+         "blockName": "Fittings Copy",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Every dress is fitted over three visits: the first to fall in love, the second to tailor, the third to twirl. Alterations happen upstairs, by the same hands every time.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "padding": "28px 20px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "44px 16px 24px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "9ea02cb5b8",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "5b18975d31",
+       "blockName": "RSVP Card",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "e0bde57c21",
+         "blockName": "RSVP Inner",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "98caf1ceb1",
+           "blockName": "RSVP Script",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_rsvp_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "05cf39fc73",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "b75adf04c1",
+           "blockName": "RSVP Headline",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_rsvp_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "0019f21b8d",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "2dc5d231d4",
+           "blockName": "RSVP Address",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_rsvp_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "be0b0d9eb1",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "9d7b484f16",
+           "blockName": "RSVP CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_rsvp_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "4d857685fe",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "tulle_rsvp_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "6bfb192a16",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "tulle_rsvp_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "71dbec6ace",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "be4920c588",
+       "blockName": "Footer Sign-off",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "tulle_rsvp_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "d3f72f1a0d",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "tulle_rsvp_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "tulle_styles"
+  }
+ ],
+ "creation": "2026-07-15 16:21:10.067523",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "The Tulle collection: lace A-lines, silk columns and tulle ballgowns, sizes 2 to 32.",
+ "modified": "2026-07-15 16:33:25.504997",
+ "modified_by": "Administrator",
+ "name": "tulle_dresses",
+ "owner": "Administrator",
+ "page_name": "tulle_dresses",
+ "page_title": "The Dresses · Tulle",
+ "preview": "/builder_assets/tulle/tulle_dresses/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/tulle/dresses",
+ "template_group": "tulle"
+}

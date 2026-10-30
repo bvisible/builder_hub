@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Marketing"
+ ],
+ "description": "A statement-first advisory site: one color, giant serif, a fee table, no photos.",
+ "order": 31,
+ "pages": [
+  {
+   "name": "candor_home"
+  },
+  {
+   "name": "candor_work"
+  },
+  {
+   "name": "candor_start"
+  }
+ ],
+ "title": "Candor"
+}

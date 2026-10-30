@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-14 16:14:30.721291",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-14 16:14:30.721302",
+ "modified_by": "Administrator",
+ "name": "verge_styles",
+ "owner": "Administrator",
+ "script": "\n@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');\n\nhtml { scroll-behavior: smooth; color-scheme: dark; }\n::selection { background: #FF2E54; color: #0C0C0C; }\n.verge-photo img:hover { transform: scale(1.03); filter: grayscale(0) contrast(1.05); }\n",
+ "script_type": "CSS"
+}

@@ -1,0 +1,1335 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--fa010bf3-8db5-449f-8941-3de743ae1c60, #FCF9F7)",
+    "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Mulish",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "8ca9aa6743",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "4229246f3b",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "fcaa216a68",
+       "blockName": "Nav Pill",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "544c3887bb",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "tulle_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "79fd2949cc",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "e307fe24a9",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "d18e514fa9",
+           "blockName": "Dresses",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "924f4bde9d",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "618b016fee",
+           "blockName": "Visit",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "60a5659379",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "9a16d377f9",
+           "blockName": "Theme Toggle",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "991932ea42",
+             "blockName": "Theme · ti-sun",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "tulle_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "bb86c2d4fc",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "8ca9e9fb3c",
+             "blockName": "Theme · ti-moon",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "tulle_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "b6ffa24c3a",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1abfb5ba28",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "tulle_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "808971815e",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "tulle_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "1dfb0a4e1b",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "tulle_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "22px",
+      "maxWidth": "980px",
+      "padding": "56px 24px 0",
+      "textAlign": "center",
+      "width": "100%"
+     },
+     "blockId": "93a6f9b9bf",
+     "blockName": "Section · Hero",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+        "fontFamily": "Parisienne",
+        "fontSize": "34px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.2",
+        "minWidth": "10px",
+        "width": "fit-content"
+       },
+       "blockId": "1b52457386",
+       "blockName": "Hero Script",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "for the day you say yes",
+       "mobileStyles": {
+        "fontSize": "26px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+        "fontFamily": "Playfair Display",
+        "fontSize": "68px",
+        "fontWeight": "500",
+        "height": "fit-content",
+        "lineHeight": "1.15",
+        "minWidth": "10px",
+        "textAlign": "center",
+        "width": "fit-content"
+       },
+       "blockId": "af2e5011ef",
+       "blockName": "Hero Headline",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "The dress you'll<br>remember forever.",
+       "mobileStyles": {
+        "fontSize": "38px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "fontSize": "52px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+        "fontFamily": "Mulish",
+        "fontSize": "10px",
+        "fontWeight": "700",
+        "height": "fit-content",
+        "letterSpacing": "0.22em",
+        "lineHeight": "1.6",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "9425f2018c",
+       "blockName": "Hero Kicker",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Bridal boutique · Est. 2011 · By appointment only",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "paddingBottom": "26px",
+        "position": "relative",
+        "width": "100%"
+       },
+       "blockId": "54aaf179e6",
+       "blockName": "Layered Visual",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--4a68dbf0-27af-40f7-8580-7025648b5d2f, #F6E4DF)",
+          "borderRadius": "18px",
+          "bottom": "0px",
+          "left": "26px",
+          "position": "absolute",
+          "right": "0px",
+          "top": "26px",
+          "zIndex": "0"
+         },
+         "blockId": "0af02885d9",
+         "blockName": "Tissue Panel",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "alt": "A Tulle bride and her bouquet",
+          "src": "https://images.unsplash.com/photo-1550005809-91ad75fb315f?auto=format&fit=crop&q=80&w=1400"
+         },
+         "baseStyles": {
+          "borderRadius": "18px",
+          "display": "block",
+          "flexShrink": 0,
+          "height": "480px",
+          "objectFit": "cover",
+          "position": "relative",
+          "width": "calc(100% - 26px)",
+          "zIndex": "1"
+         },
+         "blockId": "5d9cd320da",
+         "blockName": "Layered Photo",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {
+          "height": "280px"
+         },
+         "rawStyles": {
+          "filter": "saturate(0.95)"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "bottom": "-8px",
+          "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+          "fontFamily": "Parisienne",
+          "fontSize": "36px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.2",
+          "minWidth": "10px",
+          "position": "absolute",
+          "right": "44px",
+          "width": "fit-content",
+          "zIndex": "2"
+         },
+         "blockId": "9a322796f1",
+         "blockName": "Script Overlay",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "say yes in tulle",
+         "mobileStyles": {
+          "bottom": "-12px",
+          "fontSize": "26px",
+          "right": "18px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "gap": "16px",
+      "padding": "32px 18px 0"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "marginTop": "-56px",
+      "maxWidth": "1180px",
+      "padding": "0 24px",
+      "width": "100%"
+     },
+     "blockId": "475a654c18",
+     "blockName": "Section · Cards",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--4a68dbf0-27af-40f7-8580-7025648b5d2f, #F6E4DF)",
+        "borderRadius": "28px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "gap": "30px",
+        "padding": "44px 40px 40px",
+        "position": "relative",
+        "width": "100%",
+        "zIndex": "2"
+       },
+       "blockId": "bd4a19fcb1",
+       "blockName": "Cards Panel",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-end",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "justifyContent": "space-between",
+          "padding": "0 6px",
+          "width": "100%"
+         },
+         "blockId": "583d835fbc",
+         "blockName": "Cards Header Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "6px",
+            "width": "fit-content"
+           },
+           "blockId": "d32413670c",
+           "blockName": "Cards Heading",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+              "fontFamily": "Parisienne",
+              "fontSize": "30px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.2",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "7747d04ff1",
+             "blockName": "Cards Script",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "the collection",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+              "fontFamily": "Playfair Display",
+              "fontSize": "40px",
+              "fontWeight": "500",
+              "height": "fit-content",
+              "lineHeight": "1.15",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "cf620349f0",
+             "blockName": "Cards Headline",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Signature dresses",
+             "mobileStyles": {
+              "fontSize": "30px"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "dresses"
+           },
+           "baseStyles": {
+            "borderBottomColor": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "borderBottomStyle": "solid",
+            "borderBottomWidth": "1px",
+            "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+            "fontFamily": "Mulish",
+            "fontSize": "11px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.18em",
+            "lineHeight": "2",
+            "minWidth": "10px",
+            "textDecoration": "none",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "de8002b189",
+           "blockName": "Cards Link",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "See every dress",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:color": "#A05B66",
+            "transition": "color 0.15s ease-out"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "12px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "22px",
+          "width": "100%"
+         },
+         "blockId": "995b37208d",
+         "blockName": "Cards Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--fa010bf3-8db5-449f-8941-3de743ae1c60, #FCF9F7)",
+            "borderRadius": "20px",
+            "display": "flex",
+            "flexBasis": "0px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "marginTop": "0px",
+            "padding": "12px",
+            "width": "100%"
+           },
+           "blockId": "0fd1c71d4d",
+           "blockName": "Dress Card · one",
+           "children": [
+            {
+             "attributes": {
+              "alt": "The Margaux in the window",
+              "src": "https://images.unsplash.com/photo-1519657337289-077653f724ed?auto=format&fit=crop&q=80&w=1200"
+             },
+             "baseStyles": {
+              "borderRadius": "14px",
+              "display": "block",
+              "flexShrink": 0,
+              "height": "300px",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "25c452f463",
+             "blockName": "Card Photo · one",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "img",
+             "mobileStyles": {
+              "height": "240px",
+              "width": "100%"
+             },
+             "rawStyles": {
+              "filter": "saturate(0.95)"
+             },
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "gap": "8px",
+              "padding": "18px 6px 6px",
+              "width": "100%"
+             },
+             "blockId": "025afc1464",
+             "blockName": "Card Body · one",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+                "fontFamily": "Parisienne",
+                "fontSize": "26px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.2",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "04bac8b3be",
+               "blockName": "Card No · one",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "one",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+                "fontFamily": "Playfair Display",
+                "fontSize": "24px",
+                "fontWeight": "500",
+                "height": "fit-content",
+                "lineHeight": "1.15",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "4acea7c2ea",
+               "blockName": "Card Name · one",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "The Margaux",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+                "fontFamily": "Mulish",
+                "fontSize": "10px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "0.22em",
+                "lineHeight": "1.6",
+                "minWidth": "10px",
+                "textTransform": "uppercase",
+                "width": "fit-content"
+               },
+               "blockId": "3eb9c901aa",
+               "blockName": "Card Silhouette · one",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "A-line · Chantilly lace",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+                "fontFamily": "Mulish",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.8",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "53016ddaf3",
+               "blockName": "Card Copy · one",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Corded lace over a soft A-line, with covered buttons down the back.",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexBasis": "auto",
+            "marginTop": "0px",
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--fa010bf3-8db5-449f-8941-3de743ae1c60, #FCF9F7)",
+            "borderRadius": "20px",
+            "display": "flex",
+            "flexBasis": "0px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "marginTop": "36px",
+            "padding": "12px",
+            "width": "100%"
+           },
+           "blockId": "f70b020a5e",
+           "blockName": "Dress Card · two",
+           "children": [
+            {
+             "attributes": {
+              "alt": "The Willa, worn easy",
+              "src": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&q=80&w=1200"
+             },
+             "baseStyles": {
+              "borderRadius": "14px",
+              "display": "block",
+              "flexShrink": 0,
+              "height": "300px",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "65b9d70b18",
+             "blockName": "Card Photo · two",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "img",
+             "mobileStyles": {
+              "height": "240px",
+              "width": "100%"
+             },
+             "rawStyles": {
+              "filter": "saturate(0.95)"
+             },
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "gap": "8px",
+              "padding": "18px 6px 6px",
+              "width": "100%"
+             },
+             "blockId": "bf376d711e",
+             "blockName": "Card Body · two",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+                "fontFamily": "Parisienne",
+                "fontSize": "26px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.2",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "79cbf0bc05",
+               "blockName": "Card No · two",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "two",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+                "fontFamily": "Playfair Display",
+                "fontSize": "24px",
+                "fontWeight": "500",
+                "height": "fit-content",
+                "lineHeight": "1.15",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "e53872d01b",
+               "blockName": "Card Name · two",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "The Willa",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+                "fontFamily": "Mulish",
+                "fontSize": "10px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "0.22em",
+                "lineHeight": "1.6",
+                "minWidth": "10px",
+                "textTransform": "uppercase",
+                "width": "fit-content"
+               },
+               "blockId": "fd4d2b171a",
+               "blockName": "Card Silhouette · two",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Column · Silk crepe",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+                "fontFamily": "Mulish",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.8",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "a4b0a83db3",
+               "blockName": "Card Copy · two",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "A clean column with an off-the-shoulder neckline. For the second look, or the whole day.",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexBasis": "auto",
+            "marginTop": "0px",
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "backgroundColor": "var(--fa010bf3-8db5-449f-8941-3de743ae1c60, #FCF9F7)",
+            "borderRadius": "20px",
+            "display": "flex",
+            "flexBasis": "0px",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "marginTop": "0px",
+            "padding": "12px",
+            "width": "100%"
+           },
+           "blockId": "8fa7f532b6",
+           "blockName": "Dress Card · three",
+           "children": [
+            {
+             "attributes": {
+              "alt": "Beaded shoes at the boutique",
+              "src": "https://images.unsplash.com/photo-1518049362265-d5b2a6467637?auto=format&fit=crop&q=80&w=1200"
+             },
+             "baseStyles": {
+              "borderRadius": "14px",
+              "display": "block",
+              "flexShrink": 0,
+              "height": "300px",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "65cf08f420",
+             "blockName": "Card Photo · three",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "img",
+             "mobileStyles": {
+              "height": "240px",
+              "width": "100%"
+             },
+             "rawStyles": {
+              "filter": "saturate(0.95)"
+             },
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "flexShrink": 0,
+              "gap": "8px",
+              "padding": "18px 6px 6px",
+              "width": "100%"
+             },
+             "blockId": "97a59e2266",
+             "blockName": "Card Body · three",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+                "fontFamily": "Parisienne",
+                "fontSize": "26px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.2",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "0ed8ddaa29",
+               "blockName": "Card No · three",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "three",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+                "fontFamily": "Playfair Display",
+                "fontSize": "24px",
+                "fontWeight": "500",
+                "height": "fit-content",
+                "lineHeight": "1.15",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "63b13a26e1",
+               "blockName": "Card Name · three",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "The finishing touches",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+                "fontFamily": "Mulish",
+                "fontSize": "10px",
+                "fontWeight": "700",
+                "height": "fit-content",
+                "letterSpacing": "0.22em",
+                "lineHeight": "1.6",
+                "minWidth": "10px",
+                "textTransform": "uppercase",
+                "width": "fit-content"
+               },
+               "blockId": "d225fa95df",
+               "blockName": "Card Silhouette · three",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Veils · Shoes · Jewelry",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+                "fontFamily": "Mulish",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.8",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "dda6b54f5b",
+               "blockName": "Card Copy · three",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Veils cut to your height, hand-beaded shoes, and the something-borrowed cabinet.",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexBasis": "auto",
+            "marginTop": "0px",
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "18px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "borderRadius": "20px",
+        "gap": "22px",
+        "padding": "28px 18px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "marginTop": "-30px",
+      "padding": "0 14px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "18px",
+      "maxWidth": "860px",
+      "padding": "96px 24px 56px",
+      "textAlign": "center",
+      "width": "100%"
+     },
+     "blockId": "51200a48e9",
+     "blockName": "Section · Quote",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--850e430b-29e3-4fca-804f-c50eb044f2a4, #B76E79)",
+        "fontFamily": "Parisienne",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.2",
+        "minWidth": "10px",
+        "width": "fit-content"
+       },
+       "blockId": "acca42157b",
+       "blockName": "Quote Script",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "kind words",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--dd72b394-b059-44ed-83db-42182d95b04e, #453A36)",
+        "fontFamily": "Playfair Display",
+        "fontSize": "30px",
+        "fontWeight": "500",
+        "height": "fit-content",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "textAlign": "center",
+        "width": "fit-content"
+       },
+       "blockId": "08fb47566e",
+       "blockName": "Quote Text",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "<i>“I cried, my mother cried, and the seamstress<br>had tissues ready. They just knew.”</i>",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--8e8ba267-c3e2-4efe-8009-45303ca77281, #A6968F)",
+        "fontFamily": "Mulish",
+        "fontSize": "10px",
+        "fontWeight": "700",
+        "height": "fit-content",
+        "letterSpacing": "0.22em",
+        "lineHeight": "1.6",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "7245608d77",
+       "blockName": "Quote Attribution",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Priya, married last June",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "56px 20px 32px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "a6ceabf266",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "02ea337ef1",
+       "blockName": "RSVP Card",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "dc18c95d9b",
+         "blockName": "RSVP Inner",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "5aa84b9da7",
+           "blockName": "RSVP Script",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_rsvp_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "05cf39fc73",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "a77f19b4f7",
+           "blockName": "RSVP Headline",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_rsvp_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "0019f21b8d",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "6b469b02b0",
+           "blockName": "RSVP Address",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_rsvp_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "be0b0d9eb1",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "6117d2b358",
+           "blockName": "RSVP CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "tulle_rsvp_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "4d857685fe",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "tulle_rsvp_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "6bfb192a16",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "tulle_rsvp_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "71dbec6ace",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "7b78241a8c",
+       "blockName": "Footer Sign-off",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "tulle_rsvp_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "d3f72f1a0d",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "tulle_rsvp_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "tulle_styles"
+  }
+ ],
+ "creation": "2026-07-15 16:21:10.067523",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Tulle is a blush bridal boutique: signature dresses, honest fittings, happy tears.",
+ "modified": "2026-07-15 16:33:25.504997",
+ "modified_by": "Administrator",
+ "name": "tulle_home",
+ "owner": "Administrator",
+ "page_name": "tulle_home",
+ "page_title": "Tulle · Bridal boutique",
+ "preview": "/builder_assets/tulle/tulle_home/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/tulle/home",
+ "template_group": "tulle"
+}

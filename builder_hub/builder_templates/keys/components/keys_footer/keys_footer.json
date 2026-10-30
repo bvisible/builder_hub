@@ -1,0 +1,14 @@
+{
+ "block": "{\"attributes\": {}, \"baseStyles\": {\"alignItems\": \"baseline\", \"borderTopColor\": \"var(--44dd55ee-0004-4d04-8d04-ddee0004cc04, #E5E3DD)\", \"borderTopStyle\": \"solid\", \"borderTopWidth\": \"1px\", \"display\": \"flex\", \"flexDirection\": \"row\", \"flexWrap\": \"wrap\", \"gap\": \"16px 32px\", \"justifyContent\": \"space-between\", \"padding\": \"26px 32px\", \"width\": \"100%\", \"flexShrink\": 0}, \"blockId\": \"ffb1f50b2b\", \"blockName\": \"Keys Footer\", \"children\": [{\"attributes\": {}, \"baseStyles\": {\"color\": \"var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)\", \"fontFamily\": \"Hanken Grotesk\", \"fontSize\": \"9px\", \"fontWeight\": \"700\", \"letterSpacing\": \"0.14em\", \"lineHeight\": \"1.5\", \"textTransform\": \"uppercase\", \"height\": \"fit-content\", \"width\": \"fit-content\"}, \"blockId\": \"7d06eb9bfa\", \"blockName\": \"Footer Copy\", \"children\": [], \"classes\": [], \"customAttributes\": {}, \"element\": \"p\", \"mobileStyles\": {}, \"rawStyles\": {}, \"tabletStyles\": {}, \"innerHTML\": \"\\u00a9 2026 Keys Imobili\\u00e1ria\"}, {\"attributes\": {\"href\": \"mailto:hello@keys.pt\"}, \"baseStyles\": {\"color\": \"var(--44dd55ee-0005-4d05-8d05-ddee0005cc05, #274690)\", \"fontFamily\": \"Hanken Grotesk\", \"fontSize\": \"13px\", \"fontWeight\": \"700\", \"textDecoration\": \"none\", \"height\": \"fit-content\", \"width\": \"fit-content\"}, \"blockId\": \"586501d0dd\", \"blockName\": \"Footer Mail\", \"children\": [], \"classes\": [], \"customAttributes\": {}, \"element\": \"a\", \"mobileStyles\": {}, \"rawStyles\": {\"hover:text-decoration\": \"underline\"}, \"tabletStyles\": {}, \"innerHTML\": \"hello@keys.pt\"}, {\"attributes\": {}, \"baseStyles\": {\"color\": \"var(--44dd55ee-0003-4d03-8d03-ddee0003cc03, #75726B)\", \"fontFamily\": \"Hanken Grotesk\", \"fontSize\": \"9px\", \"fontWeight\": \"700\", \"letterSpacing\": \"0.14em\", \"lineHeight\": \"1.5\", \"textTransform\": \"uppercase\", \"height\": \"fit-content\", \"width\": \"fit-content\"}, \"blockId\": \"786f7c949c\", \"blockName\": \"Footer Addr\", \"children\": [], \"classes\": [], \"customAttributes\": {}, \"element\": \"p\", \"mobileStyles\": {}, \"rawStyles\": {}, \"tabletStyles\": {}, \"innerHTML\": \"Rua do Alecrim 48, Lisbon\"}], \"classes\": [], \"customAttributes\": {}, \"element\": \"div\", \"mobileStyles\": {\"flexDirection\": \"column\", \"padding\": \"20px 16px\"}, \"rawStyles\": {}, \"tabletStyles\": {}}",
+ "component_id": "keys_footer",
+ "component_name": "Keys Footer",
+ "creation": "2026-07-14 16:14:30.078689",
+ "docstatus": 0,
+ "doctype": "Builder Component",
+ "for_web_page": null,
+ "idx": 0,
+ "modified": "2026-07-14 16:14:30.078692",
+ "modified_by": "Administrator",
+ "name": "keys_footer",
+ "owner": "Administrator"
+}

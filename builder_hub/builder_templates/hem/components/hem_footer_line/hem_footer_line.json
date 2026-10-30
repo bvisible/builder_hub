@@ -1,0 +1,14 @@
+{
+ "block": "{\"attributes\": {}, \"baseStyles\": {\"display\": \"flex\", \"flexDirection\": \"column\", \"flexShrink\": 0, \"width\": \"100%\", \"alignItems\": \"center\"}, \"blockId\": \"7de8357bc6\", \"blockName\": \"Hem Footer\", \"children\": [{\"attributes\": {}, \"baseStyles\": {\"display\": \"flex\", \"flexDirection\": \"column\", \"flexShrink\": 0, \"width\": \"100%\", \"alignItems\": \"center\", \"borderTopColor\": \"var(--a2461722-cba9-4228-8804-936c163df8a8, #E7E3DC)\", \"borderTopStyle\": \"solid\", \"borderTopWidth\": \"1px\", \"gap\": \"18px\", \"maxWidth\": \"1160px\", \"padding\": \"56px 48px 64px\", \"textAlign\": \"center\"}, \"blockId\": \"257a56625d\", \"blockName\": \"Footer Inner\", \"children\": [{\"attributes\": {\"href\": \"mailto:appointments@hem.studio\"}, \"baseStyles\": {\"height\": \"fit-content\", \"width\": \"fit-content\", \"minWidth\": \"10px\", \"textDecoration\": \"none\", \"color\": \"var(--22b068ac-7313-46ca-8de7-3a3e253beab5, #1C1A17)\", \"fontFamily\": \"Cormorant Garamond\", \"fontSize\": \"40px\", \"fontStyle\": \"italic\", \"fontWeight\": \"500\", \"lineHeight\": \"1.1\"}, \"blockId\": \"84c4f96981\", \"blockName\": \"Footer CTA\", \"children\": [], \"classes\": [], \"customAttributes\": {}, \"element\": \"a\", \"mobileStyles\": {\"fontSize\": \"30px\"}, \"rawStyles\": {\"hover:color\": \"var(--d4be5fa3-2829-4ec6-8fdd-2d495c53c9d4, #A56B46)\", \"transition\": \"color 0.15s ease-out\"}, \"tabletStyles\": {}, \"innerHTML\": \"Book a fitting\"}, {\"attributes\": {}, \"baseStyles\": {\"height\": \"fit-content\", \"width\": \"fit-content\", \"minWidth\": \"10px\", \"color\": \"var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)\", \"fontFamily\": \"Karla\", \"fontSize\": \"11px\", \"fontWeight\": \"700\", \"letterSpacing\": \"0.18em\", \"lineHeight\": \"1.4\", \"textTransform\": \"uppercase\"}, \"blockId\": \"f121e30b06\", \"blockName\": \"Footer Line\", \"children\": [], \"classes\": [], \"customAttributes\": {}, \"element\": \"p\", \"mobileStyles\": {}, \"rawStyles\": {}, \"tabletStyles\": {}, \"innerHTML\": \"hem atelier · 14 Rue Cler · Tue to Sat, by appointment\"}], \"classes\": [], \"customAttributes\": {}, \"element\": \"div\", \"mobileStyles\": {\"padding\": \"40px 24px 48px\"}, \"rawStyles\": {}, \"tabletStyles\": {}}], \"classes\": [], \"customAttributes\": {}, \"element\": \"div\", \"mobileStyles\": {}, \"rawStyles\": {}, \"tabletStyles\": {}}",
+ "component_id": "hem_footer_line",
+ "component_name": "Hem Footer",
+ "creation": "2026-07-15 16:45:30.616341",
+ "docstatus": 0,
+ "doctype": "Builder Component",
+ "for_web_page": null,
+ "idx": 0,
+ "modified": "2026-07-15 16:45:30.616341",
+ "modified_by": "Administrator",
+ "name": "hem_footer_line",
+ "owner": "Administrator"
+}

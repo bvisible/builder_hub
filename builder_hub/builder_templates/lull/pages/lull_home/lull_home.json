@@ -1,0 +1,1428 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--22bb33cc-0001-4b01-8b01-bbcc0001aa01, #F6F0EB)",
+    "color": "var(--22bb33cc-0002-4b02-8b02-bbcc0002aa02, #3A332D)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "DM Sans",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "35d2da6def",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "c1c55e4bb8",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "c51d93dad1",
+       "blockName": "Nav Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "38beb46a5c",
+         "blockName": "Nav Left",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "5312f7dce5",
+           "blockName": "Nav · Classes",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "lull_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "262def1228",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "b976d37b73",
+           "blockName": "Nav · Visit",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "lull_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "4b75dd9e86",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "lull_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "7515d5495c",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "81d9b1b319",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "lull_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "7370130f1c",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "d8f13f6014",
+         "blockName": "Nav Right",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "fbb834a379",
+           "blockName": "Nav CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "lull_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "b5755f7474",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "effe4ce0d2",
+           "blockName": "Theme Toggle",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "860be1283e",
+             "blockName": "Theme · Sun",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "lull_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "f81e68af8b",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "bb58c4ce1b",
+             "blockName": "Theme · Moon",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "lull_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "bfefc47f36",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "lull_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "d1151ef2ce",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "lull_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "7346bbdcf7",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "lull_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "56f52828cc",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "lull_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "0px",
+      "padding": "70px 24px 30px",
+      "width": "100%"
+     },
+     "blockId": "f86f81cdef",
+     "blockName": "Section · Hero",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--22bb33cc-0003-4b03-8b03-bbcc0003aa03, #8B7F75)",
+        "fontFamily": "DM Sans",
+        "fontSize": "11px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "0.16em",
+        "lineHeight": "1.5",
+        "marginBottom": "26px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "8cef865724",
+       "blockName": "Hero Eyebrow",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "A slow studio - Bandra West",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--22bb33cc-0002-4b02-8b02-bbcc0002aa02, #3A332D)",
+        "fontFamily": "DM Serif Display",
+        "fontSize": "96px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1",
+        "textAlign": "center",
+        "width": "fit-content"
+       },
+       "blockId": "31cb67dbf2",
+       "blockName": "Hero Line 1",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "h1",
+       "innerHTML": "Move gently.",
+       "mobileStyles": {
+        "fontSize": "46px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "fontSize": "72px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "aspectRatio": "4 / 5",
+        "backgroundColor": "var(--22bb33cc-0006-4b06-8b06-bbcc0006aa06, #EFE6DE)",
+        "borderRadius": "300px 300px 0px 0px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "margin": "36px 0px",
+        "maxWidth": "460px",
+        "overflow": "hidden",
+        "position": "relative",
+        "width": "60%"
+       },
+       "blockId": "b7f12838e1",
+       "blockName": "Arch Photo",
+       "children": [
+        {
+         "attributes": {
+          "alt": "The Lull studio at rest",
+          "src": "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&q=80&w=1200"
+         },
+         "baseStyles": {
+          "display": "block",
+          "flexShrink": 0,
+          "height": "100%",
+          "objectFit": "cover",
+          "width": "100%"
+         },
+         "blockId": "4041ec8e07",
+         "blockName": "Arch Photo · Image",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {},
+         "rawStyles": {
+          "filter": "saturate(0.95)",
+          "transition": "transform 1.1s cubic-bezier(0.22, 1, 0.36, 1)"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [
+        "lull-photo"
+       ],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "margin": "24px 0px",
+        "maxWidth": "none",
+        "width": "82%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--22bb33cc-0002-4b02-8b02-bbcc0002aa02, #3A332D)",
+        "fontFamily": "DM Serif Display",
+        "fontSize": "96px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1",
+        "marginTop": "-104px",
+        "position": "relative",
+        "textAlign": "center",
+        "width": "fit-content",
+        "zIndex": "2"
+       },
+       "blockId": "a6ea5db0e5",
+       "blockName": "Hero Line 2",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "<span style=\"font-style: italic;\">Rest</span> often.",
+       "mobileStyles": {
+        "fontSize": "46px",
+        "marginTop": "-52px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "fontSize": "72px",
+        "marginTop": "-84px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--22bb33cc-0003-4b03-8b03-bbcc0003aa03, #8B7F75)",
+        "fontFamily": "DM Sans",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.7",
+        "marginTop": "40px",
+        "maxWidth": "420px",
+        "textAlign": "center",
+        "width": "fit-content"
+       },
+       "blockId": "c36196e608",
+       "blockName": "Hero Sub",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Small classes in yoga, breathwork and bodywork. No mirrors, no leaderboards, no burpees.",
+       "mobileStyles": {
+        "marginTop": "24px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": "22px",
+        "height": "fit-content",
+        "marginTop": "26px",
+        "width": "fit-content"
+       },
+       "blockId": "aa9d7b6baf",
+       "blockName": "Hero CTAs",
+       "children": [
+        {
+         "attributes": {
+          "href": "classes"
+         },
+         "baseStyles": {
+          "alignItems": "center",
+          "backgroundColor": "var(--22bb33cc-0005-4b05-8b05-bbcc0005aa05, #71835F)",
+          "borderRadius": "100px",
+          "color": "#F6F0EB",
+          "display": "inline-flex",
+          "flexShrink": 0,
+          "fontFamily": "DM Sans",
+          "fontSize": "15px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "justifyContent": "center",
+          "lineHeight": "1",
+          "padding": "17px 30px",
+          "textDecoration": "none",
+          "width": "fit-content"
+         },
+         "blockId": "df437a89c2",
+         "blockName": "Pill · Book a class",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "Book a class",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:opacity": "0.88",
+          "transition": "opacity 0.15s ease-out"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "classes"
+         },
+         "baseStyles": {
+          "color": "var(--22bb33cc-0005-4b05-8b05-bbcc0005aa05, #71835F)",
+          "fontFamily": "DM Sans",
+          "fontSize": "15px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "lineHeight": "1.4",
+          "textDecoration": "underline",
+          "textUnderlineOffset": "5px",
+          "width": "fit-content"
+         },
+         "blockId": "d5305a314a",
+         "blockName": "Link · See the schedule",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "See the schedule",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:color": "var(--22bb33cc-0002-4b02-8b02-bbcc0002aa02, #3A332D)",
+          "transition": "color 0.15s ease-out"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "40px 16px 20px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "980px",
+      "padding": "60px 24px",
+      "width": "100%"
+     },
+     "blockId": "e439edc5d3",
+     "blockName": "Section · Offerings",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--22bb33cc-0003-4b03-8b03-bbcc0003aa03, #8B7F75)",
+        "fontFamily": "DM Sans",
+        "fontSize": "11px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "0.16em",
+        "lineHeight": "1.5",
+        "marginBottom": "28px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "20beb53fd4",
+       "blockName": "Offerings Label",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "What we practice",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "borderTopColor": "var(--22bb33cc-0004-4b04-8b04-bbcc0004aa04, #E8DCD2)",
+        "borderTopStyle": "solid",
+        "borderTopWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "36px",
+        "padding": "34px 0px",
+        "width": "100%"
+       },
+       "blockId": "f248da58b4",
+       "blockName": "Offering · Yoga",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "aspectRatio": "1 / 1",
+          "backgroundColor": "var(--22bb33cc-0006-4b06-8b06-bbcc0006aa06, #EFE6DE)",
+          "borderRadius": "100px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "height": "104px",
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "104px"
+         },
+         "blockId": "e261018a0f",
+         "blockName": "Offering Circle · Yoga",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Yoga",
+            "loading": "lazy",
+            "src": "https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?auto=format&fit=crop&q=80&w=400"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "79c7f6d484",
+           "blockName": "Offering Circle · Yoga · Image",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "filter": "saturate(0.95)",
+            "transition": "transform 1.1s cubic-bezier(0.22, 1, 0.36, 1)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "lull-photo"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "height": "64px",
+          "width": "64px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexGrow": "1",
+          "gap": "8px",
+          "width": "40%"
+         },
+         "blockId": "9179145e1c",
+         "blockName": "Offering Copy",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--22bb33cc-0002-4b02-8b02-bbcc0002aa02, #3A332D)",
+            "fontFamily": "DM Serif Display",
+            "fontSize": "34px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "-0.01em",
+            "lineHeight": "1.05",
+            "width": "fit-content"
+           },
+           "blockId": "38f303d893",
+           "blockName": "Offering Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h3",
+           "innerHTML": "Yoga",
+           "mobileStyles": {
+            "fontSize": "26px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--22bb33cc-0003-4b03-8b03-bbcc0003aa03, #8B7F75)",
+            "fontFamily": "DM Sans",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "480px",
+            "width": "fit-content"
+           },
+           "blockId": "b0303ebd0d",
+           "blockName": "Offering Blurb",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Slow vinyasa and yin. Strong enough to hold you, soft enough to stay.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--22bb33cc-0005-4b05-8b05-bbcc0005aa05, #71835F)",
+          "flexShrink": 0,
+          "fontFamily": "DM Sans",
+          "fontSize": "10px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.16em",
+          "lineHeight": "1.5",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "e3094c0726",
+         "blockName": "Offering Price",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "from ₹600",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderColor": "var(--22bb33cc-0005-4b05-8b05-bbcc0005aa05, #71835F)",
+          "borderRadius": "100px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "color": "var(--22bb33cc-0005-4b05-8b05-bbcc0005aa05, #71835F)",
+          "display": "inline-flex",
+          "flexShrink": 0,
+          "fontFamily": "DM Sans",
+          "fontSize": "16px",
+          "height": "44px",
+          "justifyContent": "center",
+          "lineHeight": "1",
+          "width": "44px"
+         },
+         "blockId": "4d923d059b",
+         "blockName": "Offering Arrow",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "innerHTML": "→",
+         "mobileStyles": {
+          "display": "none"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "gap": "18px",
+        "padding": "22px 0px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "borderTopColor": "var(--22bb33cc-0004-4b04-8b04-bbcc0004aa04, #E8DCD2)",
+        "borderTopStyle": "solid",
+        "borderTopWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "36px",
+        "padding": "34px 0px",
+        "width": "100%"
+       },
+       "blockId": "2b2d0e89ff",
+       "blockName": "Offering · Breathwork",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "aspectRatio": "1 / 1",
+          "backgroundColor": "var(--22bb33cc-0006-4b06-8b06-bbcc0006aa06, #EFE6DE)",
+          "borderRadius": "100px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "height": "104px",
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "104px"
+         },
+         "blockId": "4e6d20ad8a",
+         "blockName": "Offering Circle · Breathwork",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Breathwork",
+            "loading": "lazy",
+            "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=400"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "2aa2aa8e0c",
+           "blockName": "Offering Circle · Breathwork · Image",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "filter": "saturate(0.95)",
+            "transition": "transform 1.1s cubic-bezier(0.22, 1, 0.36, 1)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "lull-photo"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "height": "64px",
+          "width": "64px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexGrow": "1",
+          "gap": "8px",
+          "width": "40%"
+         },
+         "blockId": "0d5ed93f12",
+         "blockName": "Offering Copy",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--22bb33cc-0002-4b02-8b02-bbcc0002aa02, #3A332D)",
+            "fontFamily": "DM Serif Display",
+            "fontSize": "34px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "-0.01em",
+            "lineHeight": "1.05",
+            "width": "fit-content"
+           },
+           "blockId": "f5dba60056",
+           "blockName": "Offering Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h3",
+           "innerHTML": "Breathwork",
+           "mobileStyles": {
+            "fontSize": "26px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--22bb33cc-0003-4b03-8b03-bbcc0003aa03, #8B7F75)",
+            "fontFamily": "DM Sans",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "480px",
+            "width": "fit-content"
+           },
+           "blockId": "2fb97146c3",
+           "blockName": "Offering Blurb",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Forty-five minutes of doing almost nothing, correctly.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--22bb33cc-0005-4b05-8b05-bbcc0005aa05, #71835F)",
+          "flexShrink": 0,
+          "fontFamily": "DM Sans",
+          "fontSize": "10px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.16em",
+          "lineHeight": "1.5",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "a18fe0fc00",
+         "blockName": "Offering Price",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "from ₹500",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderColor": "var(--22bb33cc-0005-4b05-8b05-bbcc0005aa05, #71835F)",
+          "borderRadius": "100px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "color": "var(--22bb33cc-0005-4b05-8b05-bbcc0005aa05, #71835F)",
+          "display": "inline-flex",
+          "flexShrink": 0,
+          "fontFamily": "DM Sans",
+          "fontSize": "16px",
+          "height": "44px",
+          "justifyContent": "center",
+          "lineHeight": "1",
+          "width": "44px"
+         },
+         "blockId": "b02b42d563",
+         "blockName": "Offering Arrow",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "innerHTML": "→",
+         "mobileStyles": {
+          "display": "none"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "gap": "18px",
+        "padding": "22px 0px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "borderTopColor": "var(--22bb33cc-0004-4b04-8b04-bbcc0004aa04, #E8DCD2)",
+        "borderTopStyle": "solid",
+        "borderTopWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "36px",
+        "padding": "34px 0px",
+        "width": "100%"
+       },
+       "blockId": "58f9bf2c83",
+       "blockName": "Offering · Bodywork",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "aspectRatio": "1 / 1",
+          "backgroundColor": "var(--22bb33cc-0006-4b06-8b06-bbcc0006aa06, #EFE6DE)",
+          "borderRadius": "100px",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "height": "104px",
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "104px"
+         },
+         "blockId": "c90d60cd69",
+         "blockName": "Offering Circle · Bodywork",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Bodywork",
+            "loading": "lazy",
+            "src": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&q=80&w=400"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "b36439c788",
+           "blockName": "Offering Circle · Bodywork · Image",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "filter": "saturate(0.95)",
+            "transition": "transform 1.1s cubic-bezier(0.22, 1, 0.36, 1)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "lull-photo"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "height": "64px",
+          "width": "64px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexGrow": "1",
+          "gap": "8px",
+          "width": "40%"
+         },
+         "blockId": "79f82a7e2d",
+         "blockName": "Offering Copy",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--22bb33cc-0002-4b02-8b02-bbcc0002aa02, #3A332D)",
+            "fontFamily": "DM Serif Display",
+            "fontSize": "34px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "-0.01em",
+            "lineHeight": "1.05",
+            "width": "fit-content"
+           },
+           "blockId": "954523ecff",
+           "blockName": "Offering Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h3",
+           "innerHTML": "Bodywork",
+           "mobileStyles": {
+            "fontSize": "26px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--22bb33cc-0003-4b03-8b03-bbcc0003aa03, #8B7F75)",
+            "fontFamily": "DM Sans",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "480px",
+            "width": "fit-content"
+           },
+           "blockId": "4e89f7a35f",
+           "blockName": "Offering Blurb",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Deep-tissue and Thai massage by appointment, sixty or ninety minutes.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--22bb33cc-0005-4b05-8b05-bbcc0005aa05, #71835F)",
+          "flexShrink": 0,
+          "fontFamily": "DM Sans",
+          "fontSize": "10px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.16em",
+          "lineHeight": "1.5",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "487858ab9c",
+         "blockName": "Offering Price",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "from ₹1,800",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderColor": "var(--22bb33cc-0005-4b05-8b05-bbcc0005aa05, #71835F)",
+          "borderRadius": "100px",
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "color": "var(--22bb33cc-0005-4b05-8b05-bbcc0005aa05, #71835F)",
+          "display": "inline-flex",
+          "flexShrink": 0,
+          "fontFamily": "DM Sans",
+          "fontSize": "16px",
+          "height": "44px",
+          "justifyContent": "center",
+          "lineHeight": "1",
+          "width": "44px"
+         },
+         "blockId": "6968e269b5",
+         "blockName": "Offering Arrow",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "innerHTML": "→",
+         "mobileStyles": {
+          "display": "none"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "gap": "18px",
+        "padding": "22px 0px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "36px 16px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "24px",
+      "padding": "70px 24px 100px",
+      "width": "100%"
+     },
+     "blockId": "7a446c9e58",
+     "blockName": "Section · Quote",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--22bb33cc-0005-4b05-8b05-bbcc0005aa05, #71835F)",
+        "borderRadius": "100px",
+        "flexShrink": 0,
+        "height": "10px",
+        "width": "10px"
+       },
+       "blockId": "5464071c57",
+       "blockName": "Quote Dot",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--22bb33cc-0002-4b02-8b02-bbcc0002aa02, #3A332D)",
+        "fontFamily": "DM Serif Display",
+        "fontSize": "40px",
+        "fontStyle": "italic",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.25",
+        "maxWidth": "820px",
+        "textAlign": "center",
+        "width": "fit-content"
+       },
+       "blockId": "6263892c62",
+       "blockName": "Quote",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "“I came for the stretching and stayed<br>for the hour nobody could reach me.”",
+       "mobileStyles": {
+        "fontSize": "26px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--22bb33cc-0003-4b03-8b03-bbcc0003aa03, #8B7F75)",
+        "fontFamily": "DM Sans",
+        "fontSize": "10px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "0.16em",
+        "lineHeight": "1.5",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "ad65a20212",
+       "blockName": "Quote Source",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Member since 2024",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "40px 16px 64px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "d7747911ac",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "8f6a31bc54",
+       "blockName": "Footer Card",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "f3904382ec",
+         "blockName": "Footer Label",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "lull_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "c6de60a676",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "c967385527",
+         "blockName": "Footer Line",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "lull_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "8c197634b4",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "7e45ce9fcb",
+         "blockName": "Footer CTA",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "lull_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "d071351126",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "lull_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "eab61b977d",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "df6879080c",
+       "blockName": "Footer Bottom",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "1f38a86c9c",
+         "blockName": "Footer Copyright",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "lull_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "663329423e",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "56c7bbfc51",
+         "blockName": "Footer Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "5f7774bc33",
+           "blockName": "Footer · IG",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "lull_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "cb431fddeb",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "ba430646d2",
+           "blockName": "Footer · Mail",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "lull_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "3719600296",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "lull_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "728856a704",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "ebc001e582",
+         "blockName": "Footer Loc",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "lull_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "e1496f3bad",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "lull_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "da98d650b6",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "lull_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "lull_styles"
+  }
+ ],
+ "creation": "2026-07-14 16:14:29.772613",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Lull is a small wellness studio in Bandra - yoga, breathwork and bodywork.",
+ "modified": "2026-07-14 21:27:36.352046",
+ "modified_by": "Administrator",
+ "name": "lull_home",
+ "owner": "Administrator",
+ "page_name": "lull_home",
+ "page_title": "Lull - A slow studio",
+ "preview": "/builder_assets/lull/lull_home/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/lull/home",
+ "template_group": "lull"
+}

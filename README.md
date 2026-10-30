@@ -2,7 +2,7 @@
 
 A centralized hub of [Frappe Builder](https://github.com/frappe/builder) page templates
 (and, in future, plugins and components). Builder sites fetch the catalog and per-page
-bundles from a Builder Hub site over HTTP, so templates get their own release cycle —
+bundles from a Builder Hub site over HTTP, so templates get their own release cycle -
 users always get the latest without upgrading the builder app.
 
 Each template is a real Builder Page (`is_template = 1`) grouped under a `template_group`,
@@ -11,103 +11,86 @@ sharing a set of Builder Components and Variables. Groups are bundled as fixture
 
 ## Templates
 
-Eight multi-page template groups. Each has a shared navbar/footer + theme
-across its pages, with a built-in light/dark toggle.
+Twenty-eight multi-page template groups. Each group owns a distinct structural
+archetype and shares a navbar/footer, palette (as Builder Variables) and client
+scripts across its pages. Themed groups ship a light/dark toggle; single-theme
+groups (dark posters, paper zines) are one look by design.
 
-### Fronds
+Each group carries one or more picker categories in its `template.json` manifest
+(the gallery lists a group under every category it has; below, each appears once
+under its primary category).
+`builder_templates/PLAN.md` tracks the archetype registry, category matrix and
+per-template briefs.
 
-An earthy multi-page starter for boutique brands.
+### Marketing
 
-![Fronds — Landing](builder_hub/www/builder_assets/fronds/fronds_landing/preview.webp)
+| Template | Preview |
+|---|---|
+| **Fronds**<br>An earthy starter site for boutique brands.<br><sub>Pages: Landing · About · Contact · Also in: Local business</sub> | <img src="builder_hub/www/builder_assets/fronds/fronds_landing/preview.webp" width="360"> |
+| **Verge**<br>A dark music artist site with poster covers and a tour list.<br><sub>Pages: Home · Shows · About · Also in: Portfolio</sub> | <img src="builder_hub/www/builder_assets/verge/verge_home/preview.webp" width="360"> |
+| **Bureau**<br>A bold agency site: mega type, typographic case covers, an acid accent.<br><sub>Pages: Home · Work · Contact · Also in: Portfolio</sub> | <img src="builder_hub/www/builder_assets/bureau/bureau_home/preview.webp" width="360"> |
+| **Candor**<br>A statement-first advisory site: one color, giant serif, a fee table, no photos.<br><sub>Pages: Home · Work · Start</sub> | <img src="builder_hub/www/builder_assets/candor/candor_home/preview.webp" width="360"> |
+| **Recipe**<br>An agency as recipe cards: ruled index cards, chef's notes, a tear-off coupon.<br><sub>Pages: Home · Menu · Kitchen</sub> | <img src="builder_hub/www/builder_assets/recipe/recipe_home/preview.webp" width="360"> |
+| **Fetch**<br>A playful one-product site: rounded color blocks, big dog photos, forever guarantee.<br><sub>Pages: Home · Collar · Help</sub> | <img src="builder_hub/www/builder_assets/fetch/fetch_home/preview.webp" width="360"> |
+| **Stock**<br>A catalogue in the frappe-ui style: sidebar shell, Espresso grays, grayscale photos, a playground product page and a list-view price list.<br><sub>Pages: Catalogue · Product · Price list</sub> | <img src="builder_hub/www/builder_assets/stock/stock_home/preview.webp" width="360"> |
 
-**Pages:** Landing · About · Contact
+### Portfolio
 
----
+| Template | Preview |
+|---|---|
+| **Mono**<br>A dark, bold type portfolio for studios and freelancers.<br><sub>Pages: Home · Project · About · Contact</sub> | <img src="builder_hub/www/builder_assets/mono/mono_home/preview.webp" width="360"> |
+| **Verso**<br>An ultra minimal personal site with a fixed sidebar.<br><sub>Pages: Home · Work · Writing · About</sub> | <img src="builder_hub/www/builder_assets/verso/verso_home/preview.webp" width="360"> |
+| **Husk**<br>A warm, centered single column personal site.<br><sub>Pages: Home · Work · About</sub> | <img src="builder_hub/www/builder_assets/husk/husk_home/preview.webp" width="360"> |
+| **Ridge**<br>A dark photography portfolio built as a gapless photo mosaic wall.<br><sub>Pages: Home · Series · Info</sub> | <img src="builder_hub/www/builder_assets/ridge/ridge_home/preview.webp" width="360"> |
+| **Canvas**<br>A designer portfolio presented as a live design file, comments left in.<br><sub>Pages: Home · Work · About</sub> | <img src="builder_hub/www/builder_assets/canvas/canvas_home/preview.webp" width="360"> |
+| **Vitae**<br>A consultant's CV presented as a crisp paper sheet on a desk.<br><sub>Pages: Home · Engagements · Contact</sub> | <img src="builder_hub/www/builder_assets/vitae/vitae_home/preview.webp" width="360"> |
+| **Reel**<br>A filmmaker portfolio of letterboxed stills with timecode captions.<br><sub>Pages: Films · Film · About</sub> | <img src="builder_hub/www/builder_assets/reel/reel_films/preview.webp" width="360"> |
+| **Margin**<br>A writer's site with a reading column and numbered margin notes.<br><sub>Pages: Home · Essays · About · Also in: Editorial</sub> | <img src="builder_hub/www/builder_assets/margin/margin_home/preview.webp" width="360"> |
+| **Plinth**<br>A minimal architect portfolio: a type-only index with hover thumbnails.<br><sub>Pages: Home · Project · Profile</sub> | <img src="builder_hub/www/builder_assets/plinth/plinth_home/preview.webp" width="360"> |
+| **Scrap**<br>A cut-and-paste zine portfolio: torn panels, tape, xerox photos, marker notes.<br><sub>Pages: Home · Werk · About</sub> | <img src="builder_hub/www/builder_assets/scrap/scrap_home/preview.webp" width="360"> |
+| **Affiche**<br>A Swiss poster portfolio: every section is a full-screen typographic poster.<br><sub>Pages: Home · Arbeit · Kontakt · Also in: Marketing</sub> | <img src="builder_hub/www/builder_assets/affiche/affiche_home/preview.webp" width="360"> |
+| **Annum**<br>A one-project-a-year portfolio: full-bleed hero, photo timeline, honest ledger.<br><sub>Pages: Home · Ledger · About</sub> | <img src="builder_hub/www/builder_assets/annum/annum_home/preview.webp" width="360"> |
 
-### Relay
+### Editorial
 
-A crisp SaaS starter — feature grids, plan cards, and FAQs.
+| Template | Preview |
+|---|---|
+| **Quill**<br>A clean editorial template for blogs and publications.<br><sub>Pages: Home · Article · About</sub> | <img src="builder_hub/www/builder_assets/quill/quill_home/preview.webp" width="360"> |
+| **Field**<br>A newspaper style travel journal with a three column front page.<br><sub>Pages: Issues · Story · About</sub> | <img src="builder_hub/www/builder_assets/field/field_issues/preview.webp" width="360"> |
 
-![Relay — Landing](builder_hub/www/builder_assets/relay/relay_landing/preview.webp)
+### Local business
 
-**Pages:** Landing · Pricing · About · Contact
+| Template | Preview |
+|---|---|
+| **Lull**<br>A soft wellness studio with an arch photo hero and a weekly schedule.<br><sub>Pages: Home · Classes · Visit</sub> | <img src="builder_hub/www/builder_assets/lull/lull_home/preview.webp" width="360"> |
+| **Nook**<br>A photo first boutique stay with full screen room chapters.<br><sub>Pages: Home · Rooms · Visit</sub> | <img src="builder_hub/www/builder_assets/nook/nook_home/preview.webp" width="360"> |
+| **Keys**<br>A property agency in an app shell, with listings as rows.<br><sub>Pages: Listings · Property · Viewings</sub> | <img src="builder_hub/www/builder_assets/keys/keys_listings/preview.webp" width="360"> |
+| **Stock**<br>A catalogue in the frappe-ui style: sidebar shell, Espresso grays, grayscale photos, a playground product page and a list-view price list.<br><sub>Pages: Catalogue · Product · Price list</sub> | <img src="builder_hub/www/builder_assets/stock/stock_home/preview.webp" width="360"> |
 
----
+### Fashion
 
-### Atelier
-
-A bold studio site for agencies and freelancers — oversized type, a geometric inline-SVG
-hero, a services index, a selected-work grid, and a built-in contact form.
-
-![Atelier — Home](builder_hub/www/builder_assets/atelier/atelier_home/preview.webp)
-
-**Pages:** Home · Work · Contact
-
----
-
-### Mono
-
-A dark, bold-type portfolio for studios and freelancers.
-
-![Mono — Home](builder_hub/www/builder_assets/mono/mono_home/preview.webp)
-
-**Pages:** Home · Project (case study) · About · Contact
-
----
-
-### Verso
-
-An ultra-minimal personal site — a fixed left sidebar, typographic lists instead of cards,
-and a near-monochrome palette.
-
-![Verso — Home](builder_hub/www/builder_assets/verso/verso_home/preview.webp)
-
-**Pages:** Home · Work · Writing · About
-
----
-
-### Husk
-
-An ultra-minimal, warm-toned personal site — a centered single column with a slim nav.
-
-![Husk — Home](builder_hub/www/builder_assets/husk/husk_home/preview.webp)
-
-**Pages:** Home · Work · About
-
----
-
-### Quill
-
-A clean editorial template for blogs and publications — a featured story, a typographic
-article index, and a full reading layout with pull-quotes and an author note.
-
-![Quill — Home](builder_hub/www/builder_assets/quill/quill_home/preview.webp)
-
-**Pages:** Home · Article · About
-
----
-
-### Commit
-
-A vivid conference starter — animated hero with a live countdown, speaker grid, two-day
-schedule, and ticket tiers. Ships with scroll-reveal and marquee client scripts.
-
-![Commit — Home](builder_hub/www/builder_assets/commit/commit_home/preview.webp)
-
-**Pages:** Home · Speakers · Schedule · Tickets
+| Template | Preview |
+|---|---|
+| **Hem**<br>A minimal atelier site framed by a hairline border, with numbered services.<br><sub>Pages: Home · Services · Studio · Also in: Local business</sub> | <img src="builder_hub/www/builder_assets/hem/hem_home/preview.webp" width="360"> |
+| **Silk**<br>A dark evening-wear house with mirrored splits and a champagne hairline.<br><sub>Pages: Home · Collection · House · Appointments</sub> | <img src="builder_hub/www/builder_assets/silk/silk_home/preview.webp" width="360"> |
+| **Tulle**<br>A blush bridal boutique with layered tissue panels and script accents.<br><sub>Pages: Home · Dresses · Visit · Also in: Local business</sub> | <img src="builder_hub/www/builder_assets/tulle/tulle_home/preview.webp" width="360"> |
+| **Denim**<br>A loud streetwear drop site with thick borders, tickers and price stickers.<br><sub>Pages: Home · Drops · Story · Stockists · Also in: Marketing</sub> | <img src="builder_hub/www/builder_assets/denim/denim_home/preview.webp" width="360"> |
+| **Pleat**<br>An editorial lookbook shot as magazine spreads with folio bars.<br><sub>Pages: Home · Looks · Studio · Also in: Editorial</sub> | <img src="builder_hub/www/builder_assets/pleat/pleat_home/preview.webp" width="360"> |
 
 ## How it works
 
-- **`builder_hub.api.get_catalog()`** (guest) — returns the template groups + their pages
-  with absolute preview and `live_url`s, for any builder site's template picker.
-- **`builder_hub.api.get_template_bundle(page)`** (guest) — returns one template page plus
+- **`builder_hub.api.get_catalog()`** (guest) - returns the template groups (with their
+  categories) + their pages with absolute preview and `live_url`s, for any builder site's
+  template picker.
+- **`builder_hub.api.get_template_bundle(page)`** (guest) - returns one template page plus
   its shared components, variables, client scripts and fonts as import-ready dicts.
 - A builder site points at the hub via `template_hub_url` in its site config (or
   `common_site_config.json` bench-wide), fetches the catalog, and materializes a page from
-  the bundle on demand. The "Preview" action opens the hub's published page in a new tab.
+  the bundle on demand. The "Preview" action embeds the hub's published page inline in the
+  picker, with desktop, tablet, and mobile widths.
 
 Template content lives in this app; the import/export machinery lives in `builder`
-(`builder.template_sync`), which this app reuses — `builder_hub` depends on `builder`.
+(`builder.template_sync`), which this app reuses - `builder_hub` depends on `builder`.
 
 ## Installation
 

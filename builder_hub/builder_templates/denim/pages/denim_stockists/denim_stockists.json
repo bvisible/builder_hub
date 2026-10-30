@@ -1,0 +1,1374 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--e03c37ec-e8ac-40ff-8942-b911c32cfe82, #F5F4EF)",
+    "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Space Grotesk",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "a40a1917d7",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "305aa217a0",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "e490eebdb3",
+       "blockName": "Nav Cells",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "e9a255c1d2",
+         "blockName": "Brand Cell",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "denim_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "1fc6412f7f",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "b8eb09a608",
+         "blockName": "Nav · Drops",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "denim_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "d8334bdad5",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "85ef6c31f2",
+         "blockName": "Nav · Story",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "denim_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "f22e9deb4e",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "26567045f7",
+         "blockName": "Nav · Stockists",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "denim_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "7aed76e3af",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "5ca725a497",
+         "blockName": "Toggle Cell",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "1a36b41f8e",
+           "blockName": "Theme Toggle",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "7b9c86c3bc",
+             "blockName": "Theme · ti-sun",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "denim_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "aae2fe1e5b",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "dc4bbd4f34",
+             "blockName": "Theme · ti-moon",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "denim_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "6c5242730a",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "denim_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "742b55c642",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "denim_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "234f18c233",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "denim_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "dd775dc5d6",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "denim_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "backgroundColor": "var(--2a6d90fe-8aae-4098-8524-943ef9203134, #DCE4F7)",
+      "borderBottomColor": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+      "borderBottomStyle": "solid",
+      "borderBottomWidth": "2px",
+      "display": "flex",
+      "flexDirection": "row",
+      "overflow": "hidden",
+      "padding": "10px 0",
+      "width": "100%"
+     },
+     "blockId": "3238a272ba",
+     "blockName": "Ticker",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "width": "fit-content"
+       },
+       "blockId": "6f4ef10e27",
+       "blockName": "Ticker Track",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+          "fontFamily": "Space Grotesk",
+          "fontSize": "13px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.08em",
+          "lineHeight": "1.6",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "whiteSpace": "nowrap",
+          "width": "fit-content"
+         },
+         "blockId": "96c1fc1723",
+         "blockName": "Ticker Text",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "DROP 04 LIVE NOW ★ FREE SHIPPING OVER $80 ★ RESTOCKS FRIDAY ★ DROP 04 LIVE NOW ★ FREE SHIPPING OVER $80 ★ RESTOCKS FRIDAY ★ DROP 04 LIVE NOW ★ FREE SHIPPING OVER $80 ★ RESTOCKS FRIDAY ★ DROP 04 LIVE NOW ★ FREE SHIPPING OVER $80 ★ RESTOCKS FRIDAY ★ DROP 04 LIVE NOW ★ FREE SHIPPING OVER $80 ★ RESTOCKS FRIDAY ★ DROP 04 LIVE NOW ★ FREE SHIPPING OVER $80 ★ RESTOCKS FRIDAY ★ DROP 04 LIVE NOW ★ FREE SHIPPING OVER $80 ★ RESTOCKS FRIDAY ★ DROP 04 LIVE NOW ★ FREE SHIPPING OVER $80 ★ RESTOCKS FRIDAY ★",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [
+        "dn-ticker-track"
+       ],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "14px",
+      "maxWidth": "1240px",
+      "padding": "64px 40px 40px",
+      "width": "100%"
+     },
+     "blockId": "bc6e3a5de6",
+     "blockName": "Section · Stockists Header",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+        "fontFamily": "Archivo Black",
+        "fontSize": "84px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "0.95",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "a63857d473",
+       "blockName": "Stockists Heading",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Stockists",
+       "mobileStyles": {
+        "fontSize": "44px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--71bfb5da-cdcb-4e5f-8b22-39787fc3c3c2, #6B7398)",
+        "fontFamily": "Space Grotesk",
+        "fontSize": "12px",
+        "fontWeight": "700",
+        "height": "fit-content",
+        "letterSpacing": "0.1em",
+        "lineHeight": "1.4",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "4c389e8e0d",
+       "blockName": "Stockists Sub",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Twelve doors worldwide, counted on two hands and a foot",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "36px 16px 24px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1240px",
+      "padding": "0 40px 56px",
+      "width": "100%"
+     },
+     "blockId": "1139d585c2",
+     "blockName": "Section · Cities",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "borderLeftColor": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+        "borderLeftStyle": "solid",
+        "borderLeftWidth": "2px",
+        "borderRightColor": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+        "borderRightStyle": "solid",
+        "borderRightWidth": "2px",
+        "borderTopColor": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+        "borderTopStyle": "solid",
+        "borderTopWidth": "2px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "83c8a5a05e",
+       "blockName": "Stockist Rows",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "backgroundColor": "var(--e03c37ec-e8ac-40ff-8942-b911c32cfe82, #F5F4EF)",
+          "borderBottomColor": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+          "borderBottomStyle": "solid",
+          "borderBottomWidth": "2px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "22px 24px",
+          "width": "100%"
+         },
+         "blockId": "824c2f3ee9",
+         "blockName": "Stockist · Tokyo",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "flexShrink": 0,
+            "fontFamily": "Archivo Black",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "0.95",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "220px"
+           },
+           "blockId": "b30c9b2f83",
+           "blockName": "City · Tokyo",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Tokyo",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Space Grotesk",
+            "fontSize": "15px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "51a2c23062",
+           "blockName": "Standards & Practices",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Standards & Practices",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--71bfb5da-cdcb-4e5f-8b22-39787fc3c3c2, #6B7398)",
+            "flexShrink": 1,
+            "fontFamily": "Space Grotesk",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textAlign": "right",
+            "width": "fit-content"
+           },
+           "blockId": "9a4da5b844",
+           "blockName": "2-14-6 Jinnan, Shibuya",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "2-14-6 Jinnan, Shibuya",
+           "mobileStyles": {
+            "textAlign": "left"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "4px",
+          "padding": "16px 16px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "backgroundColor": "var(--2a6d90fe-8aae-4098-8524-943ef9203134, #DCE4F7)",
+          "borderBottomColor": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+          "borderBottomStyle": "solid",
+          "borderBottomWidth": "2px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "22px 24px",
+          "width": "100%"
+         },
+         "blockId": "7339d5a03c",
+         "blockName": "Stockist · Berlin",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "flexShrink": 0,
+            "fontFamily": "Archivo Black",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "0.95",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "220px"
+           },
+           "blockId": "f6fd4a315c",
+           "blockName": "City · Berlin",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Berlin",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Space Grotesk",
+            "fontSize": "15px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "d0c9461e59",
+           "blockName": "Voo Store",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Voo Store",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--71bfb5da-cdcb-4e5f-8b22-39787fc3c3c2, #6B7398)",
+            "flexShrink": 1,
+            "fontFamily": "Space Grotesk",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textAlign": "right",
+            "width": "fit-content"
+           },
+           "blockId": "877366d829",
+           "blockName": "Oranienstraße 24, Kreuzb",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Oranienstraße 24, Kreuzberg",
+           "mobileStyles": {
+            "textAlign": "left"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "4px",
+          "padding": "16px 16px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "backgroundColor": "var(--e03c37ec-e8ac-40ff-8942-b911c32cfe82, #F5F4EF)",
+          "borderBottomColor": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+          "borderBottomStyle": "solid",
+          "borderBottomWidth": "2px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "22px 24px",
+          "width": "100%"
+         },
+         "blockId": "406f42a3f7",
+         "blockName": "Stockist · London",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "flexShrink": 0,
+            "fontFamily": "Archivo Black",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "0.95",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "220px"
+           },
+           "blockId": "c6a8ad0391",
+           "blockName": "City · London",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "London",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Space Grotesk",
+            "fontSize": "15px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "5551030a87",
+           "blockName": "Couverture & The Garbsto",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Couverture & The Garbstore",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--71bfb5da-cdcb-4e5f-8b22-39787fc3c3c2, #6B7398)",
+            "flexShrink": 1,
+            "fontFamily": "Space Grotesk",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textAlign": "right",
+            "width": "fit-content"
+           },
+           "blockId": "dd65fd0d0e",
+           "blockName": "188 Kensington Park Rd",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "188 Kensington Park Rd",
+           "mobileStyles": {
+            "textAlign": "left"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "4px",
+          "padding": "16px 16px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "backgroundColor": "var(--2a6d90fe-8aae-4098-8524-943ef9203134, #DCE4F7)",
+          "borderBottomColor": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+          "borderBottomStyle": "solid",
+          "borderBottomWidth": "2px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "22px 24px",
+          "width": "100%"
+         },
+         "blockId": "e433eb5d19",
+         "blockName": "Stockist · Seoul",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "flexShrink": 0,
+            "fontFamily": "Archivo Black",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "0.95",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "220px"
+           },
+           "blockId": "a92c3fb3b8",
+           "blockName": "City · Seoul",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Seoul",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Space Grotesk",
+            "fontSize": "15px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "97cdad682a",
+           "blockName": "Worksout",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Worksout",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--71bfb5da-cdcb-4e5f-8b22-39787fc3c3c2, #6B7398)",
+            "flexShrink": 1,
+            "fontFamily": "Space Grotesk",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textAlign": "right",
+            "width": "fit-content"
+           },
+           "blockId": "6a7daf0f29",
+           "blockName": "32 Apgujeong-ro 12-gil",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "32 Apgujeong-ro 12-gil",
+           "mobileStyles": {
+            "textAlign": "left"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "4px",
+          "padding": "16px 16px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "backgroundColor": "var(--e03c37ec-e8ac-40ff-8942-b911c32cfe82, #F5F4EF)",
+          "borderBottomColor": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+          "borderBottomStyle": "solid",
+          "borderBottomWidth": "2px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "22px 24px",
+          "width": "100%"
+         },
+         "blockId": "dc65a3749b",
+         "blockName": "Stockist · NYC",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "flexShrink": 0,
+            "fontFamily": "Archivo Black",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "0.95",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "220px"
+           },
+           "blockId": "5fbbb21d58",
+           "blockName": "City · NYC",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "NYC",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Space Grotesk",
+            "fontSize": "15px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "4496e34e14",
+           "blockName": "Front General Store",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Front General Store",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--71bfb5da-cdcb-4e5f-8b22-39787fc3c3c2, #6B7398)",
+            "flexShrink": 1,
+            "fontFamily": "Space Grotesk",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textAlign": "right",
+            "width": "fit-content"
+           },
+           "blockId": "8c3580a655",
+           "blockName": "143 Front St, Dumbo",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "143 Front St, Dumbo",
+           "mobileStyles": {
+            "textAlign": "left"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "4px",
+          "padding": "16px 16px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "backgroundColor": "var(--2a6d90fe-8aae-4098-8524-943ef9203134, #DCE4F7)",
+          "borderBottomColor": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+          "borderBottomStyle": "solid",
+          "borderBottomWidth": "2px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "22px 24px",
+          "width": "100%"
+         },
+         "blockId": "bfc3d3fc85",
+         "blockName": "Stockist · Melbourne",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "flexShrink": 0,
+            "fontFamily": "Archivo Black",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "0.95",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "220px"
+           },
+           "blockId": "0547fd7b03",
+           "blockName": "City · Melbourne",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Melbourne",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Space Grotesk",
+            "fontSize": "15px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "5ad062c75d",
+           "blockName": "Up There",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Up There",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--71bfb5da-cdcb-4e5f-8b22-39787fc3c3c2, #6B7398)",
+            "flexShrink": 1,
+            "fontFamily": "Space Grotesk",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textAlign": "right",
+            "width": "fit-content"
+           },
+           "blockId": "eb1b848a32",
+           "blockName": "15 McKillop St",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "15 McKillop St",
+           "mobileStyles": {
+            "textAlign": "left"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "4px",
+          "padding": "16px 16px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 16px 36px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1240px",
+      "padding": "0 40px 80px",
+      "width": "100%"
+     },
+     "blockId": "c6a11f0db9",
+     "blockName": "Section · Wholesale",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--6e4dffaa-7bb5-44c2-8eec-f788d14d6a7e, #3552C8)",
+        "borderColor": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+        "borderStyle": "solid",
+        "borderWidth": "2px",
+        "display": "flex",
+        "flexDirection": "column",
+        "position": "relative",
+        "width": "100%"
+       },
+       "blockId": "ab6810f2f8",
+       "blockName": "Wholesale Box",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "gap": "18px",
+          "padding": "52px 48px",
+          "width": "100%"
+         },
+         "blockId": "e41f2434d0",
+         "blockName": "Wholesale Inner",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--e03c37ec-e8ac-40ff-8942-b911c32cfe82, #F5F4EF)",
+            "fontFamily": "Archivo Black",
+            "fontSize": "44px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "0.95",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "ee987bc830",
+           "blockName": "Wholesale Heading",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Want the rack?",
+           "mobileStyles": {
+            "fontSize": "30px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--e03c37ec-e8ac-40ff-8942-b911c32cfe82, #F5F4EF)",
+            "fontFamily": "Space Grotesk",
+            "fontSize": "15px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "maxWidth": "520px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "c3a5433c4e",
+           "blockName": "We take on two new stock",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "We take on two new stockists per drop. Tell us about your shop, your city, and the loudest thing on your shelves.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "mailto:sales@denimsupply.co"
+           },
+           "baseStyles": {
+            "backgroundColor": "var(--e03c37ec-e8ac-40ff-8942-b911c32cfe82, #F5F4EF)",
+            "borderColor": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "borderStyle": "solid",
+            "borderWidth": "2px",
+            "color": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+            "fontFamily": "Space Grotesk",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.1em",
+            "marginTop": "8px",
+            "minWidth": "10px",
+            "padding": "14px 22px",
+            "textDecoration": "none",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "1ef3368319",
+           "blockName": "Wholesale CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "SALES@DENIMSUPPLY.CO →",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:background-color": "var(--d4887652-2631-463b-8fb9-b8b33af8a16b, #FF6A2B)",
+            "hover:color": "var(--e03c37ec-e8ac-40ff-8942-b911c32cfe82, #F5F4EF)",
+            "transition": "background-color 0.1s ease-out, color 0.1s ease-out"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "gap": "14px",
+          "padding": "30px 18px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "backgroundColor": "var(--d4887652-2631-463b-8fb9-b8b33af8a16b, #FF6A2B)",
+          "borderColor": "var(--9bf835c0-266d-43e9-86b8-db517e3ce763, #1B2A6B)",
+          "borderStyle": "solid",
+          "borderWidth": "2px",
+          "color": "var(--e03c37ec-e8ac-40ff-8942-b911c32cfe82, #F5F4EF)",
+          "fontFamily": "Archivo Black",
+          "fontSize": "16px",
+          "height": "fit-content",
+          "lineHeight": "1.1",
+          "padding": "10px 14px",
+          "position": "absolute",
+          "right": "40px",
+          "textAlign": "center",
+          "textTransform": "uppercase",
+          "top": "-16px",
+          "transform": "rotate(6deg)",
+          "width": "fit-content",
+          "zIndex": "3"
+         },
+         "blockId": "337744f60d",
+         "blockName": "Wholesale Sticker",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "innerHTML": "2 slots<br>per drop",
+         "mobileStyles": {
+          "right": "12px",
+          "top": "-12px"
+         },
+         "rawStyles": {
+          "box-shadow": "4px 4px 0 #1B2A6B"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 16px 48px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "10d379b6c4",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "75c5909716",
+       "blockName": "Footer · Drops",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "denim_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "da5abfa087",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "a17ac3b42f",
+       "blockName": "Footer · Story",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "denim_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "98cba32c18",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "3f9d4b0e94",
+       "blockName": "Footer · Stockists",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "denim_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "1582bf6f21",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "c185864dc3",
+       "blockName": "Footer · Wholesale",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "denim_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "b616769d1b",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "851cd9fdb4",
+       "blockName": "Footer Bottom Bar",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "db0b36628c",
+         "blockName": "Footer Copyright",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "denim_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "6ad7fc6244",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "35dd6725aa",
+         "blockName": "Footer Motto",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "denim_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "4836b96677",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "denim_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "6a493f3ff6",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "denim_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "denim_styles"
+  }
+ ],
+ "creation": "2026-07-15 16:25:26.840436",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Where to find Denim Supply Co worldwide, plus wholesale for loud shops.",
+ "modified": "2026-07-15 16:33:25.504997",
+ "modified_by": "Administrator",
+ "name": "denim_stockists",
+ "owner": "Administrator",
+ "page_name": "denim_stockists",
+ "page_title": "Stockists · DENIM®",
+ "preview": "/builder_assets/denim/denim_stockists/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/denim/stockists",
+ "template_group": "denim"
+}

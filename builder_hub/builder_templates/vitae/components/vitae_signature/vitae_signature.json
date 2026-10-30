@@ -1,0 +1,14 @@
+{
+ "block": "{\"attributes\": {}, \"baseStyles\": {\"display\": \"flex\", \"flexDirection\": \"column\", \"flexShrink\": 0, \"width\": \"100%\"}, \"blockId\": \"e060ba21db\", \"blockName\": \"Vitae Signature\", \"children\": [{\"attributes\": {}, \"baseStyles\": {\"backgroundColor\": \"var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)\", \"height\": \"1px\", \"marginTop\": \"40px\", \"width\": \"100%\"}, \"blockId\": \"7ae36c044d\", \"blockName\": \"Signature Rule\", \"children\": [], \"classes\": [], \"customAttributes\": {}, \"element\": \"div\", \"mobileStyles\": {}, \"rawStyles\": {}, \"tabletStyles\": {}}, {\"attributes\": {}, \"baseStyles\": {\"alignItems\": \"flex-end\", \"display\": \"flex\", \"flexDirection\": \"row\", \"flexShrink\": 0, \"width\": \"100%\", \"gap\": \"20px\", \"justifyContent\": \"space-between\", \"paddingTop\": \"22px\"}, \"blockId\": \"ee0af5e613\", \"blockName\": \"Signature Row\", \"children\": [{\"attributes\": {}, \"baseStyles\": {\"height\": \"fit-content\", \"width\": \"fit-content\", \"minWidth\": \"10px\", \"color\": \"var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)\", \"fontFamily\": \"EB Garamond\", \"fontSize\": \"24px\", \"fontWeight\": \"500\", \"lineHeight\": \"1.2\", \"fontStyle\": \"italic\"}, \"blockId\": \"c89128e82f\", \"blockName\": \"Signature Name\", \"children\": [], \"classes\": [], \"customAttributes\": {}, \"element\": \"p\", \"mobileStyles\": {}, \"rawStyles\": {}, \"tabletStyles\": {}, \"innerHTML\": \"Adrien Vale\"}, {\"attributes\": {}, \"baseStyles\": {\"height\": \"fit-content\", \"width\": \"fit-content\", \"minWidth\": \"10px\", \"color\": \"var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)\", \"fontFamily\": \"IBM Plex Sans\", \"fontSize\": \"9px\", \"fontWeight\": \"600\", \"letterSpacing\": \"0.14em\", \"lineHeight\": \"1.6\", \"textTransform\": \"uppercase\", \"textAlign\": \"right\"}, \"blockId\": \"c3eaddbdf5\", \"blockName\": \"Signature Note\", \"children\": [], \"classes\": [], \"customAttributes\": {}, \"element\": \"p\", \"mobileStyles\": {\"textAlign\": \"left\"}, \"rawStyles\": {}, \"tabletStyles\": {}, \"innerHTML\": \"Set like a document, because I read hundreds of them\"}], \"classes\": [], \"customAttributes\": {}, \"element\": \"div\", \"mobileStyles\": {\"alignItems\": \"flex-start\", \"flexDirection\": \"column\", \"gap\": \"8px\"}, \"rawStyles\": {}, \"tabletStyles\": {}}], \"classes\": [], \"customAttributes\": {}, \"element\": \"div\", \"mobileStyles\": {}, \"rawStyles\": {}, \"tabletStyles\": {}}",
+ "component_id": "vitae_signature",
+ "component_name": "Vitae Signature",
+ "creation": "2026-07-15 16:59:32.872557",
+ "docstatus": 0,
+ "doctype": "Builder Component",
+ "for_web_page": null,
+ "idx": 0,
+ "modified": "2026-07-15 16:59:32.872557",
+ "modified_by": "Administrator",
+ "name": "vitae_signature",
+ "owner": "Administrator"
+}

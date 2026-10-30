@@ -1,0 +1,842 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--321b4090-475f-4e8b-8235-fed87963f730, #101012)",
+    "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Inter",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "57ad8af6b7",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "09dcbdf77b",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "e851a7cb52",
+       "blockName": "Brand",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "ridge_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "af6f919aa3",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "10dbb1b6ec",
+       "blockName": "Nav Links",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "1d9dcf1aff",
+         "blockName": "Series",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "ridge_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "7b2a251dc1",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "57364a8d45",
+         "blockName": "Info",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "ridge_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "371574fc1e",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "2b2839061e",
+         "blockName": "Nav Enquire",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "ridge_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "8c67455ccc",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "ridge_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "2501f029ad",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "ridge_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "stretch",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexShrink": 0,
+      "maxWidth": "1400px",
+      "padding": "56px 28px 40px",
+      "width": "100%"
+     },
+     "blockId": "bb09813653",
+     "blockName": "Section · Info",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "flexShrink": 0,
+        "height": "500px",
+        "overflow": "hidden",
+        "width": "42%"
+       },
+       "blockId": "025733e7b7",
+       "blockName": "Portrait Tile",
+       "children": [
+        {
+         "attributes": {
+          "alt": "Ridge Kalstad on location",
+          "src": "https://images.unsplash.com/photo-1493804714600-6edb1cd93080?auto=format&fit=crop&q=80&w=1000"
+         },
+         "baseStyles": {
+          "display": "block",
+          "flexShrink": 0,
+          "height": "100%",
+          "objectFit": "cover",
+          "width": "100%"
+         },
+         "blockId": "ef08169204",
+         "blockName": "Info Portrait",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [
+        "rg-tile"
+       ],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "height": "300px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexBasis": "0px",
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "gap": "16px",
+        "justifyContent": "center",
+        "padding": "0 0 0 48px",
+        "width": "100%"
+       },
+       "blockId": "f17876938e",
+       "blockName": "Info Copy",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+          "fontFamily": "Inter",
+          "fontSize": "10px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.2em",
+          "lineHeight": "1.6",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "543c3a1a21",
+         "blockName": "Info Kicker",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Info",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+          "fontFamily": "Syne",
+          "fontSize": "40px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "lineHeight": "1.05",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "14ff40ac04",
+         "blockName": "Info Headline",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Shot on film,<br>edited on foot.",
+         "mobileStyles": {
+          "fontSize": "28px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+          "fontFamily": "Inter",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.8",
+          "maxWidth": "520px",
+          "minWidth": "10px",
+          "width": "100%"
+         },
+         "blockId": "aca602a9c9",
+         "blockName": "Info Para 1",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Ridge Kalstad is a Norwegian photographer working across the north Atlantic. The work is slow: one camera, two lenses, and however long the weather takes.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+          "fontFamily": "Inter",
+          "fontSize": "15px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.8",
+          "maxWidth": "520px",
+          "minWidth": "10px",
+          "width": "100%"
+         },
+         "blockId": "065722f9e1",
+         "blockName": "Info Para 2",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Clients and features: Fjällräven, Norrøna, Monocle, the NYT travel desk. Prints hang in three national park visitor centres, which is the résumé line that matters.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexBasis": "auto",
+        "padding": "22px 0 0",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "flexDirection": "column",
+      "padding": "36px 16px 24px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1400px",
+      "padding": "24px 28px 56px",
+      "width": "100%"
+     },
+     "blockId": "a7a296831f",
+     "blockName": "Section · Press",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+        "fontFamily": "Inter",
+        "fontSize": "10px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "0.2em",
+        "lineHeight": "1.6",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "5e8822a8e5",
+       "blockName": "Press Kicker",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Selected press",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "marginTop": "20px",
+        "width": "100%"
+       },
+       "blockId": "31c46072ab",
+       "blockName": "Press Rows",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTopColor": "var(--70560de2-9156-4010-84b6-4016164ef922, #2A2A2F)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "0px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "18px 0",
+          "width": "100%"
+         },
+         "blockId": "412351d4d6",
+         "blockName": "Press · Monocle",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+            "flexShrink": 0,
+            "fontFamily": "Syne",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "220px"
+           },
+           "blockId": "12a232f043",
+           "blockName": "Press Pub · Monocle",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Monocle",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Inter",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "b37a5e02a4",
+           "blockName": "The quiet north, portfol",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The quiet north, portfolio feature",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+            "fontFamily": "Inter",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "de55eee005",
+           "blockName": "Press Year · Monocle",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "2025",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "4px",
+          "padding": "14px 0"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTopColor": "var(--70560de2-9156-4010-84b6-4016164ef922, #2A2A2F)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "18px 0",
+          "width": "100%"
+         },
+         "blockId": "dd73b96c7a",
+         "blockName": "Press · NYT Travel",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+            "flexShrink": 0,
+            "fontFamily": "Syne",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "220px"
+           },
+           "blockId": "c0759c37a7",
+           "blockName": "Press Pub · NYT Travel",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "NYT Travel",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Inter",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "9fe23489ae",
+           "blockName": "36 hours in the Faroes, ",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "36 hours in the Faroes, all images",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+            "fontFamily": "Inter",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "020f7e1785",
+           "blockName": "Press Year · NYT Travel",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "2024",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "4px",
+          "padding": "14px 0"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTopColor": "var(--70560de2-9156-4010-84b6-4016164ef922, #2A2A2F)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "24px",
+          "padding": "18px 0",
+          "width": "100%"
+         },
+         "blockId": "68536aa652",
+         "blockName": "Press · Aperture",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+            "flexShrink": 0,
+            "fontFamily": "Syne",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "220px"
+           },
+           "blockId": "5a171a111c",
+           "blockName": "Press Pub · Aperture",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Aperture",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Inter",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "00fbee4a09",
+           "blockName": "New landscape annual, th",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "New landscape annual, three plates",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+            "fontFamily": "Inter",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "78169a67af",
+           "blockName": "Press Year · Aperture",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "2023",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "4px",
+          "padding": "14px 0"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "16px 16px 36px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "256f0da925",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "1cef0642ad",
+       "blockName": "Enquire Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "a5a33d0bf5",
+         "blockName": "Enquire Left",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "b68e9552d5",
+           "blockName": "Enquire Heading",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "ridge_enquire",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "f06c1a6868",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "28418ad96a",
+           "blockName": "Enquire Copy",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "ridge_enquire",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "7f19a0713a",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "ridge_enquire",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "91518350c4",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "d456383d43",
+         "blockName": "Enquire Right",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "bc67fcc500",
+           "blockName": "Enquire Mail",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "ridge_enquire",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "5492cbfa22",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "eda8662d16",
+           "blockName": "Enquire Copyright",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "ridge_enquire",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "cbb8d2b97d",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "ridge_enquire",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "f336859da8",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "ridge_enquire",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "5dbf051426",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "ridge_enquire",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "ridge_styles"
+  }
+ ],
+ "creation": "2026-07-15 16:59:32.563665",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "About Ridge Kalstad: clients, press, prints and commissions.",
+ "modified": "2026-07-15 17:05:53.143173",
+ "modified_by": "Administrator",
+ "name": "ridge_info",
+ "owner": "Administrator",
+ "page_name": "ridge_info",
+ "page_title": "Info · RIDGE",
+ "preview": "/builder_assets/ridge/ridge_info/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/ridge/info",
+ "template_group": "ridge"
+}

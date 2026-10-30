@@ -1,0 +1,1299 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--88bb99cc-0001-4b11-8b11-bbcc1101aa11, #0C0C0C)",
+    "color": "var(--88bb99cc-0002-4b12-8b12-bbcc1102aa12, #F2F2F2)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Inter",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "e76a8d901d",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "675be9c8f4",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "e3a549f974",
+       "blockName": "Nav Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "a9a07a490f",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verge_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "b97d5ea6aa",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "f854400247",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "93bcfaab20",
+           "blockName": "Nav · Home",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verge_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "9e05cd1043",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "88ee35b688",
+           "blockName": "Nav · Shows",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verge_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "e0cd299501",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "df5b3f44c6",
+           "blockName": "Nav · About",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verge_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "2b0c6b9ee4",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "c258cca4e0",
+           "blockName": "Nav CTA",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "verge_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "f028c8861f",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verge_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "819721b3c2",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "verge_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "9344335570",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "verge_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "height": "92vh",
+      "overflow": "hidden",
+      "position": "relative",
+      "width": "100%"
+     },
+     "blockId": "cc1ab36d59",
+     "blockName": "Section · Hero",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--88bb99cc-0006-4b16-8b16-bbcc1106aa16, #161616)",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "height": "100%",
+        "left": "0px",
+        "overflow": "hidden",
+        "position": "absolute",
+        "top": "0px",
+        "width": "100%"
+       },
+       "blockId": "7ee98a4e60",
+       "blockName": "Hero Photo",
+       "children": [
+        {
+         "attributes": {
+          "alt": "Verge live, lights out",
+          "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&q=80&w=2400"
+         },
+         "baseStyles": {
+          "display": "block",
+          "flexShrink": 0,
+          "height": "100%",
+          "objectFit": "cover",
+          "width": "100%"
+         },
+         "blockId": "ac6a8aceb5",
+         "blockName": "Hero Photo · Image",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {},
+         "rawStyles": {
+          "filter": "grayscale(0.25) contrast(1.05)",
+          "transition": "transform 0.9s cubic-bezier(0.22, 1, 0.36, 1), filter 0.5s ease"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [
+        "verge-photo"
+       ],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "height": "100%",
+        "left": "0px",
+        "position": "absolute",
+        "top": "0px",
+        "width": "100%",
+        "zIndex": "1"
+       },
+       "blockId": "6d23147a88",
+       "blockName": "Hero Shade",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {
+        "background": "linear-gradient(180deg, rgba(12,12,12,0.5) 0%, rgba(12,12,12,0.1) 45%, rgba(12,12,12,0.85) 100%)"
+       },
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "bottom": "-16px",
+        "display": "flex",
+        "flexDirection": "column",
+        "left": "18px",
+        "position": "absolute",
+        "zIndex": "2"
+       },
+       "blockId": "2813bf5b19",
+       "blockName": "Hero Type",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--88bb99cc-0002-4b12-8b12-bbcc1102aa12, #F2F2F2)",
+          "fontFamily": "Anton",
+          "fontSize": "17vw",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "letterSpacing": "-0.01em",
+          "lineHeight": "0.8",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "971d670853",
+         "blockName": "Hero Title",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "h1",
+         "innerHTML": "NO<span style=\"color: #FF2E54;\">/</span>SIGNAL",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "bottom": "-6px",
+        "left": "8px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-end",
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "10px",
+        "position": "absolute",
+        "right": "24px",
+        "top": "24px",
+        "zIndex": "2"
+       },
+       "blockId": "8051c8b9c3",
+       "blockName": "Hero Meta",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--88bb99cc-0005-4b15-8b15-bbcc1105aa15, #FF2E54)",
+          "fontFamily": "Inter",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.18em",
+          "lineHeight": "1.5",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "2316737b38",
+         "blockName": "Hero Eyebrow",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "The new album",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "#F2F2F2",
+          "fontFamily": "Inter",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.18em",
+          "lineHeight": "1.5",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "82c71a0716",
+         "blockName": "Hero Date",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Out 12 September",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "about"
+         },
+         "baseStyles": {
+          "alignItems": "center",
+          "backgroundColor": "var(--88bb99cc-0005-4b15-8b15-bbcc1105aa15, #FF2E54)",
+          "borderColor": "var(--88bb99cc-0005-4b15-8b15-bbcc1105aa15, #FF2E54)",
+          "borderStyle": "solid",
+          "borderWidth": "2px",
+          "color": "#0C0C0C",
+          "display": "inline-flex",
+          "flexShrink": 0,
+          "fontFamily": "Anton",
+          "fontSize": "13px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "justifyContent": "center",
+          "letterSpacing": "0.08em",
+          "lineHeight": "1",
+          "padding": "10px 18px",
+          "textDecoration": "none",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "63c940584c",
+         "blockName": "Hero CTA",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "Pre-save",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:background-color": "#0C0C0C",
+          "hover:color": "var(--88bb99cc-0005-4b15-8b15-bbcc1105aa15, #FF2E54)",
+          "transition": "background-color 0.15s ease-out, color 0.15s ease-out"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "right": "16px",
+        "top": "16px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "height": "78vh"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "backgroundColor": "var(--88bb99cc-0005-4b15-8b15-bbcc1105aa15, #FF2E54)",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "overflow": "hidden",
+      "padding": "12px 0px",
+      "width": "100%"
+     },
+     "blockId": "aefe40a6e8",
+     "blockName": "Ticker",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "#0C0C0C",
+        "fontFamily": "Anton",
+        "fontSize": "16px",
+        "height": "fit-content",
+        "letterSpacing": "0.1em",
+        "lineHeight": "1",
+        "textTransform": "uppercase",
+        "whiteSpace": "nowrap",
+        "width": "fit-content"
+       },
+       "blockId": "d7c4765142",
+       "blockName": "Ticker Text",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "On tour - Sep / Oct 2026&nbsp;&nbsp;•&nbsp;&nbsp;On tour - Sep / Oct 2026&nbsp;&nbsp;•&nbsp;&nbsp;On tour - Sep / Oct 2026&nbsp;&nbsp;•&nbsp;&nbsp;On tour - Sep / Oct 2026",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "baseline",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexShrink": 0,
+      "gap": "24px",
+      "justifyContent": "space-between",
+      "padding": "80px 24px 0px",
+      "width": "100%"
+     },
+     "blockId": "3389fc92ad",
+     "blockName": "Section · Records Head",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--88bb99cc-0002-4b12-8b12-bbcc1102aa12, #F2F2F2)",
+        "fontFamily": "Anton",
+        "fontSize": "64px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "letterSpacing": "0.01em",
+        "lineHeight": "0.92",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "fdc404c96a",
+       "blockName": "Releases Title",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "h2",
+       "innerHTML": "RECORDS",
+       "mobileStyles": {
+        "fontSize": "40px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--88bb99cc-0003-4b13-8b13-bbcc1103aa13, #9B9B9B)",
+        "fontFamily": "Inter",
+        "fontSize": "9px",
+        "fontWeight": "700",
+        "height": "fit-content",
+        "letterSpacing": "0.18em",
+        "lineHeight": "1.5",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "b5759599c5",
+       "blockName": "Releases Note",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Everything streams everywhere",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "44px 16px 0px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexShrink": 0,
+      "gap": "3%",
+      "padding": "90px 24px 110px",
+      "width": "100%"
+     },
+     "blockId": "0c36f42511",
+     "blockName": "Section · Poster Wall",
+     "children": [
+      {
+       "attributes": {
+        "href": "about"
+       },
+       "baseStyles": {
+        "backgroundColor": "#F2F2F2",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 1,
+        "gap": "10px",
+        "marginTop": "34px",
+        "padding": "14px 14px 18px",
+        "textDecoration": "none",
+        "width": "31%",
+        "zIndex": "1"
+       },
+       "blockId": "227c1e01f8",
+       "blockName": "Poster · STATIC",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "aspectRatio": "1 / 1",
+          "backgroundColor": "var(--88bb99cc-0006-4b16-8b16-bbcc1106aa16, #161616)",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "100%"
+         },
+         "blockId": "cb4e2be464",
+         "blockName": "Poster Cover · STATIC",
+         "children": [
+          {
+           "attributes": {
+            "alt": "STATIC cover art",
+            "loading": "lazy",
+            "src": "https://images.unsplash.com/photo-1571330735066-03aaa9429d89?auto=format&fit=crop&q=80&w=900"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "8fe3a6ebe8",
+           "blockName": "Poster Cover · STATIC · Image",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "filter": "grayscale(0.25) contrast(1.05)",
+            "transition": "transform 0.9s cubic-bezier(0.22, 1, 0.36, 1), filter 0.5s ease"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "verge-photo"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "baseline",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "12px",
+          "justifyContent": "space-between",
+          "width": "100%"
+         },
+         "blockId": "8a3e517149",
+         "blockName": "Poster Meta",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#0C0C0C",
+            "fontFamily": "Anton",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.01em",
+            "lineHeight": "0.92",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "b2601236e7",
+           "blockName": "Poster Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h3",
+           "innerHTML": "STATIC",
+           "mobileStyles": {
+            "fontSize": "22px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#6B6B6B",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "9px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.18em",
+            "lineHeight": "1.5",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "0e635ab72b",
+           "blockName": "Poster Info",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "EP · 2026",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "a",
+       "mobileStyles": {
+        "alignSelf": "flex-start",
+        "marginTop": "0px",
+        "width": "84%"
+       },
+       "rawStyles": {
+        "box-shadow": "0 18px 50px rgba(0,0,0,0.55)",
+        "hover:transform": "rotate(0deg) scale(1.02)",
+        "transform": "rotate(-2.5deg)",
+        "transition": "transform 0.35s cubic-bezier(0.22, 1, 0.36, 1)"
+       },
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {
+        "href": "about"
+       },
+       "baseStyles": {
+        "backgroundColor": "#F2F2F2",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 1,
+        "gap": "10px",
+        "marginTop": "0px",
+        "padding": "14px 14px 18px",
+        "textDecoration": "none",
+        "width": "31%",
+        "zIndex": "1"
+       },
+       "blockId": "0f1344bd5f",
+       "blockName": "Poster · ROOM TONE",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "aspectRatio": "1 / 1",
+          "backgroundColor": "var(--88bb99cc-0006-4b16-8b16-bbcc1106aa16, #161616)",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "100%"
+         },
+         "blockId": "6b8ae91e82",
+         "blockName": "Poster Cover · ROOM TONE",
+         "children": [
+          {
+           "attributes": {
+            "alt": "ROOM TONE cover art",
+            "loading": "lazy",
+            "src": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?auto=format&fit=crop&q=80&w=900"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "fde6fb5199",
+           "blockName": "Poster Cover · ROOM TONE · Image",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "filter": "grayscale(0.25) contrast(1.05)",
+            "transition": "transform 0.9s cubic-bezier(0.22, 1, 0.36, 1), filter 0.5s ease"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "verge-photo"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "baseline",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "12px",
+          "justifyContent": "space-between",
+          "width": "100%"
+         },
+         "blockId": "5624765eea",
+         "blockName": "Poster Meta",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#0C0C0C",
+            "fontFamily": "Anton",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.01em",
+            "lineHeight": "0.92",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "f4fa079497",
+           "blockName": "Poster Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h3",
+           "innerHTML": "ROOM TONE",
+           "mobileStyles": {
+            "fontSize": "22px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#6B6B6B",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "9px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.18em",
+            "lineHeight": "1.5",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "5935dc5a6d",
+           "blockName": "Poster Info",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "LP · 2025",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "a",
+       "mobileStyles": {
+        "alignSelf": "center",
+        "marginTop": "0px",
+        "width": "84%"
+       },
+       "rawStyles": {
+        "box-shadow": "0 18px 50px rgba(0,0,0,0.55)",
+        "hover:transform": "rotate(0deg) scale(1.02)",
+        "transform": "rotate(1.8deg)",
+        "transition": "transform 0.35s cubic-bezier(0.22, 1, 0.36, 1)"
+       },
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {
+        "href": "about"
+       },
+       "baseStyles": {
+        "backgroundColor": "#F2F2F2",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 1,
+        "gap": "10px",
+        "marginTop": "52px",
+        "padding": "14px 14px 18px",
+        "textDecoration": "none",
+        "width": "31%",
+        "zIndex": "1"
+       },
+       "blockId": "6ddb257d72",
+       "blockName": "Poster · LOUD PLACES",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "aspectRatio": "1 / 1",
+          "backgroundColor": "var(--88bb99cc-0006-4b16-8b16-bbcc1106aa16, #161616)",
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "100%"
+         },
+         "blockId": "b50d682b6f",
+         "blockName": "Poster Cover · LOUD PLACES",
+         "children": [
+          {
+           "attributes": {
+            "alt": "LOUD PLACES cover art",
+            "loading": "lazy",
+            "src": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&q=80&w=900"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "5e8eea8d07",
+           "blockName": "Poster Cover · LOUD PLACES · Image",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "filter": "grayscale(0.25) contrast(1.05)",
+            "transition": "transform 0.9s cubic-bezier(0.22, 1, 0.36, 1), filter 0.5s ease"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "verge-photo"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "baseline",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "12px",
+          "justifyContent": "space-between",
+          "width": "100%"
+         },
+         "blockId": "d4a09df2a2",
+         "blockName": "Poster Meta",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#0C0C0C",
+            "fontFamily": "Anton",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.01em",
+            "lineHeight": "0.92",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "b3a63a61d6",
+           "blockName": "Poster Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h3",
+           "innerHTML": "LOUD PLACES",
+           "mobileStyles": {
+            "fontSize": "22px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "#6B6B6B",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "9px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.18em",
+            "lineHeight": "1.5",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "0a57d4542f",
+           "blockName": "Poster Info",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "SINGLE · 2025",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "a",
+       "mobileStyles": {
+        "alignSelf": "flex-end",
+        "marginTop": "0px",
+        "width": "84%"
+       },
+       "rawStyles": {
+        "box-shadow": "0 18px 50px rgba(0,0,0,0.55)",
+        "hover:transform": "rotate(0deg) scale(1.02)",
+        "transform": "rotate(-1.2deg)",
+        "transition": "transform 0.35s cubic-bezier(0.22, 1, 0.36, 1)"
+       },
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "flexDirection": "column",
+      "gap": "36px",
+      "padding": "48px 16px 64px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "backgroundColor": "var(--88bb99cc-0006-4b16-8b16-bbcc1106aa16, #161616)",
+      "borderBottomColor": "var(--88bb99cc-0004-4b14-8b14-bbcc1104aa14, #262626)",
+      "borderBottomStyle": "solid",
+      "borderBottomWidth": "1px",
+      "borderTopColor": "var(--88bb99cc-0004-4b14-8b14-bbcc1104aa14, #262626)",
+      "borderTopStyle": "solid",
+      "borderTopWidth": "1px",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "22px",
+      "padding": "80px 24px",
+      "width": "100%"
+     },
+     "blockId": "5ec8774c93",
+     "blockName": "Section · Press Quote",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--88bb99cc-0002-4b12-8b12-bbcc1102aa12, #F2F2F2)",
+        "fontFamily": "Anton",
+        "fontSize": "52px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "letterSpacing": "0.01em",
+        "lineHeight": "1.05",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "4b93ecc0b4",
+       "blockName": "Press Quote",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "\"THE LOUDEST THING TO COME OUT<br>OF A COASTAL TOWN SINCE THE SEA.\"",
+       "mobileStyles": {
+        "fontSize": "26px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "fontSize": "38px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--88bb99cc-0005-4b15-8b15-bbcc1105aa15, #FF2E54)",
+        "fontFamily": "Inter",
+        "fontSize": "9px",
+        "fontWeight": "700",
+        "height": "fit-content",
+        "letterSpacing": "0.18em",
+        "lineHeight": "1.5",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "bafa79872b",
+       "blockName": "Quote Source",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Rolling Blackouts Magazine · album of the month",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "48px 16px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "e2c5993249",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "e6d5025cb9",
+       "blockName": "Footer Line",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "verge_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "0ccd1279b1",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "9739490fa5",
+       "blockName": "Footer Links Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "6af5e2b77f",
+         "blockName": "Footer · Spotify",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verge_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "85befb0e1d",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "9c8e95aa63",
+         "blockName": "Footer · Bandcamp",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verge_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "21051c6a43",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "507810d7f1",
+         "blockName": "Footer · YouTube",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verge_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "c55b2618c3",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "aac11ad369",
+         "blockName": "Footer · Instagram",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verge_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "dba10c52ba",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "verge_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "d9d5ae8260",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "53f8b28235",
+       "blockName": "Footer Bottom",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "54686dc455",
+         "blockName": "Footer Copy",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verge_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "43439bce19",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "4717ad4037",
+         "blockName": "Footer Booking",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verge_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "d4c14d0c0a",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "647a96d2b9",
+         "blockName": "Footer Press",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "verge_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "468c2778c4",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "verge_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "0bc88ce9ee",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "verge_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "verge_styles"
+  }
+ ],
+ "creation": "2026-07-14 16:14:30.721448",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Verge - the new album No Signal, records, and tour dates.",
+ "modified": "2026-07-14 21:28:17.463202",
+ "modified_by": "Administrator",
+ "name": "verge_home",
+ "owner": "Administrator",
+ "page_name": "verge_home",
+ "page_title": "VERGE - No Signal, out 12 Sep",
+ "preview": "/builder_assets/verge/verge_home/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/verge/home",
+ "template_group": "verge"
+}

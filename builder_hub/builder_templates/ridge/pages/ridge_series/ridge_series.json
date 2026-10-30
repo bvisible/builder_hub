@@ -1,0 +1,1686 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--321b4090-475f-4e8b-8235-fed87963f730, #101012)",
+    "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Inter",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "7b0c303b8d",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "1127ebf83a",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "5ff729abb8",
+       "blockName": "Brand",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "ridge_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "af6f919aa3",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "ff579202c6",
+       "blockName": "Nav Links",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "b4d72e6f7b",
+         "blockName": "Series",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "ridge_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "7b2a251dc1",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "7bb166fa6d",
+         "blockName": "Info",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "ridge_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "371574fc1e",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "0eb68f6589",
+         "blockName": "Nav Enquire",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "ridge_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "8c67455ccc",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "ridge_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "2501f029ad",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "ridge_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "16px",
+      "maxWidth": "1400px",
+      "padding": "56px 28px 44px",
+      "width": "100%"
+     },
+     "blockId": "b0afb798e9",
+     "blockName": "Section · Series Header",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+        "fontFamily": "Inter",
+        "fontSize": "10px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "0.2em",
+        "lineHeight": "1.6",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "39e73d9e97",
+       "blockName": "Series Kicker",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Series · No. 03",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+        "fontFamily": "Syne",
+        "fontSize": "64px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "lineHeight": "1.05",
+        "minWidth": "10px",
+        "width": "fit-content"
+       },
+       "blockId": "8e8465cb17",
+       "blockName": "Series Title",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Northlands",
+       "mobileStyles": {
+        "fontSize": "38px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+        "fontFamily": "Inter",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.8",
+        "maxWidth": "520px",
+        "minWidth": "10px",
+        "width": "100%"
+       },
+       "blockId": "05836d6303",
+       "blockName": "Series Intro",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Three winters between the Faroes and the Dolomites. Shot on Portra 800 pushed a stop, printed dark.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "marginTop": "26px",
+        "width": "100%"
+       },
+       "blockId": "67872c7f5d",
+       "blockName": "Series Index",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTopColor": "var(--70560de2-9156-4010-84b6-4016164ef922, #2A2A2F)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "0px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "20px",
+          "padding": "16px 0",
+          "width": "100%"
+         },
+         "blockId": "c79ca53fe5",
+         "blockName": "Index · 01",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--88c8b213-c173-4c9b-81c7-6595862cf712, #FF4D00)",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "11px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "70px"
+           },
+           "blockId": "af4caef56e",
+           "blockName": "Series No · 01",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "01",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Syne",
+            "fontSize": "22px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "34f6b7423d",
+           "blockName": "Series Place · 01",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The cloud sea",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+            "fontFamily": "Inter",
+            "fontSize": "11px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "dc996d44b2",
+           "blockName": "Series Year · 01",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "2025",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTopColor": "var(--70560de2-9156-4010-84b6-4016164ef922, #2A2A2F)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "20px",
+          "padding": "16px 0",
+          "width": "100%"
+         },
+         "blockId": "ca5f117031",
+         "blockName": "Index · 02",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--88c8b213-c173-4c9b-81c7-6595862cf712, #FF4D00)",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "11px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "70px"
+           },
+           "blockId": "181639e151",
+           "blockName": "Series No · 02",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "02",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Syne",
+            "fontSize": "22px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "9856b6b8f6",
+           "blockName": "Series Place · 02",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Weather coming in",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+            "fontFamily": "Inter",
+            "fontSize": "11px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "2b5e303526",
+           "blockName": "Series Year · 02",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "2025",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTopColor": "var(--70560de2-9156-4010-84b6-4016164ef922, #2A2A2F)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "20px",
+          "padding": "16px 0",
+          "width": "100%"
+         },
+         "blockId": "439cb6440f",
+         "blockName": "Index · 03",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--88c8b213-c173-4c9b-81c7-6595862cf712, #FF4D00)",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "11px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "70px"
+           },
+           "blockId": "a9255a92f4",
+           "blockName": "Series No · 03",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "03",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Syne",
+            "fontSize": "22px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "abeed453e6",
+           "blockName": "Series Place · 03",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The pass at night",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+            "fontFamily": "Inter",
+            "fontSize": "11px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "eb26757ee4",
+           "blockName": "Series Year · 03",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "2024",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTopColor": "var(--70560de2-9156-4010-84b6-4016164ef922, #2A2A2F)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "20px",
+          "padding": "16px 0",
+          "width": "100%"
+         },
+         "blockId": "900b90416a",
+         "blockName": "Index · 04",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--88c8b213-c173-4c9b-81c7-6595862cf712, #FF4D00)",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "11px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "70px"
+           },
+           "blockId": "7a2a085125",
+           "blockName": "Series No · 04",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "04",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Syne",
+            "fontSize": "22px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "75f450fec9",
+           "blockName": "Series Place · 04",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Last light",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+            "fontFamily": "Inter",
+            "fontSize": "11px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "2901361ec5",
+           "blockName": "Series Year · 04",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "2024",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "36px 16px 28px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "0px",
+      "width": "100%"
+     },
+     "blockId": "84a004bedb",
+     "blockName": "Section · Series Mosaic",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "0px",
+        "width": "100%"
+       },
+       "blockId": "6d63c9594a",
+       "blockName": "Mosaic Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "height": "460px",
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "55%"
+         },
+         "blockId": "8605ea28a2",
+         "blockName": "Tile · clouds",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Above the cloud sea",
+            "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=1400"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "55d331e6ca",
+           "blockName": "Photo · clouds",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "rgba(16, 16, 18, 0.78)",
+            "bottom": "0px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "justifyContent": "space-between",
+            "left": "0px",
+            "padding": "12px 16px",
+            "position": "absolute",
+            "right": "0px",
+            "width": "100%",
+            "zIndex": "2"
+           },
+           "blockId": "cdfed7cff4",
+           "blockName": "Caption Bar · clouds",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+              "fontFamily": "Inter",
+              "fontSize": "10px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.2em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "cd7dc8d145",
+             "blockName": "Cap · clouds",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Above the cloud sea",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+              "fontFamily": "Inter",
+              "fontSize": "10px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.2em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "d93c0fce84",
+             "blockName": "Meta · clouds",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Dolomites · 2025",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [
+            "rg-cap"
+           ],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "rg-tile"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "height": "260px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "height": "460px",
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "45%"
+         },
+         "blockId": "a25f6b140e",
+         "blockName": "Tile · hills",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Weather coming in",
+            "src": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80&w=1400"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "36fa1bb922",
+           "blockName": "Photo · hills",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "rgba(16, 16, 18, 0.78)",
+            "bottom": "0px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "justifyContent": "space-between",
+            "left": "0px",
+            "padding": "12px 16px",
+            "position": "absolute",
+            "right": "0px",
+            "width": "100%",
+            "zIndex": "2"
+           },
+           "blockId": "61c3f2c7d1",
+           "blockName": "Caption Bar · hills",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+              "fontFamily": "Inter",
+              "fontSize": "10px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.2em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "070cb6318c",
+             "blockName": "Cap · hills",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Weather coming in",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+              "fontFamily": "Inter",
+              "fontSize": "10px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.2em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "386eea6bac",
+             "blockName": "Meta · hills",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Faroes · 2025",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [
+            "rg-cap"
+           ],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "rg-tile"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "height": "260px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "0px",
+        "width": "100%"
+       },
+       "blockId": "3ae08a108a",
+       "blockName": "Mosaic Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "height": "420px",
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "42%"
+         },
+         "blockId": "2eed50cc26",
+         "blockName": "Tile · stars",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Milky way over the pass",
+            "src": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=1400"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "5b65c93921",
+           "blockName": "Photo · stars",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "rgba(16, 16, 18, 0.78)",
+            "bottom": "0px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "justifyContent": "space-between",
+            "left": "0px",
+            "padding": "12px 16px",
+            "position": "absolute",
+            "right": "0px",
+            "width": "100%",
+            "zIndex": "2"
+           },
+           "blockId": "f8e247fb00",
+           "blockName": "Caption Bar · stars",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+              "fontFamily": "Inter",
+              "fontSize": "10px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.2em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "dfa433b1d3",
+             "blockName": "Cap · stars",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Milky way over the pass",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+              "fontFamily": "Inter",
+              "fontSize": "10px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.2em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "b9d6de3d46",
+             "blockName": "Meta · stars",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Atacama · 2024",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [
+            "rg-cap"
+           ],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "rg-tile"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "height": "260px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "height": "420px",
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "58%"
+         },
+         "blockId": "fa73b36d84",
+         "blockName": "Tile · ridge",
+         "children": [
+          {
+           "attributes": {
+            "alt": "The ridge at last light",
+            "src": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&q=80&w=1400"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "5414e9836d",
+           "blockName": "Photo · ridge",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "rgba(16, 16, 18, 0.78)",
+            "bottom": "0px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "justifyContent": "space-between",
+            "left": "0px",
+            "padding": "12px 16px",
+            "position": "absolute",
+            "right": "0px",
+            "width": "100%",
+            "zIndex": "2"
+           },
+           "blockId": "ccebcf58ce",
+           "blockName": "Caption Bar · ridge",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+              "fontFamily": "Inter",
+              "fontSize": "10px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.2em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "ce8a2e9950",
+             "blockName": "Cap · ridge",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "The ridge at last light",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+              "fontFamily": "Inter",
+              "fontSize": "10px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.2em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "d34a028e3f",
+             "blockName": "Meta · ridge",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Passo Giau · 2024",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [
+            "rg-cap"
+           ],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "rg-tile"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "height": "260px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "0px",
+        "width": "100%"
+       },
+       "blockId": "2e26dd5a23",
+       "blockName": "Mosaic Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "height": "400px",
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "60%"
+         },
+         "blockId": "72d9f60151",
+         "blockName": "Tile · mist",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Mist on the lake",
+            "src": "https://images.unsplash.com/photo-1465189684280-6a8fa9b19a7a?auto=format&fit=crop&q=80&w=1400"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "6b55d28ad1",
+           "blockName": "Photo · mist",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "rgba(16, 16, 18, 0.78)",
+            "bottom": "0px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "justifyContent": "space-between",
+            "left": "0px",
+            "padding": "12px 16px",
+            "position": "absolute",
+            "right": "0px",
+            "width": "100%",
+            "zIndex": "2"
+           },
+           "blockId": "4e60696a04",
+           "blockName": "Caption Bar · mist",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+              "fontFamily": "Inter",
+              "fontSize": "10px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.2em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "6db7efce75",
+             "blockName": "Cap · mist",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Mist on the lake",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+              "fontFamily": "Inter",
+              "fontSize": "10px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.2em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "bbfec18dc7",
+             "blockName": "Meta · mist",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Jasper · 2025",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [
+            "rg-cap"
+           ],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "rg-tile"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "height": "260px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "height": "400px",
+          "overflow": "hidden",
+          "position": "relative",
+          "width": "40%"
+         },
+         "blockId": "c7e9d6c488",
+         "blockName": "Tile · falls",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Multnomah, spring melt",
+            "src": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&q=80&w=1400"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "57eefedf08",
+           "blockName": "Photo · falls",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "rgba(16, 16, 18, 0.78)",
+            "bottom": "0px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "justifyContent": "space-between",
+            "left": "0px",
+            "padding": "12px 16px",
+            "position": "absolute",
+            "right": "0px",
+            "width": "100%",
+            "zIndex": "2"
+           },
+           "blockId": "a87f65f3fe",
+           "blockName": "Caption Bar · falls",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--007d9804-8bca-456e-8760-7989230174fa, #EDEBE6)",
+              "fontFamily": "Inter",
+              "fontSize": "10px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.2em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "0c592b885e",
+             "blockName": "Cap · falls",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Multnomah, spring melt",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+              "fontFamily": "Inter",
+              "fontSize": "10px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.2em",
+              "lineHeight": "1.6",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "00f68b4f24",
+             "blockName": "Meta · falls",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Oregon · 2022",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [
+            "rg-cap"
+           ],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "rg-tile"
+         ],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "height": "260px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "padding": "48px 28px 40px",
+      "width": "100%"
+     },
+     "blockId": "29ff2c9535",
+     "blockName": "Section · Edition Note",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--40cff854-746b-4603-8550-3f08763da56a, #8E8C88)",
+        "fontFamily": "Inter",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.8",
+        "maxWidth": "560px",
+        "minWidth": "10px",
+        "textAlign": "center",
+        "width": "100%"
+       },
+       "blockId": "0e3e559a61",
+       "blockName": "Edition Note",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Each photograph in this series is available as an edition of ten, 60x90cm, baryta paper, signed verso. Enquire with the frame number.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "32px 16px 24px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "69311a09e5",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "e27395289a",
+       "blockName": "Enquire Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "0ce07287f8",
+         "blockName": "Enquire Left",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "868912db58",
+           "blockName": "Enquire Heading",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "ridge_enquire",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "f06c1a6868",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "51c8852033",
+           "blockName": "Enquire Copy",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "ridge_enquire",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "7f19a0713a",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "ridge_enquire",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "91518350c4",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "852c45cf6f",
+         "blockName": "Enquire Right",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "93fa21f568",
+           "blockName": "Enquire Mail",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "ridge_enquire",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "5492cbfa22",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "e8cf300428",
+           "blockName": "Enquire Copyright",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "ridge_enquire",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "cbb8d2b97d",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "ridge_enquire",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "f336859da8",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "ridge_enquire",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "5dbf051426",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "ridge_enquire",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "ridge_styles"
+  }
+ ],
+ "creation": "2026-07-15 16:59:32.563665",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Northlands: three winters between the Faroes and the Dolomites, printed dark.",
+ "modified": "2026-07-15 17:05:53.143173",
+ "modified_by": "Administrator",
+ "name": "ridge_series",
+ "owner": "Administrator",
+ "page_name": "ridge_series",
+ "page_title": "Northlands · RIDGE",
+ "preview": "/builder_assets/ridge/ridge_series/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/ridge/series",
+ "template_group": "ridge"
+}

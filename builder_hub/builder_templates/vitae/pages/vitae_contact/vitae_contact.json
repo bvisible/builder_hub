@@ -1,0 +1,1164 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--a8c1fa45-7581-4564-858d-9ac9e6155d64, #E9E7E2)",
+    "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "IBM Plex Sans",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "9d10b437c2",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {
+      "backgroundColor": "var(--2ca1d14b-4362-4532-8fea-82364c8b69e9, #FFFFFF)",
+      "borderRadius": "3px",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "marginBottom": "72px",
+      "marginTop": "40px",
+      "maxWidth": "840px",
+      "padding": "64px 72px",
+      "width": "100%"
+     },
+     "blockId": "62509e6409",
+     "blockName": "Contact Sheet",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "e4be306ad6",
+       "blockName": "Letterhead",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "99eaa69c41",
+         "blockName": "Letterhead Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "866e19354c",
+           "blockName": "Letterhead Left",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "b3278383ad",
+             "blockName": "Letterhead Name",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "vitae_letterhead",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "014aaa4c86",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "3b6819455e",
+             "blockName": "Letterhead Role",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "vitae_letterhead",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "03a755e9f7",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "vitae_letterhead",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "24d0546509",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "0123ad28ce",
+           "blockName": "Letterhead Nav",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "d708ac7228",
+             "blockName": "CV",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "vitae_letterhead",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "e4ca12123c",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "8284d3a621",
+             "blockName": "Engagements",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "vitae_letterhead",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "fe7413e61e",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "1cb8870c8f",
+             "blockName": "Contact",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "vitae_letterhead",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "17ef075061",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "f4c0de02cd",
+             "blockName": "Theme Toggle",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "3a91a89d30",
+               "blockName": "Theme · ti-sun",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "vitae_letterhead",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "088e07bf7e",
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {},
+               "blockId": "bcc96895c6",
+               "blockName": "Theme · ti-moon",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "isChildOfComponent": "vitae_letterhead",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "referenceBlockId": "a941ea1896",
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "vitae_letterhead",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "b18d67edad",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "vitae_letterhead",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "87d7be18db",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "vitae_letterhead",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "e35eda9c1e",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "71410a4975",
+         "blockName": "Letterhead Contact",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "vitae_letterhead",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "eb3bc02107",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "cfd47b69a9",
+         "blockName": "Letterhead Rule",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "vitae_letterhead",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "a793d62b7c",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "extendedFromComponent": "vitae_letterhead",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "32px",
+        "marginTop": "28px",
+        "width": "100%"
+       },
+       "blockId": "a80dfbc48f",
+       "blockName": "Contact Row",
+       "children": [
+        {
+         "attributes": {
+          "alt": "Adrien Vale",
+          "src": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=700"
+         },
+         "baseStyles": {
+          "borderRadius": "3px",
+          "display": "block",
+          "flexShrink": 0,
+          "height": "220px",
+          "objectFit": "cover",
+          "width": "180px"
+         },
+         "blockId": "d8f909b43f",
+         "blockName": "Contact Portrait",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {
+          "height": "260px",
+          "width": "100%"
+         },
+         "rawStyles": {
+          "filter": "saturate(0.9)"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "12px",
+          "justifyContent": "center",
+          "width": "100%"
+         },
+         "blockId": "092f4c2807",
+         "blockName": "Contact Intro",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+            "fontFamily": "EB Garamond",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.25",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "796ae8fd0e",
+           "blockName": "Availability",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Currently available<br>from November.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+            "fontFamily": "IBM Plex Sans",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.75",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "860f85aadb",
+           "blockName": "Availability Detail",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "One portfolio slot opens in November, two days a week, six-month minimum. Zurich, Basel or remote across CET±2.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "18px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "borderBottomColor": "var(--79f05fe5-4f09-4c5d-8a27-9aada2106f3c, #1F3A64)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "2px",
+        "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+        "fontFamily": "IBM Plex Sans",
+        "fontSize": "11px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "0.14em",
+        "lineHeight": "1.6",
+        "marginTop": "34px",
+        "minWidth": "10px",
+        "paddingBottom": "8px",
+        "textTransform": "uppercase",
+        "width": "100%"
+       },
+       "blockId": "750cb227ce",
+       "blockName": "Sheet Section · Terms",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Terms",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "borderTopColor": "var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)",
+        "borderTopStyle": "solid",
+        "borderTopWidth": "0px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "28px",
+        "padding": "22px 0",
+        "width": "100%"
+       },
+       "blockId": "36c1b8497a",
+       "blockName": "Entry · Fractional engagement",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "flexShrink": 0,
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "10px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.14em",
+          "lineHeight": "1.6",
+          "minWidth": "10px",
+          "paddingTop": "5px",
+          "textTransform": "uppercase",
+          "width": "150px"
+         },
+         "blockId": "b975cc8489",
+         "blockName": "Entry Dates · Retainer",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Retainer",
+         "mobileStyles": {
+          "paddingTop": "0px",
+          "width": "fit-content"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "4px",
+          "width": "100%"
+         },
+         "blockId": "59a994f85e",
+         "blockName": "Entry Body · Fractional engagement",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+            "fontFamily": "EB Garamond",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "f588ddc54c",
+           "blockName": "Entry Role · Fractional engagement",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Fractional engagement",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--79f05fe5-4f09-4c5d-8a27-9aada2106f3c, #1F3A64)",
+            "fontFamily": "IBM Plex Sans",
+            "fontSize": "10.5px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "74479425fc",
+           "blockName": "Entry Org · Two days weekly · six-",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Two days weekly · six-month minimum",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "5px",
+            "marginTop": "8px",
+            "width": "100%"
+           },
+           "blockId": "c2c38c8f7a",
+           "blockName": "Entry Bullets · Fractional engag",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.75",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "8b514f7360",
+             "blockName": "Bullet · Fixed monthly retainer",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "– Fixed monthly retainer, no hourly counters, no surprise invoices.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "8px",
+        "padding": "18px 0"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "borderTopColor": "var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)",
+        "borderTopStyle": "solid",
+        "borderTopWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "28px",
+        "padding": "22px 0",
+        "width": "100%"
+       },
+       "blockId": "d7416b1922",
+       "blockName": "Entry · Diligence & fundraising",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "flexShrink": 0,
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "10px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.14em",
+          "lineHeight": "1.6",
+          "minWidth": "10px",
+          "paddingTop": "5px",
+          "textTransform": "uppercase",
+          "width": "150px"
+         },
+         "blockId": "1ef1259c13",
+         "blockName": "Entry Dates · Project",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Project",
+         "mobileStyles": {
+          "paddingTop": "0px",
+          "width": "fit-content"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "4px",
+          "width": "100%"
+         },
+         "blockId": "dcfed67130",
+         "blockName": "Entry Body · Diligence & fundraisin",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+            "fontFamily": "EB Garamond",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "94228dc769",
+           "blockName": "Entry Role · Diligence & fundraisin",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Diligence & fundraising",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--79f05fe5-4f09-4c5d-8a27-9aada2106f3c, #1F3A64)",
+            "fontFamily": "IBM Plex Sans",
+            "fontSize": "10.5px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "66f806610c",
+           "blockName": "Entry Org · Four to eight weeks",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Four to eight weeks",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "5px",
+            "marginTop": "8px",
+            "width": "100%"
+           },
+           "blockId": "9d718e15f5",
+           "blockName": "Entry Bullets · Diligence & fund",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.75",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "9393f98745",
+             "blockName": "Bullet · Fixed fee agreed on sc",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "– Fixed fee agreed on scope. Success fees only on raises, never on cuts.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "8px",
+        "padding": "18px 0"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "borderTopColor": "var(--f97bb8eb-cd1c-4a57-8d26-85ba4b246640, #E4E2DD)",
+        "borderTopStyle": "solid",
+        "borderTopWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "28px",
+        "padding": "22px 0",
+        "width": "100%"
+       },
+       "blockId": "37f2379ddc",
+       "blockName": "Entry · Board & audit committee",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "flexShrink": 0,
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "10px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "letterSpacing": "0.14em",
+          "lineHeight": "1.6",
+          "minWidth": "10px",
+          "paddingTop": "5px",
+          "textTransform": "uppercase",
+          "width": "150px"
+         },
+         "blockId": "9117d9ac48",
+         "blockName": "Entry Dates · Advisory",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Advisory",
+         "mobileStyles": {
+          "paddingTop": "0px",
+          "width": "fit-content"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "4px",
+          "width": "100%"
+         },
+         "blockId": "a217319a99",
+         "blockName": "Entry Body · Board & audit committe",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+            "fontFamily": "EB Garamond",
+            "fontSize": "22px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.2",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "4b6a729da9",
+           "blockName": "Entry Role · Board & audit committe",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Board & audit committee",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--79f05fe5-4f09-4c5d-8a27-9aada2106f3c, #1F3A64)",
+            "fontFamily": "IBM Plex Sans",
+            "fontSize": "10.5px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.14em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "145028e6ba",
+           "blockName": "Entry Org · Quarterly cadence",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Quarterly cadence",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "gap": "5px",
+            "marginTop": "8px",
+            "width": "100%"
+           },
+           "blockId": "10e036b166",
+           "blockName": "Entry Bullets · Board & audit co",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": "13.5px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.75",
+              "minWidth": "10px",
+              "width": "fit-content"
+             },
+             "blockId": "09101a6d26",
+             "blockName": "Bullet · Taken selectively, one",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "– Taken selectively, one seat open.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "8px",
+        "padding": "18px 0"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "borderBottomColor": "var(--79f05fe5-4f09-4c5d-8a27-9aada2106f3c, #1F3A64)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "2px",
+        "color": "var(--da255c93-b50c-42ae-891d-c2135f69d80a, #232323)",
+        "fontFamily": "IBM Plex Sans",
+        "fontSize": "11px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "0.14em",
+        "lineHeight": "1.6",
+        "marginTop": "34px",
+        "minWidth": "10px",
+        "paddingBottom": "8px",
+        "textTransform": "uppercase",
+        "width": "100%"
+       },
+       "blockId": "e696d830cc",
+       "blockName": "Sheet Section · Write",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Write",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "20px",
+        "paddingTop": "20px",
+        "width": "100%"
+       },
+       "blockId": "1ed4780da0",
+       "blockName": "Contact CTA Row",
+       "children": [
+        {
+         "attributes": {
+          "href": "mailto:vale@vitae.finance"
+         },
+         "baseStyles": {
+          "backgroundColor": "var(--79f05fe5-4f09-4c5d-8a27-9aada2106f3c, #1F3A64)",
+          "borderRadius": "3px",
+          "color": "#FFFFFF",
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "13px",
+          "fontWeight": "600",
+          "height": "fit-content",
+          "lineHeight": "1",
+          "minWidth": "10px",
+          "padding": "14px 24px",
+          "textDecoration": "none",
+          "width": "fit-content"
+         },
+         "blockId": "34d70c7f94",
+         "blockName": "Contact Mail",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "vale@vitae.finance",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:background-color": "#16294a",
+          "transition": "background-color 0.15s ease-out"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--8a7ddf85-187f-4dee-87c8-2de875323b1d, #8A8781)",
+          "flexBasis": "0px",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "12.5px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.75",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "5cf9434a8e",
+         "blockName": "Contact Hint",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "A paragraph about your company and the problem beats a calendar link.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "alignItems": "flex-start",
+        "flexDirection": "column",
+        "gap": "12px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "74e844158a",
+       "blockName": "Signature",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "07be970d2f",
+         "blockName": "Signature Rule",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "vitae_signature",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "7ae36c044d",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "506aa0388c",
+         "blockName": "Signature Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "f4bd89519a",
+           "blockName": "Signature Name",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "vitae_signature",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c89128e82f",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "3246ac32c8",
+           "blockName": "Signature Note",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "vitae_signature",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "c3eaddbdf5",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "vitae_signature",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "ee0af5e613",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "extendedFromComponent": "vitae_signature",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "marginBottom": "36px",
+      "marginTop": "16px",
+      "padding": "32px 22px"
+     },
+     "rawStyles": {
+      "box-shadow": "0 24px 60px rgba(35, 35, 35, 0.10), 0 2px 8px rgba(35, 35, 35, 0.06)"
+     },
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "vitae_styles"
+  }
+ ],
+ "creation": "2026-07-15 16:59:32.872557",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Availability, engagement terms and how to reach Adrien Vale.",
+ "modified": "2026-07-15 17:05:53.143173",
+ "modified_by": "Administrator",
+ "name": "vitae_contact",
+ "owner": "Administrator",
+ "page_name": "vitae_contact",
+ "page_title": "Contact · Adrien Vale",
+ "preview": "/builder_assets/vitae/vitae_contact/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/vitae/contact",
+ "template_group": "vitae"
+}

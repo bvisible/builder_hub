@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-17 10:48:42.217806",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-17 10:48:42.217806",
+ "modified_by": "Administrator",
+ "name": "candor_styles",
+ "owner": "Administrator",
+ "script": "\n@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500;1,8..60,600&display=swap');\nhtml { scroll-behavior: smooth; }\n::selection { background: #17453B; color: #F3EFE3; }\n",
+ "script_type": "CSS"
+}

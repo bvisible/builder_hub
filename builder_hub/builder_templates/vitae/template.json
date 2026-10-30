@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Portfolio"
+ ],
+ "description": "A consultant's CV presented as a crisp paper sheet on a desk.",
+ "order": 20,
+ "pages": [
+  {
+   "name": "vitae_home"
+  },
+  {
+   "name": "vitae_engagements"
+  },
+  {
+   "name": "vitae_contact"
+  }
+ ],
+ "title": "Vitae"
+}

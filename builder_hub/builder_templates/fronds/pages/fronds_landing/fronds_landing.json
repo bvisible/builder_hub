@@ -27,26 +27,31 @@
        "attributes": {},
        "baseStyles": {},
        "blockId": "223a64ce23",
+       "blockName": "Header Container",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
          "blockId": "15ae7e50f8",
+         "blockName": "Header Row",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
            "blockId": "a597eec1d9",
+           "blockName": "Brand",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
              "blockId": "3bffed05b3",
+             "blockName": "Brand Mark",
              "children": [],
              "classes": [],
              "customAttributes": {},
              "isChildOfComponent": "fronds_navbar",
              "mobileStyles": {},
+             "originalElement": "__raw_html__",
              "rawStyles": {},
              "referenceBlockId": "ddb587477a",
              "tabletStyles": {}
@@ -55,6 +60,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "fe688953a9",
+             "blockName": "Wordmark",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -77,11 +83,13 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "e043bbfb57",
+           "blockName": "Primary Nav",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
              "blockId": "55db58bd98",
+             "blockName": "Nav · Home",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -95,6 +103,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "ba94a39215",
+             "blockName": "Nav · About",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -108,6 +117,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "e69bc44469",
+             "blockName": "Nav · Contact",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -130,21 +140,25 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "9026d377c7",
+           "blockName": "Nav Actions",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
              "blockId": "189e71b155",
+             "blockName": "Theme Toggle",
              "children": [
               {
                "attributes": {},
                "baseStyles": {},
                "blockId": "d24f4813c2",
+               "blockName": "Theme · Sun",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "isChildOfComponent": "fronds_navbar",
                "mobileStyles": {},
+               "originalElement": "__raw_html__",
                "rawStyles": {},
                "referenceBlockId": "e6fbd5b89e",
                "tabletStyles": {}
@@ -153,11 +167,13 @@
                "attributes": {},
                "baseStyles": {},
                "blockId": "f179433c8e",
+               "blockName": "Theme · Moon",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "isChildOfComponent": "fronds_navbar",
                "mobileStyles": {},
+               "originalElement": "__raw_html__",
                "rawStyles": {},
                "referenceBlockId": "57680874da",
                "tabletStyles": {}
@@ -175,6 +191,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "587e76653e",
+             "blockName": "Nav CTA",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -315,7 +332,7 @@
                "classes": [],
                "customAttributes": {},
                "element": "span",
-               "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-sprout\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"16\"\n  height=\"16\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3\" />\n  <path d=\"M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4\" />\n  <path d=\"M5 21h14\" />\n</svg>\n",
+               "innerHTML": "<svg\n  class=\"lucide lucide-sprout\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"16\"\n  height=\"16\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3\" />\n  <path d=\"M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4\" />\n  <path d=\"M5 21h14\" />\n</svg>\n",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -397,7 +414,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "Hand-picked plants for small spaces, delivered with everything you need to keep them thriving — pots, soil, and honest care guides.",
+             "innerHTML": "Hand-picked plants for small spaces, delivered with everything you need to keep them thriving - pots, soil, and honest care guides.",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -506,9 +523,13 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "rawStyles": {},
-           "tabletStyles": {}
+           "tabletStyles": {
+            "flexBasis": "auto"
+           }
           },
           {
            "attributes": {
@@ -535,7 +556,10 @@
             "maxWidth": "100%"
            },
            "rawStyles": {},
-           "tabletStyles": {}
+           "tabletStyles": {
+            "height": "320px",
+            "maxWidth": "100%"
+           }
           }
          ],
          "classes": [],
@@ -546,7 +570,10 @@
           "gap": "32px"
          },
          "rawStyles": {},
-         "tabletStyles": {}
+         "tabletStyles": {
+          "flexDirection": "column",
+          "gap": "32px"
+         }
         }
        ],
        "classes": [],
@@ -645,7 +672,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "span",
-             "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-sprout\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"16\"\n  height=\"16\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3\" />\n  <path d=\"M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4\" />\n  <path d=\"M5 21h14\" />\n</svg>\n",
+             "innerHTML": "<svg\n  class=\"lucide lucide-sprout\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"16\"\n  height=\"16\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3\" />\n  <path d=\"M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4\" />\n  <path d=\"M5 21h14\" />\n</svg>\n",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -810,7 +837,7 @@
                "classes": [],
                "customAttributes": {},
                "element": "span",
-               "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-sun\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"4\" />\n  <path d=\"M12 2v2\" />\n  <path d=\"M12 20v2\" />\n  <path d=\"m4.93 4.93 1.41 1.41\" />\n  <path d=\"m17.66 17.66 1.41 1.41\" />\n  <path d=\"M2 12h2\" />\n  <path d=\"M20 12h2\" />\n  <path d=\"m6.34 17.66-1.41 1.41\" />\n  <path d=\"m19.07 4.93-1.41 1.41\" />\n</svg>\n",
+               "innerHTML": "<svg\n  class=\"lucide lucide-sun\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"4\" />\n  <path d=\"M12 2v2\" />\n  <path d=\"M12 20v2\" />\n  <path d=\"m4.93 4.93 1.41 1.41\" />\n  <path d=\"m17.66 17.66 1.41 1.41\" />\n  <path d=\"M2 12h2\" />\n  <path d=\"M20 12h2\" />\n  <path d=\"m6.34 17.66-1.41 1.41\" />\n  <path d=\"m19.07 4.93-1.41 1.41\" />\n</svg>\n",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -864,7 +891,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "Tell us about your space and we match plants to the light you actually have — not the light you wish you had.",
+             "innerHTML": "Tell us about your space and we match plants to the light you actually have - not the light you wish you had.",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -933,7 +960,7 @@
                "classes": [],
                "customAttributes": {},
                "element": "span",
-               "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-package\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z\" />\n  <path d=\"M12 22V12\" />\n  <polyline points=\"3.29 7 12 12 20.71 7\" />\n  <path d=\"m7.5 4.27 9 5.15\" />\n</svg>\n",
+               "innerHTML": "<svg\n  class=\"lucide lucide-package\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z\" />\n  <path d=\"M12 22V12\" />\n  <polyline points=\"3.29 7 12 12 20.71 7\" />\n  <path d=\"m7.5 4.27 9 5.15\" />\n</svg>\n",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -1056,7 +1083,7 @@
                "classes": [],
                "customAttributes": {},
                "element": "span",
-               "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-heart-handshake\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762\" />\n</svg>\n",
+               "innerHTML": "<svg\n  class=\"lucide lucide-heart-handshake\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"20\"\n  height=\"20\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762\" />\n</svg>\n",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -1110,7 +1137,7 @@
              "classes": [],
              "customAttributes": {},
              "element": "p",
-             "innerHTML": "If a plant struggles in its first month, we replace it — no photos of dramatic wilting required.",
+             "innerHTML": "If a plant struggles in its first month, we replace it - no photos of dramatic wilting required.",
              "mobileStyles": {},
              "rawStyles": {},
              "tabletStyles": {}
@@ -1221,7 +1248,10 @@
             "maxWidth": "100%"
            },
            "rawStyles": {},
-           "tabletStyles": {}
+           "tabletStyles": {
+            "height": "300px",
+            "maxWidth": "100%"
+           }
           },
           {
            "attributes": {},
@@ -1272,7 +1302,7 @@
                "classes": [],
                "customAttributes": {},
                "element": "span",
-               "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-store\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"16\"\n  height=\"16\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5\" />\n  <path d=\"M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244\" />\n  <path d=\"M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05\" />\n</svg>\n",
+               "innerHTML": "<svg\n  class=\"lucide lucide-store\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"16\"\n  height=\"16\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5\" />\n  <path d=\"M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244\" />\n  <path d=\"M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05\" />\n</svg>\n",
                "mobileStyles": {},
                "rawStyles": {},
                "tabletStyles": {}
@@ -1405,7 +1435,7 @@
                  "classes": [],
                  "customAttributes": {},
                  "element": "span",
-                 "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"18\"\n  height=\"18\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                 "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"18\"\n  height=\"18\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                  "mobileStyles": {},
                  "rawStyles": {},
                  "tabletStyles": {}
@@ -1473,7 +1503,7 @@
                  "classes": [],
                  "customAttributes": {},
                  "element": "span",
-                 "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"18\"\n  height=\"18\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                 "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"18\"\n  height=\"18\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                  "mobileStyles": {},
                  "rawStyles": {},
                  "tabletStyles": {}
@@ -1541,7 +1571,7 @@
                  "classes": [],
                  "customAttributes": {},
                  "element": "span",
-                 "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"18\"\n  height=\"18\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
+                 "innerHTML": "<svg\n  class=\"lucide lucide-circle-check\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"18\"\n  height=\"18\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m9 12 2 2 4-4\" />\n</svg>\n",
                  "mobileStyles": {},
                  "rawStyles": {},
                  "tabletStyles": {}
@@ -1588,9 +1618,13 @@
            "classes": [],
            "customAttributes": {},
            "element": "div",
-           "mobileStyles": {},
+           "mobileStyles": {
+            "flexBasis": "auto"
+           },
            "rawStyles": {},
-           "tabletStyles": {}
+           "tabletStyles": {
+            "flexBasis": "auto"
+           }
           }
          ],
          "classes": [],
@@ -1601,7 +1635,10 @@
           "gap": "32px"
          },
          "rawStyles": {},
-         "tabletStyles": {}
+         "tabletStyles": {
+          "flexDirection": "column",
+          "gap": "32px"
+         }
         }
        ],
        "classes": [],
@@ -1692,7 +1729,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "span",
-           "innerHTML": "<!-- @license lucide-static v1.17.0 - ISC -->\n<svg\n  class=\"lucide lucide-quote\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"28\"\n  height=\"28\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z\" />\n  <path d=\"M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z\" />\n</svg>\n",
+           "innerHTML": "<svg\n  class=\"lucide lucide-quote\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"28\"\n  height=\"28\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z\" />\n  <path d=\"M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z\" />\n</svg>\n",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1718,7 +1755,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "h3",
-           "innerHTML": "&ldquo;My flat went from beige box to tiny jungle. The care cards alone are worth it — nothing has died on me yet.&rdquo;",
+           "innerHTML": "&ldquo;My flat went from beige box to tiny jungle. The care cards alone are worth it - nothing has died on me yet.&rdquo;",
            "mobileStyles": {
             "fontSize": "22px"
            },
@@ -1743,7 +1780,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Mira K. — plant parent of 12",
+           "innerHTML": "Mira K. - plant parent of 12",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1870,7 +1907,7 @@
            "classes": [],
            "customAttributes": {},
            "element": "p",
-           "innerHTML": "Tell us about your space — we'll suggest three plants that will love it there.",
+           "innerHTML": "Tell us about your space - we'll suggest three plants that will love it there.",
            "mobileStyles": {},
            "rawStyles": {},
            "tabletStyles": {}
@@ -1949,31 +1986,37 @@
        "attributes": {},
        "baseStyles": {},
        "blockId": "2de787a033",
+       "blockName": "Footer Container",
        "children": [
         {
          "attributes": {},
          "baseStyles": {},
          "blockId": "7f37902f23",
+         "blockName": "Footer Columns",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
            "blockId": "441de907de",
+           "blockName": "Footer Brand Col",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
              "blockId": "80153014e6",
+             "blockName": "Footer Brand",
              "children": [
               {
                "attributes": {},
                "baseStyles": {},
                "blockId": "3c794bdedd",
+               "blockName": "Brand Mark",
                "children": [],
                "classes": [],
                "customAttributes": {},
                "isChildOfComponent": "fronds_footer",
                "mobileStyles": {},
+               "originalElement": "__raw_html__",
                "rawStyles": {},
                "referenceBlockId": "ebde7f91d7",
                "tabletStyles": {}
@@ -1982,6 +2025,7 @@
                "attributes": {},
                "baseStyles": {},
                "blockId": "ff731175de",
+               "blockName": "Wordmark",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2004,6 +2048,7 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "e9119fbe53",
+             "blockName": "Footer Blurb",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -2026,11 +2071,13 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "5217c9a216",
+           "blockName": "Footer · Explore",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
              "blockId": "5731cb7868",
+             "blockName": "Col Title",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -2044,11 +2091,13 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "fcd13be3cd",
+             "blockName": "Col Links",
              "children": [
               {
                "attributes": {},
                "baseStyles": {},
                "blockId": "5e9ee71790",
+               "blockName": "Link · Home",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2062,6 +2111,7 @@
                "attributes": {},
                "baseStyles": {},
                "blockId": "3c4e62768c",
+               "blockName": "Link · About",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2075,6 +2125,7 @@
                "attributes": {},
                "baseStyles": {},
                "blockId": "b06a189739",
+               "blockName": "Link · Contact",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2106,11 +2157,13 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "12224b8b8d",
+           "blockName": "Footer · Company",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
              "blockId": "4eca68ef1c",
+             "blockName": "Col Title",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -2124,11 +2177,13 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "157f31a871",
+             "blockName": "Col Links",
              "children": [
               {
                "attributes": {},
                "baseStyles": {},
                "blockId": "fbd552c2b6",
+               "blockName": "Link · Our story",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2142,6 +2197,7 @@
                "attributes": {},
                "baseStyles": {},
                "blockId": "4991529eac",
+               "blockName": "Link · Sustainability",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2155,6 +2211,7 @@
                "attributes": {},
                "baseStyles": {},
                "blockId": "26bb68a597",
+               "blockName": "Link · Stockists",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2186,11 +2243,13 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "ee129cbb87",
+           "blockName": "Footer · Support",
            "children": [
             {
              "attributes": {},
              "baseStyles": {},
              "blockId": "3524dd9838",
+             "blockName": "Col Title",
              "children": [],
              "classes": [],
              "customAttributes": {},
@@ -2204,11 +2263,13 @@
              "attributes": {},
              "baseStyles": {},
              "blockId": "59a4933ecc",
+             "blockName": "Col Links",
              "children": [
               {
                "attributes": {},
                "baseStyles": {},
                "blockId": "acdbe72668",
+               "blockName": "Link · FAQ",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2222,6 +2283,7 @@
                "attributes": {},
                "baseStyles": {},
                "blockId": "4b9fb84d0f",
+               "blockName": "Link · Shipping",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2235,6 +2297,7 @@
                "attributes": {},
                "baseStyles": {},
                "blockId": "ce1196d18a",
+               "blockName": "Link · Care guides",
                "children": [],
                "classes": [],
                "customAttributes": {},
@@ -2275,11 +2338,13 @@
          "attributes": {},
          "baseStyles": {},
          "blockId": "820dddff32",
+         "blockName": "Footer Bottom",
          "children": [
           {
            "attributes": {},
            "baseStyles": {},
            "blockId": "d2a67eac97",
+           "blockName": "Copyright",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -2293,6 +2358,7 @@
            "attributes": {},
            "baseStyles": {},
            "blockId": "5952d4b008",
+           "blockName": "Footer Note",
            "children": [],
            "classes": [],
            "customAttributes": {},
@@ -2356,7 +2422,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Hand-picked plants for small spaces, delivered with everything you need.",
- "modified": "2026-06-07 23:30:58.485341",
+ "modified": "2026-07-14 20:31:11.165897",
  "modified_by": "Administrator",
  "name": "fronds_landing",
  "owner": "Administrator",

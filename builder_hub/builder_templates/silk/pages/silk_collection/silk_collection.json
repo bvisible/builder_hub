@@ -1,0 +1,1217 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--5d317b1d-34c4-4cfa-8601-e01c32db42a9, #0D0B09)",
+    "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Jost",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "8afb257c5a",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "971ad96a8e",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "d383f8ffd1",
+       "blockName": "Monogram",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "8e20f930aa",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "5b0b63ec3a",
+       "blockName": "Nav Links",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "89aadc5b96",
+         "blockName": "Collection",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "silk_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3b4728991a",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "5c724dc2fa",
+         "blockName": "House",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "silk_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "028f69d4a5",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "f77077dcda",
+         "blockName": "Appointments",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "silk_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "2ecc342c02",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "a0d3b09a0c",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "silk_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "20px",
+      "padding": "96px 24px 72px",
+      "textAlign": "center",
+      "width": "100%"
+     },
+     "blockId": "d63fe57e27",
+     "blockName": "Section · Header",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+        "fontFamily": "Jost",
+        "fontSize": "11px",
+        "fontWeight": "500",
+        "height": "fit-content",
+        "letterSpacing": "0.28em",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "5a9c9866b3",
+       "blockName": "Collection Kicker",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Autumn Winter 2026",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+        "fontFamily": "Italiana",
+        "fontSize": "64px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.05",
+        "minWidth": "10px",
+        "width": "fit-content"
+       },
+       "blockId": "c2f5b198ed",
+       "blockName": "Collection Headline",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "The collection.",
+       "mobileStyles": {
+        "fontSize": "38px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+        "fontFamily": "Jost",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "height": "fit-content",
+        "lineHeight": "1.8",
+        "maxWidth": "440px",
+        "minWidth": "10px",
+        "textAlign": "center",
+        "width": "100%"
+       },
+       "blockId": "71591f97e1",
+       "blockName": "Collection Note",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Eleven looks, four shown here. The rest are shown only in the salon.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "56px 20px 40px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "width": "100%"
+     },
+     "blockId": "95b424ed82",
+     "blockName": "Section · Pieces",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "borderBottomColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "dc60b1768f",
+       "blockName": "Split",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "borderRightColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+          "borderRightStyle": "solid",
+          "borderRightWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "22px",
+          "justifyContent": "center",
+          "padding": "80px 72px 80px 96px",
+          "width": "100%"
+         },
+         "blockId": "b54d79bd29",
+         "blockName": "Split · Copy",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Italiana",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "e0f2e6d9ab",
+           "blockName": "Numeral I.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "I.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "fontFamily": "Italiana",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "386426ee5c",
+           "blockName": "Piece I. Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The Vionnet gown",
+           "mobileStyles": {
+            "fontSize": "30px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+            "fontFamily": "Jost",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "440px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "120599dc48",
+           "blockName": "Piece I. Copy",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Bias-cut sandwashed silk, open back, small train. Ivory or ink.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Jost",
+            "fontSize": "11px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "letterSpacing": "0.28em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "f0e766aa8c",
+           "blockName": "Piece I. Price",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Price on request",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "borderRightWidth": "0px",
+          "flexBasis": "auto",
+          "padding": "44px 24px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "padding": "56px 40px"
+         }
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "620px",
+          "overflow": "hidden",
+          "width": "100%"
+         },
+         "blockId": "6e0b3e58c6",
+         "blockName": "Split · Image",
+         "children": [
+          {
+           "attributes": {
+            "alt": "The Vionnet gown",
+            "src": "https://images.unsplash.com/photo-1568252542512-9fe8fe9c87bb?auto=format&fit=crop&q=80&w=1100"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "a7a6c3f3eb",
+           "blockName": "Image · The Vionnet gown",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "filter": "saturate(0.85) contrast(1.02)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "height": "320px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "borderBottomColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "c9b9d02194",
+       "blockName": "Split",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderRightColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+          "borderRightStyle": "solid",
+          "borderRightWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "620px",
+          "overflow": "hidden",
+          "width": "100%"
+         },
+         "blockId": "d81a39a9a5",
+         "blockName": "Split · Image",
+         "children": [
+          {
+           "attributes": {
+            "alt": "The column dress",
+            "src": "https://images.unsplash.com/photo-1495385794356-15371f348c31?auto=format&fit=crop&q=80&w=1100"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "0c8cc709fc",
+           "blockName": "Image · The column dress",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "filter": "saturate(0.85) contrast(1.02)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "borderRightWidth": "0px",
+          "flexBasis": "auto",
+          "height": "320px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "22px",
+          "justifyContent": "center",
+          "padding": "80px 96px 80px 72px",
+          "width": "100%"
+         },
+         "blockId": "f5ff20c8c2",
+         "blockName": "Split · Copy",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Italiana",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "fa6e2a9024",
+           "blockName": "Numeral II.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "II.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "fontFamily": "Italiana",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "5cb970bfb7",
+           "blockName": "Piece II. Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The column dress",
+           "mobileStyles": {
+            "fontSize": "30px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+            "fontFamily": "Jost",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "440px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "da7ce4b675",
+           "blockName": "Piece II. Copy",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Heavy crepe, high neck, cut in one piece from shoulder to floor.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Jost",
+            "fontSize": "11px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "letterSpacing": "0.28em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "56f892d26b",
+           "blockName": "Piece II. Price",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Price on request",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "padding": "44px 24px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "padding": "56px 40px"
+         }
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "borderBottomColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "687b693abc",
+       "blockName": "Split",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "borderRightColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+          "borderRightStyle": "solid",
+          "borderRightWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "22px",
+          "justifyContent": "center",
+          "padding": "80px 72px 80px 96px",
+          "width": "100%"
+         },
+         "blockId": "05a3c06e17",
+         "blockName": "Split · Copy",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Italiana",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "aa73ce34af",
+           "blockName": "Numeral III.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "III.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "fontFamily": "Italiana",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "98a6625915",
+           "blockName": "Piece III. Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The slip",
+           "mobileStyles": {
+            "fontSize": "30px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+            "fontFamily": "Jost",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "440px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "3bf82ae1d0",
+           "blockName": "Piece III. Copy",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Charmeuse with hand-rolled edges. Worn alone or under the smoking jacket.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Jost",
+            "fontSize": "11px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "letterSpacing": "0.28em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "183fe184ec",
+           "blockName": "Piece III. Price",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Price on request",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "borderRightWidth": "0px",
+          "flexBasis": "auto",
+          "padding": "44px 24px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "padding": "56px 40px"
+         }
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "620px",
+          "overflow": "hidden",
+          "width": "100%"
+         },
+         "blockId": "1b3edadb77",
+         "blockName": "Split · Image",
+         "children": [
+          {
+           "attributes": {
+            "alt": "The slip",
+            "src": "https://images.unsplash.com/photo-1526510747491-58f928ec870f?auto=format&fit=crop&q=80&w=1100"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "4aa12501b0",
+           "blockName": "Image · The slip",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "filter": "saturate(0.85) contrast(1.02)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "height": "320px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "stretch",
+        "borderBottomColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "1px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "e16572b5cf",
+       "blockName": "Split",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderRightColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+          "borderRightStyle": "solid",
+          "borderRightWidth": "1px",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": "620px",
+          "overflow": "hidden",
+          "width": "100%"
+         },
+         "blockId": "f4ad5f2738",
+         "blockName": "Split · Image",
+         "children": [
+          {
+           "attributes": {
+            "alt": "The ivory blouse",
+            "src": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&q=80&w=1100"
+           },
+           "baseStyles": {
+            "display": "block",
+            "flexShrink": 0,
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "dea55802ef",
+           "blockName": "Image · The ivory blouse",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "img",
+           "mobileStyles": {},
+           "rawStyles": {
+            "filter": "saturate(0.85) contrast(1.02)"
+           },
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "borderRightWidth": "0px",
+          "flexBasis": "auto",
+          "height": "320px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "22px",
+          "justifyContent": "center",
+          "padding": "80px 96px 80px 72px",
+          "width": "100%"
+         },
+         "blockId": "61b2c41f0c",
+         "blockName": "Split · Copy",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Italiana",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "5e801aac59",
+           "blockName": "Numeral IV.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "IV.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "fontFamily": "Italiana",
+            "fontSize": "40px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "5b47c69513",
+           "blockName": "Piece IV. Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The ivory blouse",
+           "mobileStyles": {
+            "fontSize": "30px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+            "fontFamily": "Jost",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "440px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "d77d970176",
+           "blockName": "Piece IV. Copy",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Matte habotai, mother-of-pearl buttons, made to disappear under tailoring.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Jost",
+            "fontSize": "11px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "letterSpacing": "0.28em",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "40662d3d87",
+           "blockName": "Piece IV. Price",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Price on request",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "padding": "44px 24px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "padding": "56px 40px"
+         }
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "padding": "88px 24px",
+      "width": "100%"
+     },
+     "blockId": "af2653bf64",
+     "blockName": "Section · Note",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+        "fontFamily": "Jost",
+        "fontSize": "15px",
+        "fontWeight": "300",
+        "height": "fit-content",
+        "lineHeight": "1.8",
+        "maxWidth": "520px",
+        "minWidth": "10px",
+        "textAlign": "center",
+        "width": "100%"
+       },
+       "blockId": "8b91231235",
+       "blockName": "Collection Footnote",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Every piece is cut to order in eight to ten weeks. Two fittings at the house, or one by video for returning clients.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "56px 20px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "533a80df6a",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "b939eb8b51",
+       "blockName": "Footer Monogram",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "8bf6f1414f",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "a7f1c7b508",
+       "blockName": "Footer Line 1",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "1c3a773786",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "a0dc843594",
+       "blockName": "Footer Line 2",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "c843544fa8",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "6136bc5449",
+       "blockName": "Footer Enquire",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "9228888678",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "silk_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "silk_styles"
+  }
+ ],
+ "creation": "2026-07-15 16:15:52.097997",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "The Silk collection: bias-cut gowns, column dresses and evening separates, made to order.",
+ "modified": "2026-07-15 16:33:25.504997",
+ "modified_by": "Administrator",
+ "name": "silk_collection",
+ "owner": "Administrator",
+ "page_name": "silk_collection",
+ "page_title": "The Collection · SILK",
+ "preview": "/builder_assets/silk/silk_collection/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/silk/collection",
+ "template_group": "silk"
+}

@@ -1,0 +1,1580 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--33cc44dd-0001-4c01-8c01-ccdd0001bb01, #F1F2EC)",
+    "color": "var(--33cc44dd-0002-4c02-8c02-ccdd0002bb02, #24352B)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Mulish",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "4fc34d6099",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "fe32f5275a",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "1fa3369b58",
+       "blockName": "Nav Pill",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "82b606fcf7",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "nook_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "97dcc4c0f0",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "de57c0831a",
+         "blockName": "Nav · Rooms",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "nook_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "18faa3746b",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "eefbb5317a",
+         "blockName": "Nav · Visit",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "nook_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "91f535e959",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "02d4f46843",
+         "blockName": "Nav CTA",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "nook_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "8132b08c1d",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "750077cbda",
+         "blockName": "Theme Toggle",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "c8baf32f4a",
+           "blockName": "Theme · Sun",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "nook_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "a5a0236231",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "bfc477794e",
+           "blockName": "Theme · Moon",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "nook_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "30b5b09c0a",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "nook_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "86ca4d265b",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "nook_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "62eb358ad2",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "nook_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "height": "100vh",
+      "marginTop": "-64px",
+      "overflow": "hidden",
+      "position": "relative",
+      "width": "100%"
+     },
+     "blockId": "f6a2c9f769",
+     "blockName": "Section · Hero",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--33cc44dd-0006-4c06-8c06-ccdd0006bb06, #E7EAE0)",
+        "borderRadius": "0px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "height": "100%",
+        "left": "0px",
+        "overflow": "hidden",
+        "position": "absolute",
+        "top": "0px",
+        "width": "100%"
+       },
+       "blockId": "a9cf86cd2b",
+       "blockName": "Hero Photo",
+       "children": [
+        {
+         "attributes": {
+          "alt": "Morning light in the Garden Room",
+          "src": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=2400"
+         },
+         "baseStyles": {
+          "display": "block",
+          "flexShrink": 0,
+          "height": "100%",
+          "objectFit": "cover",
+          "width": "100%"
+         },
+         "blockId": "3047c8f8af",
+         "blockName": "Hero Photo · Image",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {},
+         "rawStyles": {
+          "transition": "transform 1.1s cubic-bezier(0.22, 1, 0.36, 1)"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [
+        "nook-photo"
+       ],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "height": "100%",
+        "left": "0px",
+        "position": "absolute",
+        "top": "0px",
+        "width": "100%",
+        "zIndex": "1"
+       },
+       "blockId": "949566d465",
+       "blockName": "Overlay Gradient",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {
+        "background": "linear-gradient(180deg, rgba(12,18,14,0.35) 0%, rgba(12,18,14,0.05) 40%, rgba(12,18,14,0.72) 100%)"
+       },
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "bottom": "56px",
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "18px",
+        "left": "48px",
+        "maxWidth": "720px",
+        "position": "absolute",
+        "zIndex": "2"
+       },
+       "blockId": "a1073b692d",
+       "blockName": "Hero Copy",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--33cc44dd-0005-4c05-8c05-ccdd0005bb05, #A8894F)",
+          "fontFamily": "Mulish",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.2em",
+          "lineHeight": "1.5",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "6e42403623",
+         "blockName": "Hero Eyebrow",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "A six-room stay - Alibaug",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "#F1F2EC",
+          "fontFamily": "Marcellus",
+          "fontSize": "76px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "letterSpacing": "0.01em",
+          "lineHeight": "1.1",
+          "width": "fit-content"
+         },
+         "blockId": "128fce26b7",
+         "blockName": "Hero Headline",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "h1",
+         "innerHTML": "Come for a night.<br>Unpack like it's a month.",
+         "mobileStyles": {
+          "fontSize": "36px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "fontSize": "56px"
+         }
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "#D8DDD2",
+          "fontFamily": "Mulish",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.75",
+          "maxWidth": "440px",
+          "width": "fit-content"
+         },
+         "blockId": "f1d4700cc1",
+         "blockName": "Hero Sub",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "An old farmhouse rebuilt around a courtyard, ten minutes from the jetty.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "bottom": "28px",
+        "left": "16px",
+        "right": "16px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "bottom": "60px",
+        "position": "absolute",
+        "right": "48px",
+        "zIndex": "2"
+       },
+       "blockId": "920218d49c",
+       "blockName": "Hero Scroll Hint",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "#F1F2EC",
+          "fontFamily": "Mulish",
+          "fontSize": "10px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.2em",
+          "lineHeight": "1.5",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "1aca2427aa",
+         "blockName": "Scroll Hint",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Scroll ↓",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "display": "none"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "marginTop": "-54px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "height": "88vh",
+      "overflow": "hidden",
+      "position": "relative",
+      "width": "100%"
+     },
+     "blockId": "66327d9fb3",
+     "blockName": "Chapter · The Garden Room",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--33cc44dd-0006-4c06-8c06-ccdd0006bb06, #E7EAE0)",
+        "borderRadius": "0px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "height": "100%",
+        "left": "0px",
+        "overflow": "hidden",
+        "position": "absolute",
+        "top": "0px",
+        "width": "100%"
+       },
+       "blockId": "9d031296f9",
+       "blockName": "Chapter Photo · The Garden Room",
+       "children": [
+        {
+         "attributes": {
+          "alt": "The Garden Room",
+          "loading": "lazy",
+          "src": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=2200"
+         },
+         "baseStyles": {
+          "display": "block",
+          "flexShrink": 0,
+          "height": "100%",
+          "objectFit": "cover",
+          "width": "100%"
+         },
+         "blockId": "500e2fe911",
+         "blockName": "Chapter Photo · The Garden Room · Image",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {},
+         "rawStyles": {
+          "transition": "transform 1.1s cubic-bezier(0.22, 1, 0.36, 1)"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [
+        "nook-photo"
+       ],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "height": "100%",
+        "left": "0px",
+        "position": "absolute",
+        "top": "0px",
+        "width": "100%",
+        "zIndex": "1"
+       },
+       "blockId": "a08eeb5a0d",
+       "blockName": "Overlay Gradient",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {
+        "background": "linear-gradient(180deg, rgba(12,18,14,0.35) 0%, rgba(12,18,14,0.05) 40%, rgba(12,18,14,0.72) 100%)"
+       },
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "#F1F2EC",
+        "fontFamily": "Marcellus",
+        "fontSize": "120px",
+        "height": "fit-content",
+        "left": "auto",
+        "letterSpacing": "0.1em",
+        "lineHeight": "1",
+        "opacity": "0.85",
+        "position": "absolute",
+        "right": "40px",
+        "top": "36px",
+        "width": "fit-content",
+        "zIndex": "2"
+       },
+       "blockId": "417d493f13",
+       "blockName": "Chapter Numeral",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "I",
+       "mobileStyles": {
+        "fontSize": "64px",
+        "top": "20px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--33cc44dd-0001-4c01-8c01-ccdd0001bb01, #F1F2EC)",
+        "borderRadius": "16px",
+        "bottom": "40px",
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "12px",
+        "left": "40px",
+        "maxWidth": "460px",
+        "padding": "32px 34px",
+        "position": "absolute",
+        "right": "auto",
+        "zIndex": "2"
+       },
+       "blockId": "f4785729fb",
+       "blockName": "Chapter Card",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "baseline",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "16px",
+          "justifyContent": "space-between",
+          "width": "100%"
+         },
+         "blockId": "7a59832829",
+         "blockName": "Card Top Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--33cc44dd-0002-4c02-8c02-ccdd0002bb02, #24352B)",
+            "fontFamily": "Marcellus",
+            "fontSize": "34px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.01em",
+            "lineHeight": "1.1",
+            "width": "fit-content"
+           },
+           "blockId": "d450d1144c",
+           "blockName": "Card Name",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h3",
+           "innerHTML": "The Garden Room",
+           "mobileStyles": {
+            "fontSize": "26px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--33cc44dd-0005-4c05-8c05-ccdd0005bb05, #A8894F)",
+            "flexShrink": 0,
+            "fontFamily": "Mulish",
+            "fontSize": "10px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.5",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "2063de5330",
+           "blockName": "Card Rate",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "₹9,500 / night",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--33cc44dd-0003-4c03-8c03-ccdd0003bb03, #6F7D71)",
+          "fontFamily": "Mulish",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.75",
+          "width": "fit-content"
+         },
+         "blockId": "28389c4d2c",
+         "blockName": "Card Blurb",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Ground floor, opening onto the frangipani courtyard. Cool tile, a writing desk, and birdsong instead of an alarm.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "rooms"
+         },
+         "baseStyles": {
+          "color": "var(--33cc44dd-0005-4c05-8c05-ccdd0005bb05, #A8894F)",
+          "fontFamily": "Mulish",
+          "fontSize": "12px",
+          "fontWeight": "800",
+          "height": "fit-content",
+          "letterSpacing": "0.1em",
+          "lineHeight": "1.4",
+          "marginTop": "6px",
+          "textDecoration": "none",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "9a922e8319",
+         "blockName": "Card Link",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "See this room →",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:color": "var(--33cc44dd-0002-4c02-8c02-ccdd0002bb02, #24352B)",
+          "transition": "color 0.15s ease-out"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "bottom": "16px",
+        "left": "16px",
+        "maxWidth": "none",
+        "padding": "22px",
+        "right": "16px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "height": "70vh"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "height": "88vh",
+      "overflow": "hidden",
+      "position": "relative",
+      "width": "100%"
+     },
+     "blockId": "63b7f75550",
+     "blockName": "Chapter · The Glass Suite",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--33cc44dd-0006-4c06-8c06-ccdd0006bb06, #E7EAE0)",
+        "borderRadius": "0px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "height": "100%",
+        "left": "0px",
+        "overflow": "hidden",
+        "position": "absolute",
+        "top": "0px",
+        "width": "100%"
+       },
+       "blockId": "6f19e3e0f6",
+       "blockName": "Chapter Photo · The Glass Suite",
+       "children": [
+        {
+         "attributes": {
+          "alt": "The Glass Suite",
+          "loading": "lazy",
+          "src": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&q=80&w=2200"
+         },
+         "baseStyles": {
+          "display": "block",
+          "flexShrink": 0,
+          "height": "100%",
+          "objectFit": "cover",
+          "width": "100%"
+         },
+         "blockId": "d5fbea023c",
+         "blockName": "Chapter Photo · The Glass Suite · Image",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {},
+         "rawStyles": {
+          "transition": "transform 1.1s cubic-bezier(0.22, 1, 0.36, 1)"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [
+        "nook-photo"
+       ],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "height": "100%",
+        "left": "0px",
+        "position": "absolute",
+        "top": "0px",
+        "width": "100%",
+        "zIndex": "1"
+       },
+       "blockId": "4246cdc7c7",
+       "blockName": "Overlay Gradient",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {
+        "background": "linear-gradient(180deg, rgba(12,18,14,0.35) 0%, rgba(12,18,14,0.05) 40%, rgba(12,18,14,0.72) 100%)"
+       },
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "#F1F2EC",
+        "fontFamily": "Marcellus",
+        "fontSize": "120px",
+        "height": "fit-content",
+        "left": "40px",
+        "letterSpacing": "0.1em",
+        "lineHeight": "1",
+        "opacity": "0.85",
+        "position": "absolute",
+        "right": "auto",
+        "top": "36px",
+        "width": "fit-content",
+        "zIndex": "2"
+       },
+       "blockId": "5f15554766",
+       "blockName": "Chapter Numeral",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "II",
+       "mobileStyles": {
+        "fontSize": "64px",
+        "top": "20px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--33cc44dd-0001-4c01-8c01-ccdd0001bb01, #F1F2EC)",
+        "borderRadius": "16px",
+        "bottom": "40px",
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "12px",
+        "left": "auto",
+        "maxWidth": "460px",
+        "padding": "32px 34px",
+        "position": "absolute",
+        "right": "40px",
+        "zIndex": "2"
+       },
+       "blockId": "c49f1b36ce",
+       "blockName": "Chapter Card",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "baseline",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "16px",
+          "justifyContent": "space-between",
+          "width": "100%"
+         },
+         "blockId": "39f211e4b7",
+         "blockName": "Card Top Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--33cc44dd-0002-4c02-8c02-ccdd0002bb02, #24352B)",
+            "fontFamily": "Marcellus",
+            "fontSize": "34px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.01em",
+            "lineHeight": "1.1",
+            "width": "fit-content"
+           },
+           "blockId": "06a9113ec4",
+           "blockName": "Card Name",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h3",
+           "innerHTML": "The Glass Suite",
+           "mobileStyles": {
+            "fontSize": "26px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--33cc44dd-0005-4c05-8c05-ccdd0005bb05, #A8894F)",
+            "flexShrink": 0,
+            "fontFamily": "Mulish",
+            "fontSize": "10px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.5",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "343b47db63",
+           "blockName": "Card Rate",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "₹14,000 / night",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--33cc44dd-0003-4c03-8c03-ccdd0003bb03, #6F7D71)",
+          "fontFamily": "Mulish",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.75",
+          "width": "fit-content"
+         },
+         "blockId": "a7e524b0fa",
+         "blockName": "Card Blurb",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "A corner of glass above the treeline. Blackout blinds for late mornings, a tub angled at the sunset.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "rooms"
+         },
+         "baseStyles": {
+          "color": "var(--33cc44dd-0005-4c05-8c05-ccdd0005bb05, #A8894F)",
+          "fontFamily": "Mulish",
+          "fontSize": "12px",
+          "fontWeight": "800",
+          "height": "fit-content",
+          "letterSpacing": "0.1em",
+          "lineHeight": "1.4",
+          "marginTop": "6px",
+          "textDecoration": "none",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "14336eef4e",
+         "blockName": "Card Link",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "See this room →",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:color": "var(--33cc44dd-0002-4c02-8c02-ccdd0002bb02, #24352B)",
+          "transition": "color 0.15s ease-out"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "bottom": "16px",
+        "left": "16px",
+        "maxWidth": "none",
+        "padding": "22px",
+        "right": "16px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "height": "70vh"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "height": "88vh",
+      "overflow": "hidden",
+      "position": "relative",
+      "width": "100%"
+     },
+     "blockId": "935b8b298f",
+     "blockName": "Chapter · The Pool House",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--33cc44dd-0006-4c06-8c06-ccdd0006bb06, #E7EAE0)",
+        "borderRadius": "0px",
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "height": "100%",
+        "left": "0px",
+        "overflow": "hidden",
+        "position": "absolute",
+        "top": "0px",
+        "width": "100%"
+       },
+       "blockId": "f1ecb743a9",
+       "blockName": "Chapter Photo · The Pool House",
+       "children": [
+        {
+         "attributes": {
+          "alt": "The Pool House",
+          "loading": "lazy",
+          "src": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2200"
+         },
+         "baseStyles": {
+          "display": "block",
+          "flexShrink": 0,
+          "height": "100%",
+          "objectFit": "cover",
+          "width": "100%"
+         },
+         "blockId": "48d12f9010",
+         "blockName": "Chapter Photo · The Pool House · Image",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {},
+         "rawStyles": {
+          "transition": "transform 1.1s cubic-bezier(0.22, 1, 0.36, 1)"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [
+        "nook-photo"
+       ],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "height": "100%",
+        "left": "0px",
+        "position": "absolute",
+        "top": "0px",
+        "width": "100%",
+        "zIndex": "1"
+       },
+       "blockId": "1a9ef07024",
+       "blockName": "Overlay Gradient",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {
+        "background": "linear-gradient(180deg, rgba(12,18,14,0.35) 0%, rgba(12,18,14,0.05) 40%, rgba(12,18,14,0.72) 100%)"
+       },
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "#F1F2EC",
+        "fontFamily": "Marcellus",
+        "fontSize": "120px",
+        "height": "fit-content",
+        "left": "auto",
+        "letterSpacing": "0.1em",
+        "lineHeight": "1",
+        "opacity": "0.85",
+        "position": "absolute",
+        "right": "40px",
+        "top": "36px",
+        "width": "fit-content",
+        "zIndex": "2"
+       },
+       "blockId": "8d3e06c7df",
+       "blockName": "Chapter Numeral",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "III",
+       "mobileStyles": {
+        "fontSize": "64px",
+        "top": "20px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "backgroundColor": "var(--33cc44dd-0001-4c01-8c01-ccdd0001bb01, #F1F2EC)",
+        "borderRadius": "16px",
+        "bottom": "40px",
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "12px",
+        "left": "40px",
+        "maxWidth": "460px",
+        "padding": "32px 34px",
+        "position": "absolute",
+        "right": "auto",
+        "zIndex": "2"
+       },
+       "blockId": "7ec6cb6285",
+       "blockName": "Chapter Card",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "baseline",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "16px",
+          "justifyContent": "space-between",
+          "width": "100%"
+         },
+         "blockId": "93066c868c",
+         "blockName": "Card Top Row",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--33cc44dd-0002-4c02-8c02-ccdd0002bb02, #24352B)",
+            "fontFamily": "Marcellus",
+            "fontSize": "34px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.01em",
+            "lineHeight": "1.1",
+            "width": "fit-content"
+           },
+           "blockId": "cae7a73c15",
+           "blockName": "Card Name",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "h3",
+           "innerHTML": "The Pool House",
+           "mobileStyles": {
+            "fontSize": "26px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--33cc44dd-0005-4c05-8c05-ccdd0005bb05, #A8894F)",
+            "flexShrink": 0,
+            "fontFamily": "Mulish",
+            "fontSize": "10px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1.5",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "dc05dee85d",
+           "blockName": "Card Rate",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "₹18,500 / night",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--33cc44dd-0003-4c03-8c03-ccdd0003bb03, #6F7D71)",
+          "fontFamily": "Mulish",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.75",
+          "width": "fit-content"
+         },
+         "blockId": "4380636796",
+         "blockName": "Card Blurb",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Your own slice of water and a veranda big enough to argue about breakfast on. The whole family fits.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "rooms"
+         },
+         "baseStyles": {
+          "color": "var(--33cc44dd-0005-4c05-8c05-ccdd0005bb05, #A8894F)",
+          "fontFamily": "Mulish",
+          "fontSize": "12px",
+          "fontWeight": "800",
+          "height": "fit-content",
+          "letterSpacing": "0.1em",
+          "lineHeight": "1.4",
+          "marginTop": "6px",
+          "textDecoration": "none",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "0c3f86248c",
+         "blockName": "Card Link",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "See this room →",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:color": "var(--33cc44dd-0002-4c02-8c02-ccdd0002bb02, #24352B)",
+          "transition": "color 0.15s ease-out"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "bottom": "16px",
+        "left": "16px",
+        "maxWidth": "none",
+        "padding": "22px",
+        "right": "16px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "height": "70vh"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "24px",
+      "padding": "110px 24px",
+      "width": "100%"
+     },
+     "blockId": "ec65de863d",
+     "blockName": "Section · Outro",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--33cc44dd-0005-4c05-8c05-ccdd0005bb05, #A8894F)",
+        "fontFamily": "Mulish",
+        "fontSize": "11px",
+        "fontWeight": "700",
+        "height": "fit-content",
+        "letterSpacing": "0.2em",
+        "lineHeight": "1.5",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "9c6e6d74cf",
+       "blockName": "Outro Label",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Around the house",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--33cc44dd-0002-4c02-8c02-ccdd0002bb02, #24352B)",
+        "fontFamily": "Marcellus",
+        "fontSize": "52px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "letterSpacing": "0.01em",
+        "lineHeight": "1.1",
+        "textAlign": "center",
+        "width": "fit-content"
+       },
+       "blockId": "c70c6a9ee3",
+       "blockName": "Outro Line",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "One long table, a spring-fed pool,<br>and nothing that beeps.",
+       "mobileStyles": {
+        "fontSize": "30px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--33cc44dd-0003-4c03-8c03-ccdd0003bb03, #6F7D71)",
+        "fontFamily": "Mulish",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "height": "fit-content",
+        "lineHeight": "1.75",
+        "maxWidth": "460px",
+        "textAlign": "center",
+        "width": "fit-content"
+       },
+       "blockId": "80a292f486",
+       "blockName": "Outro Text",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Breakfast till noon, bicycles by the gate, herons at dawn. The rest is up to the creek.",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {
+        "href": "visit"
+       },
+       "baseStyles": {
+        "alignItems": "center",
+        "backgroundColor": "var(--33cc44dd-0002-4c02-8c02-ccdd0002bb02, #24352B)",
+        "borderRadius": "100px",
+        "color": "var(--33cc44dd-0001-4c01-8c01-ccdd0001bb01, #F1F2EC)",
+        "display": "inline-flex",
+        "flexShrink": 0,
+        "fontFamily": "Mulish",
+        "fontSize": "14px",
+        "fontWeight": "700",
+        "height": "fit-content",
+        "justifyContent": "center",
+        "letterSpacing": "0.04em",
+        "lineHeight": "1",
+        "padding": "17px 30px",
+        "textDecoration": "none",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "cd5e9940a4",
+       "blockName": "Outro CTA",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "a",
+       "innerHTML": "Reserve a room",
+       "mobileStyles": {},
+       "rawStyles": {
+        "hover:background-color": "var(--33cc44dd-0005-4c05-8c05-ccdd0005bb05, #A8894F)",
+        "transition": "background-color 0.2s ease-out"
+       },
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "64px 16px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "ec52fd6665",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "4a52cd380a",
+       "blockName": "Footer Top",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "08a48b4d8a",
+         "blockName": "Footer Brand Col",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "24427b17a3",
+           "blockName": "Footer Line",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "nook_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "e7fbf6772e",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "d03f7e7410",
+           "blockName": "Footer Address",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "nook_footer",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "8e38d39df8",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "nook_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "417746891f",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "9b4c0604f4",
+         "blockName": "Footer CTA",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "nook_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "83a564b975",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "nook_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "ecda9efdcd",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "a58d08728d",
+       "blockName": "Footer Bottom",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "453b124769",
+         "blockName": "Footer Copyright",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "nook_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "f3e9822e97",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "4aafbab501",
+         "blockName": "Footer Links",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "nook_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "0eb79eb061",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "04ed086e6c",
+         "blockName": "Footer Note",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "nook_footer",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "bd7d93d338",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "nook_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "e6f95e5c2d",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "nook_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "nook_styles"
+  }
+ ],
+ "creation": "2026-07-14 16:14:29.927551",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Nook is a six-room farmhouse stay by the creek in Alibaug.",
+ "modified": "2026-07-14 21:27:36.348395",
+ "modified_by": "Administrator",
+ "name": "nook_home",
+ "owner": "Administrator",
+ "page_name": "nook_home",
+ "page_title": "Nook - A six-room stay",
+ "preview": "/builder_assets/nook/nook_home/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/nook/home",
+ "template_group": "nook"
+}

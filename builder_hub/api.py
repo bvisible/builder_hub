@@ -11,6 +11,8 @@ import frappe
 from frappe.utils import get_url
 from frappe.utils.caching import redis_cache
 
+from builder_hub.assets import get_thumbnail_url
+
 
 @frappe.whitelist(allow_guest=True)
 def get_catalog() -> list[dict]:
@@ -32,6 +34,8 @@ def _get_catalog(base_url: str) -> list[dict]:
 		ignore_permissions=True,
 	)
 	for p in pages:
+		# the picker shows cards ~220px wide; the full 2560px preview stays for fallbacks
+		p.thumbnail = abs_url(get_thumbnail_url(p.preview))
 		p.preview = abs_url(p.preview)
 		# absolute URL of the published page on this hub (opened in a new tab as
 		# the template preview). abs_url only handles asset paths, so build it here.
@@ -50,12 +54,19 @@ def _get_catalog(base_url: str) -> list[dict]:
 			pg.get("name"): i for i, pg in enumerate(manifest.get("pages") or []) if isinstance(pg, dict)
 		}
 		group_pages.sort(key=lambda p: (order.get(p.name, len(order)), p.page_title or ""))
+		manifest_preview = manifest.get("preview")
 		groups.append(
 			{
 				"name": group,
 				"title": manifest.get("title") or group.replace("_", " ").title(),
 				"description": manifest.get("description") or "",
-				"preview": abs_url(manifest.get("preview")) or group_pages[0].preview,
+				"categories": manifest.get("categories") or [],
+				"preview": abs_url(manifest_preview) or group_pages[0].preview,
+				"thumbnail": (
+					abs_url(get_thumbnail_url(manifest_preview))
+					if manifest_preview
+					else group_pages[0].thumbnail
+				),
 				"order": manifest.get("order"),
 				"pages": group_pages,
 				# bvisible: the template's header/footer design, applied by the
@@ -104,22 +115,7 @@ def _get_template_bundle(page: str, base_url: str) -> dict:
 			}
 		)
 
-	variables = [
-		{
-			"doctype": "Builder Variable",
-			"name": v.name,
-			"variable_name": v.variable_name,
-			"type": v.type,
-			"value": v.value,
-			"dark_value": v.dark_value,
-			"group": v.group,
-		}
-		for v in frappe.get_all(
-			"Builder Variable",
-			filters={"group": page_doc.template_group},
-			fields=["name", "variable_name", "type", "value", "dark_value", "group"],
-		)
-	]
+	variables = get_group_variables(page_doc.template_group)
 
 	client_scripts = [
 		{
@@ -167,6 +163,33 @@ def _get_template_bundle(page: str, base_url: str) -> dict:
 	}
 
 
+def get_group_variables(group: str) -> list[dict]:
+	"""Rows for the group's design tokens, from whichever doctype this site has
+	(Builder Variable was renamed to Builder Token). Emitted under the old wire
+	name so pre-rename consumers import them as-is; post-rename builders
+	normalize the doctype on their side."""
+	if frappe.db.exists("DocType", "Builder Token"):
+		doctype, name_field = "Builder Token", "token_name"
+	else:
+		doctype, name_field = "Builder Variable", "variable_name"
+	return [
+		{
+			"doctype": "Builder Variable",
+			"name": v.name,
+			"variable_name": v.get(name_field),
+			"type": v.type,
+			"value": v.value,
+			"dark_value": v.dark_value,
+			"group": v.group,
+		}
+		for v in frappe.get_all(
+			doctype,
+			filters={"group": group},
+			fields=["name", name_field, "type", "value", "dark_value", "group"],
+		)
+	]
+
+
 def abs_url(path: str | None) -> str | None:
 	if isinstance(path, str) and (path.startswith("/builder_assets/") or path.startswith("/files/")):
 		return get_url() + path
@@ -181,3 +204,19 @@ def _absolutize(obj):
 	s = s.replace('"/builder_assets/', f'"{base}/builder_assets/')
 	s = s.replace('"/files/', f'"{base}/files/')
 	return frappe.parse_json(s)
+
+
+def allow_template_embedding(response=None, request=None):
+	"""Serve template pages with a frame-ancestors CSP so any builder site can
+	embed them in the picker's inline preview. Browsers ignore X-Frame-Options
+	(added by the Frappe Cloud proxy as sameorigin) when frame-ancestors is set.
+	"""
+	if request is None or response is None:
+		return
+	if request.path.startswith("/templates/"):
+		existing = response.headers.get("Content-Security-Policy", "")
+		directives = [d.strip() for d in existing.split(";") if d.strip()]
+		directives = [d for d in directives if not d.startswith("frame-ancestors")]
+		directives.append("frame-ancestors *")
+		response.headers["Content-Security-Policy"] = "; ".join(directives)
+		response.headers.pop("X-Frame-Options", None)

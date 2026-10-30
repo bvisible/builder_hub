@@ -1,0 +1,1016 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--5d317b1d-34c4-4cfa-8601-e01c32db42a9, #0D0B09)",
+    "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Jost",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "dfc543ac0c",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "44320b37e4",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "a0116fd82c",
+       "blockName": "Monogram",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "8e20f930aa",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "37471a63a3",
+       "blockName": "Nav Links",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "5b39f6020c",
+         "blockName": "Collection",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "silk_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "3b4728991a",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "43881cc160",
+         "blockName": "House",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "silk_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "028f69d4a5",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "aa15684072",
+         "blockName": "Appointments",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "silk_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "2ecc342c02",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "a0d3b09a0c",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "silk_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "stretch",
+      "borderBottomColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+      "borderBottomStyle": "solid",
+      "borderBottomWidth": "1px",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexShrink": 0,
+      "width": "100%"
+     },
+     "blockId": "2aa6e06269",
+     "blockName": "Split",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "borderRightColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+        "borderRightStyle": "solid",
+        "borderRightWidth": "1px",
+        "display": "flex",
+        "flexBasis": "0px",
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "height": "640px",
+        "overflow": "hidden",
+        "width": "100%"
+       },
+       "blockId": "df43aab8d3",
+       "blockName": "Split · Image",
+       "children": [
+        {
+         "attributes": {
+          "alt": "Vera Lin at the house",
+          "src": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&q=80&w=1100"
+         },
+         "baseStyles": {
+          "display": "block",
+          "flexShrink": 0,
+          "height": "100%",
+          "objectFit": "cover",
+          "width": "100%"
+         },
+         "blockId": "449381e2f9",
+         "blockName": "Image · Vera Lin at the hous",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {},
+         "rawStyles": {
+          "filter": "saturate(0.85) contrast(1.02)"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "borderRightWidth": "0px",
+        "flexBasis": "auto",
+        "height": "320px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexBasis": "0px",
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "gap": "22px",
+        "justifyContent": "center",
+        "padding": "80px 96px 80px 72px",
+        "width": "100%"
+       },
+       "blockId": "b416030880",
+       "blockName": "Split · Copy",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+          "fontFamily": "Jost",
+          "fontSize": "11px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "letterSpacing": "0.28em",
+          "lineHeight": "1.5",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "c66a740081",
+         "blockName": "House Kicker",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "The house",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+          "fontFamily": "Italiana",
+          "fontSize": "52px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.05",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "9270c0b826",
+         "blockName": "House Headline",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Founded on a<br>kitchen table, 1998.",
+         "mobileStyles": {
+          "fontSize": "34px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+          "fontFamily": "Jost",
+          "fontSize": "15px",
+          "fontWeight": "300",
+          "height": "fit-content",
+          "lineHeight": "1.8",
+          "maxWidth": "440px",
+          "minWidth": "10px",
+          "width": "100%"
+         },
+         "blockId": "4da31bc4e0",
+         "blockName": "House Para 1",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Vera Lin cut her first gown on a kitchen table in Shoreditch. Twenty-eight years later the house dresses opera openings and quiet weddings alike, and still cuts every pattern by hand.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+          "fontFamily": "Jost",
+          "fontSize": "15px",
+          "fontWeight": "300",
+          "height": "fit-content",
+          "lineHeight": "1.8",
+          "maxWidth": "440px",
+          "minWidth": "10px",
+          "width": "100%"
+         },
+         "blockId": "a8dc3d9a81",
+         "blockName": "House Para 2",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "We are deliberately small: one cutter, two seamstresses, a bookkeeper who has been here since the beginning.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexBasis": "auto",
+        "padding": "44px 24px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "padding": "56px 40px"
+       }
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "flexDirection": "column"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "stretch",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "980px",
+      "padding": "100px 24px",
+      "width": "100%"
+     },
+     "blockId": "b7953b4838",
+     "blockName": "Section · Principles",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+        "fontFamily": "Jost",
+        "fontSize": "11px",
+        "fontWeight": "500",
+        "height": "fit-content",
+        "letterSpacing": "0.28em",
+        "lineHeight": "1.5",
+        "minWidth": "10px",
+        "textAlign": "center",
+        "textTransform": "uppercase",
+        "width": "100%"
+       },
+       "blockId": "86cecc0240",
+       "blockName": "Principles Kicker",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "What we hold to",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "marginTop": "30px",
+        "width": "100%"
+       },
+       "blockId": "bf7f0354de",
+       "blockName": "Principle Rows",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTopColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "36px",
+          "padding": "26px 0",
+          "width": "100%"
+         },
+         "blockId": "e3c219847f",
+         "blockName": "Principle I",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Italiana",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "be671a7574",
+           "blockName": "Numeral I.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "I.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "fontFamily": "Italiana",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "35abe0174d",
+           "blockName": "Cloth first",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Cloth first",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+            "fontFamily": "Jost",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "420px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "5284e7c8f8",
+           "blockName": "A gown starts with how t",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "A gown starts with how the silk falls, not with a sketch.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "8px",
+          "padding": "20px 0"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTopColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "36px",
+          "padding": "26px 0",
+          "width": "100%"
+         },
+         "blockId": "a970c962d4",
+         "blockName": "Principle II",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Italiana",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "3455e2a91c",
+           "blockName": "Numeral II.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "II.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "fontFamily": "Italiana",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "6e6592cb42",
+           "blockName": "One client at a time",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "One client at a time",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+            "fontFamily": "Jost",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "420px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "d7254cf699",
+           "blockName": "The salon takes a single",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The salon takes a single booking per evening. Yours.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "8px",
+          "padding": "20px 0"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
+          "borderTopColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "36px",
+          "padding": "26px 0",
+          "width": "100%"
+         },
+         "blockId": "94e07a9376",
+         "blockName": "Principle III",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+            "fontFamily": "Italiana",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "letterSpacing": "0.2em",
+            "lineHeight": "1",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "ff6102e6f7",
+           "blockName": "Numeral III.",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "III.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+            "fontFamily": "Italiana",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "7d135721ae",
+           "blockName": "Made to be re-worn",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Made to be re-worn",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+            "fontFamily": "Jost",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "height": "fit-content",
+            "lineHeight": "1.8",
+            "maxWidth": "420px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "7d00c789dc",
+           "blockName": "We alter our own gowns f",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "We alter our own gowns for life, without charge.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "alignItems": "flex-start",
+          "flexDirection": "column",
+          "gap": "8px",
+          "padding": "20px 0"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "56px 20px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "stretch",
+      "borderBottomColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+      "borderBottomStyle": "solid",
+      "borderBottomWidth": "1px",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexShrink": 0,
+      "width": "100%"
+     },
+     "blockId": "b0c41e1e47",
+     "blockName": "Split",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "borderRightColor": "var(--fc2eed2f-911f-4bb6-8a70-d92b464e48e7, #2E2820)",
+        "borderRightStyle": "solid",
+        "borderRightWidth": "1px",
+        "display": "flex",
+        "flexBasis": "0px",
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "gap": "22px",
+        "justifyContent": "center",
+        "padding": "80px 72px 80px 96px",
+        "width": "100%"
+       },
+       "blockId": "7680fa92ee",
+       "blockName": "Split · Copy",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+          "fontFamily": "Italiana",
+          "fontSize": "22px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "letterSpacing": "0.2em",
+          "lineHeight": "1",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "4a2c0c76b6",
+         "blockName": "Numeral IV.",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "IV.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+          "fontFamily": "Italiana",
+          "fontSize": "44px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.05",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "6e3322e7fd",
+         "blockName": "Atelier Title",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "The atelier",
+         "mobileStyles": {
+          "fontSize": "32px"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--2ff802d6-314e-475f-816d-44ec4a44f81e, #A2937D)",
+          "fontFamily": "Jost",
+          "fontSize": "15px",
+          "fontWeight": "300",
+          "height": "fit-content",
+          "lineHeight": "1.8",
+          "maxWidth": "440px",
+          "minWidth": "10px",
+          "width": "100%"
+         },
+         "blockId": "6b7399218e",
+         "blockName": "Atelier Copy",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Above the salon: two long benches, a wall of thread, and the pattern archive going back to the first gown.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "appointments"
+         },
+         "baseStyles": {
+          "borderBottomColor": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+          "borderBottomStyle": "solid",
+          "borderBottomWidth": "1px",
+          "color": "var(--c5a791e3-0143-4eab-8cdb-df8b14b5e4d6, #C9A15E)",
+          "fontFamily": "Jost",
+          "fontSize": "11px",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "letterSpacing": "0.28em",
+          "lineHeight": "2.2",
+          "minWidth": "10px",
+          "paddingBottom": "2px",
+          "textDecoration": "none",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "a322ec3613",
+         "blockName": "Visit by appointment",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "Visit by appointment",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:border-bottom-color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+          "hover:color": "var(--8d58d1f0-bd4a-46f9-89ff-a5d98e42167e, #F2EBDD)",
+          "transition": "color 0.2s ease-out, border-bottom-color 0.2s ease-out"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "borderRightWidth": "0px",
+        "flexBasis": "auto",
+        "padding": "44px 24px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "padding": "56px 40px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexBasis": "0px",
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "height": "560px",
+        "overflow": "hidden",
+        "width": "100%"
+       },
+       "blockId": "cbaa63c99e",
+       "blockName": "Split · Image",
+       "children": [
+        {
+         "attributes": {
+          "alt": "Cloth resting in the atelier",
+          "src": "https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&q=80&w=1100"
+         },
+         "baseStyles": {
+          "display": "block",
+          "flexShrink": 0,
+          "height": "100%",
+          "objectFit": "cover",
+          "width": "100%"
+         },
+         "blockId": "ca3e940b93",
+         "blockName": "Image · Cloth resting in the",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "img",
+         "mobileStyles": {},
+         "rawStyles": {
+          "filter": "saturate(0.85) contrast(1.02)"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexBasis": "auto",
+        "height": "320px",
+        "width": "100%"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "flexDirection": "column"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "a78dfd5891",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "92e62f2c6a",
+       "blockName": "Footer Monogram",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "8bf6f1414f",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "d65d4fb8fa",
+       "blockName": "Footer Line 1",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "1c3a773786",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "eb89f915cb",
+       "blockName": "Footer Line 2",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "c843544fa8",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "aff0e81f48",
+       "blockName": "Footer Enquire",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "silk_footer",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "9228888678",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "silk_footer",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "silk_styles"
+  }
+ ],
+ "creation": "2026-07-15 16:15:52.097997",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "The story of Silk: founded in 1998, one cutter, every pattern drawn by hand.",
+ "modified": "2026-07-15 16:33:25.504997",
+ "modified_by": "Administrator",
+ "name": "silk_house",
+ "owner": "Administrator",
+ "page_name": "silk_house",
+ "page_title": "The House · SILK",
+ "preview": "/builder_assets/silk/silk_house/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/silk/house",
+ "template_group": "silk"
+}

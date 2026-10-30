@@ -1,0 +1,20 @@
+{
+ "categories": [
+  "Marketing",
+  "Portfolio"
+ ],
+ "description": "A dark music artist site with poster covers and a tour list.",
+ "order": 12,
+ "pages": [
+  {
+   "name": "verge_home"
+  },
+  {
+   "name": "verge_shows"
+  },
+  {
+   "name": "verge_about"
+  }
+ ],
+ "title": "Verge"
+}

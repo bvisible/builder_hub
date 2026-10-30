@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Portfolio"
+ ],
+ "description": "A dark photography portfolio built as a gapless photo mosaic wall.",
+ "order": 18,
+ "pages": [
+  {
+   "name": "ridge_home"
+  },
+  {
+   "name": "ridge_series"
+  },
+  {
+   "name": "ridge_info"
+  }
+ ],
+ "title": "Ridge"
+}

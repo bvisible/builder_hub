@@ -1,0 +1,1306 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--ca18c660-50b5-4bd2-8028-1813209680e3, #FBF8F2)",
+    "color": "var(--ba2386cf-1dc6-4b2e-8caf-102a3e808bbd, #2B2620)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Newsreader",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "6ee66b3612",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "eecb86c2d4",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "705ad79db5",
+       "blockName": "Head Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "61f3998b36",
+         "blockName": "Running Head",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "margin_head",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "f4f5142091",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "6cd938b295",
+         "blockName": "Head Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "db5e63c4a4",
+           "blockName": "Essays",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "margin_head",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "48dc362a02",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "075c96e071",
+           "blockName": "About",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "margin_head",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "7e54dbf39e",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "a12e1b2c56",
+           "blockName": "Theme Toggle",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "740020d5d9",
+             "blockName": "Theme · ti-sun",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "margin_head",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "b93f07addb",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "b4e8e93dc3",
+             "blockName": "Theme · ti-moon",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "margin_head",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "ecd4017a7d",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "margin_head",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "d8464880ee",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "margin_head",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "39f06e96d1",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "margin_head",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "f28266a5d8",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "90fd4c40a2",
+       "blockName": "Head Rule",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "margin_head",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "9a4582e4ce",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "margin_head",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "8px",
+      "maxWidth": "1020px",
+      "padding": "56px 32px 24px",
+      "width": "100%"
+     },
+     "blockId": "c414e5563a",
+     "blockName": "Section · Bio",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
+        "fontFamily": "Inter",
+        "fontSize": "10px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "0.16em",
+        "lineHeight": "1.6",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "40b2b9a765",
+       "blockName": "About Kicker",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "About",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--ba2386cf-1dc6-4b2e-8caf-102a3e808bbd, #2B2620)",
+        "fontFamily": "Newsreader",
+        "fontSize": "40px",
+        "fontWeight": "500",
+        "height": "fit-content",
+        "lineHeight": "1.2",
+        "marginTop": "8px",
+        "minWidth": "10px",
+        "width": "fit-content"
+       },
+       "blockId": "ff778efbc0",
+       "blockName": "About Title",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "June Ash writes<br>slowly, on purpose.",
+       "mobileStyles": {
+        "fontSize": "28px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "56px",
+        "width": "100%"
+       },
+       "blockId": "a109a17438",
+       "blockName": "Bio Spread",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 1,
+          "gap": "22px",
+          "maxWidth": "620px",
+          "width": "62%"
+         },
+         "blockId": "3637fd4d93",
+         "blockName": "Bio Spread · Reading",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--ba2386cf-1dc6-4b2e-8caf-102a3e808bbd, #2B2620)",
+            "fontFamily": "Newsreader",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.85",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "5d6911992b",
+           "blockName": "Bio Para 1",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "June Ash is an essayist and, for rent-paying reasons, a research editor. Before Devon there was a decade in publishing<sup style=\"color: #3F6B4F; font-weight: 600;\">1</sup>, which is where the affection for margins, footnotes and other apparatus of the page comes from.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--ba2386cf-1dc6-4b2e-8caf-102a3e808bbd, #2B2620)",
+            "fontFamily": "Newsreader",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.85",
+            "minWidth": "10px",
+            "width": "fit-content"
+           },
+           "blockId": "7cfb2bae3d",
+           "blockName": "Bio Para 2",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "The essays here are monthly, roughly. Each one goes through three drafts and a long walk<sup style=\"color: #3F6B4F; font-weight: 600;\">2</sup> before it earns its number. Nothing is sponsored; the newsletter is free; the notebook remains private.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexBasis": "0px",
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "gap": "18px",
+          "paddingTop": "8px",
+          "width": "100%"
+         },
+         "blockId": "58f158d6c0",
+         "blockName": "Bio Spread · Margin",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "width": "100%"
+           },
+           "blockId": "97467a927e",
+           "blockName": "Figure Block",
+           "children": [
+            {
+             "attributes": {
+              "alt": "June Ash",
+              "src": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&q=80&w=700"
+             },
+             "baseStyles": {
+              "borderRadius": "8px",
+              "display": "block",
+              "flexShrink": 0,
+              "height": "240px",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "816332740f",
+             "blockName": "Margin Figure",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "img",
+             "mobileStyles": {
+              "height": "260px"
+             },
+             "rawStyles": {
+              "filter": "saturate(0.9)"
+             },
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--be585ced-fe4f-4479-83b7-085b49bbce6f, #97897A)",
+              "fontFamily": "Inter",
+              "fontSize": "9px",
+              "fontWeight": "600",
+              "height": "fit-content",
+              "letterSpacing": "0.16em",
+              "lineHeight": "1.6",
+              "marginTop": "8px",
+              "minWidth": "10px",
+              "textTransform": "uppercase",
+              "width": "fit-content"
+             },
+             "blockId": "36481ba591",
+             "blockName": "Figure Caption",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Fig. 1: the author, unposed",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderTopColor": "var(--1bd70e05-bff0-40d8-86aa-eb2cc20152c4, #EAE3D6)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "paddingTop": "10px",
+            "width": "100%"
+           },
+           "blockId": "a981e72e5a",
+           "blockName": "Margin Note · 1",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "8px",
+              "width": "100%"
+             },
+             "blockId": "a96d3d4d3d",
+             "blockName": "Note Row · 1",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
+                "fontFamily": "Newsreader",
+                "fontSize": "13px",
+                "fontWeight": "600",
+                "height": "fit-content",
+                "lineHeight": "1.5",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "63de248964",
+               "blockName": "Note No · 1",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "1",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--be585ced-fe4f-4479-83b7-085b49bbce6f, #97897A)",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontFamily": "Newsreader",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.6",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "9640468222",
+               "blockName": "Note Text · 1",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "Seven years at a university press, two at a magazine that no longer exists. Not her fault.",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "backgroundColor": "var(--ca6048f0-2e8f-42d5-8eb8-7efeeb4e4a65, #F3EEE3)",
+            "borderRadius": "8px",
+            "borderTopWidth": "0px",
+            "padding": "12px 14px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderTopColor": "var(--1bd70e05-bff0-40d8-86aa-eb2cc20152c4, #EAE3D6)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "column",
+            "flexShrink": 0,
+            "paddingTop": "10px",
+            "width": "100%"
+           },
+           "blockId": "2ba3a1aa6e",
+           "blockName": "Margin Note · 2",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "row",
+              "flexShrink": 0,
+              "gap": "8px",
+              "width": "100%"
+             },
+             "blockId": "128cc61f03",
+             "blockName": "Note Row · 2",
+             "children": [
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
+                "fontFamily": "Newsreader",
+                "fontSize": "13px",
+                "fontWeight": "600",
+                "height": "fit-content",
+                "lineHeight": "1.5",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "24f73d8aab",
+               "blockName": "Note No · 2",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "2",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              },
+              {
+               "attributes": {},
+               "baseStyles": {
+                "color": "var(--be585ced-fe4f-4479-83b7-085b49bbce6f, #97897A)",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "fontFamily": "Newsreader",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "height": "fit-content",
+                "lineHeight": "1.6",
+                "minWidth": "10px",
+                "width": "fit-content"
+               },
+               "blockId": "b7efdecbd8",
+               "blockName": "Note Text · 2",
+               "children": [],
+               "classes": [],
+               "customAttributes": {},
+               "element": "p",
+               "innerHTML": "See essay 15, “Walking as an editing technique.” The walk is not optional.",
+               "mobileStyles": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [],
+             "customAttributes": {},
+             "element": "div",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "backgroundColor": "var(--ca6048f0-2e8f-42d5-8eb8-7efeeb4e4a65, #F3EEE3)",
+            "borderRadius": "8px",
+            "borderTopWidth": "0px",
+            "padding": "12px 14px"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexBasis": "auto",
+          "gap": "12px",
+          "width": "100%"
+         },
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "flexDirection": "column",
+        "gap": "18px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {
+        "gap": "32px"
+       }
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "32px 18px 16px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1020px",
+      "padding": "0 32px 16px",
+      "width": "100%"
+     },
+     "blockId": "d01975face",
+     "blockName": "Section · Now",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "borderBottomColor": "var(--ba2386cf-1dc6-4b2e-8caf-102a3e808bbd, #2B2620)",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": "2px",
+        "color": "var(--ba2386cf-1dc6-4b2e-8caf-102a3e808bbd, #2B2620)",
+        "fontFamily": "Inter",
+        "fontSize": "11px",
+        "fontWeight": "600",
+        "height": "fit-content",
+        "letterSpacing": "0.16em",
+        "lineHeight": "1.6",
+        "marginTop": "28px",
+        "minWidth": "10px",
+        "paddingBottom": "8px",
+        "textTransform": "uppercase",
+        "width": "100%"
+       },
+       "blockId": "2b53702420",
+       "blockName": "Now Heading",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Now",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "marginTop": "4px",
+        "width": "100%"
+       },
+       "blockId": "967e64948c",
+       "blockName": "Now Rows",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-end",
+          "borderTopColor": "var(--1bd70e05-bff0-40d8-86aa-eb2cc20152c4, #EAE3D6)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "0px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "14px",
+          "padding": "14px 0",
+          "width": "100%"
+         },
+         "blockId": "a8d69c61fe",
+         "blockName": "TOC Row · ·",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
+            "flexShrink": 0,
+            "fontFamily": "Newsreader",
+            "fontSize": "15px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "width": "36px"
+           },
+           "blockId": "803fc9befe",
+           "blockName": "TOC No · ·",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "·",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "about"
+           },
+           "baseStyles": {
+            "color": "var(--ba2386cf-1dc6-4b2e-8caf-102a3e808bbd, #2B2620)",
+            "fontFamily": "Newsreader",
+            "fontSize": "19px",
+            "fontStyle": "italic",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textDecoration": "none",
+            "width": "fit-content"
+           },
+           "blockId": "491bc7c7c5",
+           "blockName": "TOC · Reading: three biographi",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "Reading: three biographies of the same poet, refereeing",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:color": "#3F6B4F",
+            "transition": "color 0.15s ease-out"
+           },
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderBottomColor": "var(--1bd70e05-bff0-40d8-86aa-eb2cc20152c4, #EAE3D6)",
+            "borderBottomStyle": "dotted",
+            "borderBottomWidth": "2px",
+            "flexBasis": "40px",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "marginBottom": "7px"
+           },
+           "blockId": "07e0307f5c",
+           "blockName": "Leader · ·",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--be585ced-fe4f-4479-83b7-085b49bbce6f, #97897A)",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.16em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "8910299b11",
+           "blockName": "TOC Year · ·",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "now",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-end",
+          "borderTopColor": "var(--1bd70e05-bff0-40d8-86aa-eb2cc20152c4, #EAE3D6)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "14px",
+          "padding": "14px 0",
+          "width": "100%"
+         },
+         "blockId": "678f19e63b",
+         "blockName": "TOC Row · ·",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
+            "flexShrink": 0,
+            "fontFamily": "Newsreader",
+            "fontSize": "15px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "width": "36px"
+           },
+           "blockId": "5acbf1a7dd",
+           "blockName": "TOC No · ·",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "·",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "about"
+           },
+           "baseStyles": {
+            "color": "var(--ba2386cf-1dc6-4b2e-8caf-102a3e808bbd, #2B2620)",
+            "fontFamily": "Newsreader",
+            "fontSize": "19px",
+            "fontStyle": "italic",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textDecoration": "none",
+            "width": "fit-content"
+           },
+           "blockId": "2eca34a734",
+           "blockName": "TOC · Writing: essay 18, provi",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "Writing: essay 18, provisionally about lighthouses",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:color": "#3F6B4F",
+            "transition": "color 0.15s ease-out"
+           },
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderBottomColor": "var(--1bd70e05-bff0-40d8-86aa-eb2cc20152c4, #EAE3D6)",
+            "borderBottomStyle": "dotted",
+            "borderBottomWidth": "2px",
+            "flexBasis": "40px",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "marginBottom": "7px"
+           },
+           "blockId": "114a08e0b9",
+           "blockName": "Leader · ·",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--be585ced-fe4f-4479-83b7-085b49bbce6f, #97897A)",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.16em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "578b8a9fe8",
+           "blockName": "TOC Year · ·",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "now",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-end",
+          "borderTopColor": "var(--1bd70e05-bff0-40d8-86aa-eb2cc20152c4, #EAE3D6)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "14px",
+          "padding": "14px 0",
+          "width": "100%"
+         },
+         "blockId": "aadd3ac76d",
+         "blockName": "TOC Row · ·",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
+            "flexShrink": 0,
+            "fontFamily": "Newsreader",
+            "fontSize": "15px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "width": "36px"
+           },
+           "blockId": "520b199c23",
+           "blockName": "TOC No · ·",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "·",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {
+            "href": "about"
+           },
+           "baseStyles": {
+            "color": "var(--ba2386cf-1dc6-4b2e-8caf-102a3e808bbd, #2B2620)",
+            "fontFamily": "Newsreader",
+            "fontSize": "19px",
+            "fontStyle": "italic",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.5",
+            "minWidth": "10px",
+            "textDecoration": "none",
+            "width": "fit-content"
+           },
+           "blockId": "68b4e4de12",
+           "blockName": "TOC · Avoiding: a book proposa",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "a",
+           "innerHTML": "Avoiding: a book proposal, successfully so far",
+           "mobileStyles": {},
+           "rawStyles": {
+            "hover:color": "#3F6B4F",
+            "transition": "color 0.15s ease-out"
+           },
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "borderBottomColor": "var(--1bd70e05-bff0-40d8-86aa-eb2cc20152c4, #EAE3D6)",
+            "borderBottomStyle": "dotted",
+            "borderBottomWidth": "2px",
+            "flexBasis": "40px",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "marginBottom": "7px"
+           },
+           "blockId": "299f3e98f0",
+           "blockName": "Leader · ·",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--be585ced-fe4f-4479-83b7-085b49bbce6f, #97897A)",
+            "flexShrink": 0,
+            "fontFamily": "Inter",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "height": "fit-content",
+            "letterSpacing": "0.16em",
+            "lineHeight": "1.6",
+            "minWidth": "10px",
+            "textTransform": "uppercase",
+            "width": "fit-content"
+           },
+           "blockId": "b06a5328b2",
+           "blockName": "TOC Year · ·",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "now",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "alignItems": "center",
+        "backgroundColor": "var(--ca6048f0-2e8f-42d5-8eb8-7efeeb4e4a65, #F3EEE3)",
+        "borderRadius": "10px",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexShrink": 0,
+        "gap": "20px",
+        "justifyContent": "space-between",
+        "marginTop": "32px",
+        "padding": "22px 26px",
+        "width": "100%"
+       },
+       "blockId": "cf0a64b132",
+       "blockName": "Contact Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--be585ced-fe4f-4479-83b7-085b49bbce6f, #97897A)",
+          "fontFamily": "Newsreader",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "height": "fit-content",
+          "lineHeight": "1.7",
+          "minWidth": "10px",
+          "width": "fit-content"
+         },
+         "blockId": "d18029fcc8",
+         "blockName": "Contact Line",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "Letters are read the same week, answered the same month.",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "mailto:letters@margin.ink"
+         },
+         "baseStyles": {
+          "color": "var(--86098962-8827-4d24-874f-4fbb765fb21d, #3F6B4F)",
+          "fontFamily": "Newsreader",
+          "fontSize": "16px",
+          "fontStyle": "italic",
+          "fontWeight": "500",
+          "height": "fit-content",
+          "lineHeight": "1.6",
+          "minWidth": "10px",
+          "textDecoration": "none",
+          "width": "fit-content"
+         },
+         "blockId": "ec684fffb0",
+         "blockName": "Contact Mail",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "a",
+         "innerHTML": "letters@margin.ink",
+         "mobileStyles": {},
+         "rawStyles": {
+          "hover:color": "#2E5340",
+          "transition": "color 0.15s ease-out"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "alignItems": "flex-start",
+        "flexDirection": "column",
+        "gap": "10px",
+        "padding": "18px 16px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 18px 12px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "427e422653",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "222012fdd8",
+       "blockName": "Colophon Rule",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "margin_colophon",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "f41212bfe1",
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "29844781dd",
+       "blockName": "Colophon Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "e727a8e99b",
+         "blockName": "Colophon Line",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "margin_colophon",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "4de5667fdf",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "d9da68b262",
+         "blockName": "Colophon Right",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "2f3a7c1b1c",
+           "blockName": "Colophon Newsletter",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "margin_colophon",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "1758a4ecf4",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "bce9c7e9c0",
+           "blockName": "Colophon Type",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "margin_colophon",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "e9e0c38b20",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "margin_colophon",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "34db15935f",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "margin_colophon",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "3022f56ea8",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "margin_colophon",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "margin_styles"
+  }
+ ],
+ "creation": "2026-07-15 17:23:38.978338",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "About June Ash: slow essays, long walks, letters answered monthly.",
+ "modified": "2026-07-17 09:45:26.305628",
+ "modified_by": "Administrator",
+ "name": "margin_about",
+ "owner": "Administrator",
+ "page_name": "margin_about",
+ "page_title": "About · Margin",
+ "preview": "/builder_assets/margin/margin_about/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/margin/about",
+ "template_group": "margin"
+}

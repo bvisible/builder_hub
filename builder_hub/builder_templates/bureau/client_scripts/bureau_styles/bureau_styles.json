@@ -1,0 +1,12 @@
+{
+ "creation": "2026-07-15 22:48:21.879324",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-07-15 22:48:21.879324",
+ "modified_by": "Administrator",
+ "name": "bureau_styles",
+ "owner": "Administrator",
+ "script": "\nhtml { scroll-behavior: smooth; }\n::selection { background: #C8FF4D; color: #101010; }\n.bu-cover { transition: transform 0.25s ease-out; }\n.bu-cover:hover { transform: translateY(-6px); }\n.bu-svc { transition: background-color 0.15s ease-out; }\n.bu-svc:hover { background-color: #C8FF4D; }\n",
+ "script_type": "CSS"
+}

@@ -1,0 +1,22 @@
+{
+ "categories": [
+  "Fashion"
+ ],
+ "description": "A dark evening-wear house with mirrored splits and a champagne hairline.",
+ "order": 14,
+ "pages": [
+  {
+   "name": "silk_home"
+  },
+  {
+   "name": "silk_collection"
+  },
+  {
+   "name": "silk_house"
+  },
+  {
+   "name": "silk_appointments"
+  }
+ ],
+ "title": "Silk"
+}

@@ -1,0 +1,19 @@
+{
+ "categories": [
+  "Local business"
+ ],
+ "description": "A photo first boutique stay with full screen room chapters.",
+ "order": 9,
+ "pages": [
+  {
+   "name": "nook_home"
+  },
+  {
+   "name": "nook_rooms"
+  },
+  {
+   "name": "nook_visit"
+  }
+ ],
+ "title": "Nook"
+}

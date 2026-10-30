@@ -1,0 +1,1382 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--544e3b9a-2fb5-4d53-854b-20700940549d, #FAF9F7)",
+    "color": "var(--22b068ac-7313-46ca-8de7-3a3e253beab5, #1C1A17)",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "fontFamily": "Karla",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "9d8c280eb6",
+   "blockName": "Root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {
+      "borderColor": "var(--a2461722-cba9-4228-8804-936c163df8a8, #E7E3DC)",
+      "borderStyle": "solid",
+      "borderWidth": "1px",
+      "bottom": "12px",
+      "left": "12px",
+      "pointerEvents": "none",
+      "position": "fixed",
+      "right": "12px",
+      "top": "12px",
+      "zIndex": "40"
+     },
+     "blockId": "3ff7e307b4",
+     "blockName": "Viewport Frame",
+     "children": [],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "bottom": "8px",
+      "left": "8px",
+      "right": "8px",
+      "top": "8px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "a88509292c",
+     "blockName": "Navbar",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "564810bb35",
+       "blockName": "Nav Row",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "a4925c7a60",
+         "blockName": "Brand",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "hem_frame_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "27ba90fe88",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "a807d7b9eb",
+         "blockName": "Nav Links",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "76dc1a20c3",
+           "blockName": "Services",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "hem_frame_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "17938115a6",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "5842f63800",
+           "blockName": "Studio",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "hem_frame_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "5a636c1784",
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {},
+           "blockId": "ab19b92110",
+           "blockName": "Theme Toggle",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "0897838509",
+             "blockName": "Theme · ti-sun",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "hem_frame_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "c03f60ddb7",
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {},
+             "blockId": "e960e81b21",
+             "blockName": "Theme · ti-moon",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "isChildOfComponent": "hem_frame_nav",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "referenceBlockId": "c9e7ae875a",
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "isChildOfComponent": "hem_frame_nav",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "referenceBlockId": "7cf6931252",
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "hem_frame_nav",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "dad13c9b9d",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "hem_frame_nav",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "b98623c1c8",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "hem_frame_nav",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "20px",
+      "maxWidth": "1160px",
+      "padding": "90px 48px 56px",
+      "width": "100%"
+     },
+     "blockId": "cd6adcd44b",
+     "blockName": "Section · Header",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+        "fontFamily": "Karla",
+        "fontSize": "11px",
+        "fontWeight": "700",
+        "height": "fit-content",
+        "letterSpacing": "0.18em",
+        "lineHeight": "1.4",
+        "minWidth": "10px",
+        "textTransform": "uppercase",
+        "width": "fit-content"
+       },
+       "blockId": "178f8c121e",
+       "blockName": "Services Kicker",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "Services · Index 2026",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--22b068ac-7313-46ca-8de7-3a3e253beab5, #1C1A17)",
+        "fontFamily": "Cormorant Garamond",
+        "fontSize": "76px",
+        "fontWeight": "500",
+        "height": "fit-content",
+        "lineHeight": "1",
+        "minWidth": "10px",
+        "width": "fit-content"
+       },
+       "blockId": "e3ce6f9e7e",
+       "blockName": "Services Headline",
+       "children": [],
+       "classes": [],
+       "customAttributes": {},
+       "element": "p",
+       "innerHTML": "the ledger.",
+       "mobileStyles": {
+        "fontSize": "42px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "56px 24px 36px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "1160px",
+      "padding": "0 48px 80px",
+      "width": "100%"
+     },
+     "blockId": "ccf45a9ddb",
+     "blockName": "Section · Services",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "width": "100%"
+       },
+       "blockId": "22ae2d16cd",
+       "blockName": "Service Rows",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "borderTopColor": "var(--a2461722-cba9-4228-8804-936c163df8a8, #E7E3DC)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "0px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "40px",
+          "padding": "30px 0",
+          "width": "100%"
+         },
+         "blockId": "909726cef8",
+         "blockName": "Ledger · No. 01",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+            "flexShrink": 0,
+            "fontFamily": "Karla",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.18em",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "paddingTop": "10px",
+            "textTransform": "uppercase",
+            "width": "90px"
+           },
+           "blockId": "4591c36064",
+           "blockName": "Ledger No",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "No. 01",
+           "mobileStyles": {
+            "paddingTop": "0px",
+            "width": "fit-content"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--22b068ac-7313-46ca-8de7-3a3e253beab5, #1C1A17)",
+            "flexShrink": 0,
+            "fontFamily": "Cormorant Garamond",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "300px"
+           },
+           "blockId": "191496d6b0",
+           "blockName": "Ledger Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Made to measure",
+           "mobileStyles": {
+            "fontSize": "26px",
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {
+            "width": "200px"
+           }
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Karla",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "520px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "ce56af9947",
+           "blockName": "Ledger Copy",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "A full commission: suits, coats and shirting cut to your pattern. Two fittings, six to eight weeks.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--d4be5fa3-2829-4ec6-8fdd-2d495c53c9d4, #A56B46)",
+            "flexShrink": 0,
+            "fontFamily": "Karla",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.08em",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "textAlign": "right",
+            "whiteSpace": "nowrap",
+            "width": "fit-content"
+           },
+           "blockId": "caaf679881",
+           "blockName": "Ledger Price",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "from $1,800",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "10px",
+          "padding": "22px 0"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "gap": "24px"
+         }
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "borderTopColor": "var(--a2461722-cba9-4228-8804-936c163df8a8, #E7E3DC)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "40px",
+          "padding": "30px 0",
+          "width": "100%"
+         },
+         "blockId": "256ca77da4",
+         "blockName": "Ledger · No. 02",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+            "flexShrink": 0,
+            "fontFamily": "Karla",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.18em",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "paddingTop": "10px",
+            "textTransform": "uppercase",
+            "width": "90px"
+           },
+           "blockId": "671658b85f",
+           "blockName": "Ledger No",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "No. 02",
+           "mobileStyles": {
+            "paddingTop": "0px",
+            "width": "fit-content"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--22b068ac-7313-46ca-8de7-3a3e253beab5, #1C1A17)",
+            "flexShrink": 0,
+            "fontFamily": "Cormorant Garamond",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "300px"
+           },
+           "blockId": "e2d11e6c8d",
+           "blockName": "Ledger Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Alterations",
+           "mobileStyles": {
+            "fontSize": "26px",
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {
+            "width": "200px"
+           }
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Karla",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "520px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "4495396849",
+           "blockName": "Ledger Copy",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Recutting shoulders, rebalancing trousers, replacing linings. We alter garments worth keeping, whoever made them.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--d4be5fa3-2829-4ec6-8fdd-2d495c53c9d4, #A56B46)",
+            "flexShrink": 0,
+            "fontFamily": "Karla",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.08em",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "textAlign": "right",
+            "whiteSpace": "nowrap",
+            "width": "fit-content"
+           },
+           "blockId": "0b54316b03",
+           "blockName": "Ledger Price",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "from $60",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "10px",
+          "padding": "22px 0"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "gap": "24px"
+         }
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "borderTopColor": "var(--a2461722-cba9-4228-8804-936c163df8a8, #E7E3DC)",
+          "borderTopStyle": "solid",
+          "borderTopWidth": "1px",
+          "display": "flex",
+          "flexDirection": "row",
+          "flexShrink": 0,
+          "gap": "40px",
+          "padding": "30px 0",
+          "width": "100%"
+         },
+         "blockId": "4247d2a501",
+         "blockName": "Ledger · No. 03",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+            "flexShrink": 0,
+            "fontFamily": "Karla",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.18em",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "paddingTop": "10px",
+            "textTransform": "uppercase",
+            "width": "90px"
+           },
+           "blockId": "7ff303cf42",
+           "blockName": "Ledger No",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "No. 03",
+           "mobileStyles": {
+            "paddingTop": "0px",
+            "width": "fit-content"
+           },
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--22b068ac-7313-46ca-8de7-3a3e253beab5, #1C1A17)",
+            "flexShrink": 0,
+            "fontFamily": "Cormorant Garamond",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "height": "fit-content",
+            "lineHeight": "1.05",
+            "minWidth": "10px",
+            "width": "300px"
+           },
+           "blockId": "ae851e00a6",
+           "blockName": "Ledger Title",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Wardrobe edit",
+           "mobileStyles": {
+            "fontSize": "26px",
+            "width": "100%"
+           },
+           "rawStyles": {},
+           "tabletStyles": {
+            "width": "200px"
+           }
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "Karla",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "height": "fit-content",
+            "lineHeight": "1.7",
+            "maxWidth": "520px",
+            "minWidth": "10px",
+            "width": "100%"
+           },
+           "blockId": "d687db6bf8",
+           "blockName": "Ledger Copy",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "Two hours at the studio with everything you own. What to keep, what to alter, what to let go.",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--d4be5fa3-2829-4ec6-8fdd-2d495c53c9d4, #A56B46)",
+            "flexShrink": 0,
+            "fontFamily": "Karla",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "height": "fit-content",
+            "letterSpacing": "0.08em",
+            "lineHeight": "1.4",
+            "minWidth": "10px",
+            "textAlign": "right",
+            "whiteSpace": "nowrap",
+            "width": "fit-content"
+           },
+           "blockId": "c8fe055b7b",
+           "blockName": "Ledger Price",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "element": "p",
+           "innerHTML": "$240 / session",
+           "mobileStyles": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {
+          "flexDirection": "column",
+          "gap": "10px",
+          "padding": "22px 0"
+         },
+         "rawStyles": {},
+         "tabletStyles": {
+          "gap": "24px"
+         }
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0 24px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "var(--ff2ae243-c037-47e5-8c70-a99c31b883ee, #F1EEE9)",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "maxWidth": "100%",
+      "padding": "0px",
+      "width": "100%"
+     },
+     "blockId": "adb60f6372",
+     "blockName": "Section · Process",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "maxWidth": "1160px",
+        "padding": "70px 48px 90px",
+        "width": "100%"
+       },
+       "blockId": "ac3a79dede",
+       "blockName": "Process Inner",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+          "fontFamily": "Karla",
+          "fontSize": "11px",
+          "fontWeight": "700",
+          "height": "fit-content",
+          "letterSpacing": "0.18em",
+          "lineHeight": "1.4",
+          "minWidth": "10px",
+          "textTransform": "uppercase",
+          "width": "fit-content"
+         },
+         "blockId": "b9ff1eb314",
+         "blockName": "Process Kicker",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "element": "p",
+         "innerHTML": "How a commission runs",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "flexShrink": 0,
+          "marginTop": "26px",
+          "width": "100%"
+         },
+         "blockId": "5353d333da",
+         "blockName": "Process Rows",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderTopColor": "var(--a2461722-cba9-4228-8804-936c163df8a8, #E7E3DC)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "0px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "40px",
+            "padding": "30px 0",
+            "width": "100%"
+           },
+           "blockId": "ed0ab55901",
+           "blockName": "Ledger · I",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+              "flexShrink": 0,
+              "fontFamily": "Karla",
+              "fontSize": "12px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.18em",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingTop": "10px",
+              "textTransform": "uppercase",
+              "width": "90px"
+             },
+             "blockId": "cb9ab4b623",
+             "blockName": "Ledger No",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "I",
+             "mobileStyles": {
+              "paddingTop": "0px",
+              "width": "fit-content"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--22b068ac-7313-46ca-8de7-3a3e253beab5, #1C1A17)",
+              "flexShrink": 0,
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": "32px",
+              "fontWeight": "500",
+              "height": "fit-content",
+              "lineHeight": "1.05",
+              "minWidth": "10px",
+              "width": "300px"
+             },
+             "blockId": "65b441100f",
+             "blockName": "Ledger Title",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Consultation",
+             "mobileStyles": {
+              "fontSize": "26px",
+              "width": "100%"
+             },
+             "rawStyles": {},
+             "tabletStyles": {
+              "width": "200px"
+             }
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "fontFamily": "Karla",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "maxWidth": "520px",
+              "minWidth": "10px",
+              "width": "100%"
+             },
+             "blockId": "f4e826b024",
+             "blockName": "Ledger Copy",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Cloth, budget and use. An hour, no obligation.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexDirection": "column",
+            "gap": "10px",
+            "padding": "22px 0"
+           },
+           "rawStyles": {},
+           "tabletStyles": {
+            "gap": "24px"
+           }
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderTopColor": "var(--a2461722-cba9-4228-8804-936c163df8a8, #E7E3DC)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "40px",
+            "padding": "30px 0",
+            "width": "100%"
+           },
+           "blockId": "f122e1a22b",
+           "blockName": "Ledger · II",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+              "flexShrink": 0,
+              "fontFamily": "Karla",
+              "fontSize": "12px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.18em",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingTop": "10px",
+              "textTransform": "uppercase",
+              "width": "90px"
+             },
+             "blockId": "57c41cccc8",
+             "blockName": "Ledger No",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "II",
+             "mobileStyles": {
+              "paddingTop": "0px",
+              "width": "fit-content"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--22b068ac-7313-46ca-8de7-3a3e253beab5, #1C1A17)",
+              "flexShrink": 0,
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": "32px",
+              "fontWeight": "500",
+              "height": "fit-content",
+              "lineHeight": "1.05",
+              "minWidth": "10px",
+              "width": "300px"
+             },
+             "blockId": "217d3717d2",
+             "blockName": "Ledger Title",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Measure",
+             "mobileStyles": {
+              "fontSize": "26px",
+              "width": "100%"
+             },
+             "rawStyles": {},
+             "tabletStyles": {
+              "width": "200px"
+             }
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "fontFamily": "Karla",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "maxWidth": "520px",
+              "minWidth": "10px",
+              "width": "100%"
+             },
+             "blockId": "79b5c6df80",
+             "blockName": "Ledger Copy",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Twenty-six measurements and a posture study.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexDirection": "column",
+            "gap": "10px",
+            "padding": "22px 0"
+           },
+           "rawStyles": {},
+           "tabletStyles": {
+            "gap": "24px"
+           }
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderTopColor": "var(--a2461722-cba9-4228-8804-936c163df8a8, #E7E3DC)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "40px",
+            "padding": "30px 0",
+            "width": "100%"
+           },
+           "blockId": "5a2518466c",
+           "blockName": "Ledger · III",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+              "flexShrink": 0,
+              "fontFamily": "Karla",
+              "fontSize": "12px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.18em",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingTop": "10px",
+              "textTransform": "uppercase",
+              "width": "90px"
+             },
+             "blockId": "a187640705",
+             "blockName": "Ledger No",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "III",
+             "mobileStyles": {
+              "paddingTop": "0px",
+              "width": "fit-content"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--22b068ac-7313-46ca-8de7-3a3e253beab5, #1C1A17)",
+              "flexShrink": 0,
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": "32px",
+              "fontWeight": "500",
+              "height": "fit-content",
+              "lineHeight": "1.05",
+              "minWidth": "10px",
+              "width": "300px"
+             },
+             "blockId": "f3728eea51",
+             "blockName": "Ledger Title",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Baste fitting",
+             "mobileStyles": {
+              "fontSize": "26px",
+              "width": "100%"
+             },
+             "rawStyles": {},
+             "tabletStyles": {
+              "width": "200px"
+             }
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "fontFamily": "Karla",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "maxWidth": "520px",
+              "minWidth": "10px",
+              "width": "100%"
+             },
+             "blockId": "007ece2fdc",
+             "blockName": "Ledger Copy",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "A loosely sewn shell, adjusted on the body.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexDirection": "column",
+            "gap": "10px",
+            "padding": "22px 0"
+           },
+           "rawStyles": {},
+           "tabletStyles": {
+            "gap": "24px"
+           }
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderTopColor": "var(--a2461722-cba9-4228-8804-936c163df8a8, #E7E3DC)",
+            "borderTopStyle": "solid",
+            "borderTopWidth": "1px",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexShrink": 0,
+            "gap": "40px",
+            "padding": "30px 0",
+            "width": "100%"
+           },
+           "blockId": "518d98914a",
+           "blockName": "Ledger · IV",
+           "children": [
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+              "flexShrink": 0,
+              "fontFamily": "Karla",
+              "fontSize": "12px",
+              "fontWeight": "700",
+              "height": "fit-content",
+              "letterSpacing": "0.18em",
+              "lineHeight": "1.4",
+              "minWidth": "10px",
+              "paddingTop": "10px",
+              "textTransform": "uppercase",
+              "width": "90px"
+             },
+             "blockId": "29df9aed66",
+             "blockName": "Ledger No",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "IV",
+             "mobileStyles": {
+              "paddingTop": "0px",
+              "width": "fit-content"
+             },
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--22b068ac-7313-46ca-8de7-3a3e253beab5, #1C1A17)",
+              "flexShrink": 0,
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": "32px",
+              "fontWeight": "500",
+              "height": "fit-content",
+              "lineHeight": "1.05",
+              "minWidth": "10px",
+              "width": "300px"
+             },
+             "blockId": "8ae0a8fc4e",
+             "blockName": "Ledger Title",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Finish",
+             "mobileStyles": {
+              "fontSize": "26px",
+              "width": "100%"
+             },
+             "rawStyles": {},
+             "tabletStyles": {
+              "width": "200px"
+             }
+            },
+            {
+             "attributes": {},
+             "baseStyles": {
+              "color": "var(--f06f7264-1762-4a25-81ff-a1bd019ecfdd, #8B857C)",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "fontFamily": "Karla",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "height": "fit-content",
+              "lineHeight": "1.7",
+              "maxWidth": "520px",
+              "minWidth": "10px",
+              "width": "100%"
+             },
+             "blockId": "a9bfbdb009",
+             "blockName": "Ledger Copy",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "element": "p",
+             "innerHTML": "Hand details, a final press, and the quiet handover.",
+             "mobileStyles": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "element": "div",
+           "mobileStyles": {
+            "flexDirection": "column",
+            "gap": "10px",
+            "padding": "22px 0"
+           },
+           "rawStyles": {},
+           "tabletStyles": {
+            "gap": "24px"
+           }
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "element": "div",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "element": "div",
+       "mobileStyles": {
+        "padding": "48px 24px 56px"
+       },
+       "rawStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "mobileStyles": {
+      "padding": "0px"
+     },
+     "rawStyles": {},
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {},
+     "blockId": "3ad11c251c",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {},
+       "blockId": "dfd6186d64",
+       "blockName": "Footer Inner",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "2c669953df",
+         "blockName": "Footer CTA",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "hem_footer_line",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "84c4f96981",
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {},
+         "blockId": "4e3473c1ba",
+         "blockName": "Footer Line",
+         "children": [],
+         "classes": [],
+         "customAttributes": {},
+         "isChildOfComponent": "hem_footer_line",
+         "mobileStyles": {},
+         "rawStyles": {},
+         "referenceBlockId": "f121e30b06",
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "customAttributes": {},
+       "isChildOfComponent": "hem_footer_line",
+       "mobileStyles": {},
+       "rawStyles": {},
+       "referenceBlockId": "257a56625d",
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "customAttributes": {},
+     "element": "div",
+     "extendedFromComponent": "hem_footer_line",
+     "mobileStyles": {},
+     "rawStyles": {},
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "customAttributes": {},
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "rawStyles": {},
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "builder_theme_toggle_css"
+  },
+  {
+   "builder_script": "builder_theme_toggle"
+  },
+  {
+   "builder_script": "hem_styles"
+  }
+ ],
+ "creation": "2026-07-15 16:45:30.616341",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Commissions, alterations and wardrobe edits at Hem, a made-to-measure atelier.",
+ "modified": "2026-07-15 16:45:30.771071",
+ "modified_by": "Administrator",
+ "name": "hem_services",
+ "owner": "Administrator",
+ "page_name": "hem_services",
+ "page_title": "Services · Hem",
+ "preview": "/builder_assets/hem/hem_services/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/hem/services",
+ "template_group": "hem"
+}
