@@ -4,6 +4,7 @@ function openPreview(frm) {
 	frappe.call({ method: "builder_hub.blocks.preview_options" }).then((o) => {
 		const options = o.message;
 		let draw = () => {};
+		let latest = 0; // an answer that arrives after a newer question is not drawn
 		const dialog = new frappe.ui.Dialog({
 			title: __("Preview of {0}", [frm.doc.block_id]),
 			size: "extra-large",
@@ -35,7 +36,9 @@ function openPreview(frm) {
 		draw = () => {
 			const v = dialog.get_values(true) || {};
 			const device = v.device || "desktop";
+			const mine = ++latest;
 			frm.call("preview_html", { palette: v.palette, lang: v.lang, length: v.length }).then((r) => {
+				if (mine !== latest) return;
 				const width = options.devices[device];
 				const frame = document.createElement("iframe");
 				frame.setAttribute("sandbox", "");
