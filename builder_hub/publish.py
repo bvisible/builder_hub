@@ -1,3 +1,4 @@
+# //// Neoffice — added file (no upstream equivalent): the authenticated publish API of the Builder Hub.
 """Authenticated publish API of the Builder Hub (bvisible extension).
 
 Upstream builder_hub is read-only for consumers: templates enter the hub via
@@ -374,24 +375,33 @@ def _delete_staging_folder(name: str):
         frappe.delete_doc("Builder Project Folder", name, force=True, ignore_permissions=True)
 
 
+# //// Neoffice — the design tokens go to whichever doctype this site has (2026-10-30). Builder Variable was renamed Builder Token (and its
+# //// name field variable_name became token_name); this module kept writing the old one, so every publish failed on a current builder at
+# //// its first token. Same detection as api.get_group_variables; a bundle may carry the old wire name or the new one.
+def _token_doctype() -> tuple[str, str]:
+	"""(doctype, name field) of the design tokens of this site."""
+	if frappe.db.exists("DocType", "Builder Token"):
+		return "Builder Token", "token_name"
+	return "Builder Variable", "variable_name"
+
+
 def _upsert_variables(variables: list, warnings: list):
-    for var in variables:
-        name = var.get("name")
-        if not name:
-            continue
-        values = {
-            "variable_name": var.get("variable_name"),
-            "type": var.get("type") or "Color",
-            "value": var.get("value"),
-            "dark_value": var.get("dark_value"),
-            "group": var.get("group"),
-        }
-        if frappe.db.exists("Builder Variable", name):
-            frappe.db.set_value("Builder Variable", name, values, update_modified=False)
-        else:
-            frappe.get_doc({"doctype": "Builder Variable", "name": name, **values}).insert(
-                ignore_permissions=True, set_name=name
-            )
+	doctype, name_field = _token_doctype()
+	for var in variables:
+		name = var.get("name")
+		if not name:
+			continue
+		values = {
+			name_field: var.get(name_field) or var.get("variable_name") or var.get("token_name"),
+			"type": var.get("type") or "Color",
+			"value": var.get("value"),
+			"dark_value": var.get("dark_value"),
+			"group": var.get("group"),
+		}
+		if frappe.db.exists(doctype, name):
+			frappe.db.set_value(doctype, name, values, update_modified=False)
+		else:
+			frappe.get_doc({"doctype": doctype, "name": name, **values}).insert(ignore_permissions=True, set_name=name)
 
 
 def _upsert_components(group: str, components: list, warnings: list):
