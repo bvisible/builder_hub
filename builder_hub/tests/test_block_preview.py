@@ -263,3 +263,60 @@ class TestTheSeedBlocksOnEveryLook(unittest.TestCase):
 
 if __name__ == "__main__":
 	unittest.main()
+
+
+def seed(block_id: str) -> dict:
+	return next(d for d in SEEDS if d["id"] == block_id)
+
+
+class TestTheMotionOfAPreview(unittest.TestCase):
+	def test_a_strip_of_words_drifts_and_its_group_is_the_same_group_repeated(self):
+		body = P.render_page(seed("statement.ticker")["tree"]).split("</style>")[1]
+		self.assertEqual(1, len(re.findall(r'<div class="b\d+ u-marquee__group">', body)))
+		self.assertEqual(
+			P.MARQUEE_COPIES - 1, len(re.findall(r'<div aria-hidden="true" class="b\d+ u-marquee__group">', body))
+		)
+		self.assertIn("is-moving", body)
+		self.assertIn(f"--marquee-shift: {100 / P.MARQUEE_COPIES:.4f}%", body)
+
+	def test_the_copies_of_a_strip_say_the_same_words_as_the_group(self):
+		body = P.render_page(seed("statement.ticker")["tree"]).split("</style>")[1]
+		copies = re.split(r'<div (?:aria-hidden="true" )?class="b\d+ u-marquee__group">', body)[1:]
+		words = [plain_text(copy.split("</div></div>")[0]) for copy in copies]
+		self.assertEqual(P.MARQUEE_COPIES, len(words))
+		self.assertEqual(1, len(set(words)))
+		self.assertTrue(words[0].strip())
+
+	def test_a_figure_that_counts_is_drawn_by_the_stylesheet_without_a_script(self):
+		page = P.render_page(seed("figures.counters")["tree"])
+		self.assertEqual(3, page.count('<span class="pv-n" style="--target: 25"></span>'))
+		self.assertIn('@property --pv-n { syntax: "<integer>"', page)
+		self.assertNotIn("<script", page)
+
+	def test_a_year_or_a_number_with_a_leading_zero_is_left_as_written(self):
+		count = P.Page._counting
+		self.assertEqual("1987", count(P.FIRST_NUMBER.search("1987")))
+		self.assertEqual("007", count(P.FIRST_NUMBER.search("007")))
+		self.assertEqual('<span class="pv-n" style="--target: 1200"></span>', count(P.FIRST_NUMBER.search("1200")))
+
+	def test_all_the_movement_sits_inside_no_preference_and_the_resting_layout_outside(self):
+		page = P.render_page(seed("statement.ticker")["tree"])
+		media = page.index("@media (prefers-reduced-motion: no-preference)")
+		for movement in ("@keyframes pv-rise", "@keyframes pv-drift", "animation: pv-drift", "animation: pv-rise"):
+			self.assertGreater(page.index(movement), media, movement)
+		self.assertLess(page.index(".u-marquee__track { display: flex; flex-wrap: wrap"), media)
+		self.assertLess(page.index(".pv-n { --pv-n: var(--target)"), media)
+
+	def test_a_brisk_block_moves_faster_than_a_calm_one(self):
+		tree = seed("figures.counters")["tree"]
+		self.assertIn("pv-rise 0.9s", P.render_page(tree, motion="Calm"))
+		self.assertIn("pv-rise 0.5s", P.render_page(tree, motion="Brisk"))
+		self.assertIn("pv-drift 40s", P.render_page(tree, motion="Calm"))
+		self.assertIn("pv-drift 24s", P.render_page(tree, motion="Brisk"))
+
+	def test_the_phrase_of_a_strip_is_a_title_not_a_sentence(self):
+		words = P.Words("fr", "longest", "#000")
+		phrase = words.slot("phrase", "1 to 3 words of the business's own")
+		self.assertEqual(3, len(phrase.split()))
+		self.assertFalse(phrase.endswith("."))
+

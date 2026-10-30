@@ -1,0 +1,101 @@
+# //// Neoffice — added file (no upstream equivalent): seed block of the hub's library.
+id: statement.ticker
+title: Statement over a drifting band
+kinds: [statement, intro]
+look: "one sentence that states what the business stands for, and beneath it a band of the business's own words drifting sideways between two hairlines; rests as a wrapped, centred row where motion is off"
+photos: 0
+ground: plain
+motion: Brisk
+notes: "The band is written once: the site repeats the group so that it can drift without a seam, and stops it when it is pointed at (the footer's script, theme_variables.html 'The motion layer'). With motion off, or asked off by the visitor, the words wrap and centre under the sentence. Offered only to a site whose motion is Brisk."
+tree:
+  el: section
+  name: ticker
+  style: {backgroundColor: "{{ground.background}}", width: 100%, padding: 7rem 0}
+  m_style: {padding: 4.5rem 0}
+  c:
+    - el: div
+      name: container
+      style: {maxWidth: "{{container}}", width: 100%, margin: 0 auto, paddingLeft: "{{gutter}}", paddingRight: "{{gutter}}"}
+      m_style: {paddingLeft: "{{gutter_phone}}", paddingRight: "{{gutter_phone}}"}
+      c:
+        - el: p
+          name: label
+          classes: [u-reveal]
+          style: {fontFamily: "{{font_body}}", fontSize: 0.75rem, fontWeight: "700", letterSpacing: 0.3em, textTransform: uppercase, color: "{{ground.accent}}", margin: 0 0 1.75rem}
+          text: "WRITE label: 2 to 4 words naming the subject"
+        - el: h2
+          name: statement
+          classes: [u-reveal]
+          style: {fontFamily: "{{font_heading}}", fontSize: 3.5rem, fontWeight: "700", lineHeight: "1.1", color: "{{ground.ink}}", margin: 0 0 4rem, maxWidth: 56rem}
+          t_style: {fontSize: 2.75rem}
+          m_style: {fontSize: 2rem, margin: 0 0 2.5rem}
+          text: "WRITE heading: one sentence of 8 to 14 words that states what the business stands for, one accent word"
+    - el: div
+      name: band
+      classes: [u-marquee]
+      style: {borderTop: "1px solid {{ground.hair}}", borderBottom: "1px solid {{ground.hair}}", padding: 2rem 0}
+      m_style: {padding: 1.5rem 0}
+      c:
+        - el: div
+          name: track
+          classes: [u-marquee__track]
+          c:
+            - el: div
+              name: group
+              classes: [u-marquee__group]
+              style: {display: flex, flexWrap: wrap, alignItems: center, justifyContent: center, gap: 0.75rem 3rem}
+              c:
+                    - el: p
+                      name: phrase
+                      style: {fontFamily: "{{font_heading}}", fontSize: 2.5rem, fontWeight: "700", lineHeight: "1.1", color: "{{ground.ink}}", margin: 0, whiteSpace: nowrap}
+                      m_style: {fontSize: 1.75rem}
+                      text: "WRITE phrase: 1 to 3 words of the business's own, a speciality, a product, a value or a place; never a slogan, never invented"
+                    - el: span
+                      name: dot
+                      attrs: {aria-hidden: "true"}
+                      style: {display: block, flexShrink: 0, width: 0.625rem, height: 0.625rem, borderRadius: 50%, backgroundColor: "{{ground.accent}}"}
+                    - el: p
+                      name: phrase
+                      style: {fontFamily: "{{font_heading}}", fontSize: 2.5rem, fontWeight: "700", lineHeight: "1.1", color: "{{ground.ink}}", margin: 0, whiteSpace: nowrap}
+                      m_style: {fontSize: 1.75rem}
+                      text: "WRITE phrase: 1 to 3 words of the business's own, a speciality, a product, a value or a place; never a slogan, never invented"
+                    - el: span
+                      name: dot
+                      attrs: {aria-hidden: "true"}
+                      style: {display: block, flexShrink: 0, width: 0.625rem, height: 0.625rem, borderRadius: 50%, backgroundColor: "{{ground.accent}}"}
+                    - el: p
+                      name: phrase
+                      style: {fontFamily: "{{font_heading}}", fontSize: 2.5rem, fontWeight: "700", lineHeight: "1.1", color: "{{ground.ink}}", margin: 0, whiteSpace: nowrap}
+                      m_style: {fontSize: 1.75rem}
+                      text: "WRITE phrase: 1 to 3 words of the business's own, a speciality, a product, a value or a place; never a slogan, never invented"
+                    - el: span
+                      name: dot
+                      attrs: {aria-hidden: "true"}
+                      style: {display: block, flexShrink: 0, width: 0.625rem, height: 0.625rem, borderRadius: 50%, backgroundColor: "{{ground.accent}}"}
+                    - el: p
+                      name: phrase
+                      style: {fontFamily: "{{font_heading}}", fontSize: 2.5rem, fontWeight: "700", lineHeight: "1.1", color: "{{ground.ink}}", margin: 0, whiteSpace: nowrap}
+                      m_style: {fontSize: 1.75rem}
+                      text: "WRITE phrase: 1 to 3 words of the business's own, a speciality, a product, a value or a place; never a slogan, never invented"
+                    - el: span
+                      name: dot
+                      attrs: {aria-hidden: "true"}
+                      style: {display: block, flexShrink: 0, width: 0.625rem, height: 0.625rem, borderRadius: 50%, backgroundColor: "{{ground.accent}}"}
+                    - el: p
+                      name: phrase
+                      style: {fontFamily: "{{font_heading}}", fontSize: 2.5rem, fontWeight: "700", lineHeight: "1.1", color: "{{ground.ink}}", margin: 0, whiteSpace: nowrap}
+                      m_style: {fontSize: 1.75rem}
+                      text: "WRITE phrase: 1 to 3 words of the business's own, a speciality, a product, a value or a place; never a slogan, never invented"
+                    - el: span
+                      name: dot
+                      attrs: {aria-hidden: "true"}
+                      style: {display: block, flexShrink: 0, width: 0.625rem, height: 0.625rem, borderRadius: 50%, backgroundColor: "{{ground.accent}}"}
+                    - el: p
+                      name: phrase
+                      style: {fontFamily: "{{font_heading}}", fontSize: 2.5rem, fontWeight: "700", lineHeight: "1.1", color: "{{ground.ink}}", margin: 0, whiteSpace: nowrap}
+                      m_style: {fontSize: 1.75rem}
+                      text: "WRITE phrase: 1 to 3 words of the business's own, a speciality, a product, a value or a place; never a slogan, never invented"
+                    - el: span
+                      name: dot
+                      attrs: {aria-hidden: "true"}
+                      style: {display: block, flexShrink: 0, width: 0.625rem, height: 0.625rem, borderRadius: 50%, backgroundColor: "{{ground.accent}}"}

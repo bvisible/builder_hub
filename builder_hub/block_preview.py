@@ -218,7 +218,7 @@ FIXED = {
 }
 RANGE = re.compile(r"(\d+)\s*(?:to|-|\u2013|à)\s*(\d+)\s*(?:words?|mots?)", re.IGNORECASE)
 ONE_RANGE = re.compile(r"(\d+)\s*words?", re.IGNORECASE)
-TITLE_ROLES = {"heading", "item-title", "question", "title"}
+TITLE_ROLES = {"heading", "item-title", "question", "title", "phrase"}
 
 
 def word_count(guidance: str, length: str) -> int | None:
@@ -346,6 +346,13 @@ MOCK_FORM = (
 )
 
 
+# the copies of a strip of words the preview draws (the site's footer script repeats the group until it fills the widest screen: here three are
+# enough for the widest preview, and the track slides by one of them)
+MARQUEE_COPIES = 3
+YEARS = range(1900, 2101)
+FIRST_NUMBER = re.compile(r"\d{1,9}")
+
+
 class Page:
 	def __init__(self, look: dict, grounds: dict, words: Words):
 		self.look, self.grounds, self.words = look, grounds, words
@@ -363,8 +370,12 @@ class Page:
 			if node.get(source):
 				bucket.append(f".{cls} {{ {_css(node[source], self.look, ground)} }}")
 		tag = node["el"]
-		classes = " ".join([cls, *(node.get("classes") or [])])
+		named = list(node.get("classes") or [])
+		# a strip that moves in the site is drawn moving here (the class the site's script adds once it has repeated the group)
+		classes = " ".join([cls, *named, *(["is-moving"] if "u-marquee" in named else [])])
 		attrs = [f'class="{html.escape(classes)}"']
+		if "u-marquee__track" in named:
+			attrs.append(f'style="--marquee-shift: {100 / MARQUEE_COPIES:.4f}%"')
 		for key, value in (node.get("attrs") or {}).items():
 			value = str(value)
 			if key == "href":
@@ -389,13 +400,28 @@ class Page:
 			slot = block_format.SLOT.match(text)
 			if slot:
 				inner = self.words.slot(slot.group(1), slot.group(2))
+				if "u-count" in named:
+					inner = FIRST_NUMBER.sub(self._counting, inner, count=1)
 			elif text.strip() == "{{include_component}}":
 				inner = MOCK_FORM
 			else:
 				inner = html.escape(_fill(text, self.look, ground))
 		elif node.get("c"):
-			inner = "".join(self.node(child, ground_name) for child in node["c"])
+			children = [self.node(child, ground_name) for child in node["c"]]
+			if "u-marquee__track" in named and children:
+				# the words are written once; the copies are the same group, hidden from a reader of the page
+				group = children[0].replace(" class=", ' aria-hidden="true" class=', 1)
+				children = [children[0], *([group] * (MARQUEE_COPIES - 1))]
+			inner = "".join(children)
 		return f"<{tag} {' '.join(attrs)}>{inner}</{tag}>"
+
+	@staticmethod
+	def _counting(match: re.Match) -> str:
+		"""The first number of a figure that counts, as the site's script reads it: a year is a name and stays written. The number itself is drawn by
+		the stylesheet (a counter over a registered custom property), so the preview needs no script."""
+		if int(match.group(0)) in YEARS or match.group(0).startswith("0"):
+			return match.group(0)
+		return f'<span class="pv-n" style="--target: {int(match.group(0))}"></span>'
 
 
 def _utilities(look: dict) -> str:
@@ -433,6 +459,34 @@ def _utilities(look: dict) -> str:
 """
 
 
+def _motion(motion: str) -> str:
+	"""The motion layer of a site (theme_variables.html, "The motion layer"), drawn in time: the preview does not scroll, so what a site drives by the
+	scroll (the rise of u-reveal) plays once when the preview opens, and "Replay" in the window plays it again. The strip drifts, the figures count. All
+	of it stays inside `prefers-reduced-motion: no-preference`, as on a site: a reader whose system asks for less motion sees the page at rest."""
+	brisk = motion == "Brisk"
+	rise, count, drift, step = ("0.5s", "0.9s", "24s", 0.08) if brisk else ("0.9s", "1.6s", "40s", 0.14)
+	delays = "\n".join(f".u-reveal-group > :nth-child({n}) {{ animation-delay: {(n - 1) * step:.2f}s; }}" for n in range(2, 7))
+	return f"""
+@property --pv-n {{ syntax: "<integer>"; inherits: false; initial-value: 0; }}
+.u-count {{ font-variant-numeric: tabular-nums; }}
+.pv-n {{ --pv-n: var(--target); counter-reset: pv var(--pv-n); }}
+.pv-n::before {{ content: counter(pv); }}
+.u-marquee__track {{ display: flex; flex-wrap: wrap; justify-content: center; }}
+.u-marquee__group {{ display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .75rem 3rem; }}
+@media (prefers-reduced-motion: no-preference) {{
+@keyframes pv-rise {{ from {{ opacity: 0; translate: 0 1.5rem; }} }}
+@keyframes pv-count {{ from {{ --pv-n: 0; }} }}
+@keyframes pv-drift {{ to {{ translate: calc(var(--marquee-shift, 33.333%) * -1) 0; }} }}
+.u-reveal, .u-reveal-group > * {{ animation: pv-rise {rise} ease-out backwards; }}
+{delays}
+.pv-n {{ animation: pv-count {count} cubic-bezier(.2, .7, .2, 1) backwards; }}
+.u-marquee.is-moving {{ overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }}
+.u-marquee.is-moving .u-marquee__track {{ flex-wrap: nowrap; justify-content: flex-start; width: max-content; animation: pv-drift {drift} linear infinite; }}
+.u-marquee.is-moving .u-marquee__group {{ flex: none; flex-wrap: nowrap; justify-content: flex-start; gap: 3rem; padding-right: 3rem; }}
+}}
+"""
+
+
 def render_page(
 	tree: dict,
 	*,
@@ -440,6 +494,7 @@ def render_page(
 	lang: str = "fr",
 	length: str = "longest",
 	ground: str = "plain",
+	motion: str = "Calm",
 ) -> str:
 	"""The block as a whole HTML page, for the palette (a key of PALETTES, or a dict of the six values), in the language and with the length of text
 	given. The tree must be one that block_format.lint accepts."""
@@ -451,6 +506,7 @@ def render_page(
 	css = "\n".join(
 		[
 			_utilities(look),
+			_motion(motion),
 			*page.base,
 			f"@media (max-width: {TABLET_MAX}px) {{\n" + "\n".join(page.tablet) + "\n}"
 			if page.tablet

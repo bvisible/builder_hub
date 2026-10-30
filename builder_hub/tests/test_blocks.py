@@ -94,6 +94,16 @@ class TestTheSeedFiles(unittest.TestCase):
 		self.assertEqual(0, values["form"])
 		self.assertEqual("section", yaml.safe_load(values["tree"])["el"])
 
+	def test_the_two_blocks_that_move_say_how_much_and_wear_the_classes_of_the_motion_layer(self):
+		counters = blocks.read_seed(SEEDS / "figures.counters.yaml")
+		ticker = blocks.read_seed(SEEDS / "statement.ticker.yaml")
+		self.assertEqual(("figures", "Calm"), (counters["kinds"], counters["motion"]))
+		self.assertEqual(("statement, intro", "Brisk"), (ticker["kinds"], ticker["motion"]))
+		self.assertEqual(3, counters["tree"].count("u-count"))
+		self.assertIn("u-reveal-group", counters["tree"])
+		self.assertEqual(1, ticker["tree"].count("u-marquee__group"))
+		self.assertEqual(1, ticker["tree"].count("- u-marquee\n"))
+
 	def test_a_file_that_is_not_a_block_is_refused(self):
 		with tempfile.TemporaryDirectory() as folder:
 			path = Path(folder) / "x.yaml"

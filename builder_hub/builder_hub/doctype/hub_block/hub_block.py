@@ -95,7 +95,12 @@ class HubBlock(Document):
 		if palette not in block_preview.PALETTES:
 			palette = block_preview.DEFAULT_PALETTE
 		return block_preview.render_page(
-			self.parsed_tree(), palette=palette, lang=lang, length=length, ground=self.ground or "plain"
+			self.parsed_tree(),
+			palette=palette,
+			lang=lang,
+			length=length,
+			ground=self.ground or "plain",
+			motion=self.motion if self.motion in ("Calm", "Brisk") else "Calm",
 		)
 
 	@frappe.whitelist()

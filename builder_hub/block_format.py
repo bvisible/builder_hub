@@ -61,7 +61,12 @@ CSS_KEY = re.compile(r"^[a-z][A-Za-z]*$")
 CSS_FORBIDDEN = re.compile(r"url\(|expression\(|javascript:|@import|[<>\\{}]", re.IGNORECASE)
 COLOUR_LITERAL = re.compile(r"#[0-9a-fA-F]{3,8}\b|\b(?:rgb|hsl)a?\(", re.IGNORECASE)
 SAFE_HREF = re.compile(r"^(?:/[^/\s]*|#\S*|tel:\S+|mailto:\S+)$")
-MOTION_CLASSES = {"u-reveal", "u-marquee", "u-count"}
+# the motion utilities of the site's stylesheet (theme_variables.html, "The motion layer") and their parts: u-reveal, u-reveal-group, u-marquee,
+# u-marquee__track, u-marquee__group, u-count; a block that wears one is a block that moves
+MOTION_PREFIXES = ("u-reveal", "u-marquee", "u-count")
+
+# an `overflow` of these makes a scroll container of a node, and the reveal of what is inside is driven by THAT container (which never scrolls), not by the page
+CLIPPING = {"hidden", "auto", "scroll"}
 
 MAX_DEPTH = 10
 MAX_NODES = 120
@@ -98,7 +103,7 @@ def lint(
 	if not isinstance(tree, dict):
 		return [*errors, "the tree must be one node"], warnings
 
-	state = {"nodes": 0, "photos": set(), "slots": 0, "include": False, "motion_class": False}
+	state = {"nodes": 0, "photos": set(), "slots": 0, "include": False, "motion_class": False, "clips": 0}
 	_node(tree, "root", 1, errors, warnings, state)
 
 	if tree.get("el") != "section":
@@ -115,7 +120,7 @@ def lint(
 	if not state["slots"]:
 		errors.append("the tree has no `WRITE <role>:` slot: a block with no words to write is a picture")
 	if state["motion_class"] and motion == "None":
-		errors.append("the tree uses a motion class (u-reveal, u-marquee, u-count) but motion is None")
+		errors.append("the tree uses a motion class (u-reveal, u-reveal-group, u-marquee, u-count) but motion is None")
 	if len(yaml.safe_dump(tree)) > MAX_BYTES:
 		errors.append(f"the tree is larger than {MAX_BYTES} bytes")
 	return errors, warnings
@@ -214,6 +219,17 @@ def _attrs(value, where: str, errors: list[str], warnings: list[str], state: dic
 			errors.append(f"{here}: attribute `{key}` is not allowed")
 
 
+def _clips(node: dict) -> bool:
+	"""Whether a node makes a scroll container of itself, on any screen (`overflow` hidden, auto or scroll; `clip` does not)."""
+	for key in ("style", "t_style", "m_style"):
+		style = node.get(key)
+		if isinstance(style, dict) and any(
+			str(style.get(k, "")).strip().lower() in CLIPPING for k in ("overflow", "overflowX", "overflowY")
+		):
+			return True
+	return False
+
+
 def _node(node, where: str, depth: int, errors: list[str], warnings: list[str], state: dict) -> None:
 	state["nodes"] += 1
 	if state["nodes"] > MAX_NODES:
@@ -239,8 +255,13 @@ def _node(node, where: str, depth: int, errors: list[str], warnings: list[str], 
 	if classes is not None:
 		if not isinstance(classes, list) or not all(isinstance(c, str) and CLASS.match(c) for c in classes):
 			errors.append(f"{label}: classes must be a list of class names")
-		elif MOTION_CLASSES.intersection(classes):
+		elif any(name.startswith(MOTION_PREFIXES) for name in classes):
 			state["motion_class"] = True
+			if ("u-reveal" in classes and state["clips"]) or ("u-reveal-group" in classes and (state["clips"] or _clips(node))):
+				warnings.append(
+					f"{label}: this reveal will never play, an ancestor clips with `overflow: hidden|auto|scroll` and the reveal follows that "
+					"box, which does not scroll: use `overflow: clip`, or no overflow"
+				)
 	for key in ("style", "t_style", "m_style"):
 		if key in node:
 			_style(node[key], f"{label}.{key}", errors, warnings, state)
@@ -259,5 +280,8 @@ def _node(node, where: str, depth: int, errors: list[str], warnings: list[str], 
 		if not isinstance(children, list):
 			errors.append(f"{label}.c: must be a list")
 		else:
+			clips = int(_clips(node))
+			state["clips"] += clips
 			for index, child in enumerate(children):
 				_node(child, f"{label}[{index}]", depth + 1, errors, warnings, state)
+			state["clips"] -= clips

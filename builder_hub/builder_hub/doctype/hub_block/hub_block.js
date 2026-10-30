@@ -8,6 +8,9 @@ function openPreview(frm) {
 		const dialog = new frappe.ui.Dialog({
 			title: __("Preview of {0}", [frm.doc.block_id]),
 			size: "extra-large",
+			// a block that moves plays once when the window opens; this plays it again
+			primary_action_label: __("Replay"),
+			primary_action: () => draw(),
 			fields: [
 				{
 					fieldname: "palette",

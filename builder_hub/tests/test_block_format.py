@@ -210,6 +210,57 @@ class TestWhatIsRefused(unittest.TestCase):
 		self.assertTrue(any("motion is None" in e for e in self.errors(tree, motion="None")))
 		self.assertEqual([], self.errors(tree, motion="Calm"))
 
+	def test_every_part_of_the_motion_layer_is_a_motion_class_and_the_rest_is_not(self):
+		for name in ("u-reveal", "u-reveal-group", "u-marquee", "u-marquee__track", "u-marquee__group", "u-count"):
+			tree = minimal()
+			tree["c"][0]["classes"] = [name]
+			with self.subTest(name):
+				self.assertTrue(any("motion is None" in e for e in self.errors(tree, motion="None")))
+				self.assertEqual([], self.errors(tree, motion="Brisk"))
+		tree = minimal()
+		tree["c"][0]["classes"] = ["u-card", "u-grid", "u-grid--3", "u-media"]
+		self.assertEqual([], self.errors(tree, motion="None"))
+
+	def warnings(self, tree, **kw):
+		args = {"block_id": "cta.test", "kinds": ["cta"], "photos": 0, "form": False, "motion": "Calm"}
+		return block_format.lint(tree, **{**args, **kw})[1]
+
+	def test_a_reveal_under_a_box_that_clips_is_warned_it_never_plays(self):
+		for clipping in ("hidden", "auto", "scroll"):
+			tree = minimal()
+			tree["style"] = {"overflow": clipping}
+			tree["c"][0]["classes"] = ["u-reveal"]
+			with self.subTest(clipping):
+				self.assertTrue(any("never play" in w for w in self.warnings(tree)), clipping)
+		tree = minimal()
+		tree["m_style"] = {"overflowX": "hidden"}  # on a phone only, still a scroll container there
+		tree["c"][0]["classes"] = ["u-reveal"]
+		self.assertTrue(any("never play" in w for w in self.warnings(tree)))
+
+	def test_overflow_clip_or_the_reveal_on_the_clipping_box_itself_is_fine(self):
+		tree = minimal()
+		tree["style"] = {"overflow": "clip"}
+		tree["c"][0]["classes"] = ["u-reveal"]
+		self.assertEqual([], self.warnings(tree))
+		tree = minimal()
+		tree["classes"] = ["u-reveal"]  # the box that clips is the subject: it is not inside itself
+		tree["style"] = {"overflow": "hidden"}
+		self.assertEqual([], self.warnings(tree))
+
+	def test_the_children_of_a_group_follow_the_group_if_it_clips(self):
+		tree = minimal()
+		tree["c"][0]["classes"] = ["u-reveal-group"]
+		tree["c"][0]["style"] = {"overflow": "hidden"}
+		self.assertTrue(any("never play" in w for w in self.warnings(tree)))
+		tree["c"][0]["style"] = {"overflow": "clip"}
+		self.assertEqual([], self.warnings(tree))
+
+	def test_a_sibling_of_a_clipping_box_is_not_inside_it(self):
+		tree = minimal()
+		tree["c"][0]["style"] = {"overflow": "hidden"}
+		tree["c"].append({"el": "p", "name": "later", "classes": ["u-reveal"], "text": "WRITE text: x"})
+		self.assertEqual([], self.warnings(tree))
+
 	def test_a_node_has_text_or_children_not_both(self):
 		tree = minimal()
 		tree["c"][0]["c"] = [{"el": "span", "text": "WRITE text: x"}]
