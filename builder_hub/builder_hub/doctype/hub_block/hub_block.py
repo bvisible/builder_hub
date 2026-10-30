@@ -3,7 +3,7 @@ import frappe
 from frappe import _
 from frappe.model.document import Document
 
-from builder_hub import block_format
+from builder_hub import block_compile, block_format
 
 
 class HubBlock(Document):
@@ -13,7 +13,9 @@ class HubBlock(Document):
 		self.kinds = ", ".join(self.kind_list())
 		self.format = block_format.FORMAT
 		errors, warnings = self.lint()
-		self.lint_report = "\n".join([*(f"ERROR {e}" for e in errors), *(f"warning {w}" for w in warnings)])
+		lint_lines = [*(f"ERROR {e}" for e in errors), *(f"warning {w}" for w in warnings)]
+		# what compiling the page of the editor said comes first: it names the blocks of the page, the lint names those of the tree
+		self.lint_report = "\n".join([*(self.flags.get("compile_report") or []), *lint_lines])
 		if errors and self.status == "Published":
 			frappe.throw(_("A block with errors cannot be published:") + "<br>" + "<br>".join(errors))
 		if not self.source:
@@ -44,6 +46,63 @@ class HubBlock(Document):
 			form=bool(self.form),
 			motion=self.motion or "None",
 		)
+
+	@frappe.whitelist()
+	def draw_page(self) -> str:
+		"""The page of the Builder editor where this block is drawn: made from the tree (or a starting section) when there is none. Returns its name."""
+		self.check_permission("write")
+		if self.source_page and frappe.db.exists("Builder Page", self.source_page):
+			return self.source_page
+		from builder.ai.page_writer import expand_page_yaml
+
+		from builder_hub.blocks import ensure_block_tokens, ensure_page_folder
+
+		ensure_block_tokens()
+		try:
+			tree = self.parsed_tree() if (self.tree or "").strip() else None
+		except ValueError:
+			tree = None
+		blocks, _script = expand_page_yaml(block_compile.to_page_yaml(tree))
+		if not blocks:
+			frappe.throw(_("The block could not be turned into a page of the editor"))
+		blocks_json = frappe.as_json(blocks, indent=0)
+		page = frappe.get_doc(
+			{
+				"doctype": "Builder Page",
+				"page_title": f"Block {self.block_id}",
+				"project_folder": ensure_page_folder(),
+				"published": 0,
+				"blocks": blocks_json,
+				"draft_blocks": blocks_json,
+			}
+		)
+		page.insert(ignore_permissions=True)
+		self.db_set("source_page", page.name)
+		return page.name
+
+	@frappe.whitelist()
+	def compile_from_page(self) -> dict:
+		"""Rewrites the tree (and the photographs and the form) from the page of the editor, and lints it. Returns what it said."""
+		self.check_permission("write")
+		if not self.source_page or not frappe.db.exists("Builder Page", self.source_page):
+			frappe.throw(_("Draw the block in the editor first (Block > Draw in the editor)"))
+		page = frappe.get_doc("Builder Page", self.source_page)
+		result = block_compile.compile_blocks(frappe.parse_json(page.draft_blocks or page.blocks or "[]"))
+		if result.tree is None:
+			frappe.throw("<br>".join(result.errors))
+		import yaml
+
+		self.tree = yaml.safe_dump(
+			result.tree, sort_keys=False, allow_unicode=True, width=10**6, default_flow_style=False
+		)
+		self.photos = result.photos
+		self.form = 1 if result.form else 0
+		self.flags.compile_report = [
+			*(f"ERROR {e}" for e in result.errors),
+			*(f"warning {w}" for w in result.warnings),
+		]
+		self.save()
+		return {"report": self.lint_report or "", "version": self.version, "status": self.status}
 
 	def on_update(self):
 		from builder_hub.blocks import clear_block_cache

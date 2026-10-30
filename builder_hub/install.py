@@ -21,6 +21,7 @@ def _sync():
 	ensure_publisher_role()
 
 	# //// Neoffice — the seed blocks of the hub's block library (block_library/*.yaml, blocks.py) go into the database with the templates
-	from builder_hub.blocks import sync_block_library
+	from builder_hub.blocks import ensure_block_tokens, sync_block_library
 
+	ensure_block_tokens()
 	sync_block_library()

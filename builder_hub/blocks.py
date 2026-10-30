@@ -17,7 +17,7 @@ Where blocks come from:
 import frappe
 import yaml
 
-from builder_hub import block_format
+from builder_hub import block_compile, block_format
 
 SEED_SOURCE = "seed"
 EDITED_SOURCE = "edited in the hub"
@@ -159,3 +159,46 @@ def sync_block_library() -> list[str]:
 		frappe.db.commit()
 		clear_block_cache()
 	return changes
+
+
+# ---------------------------------------------------------------- what the editor needs to draw a block
+
+
+PAGE_FOLDER = "Hub blocks"
+
+
+def ensure_page_folder() -> str:
+	"""The project folder of the Builder editor that holds the pages where the blocks are drawn."""
+	if not frappe.db.exists("Builder Project Folder", PAGE_FOLDER):
+		frappe.get_doc({"doctype": "Builder Project Folder", "folder_name": PAGE_FOLDER}).insert(
+			ignore_permissions=True
+		)
+	return PAGE_FOLDER
+
+
+def ensure_block_tokens() -> list[str]:
+	"""The palette of the blocks (block_compile.PALETTE) as design tokens of the editor, named `hb-<role>`. A token that exists is never changed
+	(somebody may have tuned the colours the editor previews with). Returns the keys it created."""
+	from builder_hub.publish import _token_doctype
+
+	doctype, name_field = _token_doctype()
+	made = []
+	for role, kind, value in block_compile.PALETTE:
+		key = block_compile.token_key(role)
+		if frappe.db.exists(doctype, key):
+			continue
+		label = "Block · " + role.replace("_", " ").replace(".", " ")
+		frappe.get_doc(
+			{
+				"doctype": doctype,
+				"name": key,
+				name_field: label,
+				"type": kind,
+				"value": value,
+				"group": block_compile.TOKEN_GROUP,
+			}
+		).insert(ignore_permissions=True, set_name=key)
+		made.append(key)
+	if made:
+		frappe.db.commit()
+	return made

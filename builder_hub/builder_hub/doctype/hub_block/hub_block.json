@@ -19,6 +19,7 @@
   "section_look",
   "look",
   "section_tree",
+  "source_page",
   "tree",
   "section_state",
   "lint_report",
@@ -118,11 +119,19 @@
    "label": "Tree"
   },
   {
+   "fieldname": "source_page",
+   "fieldtype": "Link",
+   "label": "Page in the editor",
+   "options": "Builder Page",
+   "read_only": 1,
+   "description": "The page where this block is drawn (Block > Draw in the editor); Compile from the page rewrites the tree"
+  },
+  {
    "fieldname": "tree",
    "fieldtype": "Code",
    "label": "Tree",
    "options": "YAML",
-   "reqd": 1
+   "description": "Edited by hand here, or drawn in the editor (Block > Draw in the editor) and compiled from its page"
   },
   {
    "fieldname": "section_state",
