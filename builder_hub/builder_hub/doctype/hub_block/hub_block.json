@@ -124,14 +124,13 @@
    "label": "Page in the editor",
    "options": "Builder Page",
    "read_only": 1,
-   "description": "The page where this block is drawn (Block > Draw in the editor); Compile from the page rewrites the tree"
+   "description": "The page where this block is drawn (Editor > Draw in the editor); Editor > Compile from the page rewrites the tree"
   },
   {
    "fieldname": "tree",
    "fieldtype": "Code",
    "label": "Tree",
-   "options": "YAML",
-   "description": "Edited by hand here, or drawn in the editor (Block > Draw in the editor) and compiled from its page"
+   "description": "YAML. Edited by hand here, or drawn in the editor (Editor > Draw in the editor) and compiled from its page"
   },
   {
    "fieldname": "section_state",

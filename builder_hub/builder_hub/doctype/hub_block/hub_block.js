@@ -2,13 +2,14 @@
 frappe.ui.form.on("Hub Block", {
 	refresh(frm) {
 		if (frm.is_new()) return;
-		const group = __("Block");
+		// not "Block": the desk translates it as the verb (Bloquer)
+		const group = __("Editor");
 		frm.add_custom_button(
 			__("Draw in the editor"),
 			() => {
 				const open = () =>
 					frm.call("draw_page").then((r) => {
-						window.open(`/builder/${r.message}`, "_blank");
+						window.open(`/builder/page/${r.message}`, "_blank");
 						frm.reload_doc();
 					});
 				frm.is_dirty() ? frm.save().then(open) : open();
@@ -33,7 +34,7 @@ frappe.ui.form.on("Hub Block", {
 				},
 				group,
 			);
-			frm.add_custom_button(__("Open the page in the editor"), () => window.open(`/builder/${frm.doc.source_page}`, "_blank"), group);
+			frm.add_custom_button(__("Open the page in the editor"), () => window.open(`/builder/page/${frm.doc.source_page}`, "_blank"), group);
 		}
 	},
 });

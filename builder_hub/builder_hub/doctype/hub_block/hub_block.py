@@ -85,7 +85,7 @@ class HubBlock(Document):
 		"""Rewrites the tree (and the photographs and the form) from the page of the editor, and lints it. Returns what it said."""
 		self.check_permission("write")
 		if not self.source_page or not frappe.db.exists("Builder Page", self.source_page):
-			frappe.throw(_("Draw the block in the editor first (Block > Draw in the editor)"))
+			frappe.throw(_("Draw the block in the editor first (Editor > Draw in the editor)"))
 		page = frappe.get_doc("Builder Page", self.source_page)
 		result = block_compile.compile_blocks(frappe.parse_json(page.draft_blocks or page.blocks or "[]"))
 		if result.tree is None:
