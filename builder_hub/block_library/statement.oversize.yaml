@@ -1,0 +1,43 @@
+# //// Neoffice — added file (no upstream equivalent): seed block of the hub's library.
+id: statement.oversize
+title: Oversize statement
+kinds: [statement, intro]
+look: "one very large sentence across the page, a short rule and a quiet paragraph beneath it; the claim of the business, said once and loudly"
+photos: 0
+ground: plain
+motion: None
+notes: "The statement drops to a size a phone can hold without breaking words."
+tree:
+  el: section
+  name: oversize
+  style: {backgroundColor: "{{ground.background}}", width: 100%, padding: 8rem 0}
+  m_style: {padding: 4.5rem 0}
+  c:
+    - el: div
+      name: container
+      style: {maxWidth: "{{container}}", width: 100%, margin: 0 auto, paddingLeft: "{{gutter}}", paddingRight: "{{gutter}}"}
+      m_style: {paddingLeft: "{{gutter_phone}}", paddingRight: "{{gutter_phone}}"}
+      c:
+        - el: p
+          name: label
+          style: {fontFamily: "{{font_body}}", fontSize: 0.75rem, fontWeight: "700", letterSpacing: 0.3em, textTransform: uppercase, color: "{{ground.accent}}", margin: 0 0 2rem}
+          text: "WRITE label: 2 to 4 words naming the subject"
+        - el: h2
+          name: statement
+          style: {fontFamily: "{{font_heading}}", fontSize: 4.5rem, fontWeight: "700", lineHeight: "1.05", color: "{{ground.ink}}", margin: 0 0 3rem, maxWidth: 62rem}
+          t_style: {fontSize: 3.25rem}
+          m_style: {fontSize: 2.125rem, margin: 0 0 2rem}
+          text: "WRITE heading: one sentence of 10 to 18 words that states what the business stands for, one accent word"
+        - el: div
+          name: after
+          style: {display: grid, gridTemplateColumns: 1fr 2fr, gap: 4rem, alignItems: start}
+          t_style: {gridTemplateColumns: 1fr, gap: 1.5rem}
+          m_style: {gridTemplateColumns: 1fr, gap: 1.25rem}
+          c:
+            - el: hr
+              name: rule
+              style: {border: none, height: 2px, width: 4rem, backgroundColor: "{{ground.accent}}", margin: 0.75rem 0 0}
+            - el: p
+              name: text
+              style: {fontFamily: "{{font_body}}", fontSize: 1.25rem, lineHeight: "1.7", color: "{{ground.muted}}", margin: 0, maxWidth: 38rem}
+              text: "WRITE text: two sentences, 35 to 55 words, from the business's own facts"

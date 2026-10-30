@@ -220,3 +220,27 @@ def allow_template_embedding(response=None, request=None):
 		directives.append("frame-ancestors *")
 		response.headers["Content-Security-Policy"] = "; ".join(directives)
 		response.headers.pop("X-Frame-Options", None)
+
+
+# //// Neoffice — the hub's library of blocks: sections a site generator draws from (builder_hub/blocks.py). Guest-readable like the
+# //// template catalog; only Published blocks that lint clean are ever served.
+@frappe.whitelist(allow_guest=True)
+def get_block_catalog() -> dict:
+	"""{"format": n, "blocks": [...]}: every published block with its tree, for a site generator to offer to its planner."""
+	return _block_catalog()
+
+
+@redis_cache(ttl=3600)
+def _block_catalog() -> dict:
+	from builder_hub.blocks import published_blocks
+
+	return published_blocks()
+
+
+@frappe.whitelist(allow_guest=True)
+def get_block(block_id: str) -> dict:
+	"""One published block with its tree."""
+	for block in _block_catalog()["blocks"]:
+		if block["id"] == block_id:
+			return block
+	frappe.throw(frappe._("{0} is not a published block").format(block_id), frappe.DoesNotExistError)

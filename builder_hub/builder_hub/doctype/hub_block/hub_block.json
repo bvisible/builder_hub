@@ -1,0 +1,198 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "field:block_id",
+ "creation": "2026-10-30 12:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "block_id",
+  "title",
+  "status",
+  "family",
+  "column_break_a",
+  "kinds",
+  "ground",
+  "photos",
+  "form",
+  "motion",
+  "section_look",
+  "look",
+  "section_tree",
+  "tree",
+  "section_state",
+  "lint_report",
+  "notes",
+  "column_break_b",
+  "format",
+  "version",
+  "source"
+ ],
+ "fields": [
+  {
+   "fieldname": "block_id",
+   "fieldtype": "Data",
+   "label": "Block ID",
+   "reqd": 1,
+   "unique": 1,
+   "in_list_view": 1,
+   "description": "<family>.<variant>, lowercase, e.g. steps.rail"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nPublished",
+   "default": "Draft",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "description": "Only Published blocks are served to sites"
+  },
+  {
+   "fieldname": "family",
+   "fieldtype": "Data",
+   "label": "Family",
+   "read_only": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "column_break_a",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kinds",
+   "fieldtype": "Data",
+   "label": "Section kinds",
+   "reqd": 1,
+   "description": "Comma-separated kinds of the Nora site plan this block can carry (cards, steps, cta…)"
+  },
+  {
+   "fieldname": "ground",
+   "fieldtype": "Select",
+   "label": "Ground",
+   "options": "plain\ntint\ndeep",
+   "default": "plain"
+  },
+  {
+   "fieldname": "photos",
+   "fieldtype": "Int",
+   "label": "Photographs",
+   "default": "0"
+  },
+  {
+   "fieldname": "form",
+   "fieldtype": "Check",
+   "label": "Carries the contact form"
+  },
+  {
+   "fieldname": "motion",
+   "fieldtype": "Select",
+   "label": "Motion",
+   "options": "None\nCalm\nBrisk",
+   "default": "None",
+   "description": "The lightest motion style a site needs for the block to look as designed"
+  },
+  {
+   "fieldname": "section_look",
+   "fieldtype": "Section Break",
+   "label": "Look"
+  },
+  {
+   "fieldname": "look",
+   "fieldtype": "Small Text",
+   "label": "Look",
+   "reqd": 1,
+   "description": "How it looks and what it suits: one sentence, read by the model that plans the site"
+  },
+  {
+   "fieldname": "section_tree",
+   "fieldtype": "Section Break",
+   "label": "Tree"
+  },
+  {
+   "fieldname": "tree",
+   "fieldtype": "Code",
+   "label": "Tree",
+   "options": "YAML",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_state",
+   "fieldtype": "Section Break",
+   "label": "State",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "lint_report",
+   "fieldtype": "Small Text",
+   "label": "Lint report",
+   "read_only": 1
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "column_break_b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "format",
+   "fieldtype": "Int",
+   "label": "Format",
+   "read_only": 1,
+   "default": "1"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Int",
+   "label": "Version",
+   "read_only": 1,
+   "default": "1"
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Data",
+   "label": "Source",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-10-30 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Builder Hub",
+ "name": "Hub Block",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  },
+  {
+   "role": "Builder Hub Maintainer",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title",
+ "track_changes": 1
+}

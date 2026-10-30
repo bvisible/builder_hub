@@ -535,6 +535,79 @@ def _clear_catalog_caches():
         frappe.cache().delete_keys("builder_hub*")
 
 
+def _block_fields(payload: dict) -> dict:
+    """The field values of a Hub Block from a publish payload (the tree may be a mapping or YAML text)."""
+    import yaml
+
+    tree = payload.get("tree")
+    if isinstance(tree, dict):
+        tree = yaml.safe_dump(tree, sort_keys=False, allow_unicode=True, width=10**6, default_flow_style=False)
+    kinds = payload.get("kinds") or []
+    return {
+        "block_id": (payload.get("id") or "").strip(),
+        "title": payload.get("title") or payload.get("id") or "",
+        "kinds": ", ".join(kinds) if isinstance(kinds, list) else str(kinds),
+        "look": payload.get("look") or "",
+        "photos": int(payload.get("photos") or 0),
+        "form": 1 if payload.get("form") else 0,
+        "ground": payload.get("ground") or "plain",
+        "motion": payload.get("motion") or "None",
+        "notes": payload.get("notes") or "",
+        "tree": tree or "",
+    }
+
+
+@frappe.whitelist()
+@rate_limit(limit=120, seconds=60)
+def lint_block():
+    """JSON body: a block ({id, kinds, photos, form, ground, motion, tree, …}). Returns {"errors": [...], "warnings": [...]}."""
+    _check_publisher()
+    from builder_hub import block_format
+
+    payload = frappe.parse_json((frappe.request.get_data() or b"{}").decode("utf-8"))
+    values = _block_fields(payload)
+    try:
+        tree = block_format.parse_tree(values["tree"])
+    except ValueError as e:
+        return {"errors": [str(e)], "warnings": []}
+    errors, warnings = block_format.lint(
+        tree,
+        block_id=values["block_id"],
+        kinds=[k.strip() for k in values["kinds"].split(",") if k.strip()],
+        photos=values["photos"],
+        form=bool(values["form"]),
+        motion=values["motion"],
+    )
+    return {"errors": errors, "warnings": warnings}
+
+
+@frappe.whitelist()
+@rate_limit(limit=60, seconds=60)
+def publish_block():
+    """Receive one block (the body of `lint_block`) and keep it as a DRAFT of the hub's block library: a block ends up in every site that is
+    generated, so a person reads it in the hub's desk and publishes it. A block that is already published is not overwritten here (it is
+    edited in the desk); a draft is replaced by the new revision."""
+    _check_publisher()
+    raw = frappe.request.get_data() or b"{}"
+    if len(raw) > MAX_PAYLOAD_BYTES:
+        frappe.throw(_("Payload exceeds the {0} MB limit").format(MAX_PAYLOAD_BYTES // (1024 * 1024)))
+    values = _block_fields(frappe.parse_json(raw.decode("utf-8")))
+    if not values["block_id"]:
+        frappe.throw(_("A block needs an id"))
+    if frappe.db.exists("Hub Block", values["block_id"]):
+        doc = frappe.get_doc("Hub Block", values["block_id"])
+        if doc.status == "Published":
+            frappe.throw(_("Block {0} is published: edit it in the hub").format(doc.name), frappe.PermissionError)
+        doc.update(values)
+    else:
+        doc = frappe.new_doc("Hub Block")
+        doc.update(values)
+        doc.source = f"published by {frappe.session.user}"
+    doc.status = "Draft"
+    doc.save(ignore_permissions=True)
+    return {"block": doc.name, "status": doc.status, "version": doc.version, "lint": doc.lint_report or ""}
+
+
 def ensure_publisher_role():
     """Idempotently create the Hub Publisher role (called on install/migrate)."""
     if not frappe.db.exists("Role", "Hub Publisher"):

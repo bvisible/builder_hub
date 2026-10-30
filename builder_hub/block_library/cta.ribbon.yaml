@@ -1,0 +1,48 @@
+# //// Neoffice — added file (no upstream equivalent): seed block of the hub's library.
+id: cta.ribbon
+title: Ribbon call to action
+kinds: [cta]
+look: "a slim deep band, a short rule and the invitation on the left, the button on the right on the same line; the closing line of a page that does not shout"
+photos: 0
+ground: deep
+motion: None
+notes: "On a phone the button drops under the words."
+tree:
+  el: section
+  name: ribbon
+  style: {backgroundColor: "{{ground.background}}", width: 100%, padding: 4.5rem 0}
+  m_style: {padding: 3rem 0}
+  c:
+    - el: div
+      name: container
+      style: {maxWidth: "{{container}}", width: 100%, margin: 0 auto, paddingLeft: "{{gutter}}", paddingRight: "{{gutter}}"}
+      m_style: {paddingLeft: "{{gutter_phone}}", paddingRight: "{{gutter_phone}}"}
+      c:
+        - el: div
+          name: row
+          style: {display: flex, alignItems: center, justifyContent: space-between, gap: 3rem}
+          t_style: {gap: 2rem}
+          m_style: {flexDirection: column, alignItems: flex-start, gap: 1.75rem}
+          c:
+            - el: div
+              name: words
+              style: {display: flex, flexDirection: column, alignItems: flex-start, maxWidth: 40rem}
+              c:
+                - el: hr
+                  name: rule
+                  style: {border: none, height: 2px, width: 3rem, backgroundColor: "{{ground.accent}}", margin: 0 0 1.5rem}
+                - el: h2
+                  name: heading
+                  style: {fontFamily: "{{font_heading}}", fontSize: 2.5rem, fontWeight: "700", lineHeight: "1.15", color: "{{ground.ink}}", margin: 0 0 1rem}
+                  m_style: {fontSize: 1.75rem}
+                  text: "WRITE heading: 4 to 9 words, one accent word"
+                - el: p
+                  name: text
+                  style: {fontFamily: "{{font_body}}", fontSize: 1.0625rem, lineHeight: "1.7", color: "{{ground.muted}}", margin: 0}
+                  text: "WRITE text: one sentence of 15 to 25 words"
+            - el: a
+              name: button
+              classes: [u-btn, u-btn--secondary]
+              attrs: {href: "{{cta_href}}"}
+              style: {flexShrink: 0}
+              text: "WRITE button: a direct invitation, 2 to 4 words"

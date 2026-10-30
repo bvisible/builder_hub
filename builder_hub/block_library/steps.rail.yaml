@@ -1,0 +1,120 @@
+# //// Neoffice — added file (no upstream equivalent): seed block of the hub's library.
+id: steps.rail
+title: Steps on a rail
+kinds: [steps]
+look: "the heading and its line on the left, the steps on the right strung on a vertical rail of ringed numerals; the way the work goes, read top to bottom"
+photos: 0
+ground: plain
+motion: None
+notes: "The rail is a hairline behind ringed numerals; the left column stays in place on a wide screen and stacks above the steps on a tablet."
+tree:
+  el: section
+  name: rail
+  style: {backgroundColor: "{{ground.background}}", width: 100%, padding: 6rem 0}
+  m_style: {padding: 4rem 0}
+  c:
+    - el: div
+      name: container
+      style: {maxWidth: "{{container}}", width: 100%, margin: 0 auto, paddingLeft: "{{gutter}}", paddingRight: "{{gutter}}"}
+      m_style: {paddingLeft: "{{gutter_phone}}", paddingRight: "{{gutter_phone}}"}
+      c:
+        - el: div
+          name: pair
+          style: {display: grid, gridTemplateColumns: 5fr 7fr, gap: 5rem, alignItems: start}
+          t_style: {gridTemplateColumns: 1fr, gap: 2.5rem}
+          m_style: {gridTemplateColumns: 1fr, gap: 2rem}
+          c:
+            - el: div
+              name: head
+              style: {display: flex, flexDirection: column, alignItems: flex-start, position: sticky, top: 6rem}
+              t_style: {position: static}
+              c:
+                - el: p
+                  name: label
+                  style: {fontFamily: "{{font_body}}", fontSize: 0.75rem, fontWeight: "700", letterSpacing: 0.3em, textTransform: uppercase, color: "{{ground.accent}}", margin: 0 0 1.25rem}
+                  text: "WRITE label: 2 to 4 words naming the subject"
+                - el: h2
+                  name: heading
+                  style: {fontFamily: "{{font_heading}}", fontSize: 3rem, fontWeight: "700", lineHeight: "1.15", color: "{{ground.ink}}", margin: 0 0 1.25rem, maxWidth: 30rem}
+                  m_style: {fontSize: 1.75rem}
+                  text: "WRITE heading: 3 to 7 words, one accent word"
+                - el: p
+                  name: lead
+                  style: {fontFamily: "{{font_body}}", fontSize: 1.125rem, lineHeight: "1.7", color: "{{ground.muted}}", margin: 0, maxWidth: 26rem}
+                  text: "WRITE lead: one sentence of 15 to 25 words on how the work goes"
+            - el: div
+              name: rail
+              style: {position: relative, display: flex, flexDirection: column}
+              c:
+                - el: div
+                  name: line
+                  attrs: {aria-hidden: "true"}
+                  style: {position: absolute, left: 1.25rem, top: 1.25rem, bottom: 1.25rem, width: 1px, backgroundColor: "{{ground.hair}}"}
+                - el: div
+                  name: step
+                  style: {position: relative, paddingLeft: 4rem, paddingBottom: 2.75rem}
+                  m_style: {paddingLeft: 3.5rem, paddingBottom: 2rem}
+                  c:
+                    - el: p
+                      name: numeral
+                      style: {position: absolute, left: 0, top: 0, width: 2.5rem, height: 2.5rem, margin: 0, borderRadius: 50%, border: "1px solid {{ground.accent}}", backgroundColor: "{{ground.background}}", color: "{{ground.ink}}", fontFamily: "{{font_heading}}", fontSize: 0.9375rem, fontWeight: "700", lineHeight: 2.375rem, textAlign: center}
+                      text: "WRITE numeral: the step number, 01, 02, 03"
+                    - el: h3
+                      name: item-title
+                      style: {fontFamily: "{{font_heading}}", fontSize: 1.5rem, fontWeight: "700", lineHeight: "1.25", color: "{{ground.ink}}", margin: 0 0 0.5rem, paddingTop: 0.25rem}
+                      text: "WRITE item-title: 2 to 5 words naming the step"
+                    - el: p
+                      name: item-text
+                      style: {fontFamily: "{{font_body}}", fontSize: 1.0625rem, lineHeight: "1.7", color: "{{ground.muted}}", margin: 0, maxWidth: 32rem}
+                      text: "WRITE item-text: one or two sentences, 20 to 40 words"
+                - el: div
+                  name: step
+                  style: {position: relative, paddingLeft: 4rem, paddingBottom: 2.75rem}
+                  m_style: {paddingLeft: 3.5rem, paddingBottom: 2rem}
+                  c:
+                    - el: p
+                      name: numeral
+                      style: {position: absolute, left: 0, top: 0, width: 2.5rem, height: 2.5rem, margin: 0, borderRadius: 50%, border: "1px solid {{ground.accent}}", backgroundColor: "{{ground.background}}", color: "{{ground.ink}}", fontFamily: "{{font_heading}}", fontSize: 0.9375rem, fontWeight: "700", lineHeight: 2.375rem, textAlign: center}
+                      text: "WRITE numeral: the step number, 01, 02, 03"
+                    - el: h3
+                      name: item-title
+                      style: {fontFamily: "{{font_heading}}", fontSize: 1.5rem, fontWeight: "700", lineHeight: "1.25", color: "{{ground.ink}}", margin: 0 0 0.5rem, paddingTop: 0.25rem}
+                      text: "WRITE item-title: 2 to 5 words naming the step"
+                    - el: p
+                      name: item-text
+                      style: {fontFamily: "{{font_body}}", fontSize: 1.0625rem, lineHeight: "1.7", color: "{{ground.muted}}", margin: 0, maxWidth: 32rem}
+                      text: "WRITE item-text: one or two sentences, 20 to 40 words"
+                - el: div
+                  name: step
+                  style: {position: relative, paddingLeft: 4rem, paddingBottom: 2.75rem}
+                  m_style: {paddingLeft: 3.5rem, paddingBottom: 2rem}
+                  c:
+                    - el: p
+                      name: numeral
+                      style: {position: absolute, left: 0, top: 0, width: 2.5rem, height: 2.5rem, margin: 0, borderRadius: 50%, border: "1px solid {{ground.accent}}", backgroundColor: "{{ground.background}}", color: "{{ground.ink}}", fontFamily: "{{font_heading}}", fontSize: 0.9375rem, fontWeight: "700", lineHeight: 2.375rem, textAlign: center}
+                      text: "WRITE numeral: the step number, 01, 02, 03"
+                    - el: h3
+                      name: item-title
+                      style: {fontFamily: "{{font_heading}}", fontSize: 1.5rem, fontWeight: "700", lineHeight: "1.25", color: "{{ground.ink}}", margin: 0 0 0.5rem, paddingTop: 0.25rem}
+                      text: "WRITE item-title: 2 to 5 words naming the step"
+                    - el: p
+                      name: item-text
+                      style: {fontFamily: "{{font_body}}", fontSize: 1.0625rem, lineHeight: "1.7", color: "{{ground.muted}}", margin: 0, maxWidth: 32rem}
+                      text: "WRITE item-text: one or two sentences, 20 to 40 words"
+                - el: div
+                  name: step
+                  style: {position: relative, paddingLeft: 4rem}
+                  m_style: {paddingLeft: 3.5rem}
+                  c:
+                    - el: p
+                      name: numeral
+                      style: {position: absolute, left: 0, top: 0, width: 2.5rem, height: 2.5rem, margin: 0, borderRadius: 50%, border: "1px solid {{ground.accent}}", backgroundColor: "{{ground.background}}", color: "{{ground.ink}}", fontFamily: "{{font_heading}}", fontSize: 0.9375rem, fontWeight: "700", lineHeight: 2.375rem, textAlign: center}
+                      text: "WRITE numeral: the step number, 01, 02, 03"
+                    - el: h3
+                      name: item-title
+                      style: {fontFamily: "{{font_heading}}", fontSize: 1.5rem, fontWeight: "700", lineHeight: "1.25", color: "{{ground.ink}}", margin: 0 0 0.5rem, paddingTop: 0.25rem}
+                      text: "WRITE item-title: 2 to 5 words naming the step"
+                    - el: p
+                      name: item-text
+                      style: {fontFamily: "{{font_body}}", fontSize: 1.0625rem, lineHeight: "1.7", color: "{{ground.muted}}", margin: 0, maxWidth: 32rem}
+                      text: "WRITE item-text: one or two sentences, 20 to 40 words"
