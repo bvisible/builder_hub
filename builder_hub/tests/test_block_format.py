@@ -211,7 +211,14 @@ class TestWhatIsRefused(unittest.TestCase):
 		self.assertEqual([], self.errors(tree, motion="Calm"))
 
 	def test_every_part_of_the_motion_layer_is_a_motion_class_and_the_rest_is_not(self):
-		for name in ("u-reveal", "u-reveal-group", "u-marquee", "u-marquee__track", "u-marquee__group", "u-count"):
+		for name in (
+			"u-reveal",
+			"u-reveal-group",
+			"u-marquee",
+			"u-marquee__track",
+			"u-marquee__group",
+			"u-count",
+		):
 			tree = minimal()
 			tree["c"][0]["classes"] = [name]
 			with self.subTest(name):
@@ -289,6 +296,61 @@ class TestWhatIsRefused(unittest.TestCase):
 	def test_a_motion_or_photo_count_out_of_range_is_refused(self):
 		self.assertTrue(any("motion `Wild`" in e for e in self.errors(minimal(), motion="Wild")))
 		self.assertTrue(any("photos must be" in e for e in self.errors(minimal(), photos=9)))
+
+
+def faq_tree():
+	tree = minimal()
+	tree["c"].append(
+		{
+			"el": "div",
+			"name": "faq",
+			"classes": ["u-faq"],
+			"c": [
+				{
+					"el": "details",
+					"name": "question",
+					"c": [
+						{
+							"el": "summary",
+							"name": "question-text",
+							"text": "WRITE question: a real question, 5 to 12 words",
+						},
+						{"el": "p", "name": "answer", "text": "WRITE answer: an answer of 25 to 45 words"},
+					],
+				}
+			],
+		}
+	)
+	return tree
+
+
+class TestTheQuestionsThatFold(unittest.TestCase):
+	def test_the_format_is_two_and_a_consumer_reads_one_and_two(self):
+		self.assertEqual(2, block_format.FORMAT)
+		self.assertEqual((1, 2), block_format.READABLE)
+		self.assertIn(block_format.FORMAT, block_format.READABLE)
+
+	def test_a_details_with_its_summary_passes(self):
+		self.assertEqual(([], []), check(faq_tree(), block_id="faq.test", kinds=["faq"]))
+
+	def test_a_details_with_no_summary_is_only_warned(self):
+		tree = faq_tree()
+		del tree["c"][2]["c"][0]["c"][0]
+		errors, warnings = check(tree, block_id="faq.test", kinds=["faq"])
+		self.assertEqual([], errors)
+		self.assertTrue(any("`details` with no `summary`" in w for w in warnings))
+
+	def test_the_words_of_a_summary_are_a_slot_like_any_other(self):
+		tree = faq_tree()
+		tree["c"][2]["c"][0]["c"][0]["text"] = "Fixed words"
+		errors, _warnings = check(tree, block_id="faq.test", kinds=["faq"])
+		self.assertTrue(any("fixed words" in e for e in errors))
+
+	def test_the_open_attribute_is_not_a_block_s(self):
+		tree = faq_tree()
+		tree["c"][2]["c"][0]["attrs"] = {"open": "open"}
+		errors, _warnings = check(tree, block_id="faq.test", kinds=["faq"])
+		self.assertTrue(any("`open` is not allowed" in e for e in errors))
 
 
 class TestWhatIsOnlyWarned(unittest.TestCase):

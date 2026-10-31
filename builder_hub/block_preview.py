@@ -408,6 +408,10 @@ class Page:
 				inner = html.escape(_fill(text, self.look, ground))
 		elif node.get("c"):
 			children = [self.node(child, ground_name) for child in node["c"]]
+			# the first of the folding questions of a list is open, so that the preview shows an answer too
+			first_fold = next((i for i, kid in enumerate(node["c"]) if kid.get("el") == "details"), None)
+			if first_fold is not None:
+				children[first_fold] = children[first_fold].replace("<details ", "<details open ", 1)
 			if "u-marquee__track" in named and children:
 				# the words are written once; the copies are the same group, hidden from a reader of the page
 				group = children[0].replace(" class=", ' aria-hidden="true" class=', 1)
@@ -451,6 +455,13 @@ def _utilities(look: dict) -> str:
 .u-btn--outline {{ background: transparent; color: inherit; border-color: currentColor; }}
 .u-btn--ghost {{ background: transparent; color: inherit; padding-left: 0; padding-right: 0; }}
 .u-media {{ border-radius: var(--radius-lg); overflow: hidden; display: block; width: 100%; }}
+.u-faq > details {{ border-top: 1px solid color-mix(in srgb, currentColor 18%, transparent); }}
+.u-faq > details:last-child {{ border-bottom: 1px solid color-mix(in srgb, currentColor 18%, transparent); }}
+.u-faq summary {{ display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding: 1.25rem 0; cursor: pointer; list-style: none; }}
+.u-faq summary::-webkit-details-marker {{ display: none; }}
+.u-faq summary::after {{ content: "+"; flex: none; font-weight: 400; line-height: 1; }}
+.u-faq details[open] > summary::after {{ content: "\\2212"; }}
+.u-faq details > :not(summary) {{ margin: 0 0 1.25rem; }}
 .u-grid {{ display: grid; gap: 24px; grid-template-columns: repeat(2, minmax(0, 1fr)); }}
 .u-grid--3 {{ grid-template-columns: repeat(3, minmax(0, 1fr)); }}
 .u-grid--4 {{ grid-template-columns: repeat(4, minmax(0, 1fr)); }}
@@ -465,7 +476,10 @@ def _motion(motion: str) -> str:
 	of it stays inside `prefers-reduced-motion: no-preference`, as on a site: a reader whose system asks for less motion sees the page at rest."""
 	brisk = motion == "Brisk"
 	rise, count, drift, step = ("0.5s", "0.9s", "24s", 0.08) if brisk else ("0.9s", "1.6s", "40s", 0.14)
-	delays = "\n".join(f".u-reveal-group > :nth-child({n}) {{ animation-delay: {(n - 1) * step:.2f}s; }}" for n in range(2, 7))
+	delays = "\n".join(
+		f".u-reveal-group > :nth-child({n}) {{ animation-delay: {(n - 1) * step:.2f}s; }}"
+		for n in range(2, 7)
+	)
 	return f"""
 @property --pv-n {{ syntax: "<integer>"; inherits: false; initial-value: 0; }}
 .u-count {{ font-variant-numeric: tabular-nums; }}

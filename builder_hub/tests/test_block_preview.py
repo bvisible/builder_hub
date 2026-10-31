@@ -269,12 +269,49 @@ def seed(block_id: str) -> dict:
 	return next(d for d in SEEDS if d["id"] == block_id)
 
 
+class TestTheFoldingQuestionsOfAPreview(unittest.TestCase):
+	def faq(self):
+		def item():
+			return {
+				"el": "details",
+				"name": "question",
+				"c": [
+					{
+						"el": "summary",
+						"name": "question-text",
+						"text": "WRITE question: a real question, 5 to 12 words",
+					},
+					{"el": "p", "name": "answer", "text": "WRITE answer: an answer of 25 to 45 words"},
+				],
+			}
+
+		return {
+			"el": "section",
+			"name": "faq",
+			"c": [{"el": "div", "name": "faq", "classes": ["u-faq"], "c": [item(), item(), item()]}],
+		}
+
+	def test_the_questions_are_drawn_as_the_sites_accordion(self):
+		page = P.render_page(self.faq())
+		self.assertEqual(3, page.count("<details"))
+		self.assertEqual(3, page.count("<summary"))
+		for rule in (".u-faq summary::after", ".u-faq details[open] > summary::after", ".u-faq > details"):
+			self.assertIn(rule, page)
+
+	def test_only_the_first_question_is_open_so_that_the_preview_shows_an_answer(self):
+		page = P.render_page(self.faq())
+		self.assertEqual(1, page.count("<details open "))
+		self.assertEqual(2, len(re.findall(r"<details class=", page)))
+		self.assertLess(page.index("<details open "), page.index("<details class="))
+
+
 class TestTheMotionOfAPreview(unittest.TestCase):
 	def test_a_strip_of_words_drifts_and_its_group_is_the_same_group_repeated(self):
 		body = P.render_page(seed("statement.ticker")["tree"]).split("</style>")[1]
 		self.assertEqual(1, len(re.findall(r'<div class="b\d+ u-marquee__group">', body)))
 		self.assertEqual(
-			P.MARQUEE_COPIES - 1, len(re.findall(r'<div aria-hidden="true" class="b\d+ u-marquee__group">', body))
+			P.MARQUEE_COPIES - 1,
+			len(re.findall(r'<div aria-hidden="true" class="b\d+ u-marquee__group">', body)),
 		)
 		self.assertIn("is-moving", body)
 		self.assertIn(f"--marquee-shift: {100 / P.MARQUEE_COPIES:.4f}%", body)
@@ -297,12 +334,19 @@ class TestTheMotionOfAPreview(unittest.TestCase):
 		count = P.Page._counting
 		self.assertEqual("1987", count(P.FIRST_NUMBER.search("1987")))
 		self.assertEqual("007", count(P.FIRST_NUMBER.search("007")))
-		self.assertEqual('<span class="pv-n" style="--target: 1200"></span>', count(P.FIRST_NUMBER.search("1200")))
+		self.assertEqual(
+			'<span class="pv-n" style="--target: 1200"></span>', count(P.FIRST_NUMBER.search("1200"))
+		)
 
 	def test_all_the_movement_sits_inside_no_preference_and_the_resting_layout_outside(self):
 		page = P.render_page(seed("statement.ticker")["tree"])
 		media = page.index("@media (prefers-reduced-motion: no-preference)")
-		for movement in ("@keyframes pv-rise", "@keyframes pv-drift", "animation: pv-drift", "animation: pv-rise"):
+		for movement in (
+			"@keyframes pv-rise",
+			"@keyframes pv-drift",
+			"animation: pv-drift",
+			"animation: pv-rise",
+		):
 			self.assertGreater(page.index(movement), media, movement)
 		self.assertLess(page.index(".u-marquee__track { display: flex; flex-wrap: wrap"), media)
 		self.assertLess(page.index(".pv-n { --pv-n: var(--target)"), media)
@@ -319,4 +363,3 @@ class TestTheMotionOfAPreview(unittest.TestCase):
 		phrase = words.slot("phrase", "1 to 3 words of the business's own")
 		self.assertEqual(3, len(phrase.split()))
 		self.assertFalse(phrase.endswith("."))
-

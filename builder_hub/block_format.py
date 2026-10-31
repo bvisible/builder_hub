@@ -22,7 +22,10 @@ import re
 
 import yaml
 
-FORMAT = 1
+FORMAT = 2
+# the formats a consumer reads: every tree valid at one is valid at the next (2 added `details` and `summary`, for the questions of a FAQ that fold),
+# so a site generator that knows 2 still reads a catalogue at 1, and a hub that writes 2 is read by nobody older: a consumer refuses a format it does not know
+READABLE = (1, 2)
 
 GROUNDS = ("plain", "tint", "deep")
 MOTIONS = ("None", "Calm", "Brisk")
@@ -32,7 +35,7 @@ NODE_KEYS = {"el", "name", "classes", "style", "t_style", "m_style", "attrs", "t
 
 TAGS = {
 	"section", "div", "span", "p", "h1", "h2", "h3", "h4", "h5", "h6", "a", "img", "ul", "ol", "li", "hr", "blockquote", "figure",
-	"figcaption", "em", "strong", "small", "header", "footer", "article", "aside", "br",
+	"figcaption", "em", "strong", "small", "header", "footer", "article", "aside", "br", "details", "summary",
 }  # fmt: skip
 
 # what the consumer fills in: the look of the site, the ground the node sits on, the photographs and the live component
@@ -120,7 +123,9 @@ def lint(
 	if not state["slots"]:
 		errors.append("the tree has no `WRITE <role>:` slot: a block with no words to write is a picture")
 	if state["motion_class"] and motion == "None":
-		errors.append("the tree uses a motion class (u-reveal, u-reveal-group, u-marquee, u-count) but motion is None")
+		errors.append(
+			"the tree uses a motion class (u-reveal, u-reveal-group, u-marquee, u-count) but motion is None"
+		)
 	if len(yaml.safe_dump(tree)) > MAX_BYTES:
 		errors.append(f"the tree is larger than {MAX_BYTES} bytes")
 	return errors, warnings
@@ -257,7 +262,9 @@ def _node(node, where: str, depth: int, errors: list[str], warnings: list[str], 
 			errors.append(f"{label}: classes must be a list of class names")
 		elif any(name.startswith(MOTION_PREFIXES) for name in classes):
 			state["motion_class"] = True
-			if ("u-reveal" in classes and state["clips"]) or ("u-reveal-group" in classes and (state["clips"] or _clips(node))):
+			if ("u-reveal" in classes and state["clips"]) or (
+				"u-reveal-group" in classes and (state["clips"] or _clips(node))
+			):
 				warnings.append(
 					f"{label}: this reveal will never play, an ancestor clips with `overflow: hidden|auto|scroll` and the reveal follows that "
 					"box, which does not scroll: use `overflow: clip`, or no overflow"
@@ -267,6 +274,12 @@ def _node(node, where: str, depth: int, errors: list[str], warnings: list[str], 
 			_style(node[key], f"{label}.{key}", errors, warnings, state)
 	if "attrs" in node:
 		_attrs(node["attrs"], f"{label}.attrs", errors, warnings, state)
+	if tag == "details" and not any(
+		isinstance(c, dict) and c.get("el") == "summary" for c in node.get("c") or []
+	):
+		warnings.append(
+			f"{label}: a `details` with no `summary` is drawn with the browser's own label: the question of a folding answer is its `summary`"
+		)
 	if tag == "img" and not SLOT.match(str((node.get("attrs") or {}).get("alt") or "")):
 		errors.append(
 			f"{label}: an image needs an `alt` slot (`WRITE alt: …`), the alt text is also what the photograph is drawn from"
