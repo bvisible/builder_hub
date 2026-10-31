@@ -19,7 +19,7 @@ import frappe
 from builder_hub import block_format, block_preview
 from builder_hub.blocks import EDITOR_STATUSES, clear_block_cache
 
-RENDERER = 1  # raise it when the way a thumbnail is made changes: every picture is made again
+RENDERER = 2  # raise it when the way a thumbnail is made changes: every picture is made again
 SHOT_WIDTH = block_preview.DEVICES["desktop"]
 SHOT_MAX_HEIGHT = 900  # a section taller than this shows its first 900 px: the card is a hint, not the page
 THUMB_WIDTH = 640  # two pixels for each of the 320 the card gets
@@ -53,7 +53,7 @@ def file_name(block_id: str, digest: str) -> str:
 
 
 def render(row: dict) -> str:
-	"""The block as a page for its thumbnail: still (no reveal waiting for a scroll that never comes), sample words of a typical length."""
+	"""The block as a page for its thumbnail: sample words of a typical length; it is photographed at rest (see `shoot`)."""
 	tree = block_format.parse_tree(row["tree"])
 	return block_preview.render_page(
 		tree,
@@ -74,7 +74,12 @@ def shoot(pages: list[str]) -> list[bytes | None]:
 	with sync_playwright() as p:
 		browser = p.chromium.launch()
 		try:
-			page = browser.new_context(viewport={"width": SHOT_WIDTH, "height": 800}).new_page()
+			# a reader whose system asks for less motion sees the page at rest (block_preview._motion): the thumbnail is that page, not the first frame
+			# of a rise that has not played yet
+			context = browser.new_context(
+				viewport={"width": SHOT_WIDTH, "height": 800}, reduced_motion="reduce"
+			)
+			page = context.new_page()
 			for html in pages:
 				try:
 					page.set_content(html, wait_until="load")
