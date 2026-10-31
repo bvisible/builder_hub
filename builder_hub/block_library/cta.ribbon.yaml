@@ -1,6 +1,6 @@
 # //// Neoffice — added file (no upstream equivalent): seed block of the hub's library.
 id: cta.ribbon
-title: Ribbon call to action
+title: Bandeau sombre, une seule ligne
 kinds: [cta]
 look: "a slim deep band, a short rule and the invitation on the left, the button on the right on the same line; the closing line of a page that does not shout"
 photos: 0

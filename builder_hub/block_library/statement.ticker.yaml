@@ -1,6 +1,6 @@
 # //// Neoffice — added file (no upstream equivalent): seed block of the hub's library.
 id: statement.ticker
-title: Statement over a drifting band
+title: Phrase et bandeau défilant
 kinds: [statement, intro]
 look: "one sentence that states what the business stands for, and beneath it a band of the business's own words drifting sideways between two hairlines; rests as a wrapped, centred row where motion is off"
 photos: 0

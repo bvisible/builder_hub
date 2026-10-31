@@ -1,6 +1,6 @@
 # //// Neoffice — added file (no upstream equivalent): seed block of the hub's library.
 id: statement.oversize
-title: Oversize statement
+title: Phrase géante pleine largeur
 kinds: [statement, intro]
 look: "one very large sentence across the page, a short rule and a quiet paragraph beneath it; the claim of the business, said once and loudly"
 photos: 0
