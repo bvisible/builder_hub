@@ -16,8 +16,8 @@ class HubBlock(Document):
 		lint_lines = [*(f"ERROR {e}" for e in errors), *(f"warning {w}" for w in warnings)]
 		# what compiling the page of the editor said comes first: it names the blocks of the page, the lint names those of the tree
 		self.lint_report = "\n".join([*(self.flags.get("compile_report") or []), *lint_lines])
-		if errors and self.status == "Published":
-			frappe.throw(_("A block with errors cannot be published:") + "<br>" + "<br>".join(errors))
+		if errors and self.status in ("Editor", "Published"):
+			frappe.throw(_("A block with errors cannot be offered:") + "<br>" + "<br>".join(errors))
 		if not self.source:
 			self.source = "edited in the hub"
 		before = self.get_doc_before_save()

@@ -27,7 +27,9 @@
   "column_break_b",
   "format",
   "version",
-  "source"
+  "source",
+  "preview",
+  "preview_hash"
  ],
  "fields": [
   {
@@ -50,11 +52,11 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Draft\nPublished",
+   "options": "Draft\nEditor\nPublished",
    "default": "Draft",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "description": "Only Published blocks are served to sites"
+   "description": "Draft: served to nobody. Editor: offered to the people who build a page in the Builder editor, who choose a block themselves. Published: also offered to the site generator, which chooses alone"
   },
   {
    "fieldname": "family",
@@ -172,6 +174,20 @@
    "fieldtype": "Data",
    "label": "Source",
    "read_only": 1
+  },
+  {
+   "fieldname": "preview",
+   "fieldtype": "Data",
+   "label": "Preview",
+   "read_only": 1,
+   "description": "The thumbnail the editor's insertion panel shows (block_shots.py makes it)"
+  },
+  {
+   "fieldname": "preview_hash",
+   "fieldtype": "Data",
+   "label": "Preview hash",
+   "read_only": 1,
+   "hidden": 1
   }
  ],
  "index_web_pages_for_search": 0,

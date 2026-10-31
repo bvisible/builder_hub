@@ -167,7 +167,8 @@ after_migrate = "builder_hub.install.after_migrate"
 # 	],
 # }
 scheduler_events = {
-	"hourly": ["builder_hub.plugins.tasks.check_releases"],
+	# //// Neoffice — the thumbnails of the blocks the editor offers (block_shots.py)
+	"hourly": ["builder_hub.plugins.tasks.check_releases", "builder_hub.block_shots.hourly"],
 }
 
 # Testing

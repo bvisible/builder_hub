@@ -24,6 +24,32 @@ EDITED_SOURCE = "edited in the hub"
 PUBLISHED_FIELDS = (
 	"block_id", "title", "family", "kinds", "look", "photos", "form", "ground", "motion", "version", "tree",
 )  # fmt: skip
+# the statuses of a block and who is offered it: Published goes to the site generator (which chooses alone, so a person has read the block) and to the
+# editor; Editor goes to the editor only (a person builds a page there and chooses each block with their eyes)
+GENERATOR_STATUSES = ("Published",)
+EDITOR_STATUSES = ("Editor", "Published")
+
+# the sections of the editor's insertion panel, in the order it lists them; the builder's Block Template offers exactly these as its `category`
+# (and its blockTemplateStore lists them in this order), so a name changed here is changed there too
+EDITOR_SECTIONS = (
+	"Hero", "Features", "Steps", "Stats", "Testimonials", "Pricing", "Team", "FAQ", "Gallery", "Call to action", "Contact", "Shop", "Content",
+)  # fmt: skip
+# the section a family is listed under; a family not named here is listed under Content
+EDITOR_CATEGORIES = {
+	"hero": "Hero",
+	"features": "Features",
+	"steps": "Steps",
+	"figures": "Stats",
+	"testimonials": "Testimonials",
+	"pricing": "Pricing",
+	"team": "Team",
+	"faq": "FAQ",
+	"gallery": "Gallery",
+	"cta": "Call to action",
+	"contact": "Contact",
+	"product-row": "Shop",
+}
+DEFAULT_CATEGORY = "Content"
 
 
 def library_dir():
@@ -34,11 +60,17 @@ def library_dir():
 
 def clear_block_cache() -> None:
 	try:
-		from builder_hub.api import _block_catalog
+		from builder_hub.api import _block_catalog, _editor_block_catalog
 
 		_block_catalog.clear_cache()
+		_editor_block_catalog.clear_cache()
 	except Exception:
 		pass
+
+
+def category_of(family: str) -> str:
+	"""The section of the editor's insertion panel a block of this family is listed under."""
+	return EDITOR_CATEGORIES.get((family or "").strip().lower(), DEFAULT_CATEGORY)
 
 
 def serve(row: dict) -> dict | None:
@@ -79,12 +111,39 @@ def serve(row: dict) -> dict | None:
 def published_blocks() -> dict:
 	rows = frappe.get_all(
 		"Hub Block",
-		filters={"status": "Published"},
+		filters={"status": ("in", GENERATOR_STATUSES)},
 		fields=list(PUBLISHED_FIELDS),
 		order_by="block_id asc",
 		ignore_permissions=True,
 	)
 	return {"format": block_format.FORMAT, "blocks": [b for b in (serve(r) for r in rows) if b]}
+
+
+def serve_for_editor(row: dict) -> dict | None:
+	"""The wire form of a block for the editor's insertion panel: the block (as `serve` gives it, so linted again), the section it is listed under,
+	its thumbnail (absolute: a site shows it from here) and whether the site generator may also choose it. None when it cannot be served or has
+	no thumbnail yet (a card without a picture is no use to somebody who chooses with their eyes)."""
+	wire = serve(row)
+	if wire is None or not row.get("preview"):
+		return None
+	preview = row["preview"]
+	wire["category"] = category_of(row.get("family"))
+	wire["preview"] = frappe.utils.get_url(preview) if preview.startswith("/") else preview
+	wire["generator"] = row.get("status") in GENERATOR_STATUSES
+	return wire
+
+
+def editor_blocks() -> dict:
+	"""{"format": n, "blocks": [...]}: the blocks the editor offers (those with a thumbnail), by id."""
+	rows = frappe.get_all(
+		"Hub Block",
+		filters={"status": ("in", EDITOR_STATUSES)},
+		fields=[*PUBLISHED_FIELDS, "status", "preview"],
+		order_by="block_id asc",
+		ignore_permissions=True,
+	)
+	served = [b for b in (serve_for_editor(r) for r in rows) if b]
+	return {"format": block_format.FORMAT, "blocks": served}
 
 
 # ---------------------------------------------------------------- the seed blocks

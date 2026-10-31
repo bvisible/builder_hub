@@ -237,6 +237,21 @@ def _block_catalog() -> dict:
 	return published_blocks()
 
 
+# //// Neoffice — the blocks the Builder editor offers in its insertion panel: the published ones and those kept for the editor only, with a
+# //// thumbnail each and the section they are listed under (builder_hub/blocks.py).
+@frappe.whitelist(allow_guest=True)
+def get_editor_block_catalog() -> dict:
+	"""{"format": n, "blocks": [...]}: every block the editor offers, with its tree, its section and its thumbnail."""
+	return _editor_block_catalog()
+
+
+@redis_cache(ttl=3600)
+def _editor_block_catalog() -> dict:
+	from builder_hub.blocks import editor_blocks
+
+	return editor_blocks()
+
+
 @frappe.whitelist(allow_guest=True)
 def get_block(block_id: str) -> dict:
 	"""One published block with its tree."""

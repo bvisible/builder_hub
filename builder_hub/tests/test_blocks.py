@@ -80,9 +80,71 @@ class TestWhatIsServed(unittest.TestCase):
 			patch.object(blocks.frappe, "log_error"),
 		):
 			result = blocks.published_blocks()
-		self.assertEqual({"status": "Published"}, get_all.call_args.kwargs["filters"])
+		self.assertEqual({"status": ("in", ("Published",))}, get_all.call_args.kwargs["filters"])
 		self.assertEqual(blocks.block_format.FORMAT, result["format"])
 		self.assertEqual(["cta.band-test"], [b["id"] for b in result["blocks"]])
+
+
+class TestTheEditorCatalogue(unittest.TestCase):
+	def test_a_family_is_listed_under_its_section_and_an_unknown_one_under_content(self):
+		self.assertEqual("Hero", blocks.category_of("hero"))
+		self.assertEqual("Call to action", blocks.category_of("CTA"))
+		self.assertEqual("Stats", blocks.category_of("figures"))
+		self.assertEqual("Content", blocks.category_of("two-column"))
+		self.assertEqual("Content", blocks.category_of(""))
+		self.assertEqual("Content", blocks.category_of(None))
+
+	def test_every_section_a_family_can_land_in_is_one_the_panel_lists(self):
+		self.assertEqual(len(blocks.EDITOR_SECTIONS), len(set(blocks.EDITOR_SECTIONS)))
+		self.assertLessEqual(
+			{*blocks.EDITOR_CATEGORIES.values(), blocks.DEFAULT_CATEGORY}, set(blocks.EDITOR_SECTIONS)
+		)
+		self.assertEqual(
+			set(blocks.EDITOR_SECTIONS), {*blocks.EDITOR_CATEGORIES.values(), blocks.DEFAULT_CATEGORY}
+		)
+
+	def test_the_seed_families_are_listed_under_a_section(self):
+		for path in SEEDS.glob("*.yaml"):
+			family = blocks.read_seed(path)["block_id"].split(".")[0]
+			self.assertIn(blocks.category_of(family), blocks.EDITOR_SECTIONS, family)
+
+	def test_a_block_is_served_to_the_editor_with_its_section_its_absolute_thumbnail_and_who_else_may_choose_it(
+		self,
+	):
+		with patch.object(blocks.frappe.utils, "get_url", side_effect=lambda u: "https://hub.test" + u):
+			made = blocks.serve_for_editor(row(status="Editor", preview="/files/hub-block-cta.png"))
+			generator = blocks.serve_for_editor(row(status="Published", preview="/files/x.png"))
+			absolute = blocks.serve_for_editor(row(status="Editor", preview="https://cdn.test/x.png"))
+		self.assertEqual("Call to action", made["category"])
+		self.assertEqual("https://hub.test/files/hub-block-cta.png", made["preview"])
+		self.assertFalse(made["generator"])
+		self.assertTrue(generator["generator"])
+		self.assertEqual("https://cdn.test/x.png", absolute["preview"])
+		self.assertEqual(TREE, made["tree"])
+
+	def test_a_block_with_no_thumbnail_yet_or_that_no_longer_lints_is_not_offered(self):
+		self.assertIsNone(blocks.serve_for_editor(row(status="Editor", preview="")))
+		self.assertIsNone(blocks.serve_for_editor(row(status="Editor")))
+		with patch.object(blocks.frappe, "log_error"):
+			self.assertIsNone(
+				blocks.serve_for_editor(row(status="Editor", preview="/f.png", tree="el: [unclosed"))
+			)
+
+	def test_the_editor_catalogue_asks_for_the_editor_and_published_blocks_only(self):
+		rows = [row(status="Editor", preview="/a.png"), row(block_id="cta.none", status="Editor", preview="")]
+		with (
+			patch.object(blocks.frappe, "get_all", return_value=rows) as get_all,
+			patch.object(blocks.frappe, "log_error"),
+			patch.object(blocks.frappe.utils, "get_url", side_effect=lambda u: u),
+		):
+			result = blocks.editor_blocks()
+		self.assertEqual({"status": ("in", ("Editor", "Published"))}, get_all.call_args.kwargs["filters"])
+		self.assertIn("preview", get_all.call_args.kwargs["fields"])
+		self.assertEqual(["cta.band-test"], [b["id"] for b in result["blocks"]])
+		self.assertEqual(blocks.block_format.FORMAT, result["format"])
+
+	def test_the_site_generator_is_still_offered_the_published_blocks_only(self):
+		self.assertEqual(("Published",), blocks.GENERATOR_STATUSES)
 
 
 class TestTheSeedFiles(unittest.TestCase):
@@ -306,6 +368,17 @@ class TestTheForm(unittest.TestCase):
 		doc.status = "Published"
 		with self.throwing(), self.assertRaises(frappe.ValidationError):
 			doc.validate()
+
+	def test_a_block_kept_for_the_editor_is_refused_with_an_error_as_a_published_one_is(self):
+		bad = yaml.safe_load(yaml.safe_dump(TREE))
+		bad["c"][0]["text"] = "Fixed words"
+		doc = form(tree=yaml.safe_dump(bad), status="Editor")
+		with self.throwing(), self.assertRaises(frappe.ValidationError):
+			doc.validate()
+		doc = form(status="Editor")
+		with self.throwing():
+			doc.validate()
+		self.assertEqual("", doc.lint_report)
 
 	def test_a_tree_that_is_not_yaml_is_reported_not_raised_for_a_draft(self):
 		doc = form(tree="el: [unclosed")
