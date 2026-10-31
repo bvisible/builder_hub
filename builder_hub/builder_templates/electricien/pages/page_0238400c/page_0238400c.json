@@ -1,0 +1,1034 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "#ffffff",
+    "color": "var(--qta-text)",
+    "display": "flex",
+    "flexDirection": "column",
+    "fontFamily": "var(--qta-font-body)",
+    "width": "100%"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "var(--qta-background)",
+      "backgroundImage": "linear-gradient(160deg, var(--qta-background) 0%, rgba(233, 162, 59, 0.14) 100%)",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "100vh",
+      "paddingBottom": "calc(5rem + clamp(22px, 5vw, 72px))",
+      "paddingLeft": "0",
+      "paddingRight": "0",
+      "paddingTop": "5rem",
+      "width": "100%"
+     },
+     "blockId": "628e5519f",
+     "blockName": "hero",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "grid",
+        "gap": "3.5rem",
+        "gridTemplateColumns": "minmax(0, 5fr) minmax(0, 7fr)",
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)",
+        "width": "100%"
+       },
+       "blockId": "4b93df4f2",
+       "blockName": "hero-grid",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "950d04f9c",
+         "blockName": "hero-copy",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qta-secondary)",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.5rem",
+            "textTransform": "uppercase"
+           },
+           "blockId": "d78798e6a",
+           "element": "p",
+           "innerHTML": "Électricité & installations"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qta-text)",
+            "fontFamily": "var(--qta-font-heading)",
+            "fontSize": "4.5rem",
+            "fontWeight": "800",
+            "letterSpacing": "-0.02em",
+            "lineHeight": "1.02",
+            "margin": "0 0 1.25rem"
+           },
+           "blockId": "1ede9cb6a",
+           "element": "h1",
+           "innerHTML": "L’électricité, avec <em style=\"font-style: italic; color: var(--qta-primary)\">précision</em>.",
+           "mobileStyles": {
+            "fontSize": "2.5rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 2.25rem",
+            "maxWidth": "30rem"
+           },
+           "blockId": "035fc8116",
+           "element": "p",
+           "innerHTML": "Dépannage sous 4 heures, installations neuves et rénovations, éclairage, domotique et bornes de recharge. Devis gratuit et chiffré."
+          },
+          {
+           "attributes": {
+            "href": "demander_un_devis"
+           },
+           "blockId": "418c6ce3e",
+           "blockName": "button",
+           "classes": [
+            "u-btn",
+            "u-btn--primary"
+           ],
+           "element": "a",
+           "innerHTML": "Contactez-nous"
+          }
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "position": "relative"
+         },
+         "blockId": "301fc8efc",
+         "blockName": "hero-media",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qta-primary)",
+            "bottom": "-16px",
+            "left": "16px",
+            "position": "absolute",
+            "right": "-16px",
+            "top": "16px"
+           },
+           "blockId": "6aa49c19e",
+           "element": "div"
+          },
+          {
+           "attributes": {
+            "alt": "Tableau électrique moderne d’un intérieur récent, rangé et propre, avec ses câbles bien alignés sous une lumière claire.",
+            "src": "/builder_assets/electricien/page-0238400c/hubpub-electricien-gen_d7c97a8b.png"
+           },
+           "baseStyles": {
+            "height": "34rem",
+            "objectFit": "cover",
+            "position": "relative",
+            "width": "100%",
+            "zIndex": "1"
+           },
+           "blockId": "e55729847",
+           "classes": [
+            "u-media"
+           ],
+           "element": "img",
+           "mobileStyles": {
+            "height": "18rem"
+           }
+          }
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gap": "2rem",
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       },
+       "tabletStyles": {
+        "gap": "2.5rem",
+        "gridTemplateColumns": "minmax(0, 1fr)"
+       }
+      }
+     ],
+     "classes": [
+      "nora-divider-roomBottom"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "paddingBottom": "calc(3.5rem + clamp(22px, 5vw, 72px))",
+      "paddingLeft": "0",
+      "paddingRight": "0",
+      "paddingTop": "3.5rem"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "calc(-1 * clamp(22px, 5vw, 72px))",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "719dc61d76",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:var(--qta-background)\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:var(--qta-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "padding": "60px 0",
+      "width": "100%"
+     },
+     "blockId": "c2bc2c2f4",
+     "blockName": "statement",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)",
+        "width": "100%"
+       },
+       "blockId": "6f8679236",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "59e6b142c",
+         "blockName": "statement-inner",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qta-secondary)",
+            "height": "2px",
+            "margin": "0 0 16px",
+            "width": "48px"
+           },
+           "blockId": "ef4f05956",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "1.1rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "600px",
+            "textAlign": "center"
+           },
+           "blockId": "304acb736",
+           "element": "p",
+           "innerHTML": "Installateur autorisé pour les bornes de recharge. Garantie de deux ans sur les travaux. Intervention propre et soignée."
+          }
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "48px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "height": "clamp(22px, 3.6vw, 46px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "4db8dd6c45",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,94 L1200,6\" fill=\"none\" style=\"stroke:var(--qta-primary)\" stroke-width=\"1.25\" stroke-opacity=\"0.5\" vector-effect=\"non-scaling-stroke\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "padding": "80px 0",
+      "width": "100%"
+     },
+     "blockId": "8bde58eda",
+     "blockName": "prestations",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)",
+        "width": "100%"
+       },
+       "blockId": "990d56bcb",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "marginBottom": "3rem"
+         },
+         "blockId": "20c09f523",
+         "blockName": "head",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "color-mix(in srgb, var(--qta-secondary) 80%, black)",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.25rem",
+            "textTransform": "uppercase"
+           },
+           "blockId": "53b6a8081",
+           "element": "span",
+           "innerHTML": "Ce que nous faisons"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qta-text)",
+            "fontFamily": "var(--qta-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0",
+            "maxWidth": "36rem"
+           },
+           "blockId": "306a0e81f",
+           "element": "h2",
+           "innerHTML": "Nos <em style=\"font-style: italic; color: var(--qta-secondary)\">prestations</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "blockId": "b1cb9bf73",
+         "blockName": "tiles",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "var(--qta-primary)",
+            "color": "var(--qta-background)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "40px"
+           },
+           "blockId": "0b069ce6d",
+           "blockName": "tile",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qta-secondary)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem"
+             },
+             "blockId": "47efba20f",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "01"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-background)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "1.2rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "556c4f0a4",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Dépannage",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(255, 255, 255, 0.78)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "28rem"
+             },
+             "blockId": "71b86afee",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Intervention rapide sous 4 heures, pour un diagnostic clair et une remise en service propre."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "padding": "28px"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "#f8f9fa",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "40px"
+           },
+           "blockId": "71cabe75e",
+           "blockName": "tile",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qta-secondary) 80%, black)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem"
+             },
+             "blockId": "9a483d650",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "02"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-primary)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "1.2rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "e63c69322",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Installations neuves & rénovations",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "28rem"
+             },
+             "blockId": "8c5666612",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Tous les travaux d’électricité, du tableau au dernier point de lumière, soignés de bout en bout."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "padding": "28px"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "#f8f9fa",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "40px"
+           },
+           "blockId": "7a7a30414",
+           "blockName": "tile",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qta-secondary) 80%, black)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem"
+             },
+             "blockId": "0f5082c25",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "03"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-primary)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "1.2rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "bc19d50bd",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Éclairage & domotique",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "28rem"
+             },
+             "blockId": "e47568a76",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Un éclairage réglé à la lumière que vous vivez, piloté depuis un système simple et fiable."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "padding": "28px"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "#f8f9fa",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "40px"
+           },
+           "blockId": "3bd2f8d8e",
+           "blockName": "tile",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qta-secondary) 80%, black)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem"
+             },
+             "blockId": "5db550e4d",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "04"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-primary)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "1.2rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "81a5bd326",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Bornes de recharge",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "28rem"
+             },
+             "blockId": "fbdc6c8af",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Pose de bornes de recharge pour véhicules électriques, par un installateur autorisé."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "padding": "28px"
+           }
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--2",
+          "u-reveal-group"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "48px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "002a15c835",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:var(--qta-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:var(--qta-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qta-primary)",
+      "color": "var(--qta-background)",
+      "padding": "60px 0",
+      "width": "100%"
+     },
+     "blockId": "f878f8f77",
+     "blockName": "figures",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)",
+        "width": "100%"
+       },
+       "blockId": "51c65223f",
+       "children": [
+        {
+         "baseStyles": {
+          "display": "grid",
+          "gap": "2rem",
+          "gridTemplateColumns": "minmax(0, 1fr) minmax(0, 1fr)"
+         },
+         "blockId": "efa659a4a",
+         "blockName": "figures",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "9a2940035",
+           "blockName": "figure-item",
+           "children": [
+            {
+             "baseStyles": {
+              "backgroundColor": "var(--qta-secondary)",
+              "height": "2px",
+              "margin": "0 0 16px",
+              "width": "48px"
+             },
+             "blockId": "b68b9e963",
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-background)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "4rem",
+              "fontWeight": "700",
+              "lineHeight": "1",
+              "margin": "0 0 0.5rem"
+             },
+             "blockId": "f83dcfdbe",
+             "blockName": "figure",
+             "classes": [
+              "u-count"
+             ],
+             "element": "p",
+             "innerHTML": "4h",
+             "mobileStyles": {
+              "fontSize": "3rem"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-secondary)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.5",
+              "margin": "0",
+              "maxWidth": "16rem"
+             },
+             "blockId": "96f5f4bb0",
+             "blockName": "figure-label",
+             "element": "p",
+             "innerHTML": "Dépannage sous quatre heures"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "87e516e4e",
+           "blockName": "figure-item",
+           "children": [
+            {
+             "baseStyles": {
+              "backgroundColor": "var(--qta-secondary)",
+              "height": "2px",
+              "margin": "0 0 16px",
+              "width": "48px"
+             },
+             "blockId": "c90c7d819",
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-background)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "4rem",
+              "fontWeight": "700",
+              "lineHeight": "1",
+              "margin": "0 0 0.5rem"
+             },
+             "blockId": "5f01b562a",
+             "blockName": "figure",
+             "classes": [
+              "u-count"
+             ],
+             "element": "p",
+             "innerHTML": "2 ans",
+             "mobileStyles": {
+              "fontSize": "3rem"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-secondary)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.5",
+              "margin": "0",
+              "maxWidth": "16rem"
+             },
+             "blockId": "508037be9",
+             "blockName": "figure-label",
+             "element": "p",
+             "innerHTML": "Garantie sur les travaux"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "48px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qta-primary)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "f106598e0e",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,0 L1200,74 L1200,106 L0,106 Z\" style=\"fill:var(--qta-background)\" fill-opacity=\"0.28\"/><path d=\"M0,6 L1200,94 L1200,106 L0,106 Z\" style=\"fill:var(--qta-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "padding": "80px 0",
+      "width": "100%"
+     },
+     "blockId": "f2cad12d8",
+     "blockName": "cta",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)",
+        "width": "100%"
+       },
+       "blockId": "ab3e8f8a0",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "backgroundColor": "var(--qta-background)",
+          "border": "1px solid #e9e9ec",
+          "display": "flex",
+          "flexDirection": "column",
+          "margin": "0 auto",
+          "maxWidth": "52rem",
+          "padding": "40px"
+         },
+         "blockId": "2cb484723",
+         "blockName": "closing-card",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qta-secondary)",
+            "height": "2px",
+            "margin": "0 0 16px",
+            "width": "48px"
+           },
+           "blockId": "7495a6b4b",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qta-primary)",
+            "fontFamily": "var(--qta-font-heading)",
+            "fontSize": "1.5rem",
+            "fontWeight": "700",
+            "lineHeight": "1.2",
+            "margin": "0 0 1rem",
+            "textAlign": "center"
+           },
+           "blockId": "f298a355a",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Devis gratuit et <em style=\"font-style: italic; color: var(--qta-secondary)\">chiffré</em>.",
+           "mobileStyles": {
+            "fontSize": "1.25rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "#555555",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "1rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 2rem",
+            "maxWidth": "34rem",
+            "textAlign": "center"
+           },
+           "blockId": "c7b3e4633",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Décrivez votre besoin, recevez une réponse chiffrée, sans engagement."
+          },
+          {
+           "attributes": {
+            "href": "demander_un_devis"
+           },
+           "blockId": "897b7185a",
+           "blockName": "button",
+           "classes": [
+            "u-btn",
+            "u-btn--primary"
+           ],
+           "element": "a",
+           "innerHTML": "Demander un devis"
+          }
+         ],
+         "classes": [
+          "u-card",
+          "u-reveal"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "padding": "28px"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "48px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "28b4c55d8e",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:#1c333d\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:#1c333d\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-10-31 17:52:47.546103",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Dépannage sous 4 heures, installations neuves et rénovations, éclairage, domotique et bornes de recharge. Devis gratuit et chiffré.",
+ "modified": "2026-10-31 18:20:53.468730",
+ "modified_by": "Administrator",
+ "name": "page-0238400c",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-0238400c",
+ "page_title": "Accueil",
+ "preview": "/builder_assets/electricien/page-0238400c/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/electricien/accueil",
+ "staging": 0,
+ "template_group": "electricien"
+}

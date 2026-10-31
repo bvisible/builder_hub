@@ -1,0 +1,521 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--qta-background)",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "display": "flex",
+      "justifyContent": "center",
+      "padding": "5rem 0",
+      "width": "100%"
+     },
+     "blockId": "cd851c436",
+     "blockName": "statement",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)",
+        "textAlign": "center",
+        "width": "100%"
+       },
+       "blockId": "708a26db2",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "rgba(26, 26, 26, 0.72)",
+          "fontFamily": "var(--qta-font-body)",
+          "fontSize": "1.25rem",
+          "lineHeight": "1.6",
+          "margin": 0,
+          "maxWidth": "34rem"
+         },
+         "blockId": "4475c1fee",
+         "blockName": "statement-lead",
+         "element": "p",
+         "innerHTML": "Nous étudions chaque projet avec soin. Demandez un devis gratuit et chiffré pour connaître le coût exact de vos travaux.",
+         "mobileStyles": {
+          "fontSize": "1.125rem"
+         }
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qta-secondary)",
+          "height": "2px",
+          "margin": "24px 0 16px",
+          "width": "48px"
+         },
+         "blockId": "acd155349",
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qta-primary)",
+          "fontFamily": "var(--qta-font-heading)",
+          "fontSize": "1.1rem",
+          "fontWeight": "500",
+          "margin": 0,
+          "maxWidth": "30rem"
+         },
+         "blockId": "027fce903",
+         "blockName": "statement-sub",
+         "element": "p",
+         "innerHTML": "Un devis précis, un travail soigné, une intervention propre."
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "alignItems": "flex-start",
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)",
+        "textAlign": "left"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "3rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "c61a1e4265",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:#f8f9fa\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:#f8f9fa\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#f8f9fa",
+      "padding": "5rem 0",
+      "width": "100%"
+     },
+     "blockId": "5e44f8afc",
+     "blockName": "contact-form",
+     "children": [
+      {
+       "baseStyles": {
+        "columnGap": "24px",
+        "display": "grid",
+        "gridTemplateColumns": "repeat(12, minmax(0, 1fr))",
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)",
+        "width": "100%"
+       },
+       "blockId": "fad8d2114",
+       "children": [
+        {
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "gridColumn": "1 / span 4",
+          "justifyContent": "center"
+         },
+         "blockId": "cd208eb6b",
+         "blockName": "form-intro",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qta-secondary)",
+            "height": "2px",
+            "margin": "0 0 16px",
+            "width": "48px"
+           },
+           "blockId": "1fad5b841",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qta-text)",
+            "fontFamily": "var(--qta-font-heading)",
+            "fontSize": "2.5rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem"
+           },
+           "blockId": "a851b7e05",
+           "blockName": "form-heading",
+           "element": "h2",
+           "innerHTML": "Formulaire de <em style=\"font-style: italic; color: var(--qta-secondary)\">contact</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.65)",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "1.0625rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 1.5rem"
+           },
+           "blockId": "d10865b0a",
+           "blockName": "form-lead",
+           "element": "p",
+           "innerHTML": "Décrivez votre projet, votre budget et vos délais. Nous vous recontactons rapidement avec un devis détaillé et chiffré."
+          },
+          {
+           "baseStyles": {
+            "borderTop": "1px solid rgba(26, 26, 26, 0.12)",
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "1rem",
+            "paddingTop": "1.25rem"
+           },
+           "blockId": "27c02d635",
+           "blockName": "form-meta",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "10px"
+             },
+             "blockId": "33a9b517a",
+             "children": [
+              {
+               "baseStyles": {
+                "backgroundColor": "var(--qta-secondary)",
+                "borderRadius": "50%",
+                "boxShadow": "0 0 8px rgba(233, 162, 59, 0.5)",
+                "height": "6px",
+                "width": "6px"
+               },
+               "blockId": "6c031ba08",
+               "element": "span"
+              },
+              {
+               "baseStyles": {
+                "color": "rgba(26, 26, 26, 0.72)",
+                "fontFamily": "var(--qta-font-body)",
+                "fontSize": "0.9375rem",
+                "margin": 0
+               },
+               "blockId": "8f7f0896f",
+               "element": "p",
+               "innerHTML": "Devis gratuit et chiffré, sans engagement."
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "10px"
+             },
+             "blockId": "2f3be253d",
+             "children": [
+              {
+               "baseStyles": {
+                "backgroundColor": "var(--qta-secondary)",
+                "borderRadius": "50%",
+                "boxShadow": "0 0 8px rgba(233, 162, 59, 0.5)",
+                "height": "6px",
+                "width": "6px"
+               },
+               "blockId": "f95a35fbf",
+               "element": "span"
+              },
+              {
+               "baseStyles": {
+                "color": "rgba(26, 26, 26, 0.72)",
+                "fontFamily": "var(--qta-font-body)",
+                "fontSize": "0.9375rem",
+                "margin": 0
+               },
+               "blockId": "c330f10aa",
+               "element": "p",
+               "innerHTML": "Intervention propre et soignée, garantie de deux ans sur les travaux."
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gridColumn": "auto",
+          "marginBottom": "2rem"
+         }
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qta-background)",
+          "border": "1px solid #e5e7eb",
+          "gridColumn": "5 / span 8",
+          "padding": "40px"
+         },
+         "blockId": "69ee09c4b",
+         "blockName": "form-card",
+         "children": [
+          {
+           "attributes": {
+            "id": "contact-form"
+           },
+           "baseStyles": {
+            "scrollMarginTop": "calc(var(--header-height, 72px) + 16px)"
+           },
+           "blockId": "1dbca0d57",
+           "blockName": "form",
+           "element": "div",
+           "innerHTML": "{%- set site_form = \"qw-tpl-artisan-demande-de-devis\" -%}{% include \"builder/templates/includes/site_form.html\" %}"
+          }
+         ],
+         "classes": [
+          "u-card"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gridColumn": "auto",
+          "padding": "24px"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "3rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#f8f9fa",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "2503febeca",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,0 L1200,74 L1200,106 L0,106 Z\" style=\"fill:var(--qta-background)\" fill-opacity=\"0.28\"/><path d=\"M0,6 L1200,94 L1200,106 L0,106 Z\" style=\"fill:var(--qta-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "padding": "5rem 0",
+      "width": "100%"
+     },
+     "blockId": "8343a61f8",
+     "blockName": "reassurance",
+     "children": [
+      {
+       "baseStyles": {
+        "columnGap": "24px",
+        "display": "grid",
+        "gridTemplateColumns": "repeat(12, minmax(0, 1fr))",
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)",
+        "width": "100%"
+       },
+       "blockId": "1e5c8591a",
+       "children": [
+        {
+         "baseStyles": {
+          "gridColumn": "1 / span 8"
+         },
+         "blockId": "72a3e7b6a",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qta-secondary)",
+            "height": "2px",
+            "margin": "0 0 16px",
+            "width": "48px"
+           },
+           "blockId": "b4d309b20",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qta-primary)",
+            "fontFamily": "var(--qta-font-heading)",
+            "fontSize": "2.5rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem"
+           },
+           "blockId": "a71c89871",
+           "blockName": "reassurance-heading",
+           "element": "h2",
+           "innerHTML": "Votre projet, notre <em style=\"font-style: italic; color: var(--qta-secondary)\">priorité</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "#4b5563",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "1rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 1.5rem",
+            "maxWidth": "40rem"
+           },
+           "blockId": "7f1b2efe0",
+           "blockName": "reassurance-text",
+           "element": "p",
+           "innerHTML": "Nous répondons à chaque demande avec une attention particulière. Notre équipe vous recontacte rapidement pour discuter des détails de votre projet et vous fournir un devis précis, adapté à vos besoins."
+          },
+          {
+           "baseStyles": {
+            "color": "#4b5563",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "1rem",
+            "lineHeight": "1.7",
+            "margin": 0,
+            "maxWidth": "40rem"
+           },
+           "blockId": "bfc521471",
+           "element": "p",
+           "innerHTML": "Du dépannage à l’installation complète, nous prenons en charge chaque étape avec le même souci de précision et de propreté."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gridColumn": "auto"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "3rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "855df78f21",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:#1c333d\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:#1c333d\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-10-31 17:52:47.571749",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Nous étudions chaque projet avec soin. Demandez un devis gratuit et chiffré pour connaître le coût exact de vos travaux.",
+ "modified": "2026-10-31 18:20:53.541210",
+ "modified_by": "Administrator",
+ "name": "page-8b8a6d0a",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-8b8a6d0a",
+ "page_title": "Demander un devis",
+ "preview": "/builder_assets/electricien/page-8b8a6d0a/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/electricien/demander_un_devis",
+ "staging": 0,
+ "template_group": "electricien"
+}

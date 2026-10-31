@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "cabinet_dentaire",
+ "name": "qtd-secondary",
+ "token_name": "Cabinet dentaire secondary",
+ "type": "Color",
+ "value": "#f2a65a"
+}

@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "cabinet_dentaire",
+ "name": "qtd-gutter",
+ "token_name": "Cabinet dentaire gutter",
+ "type": "Dimension",
+ "value": "64px"
+}

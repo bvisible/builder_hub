@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "restaurant",
+ "name": "qtr-font-heading",
+ "token_name": "Restaurant font heading",
+ "type": "Font",
+ "value": "Playfair Display"
+}

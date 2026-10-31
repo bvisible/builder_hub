@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "garage",
+ "name": "qtg-gutter-phone",
+ "token_name": "Garage gutter phone",
+ "type": "Dimension",
+ "value": "24px"
+}

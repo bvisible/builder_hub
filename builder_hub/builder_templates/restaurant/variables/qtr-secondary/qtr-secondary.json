@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "restaurant",
+ "name": "qtr-secondary",
+ "token_name": "Restaurant secondary",
+ "type": "Color",
+ "value": "#c8923a"
+}

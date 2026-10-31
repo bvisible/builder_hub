@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "garage",
+ "name": "qtg-gutter",
+ "token_name": "Garage gutter",
+ "type": "Dimension",
+ "value": "64px"
+}

@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "garage",
+ "name": "qtg-font-body",
+ "token_name": "Garage font body",
+ "type": "Font",
+ "value": "DM Sans"
+}

@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "garage",
+ "name": "qtg-primary",
+ "token_name": "Garage primary",
+ "type": "Color",
+ "value": "#1f2a36"
+}

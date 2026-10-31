@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "electricien",
+ "name": "qta-gutter-phone",
+ "token_name": "Electricien gutter phone",
+ "type": "Dimension",
+ "value": "24px"
+}

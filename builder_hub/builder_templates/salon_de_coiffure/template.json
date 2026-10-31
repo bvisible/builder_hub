@@ -1,0 +1,27 @@
+{
+ "description": "Un salon de coiffure et institut de beauté : accueil, prestations et tarifs, prise de rendez-vous et équipe. Textes d'exemple à remplacer par les vôtres.",
+ "header_footer": {
+  "background_color": "#faf6f2",
+  "body_font": "Inter",
+  "heading_font": "Playfair Display",
+  "primary_color": "#8b3a62",
+  "secondary_color": "#e8c07a",
+  "text_color": "#1a1a1a"
+ },
+ "pages": [
+  {
+   "name": "page-06e05233"
+  },
+  {
+   "name": "page-9f40d6aa"
+  },
+  {
+   "name": "page-702bb1c0"
+  },
+  {
+   "name": "page-a9895612"
+  }
+ ],
+ "source": "hub_publish",
+ "title": "Salon de coiffure : prestations et rendez-vous"
+}

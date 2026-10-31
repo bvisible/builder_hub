@@ -1,0 +1,1212 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--qtr-background)",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "alignItems": "flex-end",
+      "backgroundColor": "var(--qtr-text)",
+      "color": "#ffffff",
+      "display": "flex",
+      "justifyContent": "center",
+      "minHeight": "85vh",
+      "paddingBottom": "calc(6rem + clamp(24px, 5.5vw, 80px))",
+      "position": "relative",
+      "width": "100%"
+     },
+     "blockId": "cea76ebf3",
+     "blockName": "hero",
+     "children": [
+      {
+       "attributes": {
+        "alt": "Des légumes d’automne, des poires et des fruits mûrs posés sur une table de bois, baignés d’une lumière naturelle douce",
+        "src": "/builder_assets/restaurant/page-e62d9ef9/hubpub-restaurant-gen_b283a0fa.png"
+       },
+       "baseStyles": {
+        "height": "100%",
+        "inset": "0",
+        "objectFit": "cover",
+        "position": "absolute",
+        "width": "100%"
+       },
+       "blockId": "023df6072",
+       "element": "img"
+      },
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "position": "relative",
+        "textAlign": "center",
+        "textShadow": "0 1px 14px rgba(0,0,0,0.5)",
+        "width": "100%",
+        "zIndex": "2"
+       },
+       "blockId": "5868432ef",
+       "blockName": "hero-copy",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "var(--qtr-secondary)",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "0.75rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.3em",
+          "margin": "0 0 1.25rem",
+          "textTransform": "uppercase"
+         },
+         "blockId": "11711dd4c",
+         "element": "p",
+         "innerHTML": "Automne"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtr-background)",
+          "fontFamily": "var(--qtr-font-heading)",
+          "fontSize": "4.5rem",
+          "fontWeight": "700",
+          "letterSpacing": "-0.01em",
+          "lineHeight": "1.05",
+          "margin": "0 0 1.5rem",
+          "maxWidth": "46rem"
+         },
+         "blockId": "ad05b121c",
+         "element": "h1",
+         "innerHTML": "La Table des <em style=\"font-style: italic; color: var(--qtr-secondary)\">Saisons</em>",
+         "mobileStyles": {
+          "fontSize": "2.5rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtr-background)",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "1.25rem",
+          "lineHeight": "1.7",
+          "margin": "0 0 2.25rem",
+          "maxWidth": "36rem"
+         },
+         "blockId": "9750af788",
+         "element": "p",
+         "innerHTML": "Cuisine de saison, produits du terroir, et une carte courte qui évolue avec les saisons."
+        },
+        {
+         "attributes": {
+          "href": "réserver_une_table"
+         },
+         "blockId": "0754ce529",
+         "blockName": "button",
+         "classes": [
+          "u-btn",
+          "u-btn--primary"
+         ],
+         "element": "a",
+         "innerHTML": "Contactez-nous"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "classes": [
+      "u-over-image",
+      "u-over-image--center",
+      "nora-divider-roomBottom"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "flexWrap": "wrap",
+      "minHeight": "72vh",
+      "paddingBottom": "calc(3.5rem + clamp(24px, 5.5vw, 80px))"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "calc(-1 * clamp(24px, 5.5vw, 80px))",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "f9b67b1f53",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.8 27,73.3 40,71.1 C53,68.8 67,66.7 80,64.6 C93,62.5 107,60.6 120,58.6 C133,56.7 147,54.9 160,53.1 C173,51.4 187,49.7 200,48.1 C213,46.5 227,45.0 240,43.6 C253,42.2 267,40.8 280,39.5 C293,38.3 307,37.1 320,35.9 C333,34.8 347,33.8 360,32.8 C373,31.9 387,31.0 400,30.2 C413,29.4 427,28.7 440,28.1 C453,27.4 467,26.9 480,26.4 C493,25.9 507,25.5 520,25.2 C533,24.9 547,24.6 560,24.5 C573,24.3 587,24.2 600,24.2 C613,24.2 627,24.3 640,24.5 C653,24.6 667,24.9 680,25.2 C693,25.5 707,25.9 720,26.4 C733,26.9 747,27.4 760,28.1 C773,28.7 787,29.4 800,30.2 C813,31.0 827,31.9 840,32.8 C853,33.8 867,34.8 880,35.9 C893,37.1 907,38.3 920,39.5 C933,40.8 947,42.2 960,43.6 C973,45.0 987,46.5 1000,48.1 C1013,49.7 1027,51.4 1040,53.1 C1053,54.9 1067,56.7 1080,58.6 C1093,60.6 1107,62.5 1120,64.6 C1133,66.7 1147,68.8 1160,71.1 C1173,73.3 1193,76.8 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-background)\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.8 27,89.3 40,87.1 C53,84.8 67,82.7 80,80.6 C93,78.5 107,76.6 120,74.6 C133,72.7 147,70.9 160,69.1 C173,67.4 187,65.7 200,64.1 C213,62.5 227,61.0 240,59.6 C253,58.2 267,56.8 280,55.5 C293,54.3 307,53.1 320,51.9 C333,50.8 347,49.8 360,48.8 C373,47.9 387,47.0 400,46.2 C413,45.4 427,44.7 440,44.1 C453,43.4 467,42.9 480,42.4 C493,41.9 507,41.5 520,41.2 C533,40.9 547,40.6 560,40.5 C573,40.3 587,40.2 600,40.2 C613,40.2 627,40.3 640,40.5 C653,40.6 667,40.9 680,41.2 C693,41.5 707,41.9 720,42.4 C733,42.9 747,43.4 760,44.1 C773,44.7 787,45.4 800,46.2 C813,47.0 827,47.9 840,48.8 C853,49.8 867,50.8 880,51.9 C893,53.1 907,54.3 920,55.5 C933,56.8 947,58.2 960,59.6 C973,61.0 987,62.5 1000,64.1 C1013,65.7 1027,67.4 1040,69.1 C1053,70.9 1067,72.7 1080,74.6 C1093,76.6 1107,78.5 1120,80.6 C1133,82.7 1147,84.8 1160,87.1 C1173,89.3 1193,92.8 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "padding": "5rem 0 1rem",
+      "width": "100%"
+     },
+     "blockId": "5d8e422d3",
+     "blockName": "masthead",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "width": "100%"
+       },
+       "blockId": "3f73a18c5",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "color-mix(in srgb, var(--qtr-secondary) 90%, black)",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "0.75rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.35em",
+          "margin": "0 0 1rem",
+          "textTransform": "uppercase"
+         },
+         "blockId": "50e350241",
+         "element": "p",
+         "innerHTML": "La saison en cours"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtr-primary)",
+          "fontFamily": "var(--qtr-font-heading)",
+          "fontSize": "3.25rem",
+          "fontStyle": "italic",
+          "fontWeight": "400",
+          "lineHeight": "1.1",
+          "margin": 0,
+          "maxWidth": "40rem"
+         },
+         "blockId": "2c3d240cb",
+         "element": "h2",
+         "innerHTML": "Automne",
+         "mobileStyles": {
+          "fontSize": "2.25rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtr-secondary)",
+          "border": "none",
+          "height": "2px",
+          "margin": "1.5rem 0 0",
+          "width": "40px"
+         },
+         "blockId": "132fb33c2",
+         "element": "hr"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtr-text)",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "1.25rem",
+          "lineHeight": "1.7",
+          "margin": "1.75rem 0 1rem",
+          "maxWidth": "40rem"
+         },
+         "blockId": "a8bdb0630",
+         "blockName": "lead",
+         "element": "p",
+         "innerHTML": "La saison qui vient d’arriver, et celle qui se prépare déjà dans les jardins."
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(26, 26, 26, 0.72)",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "1.0625rem",
+          "lineHeight": "1.7",
+          "margin": 0,
+          "maxWidth": "40rem"
+         },
+         "blockId": "c9adc6806",
+         "blockName": "text",
+         "element": "p",
+         "innerHTML": "Chaque saison, la carte se réécrit à partir du marché : les produits du terroir décident, et la cuisine les écoute. Une carte courte, renouvelée à chaque saison, où l’on retrouve les producteurs de la région."
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "3rem 0 0.5rem"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "height": "clamp(22px, 3.6vw, 46px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "6f1439f712",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,94.0 C7,92.7 27,88.6 40,86.0 C53,83.4 67,81.0 80,78.6 C93,76.2 107,73.9 120,71.7 C133,69.5 147,67.4 160,65.3 C173,63.3 187,61.4 200,59.5 C213,57.7 227,56.0 240,54.3 C253,52.7 267,51.1 280,49.6 C293,48.2 307,46.8 320,45.5 C333,44.2 347,43.0 360,41.9 C373,40.8 387,39.8 400,38.9 C413,38.0 427,37.1 440,36.4 C453,35.7 467,35.0 480,34.5 C493,33.9 507,33.5 520,33.1 C533,32.7 547,32.4 560,32.3 C573,32.1 587,32.0 600,32.0 C613,32.0 627,32.1 640,32.3 C653,32.4 667,32.7 680,33.1 C693,33.5 707,33.9 720,34.5 C733,35.0 747,35.7 760,36.4 C773,37.1 787,38.0 800,38.9 C813,39.8 827,40.8 840,41.9 C853,43.0 867,44.2 880,45.5 C893,46.8 907,48.2 920,49.6 C933,51.1 947,52.7 960,54.3 C973,56.0 987,57.7 1000,59.5 C1013,61.4 1027,63.3 1040,65.3 C1053,67.4 1067,69.5 1080,71.7 C1093,73.9 1107,76.2 1120,78.6 C1133,81.0 1147,83.4 1160,86.0 C1173,88.6 1193,92.7 1200,94.0\" fill=\"none\" style=\"stroke:var(--qtr-primary)\" stroke-width=\"1.25\" stroke-opacity=\"0.5\" vector-effect=\"non-scaling-stroke\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "padding": "8rem 0",
+      "width": "100%"
+     },
+     "blockId": "866080f32",
+     "blockName": "statement-centred",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "width": "100%"
+       },
+       "blockId": "8a0d23ec3",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "66d12e93d",
+         "blockName": "statement",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "color-mix(in srgb, var(--qtr-secondary) 90%, black)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "0.875rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.5rem",
+            "textAlign": "center",
+            "textTransform": "uppercase"
+           },
+           "blockId": "861757605",
+           "blockName": "label",
+           "element": "p",
+           "innerHTML": "Notre philosophie"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtr-primary)",
+            "fontFamily": "var(--qtr-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "46rem",
+            "textAlign": "center"
+           },
+           "blockId": "42e368764",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Une cuisine qui écoute la <em style=\"font-style: italic; color: var(--qtr-secondary)\">saison</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtr-secondary)",
+            "border": "none",
+            "height": "2px",
+            "margin": "0 0 1.5rem",
+            "width": "40px"
+           },
+           "blockId": "335f8bf37",
+           "blockName": "rule",
+           "element": "hr"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtr-text)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "1.25rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 1rem",
+            "maxWidth": "38rem",
+            "textAlign": "center"
+           },
+           "blockId": "148427843",
+           "blockName": "lead",
+           "element": "p",
+           "innerHTML": "Une carte courte, renouvelée à chaque saison, pensée avec les producteurs de la région."
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "38rem",
+            "textAlign": "center"
+           },
+           "blockId": "62806e9b7",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Nous travaillons avec des producteurs de la région pour vous offrir une carte courte, renouvelée à chaque saison. Nos plats végétariens et sans gluten sont signalés sur la carte pour une expérience inclusive."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "74f0c7f285",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.6 27,72.1 40,69.4 C53,66.6 67,63.9 80,61.3 C93,58.7 107,56.3 120,53.9 C133,51.5 147,49.2 160,47.0 C173,44.8 187,42.8 200,40.8 C213,38.8 227,36.9 240,35.1 C253,33.3 267,31.6 280,30.1 C293,28.5 307,27.0 320,25.6 C333,24.2 347,22.9 360,21.7 C373,20.5 387,19.4 400,18.4 C413,17.4 427,16.6 440,15.8 C453,15.0 467,14.3 480,13.7 C493,13.1 507,12.6 520,12.2 C533,11.8 547,11.5 560,11.3 C573,11.1 587,11.0 600,11.0 C613,11.0 627,11.1 640,11.3 C653,11.5 667,11.8 680,12.2 C693,12.6 707,13.1 720,13.7 C733,14.3 747,15.0 760,15.8 C773,16.6 787,17.4 800,18.4 C813,19.4 827,20.5 840,21.7 C853,22.9 867,24.2 880,25.6 C893,27.0 907,28.5 920,30.1 C933,31.6 947,33.3 960,35.1 C973,36.9 987,38.8 1000,40.8 C1013,42.8 1027,44.8 1040,47.0 C1053,49.2 1067,51.5 1080,53.9 C1093,56.3 1107,58.7 1120,61.3 C1133,63.9 1147,66.6 1160,69.4 C1173,72.1 1193,76.6 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:#ecece5\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.6 27,88.1 40,85.4 C53,82.6 67,79.9 80,77.3 C93,74.7 107,72.3 120,69.9 C133,67.5 147,65.2 160,63.0 C173,60.8 187,58.8 200,56.8 C213,54.8 227,52.9 240,51.1 C253,49.3 267,47.6 280,46.1 C293,44.5 307,43.0 320,41.6 C333,40.2 347,38.9 360,37.7 C373,36.5 387,35.4 400,34.4 C413,33.4 427,32.6 440,31.8 C453,31.0 467,30.3 480,29.7 C493,29.1 507,28.6 520,28.2 C533,27.8 547,27.5 560,27.3 C573,27.1 587,27.0 600,27.0 C613,27.0 627,27.1 640,27.3 C653,27.5 667,27.8 680,28.2 C693,28.6 707,29.1 720,29.7 C733,30.3 747,31.0 760,31.8 C773,32.6 787,33.4 800,34.4 C813,35.4 827,36.5 840,37.7 C853,38.9 867,40.2 880,41.6 C893,43.0 907,44.5 920,46.1 C933,47.6 947,49.3 960,51.1 C973,52.9 987,54.8 1000,56.8 C1013,58.8 1027,60.8 1040,63.0 C1053,65.2 1067,67.5 1080,69.9 C1093,72.3 1107,74.7 1120,77.3 C1133,79.9 1147,82.6 1160,85.4 C1173,88.1 1193,92.6 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:#ecece5\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "rgba(75, 93, 58, 0.08)",
+      "padding": "8rem 0",
+      "width": "100%"
+     },
+     "blockId": "ba4dd8038",
+     "blockName": "features-tiles",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "width": "100%"
+       },
+       "blockId": "f229d8219",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "marginBottom": "3rem"
+         },
+         "blockId": "16e3f2a59",
+         "blockName": "head",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtr-text)",
+            "fontFamily": "var(--qtr-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1rem",
+            "maxWidth": "36rem"
+           },
+           "blockId": "d05400856",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Ce qui vous <em style=\"font-style: italic; color: var(--qtr-secondary)\">attend</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtr-secondary)",
+            "border": "none",
+            "height": "2px",
+            "margin": "0 0 1.5rem",
+            "width": "40px"
+           },
+           "blockId": "aae237ef5",
+           "element": "hr"
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": 0,
+            "maxWidth": "40rem"
+           },
+           "blockId": "f08ea6343",
+           "blockName": "lead",
+           "element": "p",
+           "innerHTML": "Quatre manières de vivre la maison, du menu du jour à la salle privée, en passant par les vins de la région."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "blockId": "5b248317f",
+         "blockName": "tiles",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "var(--qtr-primary)",
+            "color": "var(--qtr-background)",
+            "display": "flex",
+            "flexDirection": "column",
+            "minHeight": "14rem",
+            "padding": "2.5rem 2.25rem"
+           },
+           "blockId": "e7ab7940d",
+           "blockName": "tile",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qtr-secondary) 80%, white)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem"
+             },
+             "blockId": "d136e7277",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "01"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtr-background)",
+              "fontFamily": "var(--qtr-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "fdca587d8",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Menu du jour",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(250, 248, 244, 0.8)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "26rem"
+             },
+             "blockId": "140badfc7",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Proposé en semaine, à midi, avec des produits frais du marché."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "minHeight": "0",
+            "padding": "1.75rem 1.5rem"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "var(--qtr-background)",
+            "display": "flex",
+            "flexDirection": "column",
+            "minHeight": "14rem",
+            "padding": "2.5rem 2.25rem"
+           },
+           "blockId": "6a9107838",
+           "blockName": "tile",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qtr-secondary) 90%, black)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem"
+             },
+             "blockId": "b1a089819",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "02"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtr-primary)",
+              "fontFamily": "var(--qtr-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "9577fc33e",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Terrasse en été",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "26rem"
+             },
+             "blockId": "2ee3a24a7",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Un espace ensoleillé pour profiter des beaux jours."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "minHeight": "0",
+            "padding": "1.75rem 1.5rem"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "var(--qtr-background)",
+            "display": "flex",
+            "flexDirection": "column",
+            "minHeight": "14rem",
+            "padding": "2.5rem 2.25rem"
+           },
+           "blockId": "4f462e63a",
+           "blockName": "tile",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qtr-secondary) 90%, black)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem"
+             },
+             "blockId": "2dc9b6f08",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "03"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtr-primary)",
+              "fontFamily": "var(--qtr-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "0a31a299d",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Salle privée",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "26rem"
+             },
+             "blockId": "9da969ba4",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Jusqu’à 24 personnes pour vos groupes."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "minHeight": "0",
+            "padding": "1.75rem 1.5rem"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "var(--qtr-background)",
+            "display": "flex",
+            "flexDirection": "column",
+            "minHeight": "14rem",
+            "padding": "2.5rem 2.25rem"
+           },
+           "blockId": "792d70ca3",
+           "blockName": "tile",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qtr-secondary) 90%, black)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem"
+             },
+             "blockId": "7e4cb7068",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "04"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtr-primary)",
+              "fontFamily": "var(--qtr-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "6d1d0c3fb",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Vins de la région",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "26rem"
+             },
+             "blockId": "147ab51e1",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Une sélection de vignerons locaux."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "minHeight": "0",
+            "padding": "1.75rem 1.5rem"
+           }
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--4",
+          "u-reveal-group"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#ecece5",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "c83655006d",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,58.3 C7,57.2 27,53.8 40,51.6 C53,49.4 67,47.3 80,45.3 C93,43.3 107,41.4 120,39.5 C133,37.6 147,35.9 160,34.1 C173,32.4 187,30.8 200,29.3 C213,27.7 227,26.2 240,24.8 C253,23.4 267,22.1 280,20.9 C293,19.6 307,18.5 320,17.4 C333,16.3 347,15.3 360,14.4 C373,13.4 387,12.6 400,11.8 C413,11.0 427,10.3 440,9.7 C453,9.1 467,8.6 480,8.1 C493,7.6 507,7.2 520,6.9 C533,6.6 547,6.4 560,6.2 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.2 C653,6.4 667,6.6 680,6.9 C693,7.2 707,7.6 720,8.1 C733,8.6 747,9.1 760,9.7 C773,10.3 787,11.0 800,11.8 C813,12.6 827,13.4 840,14.4 C853,15.3 867,16.3 880,17.4 C893,18.5 907,19.6 920,20.9 C933,22.1 947,23.4 960,24.8 C973,26.2 987,27.7 1000,29.3 C1013,30.8 1027,32.4 1040,34.1 C1053,35.9 1067,37.6 1080,39.5 C1093,41.4 1107,43.3 1120,45.3 C1133,47.3 1147,49.4 1160,51.6 C1173,53.8 1193,57.2 1200,58.3 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-background)\" fill-opacity=\"0.28\"/><path d=\"M0,74.3 C7,73.2 27,69.8 40,67.6 C53,65.4 67,63.3 80,61.3 C93,59.3 107,57.4 120,55.5 C133,53.6 147,51.9 160,50.1 C173,48.4 187,46.8 200,45.3 C213,43.7 227,42.2 240,40.8 C253,39.4 267,38.1 280,36.9 C293,35.6 307,34.5 320,33.4 C333,32.3 347,31.3 360,30.4 C373,29.4 387,28.6 400,27.8 C413,27.0 427,26.3 440,25.7 C453,25.1 467,24.6 480,24.1 C493,23.6 507,23.2 520,22.9 C533,22.6 547,22.4 560,22.2 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.2 C653,22.4 667,22.6 680,22.9 C693,23.2 707,23.6 720,24.1 C733,24.6 747,25.1 760,25.7 C773,26.3 787,27.0 800,27.8 C813,28.6 827,29.4 840,30.4 C853,31.3 867,32.3 880,33.4 C893,34.5 907,35.6 920,36.9 C933,38.1 947,39.4 960,40.8 C973,42.2 987,43.7 1000,45.3 C1013,46.8 1027,48.4 1040,50.1 C1053,51.9 1067,53.6 1080,55.5 C1093,57.4 1107,59.3 1120,61.3 C1133,63.3 1147,65.4 1160,67.6 C1173,69.8 1193,73.2 1200,74.3 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "padding": "8rem 0",
+      "width": "100%"
+     },
+     "blockId": "427ef16ce",
+     "blockName": "pair-framed",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "width": "100%"
+       },
+       "blockId": "6068c3d90",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "grid",
+          "gap": "4rem",
+          "gridTemplateColumns": "minmax(0, 1fr) minmax(0, 1fr)"
+         },
+         "blockId": "3a99f204d",
+         "blockName": "pair",
+         "children": [
+          {
+           "baseStyles": {
+            "boxShadow": "14px 14px 0 0 rgba(200, 146, 58, 0.35)"
+           },
+           "blockId": "76ee7d202",
+           "blockName": "frame",
+           "children": [
+            {
+             "attributes": {
+              "alt": "Une assiette de saison servie à table, dans une lumière naturelle douce qui révèle les textures et les couleurs des produits du terroir",
+              "src": "/builder_assets/restaurant/page-e62d9ef9/hubpub-restaurant-gen_891e7ff7.png"
+             },
+             "baseStyles": {
+              "aspectRatio": "4/3",
+              "display": "block",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "a561d3bd6",
+             "blockName": "photo",
+             "classes": [
+              "u-media"
+             ],
+             "element": "img"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "boxShadow": "8px 8px 0 0 rgba(200, 146, 58, 0.35)"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "f25879e30",
+           "blockName": "copy",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qtr-secondary) 90%, black)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.3em",
+              "margin": "0 0 1.25rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "ae1a6a91d",
+             "blockName": "label",
+             "element": "p",
+             "innerHTML": "Chaque jour en semaine"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtr-primary)",
+              "fontFamily": "var(--qtr-font-heading)",
+              "fontSize": "2.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.15",
+              "margin": "0 0 1.25rem",
+              "maxWidth": "34rem"
+             },
+             "blockId": "2077a213b",
+             "blockName": "heading",
+             "element": "h2",
+             "innerHTML": "Le menu du <em style=\"font-style: italic; color: var(--qtr-secondary)\">jour</em>",
+             "mobileStyles": {
+              "fontSize": "1.75rem",
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtr-text)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "1.25rem",
+              "lineHeight": "1.7",
+              "margin": "0 0 1.25rem",
+              "maxWidth": "34rem"
+             },
+             "blockId": "51ec7c721",
+             "blockName": "lead",
+             "element": "p",
+             "innerHTML": "Un menu en trois services, élaboré à partir des produits frais du marché."
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0 0 1.75rem",
+              "maxWidth": "34rem"
+             },
+             "blockId": "caa3bda59",
+             "blockName": "text",
+             "element": "p",
+             "innerHTML": "Chaque jour en semaine, à midi, nous proposons une entrée, un plat et un dessert. La carte est courte et change avec les saisons, pour rester fidèle au marché. Réservation conseillée."
+            },
+            {
+             "attributes": {
+              "href": "réserver_une_table"
+             },
+             "blockId": "f50992ee6",
+             "blockName": "button",
+             "classes": [
+              "u-btn",
+              "u-btn--ghost"
+             ],
+             "element": "a",
+             "innerHTML": "Réserver une table"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "2rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         },
+         "tabletStyles": {
+          "gap": "2.5rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "69ad46cccf",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,56.3 C7,55.2 27,51.9 40,49.8 C53,47.7 67,45.7 80,43.8 C93,41.8 107,40.0 120,38.2 C133,36.4 147,34.7 160,33.0 C173,31.4 187,29.8 200,28.3 C213,26.9 227,25.4 240,24.1 C253,22.8 267,21.5 280,20.3 C293,19.1 307,18.0 320,17.0 C333,15.9 347,14.9 360,14.0 C373,13.2 387,12.3 400,11.6 C413,10.8 427,10.2 440,9.6 C453,9.0 467,8.5 480,8.0 C493,7.6 507,7.2 520,6.9 C533,6.6 547,6.4 560,6.2 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.2 C653,6.4 667,6.6 680,6.9 C693,7.2 707,7.6 720,8.0 C733,8.5 747,9.0 760,9.6 C773,10.2 787,10.8 800,11.6 C813,12.3 827,13.2 840,14.0 C853,14.9 867,15.9 880,17.0 C893,18.0 907,19.1 920,20.3 C933,21.5 947,22.8 960,24.1 C973,25.4 987,26.9 1000,28.3 C1013,29.8 1027,31.4 1040,33.0 C1053,34.7 1067,36.4 1080,38.2 C1093,40.0 1107,41.8 1120,43.8 C1133,45.7 1147,47.7 1160,49.8 C1173,51.9 1193,55.2 1200,56.3 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,72.3 C7,71.2 27,67.9 40,65.8 C53,63.7 67,61.7 80,59.8 C93,57.8 107,56.0 120,54.2 C133,52.4 147,50.7 160,49.0 C173,47.4 187,45.8 200,44.3 C213,42.9 227,41.4 240,40.1 C253,38.8 267,37.5 280,36.3 C293,35.1 307,34.0 320,33.0 C333,31.9 347,30.9 360,30.0 C373,29.2 387,28.3 400,27.6 C413,26.8 427,26.2 440,25.6 C453,25.0 467,24.5 480,24.0 C493,23.6 507,23.2 520,22.9 C533,22.6 547,22.4 560,22.2 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.2 C653,22.4 667,22.6 680,22.9 C693,23.2 707,23.6 720,24.0 C733,24.5 747,25.0 760,25.6 C773,26.2 787,26.8 800,27.6 C813,28.3 827,29.2 840,30.0 C853,30.9 867,31.9 880,33.0 C893,34.0 907,35.1 920,36.3 C933,37.5 947,38.8 960,40.1 C973,41.4 987,42.9 1000,44.3 C1013,45.8 1027,47.4 1040,49.0 C1053,50.7 1067,52.4 1080,54.2 C1093,56.0 1107,57.8 1120,59.8 C1133,61.7 1147,63.7 1160,65.8 C1173,67.9 1193,71.2 1200,72.3 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-primary)",
+      "color": "var(--qtr-background)",
+      "padding": "8rem 0",
+      "width": "100%"
+     },
+     "blockId": "5f3367216",
+     "blockName": "cta-band",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "width": "100%"
+       },
+       "blockId": "4b5a05be9",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "bdcda0ea4",
+         "blockName": "closing",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtr-background)",
+            "fontFamily": "var(--qtr-font-heading)",
+            "fontSize": "2.75rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "40rem",
+            "textAlign": "center"
+           },
+           "blockId": "4883ee39c",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Réservez votre <em style=\"font-style: italic; color: var(--qtr-secondary)\">table</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(250, 248, 244, 0.8)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "1.0625rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 2.25rem",
+            "maxWidth": "34rem",
+            "textAlign": "center"
+           },
+           "blockId": "82bd93414",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Nous vous accueillons du mardi au samedi, de 12h à 14h et de 19h à 22h. Réservez en ligne."
+          },
+          {
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexWrap": "wrap",
+            "gap": "16px",
+            "justifyContent": "center"
+           },
+           "blockId": "70653a0d3",
+           "children": [
+            {
+             "attributes": {
+              "href": "réserver_une_table"
+             },
+             "blockId": "7d996f352",
+             "blockName": "button",
+             "classes": [
+              "u-btn",
+              "u-btn--secondary"
+             ],
+             "element": "a",
+             "innerHTML": "Réserver"
+            },
+            {
+             "attributes": {
+              "href": "réserver_une_table"
+             },
+             "blockId": "f13b0f6f0",
+             "blockName": "button",
+             "classes": [
+              "u-btn",
+              "u-btn--outline"
+             ],
+             "element": "a",
+             "innerHTML": "Voir la carte"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-primary)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "0af07a223b",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,54.2 C7,53.2 27,50.0 40,48.0 C53,46.0 67,44.1 80,42.2 C93,40.4 107,38.6 120,36.9 C133,35.1 147,33.5 160,31.9 C173,30.4 187,28.9 200,27.4 C213,26.0 227,24.6 240,23.4 C253,22.1 267,20.9 280,19.7 C293,18.6 307,17.5 320,16.5 C333,15.5 347,14.6 360,13.7 C373,12.9 387,12.1 400,11.4 C413,10.6 427,10.0 440,9.4 C453,8.9 467,8.4 480,7.9 C493,7.5 507,7.1 520,6.9 C533,6.6 547,6.4 560,6.2 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.2 C653,6.4 667,6.6 680,6.9 C693,7.1 707,7.5 720,7.9 C733,8.4 747,8.9 760,9.4 C773,10.0 787,10.6 800,11.4 C813,12.1 827,12.9 840,13.7 C853,14.6 867,15.5 880,16.5 C893,17.5 907,18.6 920,19.7 C933,20.9 947,22.1 960,23.4 C973,24.6 987,26.0 1000,27.4 C1013,28.9 1027,30.4 1040,31.9 C1053,33.5 1067,35.1 1080,36.9 C1093,38.6 1107,40.4 1120,42.2 C1133,44.1 1147,46.0 1160,48.0 C1173,50.0 1193,53.2 1200,54.2 L1200,106 L0,106 Z\" style=\"fill:#3a4a2e\" fill-opacity=\"0.28\"/><path d=\"M0,70.2 C7,69.2 27,66.0 40,64.0 C53,62.0 67,60.1 80,58.2 C93,56.4 107,54.6 120,52.9 C133,51.1 147,49.5 160,47.9 C173,46.4 187,44.9 200,43.4 C213,42.0 227,40.6 240,39.4 C253,38.1 267,36.9 280,35.7 C293,34.6 307,33.5 320,32.5 C333,31.5 347,30.6 360,29.7 C373,28.9 387,28.1 400,27.4 C413,26.6 427,26.0 440,25.4 C453,24.9 467,24.4 480,23.9 C493,23.5 507,23.1 520,22.9 C533,22.6 547,22.4 560,22.2 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.2 C653,22.4 667,22.6 680,22.9 C693,23.1 707,23.5 720,23.9 C733,24.4 747,24.9 760,25.4 C773,26.0 787,26.6 800,27.4 C813,28.1 827,28.9 840,29.7 C853,30.6 867,31.5 880,32.5 C893,33.5 907,34.6 920,35.7 C933,36.9 947,38.1 960,39.4 C973,40.6 987,42.0 1000,43.4 C1013,44.9 1027,46.4 1040,47.9 C1053,49.5 1067,51.1 1080,52.9 C1093,54.6 1107,56.4 1120,58.2 C1133,60.1 1147,62.0 1160,64.0 C1173,66.0 1193,69.2 1200,70.2 L1200,106 L0,106 Z\" style=\"fill:#3a4a2e\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-10-31 16:22:22.405839",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Cuisine de saison, produits du terroir, et une carte courte qui évolue avec les saisons.",
+ "modified": "2026-10-31 16:42:55.223744",
+ "modified_by": "Administrator",
+ "name": "page-e62d9ef9",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-e62d9ef9",
+ "page_title": "Accueil",
+ "preview": "/builder_assets/restaurant/page-e62d9ef9/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/restaurant/accueil",
+ "staging": 0,
+ "template_group": "restaurant"
+}

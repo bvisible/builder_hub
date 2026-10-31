@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "electricien",
+ "name": "qta-background",
+ "token_name": "Electricien background",
+ "type": "Color",
+ "value": "#ffffff"
+}

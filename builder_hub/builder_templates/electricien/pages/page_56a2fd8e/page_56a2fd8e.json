@@ -1,0 +1,461 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--qta-background)",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "display": "flex",
+      "justifyContent": "center",
+      "padding": "80px 0",
+      "width": "100%"
+     },
+     "blockId": "dd0ce86e4",
+     "blockName": "statement",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)",
+        "width": "100%"
+       },
+       "blockId": "ff8a1aacf",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "var(--qta-text)",
+          "fontFamily": "var(--qta-font-body)",
+          "fontSize": "1.25rem",
+          "lineHeight": "1.6",
+          "margin": "0 0 1.5rem",
+          "maxWidth": "42rem",
+          "textAlign": "center"
+         },
+         "blockId": "8003e7798",
+         "element": "p",
+         "innerHTML": "Atelier Lumière est une entreprise d'électricité spécialisée dans les installations neuves, les rénovations et le dépannage. Notre engagement : une intervention propre, soignée et une garantie de deux ans sur les travaux.",
+         "mobileStyles": {
+          "fontSize": "1.125rem"
+         }
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qta-secondary)",
+          "height": "2px",
+          "margin": "0 0 1.25rem",
+          "width": "48px"
+         },
+         "blockId": "ab4051db7",
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qta-primary)",
+          "fontFamily": "var(--qta-font-heading)",
+          "fontSize": "1.1rem",
+          "fontWeight": "500",
+          "lineHeight": "1.5",
+          "margin": "0",
+          "maxWidth": "34rem",
+          "textAlign": "center"
+         },
+         "blockId": "145db2731",
+         "element": "p",
+         "innerHTML": "Des installations fiables, un travail net, et une exigence qui ne se renonce jamais."
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "48px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "02586ee394",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,0 L1200,74 L1200,106 L0,106 Z\" style=\"fill:#f8f9fa\" fill-opacity=\"0.28\"/><path d=\"M0,6 L1200,94 L1200,106 L0,106 Z\" style=\"fill:#f8f9fa\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#f8f9fa",
+      "padding": "80px 0",
+      "width": "100%"
+     },
+     "blockId": "26366592c",
+     "blockName": "story",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)",
+        "width": "100%"
+       },
+       "blockId": "9ae6b2c88",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "start",
+          "columnGap": "24px",
+          "display": "grid",
+          "gridTemplateColumns": "repeat(13, minmax(0, 1fr))"
+         },
+         "blockId": "562b07e8a",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column",
+            "gridColumn": "1 / span 5"
+           },
+           "blockId": "5d1438061",
+           "blockName": "copy",
+           "children": [
+            {
+             "baseStyles": {
+              "backgroundColor": "var(--qta-secondary)",
+              "height": "2px",
+              "marginBottom": "16px",
+              "width": "48px"
+             },
+             "blockId": "5392500b2",
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-text)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "3rem",
+              "fontWeight": "700",
+              "lineHeight": "1.15",
+              "margin": "0 0 1.25rem",
+              "maxWidth": "34rem"
+             },
+             "blockId": "02a9f3dcb",
+             "blockName": "heading",
+             "element": "h2",
+             "innerHTML": "Notre <em style=\"font-style: italic; color: var(--qta-secondary)\">approche</em>",
+             "mobileStyles": {
+              "fontSize": "1.75rem",
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-text)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1.25rem",
+              "lineHeight": "1.7",
+              "margin": "0 0 1.25rem",
+              "maxWidth": "34rem"
+             },
+             "blockId": "246082c22",
+             "blockName": "lead",
+             "element": "p",
+             "innerHTML": "Fondé sur l'expertise et la rigueur, Atelier Lumière s'engage à offrir des services électriques de haute qualité, du premier repérage à la mise en service."
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0 0 1.25rem",
+              "maxWidth": "34rem"
+             },
+             "blockId": "363e0dca5",
+             "blockName": "text",
+             "element": "p",
+             "innerHTML": "Nous combinons savoir-faire traditionnel et technologies modernes pour répondre aux besoins de nos clients, qu'il s'agisse d'une installation neuve ou d'une rénovation complète. Notre équipe est formée aux dernières normes et pratiques, garantissant des installations sûres et durables, pensées pour durer bien après la fin des travaux."
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "gridColumn": "auto"
+           }
+          },
+          {
+           "baseStyles": {
+            "boxShadow": "14px 14px 0 0 rgba(233, 162, 59, 0.35)",
+            "gridColumn": "6 / span 8"
+           },
+           "blockId": "71998e55e",
+           "blockName": "frame",
+           "children": [
+            {
+             "attributes": {
+              "alt": "Un plan de travail d'atelier ordonné : câbles cuivre enroulés, outils de précision et composants électriques alignés sous une lumière claire.",
+              "src": "data:image/svg+xml;utf8,<svg xmlns=%27http://www.w3.org/2000/svg%27 width=%271600%27 height=%27900%27 viewBox=%270 0 1600 900%27><rect width=%27100%25%27 height=%27100%25%27 fill=%27%23ffffff%27/><rect width=%27100%25%27 height=%27100%25%27 fill=%27%23e9a23b%27 fill-opacity=%270.35%27/></svg>"
+             },
+             "baseStyles": {
+              "aspectRatio": "4/3",
+              "display": "block",
+              "height": "100%",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "f71b1170d",
+             "blockName": "photo",
+             "classes": [
+              "u-media"
+             ],
+             "element": "img"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "boxShadow": "8px 8px 0 0 rgba(233, 162, 59, 0.35)",
+            "gridColumn": "auto"
+           }
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gridTemplateColumns": "minmax(0, 1fr)",
+          "rowGap": "2.5rem"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "48px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#f8f9fa",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "a3ced337ab",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,0 L1200,74 L1200,106 L0,106 Z\" style=\"fill:var(--qta-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,6 L1200,94 L1200,106 L0,106 Z\" style=\"fill:var(--qta-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qta-primary)",
+      "color": "var(--qta-background)",
+      "display": "flex",
+      "justifyContent": "center",
+      "padding": "80px 0",
+      "width": "100%"
+     },
+     "blockId": "7791f49a4",
+     "blockName": "cta",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)",
+        "width": "100%"
+       },
+       "blockId": "d57b946a4",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "19b0206dc",
+         "blockName": "closing",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qta-secondary)",
+            "height": "2px",
+            "marginBottom": "16px",
+            "width": "48px"
+           },
+           "blockId": "f3a052c9b",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qta-background)",
+            "fontFamily": "var(--qta-font-heading)",
+            "fontSize": "1.5rem",
+            "fontWeight": "700",
+            "lineHeight": "1.2",
+            "margin": "0 0 1rem",
+            "maxWidth": "40rem",
+            "textAlign": "center"
+           },
+           "blockId": "9e38aaf6f",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Discutons de votre <em style=\"font-style: italic; color: var(--qta-secondary)\">projet</em>",
+           "mobileStyles": {
+            "fontSize": "1.25rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "#e5e7eb",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "1rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 2rem",
+            "maxWidth": "34rem",
+            "textAlign": "center"
+           },
+           "blockId": "0a7317b45",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Contactez-nous pour en savoir plus sur nos services ou pour demander un devis gratuit et chiffré."
+          },
+          {
+           "attributes": {
+            "href": "demander_un_devis"
+           },
+           "blockId": "8aafcd018",
+           "blockName": "button",
+           "classes": [
+            "u-btn",
+            "u-btn--secondary"
+           ],
+           "element": "a",
+           "innerHTML": "Demander un devis"
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "48px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qta-primary)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "959836394c",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,0 L1200,74 L1200,106 L0,106 Z\" style=\"fill:#1c333d\" fill-opacity=\"0.28\"/><path d=\"M0,6 L1200,94 L1200,106 L0,106 Z\" style=\"fill:#1c333d\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-10-31 17:52:47.580283",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Atelier Lumière est une entreprise d'électricité spécialisée dans les installations neuves, les rénovations et le dépannage.",
+ "modified": "2026-10-31 18:20:53.551686",
+ "modified_by": "Administrator",
+ "name": "page-56a2fd8e",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-56a2fd8e",
+ "page_title": "L'entreprise",
+ "preview": "/builder_assets/electricien/page-56a2fd8e/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/electricien/l'entreprise",
+ "staging": 0,
+ "template_group": "electricien"
+}

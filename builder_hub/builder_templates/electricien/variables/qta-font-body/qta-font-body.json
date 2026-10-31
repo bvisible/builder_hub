@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "electricien",
+ "name": "qta-font-body",
+ "token_name": "Electricien font body",
+ "type": "Font",
+ "value": "Source Sans 3"
+}

@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "salon_de_coiffure",
+ "name": "qtc-secondary",
+ "token_name": "Salon de coiffure secondary",
+ "type": "Color",
+ "value": "#e8c07a"
+}

@@ -1,0 +1,727 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--qtc-background)",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtc-background)",
+      "padding": "8rem 0",
+      "width": "100%"
+     },
+     "blockId": "89839a2c3",
+     "blockName": "statement-centred",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtc-container)",
+        "paddingLeft": "var(--qtc-gutter)",
+        "paddingRight": "var(--qtc-gutter)",
+        "width": "100%"
+       },
+       "blockId": "74b8e881d",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "7742dd4dc",
+         "blockName": "statement",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtc-text)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.25rem",
+            "textAlign": "center",
+            "textTransform": "uppercase"
+           },
+           "blockId": "312b6c207",
+           "blockName": "label",
+           "element": "p",
+           "innerHTML": "Bienvenue"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtc-secondary)",
+            "border": "none",
+            "height": "1px",
+            "margin": "0 0 1.5rem",
+            "width": "2.5rem"
+           },
+           "blockId": "57b6f71fe",
+           "blockName": "rule",
+           "element": "hr"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtc-primary)",
+            "fontFamily": "var(--qtc-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "46rem",
+            "textAlign": "center"
+           },
+           "blockId": "e7c1b4857",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Réservez votre moment de <em style=\"font-style: italic; color: var(--qtc-secondary)\">douceur</em>.",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "1.2rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "45ch",
+            "textAlign": "center"
+           },
+           "blockId": "ca6c43010",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Choisissez votre soin, votre créneau, et laissez-nous prendre soin de vous. Nous sommes ouverts du mardi au samedi."
+          }
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtc-gutter-phone)",
+        "paddingRight": "var(--qtc-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "5rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtc-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "cdb6f26ca8",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,72.2 C7,70.8 27,66.4 40,63.7 C53,60.9 67,58.3 80,55.7 C93,53.2 107,50.7 120,48.4 C133,46.0 147,43.8 160,41.6 C173,39.4 187,37.4 200,35.4 C213,33.5 227,31.6 240,29.8 C253,28.1 267,26.4 280,24.8 C293,23.3 307,21.8 320,20.4 C333,19.0 347,17.8 360,16.6 C373,15.4 387,14.3 400,13.4 C413,12.4 427,11.5 440,10.7 C453,9.9 467,9.2 480,8.6 C493,8.1 507,7.6 520,7.2 C533,6.8 547,6.5 560,6.3 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.3 C653,6.5 667,6.8 680,7.2 C693,7.6 707,8.1 720,8.6 C733,9.2 747,9.9 760,10.7 C773,11.5 787,12.4 800,13.4 C813,14.3 827,15.4 840,16.6 C853,17.8 867,19.0 880,20.4 C893,21.8 907,23.3 920,24.8 C933,26.4 947,28.1 960,29.8 C973,31.6 987,33.5 1000,35.4 C1013,37.4 1027,39.4 1040,41.6 C1053,43.8 1067,46.0 1080,48.4 C1093,50.7 1107,53.2 1120,55.7 C1133,58.3 1147,60.9 1160,63.7 C1173,66.4 1193,70.8 1200,72.2 L1200,106 L0,106 Z\" style=\"fill:#ffffff\" fill-opacity=\"0.28\"/><path d=\"M0,88.2 C7,86.8 27,82.4 40,79.7 C53,76.9 67,74.3 80,71.7 C93,69.2 107,66.7 120,64.4 C133,62.0 147,59.8 160,57.6 C173,55.4 187,53.4 200,51.4 C213,49.5 227,47.6 240,45.8 C253,44.1 267,42.4 280,40.8 C293,39.3 307,37.8 320,36.4 C333,35.0 347,33.8 360,32.6 C373,31.4 387,30.3 400,29.4 C413,28.4 427,27.5 440,26.7 C453,25.9 467,25.2 480,24.6 C493,24.1 507,23.6 520,23.2 C533,22.8 547,22.5 560,22.3 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.3 C653,22.5 667,22.8 680,23.2 C693,23.6 707,24.1 720,24.6 C733,25.2 747,25.9 760,26.7 C773,27.5 787,28.4 800,29.4 C813,30.3 827,31.4 840,32.6 C853,33.8 867,35.0 880,36.4 C893,37.8 907,39.3 920,40.8 C933,42.4 947,44.1 960,45.8 C973,47.6 987,49.5 1000,51.4 C1013,53.4 1027,55.4 1040,57.6 C1053,59.8 1067,62.0 1080,64.4 C1093,66.7 1107,69.2 1120,71.7 C1133,74.3 1147,76.9 1160,79.7 C1173,82.4 1193,86.8 1200,88.2 L1200,106 L0,106 Z\" style=\"fill:#ffffff\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#ffffff",
+      "padding": "8rem 0",
+      "width": "100%"
+     },
+     "blockId": "0b5364018",
+     "blockName": "contact-stacked",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtc-container)",
+        "paddingLeft": "var(--qtc-gutter)",
+        "paddingRight": "var(--qtc-gutter)",
+        "width": "100%"
+       },
+       "blockId": "c4d959942",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "5712fde48",
+         "blockName": "head",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtc-text)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.25rem",
+            "textAlign": "center",
+            "textTransform": "uppercase"
+           },
+           "blockId": "c911418da",
+           "blockName": "label",
+           "element": "p",
+           "innerHTML": "Rendez-vous"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtc-secondary)",
+            "border": "none",
+            "height": "1px",
+            "margin": "0 0 1.5rem",
+            "width": "2.5rem"
+           },
+           "blockId": "fba73c32c",
+           "blockName": "rule",
+           "element": "hr"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtc-primary)",
+            "fontFamily": "var(--qtc-font-heading)",
+            "fontSize": "2rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "34rem",
+            "textAlign": "center"
+           },
+           "blockId": "0e2cd0e7d",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Écrivez-nous.",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "1.0625rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 2.5rem",
+            "maxWidth": "34rem",
+            "textAlign": "center"
+           },
+           "blockId": "9f8a46c52",
+           "blockName": "lead",
+           "element": "p",
+           "innerHTML": "Dites-nous quel soin vous attend et à quel moment, et notre équipe vous répond pour réserver votre créneau."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "margin": "0 auto",
+          "maxWidth": "600px",
+          "padding": "2rem",
+          "width": "100%"
+         },
+         "blockId": "a4a43b888",
+         "blockName": "form-card",
+         "children": [
+          {
+           "blockId": "3babbf7d7",
+           "blockName": "form",
+           "element": "div",
+           "innerHTML": "{%- set site_form = \"qw-tpl-coiffure-contact\" -%}{% include \"builder/templates/includes/site_form.html\" %}"
+          }
+         ],
+         "classes": [
+          "u-card"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "padding": "1.5rem"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtc-gutter-phone)",
+        "paddingRight": "var(--qtc-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "5rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#ffffff",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "5fce8aa415",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.5 27,71.8 40,68.8 C53,65.9 67,63.0 80,60.3 C93,57.5 107,54.9 120,52.3 C133,49.8 147,47.4 160,45.1 C173,42.7 187,40.5 200,38.4 C213,36.3 227,34.3 240,32.4 C253,30.5 267,28.7 280,27.0 C293,25.3 307,23.7 320,22.2 C333,20.8 347,19.4 360,18.1 C373,16.9 387,15.7 400,14.6 C413,13.6 427,12.6 440,11.8 C453,10.9 467,10.2 480,9.6 C493,8.9 507,8.4 520,8.0 C533,7.6 547,7.2 560,7.0 C573,6.8 587,6.7 600,6.7 C613,6.7 627,6.8 640,7.0 C653,7.2 667,7.6 680,8.0 C693,8.4 707,8.9 720,9.6 C733,10.2 747,10.9 760,11.8 C773,12.6 787,13.6 800,14.6 C813,15.7 827,16.9 840,18.1 C853,19.4 867,20.8 880,22.2 C893,23.7 907,25.3 920,27.0 C933,28.7 947,30.5 960,32.4 C973,34.3 987,36.3 1000,38.4 C1013,40.5 1027,42.7 1040,45.1 C1053,47.4 1067,49.8 1080,52.3 C1093,54.9 1107,57.5 1120,60.3 C1133,63.0 1147,65.9 1160,68.8 C1173,71.8 1193,76.5 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtc-background)\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.5 27,87.8 40,84.8 C53,81.9 67,79.0 80,76.3 C93,73.5 107,70.9 120,68.3 C133,65.8 147,63.4 160,61.1 C173,58.7 187,56.5 200,54.4 C213,52.3 227,50.3 240,48.4 C253,46.5 267,44.7 280,43.0 C293,41.3 307,39.7 320,38.2 C333,36.8 347,35.4 360,34.1 C373,32.9 387,31.7 400,30.6 C413,29.6 427,28.6 440,27.8 C453,26.9 467,26.2 480,25.6 C493,24.9 507,24.4 520,24.0 C533,23.6 547,23.2 560,23.0 C573,22.8 587,22.7 600,22.7 C613,22.7 627,22.8 640,23.0 C653,23.2 667,23.6 680,24.0 C693,24.4 707,24.9 720,25.6 C733,26.2 747,26.9 760,27.8 C773,28.6 787,29.6 800,30.6 C813,31.7 827,32.9 840,34.1 C853,35.4 867,36.8 880,38.2 C893,39.7 907,41.3 920,43.0 C933,44.7 947,46.5 960,48.4 C973,50.3 987,52.3 1000,54.4 C1013,56.5 1027,58.7 1040,61.1 C1053,63.4 1067,65.8 1080,68.3 C1093,70.9 1107,73.5 1120,76.3 C1133,79.0 1147,81.9 1160,84.8 C1173,87.8 1193,92.5 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtc-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtc-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "785b4d6b2",
+     "blockName": "contact-details",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtc-container)",
+        "paddingLeft": "var(--qtc-gutter)",
+        "paddingRight": "var(--qtc-gutter)",
+        "width": "100%"
+       },
+       "blockId": "7b4edf08d",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "marginBottom": "3rem"
+         },
+         "blockId": "a3e430b04",
+         "blockName": "head",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtc-text)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.25rem",
+            "textAlign": "center",
+            "textTransform": "uppercase"
+           },
+           "blockId": "0e19b4937",
+           "blockName": "label",
+           "element": "p",
+           "innerHTML": "Nous trouver"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtc-secondary)",
+            "border": "none",
+            "height": "1px",
+            "margin": "0 0 1.5rem",
+            "width": "2.5rem"
+           },
+           "blockId": "13fc775b0",
+           "blockName": "rule",
+           "element": "hr"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtc-primary)",
+            "fontFamily": "var(--qtc-font-heading)",
+            "fontSize": "2rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "34rem",
+            "textAlign": "center"
+           },
+           "blockId": "08754d67f",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Nos coordonnées.",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "1.0625rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "40rem",
+            "textAlign": "center"
+           },
+           "blockId": "cf6ef4f0c",
+           "blockName": "lead",
+           "element": "p",
+           "innerHTML": "Un créneau, un soin, une question : nous vous répondons par écrit, du mardi au samedi, pendant nos heures d’ouverture."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "blockId": "9e7d6b94c",
+         "blockName": "details",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderBottom": "1px solid rgba(26, 26, 26, 0.16)",
+            "display": "flex",
+            "flexDirection": "column",
+            "marginBottom": "1.25rem",
+            "paddingBottom": "1.25rem",
+            "width": "100%"
+           },
+           "blockId": "61fb6e391",
+           "blockName": "detail",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtc-text)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 0.35rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "3da63767a",
+             "blockName": "detail-label",
+             "element": "p",
+             "innerHTML": "Horaires"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtc-text)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "1.125rem",
+              "lineHeight": "1.6",
+              "margin": "0"
+             },
+             "blockId": "e61a9a81d",
+             "blockName": "detail-value",
+             "element": "p",
+             "innerHTML": "Mardi au samedi"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderBottom": "1px solid rgba(26, 26, 26, 0.16)",
+            "display": "flex",
+            "flexDirection": "column",
+            "marginBottom": "1.25rem",
+            "paddingBottom": "1.25rem",
+            "width": "100%"
+           },
+           "blockId": "b8a76767a",
+           "blockName": "detail",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtc-text)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 0.35rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "5ce21ec14",
+             "blockName": "detail-label",
+             "element": "p",
+             "innerHTML": "Prendre rendez-vous"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtc-text)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "1.125rem",
+              "lineHeight": "1.6",
+              "margin": "0"
+             },
+             "blockId": "723f02c54",
+             "blockName": "detail-value",
+             "element": "p",
+             "innerHTML": "Sur demande"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderBottom": "1px solid rgba(26, 26, 26, 0.16)",
+            "display": "flex",
+            "flexDirection": "column",
+            "marginBottom": "1.25rem",
+            "paddingBottom": "1.25rem",
+            "width": "100%"
+           },
+           "blockId": "39511e85e",
+           "blockName": "detail",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtc-text)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 0.35rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "5b3681bcc",
+             "blockName": "detail-label",
+             "element": "p",
+             "innerHTML": "Nous écrire"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtc-text)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "1.125rem",
+              "lineHeight": "1.6",
+              "margin": "0"
+             },
+             "blockId": "9eb29fa47",
+             "blockName": "detail-value",
+             "element": "p",
+             "innerHTML": "Sur demande"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--3",
+          "u-reveal-group"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtc-gutter-phone)",
+        "paddingRight": "var(--qtc-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "5rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtc-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "7a25cdde67",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.5 27,72.1 40,69.2 C53,66.4 67,63.7 80,61.1 C93,58.5 107,56.0 120,53.5 C133,51.1 147,48.8 160,46.6 C173,44.4 187,42.3 200,40.3 C213,38.2 227,36.3 240,34.5 C253,32.7 267,31.0 280,29.4 C293,27.8 307,26.3 320,24.9 C333,23.4 347,22.1 360,20.9 C373,19.7 387,18.6 400,17.6 C413,16.6 427,15.7 440,14.9 C453,14.1 467,13.4 480,12.8 C493,12.2 507,11.7 520,11.3 C533,10.9 547,10.6 560,10.4 C573,10.2 587,10.1 600,10.1 C613,10.1 627,10.2 640,10.4 C653,10.6 667,10.9 680,11.3 C693,11.7 707,12.2 720,12.8 C733,13.4 747,14.1 760,14.9 C773,15.7 787,16.6 800,17.6 C813,18.6 827,19.7 840,20.9 C853,22.1 867,23.4 880,24.9 C893,26.3 907,27.8 920,29.4 C933,31.0 947,32.7 960,34.5 C973,36.3 987,38.2 1000,40.3 C1013,42.3 1027,44.4 1040,46.6 C1053,48.8 1067,51.1 1080,53.5 C1093,56.0 1107,58.5 1120,61.1 C1133,63.7 1147,66.4 1160,69.2 C1173,72.1 1193,76.5 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtc-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.5 27,88.1 40,85.2 C53,82.4 67,79.7 80,77.1 C93,74.5 107,72.0 120,69.5 C133,67.1 147,64.8 160,62.6 C173,60.4 187,58.3 200,56.3 C213,54.2 227,52.3 240,50.5 C253,48.7 267,47.0 280,45.4 C293,43.8 307,42.3 320,40.9 C333,39.4 347,38.1 360,36.9 C373,35.7 387,34.6 400,33.6 C413,32.6 427,31.7 440,30.9 C453,30.1 467,29.4 480,28.8 C493,28.2 507,27.7 520,27.3 C533,26.9 547,26.6 560,26.4 C573,26.2 587,26.1 600,26.1 C613,26.1 627,26.2 640,26.4 C653,26.6 667,26.9 680,27.3 C693,27.7 707,28.2 720,28.8 C733,29.4 747,30.1 760,30.9 C773,31.7 787,32.6 800,33.6 C813,34.6 827,35.7 840,36.9 C853,38.1 867,39.4 880,40.9 C893,42.3 907,43.8 920,45.4 C933,47.0 947,48.7 960,50.5 C973,52.3 987,54.2 1000,56.3 C1013,58.3 1027,60.4 1040,62.6 C1053,64.8 1067,67.1 1080,69.5 C1093,72.0 1107,74.5 1120,77.1 C1133,79.7 1147,82.4 1160,85.2 C1173,88.1 1193,92.5 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtc-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtc-primary)",
+      "color": "var(--qtc-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "e5e98db53",
+     "blockName": "cta-band",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtc-container)",
+        "paddingLeft": "var(--qtc-gutter)",
+        "paddingRight": "var(--qtc-gutter)",
+        "width": "100%"
+       },
+       "blockId": "d0adf6b75",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "3b96ab415",
+         "blockName": "closing",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtc-secondary)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.25rem",
+            "textAlign": "center",
+            "textTransform": "uppercase"
+           },
+           "blockId": "6d451484a",
+           "blockName": "label",
+           "element": "p",
+           "innerHTML": "Au plaisir"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtc-secondary)",
+            "border": "none",
+            "height": "1px",
+            "margin": "0 0 1.5rem",
+            "width": "2.5rem"
+           },
+           "blockId": "0a5701cd8",
+           "blockName": "rule",
+           "element": "hr"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtc-background)",
+            "fontFamily": "var(--qtc-font-heading)",
+            "fontSize": "2.5rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "40rem",
+            "textAlign": "center"
+           },
+           "blockId": "ed91aed36",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "À bientôt, au <em style=\"font-style: italic; color: var(--qtc-secondary)\">salon</em>.",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(250, 246, 242, 0.8)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "1.1rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "50ch",
+            "textAlign": "center"
+           },
+           "blockId": "8de902d5f",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Nous huttons de vous accueillir dans notre espace lumineux."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtc-gutter-phone)",
+        "paddingRight": "var(--qtc-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "5rem 0"
+     }
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-10-31 17:52:39.165376",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Choisissez votre soin, votre créneau, et laissez-nous prendre soin de vous. Nous sommes ouverts du mardi au samedi.",
+ "modified": "2026-10-31 17:52:39.166873",
+ "modified_by": "Administrator",
+ "name": "page-702bb1c0",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-702bb1c0",
+ "page_title": "Prendre rendez-vous",
+ "preview": "/builder_assets/salon_de_coiffure/page-702bb1c0/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/salon_de_coiffure/prendre_rendez_vous",
+ "staging": 0,
+ "template_group": "salon_de_coiffure"
+}

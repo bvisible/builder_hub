@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "salon_de_coiffure",
+ "name": "qtc-gutter-phone",
+ "token_name": "Salon de coiffure gutter phone",
+ "type": "Dimension",
+ "value": "24px"
+}

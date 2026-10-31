@@ -1,0 +1,27 @@
+{
+ "description": "Un garage indépendant : accueil, prestations et tarifs, prise de rendez-vous et présentation de l'atelier. Textes d'exemple à remplacer par les vôtres.",
+ "header_footer": {
+  "background_color": "#1f2a36",
+  "body_font": "DM Sans",
+  "heading_font": "Bebas Neue",
+  "primary_color": "#1f2a36",
+  "secondary_color": "#e0792b",
+  "text_color": "#f5f5f5"
+ },
+ "pages": [
+  {
+   "name": "page-f13c1359"
+  },
+  {
+   "name": "page-c7d441ab"
+  },
+  {
+   "name": "page-276d234c"
+  },
+  {
+   "name": "page-3f4eacfa"
+  }
+ ],
+ "source": "hub_publish",
+ "title": "Garage : atelier indépendant"
+}

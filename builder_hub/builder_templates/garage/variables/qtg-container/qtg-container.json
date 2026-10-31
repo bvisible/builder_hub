@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "garage",
+ "name": "qtg-container",
+ "token_name": "Garage container",
+ "type": "Dimension",
+ "value": "1200px"
+}

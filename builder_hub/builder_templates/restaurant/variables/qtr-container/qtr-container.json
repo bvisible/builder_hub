@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "restaurant",
+ "name": "qtr-container",
+ "token_name": "Restaurant container",
+ "type": "Dimension",
+ "value": "1280px"
+}

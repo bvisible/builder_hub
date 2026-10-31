@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "salon_de_coiffure",
+ "name": "qtc-background",
+ "token_name": "Salon de coiffure background",
+ "type": "Color",
+ "value": "#faf6f2"
+}

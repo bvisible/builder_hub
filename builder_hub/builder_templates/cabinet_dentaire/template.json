@@ -1,0 +1,27 @@
+{
+ "description": "Un cabinet dentaire de quartier : accueil, soins et tarifs, prise de rendez-vous et présentation du cabinet. Textes d'exemple à remplacer par les vôtres.",
+ "header_footer": {
+  "background_color": "#ffffff",
+  "body_font": "Manrope",
+  "heading_font": "Outfit",
+  "primary_color": "#1f7a8c",
+  "secondary_color": "#f2a65a",
+  "text_color": "#1a1a1a"
+ },
+ "pages": [
+  {
+   "name": "page-93d070e3"
+  },
+  {
+   "name": "page-7fef8cfc"
+  },
+  {
+   "name": "page-4143bfdf"
+  },
+  {
+   "name": "page-cbe509f4"
+  }
+ ],
+ "source": "hub_publish",
+ "title": "Cabinet dentaire : soins et rendez-vous"
+}

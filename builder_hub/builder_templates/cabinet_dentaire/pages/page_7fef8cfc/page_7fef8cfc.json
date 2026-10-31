@@ -1,0 +1,1096 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "#ffffff",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "backgroundColor": "#ffffff",
+      "padding": "96px 0",
+      "width": "100%"
+     },
+     "blockId": "826f16706",
+     "blockName": "intro",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtd-container)",
+        "paddingLeft": "var(--qtd-gutter)",
+        "paddingRight": "var(--qtd-gutter)",
+        "width": "100%"
+       },
+       "blockId": "ca72ab504",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "grid",
+          "gap": "3rem",
+          "gridTemplateColumns": "minmax(0, 4fr) minmax(0, 6fr)"
+         },
+         "blockId": "03e3e9c70",
+         "blockName": "split",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "3a82da204",
+           "blockName": "intro-text",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qtd-secondary) 80%, black)",
+              "display": "inline-block",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.3em",
+              "marginBottom": "1.25rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "8a5990154",
+             "blockName": "eyebrow",
+             "element": "span",
+             "innerHTML": "Transparence"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "3.25rem",
+              "fontWeight": "700",
+              "letterSpacing": "-0.01em",
+              "lineHeight": "1.1",
+              "margin": "0 0 1.5rem",
+              "maxWidth": "26rem"
+             },
+             "blockId": "805847e04",
+             "blockName": "heading",
+             "element": "h2",
+             "innerHTML": "Des soins <em style=\"font-style: italic; color: var(--qtd-primary)\">clairs</em>, des prix justes",
+             "mobileStyles": {
+              "fontSize": "2.25rem",
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1.125rem",
+              "lineHeight": "1.7",
+              "margin": "0 0 2rem",
+              "maxWidth": "34rem"
+             },
+             "blockId": "a54103c9f",
+             "blockName": "lead",
+             "element": "p",
+             "innerHTML": "Chaque soin que nous proposons est accompagné d’un devis écrit, remis avant le début du traitement. Vous savez exactement ce qui est prévu, et ce que cela coûte, avant de vous engager."
+            },
+            {
+             "attributes": {
+              "href": "prendre_rendez_vous"
+             },
+             "baseStyles": {
+              "backgroundColor": "var(--qtd-primary)",
+              "borderRadius": "100px",
+              "color": "#ffffff",
+              "display": "inline-block",
+              "fontSize": "1rem",
+              "fontWeight": "600",
+              "lineHeight": "1",
+              "padding": "16px 32px",
+              "textAlign": "center",
+              "transition": "all 0.2s ease"
+             },
+             "blockId": "f223aca6a",
+             "blockName": "button",
+             "classes": [
+              "u-btn",
+              "u-btn--secondary"
+             ],
+             "element": "a",
+             "innerHTML": "Prendre rendez-vous",
+             "mobileStyles": {
+              "textAlign": "center",
+              "width": "100%"
+             }
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "border": "1px solid #e6eef0",
+            "borderRadius": "16px",
+            "boxShadow": "0 4px 12px rgba(31, 122, 140, 0.08)",
+            "overflow": "hidden"
+           },
+           "blockId": "8adce86b1",
+           "blockName": "intro-media",
+           "children": [
+            {
+             "attributes": {
+              "alt": "Plan de travail d’un cabinet dentaire, propre et lumineux, avec des instruments disposés avec soin",
+              "src": "data:image/svg+xml;utf8,<svg xmlns=%27http://www.w3.org/2000/svg%27 width=%271600%27 height=%27900%27 viewBox=%270 0 1600 900%27><rect width=%27100%25%27 height=%27100%25%27 fill=%27%23ffffff%27/><rect width=%27100%25%27 height=%27100%25%27 fill=%27%23f2a65a%27 fill-opacity=%270.35%27/></svg>"
+             },
+             "baseStyles": {
+              "display": "block",
+              "height": "100%",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "864223ee3",
+             "element": "img"
+            }
+           ],
+           "classes": [
+            "u-media"
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "1.5rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         },
+         "tabletStyles": {
+          "gap": "2rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtd-gutter-phone)",
+        "paddingRight": "var(--qtd-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "64px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#ffffff",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "271c5b59b1",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.6 27,72.4 40,69.7 C53,67.1 67,64.5 80,62.1 C93,59.6 107,57.2 120,54.9 C133,52.7 147,50.5 160,48.4 C173,46.3 187,44.3 200,42.4 C213,40.5 227,38.7 240,37.0 C253,35.3 267,33.7 280,32.1 C293,30.6 307,29.2 320,27.9 C333,26.5 347,25.3 360,24.2 C373,23.0 387,22.0 400,21.0 C413,20.1 427,19.2 440,18.5 C453,17.7 467,17.1 480,16.5 C493,15.9 507,15.4 520,15.1 C533,14.7 547,14.4 560,14.2 C573,14.0 587,13.9 600,13.9 C613,13.9 627,14.0 640,14.2 C653,14.4 667,14.7 680,15.1 C693,15.4 707,15.9 720,16.5 C733,17.1 747,17.7 760,18.5 C773,19.2 787,20.1 800,21.0 C813,22.0 827,23.0 840,24.2 C853,25.3 867,26.5 880,27.9 C893,29.2 907,30.6 920,32.1 C933,33.7 947,35.3 960,37.0 C973,38.7 987,40.5 1000,42.4 C1013,44.3 1027,46.3 1040,48.4 C1053,50.5 1067,52.7 1080,54.9 C1093,57.2 1107,59.6 1120,62.1 C1133,64.5 1147,67.1 1160,69.7 C1173,72.4 1193,76.6 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:#f4f9fa\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.6 27,88.4 40,85.7 C53,83.1 67,80.5 80,78.1 C93,75.6 107,73.2 120,70.9 C133,68.7 147,66.5 160,64.4 C173,62.3 187,60.3 200,58.4 C213,56.5 227,54.7 240,53.0 C253,51.3 267,49.7 280,48.1 C293,46.6 307,45.2 320,43.9 C333,42.5 347,41.3 360,40.2 C373,39.0 387,38.0 400,37.0 C413,36.1 427,35.2 440,34.5 C453,33.7 467,33.1 480,32.5 C493,31.9 507,31.4 520,31.1 C533,30.7 547,30.4 560,30.2 C573,30.0 587,29.9 600,29.9 C613,29.9 627,30.0 640,30.2 C653,30.4 667,30.7 680,31.1 C693,31.4 707,31.9 720,32.5 C733,33.1 747,33.7 760,34.5 C773,35.2 787,36.1 800,37.0 C813,38.0 827,39.0 840,40.2 C853,41.3 867,42.5 880,43.9 C893,45.2 907,46.6 920,48.1 C933,49.7 947,51.3 960,53.0 C973,54.7 987,56.5 1000,58.4 C1013,60.3 1027,62.3 1040,64.4 C1053,66.5 1067,68.7 1080,70.9 C1093,73.2 1107,75.6 1120,78.1 C1133,80.5 1147,83.1 1160,85.7 C1173,88.4 1193,92.6 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:#f4f9fa\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#f4f9fa",
+      "padding": "96px 0",
+      "width": "100%"
+     },
+     "blockId": "89bb6670e",
+     "blockName": "pricing-ledger",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtd-container)",
+        "paddingLeft": "var(--qtd-gutter)",
+        "paddingRight": "var(--qtd-gutter)",
+        "width": "100%"
+       },
+       "blockId": "4fac55f3f",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "marginBottom": "3rem"
+         },
+         "blockId": "27f7e0d9f",
+         "blockName": "head",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "baseline",
+            "borderBottom": "1px solid rgba(26, 26, 26, 0.12)",
+            "display": "flex",
+            "gap": "2rem",
+            "justifyContent": "space-between",
+            "padding": "1.25rem 0"
+           },
+           "blockId": "44909cc40",
+           "blockName": "row",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "column"
+             },
+             "blockId": "14086e8ab",
+             "blockName": "item-copy",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtd-text)",
+                "fontFamily": "var(--qtd-font-heading)",
+                "fontSize": "1.375rem",
+                "fontWeight": "700",
+                "margin": "0 0 0.3rem"
+               },
+               "blockId": "f8f136c2c",
+               "blockName": "item-name",
+               "element": "h3",
+               "innerHTML": "Soins conservateurs",
+               "mobileStyles": {
+                "overflowWrap": "break-word"
+               }
+              },
+              {
+               "baseStyles": {
+                "color": "rgba(26, 26, 26, 0.72)",
+                "fontFamily": "var(--qtd-font-body)",
+                "fontSize": "1rem",
+                "lineHeight": "1.6",
+                "margin": "0",
+                "maxWidth": "36rem"
+               },
+               "blockId": "1f4e55227",
+               "blockName": "item-text",
+               "element": "p",
+               "innerHTML": "Prévention et traitement des caries, pour préserver la dent au maximum."
+              }
+             ],
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "0.875rem",
+              "fontWeight": "600",
+              "whiteSpace": "nowrap"
+             },
+             "blockId": "73303c531",
+             "blockName": "price",
+             "element": "span",
+             "innerHTML": "Devis écrit"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "gap": "0.4rem"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "baseline",
+            "borderBottom": "1px solid rgba(26, 26, 26, 0.12)",
+            "display": "flex",
+            "gap": "2rem",
+            "justifyContent": "space-between",
+            "padding": "1.25rem 0"
+           },
+           "blockId": "41c8fc084",
+           "blockName": "row",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "column"
+             },
+             "blockId": "764f6c76a",
+             "blockName": "item-copy",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtd-text)",
+                "fontFamily": "var(--qtd-font-heading)",
+                "fontSize": "1.375rem",
+                "fontWeight": "700",
+                "margin": "0 0 0.3rem"
+               },
+               "blockId": "3f30fba91",
+               "blockName": "item-name",
+               "element": "h3",
+               "innerHTML": "Prophylaxie et détartrage",
+               "mobileStyles": {
+                "overflowWrap": "break-word"
+               }
+              },
+              {
+               "baseStyles": {
+                "color": "rgba(26, 26, 26, 0.72)",
+                "fontFamily": "var(--qtd-font-body)",
+                "fontSize": "1rem",
+                "lineHeight": "1.6",
+                "margin": "0",
+                "maxWidth": "36rem"
+               },
+               "blockId": "ba05c7f9d",
+               "blockName": "item-text",
+               "element": "p",
+               "innerHTML": "Nettoyage en profondeur, élimination du tartre et polissage des surfaces dentaires."
+              }
+             ],
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "0.875rem",
+              "fontWeight": "600",
+              "whiteSpace": "nowrap"
+             },
+             "blockId": "a979041ee",
+             "blockName": "price",
+             "element": "span",
+             "innerHTML": "Devis écrit"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "gap": "0.4rem"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "baseline",
+            "borderBottom": "1px solid rgba(26, 26, 26, 0.12)",
+            "display": "flex",
+            "gap": "2rem",
+            "justifyContent": "space-between",
+            "padding": "1.25rem 0"
+           },
+           "blockId": "5ec777262",
+           "blockName": "row",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "column"
+             },
+             "blockId": "ad6773c8d",
+             "blockName": "item-copy",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtd-text)",
+                "fontFamily": "var(--qtd-font-heading)",
+                "fontSize": "1.375rem",
+                "fontWeight": "700",
+                "margin": "0 0 0.3rem"
+               },
+               "blockId": "19ecf503a",
+               "blockName": "item-name",
+               "element": "h3",
+               "innerHTML": "Orthodontie",
+               "mobileStyles": {
+                "overflowWrap": "break-word"
+               }
+              },
+              {
+               "baseStyles": {
+                "color": "rgba(26, 26, 26, 0.72)",
+                "fontFamily": "var(--qtd-font-body)",
+                "fontSize": "1rem",
+                "lineHeight": "1.6",
+                "margin": "0",
+                "maxWidth": "36rem"
+               },
+               "blockId": "bd6cb5b0f",
+               "blockName": "item-text",
+               "element": "p",
+               "innerHTML": "Alignement et correction du positionnement des dents, à tout âge."
+              }
+             ],
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "0.875rem",
+              "fontWeight": "600",
+              "whiteSpace": "nowrap"
+             },
+             "blockId": "fdcc3d08a",
+             "blockName": "price",
+             "element": "span",
+             "innerHTML": "Devis écrit"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "gap": "0.4rem"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "baseline",
+            "borderBottom": "1px solid rgba(26, 26, 26, 0.12)",
+            "display": "flex",
+            "gap": "2rem",
+            "justifyContent": "space-between",
+            "padding": "1.25rem 0"
+           },
+           "blockId": "1603bf228",
+           "blockName": "row",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "column"
+             },
+             "blockId": "35f52034e",
+             "blockName": "item-copy",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtd-text)",
+                "fontFamily": "var(--qtd-font-heading)",
+                "fontSize": "1.375rem",
+                "fontWeight": "700",
+                "margin": "0 0 0.3rem"
+               },
+               "blockId": "60e55e9e3",
+               "blockName": "item-name",
+               "element": "h3",
+               "innerHTML": "Blanchiment",
+               "mobileStyles": {
+                "overflowWrap": "break-word"
+               }
+              },
+              {
+               "baseStyles": {
+                "color": "rgba(26, 26, 26, 0.72)",
+                "fontFamily": "var(--qtd-font-body)",
+                "fontSize": "1rem",
+                "lineHeight": "1.6",
+                "margin": "0",
+                "maxWidth": "36rem"
+               },
+               "blockId": "e150271a6",
+               "blockName": "item-text",
+               "element": "p",
+               "innerHTML": "Éclaircissement des dents, avec un résultat doux et durable."
+              }
+             ],
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "0.875rem",
+              "fontWeight": "600",
+              "whiteSpace": "nowrap"
+             },
+             "blockId": "0f499da31",
+             "blockName": "price",
+             "element": "span",
+             "innerHTML": "Devis écrit"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "gap": "0.4rem"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "baseline",
+            "borderBottom": "1px solid rgba(26, 26, 26, 0.12)",
+            "display": "flex",
+            "gap": "2rem",
+            "justifyContent": "space-between",
+            "padding": "1.25rem 0"
+           },
+           "blockId": "a21fab4c2",
+           "blockName": "row",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flexDirection": "column"
+             },
+             "blockId": "d0a76c5d4",
+             "blockName": "item-copy",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtd-text)",
+                "fontFamily": "var(--qtd-font-heading)",
+                "fontSize": "1.375rem",
+                "fontWeight": "700",
+                "margin": "0 0 0.3rem"
+               },
+               "blockId": "f885ad7b6",
+               "blockName": "item-name",
+               "element": "h3",
+               "innerHTML": "Urgences dentaires",
+               "mobileStyles": {
+                "overflowWrap": "break-word"
+               }
+              },
+              {
+               "baseStyles": {
+                "color": "rgba(26, 26, 26, 0.72)",
+                "fontFamily": "var(--qtd-font-body)",
+                "fontSize": "1rem",
+                "lineHeight": "1.6",
+                "margin": "0",
+                "maxWidth": "36rem"
+               },
+               "blockId": "fa14c9457",
+               "blockName": "item-text",
+               "element": "p",
+               "innerHTML": "Prise en charge le jour même, pour les douleurs soudaines."
+              }
+             ],
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "0.875rem",
+              "fontWeight": "600",
+              "whiteSpace": "nowrap"
+             },
+             "blockId": "659a1af36",
+             "blockName": "price",
+             "element": "span",
+             "innerHTML": "Devis écrit"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "alignItems": "flex-start",
+            "flexDirection": "column",
+            "gap": "0.4rem"
+           }
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "padding": "1.25rem 1.5rem"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtd-gutter-phone)",
+        "paddingRight": "var(--qtd-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "64px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#f4f9fa",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "c2e8419dbb",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,63.3 C7,62.1 27,58.3 40,55.9 C53,53.5 67,51.2 80,49.0 C93,46.8 107,44.7 120,42.7 C133,40.6 147,38.7 160,36.8 C173,34.9 187,33.2 200,31.5 C213,29.8 227,28.2 240,26.6 C253,25.1 267,23.7 280,22.3 C293,20.9 307,19.7 320,18.5 C333,17.3 347,16.2 360,15.2 C373,14.1 387,13.2 400,12.4 C413,11.5 427,10.8 440,10.1 C453,9.4 467,8.8 480,8.3 C493,7.8 507,7.4 520,7.0 C533,6.7 547,6.4 560,6.3 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.3 C653,6.4 667,6.7 680,7.0 C693,7.4 707,7.8 720,8.3 C733,8.8 747,9.4 760,10.1 C773,10.8 787,11.5 800,12.4 C813,13.2 827,14.1 840,15.2 C853,16.2 867,17.3 880,18.5 C893,19.7 907,20.9 920,22.3 C933,23.7 947,25.1 960,26.6 C973,28.2 987,29.8 1000,31.5 C1013,33.2 1027,34.9 1040,36.8 C1053,38.7 1067,40.6 1080,42.7 C1093,44.7 1107,46.8 1120,49.0 C1133,51.2 1147,53.5 1160,55.9 C1173,58.3 1193,62.1 1200,63.3 L1200,106 L0,106 Z\" style=\"fill:#ffffff\" fill-opacity=\"0.28\"/><path d=\"M0,79.3 C7,78.1 27,74.3 40,71.9 C53,69.5 67,67.2 80,65.0 C93,62.8 107,60.7 120,58.7 C133,56.6 147,54.7 160,52.8 C173,50.9 187,49.2 200,47.5 C213,45.8 227,44.2 240,42.6 C253,41.1 267,39.7 280,38.3 C293,36.9 307,35.7 320,34.5 C333,33.3 347,32.2 360,31.2 C373,30.1 387,29.2 400,28.4 C413,27.5 427,26.8 440,26.1 C453,25.4 467,24.8 480,24.3 C493,23.8 507,23.4 520,23.0 C533,22.7 547,22.4 560,22.3 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.3 C653,22.4 667,22.7 680,23.0 C693,23.4 707,23.8 720,24.3 C733,24.8 747,25.4 760,26.1 C773,26.8 787,27.5 800,28.4 C813,29.2 827,30.1 840,31.2 C853,32.2 867,33.3 880,34.5 C893,35.7 907,36.9 920,38.3 C933,39.7 947,41.1 960,42.6 C973,44.2 987,45.8 1000,47.5 C1013,49.2 1027,50.9 1040,52.8 C1053,54.7 1067,56.6 1080,58.7 C1093,60.7 1107,62.8 1120,65.0 C1133,67.2 1147,69.5 1160,71.9 C1173,74.3 1193,78.1 1200,79.3 L1200,106 L0,106 Z\" style=\"fill:#ffffff\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#ffffff",
+      "padding": "96px 0",
+      "width": "100%"
+     },
+     "blockId": "2bb8a76df",
+     "blockName": "faq-centred",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtd-container)",
+        "paddingLeft": "var(--qtd-gutter)",
+        "paddingRight": "var(--qtd-gutter)",
+        "width": "100%"
+       },
+       "blockId": "d1ee4b848",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "24010bd41",
+         "blockName": "head",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtd-secondary)",
+            "height": "2px",
+            "marginBottom": "12px",
+            "width": "48px"
+           },
+           "blockId": "1e026b806",
+           "blockName": "amber-rule",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtd-text)",
+            "fontFamily": "var(--qtd-font-heading)",
+            "fontSize": "2.75rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "34rem",
+            "textAlign": "center"
+           },
+           "blockId": "c38d038f4",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Questions <em style=\"font-style: italic; color: var(--qtd-primary)\">fréquentes</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "1.0625rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 3rem",
+            "maxWidth": "36rem",
+            "textAlign": "center"
+           },
+           "blockId": "3af3589b5",
+           "blockName": "lead",
+           "element": "p",
+           "innerHTML": "Les réponses aux questions que l’on nous pose le plus souvent, au sujet des soins et du déroulement de votre visite."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "margin": "0 auto",
+          "maxWidth": "28.8rem",
+          "width": "100%"
+         },
+         "blockId": "8ac4ffcd8",
+         "blockName": "faq",
+         "children": [
+          {
+           "blockId": "5f031e2ae",
+           "blockName": "question",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "cursor": "pointer",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.25rem",
+              "fontWeight": "700"
+             },
+             "blockId": "8d9d8086c",
+             "blockName": "question-text",
+             "element": "summary",
+             "innerHTML": "Qu’est-ce qu’un devis écrit ?"
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0.75rem 0 0"
+             },
+             "blockId": "63c9a9ad1",
+             "blockName": "answer",
+             "element": "p",
+             "innerHTML": "Avant chaque traitement, nous vous remettons un document qui détaille la nature du soin, les étapes prévues et le montant total. Vous lisez, vous comprenez, et vous décidez en toute connaissance de cause."
+            }
+           ],
+           "element": "details"
+          },
+          {
+           "blockId": "37a25f8e4",
+           "blockName": "question",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "cursor": "pointer",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.25rem",
+              "fontWeight": "700"
+             },
+             "blockId": "6fcb08867",
+             "blockName": "question-text",
+             "element": "summary",
+             "innerHTML": "Pouvez-vous voir un patient en urgence le jour même ?"
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0.75rem 0 0"
+             },
+             "blockId": "4ef611992",
+             "blockName": "answer",
+             "element": "p",
+             "innerHTML": "Oui. Nous réservons des créneaux chaque jour pour les douleurs soudaines. Écrivez-nous dès que possible afin que nous puissions planifier votre venue dans la journée."
+            }
+           ],
+           "element": "details"
+          },
+          {
+           "blockId": "3cc613c12",
+           "blockName": "question",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "cursor": "pointer",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.25rem",
+              "fontWeight": "700"
+             },
+             "blockId": "83a4f1db6",
+             "blockName": "question-text",
+             "element": "summary",
+             "innerHTML": "Quel est le principe de la radiographie à faible dose ?"
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0.75rem 0 0"
+             },
+             "blockId": "fa53ff744",
+             "blockName": "answer",
+             "element": "p",
+             "innerHTML": "Notre équipement émet la plus faible dose possible, strictement nécessaire à la lecture de l’image. C’est un principe de précaution, pour votre santé, à chaque contrôle."
+            }
+           ],
+           "element": "details"
+          },
+          {
+           "blockId": "60be4576d",
+           "blockName": "question",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "cursor": "pointer",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.25rem",
+              "fontWeight": "700"
+             },
+             "blockId": "67caa7682",
+             "blockName": "question-text",
+             "element": "summary",
+             "innerHTML": "Comment se passe la première visite ?"
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0.75rem 0 0"
+             },
+             "blockId": "f400c84bb",
+             "blockName": "answer",
+             "element": "p",
+             "innerHTML": "Nous prenons le temps de comprendre votre situation, de répondre à vos questions, puis nous vous remettons un devis écrit. Vous repartez avec un plan clair, sans engagement."
+            }
+           ],
+           "element": "details"
+          }
+         ],
+         "classes": [
+          "u-faq"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtd-gutter-phone)",
+        "paddingRight": "var(--qtd-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "64px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#ffffff",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "0bec171194",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.8 27,73.2 40,70.9 C53,68.7 67,66.5 80,64.3 C93,62.2 107,60.2 120,58.3 C133,56.3 147,54.4 160,52.6 C173,50.9 187,49.2 200,47.5 C213,45.9 227,44.4 240,42.9 C253,41.4 267,40.1 280,38.8 C293,37.5 307,36.2 320,35.1 C333,34.0 347,32.9 360,31.9 C373,31.0 387,30.1 400,29.2 C413,28.4 427,27.7 440,27.1 C453,26.4 467,25.8 480,25.3 C493,24.9 507,24.5 520,24.1 C533,23.8 547,23.6 560,23.4 C573,23.2 587,23.2 600,23.2 C613,23.2 627,23.2 640,23.4 C653,23.6 667,23.8 680,24.1 C693,24.5 707,24.9 720,25.3 C733,25.8 747,26.4 760,27.1 C773,27.7 787,28.4 800,29.2 C813,30.1 827,31.0 840,31.9 C853,32.9 867,34.0 880,35.1 C893,36.2 907,37.5 920,38.8 C933,40.1 947,41.4 960,42.9 C973,44.4 987,45.9 1000,47.5 C1013,49.2 1027,50.9 1040,52.6 C1053,54.4 1067,56.3 1080,58.3 C1093,60.2 1107,62.2 1120,64.3 C1133,66.5 1147,68.7 1160,70.9 C1173,73.2 1193,76.8 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtd-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.8 27,89.2 40,86.9 C53,84.7 67,82.5 80,80.3 C93,78.2 107,76.2 120,74.3 C133,72.3 147,70.4 160,68.6 C173,66.9 187,65.2 200,63.5 C213,61.9 227,60.4 240,58.9 C253,57.4 267,56.1 280,54.8 C293,53.5 307,52.2 320,51.1 C333,50.0 347,48.9 360,47.9 C373,47.0 387,46.1 400,45.2 C413,44.4 427,43.7 440,43.1 C453,42.4 467,41.8 480,41.3 C493,40.9 507,40.5 520,40.1 C533,39.8 547,39.6 560,39.4 C573,39.2 587,39.2 600,39.2 C613,39.2 627,39.2 640,39.4 C653,39.6 667,39.8 680,40.1 C693,40.5 707,40.9 720,41.3 C733,41.8 747,42.4 760,43.1 C773,43.7 787,44.4 800,45.2 C813,46.1 827,47.0 840,47.9 C853,48.9 867,50.0 880,51.1 C893,52.2 907,53.5 920,54.8 C933,56.1 947,57.4 960,58.9 C973,60.4 987,61.9 1000,63.5 C1013,65.2 1027,66.9 1040,68.6 C1053,70.4 1067,72.3 1080,74.3 C1093,76.2 1107,78.2 1120,80.3 C1133,82.5 1147,84.7 1160,86.9 C1173,89.2 1193,92.8 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtd-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "var(--qtd-primary)",
+      "display": "flex",
+      "minHeight": "100px",
+      "padding": "0 0",
+      "width": "100%"
+     },
+     "blockId": "1c8791deb",
+     "blockName": "cta-band",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtd-container)",
+        "padding": "3rem 0",
+        "paddingLeft": "var(--qtd-gutter)",
+        "paddingRight": "var(--qtd-gutter)",
+        "width": "100%"
+       },
+       "blockId": "9429d0b93",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "015555afc",
+         "blockName": "closing",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtd-background)",
+            "fontFamily": "var(--qtd-font-heading)",
+            "fontSize": "2.25rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 0.75rem",
+            "maxWidth": "40rem",
+            "textAlign": "center"
+           },
+           "blockId": "b8f2a52c8",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Prenez <em style=\"font-style: italic; color: var(--qtd-secondary)\">rendez-vous</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(255, 255, 255, 0.8)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "1.0625rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 1.5rem",
+            "maxWidth": "32rem",
+            "textAlign": "center"
+           },
+           "blockId": "0db9fb597",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Choisissez votre créneau en ligne, en quelques minutes."
+          },
+          {
+           "attributes": {
+            "href": "prendre_rendez_vous"
+           },
+           "baseStyles": {
+            "backgroundColor": "#ffffff",
+            "borderRadius": "100px",
+            "color": "var(--qtd-primary)",
+            "display": "inline-block",
+            "fontSize": "1rem",
+            "fontWeight": "600",
+            "lineHeight": "1",
+            "padding": "14px 32px",
+            "textAlign": "center",
+            "transition": "all 0.2s ease"
+           },
+           "blockId": "b33f8e10d",
+           "blockName": "button",
+           "classes": [
+            "u-btn",
+            "u-btn--secondary"
+           ],
+           "element": "a",
+           "innerHTML": "Contactez-nous",
+           "mobileStyles": {
+            "textAlign": "center",
+            "width": "100%"
+           }
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "padding": "2.5rem 0",
+        "paddingLeft": "var(--qtd-gutter-phone)",
+        "paddingRight": "var(--qtd-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section"
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-primary)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "1840c84d21",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.7 27,72.7 40,70.2 C53,67.7 67,65.3 80,63.0 C93,60.6 107,58.4 120,56.3 C133,54.1 147,52.1 160,50.1 C173,48.1 187,46.2 200,44.5 C213,42.7 227,41.0 240,39.4 C253,37.7 267,36.2 280,34.8 C293,33.4 307,32.0 320,30.8 C333,29.5 347,28.4 360,27.3 C373,26.2 387,25.2 400,24.3 C413,23.4 427,22.6 440,21.9 C453,21.2 467,20.6 480,20.0 C493,19.5 507,19.0 520,18.7 C533,18.3 547,18.1 560,17.9 C573,17.7 587,17.6 600,17.6 C613,17.6 627,17.7 640,17.9 C653,18.1 667,18.3 680,18.7 C693,19.0 707,19.5 720,20.0 C733,20.6 747,21.2 760,21.9 C773,22.6 787,23.4 800,24.3 C813,25.2 827,26.2 840,27.3 C853,28.4 867,29.5 880,30.8 C893,32.0 907,33.4 920,34.8 C933,36.2 947,37.7 960,39.4 C973,41.0 987,42.7 1000,44.5 C1013,46.2 1027,48.1 1040,50.1 C1053,52.1 1067,54.1 1080,56.3 C1093,58.4 1107,60.6 1120,63.0 C1133,65.3 1147,67.7 1160,70.2 C1173,72.7 1193,76.7 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:#16343b\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.7 27,88.7 40,86.2 C53,83.7 67,81.3 80,79.0 C93,76.6 107,74.4 120,72.3 C133,70.1 147,68.1 160,66.1 C173,64.1 187,62.2 200,60.5 C213,58.7 227,57.0 240,55.4 C253,53.7 267,52.2 280,50.8 C293,49.4 307,48.0 320,46.8 C333,45.5 347,44.4 360,43.3 C373,42.2 387,41.2 400,40.3 C413,39.4 427,38.6 440,37.9 C453,37.2 467,36.6 480,36.0 C493,35.5 507,35.0 520,34.7 C533,34.3 547,34.1 560,33.9 C573,33.7 587,33.6 600,33.6 C613,33.6 627,33.7 640,33.9 C653,34.1 667,34.3 680,34.7 C693,35.0 707,35.5 720,36.0 C733,36.6 747,37.2 760,37.9 C773,38.6 787,39.4 800,40.3 C813,41.2 827,42.2 840,43.3 C853,44.4 867,45.5 880,46.8 C893,48.0 907,49.4 920,50.8 C933,52.2 947,53.7 960,55.4 C973,57.0 987,58.7 1000,60.5 C1013,62.2 1027,64.1 1040,66.1 C1053,68.1 1067,70.1 1080,72.3 C1093,74.4 1107,76.6 1120,79.0 C1133,81.3 1147,83.7 1160,86.2 C1173,88.7 1193,92.7 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:#16343b\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-10-31 17:58:08.521947",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Chaque soin que nous proposons est accompagné d’un devis écrit, remis avant le début du traitement.",
+ "modified": "2026-10-31 17:58:08.524149",
+ "modified_by": "Administrator",
+ "name": "page-7fef8cfc",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-7fef8cfc",
+ "page_title": "Soins et tarifs",
+ "preview": "/builder_assets/cabinet_dentaire/page-7fef8cfc/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/cabinet_dentaire/soins_et_tarifs",
+ "staging": 0,
+ "template_group": "cabinet_dentaire"
+}

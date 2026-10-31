@@ -1,0 +1,27 @@
+{
+ "description": "Une entreprise d'électricité et d'installations : accueil, prestations, demande de devis et présentation de l'entreprise. Textes d'exemple à remplacer par les vôtres.",
+ "header_footer": {
+  "background_color": "#ffffff",
+  "body_font": "Source Sans 3",
+  "heading_font": "Outfit",
+  "primary_color": "#264653",
+  "secondary_color": "#e9a23b",
+  "text_color": "#1a1a1a"
+ },
+ "pages": [
+  {
+   "name": "page-0238400c"
+  },
+  {
+   "name": "page-5736e144"
+  },
+  {
+   "name": "page-8b8a6d0a"
+  },
+  {
+   "name": "page-56a2fd8e"
+  }
+ ],
+ "source": "hub_publish",
+ "title": "Électricien : installations et dépannage"
+}

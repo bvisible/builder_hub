@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "cabinet_dentaire",
+ "name": "qtd-font-body",
+ "token_name": "Cabinet dentaire font body",
+ "type": "Font",
+ "value": "Manrope"
+}

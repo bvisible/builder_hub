@@ -1,0 +1,1379 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "#fdfbf7",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "calc(-1 * clamp(24px, 5.5vw, 80px))",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "5566625d82",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g transform=\"matrix(1 0 0 -1 0 100)\"><path d=\"M0,65.0 C7,63.8 27,59.9 40,57.4 C53,55.0 67,52.6 80,50.3 C93,48.1 107,45.9 120,43.8 C133,41.7 147,39.7 160,37.7 C173,35.8 187,34.0 200,32.2 C213,30.5 227,28.8 240,27.3 C253,25.7 267,24.2 280,22.8 C293,21.4 307,20.1 320,18.9 C333,17.6 347,16.5 360,15.4 C373,14.4 387,13.4 400,12.6 C413,11.7 427,10.9 440,10.2 C453,9.5 467,8.9 480,8.4 C493,7.8 507,7.4 520,7.0 C533,6.7 547,6.4 560,6.3 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.3 C653,6.4 667,6.7 680,7.0 C693,7.4 707,7.8 720,8.4 C733,8.9 747,9.5 760,10.2 C773,10.9 787,11.7 800,12.6 C813,13.4 827,14.4 840,15.4 C853,16.5 867,17.6 880,18.9 C893,20.1 907,21.4 920,22.8 C933,24.2 947,25.7 960,27.3 C973,28.8 987,30.5 1000,32.2 C1013,34.0 1027,35.8 1040,37.7 C1053,39.7 1067,41.7 1080,43.8 C1093,45.9 1107,48.1 1120,50.3 C1133,52.6 1147,55.0 1160,57.4 C1173,59.9 1193,63.8 1200,65.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtc-background)\" fill-opacity=\"0.28\"/><path d=\"M0,81.0 C7,79.8 27,75.9 40,73.4 C53,71.0 67,68.6 80,66.3 C93,64.1 107,61.9 120,59.8 C133,57.7 147,55.7 160,53.7 C173,51.8 187,50.0 200,48.2 C213,46.5 227,44.8 240,43.3 C253,41.7 267,40.2 280,38.8 C293,37.4 307,36.1 320,34.9 C333,33.6 347,32.5 360,31.4 C373,30.4 387,29.4 400,28.6 C413,27.7 427,26.9 440,26.2 C453,25.5 467,24.9 480,24.4 C493,23.8 507,23.4 520,23.0 C533,22.7 547,22.4 560,22.3 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.3 C653,22.4 667,22.7 680,23.0 C693,23.4 707,23.8 720,24.4 C733,24.9 747,25.5 760,26.2 C773,26.9 787,27.7 800,28.6 C813,29.4 827,30.4 840,31.4 C853,32.5 867,33.6 880,34.9 C893,36.1 907,37.4 920,38.8 C933,40.2 947,41.7 960,43.3 C973,44.8 987,46.5 1000,48.2 C1013,50.0 1027,51.8 1040,53.7 C1053,55.7 1067,57.7 1080,59.8 C1093,61.9 1107,64.1 1120,66.3 C1133,68.6 1147,71.0 1160,73.4 C1173,75.9 1193,79.8 1200,81.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtc-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#fdfbf7",
+      "paddingBottom": "calc(8rem + clamp(24px, 5.5vw, 80px))",
+      "paddingLeft": "0",
+      "paddingRight": "0",
+      "paddingTop": "calc(8rem + clamp(24px, 5.5vw, 80px))",
+      "width": "100%"
+     },
+     "blockId": "dffefb648",
+     "blockName": "statement",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtc-container)",
+        "paddingLeft": "var(--qtc-gutter)",
+        "paddingRight": "var(--qtc-gutter)",
+        "width": "100%"
+       },
+       "blockId": "2a5893c87",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "grid",
+          "gap": "5rem",
+          "gridTemplateColumns": "minmax(0, 7fr) minmax(0, 5fr)"
+         },
+         "blockId": "0b8553321",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "688cbc955",
+           "blockName": "statement-copy",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtc-text)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.3em",
+              "margin": "0",
+              "textTransform": "uppercase"
+             },
+             "blockId": "b8eb4977d",
+             "blockName": "eyebrow",
+             "element": "span",
+             "innerHTML": "Notre philosophie"
+            },
+            {
+             "baseStyles": {
+              "backgroundColor": "var(--qtc-secondary)",
+              "border": "none",
+              "height": "1px",
+              "margin": "0.85rem 0 1.5rem",
+              "width": "40px"
+             },
+             "blockId": "cf4ad47a4",
+             "blockName": "rule",
+             "element": "hr"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtc-primary)",
+              "fontFamily": "var(--qtc-font-heading)",
+              "fontSize": "3rem",
+              "fontWeight": "700",
+              "lineHeight": "1.15",
+              "margin": "0 0 1.25rem",
+              "maxWidth": "36rem"
+             },
+             "blockId": "8531a4fbd",
+             "blockName": "heading",
+             "element": "h2",
+             "innerHTML": "Des soins pensés pour la douceur, au <em style=\"font-style: italic; color: var(--qtc-secondary)\">juste prix</em>.",
+             "mobileStyles": {
+              "fontSize": "2rem",
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.6)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "1.2rem",
+              "lineHeight": "1.7",
+              "margin": "0",
+              "maxWidth": "45ch"
+             },
+             "blockId": "c207b72ca",
+             "blockName": "text",
+             "element": "p",
+             "innerHTML": "Découvrez nos prestations pour femmes, hommes et enfants, ainsi que nos soins coloration et beauté, dans un cadre apaisant."
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "aspectRatio": "4/5",
+            "overflow": "hidden",
+            "position": "relative"
+           },
+           "blockId": "0ad2e9475",
+           "blockName": "statement-media",
+           "children": [
+            {
+             "attributes": {
+              "alt": "Un coiffeur au travail dans un salon lumineux, une chevelure en cours de mise en forme",
+              "src": "/builder_assets/salon_de_coiffure/page-9f40d6aa/hubpub-salon_de_coiffure-gen_e6eaa77a.png"
+             },
+             "baseStyles": {
+              "display": "block",
+              "height": "100%",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "d61a663d5",
+             "element": "img"
+            },
+            {
+             "baseStyles": {
+              "backgroundImage": "radial-gradient(ellipse at center, transparent 52%, rgba(26, 26, 26, 0.16) 100%)",
+              "inset": "0",
+              "position": "absolute"
+             },
+             "blockId": "ea99c1ef0",
+             "element": "div"
+            }
+           ],
+           "classes": [
+            "u-media"
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "2.5rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         },
+         "tabletStyles": {
+          "gap": "3rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtc-gutter-phone)",
+        "paddingRight": "var(--qtc-gutter-phone)"
+       }
+      }
+     ],
+     "classes": [
+      "nora-divider-roomBottom",
+      "nora-divider-roomTop"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "paddingBottom": "calc(5rem + clamp(24px, 5.5vw, 80px))",
+      "paddingLeft": "0",
+      "paddingRight": "0",
+      "paddingTop": "calc(5rem + clamp(24px, 5.5vw, 80px))"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "calc(-1 * clamp(24px, 5.5vw, 80px))",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "58f5f01dcc",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.5 27,71.8 40,68.9 C53,66.0 67,63.1 80,60.4 C93,57.7 107,55.1 120,52.6 C133,50.1 147,47.6 160,45.3 C173,43.0 187,40.8 200,38.8 C213,36.7 227,34.7 240,32.8 C253,30.9 267,29.1 280,27.5 C293,25.8 307,24.2 320,22.7 C333,21.3 347,19.9 360,18.7 C373,17.4 387,16.3 400,15.2 C413,14.2 427,13.2 440,12.4 C453,11.5 467,10.8 480,10.2 C493,9.6 507,9.0 520,8.6 C533,8.2 547,7.9 560,7.7 C573,7.5 587,7.4 600,7.4 C613,7.4 627,7.5 640,7.7 C653,7.9 667,8.2 680,8.6 C693,9.0 707,9.6 720,10.2 C733,10.8 747,11.5 760,12.4 C773,13.2 787,14.2 800,15.2 C813,16.3 827,17.4 840,18.7 C853,19.9 867,21.3 880,22.7 C893,24.2 907,25.8 920,27.5 C933,29.1 947,30.9 960,32.8 C973,34.7 987,36.7 1000,38.8 C1013,40.8 1027,43.0 1040,45.3 C1053,47.6 1067,50.1 1080,52.6 C1093,55.1 1107,57.7 1120,60.4 C1133,63.1 1147,66.0 1160,68.9 C1173,71.8 1193,76.5 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:#ffffff\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.5 27,87.8 40,84.9 C53,82.0 67,79.1 80,76.4 C93,73.7 107,71.1 120,68.6 C133,66.1 147,63.6 160,61.3 C173,59.0 187,56.8 200,54.8 C213,52.7 227,50.7 240,48.8 C253,46.9 267,45.1 280,43.5 C293,41.8 307,40.2 320,38.7 C333,37.3 347,35.9 360,34.7 C373,33.4 387,32.3 400,31.2 C413,30.2 427,29.2 440,28.4 C453,27.5 467,26.8 480,26.2 C493,25.6 507,25.0 520,24.6 C533,24.2 547,23.9 560,23.7 C573,23.5 587,23.4 600,23.4 C613,23.4 627,23.5 640,23.7 C653,23.9 667,24.2 680,24.6 C693,25.0 707,25.6 720,26.2 C733,26.8 747,27.5 760,28.4 C773,29.2 787,30.2 800,31.2 C813,32.3 827,33.4 840,34.7 C853,35.9 867,37.3 880,38.7 C893,40.2 907,41.8 920,43.5 C933,45.1 947,46.9 960,48.8 C973,50.7 987,52.7 1000,54.8 C1013,56.8 1027,59.0 1040,61.3 C1053,63.6 1067,66.1 1080,68.6 C1093,71.1 1107,73.7 1120,76.4 C1133,79.1 1147,82.0 1160,84.9 C1173,87.8 1193,92.5 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:#ffffff\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#ffffff",
+      "padding": "8rem 0",
+      "width": "100%"
+     },
+     "blockId": "94fa4c8bb",
+     "blockName": "pricing",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "800px",
+        "paddingLeft": "var(--qtc-gutter)",
+        "paddingRight": "var(--qtc-gutter)",
+        "width": "100%"
+       },
+       "blockId": "d0c0eb0a4",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "var(--qtc-text)",
+          "fontFamily": "var(--qtc-font-body)",
+          "fontSize": "0.75rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.3em",
+          "margin": "0",
+          "textTransform": "uppercase"
+         },
+         "blockId": "3f13c5c9e",
+         "blockName": "eyebrow",
+         "element": "span",
+         "innerHTML": "Nos prestations"
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtc-secondary)",
+          "border": "none",
+          "height": "1px",
+          "margin": "0.85rem 0 1.5rem",
+          "width": "40px"
+         },
+         "blockId": "ee094a9d2",
+         "blockName": "rule",
+         "element": "hr"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtc-text)",
+          "fontFamily": "var(--qtc-font-heading)",
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "lineHeight": "1.15",
+          "margin": "0 0 1.25rem",
+          "maxWidth": "34rem"
+         },
+         "blockId": "3c8d67f38",
+         "blockName": "heading",
+         "element": "h2",
+         "innerHTML": "Le détail de nos <em style=\"font-style: italic; color: var(--qtc-primary)\">soins</em>.",
+         "mobileStyles": {
+          "fontSize": "1.75rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(26, 26, 26, 0.6)",
+          "fontFamily": "var(--qtc-font-body)",
+          "fontSize": "1.0625rem",
+          "lineHeight": "1.7",
+          "margin": "0 0 3rem",
+          "maxWidth": "42ch"
+         },
+         "blockId": "c20a58be3",
+         "blockName": "lead",
+         "element": "p",
+         "innerHTML": "Chaque prestation est détaillée par famille, de la coupe au soin visage, avec un tarif qui s’adapte à votre demande."
+        },
+        {
+         "blockId": "80bb7c3da",
+         "blockName": "ledger",
+         "children": [
+          {
+           "blockId": "1e73d3629",
+           "blockName": "group",
+           "children": [
+            {
+             "baseStyles": {
+              "borderBottom": "1px solid rgba(26, 26, 26, 0.12)",
+              "color": "var(--qtc-primary)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 0.5rem",
+              "padding": "0 0 1rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "49a3c7009",
+             "blockName": "group-title",
+             "element": "h3",
+             "innerHTML": "Coupes",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "borderBottom": "1px solid #e0e0e0",
+              "display": "flex",
+              "gap": "1.5rem",
+              "justifyContent": "space-between",
+              "padding": "1.1rem 0"
+             },
+             "blockId": "fd3ae8a1f",
+             "blockName": "row",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem"
+               },
+               "blockId": "f9552e787",
+               "blockName": "item-name",
+               "element": "span",
+               "innerHTML": "Coupe femme"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtc-primary)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "f880b78ce",
+               "blockName": "price",
+               "element": "span",
+               "innerHTML": "Sur devis"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "0.35rem"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "borderBottom": "1px solid #e0e0e0",
+              "display": "flex",
+              "gap": "1.5rem",
+              "justifyContent": "space-between",
+              "padding": "1.1rem 0"
+             },
+             "blockId": "c2d0ec534",
+             "blockName": "row",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem"
+               },
+               "blockId": "2fd7d7461",
+               "blockName": "item-name",
+               "element": "span",
+               "innerHTML": "Coupe homme"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtc-primary)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "3a1e06303",
+               "blockName": "price",
+               "element": "span",
+               "innerHTML": "Sur devis"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "0.35rem"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "borderBottom": "1px solid #e0e0e0",
+              "display": "flex",
+              "gap": "1.5rem",
+              "justifyContent": "space-between",
+              "padding": "1.1rem 0"
+             },
+             "blockId": "ec94f0644",
+             "blockName": "row",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem"
+               },
+               "blockId": "e326f229b",
+               "blockName": "item-name",
+               "element": "span",
+               "innerHTML": "Coupe enfant"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtc-primary)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "9b2675242",
+               "blockName": "price",
+               "element": "span",
+               "innerHTML": "Sur devis"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "0.35rem"
+             }
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "marginTop": "2.5rem"
+           },
+           "blockId": "194b93187",
+           "blockName": "group",
+           "children": [
+            {
+             "baseStyles": {
+              "borderBottom": "1px solid rgba(26, 26, 26, 0.12)",
+              "color": "var(--qtc-primary)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 0.5rem",
+              "padding": "0 0 1rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "51fb45979",
+             "blockName": "group-title",
+             "element": "h3",
+             "innerHTML": "Colorations",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "borderBottom": "1px solid #e0e0e0",
+              "display": "flex",
+              "gap": "1.5rem",
+              "justifyContent": "space-between",
+              "padding": "1.1rem 0"
+             },
+             "blockId": "5d9d3054a",
+             "blockName": "row",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem"
+               },
+               "blockId": "8ad9fdd78",
+               "blockName": "item-name",
+               "element": "span",
+               "innerHTML": "Coloration sans ammoniaque"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtc-primary)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "a73e94d11",
+               "blockName": "price",
+               "element": "span",
+               "innerHTML": "Sur devis"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "0.35rem"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "borderBottom": "1px solid #e0e0e0",
+              "display": "flex",
+              "gap": "1.5rem",
+              "justifyContent": "space-between",
+              "padding": "1.1rem 0"
+             },
+             "blockId": "64efe7a3c",
+             "blockName": "row",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem"
+               },
+               "blockId": "9174ff825",
+               "blockName": "item-name",
+               "element": "span",
+               "innerHTML": "Balayage"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtc-primary)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "d69df7f0a",
+               "blockName": "price",
+               "element": "span",
+               "innerHTML": "Sur devis"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "0.35rem"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "borderBottom": "1px solid #e0e0e0",
+              "display": "flex",
+              "gap": "1.5rem",
+              "justifyContent": "space-between",
+              "padding": "1.1rem 0"
+             },
+             "blockId": "73d727bf1",
+             "blockName": "row",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem"
+               },
+               "blockId": "1012e1a28",
+               "blockName": "item-name",
+               "element": "span",
+               "innerHTML": "Mèches"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtc-primary)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "c3626804b",
+               "blockName": "price",
+               "element": "span",
+               "innerHTML": "Sur devis"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "0.35rem"
+             }
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "marginTop": "2.5rem"
+           },
+           "blockId": "7fce50b05",
+           "blockName": "group",
+           "children": [
+            {
+             "baseStyles": {
+              "borderBottom": "1px solid rgba(26, 26, 26, 0.12)",
+              "color": "var(--qtc-primary)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 0.5rem",
+              "padding": "0 0 1rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "6d5658c41",
+             "blockName": "group-title",
+             "element": "h3",
+             "innerHTML": "Soins",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "borderBottom": "1px solid #e0e0e0",
+              "display": "flex",
+              "gap": "1.5rem",
+              "justifyContent": "space-between",
+              "padding": "1.1rem 0"
+             },
+             "blockId": "057fecf58",
+             "blockName": "row",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem"
+               },
+               "blockId": "174b09ea7",
+               "blockName": "item-name",
+               "element": "span",
+               "innerHTML": "Soin capillaire"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtc-primary)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "4858d04a5",
+               "blockName": "price",
+               "element": "span",
+               "innerHTML": "Sur devis"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "0.35rem"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "borderBottom": "1px solid #e0e0e0",
+              "display": "flex",
+              "gap": "1.5rem",
+              "justifyContent": "space-between",
+              "padding": "1.1rem 0"
+             },
+             "blockId": "8de4cfeea",
+             "blockName": "row",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem"
+               },
+               "blockId": "b20901fb2",
+               "blockName": "item-name",
+               "element": "span",
+               "innerHTML": "Soin visage"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtc-primary)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "04952e996",
+               "blockName": "price",
+               "element": "span",
+               "innerHTML": "Sur devis"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "0.35rem"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "borderBottom": "1px solid #e0e0e0",
+              "display": "flex",
+              "gap": "1.5rem",
+              "justifyContent": "space-between",
+              "padding": "1.1rem 0"
+             },
+             "blockId": "77a37b6e0",
+             "blockName": "row",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem"
+               },
+               "blockId": "6614d0b2c",
+               "blockName": "item-name",
+               "element": "span",
+               "innerHTML": "Massage du cuir chevelu"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtc-primary)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "f06648982",
+               "blockName": "price",
+               "element": "span",
+               "innerHTML": "Sur devis"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "0.35rem"
+             }
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "marginTop": "2.5rem"
+           },
+           "blockId": "f8fcaa526",
+           "blockName": "group",
+           "children": [
+            {
+             "baseStyles": {
+              "borderBottom": "1px solid rgba(26, 26, 26, 0.12)",
+              "color": "var(--qtc-primary)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 0.5rem",
+              "padding": "0 0 1rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "42d082a87",
+             "blockName": "group-title",
+             "element": "h3",
+             "innerHTML": "Événements",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "borderBottom": "1px solid #e0e0e0",
+              "display": "flex",
+              "gap": "1.5rem",
+              "justifyContent": "space-between",
+              "padding": "1.1rem 0"
+             },
+             "blockId": "59866e2a2",
+             "blockName": "row",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem"
+               },
+               "blockId": "8f8528a83",
+               "blockName": "item-name",
+               "element": "span",
+               "innerHTML": "Coiffure mariage"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtc-primary)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "b2678bcaf",
+               "blockName": "price",
+               "element": "span",
+               "innerHTML": "Sur devis"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "0.35rem"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "borderBottom": "1px solid #e0e0e0",
+              "display": "flex",
+              "gap": "1.5rem",
+              "justifyContent": "space-between",
+              "padding": "1.1rem 0"
+             },
+             "blockId": "b63b4fae0",
+             "blockName": "row",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem"
+               },
+               "blockId": "44c6ff335",
+               "blockName": "item-name",
+               "element": "span",
+               "innerHTML": "Coiffure événement"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtc-primary)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "bcfe302e4",
+               "blockName": "price",
+               "element": "span",
+               "innerHTML": "Sur devis"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "alignItems": "flex-start",
+              "flexDirection": "column",
+              "gap": "0.35rem"
+             }
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(26, 26, 26, 0.5)",
+          "fontFamily": "var(--qtc-font-body)",
+          "fontSize": "0.95rem",
+          "lineHeight": "1.7",
+          "margin": "2rem 0 0",
+          "maxWidth": "48ch"
+         },
+         "blockId": "25d7dbc82",
+         "blockName": "note",
+         "element": "p",
+         "innerHTML": "Les tarifs sont communiqués lors de la consultation, adaptée à chaque demande. Pour un changement de coupe, une demi-heure de consultation vous est offerte."
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtc-gutter-phone)",
+        "paddingRight": "var(--qtc-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "5rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#ffffff",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "00dc955b3e",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.7 27,72.9 40,70.4 C53,68.0 67,65.6 80,63.4 C93,61.1 107,58.9 120,56.8 C133,54.7 147,52.7 160,50.8 C173,48.9 187,47.1 200,45.3 C213,43.6 227,41.9 240,40.4 C253,38.8 267,37.3 280,35.9 C293,34.5 307,33.2 320,32.0 C333,30.8 347,29.7 360,28.6 C373,27.6 387,26.6 400,25.7 C413,24.9 427,24.1 440,23.4 C453,22.7 467,22.1 480,21.6 C493,21.0 507,20.6 520,20.3 C533,19.9 547,19.6 560,19.5 C573,19.3 587,19.2 600,19.2 C613,19.2 627,19.3 640,19.5 C653,19.6 667,19.9 680,20.3 C693,20.6 707,21.0 720,21.6 C733,22.1 747,22.7 760,23.4 C773,24.1 787,24.9 800,25.7 C813,26.6 827,27.6 840,28.6 C853,29.7 867,30.8 880,32.0 C893,33.2 907,34.5 920,35.9 C933,37.3 947,38.8 960,40.4 C973,41.9 987,43.6 1000,45.3 C1013,47.1 1027,48.9 1040,50.8 C1053,52.7 1067,54.7 1080,56.8 C1093,58.9 1107,61.1 1120,63.4 C1133,65.6 1147,68.0 1160,70.4 C1173,72.9 1193,76.7 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:#fdfbf7\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.7 27,88.9 40,86.4 C53,84.0 67,81.6 80,79.4 C93,77.1 107,74.9 120,72.8 C133,70.7 147,68.7 160,66.8 C173,64.9 187,63.1 200,61.3 C213,59.6 227,57.9 240,56.4 C253,54.8 267,53.3 280,51.9 C293,50.5 307,49.2 320,48.0 C333,46.8 347,45.7 360,44.6 C373,43.6 387,42.6 400,41.7 C413,40.9 427,40.1 440,39.4 C453,38.7 467,38.1 480,37.6 C493,37.0 507,36.6 520,36.3 C533,35.9 547,35.6 560,35.5 C573,35.3 587,35.2 600,35.2 C613,35.2 627,35.3 640,35.5 C653,35.6 667,35.9 680,36.3 C693,36.6 707,37.0 720,37.6 C733,38.1 747,38.7 760,39.4 C773,40.1 787,40.9 800,41.7 C813,42.6 827,43.6 840,44.6 C853,45.7 867,46.8 880,48.0 C893,49.2 907,50.5 920,51.9 C933,53.3 947,54.8 960,56.4 C973,57.9 987,59.6 1000,61.3 C1013,63.1 1027,64.9 1040,66.8 C1053,68.7 1067,70.7 1080,72.8 C1093,74.9 1107,77.1 1120,79.4 C1133,81.6 1147,84.0 1160,86.4 C1173,88.9 1193,92.7 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:#fdfbf7\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#fdfbf7",
+      "padding": "8rem 0",
+      "width": "100%"
+     },
+     "blockId": "bcba8dbd4",
+     "blockName": "faq",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtc-container)",
+        "paddingLeft": "var(--qtc-gutter)",
+        "paddingRight": "var(--qtc-gutter)",
+        "width": "100%"
+       },
+       "blockId": "e4eedcea5",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "start",
+          "display": "grid",
+          "gap": "5rem",
+          "gridTemplateColumns": "minmax(0, 4fr) minmax(0, 8fr)"
+         },
+         "blockId": "ed40940b1",
+         "blockName": "pair",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "1e548c0b1",
+           "blockName": "head",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtc-text)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.3em",
+              "margin": "0",
+              "textTransform": "uppercase"
+             },
+             "blockId": "18fbf8428",
+             "blockName": "eyebrow",
+             "element": "span",
+             "innerHTML": "Questions fréquentes"
+            },
+            {
+             "baseStyles": {
+              "backgroundColor": "var(--qtc-secondary)",
+              "border": "none",
+              "height": "1px",
+              "margin": "0.85rem 0 1.5rem",
+              "width": "40px"
+             },
+             "blockId": "e5c89a042",
+             "blockName": "rule",
+             "element": "hr"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtc-text)",
+              "fontFamily": "var(--qtc-font-heading)",
+              "fontSize": "2.75rem",
+              "fontWeight": "700",
+              "lineHeight": "1.15",
+              "margin": "0 0 1.25rem",
+              "maxWidth": "24rem"
+             },
+             "blockId": "cbd28e270",
+             "blockName": "heading",
+             "element": "h2",
+             "innerHTML": "Ce que vous devez <em style=\"font-style: italic; color: var(--qtc-primary)\">savoir</em>.",
+             "mobileStyles": {
+              "fontSize": "1.75rem",
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.6)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0",
+              "maxWidth": "24rem"
+             },
+             "blockId": "3e72219ed",
+             "blockName": "lead",
+             "element": "p",
+             "innerHTML": "Colorations, produits, consultation, horaires, les réponses aux questions que vous vous posez le plus souvent, et la façon de nous joindre pour le reste."
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "blockId": "348407350",
+           "blockName": "faq",
+           "children": [
+            {
+             "blockId": "d2c70326a",
+             "blockName": "question",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "fontWeight": "500"
+               },
+               "blockId": "2e18400d8",
+               "blockName": "question-text",
+               "element": "summary",
+               "innerHTML": "Les colorations sont-elles vraiment sans ammoniaque ?"
+              },
+              {
+               "baseStyles": {
+                "color": "rgba(26, 26, 26, 0.6)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "lineHeight": "1.7",
+                "margin": "0.75rem 0 0",
+                "maxWidth": "44rem"
+               },
+               "blockId": "f61303e7f",
+               "blockName": "answer",
+               "element": "p",
+               "innerHTML": "Oui, toutes nos colorations utilisent des formules sans ammoniaque, plus douces pour la fibre capillaire."
+              }
+             ],
+             "element": "details"
+            },
+            {
+             "blockId": "9faf6c5e3",
+             "blockName": "question",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "fontWeight": "500"
+               },
+               "blockId": "76ad66e4f",
+               "blockName": "question-text",
+               "element": "summary",
+               "innerHTML": "Les produits sont-ils vegan ?"
+              },
+              {
+               "baseStyles": {
+                "color": "rgba(26, 26, 26, 0.6)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "lineHeight": "1.7",
+                "margin": "0.75rem 0 0",
+                "maxWidth": "44rem"
+               },
+               "blockId": "3b52d0625",
+               "blockName": "answer",
+               "element": "p",
+               "innerHTML": "Oui, nous utilisons exclusivement des produits certifiés vegan."
+              }
+             ],
+             "element": "details"
+            },
+            {
+             "blockId": "edc24966a",
+             "blockName": "question",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "fontWeight": "500"
+               },
+               "blockId": "3bbf0c66f",
+               "blockName": "question-text",
+               "element": "summary",
+               "innerHTML": "La consultation est-elle vraiment offerte ?"
+              },
+              {
+               "baseStyles": {
+                "color": "rgba(26, 26, 26, 0.6)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "lineHeight": "1.7",
+                "margin": "0.75rem 0 0",
+                "maxWidth": "44rem"
+               },
+               "blockId": "31a92c39f",
+               "blockName": "answer",
+               "element": "p",
+               "innerHTML": "Oui, pour chaque changement de coupe, nous offrons une demi-heure de consultation pour trouver ensemble la forme qui vous convient."
+              }
+             ],
+             "element": "details"
+            },
+            {
+             "blockId": "b9e4e6858",
+             "blockName": "question",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtc-text)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "fontWeight": "500"
+               },
+               "blockId": "65c2b0c4d",
+               "blockName": "question-text",
+               "element": "summary",
+               "innerHTML": "Quels sont vos horaires ?"
+              },
+              {
+               "baseStyles": {
+                "color": "rgba(26, 26, 26, 0.6)",
+                "fontFamily": "var(--qtc-font-body)",
+                "fontSize": "1rem",
+                "lineHeight": "1.7",
+                "margin": "0.75rem 0 0",
+                "maxWidth": "44rem"
+               },
+               "blockId": "7b52e39e8",
+               "blockName": "answer",
+               "element": "p",
+               "innerHTML": "Nous sommes ouverts du mardi au samedi."
+              }
+             ],
+             "element": "details"
+            }
+           ],
+           "classes": [
+            "u-faq"
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "2rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         },
+         "tabletStyles": {
+          "gap": "2.5rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtc-gutter-phone)",
+        "paddingRight": "var(--qtc-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "5rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#fdfbf7",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "db9b2de784",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.6 27,72.2 40,69.5 C53,66.8 67,64.2 80,61.6 C93,59.1 107,56.7 120,54.3 C133,52.0 147,49.7 160,47.6 C173,45.4 187,43.4 200,41.4 C213,39.5 227,37.6 240,35.9 C253,34.1 267,32.5 280,30.9 C293,29.4 307,27.9 320,26.5 C333,25.2 347,23.9 360,22.7 C373,21.6 387,20.5 400,19.5 C413,18.5 427,17.7 440,16.9 C453,16.1 467,15.4 480,14.8 C493,14.3 507,13.8 520,13.4 C533,13.0 547,12.7 560,12.5 C573,12.3 587,12.2 600,12.2 C613,12.2 627,12.3 640,12.5 C653,12.7 667,13.0 680,13.4 C693,13.8 707,14.3 720,14.8 C733,15.4 747,16.1 760,16.9 C773,17.7 787,18.5 800,19.5 C813,20.5 827,21.6 840,22.7 C853,23.9 867,25.2 880,26.5 C893,27.9 907,29.4 920,30.9 C933,32.5 947,34.1 960,35.9 C973,37.6 987,39.5 1000,41.4 C1013,43.4 1027,45.4 1040,47.6 C1053,49.7 1067,52.0 1080,54.3 C1093,56.7 1107,59.1 1120,61.6 C1133,64.2 1147,66.8 1160,69.5 C1173,72.2 1193,76.6 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtc-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.6 27,88.2 40,85.5 C53,82.8 67,80.2 80,77.6 C93,75.1 107,72.7 120,70.3 C133,68.0 147,65.7 160,63.6 C173,61.4 187,59.4 200,57.4 C213,55.5 227,53.6 240,51.9 C253,50.1 267,48.5 280,46.9 C293,45.4 307,43.9 320,42.5 C333,41.2 347,39.9 360,38.7 C373,37.6 387,36.5 400,35.5 C413,34.5 427,33.7 440,32.9 C453,32.1 467,31.4 480,30.8 C493,30.3 507,29.8 520,29.4 C533,29.0 547,28.7 560,28.5 C573,28.3 587,28.2 600,28.2 C613,28.2 627,28.3 640,28.5 C653,28.7 667,29.0 680,29.4 C693,29.8 707,30.3 720,30.8 C733,31.4 747,32.1 760,32.9 C773,33.7 787,34.5 800,35.5 C813,36.5 827,37.6 840,38.7 C853,39.9 867,41.2 880,42.5 C893,43.9 907,45.4 920,46.9 C933,48.5 947,50.1 960,51.9 C973,53.6 987,55.5 1000,57.4 C1013,59.4 1027,61.4 1040,63.6 C1053,65.7 1067,68.0 1080,70.3 C1093,72.7 1107,75.1 1120,77.6 C1133,80.2 1147,82.8 1160,85.5 C1173,88.2 1193,92.6 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtc-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtc-primary)",
+      "color": "var(--qtc-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "7b8c9ed74",
+     "blockName": "cta",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtc-container)",
+        "paddingLeft": "var(--qtc-gutter)",
+        "paddingRight": "var(--qtc-gutter)",
+        "width": "100%"
+       },
+       "blockId": "e0c03f0b1",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "f26216465",
+         "blockName": "closing",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "#ffffff",
+            "fontFamily": "var(--qtc-font-heading)",
+            "fontSize": "2.5rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "40rem",
+            "textAlign": "center"
+           },
+           "blockId": "ac9b2e51e",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Choisissez votre soin, nous nous <em style=\"font-style: italic; color: var(--qtc-secondary)\">occupons</em> du reste.",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(250, 246, 242, 0.85)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "1.1rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 2.25rem",
+            "maxWidth": "50ch",
+            "textAlign": "center"
+           },
+           "blockId": "d411064f9",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Réservez votre rendez-vous en ligne en quelques clics."
+          },
+          {
+           "attributes": {
+            "href": "prendre_rendez_vous"
+           },
+           "blockId": "206af03e9",
+           "blockName": "button",
+           "classes": [
+            "u-btn",
+            "u-btn--secondary"
+           ],
+           "element": "a",
+           "innerHTML": "Prendre rendez-vous"
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtc-gutter-phone)",
+        "paddingRight": "var(--qtc-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-10-31 17:52:39.156239",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Découvrez nos prestations pour femmes, hommes et enfants, ainsi que nos soins coloration et beauté, dans un cadre apaisant.",
+ "modified": "2026-10-31 17:52:39.158298",
+ "modified_by": "Administrator",
+ "name": "page-9f40d6aa",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-9f40d6aa",
+ "page_title": "Prestations et tarifs",
+ "preview": "/builder_assets/salon_de_coiffure/page-9f40d6aa/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/salon_de_coiffure/prestations_et_tarifs",
+ "staging": 0,
+ "template_group": "salon_de_coiffure"
+}

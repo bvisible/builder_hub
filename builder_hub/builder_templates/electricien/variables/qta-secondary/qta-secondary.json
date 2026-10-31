@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "electricien",
+ "name": "qta-secondary",
+ "token_name": "Electricien secondary",
+ "type": "Color",
+ "value": "#e9a23b"
+}

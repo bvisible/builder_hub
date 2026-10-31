@@ -1,0 +1,786 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--qtr-background)",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "padding": "12rem 0",
+      "width": "100%"
+     },
+     "blockId": "d3b4a36dd",
+     "blockName": "statement",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "width": "100%"
+       },
+       "blockId": "7fe4d8d1d",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "color-mix(in srgb, var(--qtr-secondary) 90%, black)",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "0.75rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.3em",
+          "margin": "0 0 1.5rem",
+          "textAlign": "center",
+          "textTransform": "uppercase"
+         },
+         "blockId": "366821370",
+         "element": "p",
+         "innerHTML": "Infos"
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtr-secondary)",
+          "height": "2px",
+          "margin": "0 0 1.5rem",
+          "width": "2.5rem"
+         },
+         "blockId": "9d247333f",
+         "element": "div",
+         "mobileStyles": {
+          "margin": "0 0 1.25rem"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtr-text)",
+          "fontFamily": "var(--qtr-font-heading)",
+          "fontSize": "3.25rem",
+          "fontStyle": "italic",
+          "fontWeight": "700",
+          "lineHeight": "1.15",
+          "margin": "0 0 3rem",
+          "maxWidth": "40rem"
+         },
+         "blockId": "db04fe59c",
+         "element": "h2",
+         "innerHTML": "Bienvenue à la <em style=\"font-style: italic; color: var(--qtr-secondary)\">table</em>",
+         "mobileStyles": {
+          "fontSize": "2rem",
+          "margin": "0 0 2rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "display": "grid",
+          "gap": "3rem",
+          "gridTemplateColumns": "minmax(0, 1fr) minmax(0, 1fr)"
+         },
+         "blockId": "a14e9fef3",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.75",
+            "margin": "0"
+           },
+           "blockId": "82d384054",
+           "element": "p",
+           "innerHTML": "Découvrez les informations essentielles pour préparer votre visite : nos horaires, l’adresse de notre salle et de notre terrasse, ainsi que les modalités de notre salle privée pour vos groupes."
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.75",
+            "margin": "0"
+           },
+           "blockId": "ddb1e80f2",
+           "element": "p",
+           "innerHTML": "Nous vous conseillons de réserver à l’avance, en particulier le week-end et pendant la haute saison. Notre équipe reste à votre écoute pour répondre à vos questions et organiser au mieux votre venue."
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "2rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         },
+         "tabletStyles": {
+          "gap": "2rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "6rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "b95038db7d",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,71.2 C7,69.8 27,65.5 40,62.8 C53,60.1 67,57.5 80,54.9 C93,52.4 107,50.0 120,47.7 C133,45.4 147,43.2 160,41.0 C173,38.9 187,36.9 200,35.0 C213,33.0 227,31.2 240,29.5 C253,27.7 267,26.1 280,24.5 C293,23.0 307,21.5 320,20.2 C333,18.8 347,17.6 360,16.4 C373,15.3 387,14.2 400,13.2 C413,12.3 427,11.4 440,10.6 C453,9.9 467,9.2 480,8.6 C493,8.0 507,7.5 520,7.2 C533,6.8 547,6.5 560,6.3 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.3 C653,6.5 667,6.8 680,7.2 C693,7.5 707,8.0 720,8.6 C733,9.2 747,9.9 760,10.6 C773,11.4 787,12.3 800,13.2 C813,14.2 827,15.3 840,16.4 C853,17.6 867,18.8 880,20.2 C893,21.5 907,23.0 920,24.5 C933,26.1 947,27.7 960,29.5 C973,31.2 987,33.0 1000,35.0 C1013,36.9 1027,38.9 1040,41.0 C1053,43.2 1067,45.4 1080,47.7 C1093,50.0 1107,52.4 1120,54.9 C1133,57.5 1147,60.1 1160,62.8 C1173,65.5 1193,69.8 1200,71.2 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,87.2 C7,85.8 27,81.5 40,78.8 C53,76.1 67,73.5 80,70.9 C93,68.4 107,66.0 120,63.7 C133,61.4 147,59.2 160,57.0 C173,54.9 187,52.9 200,51.0 C213,49.0 227,47.2 240,45.5 C253,43.7 267,42.1 280,40.5 C293,39.0 307,37.5 320,36.2 C333,34.8 347,33.6 360,32.4 C373,31.3 387,30.2 400,29.2 C413,28.3 427,27.4 440,26.6 C453,25.9 467,25.2 480,24.6 C493,24.0 507,23.5 520,23.2 C533,22.8 547,22.5 560,22.3 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.3 C653,22.5 667,22.8 680,23.2 C693,23.5 707,24.0 720,24.6 C733,25.2 747,25.9 760,26.6 C773,27.4 787,28.3 800,29.2 C813,30.2 827,31.3 840,32.4 C853,33.6 867,34.8 880,36.2 C893,37.5 907,39.0 920,40.5 C933,42.1 947,43.7 960,45.5 C973,47.2 987,49.0 1000,51.0 C1013,52.9 1027,54.9 1040,57.0 C1053,59.2 1067,61.4 1080,63.7 C1093,66.0 1107,68.4 1120,70.9 C1133,73.5 1147,76.1 1160,78.8 C1173,81.5 1193,85.8 1200,87.2 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-primary)",
+      "color": "var(--qtr-background)",
+      "width": "100%"
+     },
+     "blockId": "8b2ffb0be",
+     "blockName": "espace",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "stretch",
+        "display": "grid",
+        "gridTemplateColumns": "minmax(0, 1fr) minmax(0, 1fr)"
+       },
+       "blockId": "ccf7c783d",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "padding": "5rem 4rem"
+         },
+         "blockId": "c1d36ab2b",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtr-secondary)",
+            "height": "2px",
+            "margin": "0 0 1.5rem",
+            "width": "2.5rem"
+           },
+           "blockId": "5c0f50116",
+           "element": "div",
+           "mobileStyles": {
+            "margin": "0 0 1.25rem"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "color-mix(in srgb, var(--qtr-secondary) 80%, white)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.25rem",
+            "textTransform": "uppercase"
+           },
+           "blockId": "3cd666164",
+           "element": "p",
+           "innerHTML": "Notre espace"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtr-background)",
+            "fontFamily": "var(--qtr-font-heading)",
+            "fontSize": "2.75rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "30rem"
+           },
+           "blockId": "3b7ad2fb2",
+           "element": "h2",
+           "innerHTML": "Une salle <em style=\"font-style: italic; color: var(--qtr-secondary)\">chaleureuse</em>, une terrasse ouverte",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(250, 248, 244, 0.8)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "1.0625rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 1.5rem",
+            "maxWidth": "28rem"
+           },
+           "blockId": "d60aa77e0",
+           "element": "p",
+           "innerHTML": "Notre salle principale offre un cadre chaleureux et intime. En été, notre terrasse vous accueille pour profiter de la saison en plein air. La salle privée, attenante à la salle principale, est idéale pour vos repas de groupe."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "padding": "3rem 1.5rem"
+         }
+        },
+        {
+         "attributes": {
+          "alt": "L’intérieur d’une salle de restaurant baignée de lumière naturelle, tables dressées et vue ouverte sur la terrasse",
+          "src": "/builder_assets/restaurant/page-af3643ca/hubpub-restaurant-gen_cd127851.png"
+         },
+         "baseStyles": {
+          "display": "block",
+          "height": "100%",
+          "minHeight": "30rem",
+          "objectFit": "cover",
+          "width": "100%"
+         },
+         "blockId": "ef84e83a2",
+         "classes": [
+          "u-media"
+         ],
+         "element": "img",
+         "mobileStyles": {
+          "height": "18rem",
+          "minHeight": "18rem"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gridTemplateColumns": "minmax(0, 1fr)"
+       },
+       "tabletStyles": {
+        "gridTemplateColumns": "minmax(0, 1fr)"
+       }
+      }
+     ],
+     "element": "section"
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-primary)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "6ef2ba2273",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,57.3 C7,56.2 27,52.8 40,50.7 C53,48.6 67,46.5 80,44.5 C93,42.6 107,40.7 120,38.8 C133,37.0 147,35.3 160,33.6 C173,31.9 187,30.3 200,28.8 C213,27.3 227,25.8 240,24.5 C253,23.1 267,21.8 280,20.6 C293,19.4 307,18.2 320,17.2 C333,16.1 347,15.1 360,14.2 C373,13.3 387,12.5 400,11.7 C413,10.9 427,10.3 440,9.6 C453,9.0 467,8.5 480,8.1 C493,7.6 507,7.2 520,6.9 C533,6.6 547,6.4 560,6.2 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.2 C653,6.4 667,6.6 680,6.9 C693,7.2 707,7.6 720,8.1 C733,8.5 747,9.0 760,9.6 C773,10.3 787,10.9 800,11.7 C813,12.5 827,13.3 840,14.2 C853,15.1 867,16.1 880,17.2 C893,18.2 907,19.4 920,20.6 C933,21.8 947,23.1 960,24.5 C973,25.8 987,27.3 1000,28.8 C1013,30.3 1027,31.9 1040,33.6 C1053,35.3 1067,37.0 1080,38.8 C1093,40.7 1107,42.6 1120,44.5 C1133,46.5 1147,48.6 1160,50.7 C1173,52.8 1193,56.2 1200,57.3 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-background)\" fill-opacity=\"0.28\"/><path d=\"M0,73.3 C7,72.2 27,68.8 40,66.7 C53,64.6 67,62.5 80,60.5 C93,58.6 107,56.7 120,54.8 C133,53.0 147,51.3 160,49.6 C173,47.9 187,46.3 200,44.8 C213,43.3 227,41.8 240,40.5 C253,39.1 267,37.8 280,36.6 C293,35.4 307,34.2 320,33.2 C333,32.1 347,31.1 360,30.2 C373,29.3 387,28.5 400,27.7 C413,26.9 427,26.3 440,25.6 C453,25.0 467,24.5 480,24.1 C493,23.6 507,23.2 520,22.9 C533,22.6 547,22.4 560,22.2 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.2 C653,22.4 667,22.6 680,22.9 C693,23.2 707,23.6 720,24.1 C733,24.5 747,25.0 760,25.6 C773,26.3 787,26.9 800,27.7 C813,28.5 827,29.3 840,30.2 C853,31.1 867,32.1 880,33.2 C893,34.2 907,35.4 920,36.6 C933,37.8 947,39.1 960,40.5 C973,41.8 987,43.3 1000,44.8 C1013,46.3 1027,47.9 1040,49.6 C1053,51.3 1067,53.0 1080,54.8 C1093,56.7 1107,58.6 1120,60.5 C1133,62.5 1147,64.6 1160,66.7 C1173,68.8 1193,72.2 1200,73.3 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "padding": "8rem 0",
+      "width": "100%"
+     },
+     "blockId": "18755be36",
+     "blockName": "coordonnees",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "width": "100%"
+       },
+       "blockId": "5c2e81240",
+       "children": [
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtr-secondary)",
+          "height": "2px",
+          "margin": "0 0 1.5rem",
+          "width": "2.5rem"
+         },
+         "blockId": "2ea999597",
+         "element": "div",
+         "mobileStyles": {
+          "margin": "0 0 1.25rem"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtr-text)",
+          "fontFamily": "var(--qtr-font-heading)",
+          "fontSize": "2.75rem",
+          "fontWeight": "700",
+          "lineHeight": "1.15",
+          "margin": "0 0 1.25rem",
+          "maxWidth": "36rem"
+         },
+         "blockId": "e058a9094",
+         "element": "h2",
+         "mobileStyles": {
+          "fontSize": "1.75rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(26, 26, 26, 0.72)",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "1.125rem",
+          "lineHeight": "1.7",
+          "margin": "0 0 4rem",
+          "maxWidth": "40rem"
+         },
+         "blockId": "b32951e5c",
+         "element": "p",
+         "innerHTML": "Retrouvez ici nos horaires d’ouverture ainsi que les informations de contact pour nos réservations."
+        },
+        {
+         "baseStyles": {
+          "alignItems": "start",
+          "display": "grid",
+          "gap": "2.5rem"
+         },
+         "blockId": "a5f74debb",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderTop": "2px solid var(--qtr-secondary)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "2rem"
+           },
+           "blockId": "ed6bbe25d",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "color": "var(--qtr-secondary)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "height": "22px",
+              "justifyContent": "center",
+              "lineHeight": "0",
+              "margin": "0 0 1.25rem",
+              "width": "22px"
+             },
+             "blockId": "9a12893ae",
+             "blockName": "Icon: map-pin",
+             "children": [],
+             "customAttributes": {
+              "data-lucide": "map-pin"
+             },
+             "element": "svg",
+             "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\" /> <circle cx=\"12\" cy=\"10\" r=\"3\" /> </svg>"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtr-text)",
+              "fontFamily": "var(--qtr-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "3abf20ef2",
+             "element": "h3",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.65)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.7",
+              "margin": "0"
+             },
+             "blockId": "9c1e721d0",
+             "element": "p",
+             "innerHTML": "Notre salle principale, notre terrasse et notre salle privée se rejoignent à l’intérieur de la même maison."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderTop": "2px solid var(--qtr-secondary)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "2rem"
+           },
+           "blockId": "7df6cd405",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "color": "var(--qtr-secondary)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "height": "22px",
+              "justifyContent": "center",
+              "lineHeight": "0",
+              "margin": "0 0 1.25rem",
+              "width": "22px"
+             },
+             "blockId": "b8f058f91",
+             "blockName": "Icon: clock",
+             "children": [],
+             "customAttributes": {
+              "data-lucide": "clock"
+             },
+             "element": "svg",
+             "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <circle cx=\"12\" cy=\"12\" r=\"10\" /> <path d=\"M12 6v6l4 2\" /> </svg>"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtr-text)",
+              "fontFamily": "var(--qtr-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "9d27f0238",
+             "element": "h3",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.65)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.7",
+              "margin": "0"
+             },
+             "blockId": "9b103c2b9",
+             "element": "p",
+             "innerHTML": "Le menu du jour est servi à midi, en semaine. Nous vous conseillons de réserver à l’avance, en particulier le week-end."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderTop": "2px solid var(--qtr-secondary)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "2rem"
+           },
+           "blockId": "afb1fe993",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "color": "var(--qtr-secondary)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "height": "22px",
+              "justifyContent": "center",
+              "lineHeight": "0",
+              "margin": "0 0 1.25rem",
+              "width": "22px"
+             },
+             "blockId": "d009d38c5",
+             "blockName": "Icon: mail",
+             "children": [],
+             "customAttributes": {
+              "data-lucide": "mail"
+             },
+             "element": "svg",
+             "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\" /> <rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\" /> </svg>"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtr-text)",
+              "fontFamily": "var(--qtr-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "f1fb3f0de",
+             "element": "h3",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.65)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.7",
+              "margin": "0"
+             },
+             "blockId": "686142926",
+             "element": "p",
+             "innerHTML": "Pour toute question, utilisez notre formulaire de contact. Notre équipe vous répondra afin de préparer au mieux votre visite."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--3",
+          "u-reveal-group"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "2rem"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "4368df0190",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.5 27,71.9 40,68.9 C53,66.0 67,63.2 80,60.5 C93,57.8 107,55.2 120,52.7 C133,50.2 147,47.8 160,45.5 C173,43.2 187,41.0 200,39.0 C213,36.9 227,34.9 240,33.0 C253,31.2 267,29.4 280,27.7 C293,26.1 307,24.5 320,23.0 C333,21.6 347,20.2 360,19.0 C373,17.7 387,16.6 400,15.5 C413,14.5 427,13.6 440,12.7 C453,11.9 467,11.2 480,10.5 C493,9.9 507,9.4 520,9.0 C533,8.6 547,8.3 560,8.0 C573,7.8 587,7.7 600,7.7 C613,7.7 627,7.8 640,8.0 C653,8.3 667,8.6 680,9.0 C693,9.4 707,9.9 720,10.5 C733,11.2 747,11.9 760,12.7 C773,13.6 787,14.5 800,15.5 C813,16.6 827,17.7 840,19.0 C853,20.2 867,21.6 880,23.0 C893,24.5 907,26.1 920,27.7 C933,29.4 947,31.2 960,33.0 C973,34.9 987,36.9 1000,39.0 C1013,41.0 1027,43.2 1040,45.5 C1053,47.8 1067,50.2 1080,52.7 C1093,55.2 1107,57.8 1120,60.5 C1133,63.2 1147,66.0 1160,68.9 C1173,71.9 1193,76.5 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.5 27,87.9 40,84.9 C53,82.0 67,79.2 80,76.5 C93,73.8 107,71.2 120,68.7 C133,66.2 147,63.8 160,61.5 C173,59.2 187,57.0 200,55.0 C213,52.9 227,50.9 240,49.0 C253,47.2 267,45.4 280,43.7 C293,42.1 307,40.5 320,39.0 C333,37.6 347,36.2 360,35.0 C373,33.7 387,32.6 400,31.5 C413,30.5 427,29.6 440,28.7 C453,27.9 467,27.2 480,26.5 C493,25.9 507,25.4 520,25.0 C533,24.6 547,24.3 560,24.0 C573,23.8 587,23.7 600,23.7 C613,23.7 627,23.8 640,24.0 C653,24.3 667,24.6 680,25.0 C693,25.4 707,25.9 720,26.5 C733,27.2 747,27.9 760,28.7 C773,29.6 787,30.5 800,31.5 C813,32.6 827,33.7 840,35.0 C853,36.2 867,37.6 880,39.0 C893,40.5 907,42.1 920,43.7 C933,45.4 947,47.2 960,49.0 C973,50.9 987,52.9 1000,55.0 C1013,57.0 1027,59.2 1040,61.5 C1053,63.8 1067,66.2 1080,68.7 C1093,71.2 1107,73.8 1120,76.5 C1133,79.2 1147,82.0 1160,84.9 C1173,87.9 1193,92.5 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-primary)",
+      "color": "var(--qtr-background)",
+      "padding": "8rem 0",
+      "width": "100%"
+     },
+     "blockId": "f5eb3a7d7",
+     "blockName": "cta",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "width": "100%"
+       },
+       "blockId": "3315225dd",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "ff2e4fdc8",
+         "children": [
+          {
+           "baseStyles": {
+            "alignSelf": "center",
+            "backgroundColor": "var(--qtr-secondary)",
+            "height": "2px",
+            "margin": "0 0 1.5rem",
+            "width": "2.5rem"
+           },
+           "blockId": "61ffedd87",
+           "element": "div",
+           "mobileStyles": {
+            "margin": "0 0 1.25rem"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtr-background)",
+            "fontFamily": "var(--qtr-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "40rem",
+            "textAlign": "center"
+           },
+           "blockId": "4e23305c8",
+           "element": "h2",
+           "innerHTML": "Prêt à nous <em style=\"font-style: italic; color: var(--qtr-secondary)\">rejoindre</em> ?",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(250, 248, 244, 0.8)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 2.5rem",
+            "maxWidth": "34rem",
+            "textAlign": "center"
+           },
+           "blockId": "f9918fdf4",
+           "element": "p",
+           "innerHTML": "Réservez votre table en ligne pour profiter de notre cuisine de saison."
+          },
+          {
+           "attributes": {
+            "href": "réserver_une_table"
+           },
+           "blockId": "1be28ce34",
+           "classes": [
+            "u-btn",
+            "u-btn--secondary"
+           ],
+           "element": "a",
+           "innerHTML": "Réserver"
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-primary)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "65229eaf44",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,55.9 C7,54.8 27,51.5 40,49.5 C53,47.4 67,45.4 80,43.5 C93,41.5 107,39.7 120,37.9 C133,36.2 147,34.5 160,32.8 C173,31.2 187,29.6 200,28.2 C213,26.7 227,25.3 240,24.0 C253,22.6 267,21.4 280,20.2 C293,19.0 307,17.9 320,16.9 C333,15.8 347,14.9 360,14.0 C373,13.1 387,12.3 400,11.5 C413,10.8 427,10.1 440,9.5 C453,9.0 467,8.4 480,8.0 C493,7.6 507,7.2 520,6.9 C533,6.6 547,6.4 560,6.2 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.2 C653,6.4 667,6.6 680,6.9 C693,7.2 707,7.6 720,8.0 C733,8.4 747,9.0 760,9.5 C773,10.1 787,10.8 800,11.5 C813,12.3 827,13.1 840,14.0 C853,14.9 867,15.8 880,16.9 C893,17.9 907,19.0 920,20.2 C933,21.4 947,22.6 960,24.0 C973,25.3 987,26.7 1000,28.2 C1013,29.6 1027,31.2 1040,32.8 C1053,34.5 1067,36.2 1080,37.9 C1093,39.7 1107,41.5 1120,43.5 C1133,45.4 1147,47.4 1160,49.5 C1173,51.5 1193,54.8 1200,55.9 L1200,106 L0,106 Z\" style=\"fill:#3a4a2e\" fill-opacity=\"0.28\"/><path d=\"M0,71.9 C7,70.8 27,67.5 40,65.5 C53,63.4 67,61.4 80,59.5 C93,57.5 107,55.7 120,53.9 C133,52.2 147,50.5 160,48.8 C173,47.2 187,45.6 200,44.2 C213,42.7 227,41.3 240,40.0 C253,38.6 267,37.4 280,36.2 C293,35.0 307,33.9 320,32.9 C333,31.8 347,30.9 360,30.0 C373,29.1 387,28.3 400,27.5 C413,26.8 427,26.1 440,25.5 C453,25.0 467,24.4 480,24.0 C493,23.6 507,23.2 520,22.9 C533,22.6 547,22.4 560,22.2 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.2 C653,22.4 667,22.6 680,22.9 C693,23.2 707,23.6 720,24.0 C733,24.4 747,25.0 760,25.5 C773,26.1 787,26.8 800,27.5 C813,28.3 827,29.1 840,30.0 C853,30.9 867,31.8 880,32.9 C893,33.9 907,35.0 920,36.2 C933,37.4 947,38.6 960,40.0 C973,41.3 987,42.7 1000,44.2 C1013,45.6 1027,47.2 1040,48.8 C1053,50.5 1067,52.2 1080,53.9 C1093,55.7 1107,57.5 1120,59.5 C1133,61.4 1147,63.4 1160,65.5 C1173,67.5 1193,70.8 1200,71.9 L1200,106 L0,106 Z\" style=\"fill:#3a4a2e\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-10-31 16:22:22.454923",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Découvrez les informations essentielles pour préparer votre visite : nos horaires, l’adresse de notre salle et de notre terrasse, ainsi que les modalités de notre salle privée…",
+ "modified": "2026-10-31 16:42:55.284123",
+ "modified_by": "Administrator",
+ "name": "page-af3643ca",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-af3643ca",
+ "page_title": "Infos pratiques",
+ "preview": "/builder_assets/restaurant/page-af3643ca/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/restaurant/infos_pratiques",
+ "staging": 0,
+ "template_group": "restaurant"
+}

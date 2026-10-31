@@ -1,0 +1,949 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--qtd-background)",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-background)",
+      "padding": "96px 0",
+      "width": "100%"
+     },
+     "blockId": "8230c6224",
+     "blockName": "intro",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtd-container)",
+        "paddingLeft": "var(--qtd-gutter)",
+        "paddingRight": "var(--qtd-gutter)",
+        "width": "100%"
+       },
+       "blockId": "bcae658d4",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "grid",
+          "gap": "48px",
+          "gridTemplateColumns": "minmax(0, 4fr) minmax(0, 6fr)"
+         },
+         "blockId": "bdb5a84c8",
+         "blockName": "intro-split",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "d63b5a149",
+           "blockName": "intro-copy",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qtd-secondary) 80%, black)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.3em",
+              "margin": "0 0 16px",
+              "textTransform": "uppercase"
+             },
+             "blockId": "df418333b",
+             "blockName": "eyebrow",
+             "element": "p",
+             "innerHTML": "Le cabinet"
+            },
+            {
+             "baseStyles": {
+              "backgroundColor": "var(--qtd-secondary)",
+              "height": "2px",
+              "margin": "0 0 12px",
+              "width": "48px"
+             },
+             "blockId": "542461091",
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "3rem",
+              "fontWeight": "700",
+              "lineHeight": "1.15",
+              "margin": "0 0 20px",
+              "maxWidth": "30rem"
+             },
+             "blockId": "e4732aabf",
+             "blockName": "heading",
+             "element": "h2",
+             "innerHTML": "Un cabinet dentaire de <em style=\"font-style: italic; color: var(--qtd-secondary)\">quartier</em>",
+             "mobileStyles": {
+              "fontSize": "1.75rem",
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1.125rem",
+              "lineHeight": "1.7",
+              "margin": "0",
+              "maxWidth": "32rem"
+             },
+             "blockId": "5b1844b2a",
+             "blockName": "lead",
+             "element": "p",
+             "innerHTML": "Au cœur de votre quartier, le Cabinet Dentaire du Parc accueille chacun de ses patients dans un lieu pensé pour la tranquillité. L’entrée est de plain-pied, pour un accès simple à tous, et chaque rendez-vous est pris dans un esprit de confiance et de douceur."
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "border": "1px solid #e6eef0",
+            "borderRadius": "16px",
+            "boxShadow": "0 4px 12px rgba(31, 122, 140, 0.08)",
+            "overflow": "hidden"
+           },
+           "blockId": "adb9d5a39",
+           "blockName": "intro-photo",
+           "children": [
+            {
+             "attributes": {
+              "alt": "Façade lumineuse d’un cabinet dentaire de quartier, entrée de plain-pied, lumière douce et plantes en façade",
+              "src": "/builder_assets/cabinet_dentaire/page-cbe509f4/hubpub-cabinet_dentaire-gen_77a90bac.png"
+             },
+             "baseStyles": {
+              "aspectRatio": "4/3",
+              "display": "block",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "4d3962f0f",
+             "blockName": "photo",
+             "classes": [
+              "u-media"
+             ],
+             "element": "img"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "32px",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         },
+         "tabletStyles": {
+          "gap": "40px",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtd-gutter-phone)",
+        "paddingRight": "var(--qtd-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "64px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "28b0c76e68",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,66.0 C7,64.7 27,60.7 40,58.3 C53,55.8 67,53.4 80,51.1 C93,48.8 107,46.5 120,44.4 C133,42.3 147,40.2 160,38.3 C173,36.3 187,34.4 200,32.7 C213,30.9 227,29.2 240,27.6 C253,26.0 267,24.5 280,23.1 C293,21.6 307,20.3 320,19.1 C333,17.8 347,16.7 360,15.6 C373,14.5 387,13.6 400,12.7 C413,11.8 427,11.0 440,10.3 C453,9.6 467,8.9 480,8.4 C493,7.9 507,7.4 520,7.1 C533,6.7 547,6.4 560,6.3 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.3 C653,6.4 667,6.7 680,7.1 C693,7.4 707,7.9 720,8.4 C733,8.9 747,9.6 760,10.3 C773,11.0 787,11.8 800,12.7 C813,13.6 827,14.5 840,15.6 C853,16.7 867,17.8 880,19.1 C893,20.3 907,21.6 920,23.1 C933,24.5 947,26.0 960,27.6 C973,29.2 987,30.9 1000,32.7 C1013,34.4 1027,36.3 1040,38.3 C1053,40.2 1067,42.3 1080,44.4 C1093,46.5 1107,48.8 1120,51.1 C1133,53.4 1147,55.8 1160,58.3 C1173,60.7 1193,64.7 1200,66.0 L1200,106 L0,106 Z\" style=\"fill:#f4f9fa\" fill-opacity=\"0.28\"/><path d=\"M0,82.0 C7,80.7 27,76.7 40,74.3 C53,71.8 67,69.4 80,67.1 C93,64.8 107,62.5 120,60.4 C133,58.3 147,56.2 160,54.3 C173,52.3 187,50.4 200,48.7 C213,46.9 227,45.2 240,43.6 C253,42.0 267,40.5 280,39.1 C293,37.6 307,36.3 320,35.1 C333,33.8 347,32.7 360,31.6 C373,30.5 387,29.6 400,28.7 C413,27.8 427,27.0 440,26.3 C453,25.6 467,24.9 480,24.4 C493,23.9 507,23.4 520,23.1 C533,22.7 547,22.4 560,22.3 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.3 C653,22.4 667,22.7 680,23.1 C693,23.4 707,23.9 720,24.4 C733,24.9 747,25.6 760,26.3 C773,27.0 787,27.8 800,28.7 C813,29.6 827,30.5 840,31.6 C853,32.7 867,33.8 880,35.1 C893,36.3 907,37.6 920,39.1 C933,40.5 947,42.0 960,43.6 C973,45.2 987,46.9 1000,48.7 C1013,50.4 1027,52.3 1040,54.3 C1053,56.2 1067,58.3 1080,60.4 C1093,62.5 1107,64.8 1120,67.1 C1133,69.4 1147,71.8 1160,74.3 C1173,76.7 1193,80.7 1200,82.0 L1200,106 L0,106 Z\" style=\"fill:#f4f9fa\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#f4f9fa",
+      "padding": "96px 0",
+      "width": "100%"
+     },
+     "blockId": "b415905a4",
+     "blockName": "story",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtd-container)",
+        "paddingLeft": "var(--qtd-gutter)",
+        "paddingRight": "var(--qtd-gutter)",
+        "width": "100%"
+       },
+       "blockId": "2cebb4df6",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "grid",
+          "gap": "48px",
+          "gridTemplateColumns": "minmax(0, 4fr) minmax(0, 6fr)"
+         },
+         "blockId": "01f1fae86",
+         "blockName": "pair",
+         "children": [
+          {
+           "baseStyles": {
+            "border": "1px solid #e6eef0",
+            "borderRadius": "16px",
+            "boxShadow": "0 4px 12px rgba(31, 122, 140, 0.08)",
+            "overflow": "hidden"
+           },
+           "blockId": "e712a4ad5",
+           "blockName": "frame",
+           "children": [
+            {
+             "attributes": {
+              "alt": "Un coin de salle d’attente calme, plante verte et surface claire baignée de lumière douce",
+              "src": "/builder_assets/cabinet_dentaire/page-cbe509f4/hubpub-cabinet_dentaire-gen_f808b7f7.png"
+             },
+             "baseStyles": {
+              "aspectRatio": "4/3",
+              "display": "block",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "55867a2b2",
+             "blockName": "photo",
+             "classes": [
+              "u-media"
+             ],
+             "element": "img"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "1367490c3",
+           "blockName": "copy",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.3em",
+              "margin": "0 0 16px",
+              "textTransform": "uppercase"
+             },
+             "blockId": "85258be6d",
+             "blockName": "label",
+             "element": "p",
+             "innerHTML": "L’atmosphère"
+            },
+            {
+             "baseStyles": {
+              "backgroundColor": "var(--qtd-secondary)",
+              "height": "2px",
+              "margin": "0 0 12px",
+              "width": "48px"
+             },
+             "blockId": "41f20ef3d",
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "3rem",
+              "fontWeight": "700",
+              "lineHeight": "1.15",
+              "margin": "0 0 20px",
+              "maxWidth": "34rem"
+             },
+             "blockId": "825fa3797",
+             "blockName": "heading",
+             "element": "h2",
+             "innerHTML": "Une atmosphère <em style=\"font-style: italic; color: var(--qtd-secondary)\">calme</em>",
+             "mobileStyles": {
+              "fontSize": "1.75rem",
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "display": "grid",
+              "gap": "32px",
+              "gridTemplateColumns": "minmax(0, 1fr) minmax(0, 1fr)"
+             },
+             "blockId": "6c22f287a",
+             "blockName": "story-text",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "rgba(26, 26, 26, 0.72)",
+                "fontFamily": "var(--qtd-font-body)",
+                "fontSize": "1.125rem",
+                "lineHeight": "1.7",
+                "margin": "0"
+               },
+               "blockId": "83648626a",
+               "element": "p",
+               "innerHTML": "La salle d’attente est pensée pour respirer : une lumière douce, des surfaces claires et un rythme posé, pour que chaque visite commence dans la tranquillité et non dans l’agitation."
+              },
+              {
+               "baseStyles": {
+                "color": "rgba(26, 26, 26, 0.72)",
+                "fontFamily": "var(--qtd-font-body)",
+                "fontSize": "1.125rem",
+                "lineHeight": "1.7",
+                "margin": "0"
+               },
+               "blockId": "d5b56a7b4",
+               "element": "p",
+               "innerHTML": "Nous vous envoyons un rappel par message avant chaque rendez-vous, et notre équipement de radiographie à faible dose accompagne chaque contrôle avec la plus grande douceur possible."
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "gap": "20px",
+              "gridTemplateColumns": "minmax(0, 1fr)"
+             }
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "32px",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         },
+         "tabletStyles": {
+          "gap": "40px",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtd-gutter-phone)",
+        "paddingRight": "var(--qtd-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "64px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#f4f9fa",
+      "height": "clamp(22px, 3.6vw, 46px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "1ef6804d15",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,76.3 C7,75.1 27,71.5 40,69.3 C53,67.0 67,64.9 80,62.8 C93,60.7 107,58.7 120,56.7 C133,54.8 147,53.0 160,51.2 C173,49.4 187,47.7 200,46.1 C213,44.5 227,43.0 240,41.5 C253,40.1 267,38.7 280,37.4 C293,36.2 307,34.9 320,33.8 C333,32.7 347,31.7 360,30.7 C373,29.7 387,28.8 400,28.0 C413,27.2 427,26.5 440,25.9 C453,25.2 467,24.7 480,24.2 C493,23.7 507,23.3 520,23.0 C533,22.6 547,22.4 560,22.2 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.2 C653,22.4 667,22.6 680,23.0 C693,23.3 707,23.7 720,24.2 C733,24.7 747,25.2 760,25.9 C773,26.5 787,27.2 800,28.0 C813,28.8 827,29.7 840,30.7 C853,31.7 867,32.7 880,33.8 C893,34.9 907,36.2 920,37.4 C933,38.7 947,40.1 960,41.5 C973,43.0 987,44.5 1000,46.1 C1013,47.7 1027,49.4 1040,51.2 C1053,53.0 1067,54.8 1080,56.7 C1093,58.7 1107,60.7 1120,62.8 C1133,64.9 1147,67.0 1160,69.3 C1173,71.5 1193,75.1 1200,76.3\" fill=\"none\" style=\"stroke:var(--qtd-primary)\" stroke-width=\"1.25\" stroke-opacity=\"0.5\" vector-effect=\"non-scaling-stroke\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#f4f9fa",
+      "padding": "96px 0",
+      "width": "100%"
+     },
+     "blockId": "0afe4afce",
+     "blockName": "feature-grid",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtd-container)",
+        "paddingLeft": "var(--qtd-gutter)",
+        "paddingRight": "var(--qtd-gutter)",
+        "width": "100%"
+       },
+       "blockId": "6c8316f6e",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "marginBottom": "48px"
+         },
+         "blockId": "39a49491b",
+         "blockName": "head",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtd-text)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 16px",
+            "textTransform": "uppercase"
+           },
+           "blockId": "d47eca217",
+           "blockName": "label",
+           "element": "p",
+           "innerHTML": "Ce qui nous distingue"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtd-secondary)",
+            "height": "2px",
+            "margin": "0 0 12px",
+            "width": "48px"
+           },
+           "blockId": "5150c8341",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtd-text)",
+            "fontFamily": "var(--qtd-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0",
+            "maxWidth": "36rem"
+           },
+           "blockId": "d228b8b3e",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Nos <em style=\"font-style: italic; color: var(--qtd-secondary)\">atouts</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "blockId": "b9d0719a7",
+         "blockName": "features",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "32px"
+           },
+           "blockId": "0e8bcfdeb",
+           "blockName": "item",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "color": "var(--qtd-primary)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "height": "28px",
+              "justifyContent": "center",
+              "lineHeight": "0",
+              "margin": "0 0 20px",
+              "width": "28px"
+             },
+             "blockId": "135638bd9",
+             "blockName": "Icon: file-text",
+             "children": [],
+             "customAttributes": {
+              "data-lucide": "file-text"
+             },
+             "element": "svg",
+             "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z\" /> <path d=\"M14 2v5a1 1 0 0 0 1 1h5\" /> <path d=\"M10 9H8\" /> <path d=\"M16 13H8\" /> <path d=\"M16 17H8\" /> </svg>"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 12px"
+             },
+             "blockId": "9b87305f8",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Un devis écrit avant chaque soin",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "22rem"
+             },
+             "blockId": "e457e5750",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Avant de commencer, nous vous remettons un devis écrit et transparent, pour que vous connaissiez clairement chaque étape et chaque montant, sans surprise."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "32px"
+           },
+           "blockId": "b70d9782e",
+           "blockName": "item",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "color": "var(--qtd-primary)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "height": "28px",
+              "justifyContent": "center",
+              "lineHeight": "0",
+              "margin": "0 0 20px",
+              "width": "28px"
+             },
+             "blockId": "7dcb12478",
+             "blockName": "Icon: clock",
+             "children": [],
+             "customAttributes": {
+              "data-lucide": "clock"
+             },
+             "element": "svg",
+             "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <circle cx=\"12\" cy=\"12\" r=\"10\" /> <path d=\"M12 6v6l4 2\" /> </svg>"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 12px"
+             },
+             "blockId": "e0d2f2420",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Urgences le jour même",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "22rem"
+             },
+             "blockId": "2c58912e4",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "En cas de douleur ou d’imprévu, nous vous accueillons le jour même pour un rendez-vous d’urgence, afin de soulager au plus vite."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "32px"
+           },
+           "blockId": "8fa5f72c3",
+           "blockName": "item",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "color": "var(--qtd-primary)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "height": "28px",
+              "justifyContent": "center",
+              "lineHeight": "0",
+              "margin": "0 0 20px",
+              "width": "28px"
+             },
+             "blockId": "800cb22de",
+             "blockName": "Icon: accessibility",
+             "children": [],
+             "customAttributes": {
+              "data-lucide": "accessibility"
+             },
+             "element": "svg",
+             "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <circle cx=\"16\" cy=\"4\" r=\"1\" /> <path d=\"m18 19 1-7-6 1\" /> <path d=\"m5 8 3-3 5.5 3-2.36 3.5\" /> <path d=\"M4.24 14.5a5 5 0 0 0 6.88 6\" /> <path d=\"M13.76 17.5a5 5 0 0 0-6.88-6\" /> </svg>"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 12px"
+             },
+             "blockId": "58f54a63b",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Un accès de plain-pied",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "22rem"
+             },
+             "blockId": "482c5a8dd",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "L’entrée du cabinet est de plain-pied, pour un accès simple et confortable, quelle que soit votre situation ou votre mobilité."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "32px"
+           },
+           "blockId": "c741f53f5",
+           "blockName": "item",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "color": "var(--qtd-primary)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "height": "28px",
+              "justifyContent": "center",
+              "lineHeight": "0",
+              "margin": "0 0 20px",
+              "width": "28px"
+             },
+             "blockId": "d70e6c357",
+             "blockName": "Icon: shield-check",
+             "children": [],
+             "customAttributes": {
+              "data-lucide": "shield-check"
+             },
+             "element": "svg",
+             "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\" /> <path d=\"m9 12 2 2 4-4\" /> </svg>"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 12px"
+             },
+             "blockId": "a81db2d23",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Radiographie à faible dose",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "22rem"
+             },
+             "blockId": "51309b205",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Notre équipement de radiographie à faible dose accompagne chaque contrôle avec la plus grande douceur et la plus grande sécurité possible."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--3",
+          "u-reveal-group",
+          "u-grid--fill"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtd-gutter-phone)",
+        "paddingRight": "var(--qtd-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "64px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#f4f9fa",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "05d333a19a",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,72.2 C7,70.7 27,66.4 40,63.6 C53,60.9 67,58.2 80,55.7 C93,53.1 107,50.7 120,48.3 C133,46.0 147,43.7 160,41.6 C173,39.4 187,37.4 200,35.4 C213,33.4 227,31.6 240,29.8 C253,28.1 267,26.4 280,24.8 C293,23.3 307,21.8 320,20.4 C333,19.0 347,17.8 360,16.6 C373,15.4 387,14.3 400,13.4 C413,12.4 427,11.5 440,10.7 C453,9.9 467,9.2 480,8.6 C493,8.1 507,7.6 520,7.2 C533,6.8 547,6.5 560,6.3 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.3 C653,6.5 667,6.8 680,7.2 C693,7.6 707,8.1 720,8.6 C733,9.2 747,9.9 760,10.7 C773,11.5 787,12.4 800,13.4 C813,14.3 827,15.4 840,16.6 C853,17.8 867,19.0 880,20.4 C893,21.8 907,23.3 920,24.8 C933,26.4 947,28.1 960,29.8 C973,31.6 987,33.4 1000,35.4 C1013,37.4 1027,39.4 1040,41.6 C1053,43.7 1067,46.0 1080,48.3 C1093,50.7 1107,53.1 1120,55.7 C1133,58.2 1147,60.9 1160,63.6 C1173,66.4 1193,70.7 1200,72.2 L1200,106 L0,106 Z\" style=\"fill:var(--qtd-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,88.2 C7,86.7 27,82.4 40,79.6 C53,76.9 67,74.2 80,71.7 C93,69.1 107,66.7 120,64.3 C133,62.0 147,59.7 160,57.6 C173,55.4 187,53.4 200,51.4 C213,49.4 227,47.6 240,45.8 C253,44.1 267,42.4 280,40.8 C293,39.3 307,37.8 320,36.4 C333,35.0 347,33.8 360,32.6 C373,31.4 387,30.3 400,29.4 C413,28.4 427,27.5 440,26.7 C453,25.9 467,25.2 480,24.6 C493,24.1 507,23.6 520,23.2 C533,22.8 547,22.5 560,22.3 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.3 C653,22.5 667,22.8 680,23.2 C693,23.6 707,24.1 720,24.6 C733,25.2 747,25.9 760,26.7 C773,27.5 787,28.4 800,29.4 C813,30.3 827,31.4 840,32.6 C853,33.8 867,35.0 880,36.4 C893,37.8 907,39.3 920,40.8 C933,42.4 947,44.1 960,45.8 C973,47.6 987,49.4 1000,51.4 C1013,53.4 1027,55.4 1040,57.6 C1053,59.7 1067,62.0 1080,64.3 C1093,66.7 1107,69.1 1120,71.7 C1133,74.2 1147,76.9 1160,79.6 C1173,82.4 1193,86.7 1200,88.2 L1200,106 L0,106 Z\" style=\"fill:var(--qtd-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-primary)",
+      "padding": "96px 0",
+      "width": "100%"
+     },
+     "blockId": "5b64cbb0c",
+     "blockName": "cta",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtd-container)",
+        "paddingLeft": "var(--qtd-gutter)",
+        "paddingRight": "var(--qtd-gutter)",
+        "width": "100%"
+       },
+       "blockId": "3f3e13542",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "63428c3b4",
+         "blockName": "closing",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtd-background)",
+            "fontFamily": "var(--qtd-font-heading)",
+            "fontSize": "2.75rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 16px",
+            "maxWidth": "40rem",
+            "textAlign": "center"
+           },
+           "blockId": "b5b797edb",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Découvrez notre <em style=\"font-style: italic; color: var(--qtd-secondary)\">cabinet</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(255, 255, 255, 0.8)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 32px",
+            "maxWidth": "34rem",
+            "textAlign": "center"
+           },
+           "blockId": "84bc5e0a8",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Prenez rendez-vous pour une visite, et découvrez un lieu pensé pour votre confort, dans la calme de votre quartier."
+          },
+          {
+           "attributes": {
+            "href": "prendre_rendez_vous"
+           },
+           "blockId": "e2aa66ab5",
+           "blockName": "button",
+           "classes": [
+            "u-btn",
+            "u-btn--secondary"
+           ],
+           "element": "a",
+           "innerHTML": "Prendre rendez-vous"
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtd-gutter-phone)",
+        "paddingRight": "var(--qtd-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "64px 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-primary)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "dc6d49f243",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.6 27,72.2 40,69.4 C53,66.7 67,64.0 80,61.5 C93,58.9 107,56.5 120,54.1 C133,51.7 147,49.5 160,47.3 C173,45.1 187,43.1 200,41.1 C213,39.1 227,37.3 240,35.5 C253,33.7 267,32.0 280,30.5 C293,28.9 307,27.4 320,26.0 C333,24.7 347,23.4 360,22.2 C373,21.0 387,19.9 400,19.0 C413,18.0 427,17.1 440,16.3 C453,15.5 467,14.8 480,14.2 C493,13.6 507,13.2 520,12.8 C533,12.4 547,12.1 560,11.9 C573,11.7 587,11.6 600,11.6 C613,11.6 627,11.7 640,11.9 C653,12.1 667,12.4 680,12.8 C693,13.2 707,13.6 720,14.2 C733,14.8 747,15.5 760,16.3 C773,17.1 787,18.0 800,19.0 C813,19.9 827,21.0 840,22.2 C853,23.4 867,24.7 880,26.0 C893,27.4 907,28.9 920,30.5 C933,32.0 947,33.7 960,35.5 C973,37.3 987,39.1 1000,41.1 C1013,43.1 1027,45.1 1040,47.3 C1053,49.5 1067,51.7 1080,54.1 C1093,56.5 1107,58.9 1120,61.5 C1133,64.0 1147,66.7 1160,69.4 C1173,72.2 1193,76.6 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:#16343b\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.6 27,88.2 40,85.4 C53,82.7 67,80.0 80,77.5 C93,74.9 107,72.5 120,70.1 C133,67.7 147,65.5 160,63.3 C173,61.1 187,59.1 200,57.1 C213,55.1 227,53.3 240,51.5 C253,49.7 267,48.0 280,46.5 C293,44.9 307,43.4 320,42.0 C333,40.7 347,39.4 360,38.2 C373,37.0 387,35.9 400,35.0 C413,34.0 427,33.1 440,32.3 C453,31.5 467,30.8 480,30.2 C493,29.6 507,29.2 520,28.8 C533,28.4 547,28.1 560,27.9 C573,27.7 587,27.6 600,27.6 C613,27.6 627,27.7 640,27.9 C653,28.1 667,28.4 680,28.8 C693,29.2 707,29.6 720,30.2 C733,30.8 747,31.5 760,32.3 C773,33.1 787,34.0 800,35.0 C813,35.9 827,37.0 840,38.2 C853,39.4 867,40.7 880,42.0 C893,43.4 907,44.9 920,46.5 C933,48.0 947,49.7 960,51.5 C973,53.3 987,55.1 1000,57.1 C1013,59.1 1027,61.1 1040,63.3 C1053,65.5 1067,67.7 1080,70.1 C1093,72.5 1107,74.9 1120,77.5 C1133,80.0 1147,82.7 1160,85.4 C1173,88.2 1193,92.6 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:#16343b\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-10-31 17:58:08.543473",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Au cœur de votre quartier, le Cabinet Dentaire du Parc accueille chacun de ses patients dans un lieu pensé pour la tranquillité.",
+ "modified": "2026-10-31 17:58:08.545840",
+ "modified_by": "Administrator",
+ "name": "page-cbe509f4",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-cbe509f4",
+ "page_title": "Le cabinet",
+ "preview": "/builder_assets/cabinet_dentaire/page-cbe509f4/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/cabinet_dentaire/le_cabinet",
+ "staging": 0,
+ "template_group": "cabinet_dentaire"
+}

@@ -1,0 +1,720 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--qtg-background)",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-background)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "3365cd0284",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-text)\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-text)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-text)",
+      "color": "var(--qtg-background)",
+      "padding": "4rem 0",
+      "width": "100%"
+     },
+     "blockId": "f4ddc8414",
+     "blockName": "statement",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtg-container)",
+        "paddingLeft": "var(--qtg-gutter)",
+        "paddingRight": "var(--qtg-gutter)",
+        "width": "100%"
+       },
+       "blockId": "978b54e2e",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "gap": "1rem",
+          "marginBottom": "2.5rem",
+          "width": "100%"
+         },
+         "blockId": "63f3c00ff",
+         "blockName": "spec-header",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "color-mix(in srgb, var(--qtg-secondary) 90%, black)",
+            "fontFamily": "DM Sans",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.2em"
+           },
+           "blockId": "16246db4c",
+           "blockName": "spec-code",
+           "element": "span",
+           "innerHTML": "/01"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtg-primary)",
+            "flex": "1",
+            "height": "2px"
+           },
+           "blockId": "2aa76ed3a",
+           "blockName": "spec-rule",
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "flexWrap": "wrap"
+         }
+        },
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "maxWidth": "65ch"
+         },
+         "blockId": "b266bfc7b",
+         "blockName": "statement-body",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtg-accent)",
+            "fontFamily": "var(--qtg-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.6",
+            "margin": "0"
+           },
+           "blockId": "e26a950b5",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Rendez-vous sous quarante-huit heures. Remplissez le formulaire ci-dessous pour réserver un créneau. Indiquez votre véhicule, la date qui vous convient et la nature de l’intervention, et nous vous rappelons pour confirmer le créneau. Les pièces sont d’origine ou équivalentes, au choix, et le devis est annoncé avant le début des travaux."
+          }
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtg-gutter-phone)",
+        "paddingRight": "var(--qtg-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "2rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-text)",
+      "height": "clamp(22px, 3.6vw, 46px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "e5e8cd405b",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,94 L1200,6\" fill=\"none\" style=\"stroke:var(--qtg-accent)\" stroke-width=\"1.25\" stroke-opacity=\"0.5\" vector-effect=\"non-scaling-stroke\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-text)",
+      "color": "var(--qtg-background)",
+      "padding": "4rem 0",
+      "width": "100%"
+     },
+     "blockId": "c404ebd0d",
+     "blockName": "contact-split",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtg-container)",
+        "paddingLeft": "var(--qtg-gutter)",
+        "paddingRight": "var(--qtg-gutter)",
+        "width": "100%"
+       },
+       "blockId": "5dff3a0e5",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "gap": "1rem",
+          "marginBottom": "2.5rem",
+          "width": "100%"
+         },
+         "blockId": "580bf7af6",
+         "blockName": "spec-header",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "color-mix(in srgb, var(--qtg-secondary) 90%, black)",
+            "fontFamily": "DM Sans",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.2em"
+           },
+           "blockId": "cefb1eeeb",
+           "blockName": "spec-code",
+           "element": "span",
+           "innerHTML": "/02"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtg-primary)",
+            "flex": "1",
+            "height": "2px"
+           },
+           "blockId": "fa473a504",
+           "blockName": "spec-rule",
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "flexWrap": "wrap"
+         }
+        },
+        {
+         "baseStyles": {
+          "alignItems": "start",
+          "display": "grid",
+          "gap": "3rem",
+          "gridTemplateColumns": "minmax(0, 5fr) minmax(0, 7fr)"
+         },
+         "blockId": "1565952c7",
+         "blockName": "pair",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "c8e357901",
+           "blockName": "details",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtg-primary)",
+              "fontFamily": "var(--qtg-font-heading)",
+              "fontSize": "2.5rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.01em",
+              "lineHeight": "1.15",
+              "margin": "0 0 1.25rem",
+              "maxWidth": "26rem"
+             },
+             "blockId": "7c653ea35",
+             "blockName": "heading",
+             "element": "h2",
+             "innerHTML": "Réserver un <em style=\"font-style: italic; color: var(--qtg-secondary)\">créneau</em>",
+             "mobileStyles": {
+              "fontSize": "1.75rem",
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtg-accent)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1.125rem",
+              "lineHeight": "1.6",
+              "margin": "0 0 2.5rem",
+              "maxWidth": "26rem"
+             },
+             "blockId": "4d34c9f83",
+             "blockName": "lead",
+             "element": "p",
+             "innerHTML": "Indiquez votre véhicule, la date qui vous convient et la nature de l’intervention. Nous vous répondons sous quarante-huit heures."
+            },
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "borderBottom": "1px solid rgba(31, 42, 54, 0.12)",
+              "display": "flex",
+              "gap": "1rem",
+              "padding": "1rem 0"
+             },
+             "blockId": "3c888e482",
+             "blockName": "spec-item",
+             "children": [
+              {
+               "baseStyles": {
+                "backgroundColor": "var(--qtg-secondary)",
+                "flexShrink": "0",
+                "height": "1.5rem",
+                "width": "4px"
+               },
+               "blockId": "cb13643fe",
+               "blockName": "tick",
+               "element": "div"
+              },
+              {
+               "baseStyles": {
+                "alignItems": "flex-start",
+                "display": "flex",
+                "flexDirection": "column"
+               },
+               "blockId": "34a58fbb7",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "var(--qtg-primary)",
+                  "fontFamily": "var(--qtg-font-heading)",
+                  "fontSize": "2rem",
+                  "fontWeight": "700",
+                  "lineHeight": "1",
+                  "margin": "0"
+                 },
+                 "blockId": "5181ee20d",
+                 "blockName": "spec-value",
+                 "classes": [
+                  "u-count"
+                 ],
+                 "element": "p",
+                 "innerHTML": "48h"
+                },
+                {
+                 "baseStyles": {
+                  "color": "var(--qtg-accent)",
+                  "fontFamily": "var(--qtg-font-body)",
+                  "fontSize": "0.875rem",
+                  "margin": "0.25rem 0 0"
+                 },
+                 "blockId": "5d4b6af6e",
+                 "blockName": "spec-label",
+                 "element": "p",
+                 "innerHTML": "Confirmation de votre rendez-vous"
+                }
+               ],
+               "element": "div"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "borderBottom": "1px solid rgba(31, 42, 54, 0.12)",
+              "display": "flex",
+              "gap": "1rem",
+              "padding": "1rem 0"
+             },
+             "blockId": "c17ae3fb6",
+             "blockName": "spec-item",
+             "children": [
+              {
+               "baseStyles": {
+                "backgroundColor": "var(--qtg-secondary)",
+                "flexShrink": "0",
+                "height": "1.5rem",
+                "width": "4px"
+               },
+               "blockId": "e145ce90c",
+               "blockName": "tick",
+               "element": "div"
+              },
+              {
+               "baseStyles": {
+                "alignItems": "flex-start",
+                "display": "flex",
+                "flexDirection": "column"
+               },
+               "blockId": "12d158a6c",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "var(--qtg-primary)",
+                  "fontFamily": "var(--qtg-font-heading)",
+                  "fontSize": "2rem",
+                  "fontWeight": "700",
+                  "lineHeight": "1",
+                  "margin": "0"
+                 },
+                 "blockId": "62bb4cc77",
+                 "blockName": "spec-value",
+                 "element": "p",
+                 "innerHTML": "0 marque exclue"
+                },
+                {
+                 "baseStyles": {
+                  "color": "var(--qtg-accent)",
+                  "fontFamily": "var(--qtg-font-body)",
+                  "fontSize": "0.875rem",
+                  "margin": "0.25rem 0 0"
+                 },
+                 "blockId": "877b34aae",
+                 "blockName": "spec-label",
+                 "element": "p",
+                 "innerHTML": "Intervention sur tous les véhicules"
+                }
+               ],
+               "element": "div"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "1rem",
+              "padding": "1rem 0"
+             },
+             "blockId": "f96ad5000",
+             "blockName": "spec-item",
+             "children": [
+              {
+               "baseStyles": {
+                "backgroundColor": "var(--qtg-secondary)",
+                "flexShrink": "0",
+                "height": "1.5rem",
+                "width": "4px"
+               },
+               "blockId": "5d7e393ed",
+               "blockName": "tick",
+               "element": "div"
+              },
+              {
+               "baseStyles": {
+                "alignItems": "flex-start",
+                "display": "flex",
+                "flexDirection": "column"
+               },
+               "blockId": "13af87cca",
+               "children": [
+                {
+                 "baseStyles": {
+                  "color": "var(--qtg-primary)",
+                  "fontFamily": "var(--qtg-font-heading)",
+                  "fontSize": "2rem",
+                  "fontWeight": "700",
+                  "lineHeight": "1",
+                  "margin": "0"
+                 },
+                 "blockId": "bc61a51ba",
+                 "blockName": "spec-value",
+                 "element": "p",
+                 "innerHTML": "Devis annoncé"
+                },
+                {
+                 "baseStyles": {
+                  "color": "var(--qtg-accent)",
+                  "fontFamily": "var(--qtg-font-body)",
+                  "fontSize": "0.875rem",
+                  "margin": "0.25rem 0 0"
+                 },
+                 "blockId": "9501f24b4",
+                 "blockName": "spec-label",
+                 "element": "p",
+                 "innerHTML": "Avant le début des travaux, pièces au choix"
+                }
+               ],
+               "element": "div"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtg-text)",
+            "padding": "2.5rem",
+            "width": "100%"
+           },
+           "blockId": "371945988",
+           "blockName": "form-card",
+           "children": [
+            {
+             "blockId": "4cdb1f1a0",
+             "blockName": "form",
+             "element": "div",
+             "innerHTML": "{%- set site_form = \"qw-tpl-garage-demande-de-devis\" -%}{% include \"builder/templates/includes/site_form.html\" %}"
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "padding": "1.5rem"
+           }
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "2rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         },
+         "tabletStyles": {
+          "gap": "2.5rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtg-gutter-phone)",
+        "paddingRight": "var(--qtg-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "2rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-text)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "69807910fe",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,0 L1200,74 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,6 L1200,94 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-primary)",
+      "padding": "4rem 0",
+      "width": "100%"
+     },
+     "blockId": "057904606",
+     "blockName": "commitment",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtg-container)",
+        "paddingLeft": "var(--qtg-gutter)",
+        "paddingRight": "var(--qtg-gutter)",
+        "width": "100%"
+       },
+       "blockId": "5f129648c",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "gap": "1rem",
+          "marginBottom": "2.5rem",
+          "width": "100%"
+         },
+         "blockId": "d9803c05f",
+         "blockName": "spec-header",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtg-secondary)",
+            "fontFamily": "DM Sans",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.2em"
+           },
+           "blockId": "d2eba6cc3",
+           "blockName": "spec-code",
+           "element": "span",
+           "innerHTML": "/03"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtg-text)",
+            "flex": "1",
+            "height": "2px"
+           },
+           "blockId": "9723cc923",
+           "blockName": "spec-rule",
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "flexWrap": "wrap"
+         }
+        },
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "maxWidth": "65ch"
+         },
+         "blockId": "d28c5fc2d",
+         "blockName": "statement-body",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtg-text)",
+            "fontFamily": "var(--qtg-font-heading)",
+            "fontSize": "2.5rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.01em",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem"
+           },
+           "blockId": "c7fa1bdbc",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Rendez-vous sous <em style=\"font-style: italic; color: var(--qtg-secondary)\">quarante-huit heures</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(245, 245, 245, 0.65)",
+            "fontFamily": "var(--qtg-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.6",
+            "margin": "0"
+           },
+           "blockId": "780a4fbd2",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Nous vous confirmons votre rendez-vous sous quarante-huit heures. Nous vous rappelons pour fixer le créneau, le jour et l’heure qui vous conviennent, et nous annonçons le devis avant le début des travaux. Un véhicule de remplacement est disponible sur demande, et les pièces sont d’origine ou équivalentes, au choix."
+          }
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtg-gutter-phone)",
+        "paddingRight": "var(--qtg-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "2rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-primary)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "8f91ab262e",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:#16202b\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:#16202b\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-10-31 16:22:31.690030",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Rendez-vous sous quarante-huit heures. Remplissez le formulaire ci-dessous pour réserver un créneau.",
+ "modified": "2026-10-31 17:20:55.230320",
+ "modified_by": "Administrator",
+ "name": "page-276d234c",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-276d234c",
+ "page_title": "Prendre rendez-vous",
+ "preview": "/builder_assets/garage/page-276d234c/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/garage/prendre_rendez_vous",
+ "staging": 0,
+ "template_group": "garage"
+}

@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "cabinet_dentaire",
+ "name": "qtd-container",
+ "token_name": "Cabinet dentaire container",
+ "type": "Dimension",
+ "value": "1200px"
+}

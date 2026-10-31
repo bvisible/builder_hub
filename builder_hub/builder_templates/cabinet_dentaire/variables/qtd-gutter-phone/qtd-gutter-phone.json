@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "cabinet_dentaire",
+ "name": "qtd-gutter-phone",
+ "token_name": "Cabinet dentaire gutter phone",
+ "type": "Dimension",
+ "value": "24px"
+}

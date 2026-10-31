@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "restaurant",
+ "name": "qtr-gutter-phone",
+ "token_name": "Restaurant gutter phone",
+ "type": "Dimension",
+ "value": "24px"
+}

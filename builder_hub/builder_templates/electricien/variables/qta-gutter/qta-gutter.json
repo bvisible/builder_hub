@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "electricien",
+ "name": "qta-gutter",
+ "token_name": "Electricien gutter",
+ "type": "Dimension",
+ "value": "48px"
+}

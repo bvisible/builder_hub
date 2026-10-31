@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "garage",
+ "name": "qtg-accent",
+ "token_name": "Garage accent",
+ "type": "Color",
+ "value": "#4a5568"
+}

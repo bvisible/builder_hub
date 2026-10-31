@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "cabinet_dentaire",
+ "name": "qtd-font-heading",
+ "token_name": "Cabinet dentaire font heading",
+ "type": "Font",
+ "value": "Outfit"
+}

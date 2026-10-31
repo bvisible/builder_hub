@@ -1,0 +1,27 @@
+{
+ "description": "Un restaurant de cuisine de saison : accueil, carte, réservation de table et infos pratiques. Textes d'exemple à remplacer par les vôtres.",
+ "header_footer": {
+  "background_color": "#faf8f4",
+  "body_font": "Merriweather",
+  "heading_font": "Playfair Display",
+  "primary_color": "#4b5d3a",
+  "secondary_color": "#c8923a",
+  "text_color": "#1a1a1a"
+ },
+ "pages": [
+  {
+   "name": "page-e62d9ef9"
+  },
+  {
+   "name": "page-bdae97d4"
+  },
+  {
+   "name": "page-3d045d53"
+  },
+  {
+   "name": "page-af3643ca"
+  }
+ ],
+ "source": "hub_publish",
+ "title": "Restaurant : cuisine de saison"
+}

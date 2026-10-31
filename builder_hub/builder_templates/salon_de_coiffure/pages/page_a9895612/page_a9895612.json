@@ -1,0 +1,765 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--qtc-background)",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtc-background)",
+      "padding": "12rem 0 6rem",
+      "width": "100%"
+     },
+     "blockId": "c069a1bf7",
+     "blockName": "statement",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtc-container)",
+        "paddingLeft": "var(--qtc-gutter)",
+        "paddingRight": "var(--qtc-gutter)",
+        "width": "100%"
+       },
+       "blockId": "647f63c94",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "e6f050b7a",
+         "blockName": "statement",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtc-text)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.25rem",
+            "textAlign": "center",
+            "textTransform": "uppercase"
+           },
+           "blockId": "0c229f21a",
+           "blockName": "label",
+           "element": "p",
+           "innerHTML": "L’ÉQUIPE"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtc-secondary)",
+            "border": "none",
+            "height": "1px",
+            "margin": "0 0 1.5rem",
+            "width": "2.5rem"
+           },
+           "blockId": "bea0e8059",
+           "blockName": "rule",
+           "element": "hr"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtc-primary)",
+            "fontFamily": "var(--qtc-font-heading)",
+            "fontSize": "2.5rem",
+            "fontWeight": "700",
+            "lineHeight": "1.2",
+            "margin": "0 0 1.5rem",
+            "maxWidth": "46rem",
+            "textAlign": "center"
+           },
+           "blockId": "75f580a0d",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Une <em style=\"font-style: italic; color: var(--qtc-secondary)\">équipe</em> de quatre coiffeuses, unie par la même exigence de douceur et de précision.",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "1.0625rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "38rem",
+            "textAlign": "center"
+           },
+           "blockId": "be6b19906",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Chacune de nos coiffeuses a été formée aux colorations sans ammoniaque et aux coupes de précision. Ensemble, elles vous accueillent du mardi au samedi, avec la même attention portée au geste, au regard et au détail. La consultation d’une demi-heure, offerte, est l’occasion de parler de vos envies, de votre peau et de votre façon de vivre votre coiffure, avant de tracer la suite."
+          }
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtc-gutter-phone)",
+        "paddingRight": "var(--qtc-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "5rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtc-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "58de28c8be",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.8 27,73.1 40,70.8 C53,68.5 67,66.3 80,64.1 C93,62.0 107,59.9 120,57.9 C133,55.9 147,54.0 160,52.2 C173,50.4 187,48.7 200,47.0 C213,45.4 227,43.8 240,42.3 C253,40.8 267,39.4 280,38.1 C293,36.8 307,35.5 320,34.4 C333,33.2 347,32.1 360,31.1 C373,30.2 387,29.2 400,28.4 C413,27.6 427,26.9 440,26.2 C453,25.5 467,25.0 480,24.5 C493,24.0 507,23.5 520,23.2 C533,22.9 547,22.6 560,22.5 C573,22.3 587,22.2 600,22.2 C613,22.2 627,22.3 640,22.5 C653,22.6 667,22.9 680,23.2 C693,23.5 707,24.0 720,24.5 C733,25.0 747,25.5 760,26.2 C773,26.9 787,27.6 800,28.4 C813,29.2 827,30.2 840,31.1 C853,32.1 867,33.2 880,34.4 C893,35.5 907,36.8 920,38.1 C933,39.4 947,40.8 960,42.3 C973,43.8 987,45.4 1000,47.0 C1013,48.7 1027,50.4 1040,52.2 C1053,54.0 1067,55.9 1080,57.9 C1093,59.9 1107,62.0 1120,64.1 C1133,66.3 1147,68.5 1160,70.8 C1173,73.1 1193,76.8 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:#ffffff\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.8 27,89.1 40,86.8 C53,84.5 67,82.3 80,80.1 C93,78.0 107,75.9 120,73.9 C133,71.9 147,70.0 160,68.2 C173,66.4 187,64.7 200,63.0 C213,61.4 227,59.8 240,58.3 C253,56.8 267,55.4 280,54.1 C293,52.8 307,51.5 320,50.4 C333,49.2 347,48.1 360,47.1 C373,46.2 387,45.2 400,44.4 C413,43.6 427,42.9 440,42.2 C453,41.5 467,41.0 480,40.5 C493,40.0 507,39.5 520,39.2 C533,38.9 547,38.6 560,38.5 C573,38.3 587,38.2 600,38.2 C613,38.2 627,38.3 640,38.5 C653,38.6 667,38.9 680,39.2 C693,39.5 707,40.0 720,40.5 C733,41.0 747,41.5 760,42.2 C773,42.9 787,43.6 800,44.4 C813,45.2 827,46.2 840,47.1 C853,48.1 867,49.2 880,50.4 C893,51.5 907,52.8 920,54.1 C933,55.4 947,56.8 960,58.3 C973,59.8 987,61.4 1000,63.0 C1013,64.7 1027,66.4 1040,68.2 C1053,70.0 1067,71.9 1080,73.9 C1093,75.9 1107,78.0 1120,80.1 C1133,82.3 1147,84.5 1160,86.8 C1173,89.1 1193,92.8 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:#ffffff\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#ffffff",
+      "padding": "8rem 0",
+      "width": "100%"
+     },
+     "blockId": "aedcf4815",
+     "blockName": "team",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtc-container)",
+        "paddingLeft": "var(--qtc-gutter)",
+        "paddingRight": "var(--qtc-gutter)",
+        "width": "100%"
+       },
+       "blockId": "8944ce953",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "marginBottom": "3.5rem"
+         },
+         "blockId": "ee5879774",
+         "blockName": "head",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtc-text)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1rem",
+            "textTransform": "uppercase"
+           },
+           "blockId": "bfb97555d",
+           "blockName": "label",
+           "element": "p",
+           "innerHTML": "LES COIFFEUSES"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtc-secondary)",
+            "border": "none",
+            "height": "1px",
+            "margin": "0 0 1.5rem",
+            "width": "2.5rem"
+           },
+           "blockId": "819c70fb8",
+           "blockName": "rule",
+           "element": "hr"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtc-text)",
+            "fontFamily": "var(--qtc-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "34rem"
+           },
+           "blockId": "751f8272c",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Quatre regards, une <em style=\"font-style: italic; color: var(--qtc-primary)\">même main</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.65)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "1.0625rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "34rem"
+           },
+           "blockId": "6b4a0a58a",
+           "blockName": "head-text",
+           "element": "p",
+           "innerHTML": "Claire, Amélie, Sophie et Lucie forment une équipe soudée depuis des années. Chacune a sa spécialité, toutes partagent le même goût du détail, la même exigence de douceur, et la même conviction qu’une belle couleur commence par une écoute attentive."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "blockId": "f828bb366",
+         "blockName": "people",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "11eee00f2",
+           "blockName": "person",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "backgroundColor": "var(--qtc-primary)",
+              "borderRadius": "50%",
+              "color": "var(--qtc-background)",
+              "display": "flex",
+              "fontFamily": "var(--qtc-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "height": "3.75rem",
+              "justifyContent": "center",
+              "margin": "0 0 1.5rem",
+              "width": "3.75rem"
+             },
+             "blockId": "1b019b3b3",
+             "blockName": "monogram",
+             "element": "span",
+             "innerHTML": "C"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtc-primary)",
+              "fontFamily": "var(--qtc-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.5rem"
+             },
+             "blockId": "b846482b3",
+             "blockName": "person-name",
+             "element": "h3",
+             "innerHTML": "Claire",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtc-text)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "0.9rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 1rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "83615bb61",
+             "blockName": "person-role",
+             "element": "p",
+             "innerHTML": "Coloriste"
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0",
+              "maxWidth": "20rem"
+             },
+             "blockId": "c9ebcf966",
+             "blockName": "person-text",
+             "element": "p",
+             "innerHTML": "Spécialiste des colorations sans ammoniaque, Claire travaille les tons profonds et les reflets dorés avec une précision de joaillière, pour des résultats lumineux et respectueux de la fibre capillaire."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "d6a2b8d1a",
+           "blockName": "person",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "backgroundColor": "var(--qtc-primary)",
+              "borderRadius": "50%",
+              "color": "var(--qtc-background)",
+              "display": "flex",
+              "fontFamily": "var(--qtc-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "height": "3.75rem",
+              "justifyContent": "center",
+              "margin": "0 0 1.5rem",
+              "width": "3.75rem"
+             },
+             "blockId": "9401c2293",
+             "blockName": "monogram",
+             "element": "span",
+             "innerHTML": "A"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtc-primary)",
+              "fontFamily": "var(--qtc-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.5rem"
+             },
+             "blockId": "c0cdb1fc7",
+             "blockName": "person-name",
+             "element": "h3",
+             "innerHTML": "Amélie",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtc-text)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "0.9rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 1rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "52465312e",
+             "blockName": "person-role",
+             "element": "p",
+             "innerHTML": "Styliste"
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0",
+              "maxWidth": "20rem"
+             },
+             "blockId": "0b25e0681",
+             "blockName": "person-text",
+             "element": "p",
+             "innerHTML": "Amélie dessine des coupes qui s’intègrent au visage et au quotidien de chacune, en écoutant d’abord la façon dont vous vivez votre coiffure, avant de tracer la suite."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "90e93cd09",
+           "blockName": "person",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "backgroundColor": "var(--qtc-primary)",
+              "borderRadius": "50%",
+              "color": "var(--qtc-background)",
+              "display": "flex",
+              "fontFamily": "var(--qtc-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "height": "3.75rem",
+              "justifyContent": "center",
+              "margin": "0 0 1.5rem",
+              "width": "3.75rem"
+             },
+             "blockId": "e98956940",
+             "blockName": "monogram",
+             "element": "span",
+             "innerHTML": "S"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtc-primary)",
+              "fontFamily": "var(--qtc-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.5rem"
+             },
+             "blockId": "c5ce96507",
+             "blockName": "person-name",
+             "element": "h3",
+             "innerHTML": "Sophie",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtc-text)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "0.9rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 1rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "6a9a7eb47",
+             "blockName": "person-role",
+             "element": "p",
+             "innerHTML": "Coloriste"
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0",
+              "maxWidth": "20rem"
+             },
+             "blockId": "d9c8d6ae1",
+             "blockName": "person-text",
+             "element": "p",
+             "innerHTML": "Sophie se consacre aux balayages et aux dégradés clairs, travaillés en douceur pour préserver la matière et laisser la lumière traverser la chevelure sans la fragiliser."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "94ab1136d",
+           "blockName": "person",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "backgroundColor": "var(--qtc-primary)",
+              "borderRadius": "50%",
+              "color": "var(--qtc-background)",
+              "display": "flex",
+              "fontFamily": "var(--qtc-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "height": "3.75rem",
+              "justifyContent": "center",
+              "margin": "0 0 1.5rem",
+              "width": "3.75rem"
+             },
+             "blockId": "867b3b5f9",
+             "blockName": "monogram",
+             "element": "span",
+             "innerHTML": "L"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtc-primary)",
+              "fontFamily": "var(--qtc-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.5rem"
+             },
+             "blockId": "8d5ef913e",
+             "blockName": "person-name",
+             "element": "h3",
+             "innerHTML": "Lucie",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtc-text)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "0.9rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 1rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "cbf43c9f7",
+             "blockName": "person-role",
+             "element": "p",
+             "innerHTML": "Styliste"
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qtc-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0",
+              "maxWidth": "20rem"
+             },
+             "blockId": "dfd1dc366",
+             "blockName": "person-text",
+             "element": "p",
+             "innerHTML": "Lucie accompagne les mariages et les événements, des essais au jour J, avec une attention constante portée aux détails et au confort de chaque cliente, du premier fil au dernier geste."
+            }
+           ],
+           "classes": [
+            "u-card"
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--2",
+          "u-reveal-group"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtc-gutter-phone)",
+        "paddingRight": "var(--qtc-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "5rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#ffffff",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "e40e392ac5",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.8 27,73.3 40,71.0 C53,68.8 67,66.6 80,64.5 C93,62.4 107,60.4 120,58.5 C133,56.5 147,54.7 160,52.9 C173,51.1 187,49.5 200,47.8 C213,46.2 227,44.7 240,43.3 C253,41.8 267,40.4 280,39.2 C293,37.9 307,36.7 320,35.5 C333,34.4 347,33.4 360,32.4 C373,31.4 387,30.6 400,29.8 C413,28.9 427,28.2 440,27.6 C453,26.9 467,26.4 480,25.9 C493,25.4 507,25.0 520,24.7 C533,24.4 547,24.1 560,24.0 C573,23.8 587,23.7 600,23.7 C613,23.7 627,23.8 640,24.0 C653,24.1 667,24.4 680,24.7 C693,25.0 707,25.4 720,25.9 C733,26.4 747,26.9 760,27.6 C773,28.2 787,28.9 800,29.8 C813,30.6 827,31.4 840,32.4 C853,33.4 867,34.4 880,35.5 C893,36.7 907,37.9 920,39.2 C933,40.4 947,41.8 960,43.3 C973,44.7 987,46.2 1000,47.8 C1013,49.5 1027,51.1 1040,52.9 C1053,54.7 1067,56.5 1080,58.5 C1093,60.4 1107,62.4 1120,64.5 C1133,66.6 1147,68.8 1160,71.0 C1173,73.3 1193,76.8 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtc-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.8 27,89.3 40,87.0 C53,84.8 67,82.6 80,80.5 C93,78.4 107,76.4 120,74.5 C133,72.5 147,70.7 160,68.9 C173,67.1 187,65.5 200,63.8 C213,62.2 227,60.7 240,59.3 C253,57.8 267,56.4 280,55.2 C293,53.9 307,52.7 320,51.5 C333,50.4 347,49.4 360,48.4 C373,47.4 387,46.6 400,45.8 C413,44.9 427,44.2 440,43.6 C453,42.9 467,42.4 480,41.9 C493,41.4 507,41.0 520,40.7 C533,40.4 547,40.1 560,40.0 C573,39.8 587,39.7 600,39.7 C613,39.7 627,39.8 640,40.0 C653,40.1 667,40.4 680,40.7 C693,41.0 707,41.4 720,41.9 C733,42.4 747,42.9 760,43.6 C773,44.2 787,44.9 800,45.8 C813,46.6 827,47.4 840,48.4 C853,49.4 867,50.4 880,51.5 C893,52.7 907,53.9 920,55.2 C933,56.4 947,57.8 960,59.3 C973,60.7 987,62.2 1000,63.8 C1013,65.5 1027,67.1 1040,68.9 C1053,70.7 1067,72.5 1080,74.5 C1093,76.4 1107,78.4 1120,80.5 C1133,82.6 1147,84.8 1160,87.0 C1173,89.3 1193,92.8 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtc-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtc-primary)",
+      "color": "var(--qtc-background)",
+      "padding": "8rem 0",
+      "width": "100%"
+     },
+     "blockId": "7a0de3f64",
+     "blockName": "cta",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtc-container)",
+        "paddingLeft": "var(--qtc-gutter)",
+        "paddingRight": "var(--qtc-gutter)",
+        "width": "100%"
+       },
+       "blockId": "26ae6d52a",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "e437637d2",
+         "blockName": "closing",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtc-secondary)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.25rem",
+            "textAlign": "center",
+            "textTransform": "uppercase"
+           },
+           "blockId": "67c126b21",
+           "blockName": "label",
+           "element": "p",
+           "innerHTML": "PRENDRE RENDEZ-VOUS"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtc-secondary)",
+            "border": "none",
+            "height": "1px",
+            "margin": "0 0 1.5rem",
+            "width": "2.5rem"
+           },
+           "blockId": "436ca8616",
+           "blockName": "rule",
+           "element": "hr"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtc-background)",
+            "fontFamily": "var(--qtc-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "40rem",
+            "textAlign": "center"
+           },
+           "blockId": "948c2732a",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Préparez votre <em style=\"font-style: italic; color: var(--qtc-secondary)\">moment</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(250, 246, 242, 0.85)",
+            "fontFamily": "var(--qtc-font-body)",
+            "fontSize": "1.0625rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 2.5rem",
+            "maxWidth": "34rem",
+            "textAlign": "center"
+           },
+           "blockId": "e1acfffa6",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Trouvez votre moment avec nous, du mardi au samedi. La consultation d’une demi-heure est offerte, et la couleur se choisit ensemble, avec la même exigence de douceur que la coupe."
+          },
+          {
+           "attributes": {
+            "href": "prendre_rendez_vous"
+           },
+           "blockId": "04ce59e3c",
+           "blockName": "button",
+           "classes": [
+            "u-btn",
+            "u-btn--secondary"
+           ],
+           "element": "a",
+           "innerHTML": "Prendre rendez-vous"
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtc-gutter-phone)",
+        "paddingRight": "var(--qtc-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "5rem 0"
+     }
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-10-31 17:52:39.174307",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Chacune de nos coiffeuses a été formée aux colorations sans ammoniaque et aux coupes de précision.",
+ "modified": "2026-10-31 17:52:39.175878",
+ "modified_by": "Administrator",
+ "name": "page-a9895612",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-a9895612",
+ "page_title": "L'équipe",
+ "preview": "/builder_assets/salon_de_coiffure/page-a9895612/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/salon_de_coiffure/l'équipe",
+ "staging": 0,
+ "template_group": "salon_de_coiffure"
+}

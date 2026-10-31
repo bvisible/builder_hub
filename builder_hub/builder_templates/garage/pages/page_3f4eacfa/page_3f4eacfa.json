@@ -1,0 +1,1238 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--qtg-primary)",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-background)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "bdf7bb29cc",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:#f4f6f8\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:#f4f6f8\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#f4f6f8",
+      "color": "var(--qtg-background)",
+      "padding": "4rem 0",
+      "width": "100%"
+     },
+     "blockId": "708b70b5e",
+     "blockName": "statement",
+     "children": [
+      {
+       "baseStyles": {
+        "display": "flex",
+        "justifyContent": "center",
+        "margin": "0 auto",
+        "maxWidth": "var(--qtg-container)",
+        "paddingLeft": "var(--qtg-gutter)",
+        "paddingRight": "var(--qtg-gutter)",
+        "width": "100%"
+       },
+       "blockId": "f8014de9e",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "maxWidth": "65ch",
+          "width": "100%"
+         },
+         "blockId": "c201d7534",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "color-mix(in srgb, var(--qtg-secondary) 90%, black)",
+            "fontFamily": "var(--qtg-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.25em"
+           },
+           "blockId": "ba3275193",
+           "blockName": "index-code",
+           "element": "span",
+           "innerHTML": "/01"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtg-primary)",
+            "height": "2px",
+            "margin": "0.75rem 0 2rem",
+            "width": "100%"
+           },
+           "blockId": "476d23f14",
+           "blockName": "rule",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtg-primary)",
+            "fontFamily": "var(--qtg-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.6",
+            "margin": "0"
+           },
+           "blockId": "559d9a957",
+           "blockName": "lead",
+           "element": "p",
+           "innerHTML": "Une infrastructure pensée pour la précision. Nos équipements sont calibrés pour le diagnostic électronique, la géométrie et l'entretien des véhicules hybrides et électriques, garantissant une intervention sûre et conforme aux spécifications constructeur."
+          }
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtg-gutter-phone)",
+        "paddingRight": "var(--qtg-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "2rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#f4f6f8",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "c139a459b1",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,0 L1200,74 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-background)\" fill-opacity=\"0.28\"/><path d=\"M0,6 L1200,94 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-background)",
+      "padding": "4rem 0",
+      "width": "100%"
+     },
+     "blockId": "f6a473812",
+     "blockName": "pair-framed",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtg-container)",
+        "paddingLeft": "var(--qtg-gutter)",
+        "paddingRight": "var(--qtg-gutter)",
+        "width": "100%"
+       },
+       "blockId": "07893e28e",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "var(--qtg-secondary)",
+          "fontFamily": "var(--qtg-font-body)",
+          "fontSize": "0.75rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.25em"
+         },
+         "blockId": "bf5fcb231",
+         "blockName": "index-code",
+         "element": "span",
+         "innerHTML": "/02"
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtg-text)",
+          "height": "2px",
+          "margin": "0.75rem 0 2.5rem",
+          "width": "100%"
+         },
+         "blockId": "3cfdcc4e8",
+         "blockName": "rule",
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "grid",
+          "gap": "3rem",
+          "gridTemplateColumns": "minmax(0, 6fr) minmax(0, 4fr)"
+         },
+         "blockId": "55a16d305",
+         "blockName": "pair",
+         "children": [
+          {
+           "baseStyles": {
+            "boxShadow": "14px 14px 0 0 var(--qtg-secondary)"
+           },
+           "blockId": "758662f84",
+           "blockName": "frame",
+           "children": [
+            {
+             "attributes": {
+              "alt": "Plancher de béton propre, outils suspendus en rangée, bacs de rangement alignés dans un atelier de mécanique, lumière neutre et régulière.",
+              "src": "/builder_assets/garage/page-3f4eacfa/hubpub-garage-gen_290b0cac.png"
+             },
+             "baseStyles": {
+              "aspectRatio": "4/3",
+              "display": "block",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "c2e85d9e3",
+             "blockName": "photo",
+             "classes": [
+              "u-media"
+             ],
+             "element": "img"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "boxShadow": "8px 8px 0 0 var(--qtg-secondary)"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "d6b3bc0e7",
+           "blockName": "copy",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtg-text)",
+              "fontFamily": "var(--qtg-font-heading)",
+              "fontSize": "2.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.1",
+              "margin": "0 0 1.25rem",
+              "maxWidth": "30rem"
+             },
+             "blockId": "c8dd6b69c",
+             "blockName": "heading",
+             "element": "h2",
+             "innerHTML": "L'ESPACE DE TRAVAIL",
+             "mobileStyles": {
+              "fontSize": "1.75rem",
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtg-text)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1.125rem",
+              "lineHeight": "1.6",
+              "margin": "0 0 1rem",
+              "maxWidth": "30rem"
+             },
+             "blockId": "a734ba7cf",
+             "blockName": "lead",
+             "element": "p",
+             "innerHTML": "Un atelier clair et organisé, où chaque poste est dédié à un type d'intervention spécifique, de la carrosserie légère à la mécanique générale."
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(245, 245, 245, 0.72)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0",
+              "maxWidth": "30rem"
+             },
+             "blockId": "de3b5ea6a",
+             "blockName": "text",
+             "element": "p",
+             "innerHTML": "Le sol est libre, les équipements sont repérés par zone. Cette organisation réduit les temps de passage d'une intervention à l'autre et limite les manipulations inutiles, au bénéfice de la précision du travail et de la durée de vie des pièces."
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "2rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         },
+         "tabletStyles": {
+          "gap": "2.5rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtg-gutter-phone)",
+        "paddingRight": "var(--qtg-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "2rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-background)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "751502991d",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,0 L1200,74 L1200,106 L0,106 Z\" style=\"fill:#f4f6f8\" fill-opacity=\"0.28\"/><path d=\"M0,6 L1200,94 L1200,106 L0,106 Z\" style=\"fill:#f4f6f8\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#f4f6f8",
+      "color": "var(--qtg-background)",
+      "padding": "4rem 0",
+      "width": "100%"
+     },
+     "blockId": "7f3621909",
+     "blockName": "figures-band",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtg-container)",
+        "paddingLeft": "var(--qtg-gutter)",
+        "paddingRight": "var(--qtg-gutter)",
+        "width": "100%"
+       },
+       "blockId": "90e1308fb",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "color-mix(in srgb, var(--qtg-secondary) 90%, black)",
+          "fontFamily": "var(--qtg-font-body)",
+          "fontSize": "0.75rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.25em"
+         },
+         "blockId": "d678ecf9b",
+         "blockName": "index-code",
+         "element": "span",
+         "innerHTML": "/03"
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtg-primary)",
+          "height": "2px",
+          "margin": "0.75rem 0 2.5rem",
+          "width": "100%"
+         },
+         "blockId": "fbd3f6342",
+         "blockName": "rule",
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtg-primary)",
+          "fontFamily": "var(--qtg-font-heading)",
+          "fontSize": "2.5rem",
+          "fontWeight": "700",
+          "lineHeight": "1.1",
+          "margin": "0 0 2rem"
+         },
+         "blockId": "7104fabd9",
+         "blockName": "heading",
+         "element": "h2",
+         "innerHTML": "CAPACITÉS TECHNIQUES",
+         "mobileStyles": {
+          "fontSize": "1.75rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "blockId": "b73e67859",
+         "blockName": "figures",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderLeft": "1px solid rgba(31, 42, 54, 0.12)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "0 0 0 1.5rem"
+           },
+           "blockId": "ebf185dd8",
+           "blockName": "figure-item",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "0.75rem",
+              "margin": "0 0 0.5rem"
+             },
+             "blockId": "67c29d308",
+             "blockName": "figure-row",
+             "children": [
+              {
+               "baseStyles": {
+                "backgroundColor": "var(--qtg-secondary)",
+                "display": "inline-block",
+                "height": "1.5rem",
+                "width": "4px"
+               },
+               "blockId": "a570400dc",
+               "blockName": "tick",
+               "element": "span"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtg-primary)",
+                "fontFamily": "var(--qtg-font-heading)",
+                "fontSize": "4rem",
+                "fontWeight": "700",
+                "lineHeight": "1",
+                "margin": "0"
+               },
+               "blockId": "b21e47af8",
+               "blockName": "figure",
+               "classes": [
+                "u-count"
+               ],
+               "element": "p",
+               "innerHTML": "100%",
+               "mobileStyles": {
+                "fontSize": "3rem"
+               }
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtg-primary)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.5",
+              "margin": "0",
+              "maxWidth": "14rem"
+             },
+             "blockId": "94490961d",
+             "blockName": "figure-label",
+             "element": "p",
+             "innerHTML": "Garage indépendant, sans attache constructeur"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderLeft": "1px solid rgba(31, 42, 54, 0.12)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "0 0 0 1.5rem"
+           },
+           "blockId": "51b30831b",
+           "blockName": "figure-item",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "0.75rem",
+              "margin": "0 0 0.5rem"
+             },
+             "blockId": "3f460dc4e",
+             "blockName": "figure-row",
+             "children": [
+              {
+               "baseStyles": {
+                "backgroundColor": "var(--qtg-secondary)",
+                "display": "inline-block",
+                "height": "1.5rem",
+                "width": "4px"
+               },
+               "blockId": "d469fa2d9",
+               "blockName": "tick",
+               "element": "span"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtg-primary)",
+                "fontFamily": "var(--qtg-font-heading)",
+                "fontSize": "4rem",
+                "fontWeight": "700",
+                "lineHeight": "1",
+                "margin": "0"
+               },
+               "blockId": "d73bbd065",
+               "blockName": "figure",
+               "element": "p",
+               "innerHTML": "0",
+               "mobileStyles": {
+                "fontSize": "3rem"
+               }
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtg-primary)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.5",
+              "margin": "0",
+              "maxWidth": "14rem"
+             },
+             "blockId": "bcdd4e3c7",
+             "blockName": "figure-label",
+             "element": "p",
+             "innerHTML": "Marque exclue, toutes marques acceptées"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderLeft": "1px solid rgba(31, 42, 54, 0.12)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "0 0 0 1.5rem"
+           },
+           "blockId": "01f6a913b",
+           "blockName": "figure-item",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "0.75rem",
+              "margin": "0 0 0.5rem"
+             },
+             "blockId": "abe2a9e14",
+             "blockName": "figure-row",
+             "children": [
+              {
+               "baseStyles": {
+                "backgroundColor": "var(--qtg-secondary)",
+                "display": "inline-block",
+                "height": "1.5rem",
+                "width": "4px"
+               },
+               "blockId": "8c905e302",
+               "blockName": "tick",
+               "element": "span"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtg-primary)",
+                "fontFamily": "var(--qtg-font-heading)",
+                "fontSize": "4rem",
+                "fontWeight": "700",
+                "lineHeight": "1",
+                "margin": "0"
+               },
+               "blockId": "22d8b61d4",
+               "blockName": "figure",
+               "classes": [
+                "u-count"
+               ],
+               "element": "p",
+               "innerHTML": "48h",
+               "mobileStyles": {
+                "fontSize": "3rem"
+               }
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtg-primary)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.5",
+              "margin": "0",
+              "maxWidth": "14rem"
+             },
+             "blockId": "a04a98051",
+             "blockName": "figure-label",
+             "element": "p",
+             "innerHTML": "Délai maximum de prise de rendez-vous"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--3",
+          "u-reveal-group"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtg-gutter-phone)",
+        "paddingRight": "var(--qtg-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "2rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#f4f6f8",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "452286598f",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-background)\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-background)",
+      "padding": "4rem 0",
+      "width": "100%"
+     },
+     "blockId": "c299822de",
+     "blockName": "features-tiles",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtg-container)",
+        "paddingLeft": "var(--qtg-gutter)",
+        "paddingRight": "var(--qtg-gutter)",
+        "width": "100%"
+       },
+       "blockId": "10c644034",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "var(--qtg-secondary)",
+          "fontFamily": "var(--qtg-font-body)",
+          "fontSize": "0.75rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.25em"
+         },
+         "blockId": "0c0fcbd4e",
+         "blockName": "index-code",
+         "element": "span",
+         "innerHTML": "/04"
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtg-text)",
+          "height": "2px",
+          "margin": "0.75rem 0 2.5rem",
+          "width": "100%"
+         },
+         "blockId": "d21a08c38",
+         "blockName": "rule",
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtg-text)",
+          "fontFamily": "var(--qtg-font-heading)",
+          "fontSize": "2.5rem",
+          "fontWeight": "700",
+          "lineHeight": "1.1",
+          "margin": "0 0 2rem"
+         },
+         "blockId": "ea5d96325",
+         "blockName": "heading",
+         "element": "h2",
+         "innerHTML": "ÉQUIPEMENTS",
+         "mobileStyles": {
+          "fontSize": "1.75rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "blockId": "a9717a343",
+         "blockName": "tiles",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "var(--qtg-primary)",
+            "display": "flex",
+            "flexDirection": "column",
+            "minHeight": "14rem",
+            "padding": "2.5rem 2.25rem"
+           },
+           "blockId": "aae8a357f",
+           "blockName": "tile",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtg-secondary)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem"
+             },
+             "blockId": "a021c299f",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "01"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtg-text)",
+              "fontFamily": "var(--qtg-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "edca6ec0d",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "DIAGNOSTIC ÉLECTRONIQUE",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(245, 245, 245, 0.8)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "26rem"
+             },
+             "blockId": "c9a5dec6b",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Lecture des défauts et contrôle des systèmes électroniques, pour cibler l'intervention et confirmer la réparation avant la restitution du véhicule."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "minHeight": "0",
+            "padding": "1.75rem 1.5rem"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "var(--qtg-accent)",
+            "display": "flex",
+            "flexDirection": "column",
+            "minHeight": "14rem",
+            "padding": "2.5rem 2.25rem"
+           },
+           "blockId": "2c0d0b7ae",
+           "blockName": "tile",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qtg-secondary) 80%, white)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem"
+             },
+             "blockId": "b909c9cea",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "02"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtg-text)",
+              "fontFamily": "var(--qtg-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "c6b433101",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "GÉOMÉTRIE 3D",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(245, 245, 245, 0.8)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "26rem"
+             },
+             "blockId": "8013b96d5",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Réglage des angles de train par mesure tridimensionnelle, pour un comportement de route conforme aux spécifications du constructeur."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "minHeight": "0",
+            "padding": "1.75rem 1.5rem"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "var(--qtg-accent)",
+            "display": "flex",
+            "flexDirection": "column",
+            "minHeight": "14rem",
+            "padding": "2.5rem 2.25rem"
+           },
+           "blockId": "2144f9f5b",
+           "blockName": "tile",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qtg-secondary) 80%, white)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem"
+             },
+             "blockId": "1ef98d901",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "03"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtg-text)",
+              "fontFamily": "var(--qtg-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "0bee67acc",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "CARROSSERIE LÉGÈRE",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(245, 245, 245, 0.8)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "26rem"
+             },
+             "blockId": "dc4ee67f0",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Redressage et finition des impacts limités, avec contrôle des alignements, pour retrouver l'état d'origine sans remplacement."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "minHeight": "0",
+            "padding": "1.75rem 1.5rem"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "var(--qtg-accent)",
+            "display": "flex",
+            "flexDirection": "column",
+            "minHeight": "14rem",
+            "padding": "2.5rem 2.25rem"
+           },
+           "blockId": "81d31244d",
+           "blockName": "tile",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qtg-secondary) 80%, white)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem"
+             },
+             "blockId": "08c7a62e2",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "04"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtg-text)",
+              "fontFamily": "var(--qtg-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "d07765724",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "ENTRETIEN HYBRIDE / ÉLECTRIQUE",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(245, 245, 245, 0.8)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "26rem"
+             },
+             "blockId": "1d40d1bb9",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Maintenance des groupes hybrides et électriques, avec des postes isolés et des procédures conformes aux normes de sécurité des constructeurs."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "minHeight": "0",
+            "padding": "1.75rem 1.5rem"
+           }
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--2",
+          "u-reveal-group"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtg-gutter-phone)",
+        "paddingRight": "var(--qtg-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "2rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-background)",
+      "height": "clamp(22px, 3.6vw, 46px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "402738435d",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,6 L1200,94\" fill=\"none\" style=\"stroke:var(--qtg-accent)\" stroke-width=\"1.25\" stroke-opacity=\"0.5\" vector-effect=\"non-scaling-stroke\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-primary)",
+      "padding": "4rem 0",
+      "width": "100%"
+     },
+     "blockId": "9a58c6dd6",
+     "blockName": "cta-band",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtg-container)",
+        "paddingLeft": "var(--qtg-gutter)",
+        "paddingRight": "var(--qtg-gutter)",
+        "width": "100%"
+       },
+       "blockId": "a23bee993",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "textAlign": "center"
+         },
+         "blockId": "07ee2b735",
+         "blockName": "closing",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtg-secondary)",
+            "fontFamily": "var(--qtg-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.25em"
+           },
+           "blockId": "e9f642ed3",
+           "blockName": "index-code",
+           "element": "span",
+           "innerHTML": "/05"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtg-text)",
+            "height": "2px",
+            "margin": "0.75rem 0 2.5rem",
+            "width": "100%"
+           },
+           "blockId": "166efc6b0",
+           "blockName": "rule",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtg-text)",
+            "fontFamily": "var(--qtg-font-heading)",
+            "fontSize": "2.5rem",
+            "fontWeight": "700",
+            "lineHeight": "1.1",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "36rem"
+           },
+           "blockId": "fb3e08508",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "PRENDRE RENDEZ-VOUS",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(245, 245, 245, 0.8)",
+            "fontFamily": "var(--qtg-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.6",
+            "margin": "0 0 2rem",
+            "maxWidth": "34rem"
+           },
+           "blockId": "96046fca8",
+           "blockName": "text",
+           "element": "p",
+           "innerHTML": "Une disponibilité garantie sous quarante-huit heures. Planifiez votre intervention en ligne, avec le devis annoncé avant les travaux."
+          },
+          {
+           "attributes": {
+            "href": "prendre_rendez_vous"
+           },
+           "baseStyles": {
+            "width": "100%"
+           },
+           "blockId": "825532da0",
+           "blockName": "button",
+           "classes": [
+            "u-btn",
+            "u-btn--secondary"
+           ],
+           "element": "a",
+           "innerHTML": "Réserver un créneau",
+           "mobileStyles": {
+            "width": "100%"
+           },
+           "tabletStyles": {
+            "width": "auto"
+           }
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtg-gutter-phone)",
+        "paddingRight": "var(--qtg-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "2rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-primary)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "4cc54f5842",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,0 L1200,74 L1200,106 L0,106 Z\" style=\"fill:#16202b\" fill-opacity=\"0.28\"/><path d=\"M0,6 L1200,94 L1200,106 L0,106 Z\" style=\"fill:#16202b\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-10-31 16:22:31.700615",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Une infrastructure pensée pour la précision.",
+ "modified": "2026-10-31 17:20:55.239692",
+ "modified_by": "Administrator",
+ "name": "page-3f4eacfa",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-3f4eacfa",
+ "page_title": "L'atelier",
+ "preview": "/builder_assets/garage/page-3f4eacfa/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/garage/l'atelier",
+ "staging": 0,
+ "template_group": "garage"
+}

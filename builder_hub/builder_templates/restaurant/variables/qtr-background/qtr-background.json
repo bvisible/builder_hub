@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "restaurant",
+ "name": "qtr-background",
+ "token_name": "Restaurant background",
+ "type": "Color",
+ "value": "#faf8f4"
+}

@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "garage",
+ "name": "qtg-font-heading",
+ "token_name": "Garage font heading",
+ "type": "Font",
+ "value": "Bebas Neue"
+}
