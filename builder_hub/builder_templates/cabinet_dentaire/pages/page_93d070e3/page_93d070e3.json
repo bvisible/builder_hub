@@ -145,7 +145,7 @@
         {
          "attributes": {
           "alt": "Une salle d’attente lumineuse aux teintes douces, une plante verte sur une console en bois clair, une lumière du matin filtrant par une grande baie vitrée",
-          "src": "/builder_assets/cabinet_dentaire/page-93d070e3/hubpub-salon_de_coiffure-gen_e6eaa77a.png"
+          "src": "/builder_assets/cabinet_dentaire/page-93d070e3/hubpub-salon_de_coiffure-gen_e6eaa77a.jpg"
          },
          "baseStyles": {
           "height": "34rem",
@@ -307,7 +307,7 @@
             {
              "attributes": {
               "alt": "Un plateau de soin propre et ordonné, des instruments stérilisés rangés dans un tiroir, une lumière douce tombant sur une surface en bois clair",
-              "src": "/builder_assets/cabinet_dentaire/page-93d070e3/hubpub-cabinet_dentaire-gen_10f7eef9.png"
+              "src": "/builder_assets/cabinet_dentaire/page-93d070e3/hubpub-cabinet_dentaire-gen_10f7eef9.jpg"
              },
              "baseStyles": {
               "aspectRatio": "3/2",
@@ -409,7 +409,7 @@
             {
              "attributes": {
               "alt": "Un plateau de soin propre et ordonné, des instruments stérilisés rangés dans un tiroir, une lumière douce tombant sur une surface en bois clair",
-              "src": "/builder_assets/cabinet_dentaire/page-93d070e3/hubpub-cabinet_dentaire-gen_83e2dfb2.png"
+              "src": "/builder_assets/cabinet_dentaire/page-93d070e3/hubpub-cabinet_dentaire-gen_83e2dfb2.jpg"
              },
              "baseStyles": {
               "aspectRatio": "3/2",
@@ -511,7 +511,7 @@
             {
              "attributes": {
               "alt": "Un plateau de soin propre et ordonné, des instruments stérilisés rangés dans un tiroir, une lumière douce tombant sur une surface en bois clair",
-              "src": "/builder_assets/cabinet_dentaire/page-93d070e3/hubpub-cabinet_dentaire-gen_3533bc61.png"
+              "src": "/builder_assets/cabinet_dentaire/page-93d070e3/hubpub-cabinet_dentaire-gen_3533bc61.jpg"
              },
              "baseStyles": {
               "aspectRatio": "3/2",
@@ -678,7 +678,7 @@
           {
            "attributes": {
             "alt": "Un plateau de soin propre et ordonné, des instruments stérilisés rangés dans un tiroir, une lumière douce tombant sur une surface en bois clair",
-            "src": "/builder_assets/cabinet_dentaire/page-93d070e3/hubpub-cabinet_dentaire-gen_84a5f8aa.png"
+            "src": "/builder_assets/cabinet_dentaire/page-93d070e3/hubpub-cabinet_dentaire-gen_84a5f8aa.jpg"
            },
            "baseStyles": {
             "aspectRatio": "4/5",
@@ -1210,7 +1210,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Soins conservateurs, prophylaxie et détartrage au cœur de votre quartier, dans une salle d’attente calme et un accès de plain-pied.",
- "modified": "2026-10-31 17:58:08.506457",
+ "modified": "2026-10-31 19:40:53.919736",
  "modified_by": "Administrator",
  "name": "page-93d070e3",
  "owner": "Administrator",

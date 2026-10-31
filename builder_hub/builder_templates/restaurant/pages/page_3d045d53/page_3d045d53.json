@@ -266,7 +266,7 @@
           {
            "attributes": {
             "alt": "Une salle privée baignée de lumière naturelle, une longue table dressée pour un repas de groupe",
-            "src": "/builder_assets/restaurant/page-3d045d53/hubpub-restaurant-gen_afc8acf4.png"
+            "src": "/builder_assets/restaurant/page-3d045d53/hubpub-restaurant-gen_afc8acf4.jpg"
            },
            "baseStyles": {
             "display": "block",
@@ -404,7 +404,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Nous vous conseillons de réserver à l’avance, surtout le week-end. Pour les groupes de plus de 8 personnes, merci de nous contacter par téléphone.",
- "modified": "2026-10-31 16:42:55.271382",
+ "modified": "2026-10-31 19:40:09.792030",
  "modified_by": "Administrator",
  "name": "page-3d045d53",
  "owner": "Administrator",

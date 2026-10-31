@@ -141,7 +141,7 @@
           {
            "attributes": {
             "alt": "Une beauté douce, éclairée par la lumière.",
-            "src": "/builder_assets/salon_de_coiffure/page-06e05233/hubpub-salon_de_coiffure-gen_4199de64.png"
+            "src": "/builder_assets/salon_de_coiffure/page-06e05233/hubpub-salon_de_coiffure-gen_4199de64.jpg"
            },
            "baseStyles": {
             "aspectRatio": "4/3",
@@ -710,7 +710,7 @@
             {
              "attributes": {
               "alt": "Un espace lumineux, pensé pour la détente.",
-              "src": "/builder_assets/salon_de_coiffure/page-06e05233/hubpub-salon_de_coiffure-gen_cf3613ae.png"
+              "src": "/builder_assets/salon_de_coiffure/page-06e05233/hubpub-salon_de_coiffure-gen_cf3613ae.jpg"
              },
              "baseStyles": {
               "aspectRatio": "3/4",
@@ -1007,7 +1007,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Colorations sans ammoniaque, soins vegan et coupes sur mesure, dans un espace apaisant ouvert du mardi au samedi.",
- "modified": "2026-10-31 17:52:39.147373",
+ "modified": "2026-10-31 19:40:31.623357",
  "modified_by": "Administrator",
  "name": "page-06e05233",
  "owner": "Administrator",

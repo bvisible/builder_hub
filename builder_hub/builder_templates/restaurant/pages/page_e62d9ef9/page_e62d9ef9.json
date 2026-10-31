@@ -29,7 +29,7 @@
       {
        "attributes": {
         "alt": "Des légumes d’automne, des poires et des fruits mûrs posés sur une table de bois, baignés d’une lumière naturelle douce",
-        "src": "/builder_assets/restaurant/page-e62d9ef9/hubpub-restaurant-gen_b283a0fa.png"
+        "src": "/builder_assets/restaurant/page-e62d9ef9/hubpub-restaurant-gen_b283a0fa.jpg"
        },
        "baseStyles": {
         "height": "100%",
@@ -875,7 +875,7 @@
             {
              "attributes": {
               "alt": "Une assiette de saison servie à table, dans une lumière naturelle douce qui révèle les textures et les couleurs des produits du terroir",
-              "src": "/builder_assets/restaurant/page-e62d9ef9/hubpub-restaurant-gen_891e7ff7.png"
+              "src": "/builder_assets/restaurant/page-e62d9ef9/hubpub-restaurant-gen_891e7ff7.jpg"
              },
              "baseStyles": {
               "aspectRatio": "4/3",
@@ -1195,7 +1195,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Cuisine de saison, produits du terroir, et une carte courte qui évolue avec les saisons.",
- "modified": "2026-10-31 16:42:55.223744",
+ "modified": "2026-10-31 19:40:09.751087",
  "modified_by": "Administrator",
  "name": "page-e62d9ef9",
  "owner": "Administrator",

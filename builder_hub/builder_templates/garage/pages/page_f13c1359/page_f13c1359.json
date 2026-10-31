@@ -183,7 +183,7 @@
           {
            "attributes": {
             "alt": "Bande de service d’un atelier, éclairée par une lumière rasante, un véhicule sur un pont élévateur, sol carrelé propre, outils suspendus au mur",
-            "src": "/builder_assets/garage/page-f13c1359/hubpub-garage-gen_472aa087.png"
+            "src": "/builder_assets/garage/page-f13c1359/hubpub-garage-gen_472aa087.jpg"
            },
            "baseStyles": {
             "height": "34rem",
@@ -1335,7 +1335,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Entretien, réparation, pneus et géométrie, avec un devis annoncé avant les travaux. Une mécanique claire, une précision constante, pour toutes les marques.",
- "modified": "2026-10-31 17:20:55.199730",
+ "modified": "2026-10-31 19:39:43.819280",
  "modified_by": "Administrator",
  "name": "page-f13c1359",
  "owner": "Administrator",

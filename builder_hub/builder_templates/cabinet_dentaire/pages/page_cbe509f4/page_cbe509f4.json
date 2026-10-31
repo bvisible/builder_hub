@@ -123,7 +123,7 @@
             {
              "attributes": {
               "alt": "Façade lumineuse d’un cabinet dentaire de quartier, entrée de plain-pied, lumière douce et plantes en façade",
-              "src": "/builder_assets/cabinet_dentaire/page-cbe509f4/hubpub-cabinet_dentaire-gen_77a90bac.png"
+              "src": "/builder_assets/cabinet_dentaire/page-cbe509f4/hubpub-cabinet_dentaire-gen_77a90bac.jpg"
              },
              "baseStyles": {
               "aspectRatio": "4/3",
@@ -232,7 +232,7 @@
             {
              "attributes": {
               "alt": "Un coin de salle d’attente calme, plante verte et surface claire baignée de lumière douce",
-              "src": "/builder_assets/cabinet_dentaire/page-cbe509f4/hubpub-cabinet_dentaire-gen_f808b7f7.png"
+              "src": "/builder_assets/cabinet_dentaire/page-cbe509f4/hubpub-cabinet_dentaire-gen_f808b7f7.jpg"
              },
              "baseStyles": {
               "aspectRatio": "4/3",
@@ -932,7 +932,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Au cœur de votre quartier, le Cabinet Dentaire du Parc accueille chacun de ses patients dans un lieu pensé pour la tranquillité.",
- "modified": "2026-10-31 17:58:08.545840",
+ "modified": "2026-10-31 19:40:53.964639",
  "modified_by": "Administrator",
  "name": "page-cbe509f4",
  "owner": "Administrator",

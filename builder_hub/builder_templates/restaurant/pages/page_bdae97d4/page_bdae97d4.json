@@ -588,7 +588,7 @@
             {
              "attributes": {
               "alt": "Des bouteilles de vin et des verres posés sur une table en bois, dans une lumière douce et naturelle.",
-              "src": "/builder_assets/restaurant/page-bdae97d4/hubpub-restaurant-gen_6a394a20.png"
+              "src": "/builder_assets/restaurant/page-bdae97d4/hubpub-restaurant-gen_6a394a20.jpg"
              },
              "baseStyles": {
               "aspectRatio": "4/3",
@@ -852,7 +852,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Notre carte est courte et évolue avec les saisons. Nous signalons les plats végétariens et sans gluten. Les prix sont indiqués en euros, taxes comprises.",
- "modified": "2026-10-31 16:42:55.256105",
+ "modified": "2026-10-31 19:40:09.775273",
  "modified_by": "Administrator",
  "name": "page-bdae97d4",
  "owner": "Administrator",

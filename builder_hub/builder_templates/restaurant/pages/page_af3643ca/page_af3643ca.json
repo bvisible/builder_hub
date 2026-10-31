@@ -256,7 +256,7 @@
         {
          "attributes": {
           "alt": "L’intérieur d’une salle de restaurant baignée de lumière naturelle, tables dressées et vue ouverte sur la terrasse",
-          "src": "/builder_assets/restaurant/page-af3643ca/hubpub-restaurant-gen_cd127851.png"
+          "src": "/builder_assets/restaurant/page-af3643ca/hubpub-restaurant-gen_cd127851.jpg"
          },
          "baseStyles": {
           "display": "block",
@@ -769,7 +769,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Découvrez les informations essentielles pour préparer votre visite : nos horaires, l’adresse de notre salle et de notre terrasse, ainsi que les modalités de notre salle privée…",
- "modified": "2026-10-31 16:42:55.284123",
+ "modified": "2026-10-31 19:40:09.807070",
  "modified_by": "Administrator",
  "name": "page-af3643ca",
  "owner": "Administrator",

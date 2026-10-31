@@ -123,7 +123,7 @@
             {
              "attributes": {
               "alt": "Un bureau de soin du cabinet, une lampe douce et des instruments posés en rang, dans une lumière calme",
-              "src": "/builder_assets/cabinet_dentaire/page-4143bfdf/hubpub-cabinet_dentaire-gen_4c4ecfe0.png"
+              "src": "/builder_assets/cabinet_dentaire/page-4143bfdf/hubpub-cabinet_dentaire-gen_4c4ecfe0.jpg"
              },
              "baseStyles": {
               "aspectRatio": "4/3",
@@ -464,7 +464,7 @@
             {
              "attributes": {
               "alt": "La salle d’attente du cabinet, un fauteuil clair, une plante verte et une lumière douce traversant la pièce",
-              "src": "/builder_assets/cabinet_dentaire/page-4143bfdf/hubpub-cabinet_dentaire-gen_3fa130f0.png"
+              "src": "/builder_assets/cabinet_dentaire/page-4143bfdf/hubpub-cabinet_dentaire-gen_3fa130f0.jpg"
              },
              "baseStyles": {
               "aspectRatio": "4/5",
@@ -651,7 +651,7 @@
  "is_standard": 0,
  "is_template": 1,
  "meta_description": "Remplissez le formulaire ci-dessous, nous vous rappelons avant chaque visite, et nous vous accueillons le jour même en cas d’urgence dentaire.",
- "modified": "2026-10-31 17:58:08.534585",
+ "modified": "2026-10-31 19:40:53.950754",
  "modified_by": "Administrator",
  "name": "page-4143bfdf",
  "owner": "Administrator",
