@@ -143,7 +143,7 @@ def editor_blocks() -> dict:
 		ignore_permissions=True,
 	)
 	served = [b for b in (serve_for_editor(r) for r in rows) if b]
-	return {"format": block_format.FORMAT, "blocks": served}
+	return {"format": block_format.FORMAT, "sections": list(EDITOR_SECTIONS), "blocks": served}
 
 
 # ---------------------------------------------------------------- the seed blocks

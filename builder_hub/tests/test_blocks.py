@@ -142,6 +142,7 @@ class TestTheEditorCatalogue(unittest.TestCase):
 		self.assertIn("preview", get_all.call_args.kwargs["fields"])
 		self.assertEqual(["cta.band-test"], [b["id"] for b in result["blocks"]])
 		self.assertEqual(blocks.block_format.FORMAT, result["format"])
+		self.assertEqual(list(blocks.EDITOR_SECTIONS), result["sections"])
 
 	def test_the_site_generator_is_still_offered_the_published_blocks_only(self):
 		self.assertEqual(("Published",), blocks.GENERATOR_STATUSES)
