@@ -73,6 +73,33 @@ class TestTheThumbnail(unittest.TestCase):
 		self.assertNotIn("WRITE ", html)
 
 
+class TestKeepingAPicture(unittest.TestCase):
+	def keep(self, old_files, new_url):
+		frappe = MagicMock()
+		frappe.get_all.return_value = old_files
+		frappe.get_doc.return_value.insert.return_value = MagicMock(file_url=new_url)
+		with patch.object(block_shots, "frappe", frappe):
+			url = block_shots._keep("a.one", "abc", b"png")
+		return url, frappe
+
+	def test_the_picture_it_replaces_is_deleted(self):
+		url, frappe = self.keep([{"name": "F1", "file_url": "/files/old.png"}], "/files/new.png")
+		self.assertEqual("/files/new.png", url)
+		frappe.delete_doc.assert_called_once_with("File", "F1", ignore_permissions=True, force=True)
+
+	def test_a_picture_identical_to_the_old_one_is_the_old_file_and_it_is_not_deleted(self):
+		url, frappe = self.keep([{"name": "F1", "file_url": "/files/same.png"}], "/files/same.png")
+		self.assertEqual("/files/same.png", url)
+		frappe.delete_doc.assert_not_called()
+
+	def test_the_file_is_public_and_attached_to_its_block_under_a_name_that_changes_with_the_picture(self):
+		_url, frappe = self.keep([], "/files/new.png")
+		values = frappe.get_doc.call_args.args[0]
+		self.assertEqual(0, values["is_private"])
+		self.assertEqual(("Hub Block", "a.one"), (values["attached_to_doctype"], values["attached_to_name"]))
+		self.assertEqual("hub-block-a.one-abc.png", values["file_name"])
+
+
 class TestMakingThePictures(unittest.TestCase):
 	def run_make(self, rows, pngs, **kwargs):
 		frappe = MagicMock()

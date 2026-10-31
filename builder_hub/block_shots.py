@@ -101,7 +101,10 @@ def shoot(pages: list[str]) -> list[bytes | None]:
 
 
 def _keep(name: str, digest: str, png: bytes) -> str:
-	"""Writes the picture of a block as a public file and deletes the one it replaces. Returns the file's URL."""
+	"""Writes the picture of a block as a public file and deletes the one it replaces. Returns the file's URL.
+
+	A picture identical to the one it replaces (a block the new renderer draws the same) is not a new file: Frappe answers with the file that is already
+	there, and that one must not be deleted as the old picture."""
 	old = frappe.get_all(
 		"File",
 		filters={
@@ -109,7 +112,7 @@ def _keep(name: str, digest: str, png: bytes) -> str:
 			"attached_to_name": name,
 			"file_name": ("like", f"{FILE_PREFIX}%"),
 		},
-		pluck="name",
+		fields=["name", "file_url"],
 	)
 	doc = frappe.get_doc(
 		{
@@ -122,7 +125,8 @@ def _keep(name: str, digest: str, png: bytes) -> str:
 		}
 	).insert(ignore_permissions=True)
 	for stale in old:
-		frappe.delete_doc("File", stale, ignore_permissions=True, force=True)
+		if stale["file_url"] != doc.file_url:
+			frappe.delete_doc("File", stale["name"], ignore_permissions=True, force=True)
 	return doc.file_url
 
 
