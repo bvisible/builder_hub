@@ -208,6 +208,34 @@ def promote_to_catalog(group: str, title: str | None = None, description: str | 
     return {"queued": True, "job_id": job.id, "group": group}
 
 
+# //// Neoffice — the theme a promoted group brings to the site that installs it (2026-10-31). The pages of a generated site name their
+# //// own tokens, but its buttons, cards and header read the theme of the site (builder's theme_variables.html), so a client who installed
+# //// the pages kept their own theme under another's pages: a dark card with white text on a white page. A manifest may carry
+# //// `header_footer` (builder.api._apply_template_header_footer sets it on install); a promoted group gets the one its tokens say.
+def header_footer_from_tokens(group: str) -> dict:
+    """{theme field: value} for the colours and fonts the tokens of a group stand for (`<prefix>-primary` → primary_color…). A font the theme does
+    not offer is left out (its field is a list, and a value outside it would fail the install), as is a token that is only a handle."""
+    from builder.builder.doctype.website_header_footer_config.website_header_footer_config import (
+        WebsiteHeaderFooterConfig,
+    )
+
+    doctype, _name_field = _token_doctype()
+    rows = frappe.get_all(doctype, filters={"group": group}, fields=["name", "value"])
+    meta = frappe.get_meta("Website Header Footer Config")
+    theme = {}
+    for field, role in WebsiteHeaderFooterConfig.TOKEN_FIELDS.items():
+        for row in rows:
+            value = str(row.get("value") or "").strip()
+            if not row.get("name", "").endswith("-" + role) or not value or value.startswith("var("):
+                continue
+            df = meta.get_field(field)
+            if df and df.fieldtype == "Select" and value not in (df.options or "").split("\n"):
+                break
+            theme[field] = value
+            break
+    return theme
+
+
 def _promote_sync(group: str, title: str | None = None, description: str | None = None):
     """Synchronous promotion — runs in the worker (or via bench execute)."""
     group = _validate_group_slug(group)
@@ -267,6 +295,10 @@ def _promote_sync(group: str, title: str | None = None, description: str | None 
             manifest["title"] = title
         if description:
             manifest["description"] = description
+        if not manifest.get("header_footer"):
+            theme = header_footer_from_tokens(group)
+            if theme:
+                manifest["header_footer"] = theme
         with open(manifest_path, "w", encoding="utf-8") as f:
             f.write(frappe.as_json(manifest, ensure_ascii=False))
 
