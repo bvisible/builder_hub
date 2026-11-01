@@ -168,8 +168,14 @@ after_migrate = "builder_hub.install.after_migrate"
 # }
 scheduler_events = {
 	# //// Neoffice — the thumbnails of the blocks the editor offers (block_shots.py), and whether each block holds on every screen
-	# //// (block_fit.py, 2026-11-01): a block is served only once it was measured as it is
-	"hourly": ["builder_hub.plugins.tasks.check_releases", "builder_hub.block_shots.hourly", "builder_hub.block_fit.hourly"],
+	# //// (block_fit.py, 2026-11-01): a block is served only once it was measured as it is; the picture of a whole site for the gallery of neoffice.ch
+	# //// (site_shots.py), so that a site promoted to the catalogue gets it without anybody asking
+	"hourly": [
+		"builder_hub.plugins.tasks.check_releases",
+		"builder_hub.block_shots.hourly",
+		"builder_hub.block_fit.hourly",
+		"builder_hub.site_shots.hourly",
+	],
 }
 
 # Testing

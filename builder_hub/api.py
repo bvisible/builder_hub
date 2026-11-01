@@ -28,6 +28,7 @@ def _get_catalog(base_url: str) -> list[dict]:
 
 	# //// Neoffice — imported here: publish.py reaches this module for the caches it clears
 	from builder_hub.publish import PROTECTED_GROUPS_MARKER
+	from builder_hub.site_shots import scroll_picture
 
 	pages = frappe.get_all(
 		"Builder Page",
@@ -80,6 +81,10 @@ def _get_catalog(base_url: str) -> list[dict]:
 				"showcase": manifest.get("source") == PROTECTED_GROUPS_MARKER,
 				"sector": manifest.get("sector") or "",
 				"translations": manifest.get("translations") or {},
+				# //// Neoffice — the whole home page, which a card of that gallery runs down when hovered (builder_hub/site_shots.py)
+				"scroll_picture": (
+					scroll_picture(group_pages) if manifest.get("source") == PROTECTED_GROUPS_MARKER else None
+				),
 			}
 		)
 	groups.sort(key=lambda g: (g.get("order") is None, g.get("order") or 0, g["title"]))

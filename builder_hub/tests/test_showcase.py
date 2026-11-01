@@ -206,6 +206,7 @@ class TestTheCatalogueSaysWhatTheGalleryNeeds(unittest.TestCase):
 			patch("builder.template_sync.get_all_group_manifests", return_value={"g": manifest}),
 			patch.object(api, "get_url", return_value="https://hub.test"),
 			patch.object(api, "get_thumbnail_url", return_value=None),
+			patch("builder_hub.site_shots.scroll_picture", return_value={"url": "https://hub.test/whole.webp"}),
 		):
 			return api._get_catalog.__wrapped__("https://hub.test")[0]
 
@@ -214,6 +215,7 @@ class TestTheCatalogueSaysWhatTheGalleryNeeds(unittest.TestCase):
 		self.assertTrue(entry["showcase"])
 		self.assertEqual("", entry["sector"])
 		self.assertEqual({}, entry["translations"])
+		self.assertEqual("https://hub.test/whole.webp", entry["scroll_picture"]["url"])
 
 	def test_its_sector_and_its_translations_are_served(self):
 		entry = self.catalogue({"source": publish.PROTECTED_GROUPS_MARKER, "sector": "trades", "translations": {"en": {"title": "Electrician"}}})
@@ -221,7 +223,9 @@ class TestTheCatalogueSaysWhatTheGalleryNeeds(unittest.TestCase):
 		self.assertEqual("Electrician", entry["translations"]["en"]["title"])
 
 	def test_a_group_of_upstream_does_not(self):
-		self.assertFalse(self.catalogue({"title": "Fronds"})["showcase"])
+		entry = self.catalogue({"title": "Fronds"})
+		self.assertFalse(entry["showcase"])
+		self.assertIsNone(entry["scroll_picture"])
 
 
 class TestThePromotion(unittest.TestCase):
