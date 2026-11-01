@@ -57,7 +57,7 @@
          "children": [
           {
            "baseStyles": {
-            "color": "var(--qta-secondary)",
+            "color": "color-mix(in srgb, var(--qta-secondary) 80%, black)",
             "fontFamily": "var(--qta-font-body)",
             "fontSize": "0.75rem",
             "fontWeight": "700",
@@ -355,7 +355,7 @@
            },
            "blockId": "306a0e81f",
            "element": "h2",
-           "innerHTML": "Nos <em style=\"font-style: italic; color: var(--qta-secondary)\">prestations</em>",
+           "innerHTML": "Nos <em style=\"font-style: italic; color: color-mix(in srgb, var(--qta-secondary) 80%, black)\">prestations</em>",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"
@@ -918,7 +918,7 @@
            "blockId": "f298a355a",
            "blockName": "heading",
            "element": "h2",
-           "innerHTML": "Devis gratuit et <em style=\"font-style: italic; color: var(--qta-secondary)\">chiffré</em>.",
+           "innerHTML": "Devis gratuit et <em style=\"font-style: italic; color: color-mix(in srgb, var(--qta-secondary) 80%, black)\">chiffré</em>.",
            "mobileStyles": {
             "fontSize": "1.25rem",
             "overflowWrap": "break-word"

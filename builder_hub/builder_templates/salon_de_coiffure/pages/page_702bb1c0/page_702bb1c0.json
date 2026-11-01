@@ -81,7 +81,7 @@
            "blockId": "e7c1b4857",
            "blockName": "heading",
            "element": "h2",
-           "innerHTML": "Réservez votre moment de <em style=\"font-style: italic; color: var(--qtc-secondary)\">douceur</em>.",
+           "innerHTML": "Réservez votre moment de <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtc-secondary) 70%, black)\">douceur</em>.",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"

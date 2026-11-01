@@ -252,7 +252,7 @@
              "blockId": "7c653ea35",
              "blockName": "heading",
              "element": "h2",
-             "innerHTML": "Réserver un <em style=\"font-style: italic; color: var(--qtg-secondary)\">créneau</em>",
+             "innerHTML": "Réserver un <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtg-secondary) 90%, black)\">créneau</em>",
              "mobileStyles": {
               "fontSize": "1.75rem",
               "overflowWrap": "break-word"

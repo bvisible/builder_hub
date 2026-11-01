@@ -77,7 +77,7 @@
              "blockId": "c18e3e9a4",
              "blockName": "heading",
              "element": "h2",
-             "innerHTML": "Prendre rendez-vous, en <em style=\"font-style: italic; color: var(--qtd-secondary)\">quelques minutes</em>",
+             "innerHTML": "Prendre rendez-vous, en <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtd-secondary) 80%, black)\">quelques minutes</em>",
              "mobileStyles": {
               "fontSize": "1.75rem",
               "overflowWrap": "break-word"
@@ -232,7 +232,7 @@
            "blockId": "e0a07e52c",
            "blockName": "heading",
            "element": "h2",
-           "innerHTML": "Formulaire de <em style=\"font-style: italic; color: var(--qtd-secondary)\">contact</em>",
+           "innerHTML": "Formulaire de <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtd-secondary) 70%, black)\">contact</em>",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"
@@ -533,7 +533,7 @@
              "blockId": "934bfb800",
              "blockName": "heading",
              "element": "h2",
-             "innerHTML": "Une salle d’attente <em style=\"font-style: italic; color: var(--qtd-secondary)\">calme</em>",
+             "innerHTML": "Une salle d’attente <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtd-secondary) 80%, black)\">calme</em>",
              "mobileStyles": {
               "fontSize": "1.75rem",
               "overflowWrap": "break-word"

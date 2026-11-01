@@ -81,7 +81,7 @@
            "blockId": "75f580a0d",
            "blockName": "heading",
            "element": "h2",
-           "innerHTML": "Une <em style=\"font-style: italic; color: var(--qtc-secondary)\">équipe</em> de quatre coiffeuses, unie par la même exigence de douceur et de précision.",
+           "innerHTML": "Une <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtc-secondary) 70%, black)\">équipe</em> de quatre coiffeuses, unie par la même exigence de douceur et de précision.",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"

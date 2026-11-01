@@ -171,7 +171,7 @@
            "blockId": "a851b7e05",
            "blockName": "form-heading",
            "element": "h2",
-           "innerHTML": "Formulaire de <em style=\"font-style: italic; color: var(--qta-secondary)\">contact</em>",
+           "innerHTML": "Formulaire de <em style=\"font-style: italic; color: color-mix(in srgb, var(--qta-secondary) 80%, black)\">contact</em>",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"
@@ -406,7 +406,7 @@
            "blockId": "a71c89871",
            "blockName": "reassurance-heading",
            "element": "h2",
-           "innerHTML": "Votre projet, notre <em style=\"font-style: italic; color: var(--qta-secondary)\">priorité</em>",
+           "innerHTML": "Votre projet, notre <em style=\"font-style: italic; color: color-mix(in srgb, var(--qta-secondary) 80%, black)\">priorité</em>",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"

@@ -176,7 +176,7 @@
              "blockId": "02a9f3dcb",
              "blockName": "heading",
              "element": "h2",
-             "innerHTML": "Notre <em style=\"font-style: italic; color: var(--qta-secondary)\">approche</em>",
+             "innerHTML": "Notre <em style=\"font-style: italic; color: color-mix(in srgb, var(--qta-secondary) 80%, black)\">approche</em>",
              "mobileStyles": {
               "fontSize": "1.75rem",
               "overflowWrap": "break-word"

@@ -55,7 +55,7 @@
          "children": [
           {
            "baseStyles": {
-            "color": "var(--qtc-secondary)",
+            "color": "var(--qtc-text)",
             "fontFamily": "var(--qtc-font-body)",
             "fontSize": "0.75rem",
             "fontWeight": "700",

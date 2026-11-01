@@ -71,7 +71,7 @@
          },
          "blockId": "db04fe59c",
          "element": "h2",
-         "innerHTML": "Bienvenue à la <em style=\"font-style: italic; color: var(--qtr-secondary)\">table</em>",
+         "innerHTML": "Bienvenue à la <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 90%, black)\">table</em>",
          "mobileStyles": {
           "fontSize": "2rem",
           "margin": "0 0 2rem",
@@ -225,7 +225,7 @@
            },
            "blockId": "3b7ad2fb2",
            "element": "h2",
-           "innerHTML": "Une salle <em style=\"font-style: italic; color: var(--qtr-secondary)\">chaleureuse</em>, une terrasse ouverte",
+           "innerHTML": "Une salle <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 80%, white)\">chaleureuse</em>, une terrasse ouverte",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"
@@ -677,7 +677,7 @@
            },
            "blockId": "4e23305c8",
            "element": "h2",
-           "innerHTML": "Prêt à nous <em style=\"font-style: italic; color: var(--qtr-secondary)\">rejoindre</em> ?",
+           "innerHTML": "Prêt à nous <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 80%, white)\">rejoindre</em> ?",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"

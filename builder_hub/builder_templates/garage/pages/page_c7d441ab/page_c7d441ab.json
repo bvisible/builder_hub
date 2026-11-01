@@ -190,7 +190,7 @@
          "blockId": "29d858bc0",
          "blockName": "heading",
          "element": "h2",
-         "innerHTML": "Nos <em style=\"font-style: italic; color: var(--qtg-secondary)\">prestations</em>",
+         "innerHTML": "Nos <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtg-secondary) 90%, black)\">prestations</em>",
          "mobileStyles": {
           "fontSize": "1.75rem",
           "overflowWrap": "break-word"

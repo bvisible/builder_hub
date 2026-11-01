@@ -971,7 +971,7 @@
            "blockId": "b8f2a52c8",
            "blockName": "heading",
            "element": "h2",
-           "innerHTML": "Prenez <em style=\"font-style: italic; color: var(--qtd-secondary)\">rendez-vous</em>",
+           "innerHTML": "Prenez <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtd-secondary) 70%, white)\">rendez-vous</em>",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"

@@ -80,7 +80,7 @@
            "blockId": "aa7b8bf60",
            "blockName": "heading",
            "element": "h1",
-           "innerHTML": "Un sourire en toute <em style=\"font-style: italic; color: var(--qtd-secondary)\">sérénité</em>.",
+           "innerHTML": "Un sourire en toute <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtd-secondary) 70%, black)\">sérénité</em>.",
            "mobileStyles": {
             "fontSize": "2.5rem",
             "overflowWrap": "break-word"
@@ -900,7 +900,7 @@
            "blockId": "4d4b5d470",
            "blockName": "heading",
            "element": "h2",
-           "innerHTML": "Prêt à prendre soin de votre <em style=\"font-style: italic; color: var(--qtd-secondary)\">sourire</em> ?",
+           "innerHTML": "Prêt à prendre soin de votre <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtd-secondary) 70%, white)\">sourire</em> ?",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"

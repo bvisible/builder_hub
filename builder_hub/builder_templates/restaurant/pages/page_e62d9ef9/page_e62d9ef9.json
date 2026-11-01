@@ -347,7 +347,7 @@
            "blockId": "42e368764",
            "blockName": "heading",
            "element": "h2",
-           "innerHTML": "Une cuisine qui écoute la <em style=\"font-style: italic; color: var(--qtr-secondary)\">saison</em>",
+           "innerHTML": "Une cuisine qui écoute la <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 90%, black)\">saison</em>",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"
@@ -481,7 +481,7 @@
            "blockId": "d05400856",
            "blockName": "heading",
            "element": "h2",
-           "innerHTML": "Ce qui vous <em style=\"font-style: italic; color: var(--qtr-secondary)\">attend</em>",
+           "innerHTML": "Ce qui vous <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 80%, black)\">attend</em>",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"
@@ -933,7 +933,7 @@
              "blockId": "2077a213b",
              "blockName": "heading",
              "element": "h2",
-             "innerHTML": "Le menu du <em style=\"font-style: italic; color: var(--qtr-secondary)\">jour</em>",
+             "innerHTML": "Le menu du <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 90%, black)\">jour</em>",
              "mobileStyles": {
               "fontSize": "1.75rem",
               "overflowWrap": "break-word"
@@ -1075,7 +1075,7 @@
            "blockId": "4883ee39c",
            "blockName": "heading",
            "element": "h2",
-           "innerHTML": "Réservez votre <em style=\"font-style: italic; color: var(--qtr-secondary)\">table</em>",
+           "innerHTML": "Réservez votre <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 80%, white)\">table</em>",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"

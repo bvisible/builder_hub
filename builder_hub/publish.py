@@ -22,6 +22,7 @@ distributed to client instances by neoffice-devops' SiteConfigPhase.
 """
 
 import json
+import os
 import re
 
 import frappe
@@ -155,6 +156,7 @@ def publish_template_group():
 
     warnings = []
     folder = _ensure_staging_folder(group)
+    _keep_chrome(group, payload.get("chrome"))
 
     # Shared records first (variables/components/scripts/fonts), then pages
     for bundle in pages:
@@ -219,6 +221,32 @@ def promote_to_catalog(
     return {"queued": True, "job_id": job.id, "group": group}
 
 
+# //// Neoffice — the settings of a site's chrome wait in the site folder between the publish and the promotion: a group has no manifest until it is promoted, and the
+# //// pages of a site lean on its chrome to be shown here at all (builder_hub/showcase.py, builder.hub_publish.site_chrome).
+def _chrome_path(group: str) -> str:
+    return frappe.get_site_path("private", "hub_inbox", f"{safe_segment(group)}.json")
+
+
+def _keep_chrome(group: str, chrome: dict | None):
+    if not chrome:
+        return
+    path = _chrome_path(group)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(frappe.as_json(chrome, ensure_ascii=False))
+
+
+def _kept_chrome(group: str) -> dict:
+    path = _chrome_path(group)
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as f:
+        try:
+            return json.load(f)
+        except ValueError:
+            return {}
+
+
 # //// Neoffice — refused here and not in the job: the person who promotes reads the mistake, and a sector with no label would show as a bare code
 def _validate_sector(sector: str | None):
     from builder_hub.showcase import SECTORS
@@ -277,8 +305,6 @@ def _promote_sync(
     if not staged:
         frappe.throw(_("No staged pages found for group {0}").format(group))
 
-    import os
-
     from builder.template_sync import (
         export_template_group,
         get_templates_root,
@@ -320,6 +346,9 @@ def _promote_sync(
             manifest["title"] = title
         if description:
             manifest["description"] = description
+        chrome = _kept_chrome(group)
+        if chrome:
+            manifest["chrome"] = chrome
         if sector:
             manifest["sector"] = sector
         if translations:

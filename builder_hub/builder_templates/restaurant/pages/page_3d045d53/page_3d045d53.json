@@ -62,7 +62,7 @@
          "blockId": "bb717b898",
          "blockName": "heading",
          "element": "h2",
-         "innerHTML": "Réservez votre table <em style=\"font-style: italic; color: var(--qtr-secondary)\">en ligne</em>",
+         "innerHTML": "Réservez votre table <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 90%, black)\">en ligne</em>",
          "mobileStyles": {
           "fontSize": "2rem",
           "overflowWrap": "break-word"
@@ -174,7 +174,7 @@
          },
          "blockId": "99a5b4b02",
          "element": "h2",
-         "innerHTML": "Formulaire de <em style=\"font-style: italic; color: var(--qtr-secondary)\">réservation</em>",
+         "innerHTML": "Formulaire de <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 90%, black)\">réservation</em>",
          "mobileStyles": {
           "fontSize": "1.75rem",
           "overflowWrap": "break-word"
@@ -312,7 +312,7 @@
            },
            "blockId": "82af23f8d",
            "element": "h2",
-           "innerHTML": "Salle privée <em style=\"font-style: italic; color: var(--qtr-secondary)\">&amp; Groupes</em>",
+           "innerHTML": "Salle privée <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 90%, black)\">&amp; Groupes</em>",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"

@@ -4,6 +4,7 @@ no title band, no footer, and a form that sent a real message for a business tha
 of its site and the pages of its group, on the response only; upstream's groups and everything that is not the page of a group are left as they came;
 a chrome that fails leaves the page served; a search engine is told to stay out. The database and the Builder's renderers are replaced."""
 
+import tempfile
 import unittest
 from pathlib import Path
 from types import SimpleNamespace
@@ -233,6 +234,18 @@ class TestThePromotion(unittest.TestCase):
 		publish._validate_sector(None)
 		publish._validate_sector("")
 		publish._validate_sector("trades")
+
+
+class TestTheChromeWaitsForThePromotion(unittest.TestCase):
+	def test_what_the_publish_kept_reaches_the_promotion(self):
+		with tempfile.TemporaryDirectory() as folder, patch.object(publish, "_chrome_path", return_value=f"{folder}/inbox/garage.json"):
+			publish._keep_chrome("garage", {"logo_text": "Garage du Centre"})
+			self.assertEqual({"logo_text": "Garage du Centre"}, publish._kept_chrome("garage"))
+
+	def test_a_publish_that_brought_none_leaves_nothing_to_read(self):
+		with tempfile.TemporaryDirectory() as folder, patch.object(publish, "_chrome_path", return_value=f"{folder}/inbox/garage.json"):
+			publish._keep_chrome("garage", None)
+			self.assertEqual({}, publish._kept_chrome("garage"))
 
 
 class TestTheSearchEngines(unittest.TestCase):

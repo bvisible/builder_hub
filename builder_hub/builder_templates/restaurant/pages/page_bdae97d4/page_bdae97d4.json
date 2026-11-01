@@ -62,7 +62,7 @@
          "blockId": "f923fca6a",
          "blockName": "heading",
          "element": "h2",
-         "innerHTML": "Une carte <em style=\"font-style: italic; color: var(--qtr-secondary)\">courte</em>, renouvelée à chaque saison",
+         "innerHTML": "Une carte <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 90%, black)\">courte</em>, renouvelée à chaque saison",
          "mobileStyles": {
           "fontSize": "1.9rem",
           "overflowWrap": "break-word"
@@ -645,7 +645,7 @@
              "blockId": "2ab5349b5",
              "blockName": "heading",
              "element": "h2",
-             "innerHTML": "Vins de la <em style=\"font-style: italic; color: var(--qtr-secondary)\">région</em>",
+             "innerHTML": "Vins de la <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 80%, black)\">région</em>",
              "mobileStyles": {
               "fontSize": "1.75rem",
               "overflowWrap": "break-word"
@@ -764,7 +764,7 @@
          "blockId": "a056a9259",
          "blockName": "heading",
          "element": "h2",
-         "innerHTML": "Goûtez la <em style=\"font-style: italic; color: var(--qtr-secondary)\">saison</em>",
+         "innerHTML": "Goûtez la <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 80%, white)\">saison</em>",
          "mobileStyles": {
           "fontSize": "1.75rem",
           "overflowWrap": "break-word"

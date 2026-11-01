@@ -114,7 +114,7 @@
              "blockId": "8531a4fbd",
              "blockName": "heading",
              "element": "h2",
-             "innerHTML": "Des soins pensés pour la douceur, au <em style=\"font-style: italic; color: var(--qtc-secondary)\">juste prix</em>.",
+             "innerHTML": "Des soins pensés pour la douceur, au <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtc-secondary) 70%, black)\">juste prix</em>.",
              "mobileStyles": {
               "fontSize": "2rem",
               "overflowWrap": "break-word"

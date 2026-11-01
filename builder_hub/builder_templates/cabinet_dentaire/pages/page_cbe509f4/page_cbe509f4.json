@@ -87,7 +87,7 @@
              "blockId": "e4732aabf",
              "blockName": "heading",
              "element": "h2",
-             "innerHTML": "Un cabinet dentaire de <em style=\"font-style: italic; color: var(--qtd-secondary)\">quartier</em>",
+             "innerHTML": "Un cabinet dentaire de <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtd-secondary) 80%, black)\">quartier</em>",
              "mobileStyles": {
               "fontSize": "1.75rem",
               "overflowWrap": "break-word"
@@ -297,7 +297,7 @@
              "blockId": "825fa3797",
              "blockName": "heading",
              "element": "h2",
-             "innerHTML": "Une atmosphère <em style=\"font-style: italic; color: var(--qtd-secondary)\">calme</em>",
+             "innerHTML": "Une atmosphère <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtd-secondary) 70%, black)\">calme</em>",
              "mobileStyles": {
               "fontSize": "1.75rem",
               "overflowWrap": "break-word"
@@ -461,7 +461,7 @@
            "blockId": "d228b8b3e",
            "blockName": "heading",
            "element": "h2",
-           "innerHTML": "Nos <em style=\"font-style: italic; color: var(--qtd-secondary)\">atouts</em>",
+           "innerHTML": "Nos <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtd-secondary) 70%, black)\">atouts</em>",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"
@@ -838,7 +838,7 @@
            "blockId": "b5b797edb",
            "blockName": "heading",
            "element": "h2",
-           "innerHTML": "Découvrez notre <em style=\"font-style: italic; color: var(--qtd-secondary)\">cabinet</em>",
+           "innerHTML": "Découvrez notre <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtd-secondary) 70%, white)\">cabinet</em>",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"

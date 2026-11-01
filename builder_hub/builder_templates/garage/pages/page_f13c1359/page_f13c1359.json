@@ -302,7 +302,7 @@
          },
          "blockId": "31c6e6132",
          "element": "h2",
-         "innerHTML": "La précision <em style=\"font-style: italic; color: var(--qtg-secondary)\">avant tout</em>",
+         "innerHTML": "La précision <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtg-secondary) 90%, black)\">avant tout</em>",
          "mobileStyles": {
           "fontSize": "1.75rem",
           "overflowWrap": "break-word"
@@ -709,7 +709,7 @@
          },
          "blockId": "3359aacbc",
          "element": "h2",
-         "innerHTML": "Nos <em style=\"font-style: italic; color: var(--qtg-secondary)\">prestations</em>",
+         "innerHTML": "Nos <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtg-secondary) 90%, black)\">prestations</em>",
          "mobileStyles": {
           "fontSize": "1.75rem",
           "overflowWrap": "break-word"
