@@ -79,7 +79,4 @@ tree:
       style:
         width: 100%
         minWidth: '0'
-        borderRadius: 1rem
-        overflow: hidden
-        border: 1px solid {{ground.hair}}
       text: '{{include_component}}'
