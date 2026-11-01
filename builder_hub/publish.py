@@ -298,6 +298,12 @@ def header_footer_from_tokens(group: str) -> dict:
     return theme
 
 
+# //// Neoffice — the pages a group already has stay, in their order: a page added to a site came first otherwise, and the first page is the home of a site of the catalogue
+def _group_pages(manifest: dict, staged: list) -> list[str]:
+    known = [page.get("name") for page in manifest.get("pages") or [] if isinstance(page, dict)]
+    return [*known, *[page.name for page in staged if page.name not in known]]
+
+
 def _promote_sync(
     group: str,
     title: str | None = None,
@@ -376,7 +382,7 @@ def _promote_sync(
         with open(manifest_path, "w", encoding="utf-8") as f:
             f.write(frappe.as_json(manifest, ensure_ascii=False))
 
-        update_template_manifest(group_path, [p.name for p in staged], title=title or group)
+        update_template_manifest(group_path, _group_pages(manifest, staged), title=title or group)
 
         # Disk fixtures (pages + components + variables + scripts + fonts +
         # assets copied under www/builder_assets/<group>/)

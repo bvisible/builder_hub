@@ -230,6 +230,14 @@ class TestThePromotion(unittest.TestCase):
 			publish._validate_sector("plumbing")
 		self.assertIn("plumbing", throw.call_args.args[0])
 
+	def test_a_page_added_to_a_site_comes_after_the_pages_it_has(self):
+		manifest = {"pages": [{"name": "home"}, {"name": "services"}]}
+		staged = [showcase.frappe._dict(name="services"), showcase.frappe._dict(name="about")]
+		self.assertEqual(["home", "services", "about"], publish._group_pages(manifest, staged))
+
+	def test_a_new_group_takes_its_pages_as_they_come(self):
+		self.assertEqual(["home"], publish._group_pages({}, [showcase.frappe._dict(name="home")]))
+
 	def test_no_sector_is_allowed(self):
 		publish._validate_sector(None)
 		publish._validate_sector("")
