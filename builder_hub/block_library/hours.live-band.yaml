@@ -1,0 +1,98 @@
+# //// Neoffice — added file (no upstream equivalent): seed block of the hub's library, carrying a live component of the site.
+id: hours.live-band
+title: Horaires sur un bandeau sombre
+kinds:
+- hours
+look: a deep band with a centred label and heading, the site's live opening hours below them in a light card of a reading width; a closing section of a contact or an about page
+photos: 0
+form: true
+component: opening_hours.html
+ground: deep
+motion: None
+notes: The light card keeps the hours legible on the deep ground, whatever the component's own colours.
+tree:
+  el: section
+  name: hours-band
+  style:
+    backgroundColor: '{{ground.background}}'
+    width: 100%
+    padding: 6rem 0
+  m_style:
+    padding: 4rem 0
+  c:
+  - el: div
+    name: container
+    style:
+      maxWidth: '{{container}}'
+      width: 100%
+      margin: 0 auto
+      paddingLeft: '{{gutter}}'
+      paddingRight: '{{gutter}}'
+    m_style:
+      paddingLeft: '{{gutter_phone}}'
+      paddingRight: '{{gutter_phone}}'
+    c:
+    - el: div
+      name: copy
+      style:
+        display: flex
+        flexDirection: column
+        alignItems: center
+        minWidth: '0'
+        marginBottom: 2.5rem
+      c:
+      - el: p
+        name: label
+        style:
+          color: color-mix(in srgb, {{ground.accent}} 80%, {{ground.ink}})
+          fontFamily: '{{font_body}}'
+          fontSize: 0.75rem
+          fontWeight: '700'
+          letterSpacing: 0.25em
+          textTransform: uppercase
+          margin: 0 0 1rem
+          textAlign: center
+        text: 'WRITE label: 1 to 3 words naming the subject'
+      - el: h2
+        name: heading
+        style:
+          color: '{{ground.ink}}'
+          fontFamily: '{{font_heading}}'
+          fontSize: 2.5rem
+          fontWeight: '700'
+          lineHeight: '1.15'
+          margin: 0 0 1.25rem
+          maxWidth: 36rem
+          textAlign: center
+          marginLeft: auto
+          marginRight: auto
+        t_style:
+          fontSize: 2.125rem
+        m_style:
+          fontSize: 1.75rem
+          overflowWrap: break-word
+        text: 'WRITE heading: 3 to 6 words'
+      m_style:
+        marginBottom: 2rem
+    - el: div
+      name: card
+      style:
+        backgroundColor: '{{background}}'
+        color: '{{text}}'
+        border: 1px solid {{hair}}
+        borderRadius: 1rem
+        padding: 2.5rem
+        boxShadow: 0 30px 60px -30px color-mix(in srgb, {{text}} 30%, transparent)
+        maxWidth: 34rem
+        width: 100%
+        marginLeft: auto
+        marginRight: auto
+      m_style:
+        padding: 1.5rem
+      c:
+      - el: div
+        name: hours
+        style:
+          width: 100%
+          minWidth: '0'
+        text: '{{include_component}}'

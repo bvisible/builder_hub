@@ -1,0 +1,81 @@
+# //// Neoffice — added file (no upstream equivalent): seed block of the hub's library, carrying a live component of the site.
+id: brand-row.live-strip
+title: Bandeau des marques du site
+kinds:
+- brand-row
+look: a quiet tinted strip, a centred label and a short heading over the logos of the brands the shop carries, in a row that scrolls
+photos: 0
+form: true
+component: brand_carousel.html
+ground: tint
+motion: None
+tree:
+  el: section
+  name: brands
+  style:
+    backgroundColor: '{{ground.background}}'
+    width: 100%
+    padding: 4.5rem 0
+  m_style:
+    padding: 3rem 0
+  c:
+  - el: div
+    name: container
+    style:
+      maxWidth: '{{container}}'
+      width: 100%
+      margin: 0 auto
+      paddingLeft: '{{gutter}}'
+      paddingRight: '{{gutter}}'
+    m_style:
+      paddingLeft: '{{gutter_phone}}'
+      paddingRight: '{{gutter_phone}}'
+    c:
+    - el: div
+      name: copy
+      style:
+        display: flex
+        flexDirection: column
+        alignItems: center
+        minWidth: '0'
+        marginBottom: 2rem
+      c:
+      - el: p
+        name: label
+        style:
+          color: color-mix(in srgb, {{ground.accent}} 80%, {{ground.ink}})
+          fontFamily: '{{font_body}}'
+          fontSize: 0.75rem
+          fontWeight: '700'
+          letterSpacing: 0.25em
+          textTransform: uppercase
+          margin: 0 0 1rem
+          textAlign: center
+        text: 'WRITE label: 1 to 3 words naming the subject'
+      - el: h2
+        name: heading
+        style:
+          color: '{{ground.ink}}'
+          fontFamily: '{{font_heading}}'
+          fontSize: 1.75rem
+          fontWeight: '700'
+          lineHeight: '1.15'
+          margin: 0 0 1.25rem
+          maxWidth: 36rem
+          textAlign: center
+          marginLeft: auto
+          marginRight: auto
+        t_style:
+          fontSize: 2.125rem
+        m_style:
+          fontSize: 1.75rem
+          overflowWrap: break-word
+        text: 'WRITE heading: 2 to 5 words'
+      m_style:
+        marginBottom: 2rem
+    - el: div
+      name: brands
+      style:
+        width: 100%
+        minWidth: '0'
+      text: '{{include_component}}'

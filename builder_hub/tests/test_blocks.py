@@ -5,6 +5,7 @@ again; the form of a Hub Block derives its family, writes its lint report, refus
 `publish_block` only ever writes a draft and never overwrites a published block. The database is replaced."""
 
 import inspect
+import json
 import tempfile
 import unittest
 from contextlib import contextmanager
@@ -125,6 +126,9 @@ class TestTheEditorCatalogue(unittest.TestCase):
 		self.assertEqual("Hero", blocks.category_of("hero"))
 		self.assertEqual("Call to action", blocks.category_of("CTA"))
 		self.assertEqual("Stats", blocks.category_of("figures"))
+		self.assertEqual("Contact", blocks.category_of("hours"))
+		self.assertEqual("Contact", blocks.category_of("map"))
+		self.assertEqual("Shop", blocks.category_of("brand-row"))
 		self.assertEqual("Content", blocks.category_of("two-column"))
 		self.assertEqual("Content", blocks.category_of(""))
 		self.assertEqual("Content", blocks.category_of(None))
@@ -190,7 +194,22 @@ class TestTheSeedFiles(unittest.TestCase):
 		self.assertEqual("steps", values["kinds"])
 		self.assertEqual("None", values["motion"])
 		self.assertEqual(0, values["form"])
+		self.assertEqual("", values["component"])
 		self.assertEqual("section", yaml.safe_load(values["tree"])["el"])
+
+	def test_each_seed_that_carries_a_component_names_one_the_field_offers_and_holds_its_tag_once(self):
+		doctype = Path(blocks.__file__).resolve().parent / "builder_hub/doctype/hub_block/hub_block.json"
+		field = next(f for f in json.loads(doctype.read_text())["fields"] if f["fieldname"] == "component")
+		options = field["options"].split("\n")
+		live =[blocks.read_seed(path) for path in sorted(SEEDS.glob("*.live-*.yaml"))]
+		self.assertGreaterEqual(len(live), 12)
+		for values in live:
+			with self.subTest(values["block_id"]):
+				self.assertEqual(1, values["form"])
+				self.assertIn(values["component"], options)
+				self.assertEqual(1, values["tree"].count("{{include_component}}"))
+		named = {values["component"] for values in live}
+		self.assertEqual(set(filter(None, options)) - {"site_form.html"}, named)
 
 	def test_the_two_blocks_that_move_say_how_much_and_wear_the_classes_of_the_motion_layer(self):
 		counters = blocks.read_seed(SEEDS / "figures.counters.yaml")

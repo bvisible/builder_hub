@@ -1,0 +1,112 @@
+# //// Neoffice — added file (no upstream equivalent): seed block of the hub's library, carrying a live component of the site.
+id: contact.live-details
+title: Coordonnées du site dans une carte
+kinds:
+- contact-details
+look: a tinted section, a label, a heading and a lead on the left; the site's own address, phone and e-mail in a raised card on the right; the columns stack on a tablet and a phone
+photos: 0
+form: true
+component: contact_info.html
+ground: tint
+motion: None
+notes: The details are the ones the site publishes (its company record), never words written into the block.
+tree:
+  el: section
+  name: details
+  style:
+    backgroundColor: '{{ground.background}}'
+    width: 100%
+    padding: 6rem 0
+  m_style:
+    padding: 4rem 0
+  c:
+  - el: div
+    name: container
+    style:
+      maxWidth: '{{container}}'
+      width: 100%
+      margin: 0 auto
+      paddingLeft: '{{gutter}}'
+      paddingRight: '{{gutter}}'
+    m_style:
+      paddingLeft: '{{gutter_phone}}'
+      paddingRight: '{{gutter_phone}}'
+    c:
+    - el: div
+      name: pair
+      style:
+        display: grid
+        gridTemplateColumns: minmax(0, 6fr) minmax(0, 5fr)
+        gap: 4rem
+        alignItems: center
+      t_style:
+        gridTemplateColumns: minmax(0, 1fr)
+        gap: 2.5rem
+      m_style:
+        gridTemplateColumns: minmax(0, 1fr)
+        gap: 2rem
+      c:
+      - el: div
+        name: copy
+        style:
+          display: flex
+          flexDirection: column
+          alignItems: flex-start
+          minWidth: '0'
+        c:
+        - el: p
+          name: label
+          style:
+            color: color-mix(in srgb, {{ground.accent}} 80%, {{ground.ink}})
+            fontFamily: '{{font_body}}'
+            fontSize: 0.75rem
+            fontWeight: '700'
+            letterSpacing: 0.25em
+            textTransform: uppercase
+            margin: 0 0 1rem
+          text: 'WRITE label: 1 to 3 words naming the subject'
+        - el: h2
+          name: heading
+          style:
+            color: '{{ground.ink}}'
+            fontFamily: '{{font_heading}}'
+            fontSize: 2.5rem
+            fontWeight: '700'
+            lineHeight: '1.15'
+            margin: 0 0 1.25rem
+            maxWidth: 36rem
+          t_style:
+            fontSize: 2.125rem
+          m_style:
+            fontSize: 1.75rem
+            overflowWrap: break-word
+          text: 'WRITE heading: 3 to 6 words'
+        - el: p
+          name: lead
+          style:
+            color: '{{ground.muted}}'
+            fontFamily: '{{font_body}}'
+            fontSize: 1.0625rem
+            lineHeight: '1.7'
+            margin: '0'
+            maxWidth: 34rem
+          text: 'WRITE lead: 18 to 32 words'
+      - el: div
+        name: card
+        style:
+          backgroundColor: '{{background}}'
+          color: '{{text}}'
+          border: 1px solid {{hair}}
+          borderRadius: 1rem
+          padding: 2.5rem
+          boxShadow: 0 30px 60px -30px color-mix(in srgb, {{text}} 30%, transparent)
+          width: 100%
+        m_style:
+          padding: 1.5rem
+        c:
+        - el: div
+          name: details
+          style:
+            width: 100%
+            minWidth: '0'
+          text: '{{include_component}}'

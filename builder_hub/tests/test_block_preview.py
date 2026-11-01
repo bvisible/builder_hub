@@ -138,7 +138,12 @@ class TestTheSeedBlocksOnEveryLook(unittest.TestCase):
 					for length in P.LENGTHS:
 						with self.subTest(block=data["id"], palette=palette, lang=lang, length=length):
 							page = P.render_page(
-								data["tree"], palette=palette, lang=lang, length=length, ground=data["ground"]
+								data["tree"],
+								palette=palette,
+								lang=lang,
+								length=length,
+								ground=data["ground"],
+								component=data.get("component", ""),
 							)
 							self.assertTrue(page.startswith("<!doctype html>") and page.endswith("</html>"))
 							for leftover in (

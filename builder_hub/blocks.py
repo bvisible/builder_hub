@@ -47,7 +47,10 @@ EDITOR_CATEGORIES = {
 	"gallery": "Gallery",
 	"cta": "Call to action",
 	"contact": "Contact",
+	"hours": "Contact",
+	"map": "Contact",
 	"product-row": "Shop",
+	"brand-row": "Shop",
 }
 DEFAULT_CATEGORY = "Content"
 
@@ -184,6 +187,7 @@ def read_seed(path) -> dict:
 		"look": data.get("look") or "",
 		"photos": int(data.get("photos") or 0),
 		"form": 1 if data.get("form") else 0,
+		"component": data.get("component") or "",
 		"ground": data.get("ground") or "plain",
 		"motion": data.get("motion") or "None",
 		"notes": data.get("notes") or "",
