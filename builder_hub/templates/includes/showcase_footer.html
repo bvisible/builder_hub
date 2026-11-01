@@ -1,6 +1,7 @@
 {# //// Neoffice — added file (no upstream equivalent): the note that closes a site of the catalogue, and its forms that stop before sending
    //// (builder_hub/showcase.py). The listener sits on the document, in the capture phase: it runs before the form's own (neo_contact_form.js),
-   //// which would send the message to the hub on behalf of a business that does not exist. Ink, as every action of the design system. #}
+   //// which would send the message to the hub on behalf of a business that does not exist. Ink, as every action of the design system.
+   //// The link opens a new tab: the editor's template picker shows these pages in a frame, and neoffice.ch refuses to load in one. #}
 <style>
 .hub-showcase-note {
 	box-sizing: border-box;
@@ -32,7 +33,7 @@
 </style>
 <footer class="hub-showcase-note">
 	<span>{{ _("Example site made with Neoffice. The texts and photos are for illustration.") | e }}</span>
-	<a href="https://neoffice.ch/site-examples">{{ _("See the other examples") | e }}</a>
+	<a href="https://neoffice.ch/site-examples" target="_blank" rel="noopener">{{ _("See the other examples") | e }}</a>
 </footer>
 <script>
 	document.addEventListener(
