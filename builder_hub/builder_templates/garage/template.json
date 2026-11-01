@@ -22,6 +22,17 @@
    "name": "page-3f4eacfa"
   }
  ],
+ "sector": "automotive",
  "source": "hub_publish",
- "title": "Garage : atelier indépendant"
+ "title": "Garage : atelier indépendant",
+ "translations": {
+  "de": {
+   "description": "Eine freie Garage: Startseite, Leistungen und Tarife, Terminbuchung und Vorstellung der Werkstatt. Beispieltexte, die Sie durch Ihre eigenen ersetzen.",
+   "title": "Garage: freie Werkstatt"
+  },
+  "en": {
+   "description": "An independent garage: home page, services and prices, appointment booking and a presentation of the workshop. Sample texts to replace with your own.",
+   "title": "Garage: independent workshop"
+  }
+ }
 }

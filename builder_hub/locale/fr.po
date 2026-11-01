@@ -1,0 +1,17 @@
+# //// Neoffice — added file (no upstream equivalent): the words of the menu and the note of the sites of the catalogue (builder_hub/showcase.py).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: fr\n"
+
+msgid "Example site made with Neoffice. The texts and photos are for illustration."
+msgstr "Site d'exemple réalisé avec Neoffice. Les textes et les photos servent d'illustration."
+
+msgid "Pages of the site"
+msgstr "Pages du site"
+
+msgid "See the other examples"
+msgstr "Voir les autres exemples"
+
+msgid "This is an example site: this form sends nothing. On your own site, the message reaches you in Neoffice."
+msgstr "Ceci est un site d'exemple : ce formulaire n'envoie rien. Sur votre propre site, le message vous parvient dans Neoffice."

@@ -22,6 +22,17 @@
    "name": "page-cbe509f4"
   }
  ],
+ "sector": "health",
  "source": "hub_publish",
- "title": "Cabinet dentaire : soins et rendez-vous"
+ "title": "Cabinet dentaire : soins et rendez-vous",
+ "translations": {
+  "de": {
+   "description": "Eine Zahnarztpraxis aus dem Quartier: Startseite, Behandlungen und Tarife, Terminbuchung und Vorstellung der Praxis. Beispieltexte, die Sie durch Ihre eigenen ersetzen.",
+   "title": "Zahnarztpraxis: Behandlungen und Termine"
+  },
+  "en": {
+   "description": "A local dental practice: home page, treatments and prices, appointment booking and a presentation of the practice. Sample texts to replace with your own.",
+   "title": "Dental practice: treatments and appointments"
+  }
+ }
 }

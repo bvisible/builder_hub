@@ -1,0 +1,53 @@
+{# //// Neoffice — added file (no upstream equivalent): the note that closes a site of the catalogue, and its forms that stop before sending
+   //// (builder_hub/showcase.py). The listener sits on the document, in the capture phase: it runs before the form's own (neo_contact_form.js),
+   //// which would send the message to the hub on behalf of a business that does not exist. Ink, as every action of the design system. #}
+<style>
+.hub-showcase-note {
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 0.25rem 1.5rem;
+	padding: 1rem clamp(1rem, 4vw, 2.5rem);
+	background: #141414;
+	color: #ffffff;
+	font-family: "{{ theme.body_font | e }}", system-ui, sans-serif;
+	font-size: 0.9rem;
+	text-align: center;
+}
+.hub-showcase-note a {
+	color: inherit;
+	text-decoration: underline;
+}
+.hub-showcase-form-note {
+	margin: 1rem 0 0;
+	padding: 0.75rem 1rem;
+	border-left: 3px solid #141414;
+	background: #ffffff;
+	color: #141414;
+	font-size: 0.95rem;
+}
+</style>
+<footer class="hub-showcase-note">
+	<span>{{ _("Example site made with Neoffice. The texts and photos are for illustration.") | e }}</span>
+	<a href="https://neoffice.ch/site-examples">{{ _("See the other examples") | e }}</a>
+</footer>
+<script>
+	document.addEventListener(
+		"submit",
+		function (event) {
+			event.preventDefault();
+			event.stopImmediatePropagation();
+			var form = event.target;
+			if (form.nextElementSibling && form.nextElementSibling.classList.contains("hub-showcase-form-note")) return;
+			var note = document.createElement("p");
+			note.className = "hub-showcase-form-note";
+			note.setAttribute("role", "status");
+			note.textContent = {{ _("This is an example site: this form sends nothing. On your own site, the message reaches you in Neoffice.") | tojson }};
+			form.after(note);
+		},
+		true
+	);
+</script>

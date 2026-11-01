@@ -186,16 +186,26 @@ def publish_template_group():
 
 
 @frappe.whitelist()
-def promote_to_catalog(group: str, title: str | None = None, description: str | None = None):
+def promote_to_catalog(
+    group: str,
+    title: str | None = None,
+    description: str | None = None,
+    sector: str | None = None,
+    translations: dict | None = None,
+):
     """Queue the promotion of a staged group into the published catalog.
 
     Runs as a background job: fixture export renders page previews through
     BuilderPageRenderer, which clobbers frappe.local.request and breaks the
     HTTP teardown when run inline.
+
+    `sector` and `translations` are for the gallery of neoffice.ch: a group shows up there without them, under no
+    filter and in the language it was written in.
     """
     _check_publisher()
     group = _validate_group_slug(group)
     _assert_group_not_protected(group)
+    _validate_sector(sector)
     job = frappe.enqueue(
         "builder_hub.publish._promote_sync",
         queue="long",
@@ -203,8 +213,18 @@ def promote_to_catalog(group: str, title: str | None = None, description: str | 
         group=group,
         title=title,
         description=description,
+        sector=sector,
+        translations=translations,
     )
     return {"queued": True, "job_id": job.id, "group": group}
+
+
+# //// Neoffice — refused here and not in the job: the person who promotes reads the mistake, and a sector with no label would show as a bare code
+def _validate_sector(sector: str | None):
+    from builder_hub.showcase import SECTORS
+
+    if sector and sector not in SECTORS:
+        frappe.throw(_("Unknown sector {0}: use one of {1}").format(sector, ", ".join(SECTORS)))
 
 
 # //// Neoffice — the theme a promoted group brings to the site that installs it (2026-10-31). The pages of a generated site name their
@@ -235,10 +255,17 @@ def header_footer_from_tokens(group: str) -> dict:
     return theme
 
 
-def _promote_sync(group: str, title: str | None = None, description: str | None = None):
+def _promote_sync(
+    group: str,
+    title: str | None = None,
+    description: str | None = None,
+    sector: str | None = None,
+    translations: dict | None = None,
+):
     """Synchronous promotion — runs in the worker (or via bench execute)."""
     group = _validate_group_slug(group)
     _assert_group_not_protected(group)
+    _validate_sector(sector)
 
     folder = _staging_folder_name(group)
     staged = frappe.get_all(
@@ -293,6 +320,10 @@ def _promote_sync(group: str, title: str | None = None, description: str | None 
             manifest["title"] = title
         if description:
             manifest["description"] = description
+        if sector:
+            manifest["sector"] = sector
+        if translations:
+            manifest["translations"] = translations
         if not manifest.get("header_footer"):
             theme = header_footer_from_tokens(group)
             if theme:

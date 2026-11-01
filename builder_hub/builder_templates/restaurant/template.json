@@ -22,6 +22,17 @@
    "name": "page-af3643ca"
   }
  ],
+ "sector": "food",
  "source": "hub_publish",
- "title": "Restaurant : cuisine de saison"
+ "title": "Restaurant : cuisine de saison",
+ "translations": {
+  "de": {
+   "description": "Ein Restaurant mit Saisonküche: Startseite, Speisekarte, Tischreservierung und praktische Informationen. Beispieltexte, die Sie durch Ihre eigenen ersetzen.",
+   "title": "Restaurant: Saisonküche"
+  },
+  "en": {
+   "description": "A restaurant with seasonal cuisine: home page, menu, table booking and practical information. Sample texts to replace with your own.",
+   "title": "Restaurant: seasonal cuisine"
+  }
+ }
 }

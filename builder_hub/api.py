@@ -26,6 +26,9 @@ def get_catalog() -> list[dict]:
 def _get_catalog(base_url: str) -> list[dict]:
 	from builder.template_sync import get_all_group_manifests
 
+	# //// Neoffice — imported here: publish.py reaches this module for the caches it clears
+	from builder_hub.publish import PROTECTED_GROUPS_MARKER
+
 	pages = frappe.get_all(
 		"Builder Page",
 		filters={"is_template": 1, "template_group": ("is", "set")},
@@ -72,6 +75,11 @@ def _get_catalog(base_url: str) -> list[dict]:
 				# bvisible: the template's header/footer design, applied by the
 				# consumer to its Website Header Footer Config on group import
 				"header_footer": manifest.get("header_footer"),
+				# //// Neoffice — what the gallery of neoffice.ch reads (builder_hub/showcase.py): a group we published shows up there by itself, filed
+				# //// under its sector, with its title in the other languages of that site when it has them
+				"showcase": manifest.get("source") == PROTECTED_GROUPS_MARKER,
+				"sector": manifest.get("sector") or "",
+				"translations": manifest.get("translations") or {},
 			}
 		)
 	groups.sort(key=lambda g: (g.get("order") is None, g.get("order") or 0, g["title"]))
@@ -220,6 +228,8 @@ def allow_template_embedding(response=None, request=None):
 		directives.append("frame-ancestors *")
 		response.headers["Content-Security-Policy"] = "; ".join(directives)
 		response.headers.pop("X-Frame-Options", None)
+		# //// Neoffice — these are examples of businesses that do not exist: a search engine must not offer them as a real electrician or dentist
+		response.headers["X-Robots-Tag"] = "noindex"
 
 
 # //// Neoffice — the hub's library of blocks: sections a site generator draws from (builder_hub/blocks.py). Guest-readable like the

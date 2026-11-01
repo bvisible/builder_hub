@@ -1,0 +1,55 @@
+{# //// Neoffice — added file (no upstream equivalent): the menu of a site of the catalogue, in its own colours (builder_hub/showcase.py).
+   //// The name reads text_color and not primary_color: a theme's primary may be the colour of its background. #}
+<style>
+.hub-showcase-header {
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.5rem 2rem;
+	padding: 0.9rem clamp(1rem, 4vw, 2.5rem);
+	background: {{ theme.background_color | e }};
+	color: {{ theme.text_color | e }};
+	border-bottom: 1px solid color-mix(in srgb, {{ theme.text_color | e }} 14%, transparent);
+	font-family: "{{ theme.body_font | e }}", system-ui, sans-serif;
+}
+.hub-showcase-header__name {
+	color: inherit;
+	font-family: "{{ theme.heading_font | e }}", system-ui, sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-decoration: none;
+}
+.hub-showcase-header__menu {
+	display: flex;
+	gap: 1.5rem;
+	max-width: 100%;
+	overflow-x: auto;
+	scrollbar-width: none;
+	white-space: nowrap;
+}
+.hub-showcase-header__menu a {
+	padding: 0.2rem 0;
+	border-bottom: 2px solid transparent;
+	color: inherit;
+	font-size: 0.95rem;
+	text-decoration: none;
+}
+.hub-showcase-header__menu a:hover,
+.hub-showcase-header__menu a[aria-current="page"] {
+	border-bottom-color: currentColor;
+}
+</style>
+<header class="hub-showcase-header">
+	<a class="hub-showcase-header__name" href="{{ home | e }}">{{ name | e }}</a>
+	<nav class="hub-showcase-header__menu" aria-label="{{ _('Pages of the site') | e }}">
+		{%- for page in pages %}
+		<a href="{{ page.url | e }}"{% if page.current %} aria-current="page"{% endif %}>{{ page.title | e }}</a>
+		{%- endfor %}
+	</nav>
+</header>

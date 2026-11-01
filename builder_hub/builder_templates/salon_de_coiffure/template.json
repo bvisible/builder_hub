@@ -22,6 +22,17 @@
    "name": "page-a9895612"
   }
  ],
+ "sector": "beauty",
  "source": "hub_publish",
- "title": "Salon de coiffure : prestations et rendez-vous"
+ "title": "Salon de coiffure : prestations et rendez-vous",
+ "translations": {
+  "de": {
+   "description": "Ein Coiffeursalon und Kosmetikinstitut: Startseite, Leistungen und Tarife, Terminbuchung und Team. Beispieltexte, die Sie durch Ihre eigenen ersetzen.",
+   "title": "Coiffeursalon: Leistungen und Termine"
+  },
+  "en": {
+   "description": "A hair and beauty salon: home page, services and prices, appointment booking and team. Sample texts to replace with your own.",
+   "title": "Hair salon: services and appointments"
+  }
+ }
 }

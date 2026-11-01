@@ -215,6 +215,8 @@ scheduler_events = {
 after_request = [
 	"builder_hub.api.allow_template_embedding",
 	"builder_hub.assets.set_asset_cache_headers",
+	# //// Neoffice — the sites of the catalogue get their menu and their note on the way out (builder_hub/showcase.py)
+	"builder_hub.showcase.dress_template_page",
 ]
 
 # Job Events

@@ -22,6 +22,17 @@
    "name": "page-56a2fd8e"
   }
  ],
+ "sector": "trades",
  "source": "hub_publish",
- "title": "Électricien : installations et dépannage"
+ "title": "Électricien : installations et dépannage",
+ "translations": {
+  "de": {
+   "description": "Ein Elektrobetrieb: Startseite, Leistungen, Offertanfrage und Vorstellung des Betriebs. Beispieltexte, die Sie durch Ihre eigenen ersetzen.",
+   "title": "Elektriker: Installationen und Reparaturen"
+  },
+  "en": {
+   "description": "An electrical installation company: home page, services, quote request and a presentation of the company. Sample texts to replace with your own.",
+   "title": "Electrician: installations and repairs"
+  }
+ }
 }
