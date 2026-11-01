@@ -29,7 +29,9 @@
   "version",
   "source",
   "preview",
-  "preview_hash"
+  "preview_hash",
+  "fit_report",
+  "fit_hash"
  ],
  "fields": [
   {
@@ -188,11 +190,25 @@
    "label": "Preview hash",
    "read_only": 1,
    "hidden": 1
+  },
+  {
+   "fieldname": "fit_report",
+   "fieldtype": "Small Text",
+   "label": "Responsive check",
+   "read_only": 1,
+   "description": "What runs off the screen, is squeezed or flattened at 375, 600, 768, 1024 or 1280 px (block_fit.py). Empty: the block holds everywhere."
+  },
+  {
+   "fieldname": "fit_hash",
+   "fieldtype": "Data",
+   "label": "Responsive check hash",
+   "read_only": 1,
+   "hidden": 1
   }
  ],
  "index_web_pages_for_search": 0,
  "links": [],
- "modified": "2026-10-30 12:00:00.000000",
+ "modified": "2026-11-01 12:00:00.000000",
  "modified_by": "Administrator",
  "module": "Builder Hub",
  "name": "Hub Block",

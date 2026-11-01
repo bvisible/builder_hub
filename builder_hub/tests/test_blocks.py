@@ -14,7 +14,7 @@ from unittest.mock import MagicMock, patch
 import frappe
 import yaml
 
-from builder_hub import blocks, publish
+from builder_hub import block_fit, blocks, publish
 from builder_hub.builder_hub.doctype.hub_block import hub_block
 from builder_hub.builder_hub.doctype.hub_block.hub_block import HubBlock
 
@@ -51,6 +51,9 @@ def row(**over):
 		"tree": yaml.safe_dump(TREE, sort_keys=False),
 	}
 	data.update(over)
+	# a block is served only once it was measured as it is and held on every screen (block_fit.py): the rows here have
+	data.setdefault("fit_hash", block_fit.fit_hash(data))
+	data.setdefault("fit_report", "")
 	return data
 
 
@@ -331,6 +334,9 @@ def form(**over):
 		"format": 0,
 	}
 	values.update(over)
+	# measured as it is and holding on every screen, unless the test says otherwise (block_fit.py)
+	values.setdefault("fit_hash", block_fit.fit_hash(values))
+	values.setdefault("fit_report", "")
 	for key, value in values.items():
 		setattr(doc, key, value)
 	doc.get_doc_before_save = lambda: over.get("_before")

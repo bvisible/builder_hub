@@ -18,6 +18,7 @@ class HubBlock(Document):
 		self.lint_report = "\n".join([*(self.flags.get("compile_report") or []), *lint_lines])
 		if errors and self.status in ("Editor", "Published"):
 			frappe.throw(_("A block with errors cannot be offered:") + "<br>" + "<br>".join(errors))
+		self.check_fit()
 		if not self.source:
 			self.source = "edited in the hub"
 		before = self.get_doc_before_save()
@@ -26,6 +27,29 @@ class HubBlock(Document):
 			if not self.flags.in_seed_sync and self.source == "seed":
 				# a person changed a seed block: the files no longer overwrite it
 				self.source = "edited in the hub"
+
+	def check_fit(self):
+		"""A block is offered only if it holds on a phone, a tablet and a desktop (block_fit.py): measured now when its tree has no measure yet,
+		refused when its measure says it fails. A block that could not be measured is not refused here; it is not served until it is."""
+		if self.status not in ("Editor", "Published"):
+			return
+		if self.flags.in_seed_sync or _installing():
+			return
+		from builder_hub import block_fit
+
+		row = {"tree": self.tree, "ground": self.ground, "fit_hash": self.fit_hash, "fit_report": self.fit_report}
+		if not block_fit.measured(row):
+			try:
+				self.fit_hash, self.fit_report = block_fit.measure_row(row)
+			except Exception as e:
+				frappe.log_error("Block not measured", f"{type(e).__name__}: {e}"[:500])
+				return
+		if self.fit_hash == block_fit.fit_hash(row) and (self.fit_report or "").strip():
+			frappe.throw(
+				_("This block does not hold on every screen, so it cannot be offered:")
+				+ "<br>"
+				+ "<br>".join(frappe.utils.escape_html(line) for line in self.fit_report.splitlines())
+			)
 
 	def kind_list(self) -> list[str]:
 		return list(dict.fromkeys(k.strip() for k in (self.kinds or "").split(",") if k.strip()))
@@ -136,3 +160,11 @@ class HubBlock(Document):
 		from builder_hub.blocks import clear_block_cache
 
 		clear_block_cache()
+
+
+def _installing() -> bool:
+	"""Whether an install, a migrate or an import is saving the block: no browser is started from one."""
+	try:
+		return bool(frappe.flags.in_install or frappe.flags.in_migrate or frappe.flags.in_import)
+	except RuntimeError:  # no site bound (a test that builds the form by hand)
+		return False

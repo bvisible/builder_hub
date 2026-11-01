@@ -108,15 +108,22 @@ def serve(row: dict) -> dict | None:
 	}
 
 
+# what a block must have been measured to hold on every screen to be served (block_fit.py): read with the row, never sent
+FIT_FIELDS = ("fit_hash", "fit_report")
+
+
 def published_blocks() -> dict:
+	"""{"format": n, "blocks": [...]}: the blocks the generator may choose, those measured as they are and holding on every screen."""
+	from builder_hub.block_fit import fits
+
 	rows = frappe.get_all(
 		"Hub Block",
 		filters={"status": ("in", GENERATOR_STATUSES)},
-		fields=list(PUBLISHED_FIELDS),
+		fields=[*PUBLISHED_FIELDS, *FIT_FIELDS],
 		order_by="block_id asc",
 		ignore_permissions=True,
 	)
-	return {"format": block_format.FORMAT, "blocks": [b for b in (serve(r) for r in rows) if b]}
+	return {"format": block_format.FORMAT, "blocks": [b for b in (serve(r) for r in rows if fits(r)) if b]}
 
 
 def serve_for_editor(row: dict) -> dict | None:
@@ -134,15 +141,18 @@ def serve_for_editor(row: dict) -> dict | None:
 
 
 def editor_blocks() -> dict:
-	"""{"format": n, "blocks": [...]}: the blocks the editor offers (those with a thumbnail), by id."""
+	"""{"format": n, "blocks": [...]}: the blocks the editor offers (those with a thumbnail, measured as they are and holding on every screen), by
+	id."""
+	from builder_hub.block_fit import fits
+
 	rows = frappe.get_all(
 		"Hub Block",
 		filters={"status": ("in", EDITOR_STATUSES)},
-		fields=[*PUBLISHED_FIELDS, "status", "preview"],
+		fields=[*PUBLISHED_FIELDS, *FIT_FIELDS, "status", "preview"],
 		order_by="block_id asc",
 		ignore_permissions=True,
 	)
-	served = [b for b in (serve_for_editor(r) for r in rows) if b]
+	served = [b for b in (serve_for_editor(r) for r in rows if fits(r)) if b]
 	return {"format": block_format.FORMAT, "sections": list(EDITOR_SECTIONS), "blocks": served}
 
 
