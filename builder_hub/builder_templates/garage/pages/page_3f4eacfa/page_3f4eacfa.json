@@ -1142,9 +1142,7 @@
            "attributes": {
             "href": "prendre_rendez_vous"
            },
-           "baseStyles": {
-            "width": "100%"
-           },
+           "baseStyles": {},
            "blockId": "825532da0",
            "blockName": "button",
            "classes": [

@@ -247,6 +247,21 @@ def _kept_chrome(group: str) -> dict:
             return {}
 
 
+# //// Neoffice — a photograph that never landed is a blank box the size of a section (2026-11-01): the generator draws a stand-in while the image job runs, and two of the five
+# //// first sites reached the catalogue with theirs, one of them in the first screen of a page. A group does not leave the inbox before its pictures are there.
+STAND_IN_PICTURE = "data:image/svg+xml"
+
+
+def _refuse_empty_photos(staged: list):
+    empty = [
+        page.page_title or page.name
+        for page in staged
+        if STAND_IN_PICTURE in (frappe.db.get_value("Builder Page", page.name, "draft_blocks") or frappe.db.get_value("Builder Page", page.name, "blocks") or "")
+    ]
+    if empty:
+        frappe.throw(_("A picture is missing on: {0}").format(", ".join(empty)))
+
+
 # //// Neoffice — refused here and not in the job: the person who promotes reads the mistake, and a sector with no label would show as a bare code
 def _validate_sector(sector: str | None):
     from builder_hub.showcase import SECTORS
@@ -304,6 +319,7 @@ def _promote_sync(
     )
     if not staged:
         frappe.throw(_("No staged pages found for group {0}").format(group))
+    _refuse_empty_photos(staged)
 
     from builder.template_sync import (
         export_template_group,

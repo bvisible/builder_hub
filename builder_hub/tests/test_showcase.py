@@ -236,6 +236,28 @@ class TestThePromotion(unittest.TestCase):
 		publish._validate_sector("trades")
 
 
+class TestAGroupWithAMissingPicture(unittest.TestCase):
+	PAGE = showcase.frappe._dict(name="p1", page_title="Accueil")
+
+	def promote(self, draft, blocks):
+		db = MagicMock()
+		db.get_value.side_effect = lambda doctype, name, field: {"draft_blocks": draft, "blocks": blocks}[field]
+		with patch.object(publish.frappe, "db", db), patch.object(publish.frappe, "throw", side_effect=ValueError) as throw:
+			try:
+				publish._refuse_empty_photos([self.PAGE])
+			except ValueError:
+				return throw.call_args.args[0]
+
+	def test_it_stays_in_the_inbox_and_the_page_is_named(self):
+		self.assertIn("Accueil", self.promote(None, '[{"attributes": {"src": "data:image/svg+xml;utf8,<svg/>"}}]'))
+
+	def test_the_draft_is_what_will_be_published(self):
+		self.assertIn("Accueil", self.promote('[{"src": "data:image/svg+xml;utf8,<svg/>"}]', "[]"))
+
+	def test_real_pictures_pass(self):
+		self.assertIsNone(self.promote(None, '[{"attributes": {"src": "/files/photo.jpg"}}]'))
+
+
 class TestTheChromeWaitsForThePromotion(unittest.TestCase):
 	def test_what_the_publish_kept_reaches_the_promotion(self):
 		with tempfile.TemporaryDirectory() as folder, patch.object(publish, "_chrome_path", return_value=f"{folder}/inbox/garage.json"):

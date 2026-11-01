@@ -170,7 +170,8 @@
           "fontSize": "2.5rem",
           "fontWeight": "700",
           "lineHeight": "1.15",
-          "margin": "0 0 3rem"
+          "margin": "0 0 3rem",
+          "textAlign": "center"
          },
          "blockId": "99a5b4b02",
          "element": "h2",

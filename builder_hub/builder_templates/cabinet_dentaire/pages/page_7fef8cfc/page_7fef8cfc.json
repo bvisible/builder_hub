@@ -144,7 +144,7 @@
             {
              "attributes": {
               "alt": "Plan de travail d’un cabinet dentaire, propre et lumineux, avec des instruments disposés avec soin",
-              "src": "data:image/svg+xml;utf8,<svg xmlns=%27http://www.w3.org/2000/svg%27 width=%271600%27 height=%27900%27 viewBox=%270 0 1600 900%27><rect width=%27100%25%27 height=%27100%25%27 fill=%27%23ffffff%27/><rect width=%27100%25%27 height=%27100%25%27 fill=%27%23f2a65a%27 fill-opacity=%270.35%27/></svg>"
+              "src": "/builder_assets/cabinet_dentaire/page-7fef8cfc/hubpub-cabinet_dentaire-gen_15dfeea5.jpg"
              },
              "baseStyles": {
               "display": "block",
@@ -246,7 +246,8 @@
             "display": "flex",
             "gap": "2rem",
             "justifyContent": "space-between",
-            "padding": "1.25rem 0"
+            "padding": "1.25rem 0",
+            "width": "100%"
            },
            "blockId": "44909cc40",
            "blockName": "row",
@@ -321,7 +322,8 @@
             "display": "flex",
             "gap": "2rem",
             "justifyContent": "space-between",
-            "padding": "1.25rem 0"
+            "padding": "1.25rem 0",
+            "width": "100%"
            },
            "blockId": "41c8fc084",
            "blockName": "row",
@@ -396,7 +398,8 @@
             "display": "flex",
             "gap": "2rem",
             "justifyContent": "space-between",
-            "padding": "1.25rem 0"
+            "padding": "1.25rem 0",
+            "width": "100%"
            },
            "blockId": "5ec777262",
            "blockName": "row",
@@ -471,7 +474,8 @@
             "display": "flex",
             "gap": "2rem",
             "justifyContent": "space-between",
-            "padding": "1.25rem 0"
+            "padding": "1.25rem 0",
+            "width": "100%"
            },
            "blockId": "1603bf228",
            "blockName": "row",
@@ -546,7 +550,8 @@
             "display": "flex",
             "gap": "2rem",
             "justifyContent": "space-between",
-            "padding": "1.25rem 0"
+            "padding": "1.25rem 0",
+            "width": "100%"
            },
            "blockId": "a21fab4c2",
            "blockName": "row",
