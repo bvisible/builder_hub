@@ -588,10 +588,13 @@ def _drop_stale_staged_pages(folder: str, keep: list):
 
 def _clear_catalog_caches():
     from builder_hub.api import _get_catalog, _get_template_bundle
+    from builder_hub.showcase import chrome_parts
 
     try:
         _get_catalog.clear_cache()
         _get_template_bundle.clear_cache()
+        # //// Neoffice — the chrome of a site of the catalogue is kept an hour, drawn from the same manifest
+        chrome_parts.clear_cache()
     except Exception:
         frappe.cache().delete_keys("builder_hub*")
 
