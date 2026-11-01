@@ -5,6 +5,7 @@ numeral counts up and an accent word is wrapped as the writer wraps it; every se
 no slot left, nothing a page must not hold, the tablet and phone rules of the Builder's breakpoints, a dark palette on a dark page. No Frappe."""
 
 import re
+import typing
 import unittest
 from pathlib import Path
 
@@ -363,3 +364,45 @@ class TestTheMotionOfAPreview(unittest.TestCase):
 		phrase = words.slot("phrase", "1 to 3 words of the business's own")
 		self.assertEqual(3, len(phrase.split()))
 		self.assertFalse(phrase.endswith("."))
+
+
+class TestTheLiveComponentOfAPreview(unittest.TestCase):
+	"""A block names the live component it carries: its preview (and so its thumbnail and its responsive measure) shows that component, the form
+	when it names none."""
+
+	TREE: typing.ClassVar[dict] = {
+		"el": "section",
+		"name": "hours",
+		"style": {"padding": "4rem 0"},
+		"c": [
+			{"el": "h2", "name": "heading", "text": "WRITE heading: 3 to 6 words"},
+			{"el": "div", "name": "component", "text": "{{include_component}}"},
+		],
+	}
+
+	def test_the_opening_hours_show_the_days_not_a_form(self):
+		page = P.render_page(self.TREE, component="opening_hours.html")
+		self.assertIn("Lundi", page)
+		self.assertIn("Fermé", page)
+		self.assertNotIn("Envoyer", page)
+
+	def test_a_carousel_shows_cards_that_wrap(self):
+		page = P.render_page(self.TREE, component="product_carousel.html")
+		self.assertEqual(4, page.count("CHF 49."))
+		self.assertIn("auto-fit", page)
+
+	def test_a_full_include_path_is_read_by_its_file_name(self):
+		self.assertEqual(P.COMPONENT_MOCKS["google_map.html"], P.mock_of("builder/templates/includes/google_map.html"))
+
+	def test_no_component_or_an_unknown_one_is_the_form(self):
+		self.assertIn("Envoyer", P.render_page(self.TREE))
+		self.assertEqual(P.MOCK_FORM, P.mock_of("something_else.html"))
+
+	def test_every_component_of_the_field_has_a_mock(self):
+		import json
+
+		field = next(f for f in json.load(open(Path(P.__file__).parent / "builder_hub" / "doctype" / "hub_block" / "hub_block.json"))["fields"] if f["fieldname"] == "component")
+		names = [o for o in field["options"].split("\n") if o]
+		self.assertTrue(names)
+		self.assertEqual(set(names), set(P.COMPONENT_MOCKS))
+

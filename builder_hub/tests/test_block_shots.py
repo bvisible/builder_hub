@@ -35,6 +35,15 @@ class TestWhenABlockNeedsAPicture(unittest.TestCase):
 		with patch.object(block_shots, "RENDERER", block_shots.RENDERER + 1):
 			self.assertNotEqual(base, block_shots.preview_hash(row()))
 
+	def test_the_component_a_block_carries_is_in_the_hash_and_one_without_keeps_its_hash(self):
+		base = block_shots.preview_hash(row())
+		self.assertEqual(base, block_shots.preview_hash(row(form=0, component="")))
+		self.assertNotEqual(base, block_shots.preview_hash(row(form=1, component="opening_hours.html")))
+		self.assertNotEqual(
+			block_shots.preview_hash(row(form=1, component="opening_hours.html")),
+			block_shots.preview_hash(row(form=1, component="product_carousel.html")),
+		)
+
 	def test_a_block_with_no_picture_needs_one(self):
 		self.assertTrue(block_shots.needs_a_picture(row()))
 

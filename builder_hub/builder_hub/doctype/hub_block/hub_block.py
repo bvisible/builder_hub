@@ -12,6 +12,11 @@ class HubBlock(Document):
 		self.family = self.block_id.split(".")[0]
 		self.kinds = ", ".join(self.kind_list())
 		self.format = block_format.FORMAT
+		# the live component it carries: naming one carries it, carrying one without a name is the contact form (blocks.py)
+		if self.get("component"):
+			self.form = 1
+		elif self.form:
+			self.component = "contact_form.html"
 		errors, warnings = self.lint()
 		lint_lines = [*(f"ERROR {e}" for e in errors), *(f"warning {w}" for w in warnings)]
 		# what compiling the page of the editor said comes first: it names the blocks of the page, the lint names those of the tree
@@ -37,7 +42,14 @@ class HubBlock(Document):
 			return
 		from builder_hub import block_fit
 
-		row = {"tree": self.tree, "ground": self.ground, "fit_hash": self.fit_hash, "fit_report": self.fit_report}
+		row = {
+			"tree": self.tree,
+			"ground": self.ground,
+			"form": self.form,
+			"component": self.get("component"),
+			"fit_hash": self.fit_hash,
+			"fit_report": self.fit_report,
+		}
 		if not block_fit.measured(row):
 			try:
 				self.fit_hash, self.fit_report = block_fit.measure_row(row)
@@ -125,6 +137,7 @@ class HubBlock(Document):
 			length=length,
 			ground=self.ground or "plain",
 			motion=self.motion if self.motion in ("Calm", "Brisk") else "Calm",
+			component=self.get("component") or "",
 		)
 
 	@frappe.whitelist()

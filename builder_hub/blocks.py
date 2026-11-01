@@ -22,7 +22,7 @@ from builder_hub import block_compile, block_format, block_preview
 SEED_SOURCE = "seed"
 EDITED_SOURCE = "edited in the hub"
 PUBLISHED_FIELDS = (
-	"block_id", "title", "family", "kinds", "look", "photos", "form", "ground", "motion", "version", "tree",
+	"block_id", "title", "family", "kinds", "look", "photos", "form", "component", "ground", "motion", "version", "tree",
 )  # fmt: skip
 # the statuses of a block and who is offered it: Published goes to the site generator (which chooses alone, so a person has read the block) and to the
 # editor; Editor goes to the editor only (a person builds a page there and chooses each block with their eyes)
@@ -73,6 +73,17 @@ def category_of(family: str) -> str:
 	return EDITOR_CATEGORIES.get((family or "").strip().lower(), DEFAULT_CATEGORY)
 
 
+# the include a block names (Hub Block `component`): a block that carries a component but names none is from before the field, the contact form
+DEFAULT_COMPONENT = "contact_form.html"
+
+
+def component_of(row: dict) -> str:
+	"""The file name of the site's include a block carries ("" when it carries none)."""
+	if not row.get("form"):
+		return ""
+	return (row.get("component") or "").strip() or DEFAULT_COMPONENT
+
+
 def serve(row: dict) -> dict | None:
 	"""The wire form of a block row, or None when its tree no longer lints (a published block is linted again on the way out, so that a row
 	changed behind the form's back is never served)."""
@@ -101,6 +112,7 @@ def serve(row: dict) -> dict | None:
 		"look": row["look"],
 		"photos": int(row["photos"] or 0),
 		"form": bool(row["form"]),
+		"component": component_of(row),
 		"ground": row["ground"] or "plain",
 		"motion": row["motion"] or "None",
 		"version": int(row["version"] or 1),

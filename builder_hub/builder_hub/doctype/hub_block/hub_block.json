@@ -15,6 +15,7 @@
   "ground",
   "photos",
   "form",
+  "component",
   "motion",
   "section_look",
   "look",
@@ -95,7 +96,14 @@
   {
    "fieldname": "form",
    "fieldtype": "Check",
-   "label": "Carries the contact form"
+   "label": "Carries a live component"
+  },
+  {
+   "fieldname": "component",
+   "fieldtype": "Select",
+   "label": "Live component",
+   "options": "\ncontact_form.html\nsite_form.html\nopening_hours.html\nproduct_carousel.html\nbrand_carousel.html\ngoogle_map.html\nteam_grid.html\ncompany_timeline.html\nblog_listing.html\ncontact_info.html",
+   "description": "The site's live component the block carries where its tree says {{include_component}}: opening hours, a carousel, the map, the form… A site that does not have it is not offered the block."
   },
   {
    "fieldname": "motion",
@@ -208,7 +216,7 @@
  ],
  "index_web_pages_for_search": 0,
  "links": [],
- "modified": "2026-11-01 12:00:00.000000",
+ "modified": "2026-11-01 14:00:00.000000",
  "modified_by": "Administrator",
  "module": "Builder Hub",
  "name": "Hub Block",

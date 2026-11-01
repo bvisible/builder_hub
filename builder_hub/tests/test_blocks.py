@@ -36,6 +36,17 @@ TREE = {
 }
 
 
+FORM_TREE = {
+	"el": "section",
+	"name": "hours",
+	"style": {"padding": "4rem 0"},
+	"c": [
+		{"el": "h2", "name": "heading", "text": "WRITE heading: 4 to 8 words"},
+		{"el": "div", "name": "component", "text": "{{include_component}}"},
+	],
+}
+
+
 def row(**over):
 	data = {
 		"block_id": "cta.band-test",
@@ -86,6 +97,27 @@ class TestWhatIsServed(unittest.TestCase):
 		self.assertEqual({"status": ("in", ("Published",))}, get_all.call_args.kwargs["filters"])
 		self.assertEqual(blocks.block_format.FORMAT, result["format"])
 		self.assertEqual(["cta.band-test"], [b["id"] for b in result["blocks"]])
+
+
+class TestTheComponentABlockCarries(unittest.TestCase):
+	def test_a_block_without_one_carries_none(self):
+		self.assertEqual("", blocks.component_of(row(form=0, component="opening_hours.html")))
+
+	def test_a_block_that_carries_one_without_naming_it_carries_the_contact_form(self):
+		self.assertEqual("contact_form.html", blocks.component_of(row(form=1)))
+
+	def test_the_name_it_gives_is_served(self):
+		served = blocks.serve(row(form=1, component="opening_hours.html", tree=yaml.safe_dump(FORM_TREE, sort_keys=False)))
+		self.assertEqual("opening_hours.html", served["component"])
+
+	def test_the_form_names_the_contact_form_when_a_block_carries_one_unnamed_and_naming_one_carries_it(self):
+		with patch.object(blocks.frappe, "throw", side_effect=frappe.ValidationError("refused")), patch.object(hub_block, "_", lambda text: text):
+			doc = form(form=1, component="", tree=yaml.safe_dump(FORM_TREE, sort_keys=False))
+			doc.validate()
+			self.assertEqual("contact_form.html", doc.component)
+			doc = form(form=0, component="opening_hours.html", tree=yaml.safe_dump(FORM_TREE, sort_keys=False))
+			doc.validate()
+			self.assertEqual(1, doc.form)
 
 
 class TestTheEditorCatalogue(unittest.TestCase):

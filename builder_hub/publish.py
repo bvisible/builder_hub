@@ -25,10 +25,9 @@ import json
 import re
 
 import frappe
+from builder.template_sync import safe_segment
 from frappe import _
 from frappe.rate_limiter import rate_limit
-
-from builder.template_sync import safe_segment
 
 PUBLISHER_ROLES = ("Hub Publisher", "System Manager")
 
@@ -253,13 +252,12 @@ def _promote_sync(group: str, title: str | None = None, description: str | None 
 
     import os
 
-    from frappe.utils import now
-
     from builder.template_sync import (
         export_template_group,
         get_templates_root,
         update_template_manifest,
     )
+    from frappe.utils import now
 
     frappe.flags.in_import = True  # bypass the template read-only guard
     try:
@@ -582,6 +580,7 @@ def _block_fields(payload: dict) -> dict:
         "look": payload.get("look") or "",
         "photos": int(payload.get("photos") or 0),
         "form": 1 if payload.get("form") else 0,
+        "component": payload.get("component") or "",
         "ground": payload.get("ground") or "plain",
         "motion": payload.get("motion") or "None",
         "notes": payload.get("notes") or "",

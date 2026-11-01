@@ -17,7 +17,7 @@ import io
 import frappe
 
 from builder_hub import block_format, block_preview
-from builder_hub.blocks import EDITOR_STATUSES, clear_block_cache
+from builder_hub.blocks import EDITOR_STATUSES, clear_block_cache, component_of
 
 RENDERER = 2  # raise it when the way a thumbnail is made changes: every picture is made again
 SHOT_WIDTH = block_preview.DEVICES["desktop"]
@@ -29,7 +29,10 @@ FILE_PREFIX = "hub-block-"
 
 def preview_hash(row: dict) -> str:
 	"""What a thumbnail of this block shows: its tree, the ground it is drawn on, this renderer's version."""
-	text = "|".join([str(RENDERER), str(row.get("ground") or "plain"), str(row.get("tree") or "")])
+	parts = [str(RENDERER), str(row.get("ground") or "plain"), str(row.get("tree") or "")]
+	# the component it carries is drawn too (block_preview.COMPONENT_MOCKS); a block that carries none keeps the hash it had
+	component = component_of(row)
+	text = "|".join([*parts, component] if component else parts)
 	return hashlib.sha1(text.encode("utf-8")).hexdigest()[:10]
 
 
@@ -62,6 +65,7 @@ def render(row: dict) -> str:
 		length="typical",
 		ground=row.get("ground") or "plain",
 		motion="None",
+		component=component_of(row),
 	)
 
 
@@ -139,7 +143,7 @@ def make_previews(limit: int = 25, only: str | None = None, force: bool = False)
 	rows = frappe.get_all(
 		"Hub Block",
 		filters=filters,
-		fields=["name", "block_id", "tree", "ground", "preview", "preview_hash"],
+		fields=["name", "block_id", "tree", "ground", "form", "component", "preview", "preview_hash"],
 		order_by="block_id asc",
 		ignore_permissions=True,
 	)

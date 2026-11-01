@@ -346,6 +346,50 @@ MOCK_FORM = (
 )
 
 
+# //// Neoffice — what each live component of a site looks like in the preview (2026-11-01): a block names the component it carries (Hub
+# //// Block `component`), and its thumbnail and its responsive measure must show that component, not a form. Neutral boxes of the size the
+# //// real component takes, laid out the way it lays itself out (auto-fit grids that wrap on a phone). The file names are the site's includes.
+_BOX = "border:1px solid var(--border-color);border-radius:var(--radius);background:rgba(255,255,255,.45)"
+_GRID = "display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax({min},1fr))"
+
+
+def _cards(count: int, minimum: str, picture: str, lines: tuple[str, ...]) -> str:
+	card = (
+		f'<div style="display:grid;gap:8px"><div style="{_BOX};{picture}"></div>'
+		+ "".join(f"<div>{line}</div>" for line in lines)
+		+ "</div>"
+	)
+	return f'<div style="{_GRID.format(min=minimum)}">' + card * count + "</div>"
+
+
+_DAYS = ("Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche")
+COMPONENT_MOCKS = {
+	"contact_form.html": MOCK_FORM,
+	"site_form.html": MOCK_FORM,
+	"opening_hours.html": '<div style="display:grid;gap:6px;max-width:28rem">'
+	+ "".join(
+		f'<div style="display:flex;justify-content:space-between;gap:12px;padding:6px 0;border-bottom:1px solid var(--border-color)">'
+		f"<span>{day}</span><span>{'Fermé' if day == 'Dimanche' else '08:00 &ndash; 18:00'}</span></div>"
+		for day in _DAYS
+	)
+	+ "</div>",
+	"product_carousel.html": _cards(4, "160px", "aspect-ratio:1/1", ("Un produit", "<strong>CHF 49.&ndash;</strong>")),
+	"brand_carousel.html": _cards(5, "120px", "height:72px", ()),
+	"google_map.html": f'<div style="{_BOX};height:320px;display:grid;place-items:center">Carte</div>',
+	"team_grid.html": _cards(3, "160px", "aspect-ratio:1/1;border-radius:50%", ("Prénom Nom", "Rôle")),
+	"company_timeline.html": '<div style="display:grid;gap:18px">'
+	+ "".join(f'<div style="display:grid;gap:4px;padding-left:16px;border-left:2px solid var(--border-color)"><strong>{y}</strong><span>Une étape de l&rsquo;entreprise.</span></div>' for y in (1998, 2008, 2020))
+	+ "</div>",
+	"blog_listing.html": _cards(3, "220px", "aspect-ratio:16/10", ("<strong>Le titre d&rsquo;un article</strong>", "12 octobre")),
+	"contact_info.html": '<div style="display:grid;gap:8px"><div>Rue du Marché 12, 1950 Sion</div><div>027 123 45 67</div><div>bonjour@exemple.ch</div></div>',
+}
+
+
+def mock_of(component: str | None) -> str:
+	"""What the preview draws where a block carries its live component: the component's mock, the form when it names none."""
+	return COMPONENT_MOCKS.get((component or "").rsplit("/", 1)[-1], MOCK_FORM)
+
+
 # the copies of a strip of words the preview draws (the site's footer script repeats the group until it fills the widest screen: here three are
 # enough for the widest preview, and the track slides by one of them)
 MARQUEE_COPIES = 3
@@ -354,8 +398,9 @@ FIRST_NUMBER = re.compile(r"\d{1,9}")
 
 
 class Page:
-	def __init__(self, look: dict, grounds: dict, words: Words):
+	def __init__(self, look: dict, grounds: dict, words: Words, component: str = ""):
 		self.look, self.grounds, self.words = look, grounds, words
+		self.component = component
 		self.base: list[str] = []
 		self.tablet: list[str] = []
 		self.mobile: list[str] = []
@@ -403,7 +448,7 @@ class Page:
 				if "u-count" in named:
 					inner = FIRST_NUMBER.sub(self._counting, inner, count=1)
 			elif text.strip() == "{{include_component}}":
-				inner = MOCK_FORM
+				inner = mock_of(self.component)
 			else:
 				inner = html.escape(_fill(text, self.look, ground))
 		elif node.get("c"):
@@ -509,13 +554,15 @@ def render_page(
 	length: str = "longest",
 	ground: str = "plain",
 	motion: str = "Calm",
+	component: str = "",
 ) -> str:
 	"""The block as a whole HTML page, for the palette (a key of PALETTES, or a dict of the six values), in the language and with the length of text
-	given. The tree must be one that block_format.lint accepts."""
+	given, with the mock of the live component it carries (`component`, a file name of the site's includes). The tree must be one that
+	block_format.lint accepts."""
 	colours = PALETTES[palette] if isinstance(palette, str) else palette
 	look = look_of(colours)
 	grounds = grounds_of(look)
-	page = Page(look, grounds, Words(lang, length, look["secondary"]))
+	page = Page(look, grounds, Words(lang, length, look["secondary"]), component)
 	body = page.node(tree, ground if ground in grounds else "plain")
 	css = "\n".join(
 		[

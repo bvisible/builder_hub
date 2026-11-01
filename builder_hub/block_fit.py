@@ -50,9 +50,18 @@ PROBE = r"""(W) => {
 }"""
 
 
+def component_of(row: dict) -> str:
+	from builder_hub.blocks import component_of as served  # blocks.py reads `fits` from here
+
+	return served(row)
+
+
 def fit_hash(row: dict) -> str:
 	"""What a measure of this block measured: its tree, the ground it is drawn on, this measure's version."""
-	text = "|".join([str(MEASURE), str(row.get("ground") or "plain"), str(row.get("tree") or "")])
+	parts = [str(MEASURE), str(row.get("ground") or "plain"), str(row.get("tree") or "")]
+	# the component it carries is drawn and measured too; a block that carries none keeps the hash it had
+	component = component_of(row)
+	text = "|".join([*parts, component] if component else parts)
 	return hashlib.sha1(text.encode("utf-8")).hexdigest()[:10]
 
 
@@ -77,6 +86,7 @@ def render(row: dict) -> str:
 		length="typical",
 		ground=row.get("ground") or "plain",
 		motion="None",
+		component=component_of(row),
 	)
 
 
@@ -139,7 +149,7 @@ def measure_blocks(limit: int = 25, only: str | None = None, force: bool = False
 	rows = frappe.get_all(
 		"Hub Block",
 		filters=filters,
-		fields=["name", "block_id", "status", "tree", "ground", "fit_hash", "fit_report"],
+		fields=["name", "block_id", "status", "tree", "ground", "form", "component", "fit_hash", "fit_report"],
 		order_by="block_id asc",
 		ignore_permissions=True,
 	)
