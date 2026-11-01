@@ -1,0 +1,1384 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--qta-background)",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "padding": "6rem 0",
+      "position": "relative",
+      "width": "100%"
+     },
+     "blockId": "e15fa036f",
+     "blockName": "histoire",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "grid",
+        "gap": "4rem",
+        "gridTemplateColumns": "minmax(0, 1fr) minmax(0, 1fr)",
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)"
+       },
+       "blockId": "5fa964e37",
+       "children": [
+        {
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "1.5rem"
+         },
+         "blockId": "472bb289d",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "gap": "0.75rem"
+           },
+           "blockId": "ddc7d8243",
+           "children": [
+            {
+             "baseStyles": {
+              "backgroundColor": "var(--qta-secondary)",
+              "borderRadius": "50%",
+              "boxShadow": "0 0 12px 2px rgba(233,162,59,0.6)",
+              "display": "inline-block",
+              "height": "8px",
+              "width": "8px"
+             },
+             "blockId": "739c2f423",
+             "element": "span"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-primary)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.3em",
+              "textTransform": "uppercase"
+             },
+             "blockId": "7036a1d5f",
+             "element": "span",
+             "innerHTML": "01"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qta-text)",
+            "fontFamily": "var(--qta-font-heading)",
+            "fontSize": "2.75rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0",
+            "maxWidth": "26rem"
+           },
+           "blockId": "be348287d",
+           "element": "h2",
+           "innerHTML": "Notre histoire, et la <em style=\"font-style: italic; color: var(--qta-primary)\">mission</em> qui la guide",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qta-secondary)",
+            "height": "2px",
+            "width": "3rem"
+           },
+           "blockId": "8ae5eafd4",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.65)",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "34rem"
+           },
+           "blockId": "38776ccec",
+           "element": "p",
+           "innerHTML": "Atelier Lumière est né d’une conviction simple : une installation électrique réussie est d’abord une installation propre, sûre et pensée pour durer. Nous intervenons sur des chantiers neufs comme sur des rénovations, avec la même exigence de précision du premier plan au dernier raccord."
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.65)",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "34rem"
+           },
+           "blockId": "32a6d1487",
+           "element": "p",
+           "innerHTML": "Notre mission est de rendre chaque lieu plus sûr, plus lumineux et plus agréable à vivre, en soignant chaque détail. Nous travaillons à la fois sur l’habitat, les bornes de recharge et la domotique, afin que la maison et la voiture s’adaptent à votre quotidien."
+          }
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "position": "relative"
+         },
+         "blockId": "096526892",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qta-secondary)",
+            "bottom": "-14px",
+            "left": "14px",
+            "position": "absolute",
+            "right": "-14px",
+            "top": "14px"
+           },
+           "blockId": "03a9930e3",
+           "element": "div"
+          },
+          {
+           "attributes": {
+            "alt": "Intérieur lumineux et accueillant d'une activité de Entreprise d'électricité et d'installations : installations neuves et rénovation, lumière naturelle, sans personnes ni texte",
+            "src": "/builder_assets/electricien/page-bb25eeb2/hubpub-electricien-gen_05202e4c.jpg"
+           },
+           "baseStyles": {
+            "aspectRatio": "4/3",
+            "display": "block",
+            "height": "100%",
+            "objectFit": "cover",
+            "position": "relative",
+            "width": "100%"
+           },
+           "blockId": "a268357b1",
+           "element": "img"
+          }
+         ],
+         "classes": [
+          "u-media"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gap": "2rem",
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       },
+       "tabletStyles": {
+        "gap": "2.5rem",
+        "gridTemplateColumns": "minmax(0, 1fr)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "height": "clamp(22px, 3.6vw, 46px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "e1c03de843",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,6 L1200,94\" fill=\"none\" style=\"stroke:var(--qta-primary)\" stroke-width=\"1.25\" stroke-opacity=\"0.5\" vector-effect=\"non-scaling-stroke\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "f0e22cdc7",
+     "blockName": "valeurs",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)"
+       },
+       "blockId": "a2fb3ca8f",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "gap": "0.75rem",
+          "marginBottom": "1.25rem"
+         },
+         "blockId": "52dc4e427",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qta-secondary)",
+            "borderRadius": "50%",
+            "boxShadow": "0 0 12px 2px rgba(233,162,59,0.6)",
+            "display": "inline-block",
+            "height": "8px",
+            "width": "8px"
+           },
+           "blockId": "66cbce893",
+           "element": "span"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qta-primary)",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "textTransform": "uppercase"
+           },
+           "blockId": "2e9779b15",
+           "element": "span",
+           "innerHTML": "02"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "flexWrap": "wrap"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qta-text)",
+          "fontFamily": "var(--qta-font-heading)",
+          "fontSize": "2.75rem",
+          "fontWeight": "700",
+          "lineHeight": "1.15",
+          "margin": "0 0 1.25rem",
+          "maxWidth": "40rem"
+         },
+         "blockId": "471a36c0c",
+         "element": "h2",
+         "innerHTML": "Trois <em style=\"font-style: italic; color: var(--qta-primary)\">valeurs</em> que nous ne négocions jamais",
+         "mobileStyles": {
+          "fontSize": "1.75rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qta-secondary)",
+          "height": "2px",
+          "marginBottom": "3rem",
+          "width": "3rem"
+         },
+         "blockId": "387881c5c",
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "display": "grid",
+          "gap": "1.5rem"
+         },
+         "blockId": "370b20b6b",
+         "children": [
+          {
+           "baseStyles": {
+            "borderTop": "2px solid var(--qta-secondary)",
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "1rem",
+            "padding": "2rem"
+           },
+           "blockId": "5e4faa439",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qta-secondary) 80%, black)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "0.875rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.1em"
+             },
+             "blockId": "20f50bf21",
+             "element": "span",
+             "innerHTML": "01"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-text)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0"
+             },
+             "blockId": "bc3fa5d1d",
+             "element": "h3",
+             "innerHTML": "Précision",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(0,0,0,0.65)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0"
+             },
+             "blockId": "2203c0d76",
+             "element": "p",
+             "innerHTML": "Chaque circuit est tracé, testé et documenté. Nous vérifions chaque raccord, car une installation fiable se joue dans les moindres détails."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "borderTop": "2px solid var(--qta-secondary)",
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "1rem",
+            "padding": "2rem"
+           },
+           "blockId": "83448296c",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qta-secondary) 80%, black)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "0.875rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.1em"
+             },
+             "blockId": "6b4275442",
+             "element": "span",
+             "innerHTML": "02"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-text)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0"
+             },
+             "blockId": "52353877f",
+             "element": "h3",
+             "innerHTML": "Transparence",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(0,0,0,0.65)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0"
+             },
+             "blockId": "f4543b563",
+             "element": "p",
+             "innerHTML": "Nos devis sont clairs, détaillés et chiffrés avant toute intervention. Vous savez toujours ce qui sera fait, à quel prix, et pourquoi."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "borderTop": "2px solid var(--qta-secondary)",
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "1rem",
+            "padding": "2rem"
+           },
+           "blockId": "bccaaf4cd",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qta-secondary) 80%, black)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "0.875rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.1em"
+             },
+             "blockId": "7254ca431",
+             "element": "span",
+             "innerHTML": "03"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-text)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0"
+             },
+             "blockId": "70ece90de",
+             "element": "h3",
+             "innerHTML": "Durabilité",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(0,0,0,0.65)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0"
+             },
+             "blockId": "7c922fe82",
+             "element": "p",
+             "innerHTML": "Nous choisissons des solutions robustes et faciles à entretenir, pensées pour durer des années. Notre garantie de deux ans sur les travaux est une promesse, pas un slogan."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--3",
+          "u-reveal-group"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "1.25rem"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "height": "clamp(22px, 3.6vw, 46px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "ad1d0b100b",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,94 L1200,6\" fill=\"none\" style=\"stroke:var(--qta-primary)\" stroke-width=\"1.25\" stroke-opacity=\"0.5\" vector-effect=\"non-scaling-stroke\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "1a96ad70a",
+     "blockName": "equipe",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "grid",
+        "gap": "4rem",
+        "gridTemplateColumns": "minmax(0, 7fr) minmax(0, 5fr)",
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)"
+       },
+       "blockId": "4a944346f",
+       "children": [
+        {
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "1.5rem"
+         },
+         "blockId": "f27f18015",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "gap": "0.75rem"
+           },
+           "blockId": "2121d8214",
+           "children": [
+            {
+             "baseStyles": {
+              "backgroundColor": "var(--qta-secondary)",
+              "borderRadius": "50%",
+              "boxShadow": "0 0 12px 2px rgba(233,162,59,0.6)",
+              "display": "inline-block",
+              "height": "8px",
+              "width": "8px"
+             },
+             "blockId": "bd8c093d4",
+             "element": "span"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-primary)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.3em",
+              "textTransform": "uppercase"
+             },
+             "blockId": "eaea60078",
+             "element": "span",
+             "innerHTML": "03"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qta-text)",
+            "fontFamily": "var(--qta-font-heading)",
+            "fontSize": "2.75rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0",
+            "maxWidth": "34rem"
+           },
+           "blockId": "853e2b446",
+           "element": "h2",
+           "innerHTML": "Le travail d’une <em style=\"font-style: italic; color: var(--qta-primary)\">équipe</em> qui soigne chaque chantier",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qta-secondary)",
+            "height": "2px",
+            "width": "3rem"
+           },
+           "blockId": "f3d960f9f",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.65)",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "34rem"
+           },
+           "blockId": "e0c3538b0",
+           "element": "p",
+           "innerHTML": "Derrière chaque projet, une équipe d’électriciens qualifiés qui traite votre installation comme la sienne. Nous intervenons en binôme, nous préparons le chantier, et nous laissons les lieux aussi propres que nous les avons trouvés."
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.65)",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "34rem"
+           },
+           "blockId": "33b9e87b2",
+           "element": "p",
+           "innerHTML": "Nous prenons le temps d’expliquer, d’écouter et de vous conseiller, car une bonne installation commence par une bonne compréhension de vos besoins."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "position": "relative"
+         },
+         "blockId": "a3213e836",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qta-primary)",
+            "bottom": "-14px",
+            "left": "14px",
+            "position": "absolute",
+            "right": "-14px",
+            "top": "14px"
+           },
+           "blockId": "396d3a62b",
+           "element": "div"
+          },
+          {
+           "attributes": {
+            "alt": "L’atelier de préparation des équipements et des outillages",
+            "src": "/builder_assets/electricien/page-bb25eeb2/hubpub-electricien-gen_ce037434.jpg"
+           },
+           "baseStyles": {
+            "aspectRatio": "3/2",
+            "display": "block",
+            "height": "100%",
+            "objectFit": "cover",
+            "position": "relative",
+            "width": "100%"
+           },
+           "blockId": "3b1773f67",
+           "element": "img"
+          }
+         ],
+         "classes": [
+          "u-media"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gap": "2rem",
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       },
+       "tabletStyles": {
+        "gap": "2.5rem",
+        "gridTemplateColumns": "minmax(0, 1fr)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "6ef302b5df",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:var(--qta-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:var(--qta-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qta-primary)",
+      "color": "var(--qta-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "a96376a04",
+     "blockName": "engagement",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)"
+       },
+       "blockId": "34acb5002",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "gap": "0.75rem",
+          "marginBottom": "1.25rem"
+         },
+         "blockId": "f04d8cc67",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qta-secondary)",
+            "borderRadius": "50%",
+            "boxShadow": "0 0 12px 2px rgba(233,162,59,0.6)",
+            "display": "inline-block",
+            "height": "8px",
+            "width": "8px"
+           },
+           "blockId": "b48f759fd",
+           "element": "span"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qta-background)",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "textTransform": "uppercase"
+           },
+           "blockId": "7aac4255d",
+           "element": "span",
+           "innerHTML": "04"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "flexWrap": "wrap"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qta-background)",
+          "fontFamily": "var(--qta-font-heading)",
+          "fontSize": "2.75rem",
+          "fontWeight": "700",
+          "lineHeight": "1.15",
+          "margin": "0 0 1.25rem",
+          "maxWidth": "44rem"
+         },
+         "blockId": "8fd35dd2c",
+         "element": "h2",
+         "innerHTML": "Nos <em style=\"font-style: italic; color: var(--qta-secondary)\">engagements</em>, mesurés en chiffres",
+         "mobileStyles": {
+          "fontSize": "1.75rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qta-secondary)",
+          "height": "2px",
+          "marginBottom": "3rem",
+          "width": "3rem"
+         },
+         "blockId": "03b5768b8",
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "display": "grid",
+          "gap": "1.5rem"
+         },
+         "blockId": "82b382ff3",
+         "children": [
+          {
+           "baseStyles": {
+            "borderLeft": "2px solid var(--qta-secondary)",
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "0.75rem",
+            "padding": "1.5rem 0 1.5rem 1.5rem"
+           },
+           "blockId": "2fc123cb5",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qta-secondary)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "2.75rem",
+              "fontWeight": "800",
+              "lineHeight": "1"
+             },
+             "blockId": "af694d763",
+             "classes": [
+              "u-count"
+             ],
+             "element": "span",
+             "innerHTML": "4 h"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-background)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "1.25rem",
+              "fontWeight": "700",
+              "margin": "0"
+             },
+             "blockId": "fbffbaa1d",
+             "element": "h3",
+             "innerHTML": "Dépannage",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(255,255,255,0.65)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.6",
+              "margin": "0"
+             },
+             "blockId": "ce7940f57",
+             "element": "p",
+             "innerHTML": "Une équipe d’astreinte intervient sous quatre heures, jour et nuit, pour rétablir l’électricité en toute sécurité."
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "borderLeft": "2px solid var(--qta-secondary)",
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "0.75rem",
+            "padding": "1.5rem 0 1.5rem 1.5rem"
+           },
+           "blockId": "78717452c",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qta-secondary)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "2.75rem",
+              "fontWeight": "800",
+              "lineHeight": "1"
+             },
+             "blockId": "8c3d7f8c3",
+             "classes": [
+              "u-count"
+             ],
+             "element": "span",
+             "innerHTML": "2 ans"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-background)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "1.25rem",
+              "fontWeight": "700",
+              "margin": "0"
+             },
+             "blockId": "d814aab00",
+             "element": "h3",
+             "innerHTML": "Garantie",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(255,255,255,0.65)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.6",
+              "margin": "0"
+             },
+             "blockId": "9def9ee7b",
+             "element": "p",
+             "innerHTML": "Chaque travail est couvert par une garantie de deux ans, sur l’installation comme sur le matériel posé."
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "borderLeft": "2px solid var(--qta-secondary)",
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "0.75rem",
+            "padding": "1.5rem 0 1.5rem 1.5rem"
+           },
+           "blockId": "edb9fbeab",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qta-secondary)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "2.75rem",
+              "fontWeight": "800",
+              "lineHeight": "1"
+             },
+             "blockId": "c77be6110",
+             "classes": [
+              "u-count"
+             ],
+             "element": "span",
+             "innerHTML": "100 %"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-background)",
+              "fontFamily": "var(--qta-font-heading)",
+              "fontSize": "1.25rem",
+              "fontWeight": "700",
+              "margin": "0"
+             },
+             "blockId": "9a08e7131",
+             "element": "h3",
+             "innerHTML": "Chiffré",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(255,255,255,0.65)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.6",
+              "margin": "0"
+             },
+             "blockId": "5ad0fa0d3",
+             "element": "p",
+             "innerHTML": "Chaque devis est gratuit, détaillé et chiffré ligne par ligne, avant que le moindre travail ne commence."
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--3",
+          "u-reveal-group"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "1.25rem"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qta-primary)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "38afb2c892",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:var(--qta-background)\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:var(--qta-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "b8b09bde7",
+     "blockName": "cta",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "grid",
+        "gap": "4rem",
+        "gridTemplateColumns": "minmax(0, 1fr) minmax(0, 1fr)",
+        "margin": "0 auto",
+        "maxWidth": "var(--qta-container)",
+        "paddingLeft": "var(--qta-gutter)",
+        "paddingRight": "var(--qta-gutter)"
+       },
+       "blockId": "f16befb0b",
+       "children": [
+        {
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "1.5rem"
+         },
+         "blockId": "89ef0bd42",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qta-text)",
+            "fontFamily": "var(--qta-font-heading)",
+            "fontSize": "2.75rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0",
+            "maxWidth": "30rem"
+           },
+           "blockId": "b8a650415",
+           "element": "h2",
+           "innerHTML": "Parlons de <em style=\"font-style: italic; color: var(--qta-primary)\">votre projet</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qta-secondary)",
+            "height": "2px",
+            "width": "3rem"
+           },
+           "blockId": "095eda3bd",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.65)",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "30rem"
+           },
+           "blockId": "af8ad04a3",
+           "element": "p",
+           "innerHTML": "Un dépannage, une rénovation, une borne de recharge ou un projet de domotique : écrivez-nous. Nous répondons rapidement, nous visitons le lieu, et nous vous remettons un devis clair et chiffré, sans engagement."
+          },
+          {
+           "baseStyles": {
+            "display": "flex",
+            "flexWrap": "wrap",
+            "gap": "1rem"
+           },
+           "blockId": "bece39d94",
+           "children": [
+            {
+             "attributes": {
+              "href": "/about-5f28"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "backgroundColor": "var(--qta-secondary)",
+              "color": "var(--qta-text)",
+              "display": "inline-flex",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1rem",
+              "fontWeight": "600",
+              "gap": "0.5rem",
+              "justifyContent": "center",
+              "padding": "14px 32px",
+              "textDecoration": "none",
+              "transition": "all 0.2s ease"
+             },
+             "blockId": "3da8e0a14",
+             "children": [
+              {
+               "baseStyles": {
+                "backgroundColor": "var(--qta-text)",
+                "borderRadius": "50%",
+                "boxShadow": "0 0 10px 2px rgba(26,26,26,0.4)",
+                "display": "inline-block",
+                "height": "8px",
+                "width": "8px"
+               },
+               "blockId": "2ccb22325",
+               "element": "span"
+              },
+              {
+               "blockId": "297fbe513",
+               "element": "span",
+               "innerHTML": "Contactez-nous"
+              }
+             ],
+             "classes": [
+              "u-btn",
+              "u-btn--primary"
+             ],
+             "element": "a"
+            },
+            {
+             "attributes": {
+              "href": "/about-5f28"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "border": "1px solid rgba(0,0,0,0.2)",
+              "color": "var(--qta-primary)",
+              "display": "inline-flex",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "1rem",
+              "fontWeight": "600",
+              "gap": "0.5rem",
+              "justifyContent": "center",
+              "padding": "14px 32px",
+              "textDecoration": "none",
+              "transition": "all 0.2s ease"
+             },
+             "blockId": "12ad41ca1",
+             "children": [
+              {
+               "blockId": "64db9a24a",
+               "element": "span",
+               "innerHTML": "Demander un devis"
+              }
+             ],
+             "classes": [
+              "u-btn",
+              "u-btn--outline"
+             ],
+             "element": "a"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "1.5rem"
+         },
+         "blockId": "cc8246ded",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "gap": "0.75rem"
+           },
+           "blockId": "0009148ff",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "color": "var(--qta-secondary)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "height": "22px",
+              "justifyContent": "center",
+              "lineHeight": "0",
+              "width": "22px"
+             },
+             "blockId": "03141e94f",
+             "blockName": "Icon: zap",
+             "children": [],
+             "customAttributes": {
+              "data-lucide": "zap"
+             },
+             "element": "svg",
+             "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\" /> </svg>"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qta-primary)",
+              "fontFamily": "var(--qta-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.3em",
+              "textTransform": "uppercase"
+             },
+             "blockId": "468e983ed",
+             "element": "span",
+             "innerHTML": "Le mot de l’atelier"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "flexWrap": "wrap"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qta-text)",
+            "fontFamily": "var(--qta-font-heading)",
+            "fontSize": "1.5rem",
+            "fontWeight": "600",
+            "lineHeight": "1.5",
+            "margin": "0",
+            "maxWidth": "30rem"
+           },
+           "blockId": "0e9374f90",
+           "element": "p",
+           "innerHTML": "Nous aimons les chantiers où tout est à sa place, où la lumière est juste, et où l’on peut dormir tranquille. C’est exactement ce que nous voulons pour votre maison."
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "rgba(0,0,0,0.12)",
+            "height": "1px",
+            "width": "100%"
+           },
+           "blockId": "4fc5151de",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.5)",
+            "fontFamily": "var(--qta-font-body)",
+            "fontSize": "0.9375rem",
+            "lineHeight": "1.6",
+            "margin": "0"
+           },
+           "blockId": "c9477c0ec",
+           "element": "p",
+           "innerHTML": "Installateur autorisé pour les bornes de recharge. Dépannage, éclairage, domotique et contrôles de sécurité."
+          }
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gap": "2rem",
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "paddingLeft": "var(--qta-gutter-phone)",
+        "paddingRight": "var(--qta-gutter-phone)"
+       },
+       "tabletStyles": {
+        "gap": "2.5rem",
+        "gridTemplateColumns": "minmax(0, 1fr)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qta-background)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "7f8a003dff",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:#1c333d\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:#1c333d\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-11-01 19:30:00.611208",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Atelier Lumière est né d’une conviction simple : une installation électrique réussie est d’abord une installation propre, sûre et pensée pour durer.",
+ "modified": "2026-11-01 19:30:00.618406",
+ "modified_by": "template-publisher@neoservice.ai",
+ "name": "page-bb25eeb2",
+ "owner": "template-publisher@neoservice.ai",
+ "page_data_script": "",
+ "page_name": "page-bb25eeb2",
+ "page_title": "À propos",
+ "preview": "/builder_assets/electricien/page-bb25eeb2/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/electricien/à_propos",
+ "staging": 0,
+ "template_group": "electricien"
+}

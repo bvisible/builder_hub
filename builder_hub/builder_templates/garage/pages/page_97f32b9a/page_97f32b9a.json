@@ -1,0 +1,1214 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--qtg-primary)",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-primary)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "72ce440e0",
+     "blockName": "story",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "start",
+        "columnGap": "3rem",
+        "display": "grid",
+        "gridTemplateColumns": "minmax(0, 5fr) minmax(0, 7fr)",
+        "margin": "0 auto",
+        "maxWidth": "var(--qtg-container)",
+        "paddingLeft": "var(--qtg-gutter)",
+        "paddingRight": "var(--qtg-gutter)"
+       },
+       "blockId": "d4cff6fd9",
+       "children": [
+        {
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "13f10d0e4",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtg-secondary)",
+            "fontFamily": "var(--qtg-font-body)",
+            "fontSize": "0.8rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.35em"
+           },
+           "blockId": "530eb4282",
+           "element": "span",
+           "innerHTML": "/01"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtg-secondary)",
+            "border": "none",
+            "height": "1px",
+            "margin": "0.9rem 0 1.4rem",
+            "width": "3.5rem"
+           },
+           "blockId": "e5a7e789d",
+           "element": "hr"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtg-text)",
+            "fontFamily": "var(--qtg-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "400",
+            "lineHeight": "1.1",
+            "margin": "0 0 1.25rem"
+           },
+           "blockId": "00fb8a4e0",
+           "element": "h2",
+           "innerHTML": "Un garage indépendant, <em style=\"font-style: italic; color: var(--qtg-secondary)\">toutes marques</em>",
+           "mobileStyles": {
+            "fontSize": "1.9rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(255,255,255,0.65)",
+            "fontFamily": "var(--qtg-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0"
+           },
+           "blockId": "922431a82",
+           "element": "p",
+           "innerHTML": "Garage du Centre est une maison indépendante qui entretient et répare toutes les marques, du moteur thermique à la batterie de l’électrique. Pas de chaîne, pas d’intermédiaire : vous parlez à l’atelier qui fait le travail."
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(255,255,255,0.65)",
+            "fontFamily": "var(--qtg-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "1.1rem 0 0"
+           },
+           "blockId": "28d54b5bb",
+           "element": "p",
+           "innerHTML": "Notre mission tient en une ligne : annoncer le devis avant d’ouvrir le capot, et tenir la parole une fois les clés rendues."
+          }
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "position": "relative"
+         },
+         "blockId": "06624919a",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtg-secondary)",
+            "height": "100%",
+            "left": "14px",
+            "position": "absolute",
+            "top": "14px",
+            "width": "100%"
+           },
+           "blockId": "156293373",
+           "element": "div",
+           "mobileStyles": {
+            "display": "none"
+           }
+          },
+          {
+           "attributes": {
+            "alt": "Bande de travail du garage, poste d’entretien et de réparation en cours",
+            "src": "/builder_assets/garage/page-97f32b9a/hubpub-garage-gen_e853b39a.jpg"
+           },
+           "baseStyles": {
+            "aspectRatio": "16/9",
+            "backgroundColor": "var(--qtg-accent)",
+            "display": "block",
+            "objectFit": "cover",
+            "position": "relative",
+            "width": "100%"
+           },
+           "blockId": "b535fac31",
+           "classes": [
+            "u-media"
+           ],
+           "element": "img"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtg-primary)",
+            "bottom": "16px",
+            "left": "16px",
+            "padding": "8px 14px",
+            "position": "absolute"
+           },
+           "blockId": "6f59f8cf9",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtg-secondary)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.2em"
+             },
+             "blockId": "d38c55389",
+             "element": "span",
+             "innerHTML": "ATELIER — 01"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "paddingLeft": "var(--qtg-gutter-phone)",
+        "paddingRight": "var(--qtg-gutter-phone)"
+       },
+       "tabletStyles": {
+        "gridTemplateColumns": "minmax(0, 1fr)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-primary)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "958f506015",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-text)\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-text)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-text)",
+      "color": "var(--qtg-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "3e3941425",
+     "blockName": "values",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtg-container)",
+        "paddingLeft": "var(--qtg-gutter)",
+        "paddingRight": "var(--qtg-gutter)"
+       },
+       "blockId": "f5d172fa6",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "color-mix(in srgb, var(--qtg-secondary) 90%, black)",
+          "fontFamily": "var(--qtg-font-body)",
+          "fontSize": "0.8rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.35em"
+         },
+         "blockId": "f2ace4635",
+         "element": "span",
+         "innerHTML": "/02"
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtg-secondary)",
+          "border": "none",
+          "height": "1px",
+          "margin": "0.9rem 0 1.4rem",
+          "width": "3.5rem"
+         },
+         "blockId": "a8d5a9423",
+         "element": "hr"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtg-primary)",
+          "fontFamily": "var(--qtg-font-heading)",
+          "fontSize": "3rem",
+          "fontWeight": "400",
+          "lineHeight": "1.1",
+          "margin": "0 0 1rem"
+         },
+         "blockId": "f0d212c74",
+         "element": "h2",
+         "innerHTML": "Ce que nous ne <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtg-secondary) 90%, black)\">négocions pas</em>",
+         "mobileStyles": {
+          "fontSize": "1.9rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(0,0,0,0.55)",
+          "fontFamily": "var(--qtg-font-body)",
+          "fontSize": "1.125rem",
+          "lineHeight": "1.7",
+          "margin": "0 0 3rem",
+          "maxWidth": "38rem"
+         },
+         "blockId": "228761640",
+         "element": "p",
+         "innerHTML": "Trois règles de l’atelier, affichées au mur et appliquées sur chaque facture. Elles ne sont pas des slogans : ce sont des engagements que vous pouvez vérifier."
+        },
+        {
+         "baseStyles": {
+          "display": "grid",
+          "gap": "1.5rem"
+         },
+         "blockId": "8fdef92a3",
+         "children": [
+          {
+           "baseStyles": {
+            "borderTop": "2px solid var(--qtg-secondary)",
+            "color": "var(--qtg-text)",
+            "padding": "2rem"
+           },
+           "blockId": "e5b80df0b",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtg-text)",
+              "fontFamily": "var(--qtg-font-heading)",
+              "fontSize": "1.6rem",
+              "fontWeight": "400",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "5200965bc",
+             "element": "h3",
+             "innerHTML": "Devis annoncé",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtg-text)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.65",
+              "margin": "0"
+             },
+             "blockId": "96823007a",
+             "element": "p",
+             "innerHTML": "Le montant est annoncé avant les travaux. Vous savez où vous en êtes, et vous décidez en connaissance de cause."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "borderTop": "2px solid var(--qtg-secondary)",
+            "color": "var(--qtg-text)",
+            "padding": "2rem"
+           },
+           "blockId": "ddc965645",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtg-text)",
+              "fontFamily": "var(--qtg-font-heading)",
+              "fontSize": "1.6rem",
+              "fontWeight": "400",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "c01fa33f1",
+             "element": "h3",
+             "innerHTML": "Pièces au choix",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtg-text)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.65",
+              "margin": "0"
+             },
+             "blockId": "fe370426c",
+             "element": "p",
+             "innerHTML": "D’origine ou équivalentes, c’est vous qui choisissez. Nous posons ce que vous validez, pas ce que nous imposons."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "borderTop": "2px solid var(--qtg-secondary)",
+            "color": "var(--qtg-text)",
+            "padding": "2rem"
+           },
+           "blockId": "0826639e4",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtg-text)",
+              "fontFamily": "var(--qtg-font-heading)",
+              "fontSize": "1.6rem",
+              "fontWeight": "400",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "9d91392d6",
+             "element": "h3",
+             "innerHTML": "Rendez-vous sous 48h",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtg-text)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.65",
+              "margin": "0"
+             },
+             "blockId": "60140330e",
+             "element": "p",
+             "innerHTML": "Vous prenez rendez-vous en ligne, nous vous répondons sous quarante-huit heures. Le délai est compté, pas négocié."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--3",
+          "u-reveal-group"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "display": "grid",
+          "gap": "1rem"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtg-gutter-phone)",
+        "paddingRight": "var(--qtg-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-text)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "2255153f86",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,0 L1200,74 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,6 L1200,94 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-primary)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "e6129472e",
+     "blockName": "team",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "start",
+        "columnGap": "3rem",
+        "display": "grid",
+        "gridTemplateColumns": "minmax(0, 7fr) minmax(0, 5fr)",
+        "margin": "0 auto",
+        "maxWidth": "var(--qtg-container)",
+        "paddingLeft": "var(--qtg-gutter)",
+        "paddingRight": "var(--qtg-gutter)"
+       },
+       "blockId": "3d5ce298c",
+       "children": [
+        {
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "4b74aa19f",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtg-secondary)",
+            "fontFamily": "var(--qtg-font-body)",
+            "fontSize": "0.8rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.35em"
+           },
+           "blockId": "b48e16aae",
+           "element": "span",
+           "innerHTML": "/03"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtg-secondary)",
+            "border": "none",
+            "height": "1px",
+            "margin": "0.9rem 0 1.4rem",
+            "width": "3.5rem"
+           },
+           "blockId": "da3b2bc28",
+           "element": "hr"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtg-text)",
+            "fontFamily": "var(--qtg-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "400",
+            "lineHeight": "1.1",
+            "margin": "0 0 1.25rem"
+           },
+           "blockId": "a8b3ca616",
+           "element": "h2",
+           "innerHTML": "La main qui <em style=\"font-style: italic; color: var(--qtg-secondary)\">tourne la clé</em>",
+           "mobileStyles": {
+            "fontSize": "1.9rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(255,255,255,0.65)",
+            "fontFamily": "var(--qtg-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0"
+           },
+           "blockId": "b7a646714",
+           "element": "p",
+           "innerHTML": "C’est une équipe, pas une marque. Les mécaniciens du Garage du Centre sont formés sur le thermique, l’hybride et l’électrique, et ils travaillent avec le même soin sur une voiture de quartier que sur un véhicule professionnel."
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(255,255,255,0.65)",
+            "fontFamily": "var(--qtg-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "1.1rem 0 0"
+           },
+           "blockId": "58823fb66",
+           "element": "p",
+           "innerHTML": "L’atelier est équipé pour les hybrides et les électriques, et vous repartez avec un compte-rendu clair : ce qui a été fait, ce qui a été remplacé, ce qu’il reste à surveiller."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "position": "relative"
+         },
+         "blockId": "cf6ff8574",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtg-accent)",
+            "height": "100%",
+            "left": "14px",
+            "position": "absolute",
+            "top": "14px",
+            "width": "100%"
+           },
+           "blockId": "2b0b27ff0",
+           "element": "div",
+           "mobileStyles": {
+            "display": "none"
+           }
+          },
+          {
+           "attributes": {
+            "alt": "Poste de travail de l’atelier, outillage et véhicule en intervention",
+            "src": "/builder_assets/garage/page-97f32b9a/hubpub-garage-gen_2e6141e3.jpg"
+           },
+           "baseStyles": {
+            "aspectRatio": "3/2",
+            "backgroundColor": "var(--qtg-accent)",
+            "display": "block",
+            "objectFit": "cover",
+            "position": "relative",
+            "width": "100%"
+           },
+           "blockId": "8fad824c6",
+           "classes": [
+            "u-media"
+           ],
+           "element": "img"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtg-primary)",
+            "bottom": "16px",
+            "left": "16px",
+            "padding": "8px 14px",
+            "position": "absolute"
+           },
+           "blockId": "9281ccb1d",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtg-secondary)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.2em"
+             },
+             "blockId": "624361425",
+             "element": "span",
+             "innerHTML": "POSTE — 02"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "paddingLeft": "var(--qtg-gutter-phone)",
+        "paddingRight": "var(--qtg-gutter-phone)"
+       },
+       "tabletStyles": {
+        "gridTemplateColumns": "minmax(0, 1fr)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-primary)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "455d2a242c",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-text)\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-text)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-text)",
+      "color": "var(--qtg-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "4d5801fc0",
+     "blockName": "figures",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtg-container)",
+        "paddingLeft": "var(--qtg-gutter)",
+        "paddingRight": "var(--qtg-gutter)"
+       },
+       "blockId": "5eeb5c502",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "color-mix(in srgb, var(--qtg-secondary) 90%, black)",
+          "fontFamily": "var(--qtg-font-body)",
+          "fontSize": "0.8rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.35em"
+         },
+         "blockId": "7c2a7ce94",
+         "element": "span",
+         "innerHTML": "/04"
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtg-secondary)",
+          "border": "none",
+          "height": "1px",
+          "margin": "0.9rem 0 1.4rem",
+          "width": "3.5rem"
+         },
+         "blockId": "67095636f",
+         "element": "hr"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtg-primary)",
+          "fontFamily": "var(--qtg-font-heading)",
+          "fontSize": "3rem",
+          "fontWeight": "400",
+          "lineHeight": "1.1",
+          "margin": "0 0 1rem"
+         },
+         "blockId": "6f7a1ae38",
+         "element": "h2",
+         "innerHTML": "La fiche <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtg-secondary) 90%, black)\">technique</em>",
+         "mobileStyles": {
+          "fontSize": "1.9rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(0,0,0,0.55)",
+          "fontFamily": "var(--qtg-font-body)",
+          "fontSize": "1.125rem",
+          "lineHeight": "1.7",
+          "margin": "0 0 3rem",
+          "maxWidth": "38rem"
+         },
+         "blockId": "b76aca6c4",
+         "element": "p",
+         "innerHTML": "Trois chiffres que nous affichons comme on affiche un couple de serrage : simples, vérifiables, non négociables. C’est la façon dont nous mesurons notre propre travail."
+        },
+        {
+         "baseStyles": {
+          "display": "grid",
+          "gap": "1.5rem"
+         },
+         "blockId": "fefcad2cf",
+         "children": [
+          {
+           "baseStyles": {
+            "borderTop": "1px solid rgba(0,0,0,0.12)",
+            "paddingTop": "1.5rem"
+           },
+           "blockId": "d791cc37b",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "display": "flex",
+              "gap": "0.6rem"
+             },
+             "blockId": "53084ac7c",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtg-primary)",
+                "fontFamily": "var(--qtg-font-heading)",
+                "fontSize": "3.5rem",
+                "lineHeight": "0.9"
+               },
+               "blockId": "a36b069a4",
+               "classes": [
+                "u-count"
+               ],
+               "element": "span",
+               "innerHTML": "48h"
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "color": "var(--qtg-secondary)",
+                "display": "inline-flex",
+                "flexShrink": 0,
+                "height": "22px",
+                "justifyContent": "center",
+                "lineHeight": "0",
+                "width": "22px"
+               },
+               "blockId": "4971489db",
+               "blockName": "Icon: check",
+               "children": [],
+               "customAttributes": {
+                "data-lucide": "check"
+               },
+               "element": "svg",
+               "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M20 6 9 17l-5-5\" /> </svg>"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(0,0,0,0.55)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0.9rem 0 0"
+             },
+             "blockId": "38ca74330",
+             "element": "p",
+             "innerHTML": "Rendez-vous confirmé sous quarante-huit heures."
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "borderTop": "1px solid rgba(0,0,0,0.12)",
+            "paddingTop": "1.5rem"
+           },
+           "blockId": "ada6b46e8",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "display": "flex",
+              "gap": "0.6rem"
+             },
+             "blockId": "648c39c46",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtg-primary)",
+                "fontFamily": "var(--qtg-font-heading)",
+                "fontSize": "3.5rem",
+                "lineHeight": "0.9"
+               },
+               "blockId": "f2f148e0e",
+               "classes": [
+                "u-count"
+               ],
+               "element": "span",
+               "innerHTML": "100%"
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "color": "var(--qtg-secondary)",
+                "display": "inline-flex",
+                "flexShrink": 0,
+                "height": "22px",
+                "justifyContent": "center",
+                "lineHeight": "0",
+                "width": "22px"
+               },
+               "blockId": "37540e39b",
+               "blockName": "Icon: check",
+               "children": [],
+               "customAttributes": {
+                "data-lucide": "check"
+               },
+               "element": "svg",
+               "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M20 6 9 17l-5-5\" /> </svg>"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(0,0,0,0.55)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0.9rem 0 0"
+             },
+             "blockId": "2d426474d",
+             "element": "p",
+             "innerHTML": "Devis annoncé avant les travaux, sur chaque intervention."
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "borderTop": "1px solid rgba(0,0,0,0.12)",
+            "paddingTop": "1.5rem"
+           },
+           "blockId": "b728c677f",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "baseline",
+              "display": "flex",
+              "gap": "0.6rem"
+             },
+             "blockId": "543851d62",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "var(--qtg-primary)",
+                "fontFamily": "var(--qtg-font-heading)",
+                "fontSize": "3.5rem",
+                "lineHeight": "0.9"
+               },
+               "blockId": "ea1f7981d",
+               "element": "span",
+               "innerHTML": "0"
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "color": "var(--qtg-secondary)",
+                "display": "inline-flex",
+                "flexShrink": 0,
+                "height": "22px",
+                "justifyContent": "center",
+                "lineHeight": "0",
+                "width": "22px"
+               },
+               "blockId": "f134498d8",
+               "blockName": "Icon: check",
+               "children": [],
+               "customAttributes": {
+                "data-lucide": "check"
+               },
+               "element": "svg",
+               "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M20 6 9 17l-5-5\" /> </svg>"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(0,0,0,0.55)",
+              "fontFamily": "var(--qtg-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0.9rem 0 0"
+             },
+             "blockId": "183a3e768",
+             "element": "p",
+             "innerHTML": "Marque exclue : nous prenons en charge toutes les marques."
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--3",
+          "u-reveal-group"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "display": "grid",
+          "gap": "1rem"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtg-gutter-phone)",
+        "paddingRight": "var(--qtg-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-text)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "dc7047b181",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,74 L1200,0 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,94 L1200,6 L1200,106 L0,106 Z\" style=\"fill:var(--qtg-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-primary)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "204665126",
+     "blockName": "cta",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "column",
+        "margin": "0 auto",
+        "maxWidth": "var(--qtg-container)",
+        "paddingLeft": "var(--qtg-gutter)",
+        "paddingRight": "var(--qtg-gutter)"
+       },
+       "blockId": "bc672f894",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "var(--qtg-secondary)",
+          "fontFamily": "var(--qtg-font-body)",
+          "fontSize": "0.8rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.35em"
+         },
+         "blockId": "aad50083a",
+         "element": "span",
+         "innerHTML": "/05"
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtg-secondary)",
+          "border": "none",
+          "height": "1px",
+          "margin": "0.9rem 0 1.4rem",
+          "width": "3.5rem"
+         },
+         "blockId": "c4666c8d2",
+         "element": "hr"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtg-text)",
+          "fontFamily": "var(--qtg-font-heading)",
+          "fontSize": "3.25rem",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "margin": "0 0 1.25rem",
+          "maxWidth": "44rem"
+         },
+         "blockId": "75ad52b03",
+         "element": "h2",
+         "innerHTML": "Prêt à mettre votre véhicule <em style=\"font-style: italic; color: var(--qtg-secondary)\">entre nos mains</em> ?",
+         "mobileStyles": {
+          "fontSize": "2.25rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(255,255,255,0.65)",
+          "fontFamily": "var(--qtg-font-body)",
+          "fontSize": "1.125rem",
+          "lineHeight": "1.7",
+          "margin": "0 0 2rem",
+          "maxWidth": "34rem"
+         },
+         "blockId": "6ee3c6359",
+         "element": "p",
+         "innerHTML": "Décrivez votre besoin, nous vous répondons sous quarante-huit heures avec un devis annoncé. Le formulaire est le seul moyen de nous joindre, et c’est aussi simple que de remplir une fiche de travail."
+        },
+        {
+         "attributes": {
+          "href": "accueil"
+         },
+         "baseStyles": {
+          "alignItems": "center",
+          "backgroundColor": "var(--qtg-secondary)",
+          "color": "var(--qtg-background)",
+          "display": "inline-flex",
+          "fontFamily": "var(--qtg-font-body)",
+          "fontSize": "1rem",
+          "fontWeight": "700",
+          "gap": "0.6rem",
+          "letterSpacing": "0.02em",
+          "padding": "16px 36px",
+          "textDecoration": "none",
+          "transition": "all 0.2s ease"
+         },
+         "blockId": "25106b161",
+         "children": [
+          {
+           "blockId": "c8635118e",
+           "element": "span",
+           "innerHTML": "Contactez-nous"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "center",
+            "color": "var(--qtg-text)",
+            "display": "inline-flex",
+            "flexShrink": 0,
+            "height": "18px",
+            "justifyContent": "center",
+            "lineHeight": "0",
+            "width": "18px"
+           },
+           "blockId": "f5db19250",
+           "blockName": "Icon: arrow-right",
+           "children": [],
+           "customAttributes": {
+            "data-lucide": "arrow-right"
+           },
+           "element": "svg",
+           "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M5 12h14\" /> <path d=\"m12 5 7 7-7 7\" /> </svg>"
+          }
+         ],
+         "classes": [
+          "u-btn",
+          "u-btn--secondary"
+         ],
+         "element": "a"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtg-gutter-phone)",
+        "paddingRight": "var(--qtg-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtg-primary)",
+      "height": "clamp(22px, 5vw, 72px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "750c1cc383",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,0 L1200,74 L1200,106 L0,106 Z\" style=\"fill:#16202b\" fill-opacity=\"0.28\"/><path d=\"M0,6 L1200,94 L1200,106 L0,106 Z\" style=\"fill:#16202b\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-11-01 19:29:57.495156",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Garage du Centre est une maison indépendante qui entretient et répare toutes les marques, du moteur thermique à la batterie de l’électrique.",
+ "modified": "2026-11-01 19:29:57.503677",
+ "modified_by": "template-publisher@neoservice.ai",
+ "name": "page-97f32b9a",
+ "owner": "template-publisher@neoservice.ai",
+ "page_data_script": "",
+ "page_name": "page-97f32b9a",
+ "page_title": "À propos",
+ "preview": "/builder_assets/garage/page-97f32b9a/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/garage/à_propos",
+ "staging": 0,
+ "template_group": "garage"
+}

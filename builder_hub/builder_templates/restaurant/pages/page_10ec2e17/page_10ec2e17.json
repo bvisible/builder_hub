@@ -1,0 +1,913 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--qtr-background)",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "borderBottom": "1px solid rgba(0,0,0,0.10)",
+      "overflow": "hidden",
+      "padding": "4.5rem 0 2.75rem",
+      "position": "relative",
+      "width": "100%"
+     },
+     "blockId": "cd84e514e",
+     "blockName": "masthead",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "position": "relative",
+        "width": "100%"
+       },
+       "blockId": "65ef7ac7f",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "color-mix(in srgb, var(--qtr-secondary) 90%, black)",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "0.75rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.35em",
+          "textTransform": "uppercase"
+         },
+         "blockId": "09cef776d",
+         "element": "span",
+         "innerHTML": "Automne, saison en cours"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtr-text)",
+          "fontFamily": "var(--qtr-font-heading)",
+          "fontSize": "3.25rem",
+          "fontStyle": "italic",
+          "fontWeight": "600",
+          "letterSpacing": "-0.01em",
+          "lineHeight": "1",
+          "margin": "0.5rem 0 1.5rem"
+         },
+         "blockId": "905e34a33",
+         "element": "h2",
+         "innerHTML": "Saisons",
+         "mobileStyles": {
+          "fontSize": "2.25rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtr-secondary)",
+          "height": "1px",
+          "width": "4.5rem"
+         },
+         "blockId": "188ac7752",
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(0,0,0,0.65)",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "1.35rem",
+          "lineHeight": "1.7",
+          "margin": "1.5rem 0 0",
+          "maxWidth": "34rem"
+         },
+         "blockId": "ed04a8896",
+         "element": "p",
+         "innerHTML": "La Table des Saisons est un restaurant de cuisine de saison et de produits du terroir. Une carte courte, renouvelée à chaque saison, et un menu du jour servi en semaine."
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtr-text)",
+          "display": "none",
+          "fontFamily": "var(--qtr-font-heading)",
+          "fontSize": "6rem",
+          "fontStyle": "italic",
+          "lineHeight": "1",
+          "pointerEvents": "none",
+          "position": "absolute",
+          "right": "0",
+          "top": "-1.5rem"
+         },
+         "blockId": "d11bc00b4",
+         "element": "span",
+         "innerHTML": "Saisons"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "3rem 0 2rem"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "height": "clamp(22px, 3.6vw, 46px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "26dfe2ad75",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,94.0 C7,92.8 27,89.1 40,86.7 C53,84.4 67,82.1 80,79.9 C93,77.7 107,75.6 120,73.6 C133,71.6 147,69.7 160,67.8 C173,66.0 187,64.2 200,62.5 C213,60.9 227,59.3 240,57.8 C253,56.2 267,54.8 280,53.5 C293,52.1 307,50.9 320,49.7 C333,48.5 347,47.4 360,46.4 C373,45.4 387,44.5 400,43.7 C413,42.8 427,42.1 440,41.4 C453,40.7 467,40.1 480,39.6 C493,39.1 507,38.7 520,38.4 C533,38.0 547,37.8 560,37.6 C573,37.5 587,37.4 600,37.4 C613,37.4 627,37.5 640,37.6 C653,37.8 667,38.0 680,38.4 C693,38.7 707,39.1 720,39.6 C733,40.1 747,40.7 760,41.4 C773,42.1 787,42.8 800,43.7 C813,44.5 827,45.4 840,46.4 C853,47.4 867,48.5 880,49.7 C893,50.9 907,52.1 920,53.5 C933,54.8 947,56.2 960,57.8 C973,59.3 987,60.9 1000,62.5 C1013,64.2 1027,66.0 1040,67.8 C1053,69.7 1067,71.6 1080,73.6 C1093,75.6 1107,77.7 1120,79.9 C1133,82.1 1147,84.4 1160,86.7 C1173,89.1 1193,92.8 1200,94.0\" fill=\"none\" style=\"stroke:var(--qtr-primary)\" stroke-width=\"1.25\" stroke-opacity=\"0.5\" vector-effect=\"non-scaling-stroke\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "396807ce1",
+     "blockName": "story",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "start",
+        "display": "grid",
+        "gap": "4rem",
+        "gridTemplateColumns": "minmax(0, 7fr) minmax(0, 5fr)",
+        "margin": "0 auto",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "width": "100%"
+       },
+       "blockId": "ad098590c",
+       "children": [
+        {
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "1.25rem"
+         },
+         "blockId": "588f6ec46",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "color-mix(in srgb, var(--qtr-secondary) 90%, black)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "textTransform": "uppercase"
+           },
+           "blockId": "c0e998f79",
+           "element": "span",
+           "innerHTML": "Notre histoire"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtr-secondary)",
+            "height": "1px",
+            "width": "3rem"
+           },
+           "blockId": "19b45b495",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtr-text)",
+            "fontFamily": "var(--qtr-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0"
+           },
+           "blockId": "a3741290d",
+           "element": "h2",
+           "innerHTML": "Une table qui écoute le <em style=\"font-style: italic; color: var(--qtr-primary)\">calendrier</em>",
+           "mobileStyles": {
+            "fontSize": "2rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.65)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "1.35rem",
+            "lineHeight": "1.75",
+            "margin": "0",
+            "maxWidth": "36rem"
+           },
+           "blockId": "e6e3f8ee6",
+           "element": "p",
+           "innerHTML": "Tout part des producteurs de la région et de ce qu’ils nous apportent au fil de l’année. La carte est courte, renouvelée à chaque saison, et chaque plat met en avant le produit du terroir. Nous servons un menu du jour en semaine, et les plats végétariens comme sans gluten sont signalés sur la carte."
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.65)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "1.35rem",
+            "lineHeight": "1.75",
+            "margin": "0",
+            "maxWidth": "36rem"
+           },
+           "blockId": "d98f6f48e",
+           "element": "p",
+           "innerHTML": "L’été, une terrasse s’ouvre à la lumière du jour ; toute l’année, une salle privée accueille les groupes jusqu’à vingt-quatre personnes. Nous travaillons aussi avec des vins de la région, choisis pour accompagner la saison."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "aspectRatio": "4/5",
+          "overflow": "hidden",
+          "position": "relative"
+         },
+         "blockId": "6ec2d875d",
+         "children": [
+          {
+           "attributes": {
+            "alt": "La salle et la cuisine de La Table des Saisons, à l’œuvre autour des produits du terroir",
+            "src": "/builder_assets/restaurant/page-10ec2e17/hubpub-restaurant-gen_9cdee4a8.jpg"
+           },
+           "baseStyles": {
+            "display": "block",
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "f69854e28",
+           "element": "img"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtr-primary)",
+            "inset": "0",
+            "mixBlendMode": "multiply",
+            "opacity": "0.12",
+            "position": "absolute"
+           },
+           "blockId": "f69e8ce5f",
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-media"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gap": "2.5rem",
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "dbf841b00a",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.5 27,71.8 40,68.8 C53,65.9 67,63.0 80,60.3 C93,57.6 107,54.9 120,52.4 C133,49.9 147,47.4 160,45.1 C173,42.8 187,40.6 200,38.5 C213,36.4 227,34.4 240,32.5 C253,30.6 267,28.8 280,27.1 C293,25.4 307,23.8 320,22.4 C333,20.9 347,19.5 360,18.2 C373,17.0 387,15.8 400,14.8 C413,13.7 427,12.8 440,11.9 C453,11.1 467,10.3 480,9.7 C493,9.1 507,8.5 520,8.1 C533,7.7 547,7.4 560,7.2 C573,7.0 587,6.9 600,6.9 C613,6.9 627,7.0 640,7.2 C653,7.4 667,7.7 680,8.1 C693,8.5 707,9.1 720,9.7 C733,10.3 747,11.1 760,11.9 C773,12.8 787,13.7 800,14.8 C813,15.8 827,17.0 840,18.2 C853,19.5 867,20.9 880,22.4 C893,23.8 907,25.4 920,27.1 C933,28.8 947,30.6 960,32.5 C973,34.4 987,36.4 1000,38.5 C1013,40.6 1027,42.8 1040,45.1 C1053,47.4 1067,49.9 1080,52.4 C1093,54.9 1107,57.6 1120,60.3 C1133,63.0 1147,65.9 1160,68.8 C1173,71.8 1193,76.5 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.5 27,87.8 40,84.8 C53,81.9 67,79.0 80,76.3 C93,73.6 107,70.9 120,68.4 C133,65.9 147,63.4 160,61.1 C173,58.8 187,56.6 200,54.5 C213,52.4 227,50.4 240,48.5 C253,46.6 267,44.8 280,43.1 C293,41.4 307,39.8 320,38.4 C333,36.9 347,35.5 360,34.2 C373,33.0 387,31.8 400,30.8 C413,29.7 427,28.8 440,27.9 C453,27.1 467,26.3 480,25.7 C493,25.1 507,24.5 520,24.1 C533,23.7 547,23.4 560,23.2 C573,23.0 587,22.9 600,22.9 C613,22.9 627,23.0 640,23.2 C653,23.4 667,23.7 680,24.1 C693,24.5 707,25.1 720,25.7 C733,26.3 747,27.1 760,27.9 C773,28.8 787,29.7 800,30.8 C813,31.8 827,33.0 840,34.2 C853,35.5 867,36.9 880,38.4 C893,39.8 907,41.4 920,43.1 C933,44.8 947,46.6 960,48.5 C973,50.4 987,52.4 1000,54.5 C1013,56.6 1027,58.8 1040,61.1 C1053,63.4 1067,65.9 1080,68.4 C1093,70.9 1107,73.6 1120,76.3 C1133,79.0 1147,81.9 1160,84.8 C1173,87.8 1193,92.5 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-primary)",
+      "color": "var(--qtr-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "c648d8226",
+     "blockName": "values",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "width": "100%"
+       },
+       "blockId": "81f6e07f1",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "color-mix(in srgb, var(--qtr-secondary) 80%, white)",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "0.75rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.3em",
+          "textTransform": "uppercase"
+         },
+         "blockId": "d0250a6d6",
+         "element": "span",
+         "innerHTML": "Nos valeurs"
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtr-secondary)",
+          "height": "1px",
+          "margin": "0.75rem 0 1.25rem",
+          "width": "3rem"
+         },
+         "blockId": "21f29d90e",
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtr-background)",
+          "fontFamily": "var(--qtr-font-heading)",
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "lineHeight": "1.15",
+          "margin": "0 0 1.25rem",
+          "maxWidth": "44rem"
+         },
+         "blockId": "5ec5083b0",
+         "element": "h2",
+         "innerHTML": "Ce qui guide <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtr-secondary) 80%, white)\">chaque assiette</em>",
+         "mobileStyles": {
+          "fontSize": "2rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(255,255,255,0.82)",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "1.35rem",
+          "lineHeight": "1.7",
+          "margin": "0 0 3rem",
+          "maxWidth": "34rem"
+         },
+         "blockId": "dd0319704",
+         "element": "p",
+         "innerHTML": "Trois principes simples, appliqués du marché à l’assiette, pour rester fidèles à la saison et à la région."
+        },
+        {
+         "blockId": "0b704edb1",
+         "children": [
+          {
+           "baseStyles": {
+            "borderTop": "2px solid var(--qtr-secondary)",
+            "color": "var(--qtr-text)",
+            "paddingTop": "2rem"
+           },
+           "blockId": "095b293e2",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtr-text)",
+              "fontFamily": "var(--qtr-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "9ff48305e",
+             "element": "h3",
+             "innerHTML": "La saison d’abord",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtr-text)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "1.125rem",
+              "lineHeight": "1.7",
+              "margin": "0"
+             },
+             "blockId": "d0595a15f",
+             "element": "p",
+             "innerHTML": "La carte change à chaque saison, pour servir ce que la terre offre au moment où elle l’offre, sans jamais l’anticiper."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "borderTop": "2px solid var(--qtr-secondary)",
+            "color": "var(--qtr-text)",
+            "paddingTop": "2rem"
+           },
+           "blockId": "c54106d5b",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtr-text)",
+              "fontFamily": "var(--qtr-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "7bca0d427",
+             "element": "h3",
+             "innerHTML": "Le terroir au centre",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtr-text)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "1.125rem",
+              "lineHeight": "1.7",
+              "margin": "0"
+             },
+             "blockId": "45cbb14ee",
+             "element": "p",
+             "innerHTML": "Nos produits viennent de producteurs de la région, choisis pour leur qualité et leur proximité avec la table."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "borderTop": "2px solid var(--qtr-secondary)",
+            "color": "var(--qtr-text)",
+            "paddingTop": "2rem"
+           },
+           "blockId": "eb3c19bab",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qtr-text)",
+              "fontFamily": "var(--qtr-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "d43c37b73",
+             "element": "h3",
+             "innerHTML": "La générosité tranquille",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtr-text)",
+              "fontFamily": "var(--qtr-font-body)",
+              "fontSize": "1.125rem",
+              "lineHeight": "1.7",
+              "margin": "0"
+             },
+             "blockId": "d68427bfa",
+             "element": "p",
+             "innerHTML": "Une carte courte, un service attentif et une attention particulière aux plats végétariens et sans gluten, signalés sur la carte."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--3",
+          "u-reveal-group"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-primary)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "4df7dc725e",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,65.7 C7,64.4 27,60.4 40,58.0 C53,55.5 67,53.1 80,50.8 C93,48.5 107,46.3 120,44.2 C133,42.1 147,40.0 160,38.1 C173,36.1 187,34.3 200,32.5 C213,30.7 227,29.1 240,27.5 C253,25.9 267,24.4 280,23.0 C293,21.6 307,20.2 320,19.0 C333,17.8 347,16.6 360,15.5 C373,14.5 387,13.5 400,12.6 C413,11.7 427,10.9 440,10.2 C453,9.5 467,8.9 480,8.4 C493,7.9 507,7.4 520,7.1 C533,6.7 547,6.4 560,6.3 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.3 C653,6.4 667,6.7 680,7.1 C693,7.4 707,7.9 720,8.4 C733,8.9 747,9.5 760,10.2 C773,10.9 787,11.7 800,12.6 C813,13.5 827,14.5 840,15.5 C853,16.6 867,17.8 880,19.0 C893,20.2 907,21.6 920,23.0 C933,24.4 947,25.9 960,27.5 C973,29.1 987,30.7 1000,32.5 C1013,34.3 1027,36.1 1040,38.1 C1053,40.0 1067,42.1 1080,44.2 C1093,46.3 1107,48.5 1120,50.8 C1133,53.1 1147,55.5 1160,58.0 C1173,60.4 1193,64.4 1200,65.7 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-background)\" fill-opacity=\"0.28\"/><path d=\"M0,81.7 C7,80.4 27,76.4 40,74.0 C53,71.5 67,69.1 80,66.8 C93,64.5 107,62.3 120,60.2 C133,58.1 147,56.0 160,54.1 C173,52.1 187,50.3 200,48.5 C213,46.7 227,45.1 240,43.5 C253,41.9 267,40.4 280,39.0 C293,37.6 307,36.2 320,35.0 C333,33.8 347,32.6 360,31.5 C373,30.5 387,29.5 400,28.6 C413,27.7 427,26.9 440,26.2 C453,25.5 467,24.9 480,24.4 C493,23.9 507,23.4 520,23.1 C533,22.7 547,22.4 560,22.3 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.3 C653,22.4 667,22.7 680,23.1 C693,23.4 707,23.9 720,24.4 C733,24.9 747,25.5 760,26.2 C773,26.9 787,27.7 800,28.6 C813,29.5 827,30.5 840,31.5 C853,32.6 867,33.8 880,35.0 C893,36.2 907,37.6 920,39.0 C933,40.4 947,41.9 960,43.5 C973,45.1 987,46.7 1000,48.5 C1013,50.3 1027,52.1 1040,54.1 C1053,56.0 1067,58.1 1080,60.2 C1093,62.3 1107,64.5 1120,66.8 C1133,69.1 1147,71.5 1160,74.0 C1173,76.4 1193,80.4 1200,81.7 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "dde304800",
+     "blockName": "team",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "start",
+        "display": "grid",
+        "gap": "2.5rem",
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "margin": "0 auto",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "width": "100%"
+       },
+       "blockId": "ac30e14ed",
+       "children": [
+        {
+         "baseStyles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "1.25rem"
+         },
+         "blockId": "48745a204",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "color-mix(in srgb, var(--qtr-secondary) 90%, black)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "textTransform": "uppercase"
+           },
+           "blockId": "585ea81b9",
+           "element": "span",
+           "innerHTML": "L’équipe"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtr-secondary)",
+            "height": "1px",
+            "width": "3rem"
+           },
+           "blockId": "cdd6dffed",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtr-text)",
+            "fontFamily": "var(--qtr-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0"
+           },
+           "blockId": "3bc722203",
+           "element": "h2",
+           "innerHTML": "Une équipe qui travaille <em style=\"font-style: italic; color: var(--qtr-primary)\">la main dans la main</em>",
+           "mobileStyles": {
+            "fontSize": "2rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.65)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "1.35rem",
+            "lineHeight": "1.75",
+            "margin": "0",
+            "maxWidth": "34rem"
+           },
+           "blockId": "ec097e4cf",
+           "element": "p",
+           "innerHTML": "Derrière la table, une équipe qui se connaît depuis des années et qui s’attache au même geste : respecter le produit, du marché jusqu’à l’assiette. Personne ne travaille seul ici ; la cuisine, la salle et la cave se parlent chaque matin."
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.65)",
+            "fontFamily": "var(--qtr-font-body)",
+            "fontSize": "1.35rem",
+            "lineHeight": "1.75",
+            "margin": "0",
+            "maxWidth": "34rem"
+           },
+           "blockId": "3465aeec3",
+           "element": "p",
+           "innerHTML": "Nous aimons recevoir, conseiller et expliquer, pour que chaque visite soit un moment simple et généreux."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "overflow": "hidden",
+          "position": "relative"
+         },
+         "blockId": "69a02abe1",
+         "children": [
+          {
+           "attributes": {
+            "alt": "La salle du restaurant, tables dressées, en lumière naturelle",
+            "src": "/builder_assets/restaurant/page-10ec2e17/hubpub-restaurant-gen_aa97203e.jpg"
+           },
+           "baseStyles": {
+            "aspectRatio": "16/9",
+            "display": "block",
+            "height": "auto",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "1efa4f29b",
+           "element": "img"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtr-primary)",
+            "inset": "0",
+            "mixBlendMode": "multiply",
+            "opacity": "0.12",
+            "position": "absolute"
+           },
+           "blockId": "a5a46d41f",
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-media"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gap": "2.5rem",
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "a54c0386af",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.5 27,71.9 40,69.1 C53,66.2 67,63.4 80,60.7 C93,58.0 107,55.5 120,53.0 C133,50.5 147,48.2 160,45.9 C173,43.7 187,41.5 200,39.4 C213,37.4 227,35.4 240,33.6 C253,31.7 267,30.0 280,28.3 C293,26.7 307,25.1 320,23.7 C333,22.3 347,20.9 360,19.7 C373,18.5 387,17.3 400,16.3 C413,15.3 427,14.3 440,13.5 C453,12.7 467,12.0 480,11.4 C493,10.7 507,10.2 520,9.8 C533,9.4 547,9.1 560,8.9 C573,8.7 587,8.6 600,8.6 C613,8.6 627,8.7 640,8.9 C653,9.1 667,9.4 680,9.8 C693,10.2 707,10.7 720,11.4 C733,12.0 747,12.7 760,13.5 C773,14.3 787,15.3 800,16.3 C813,17.3 827,18.5 840,19.7 C853,20.9 867,22.3 880,23.7 C893,25.1 907,26.7 920,28.3 C933,30.0 947,31.7 960,33.6 C973,35.4 987,37.4 1000,39.4 C1013,41.5 1027,43.7 1040,45.9 C1053,48.2 1067,50.5 1080,53.0 C1093,55.5 1107,58.0 1120,60.7 C1133,63.4 1147,66.2 1160,69.1 C1173,71.9 1193,76.5 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-text)\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.5 27,87.9 40,85.1 C53,82.2 67,79.4 80,76.7 C93,74.0 107,71.5 120,69.0 C133,66.5 147,64.2 160,61.9 C173,59.7 187,57.5 200,55.4 C213,53.4 227,51.4 240,49.6 C253,47.7 267,46.0 280,44.3 C293,42.7 307,41.1 320,39.7 C333,38.3 347,36.9 360,35.7 C373,34.5 387,33.3 400,32.3 C413,31.3 427,30.3 440,29.5 C453,28.7 467,28.0 480,27.4 C493,26.7 507,26.2 520,25.8 C533,25.4 547,25.1 560,24.9 C573,24.7 587,24.6 600,24.6 C613,24.6 627,24.7 640,24.9 C653,25.1 667,25.4 680,25.8 C693,26.2 707,26.7 720,27.4 C733,28.0 747,28.7 760,29.5 C773,30.3 787,31.3 800,32.3 C813,33.3 827,34.5 840,35.7 C853,36.9 867,38.3 880,39.7 C893,41.1 907,42.7 920,44.3 C933,46.0 947,47.7 960,49.6 C973,51.4 987,53.4 1000,55.4 C1013,57.5 1027,59.7 1040,61.9 C1053,64.2 1067,66.5 1080,69.0 C1093,71.5 1107,74.0 1120,76.7 C1133,79.4 1147,82.2 1160,85.1 C1173,87.9 1193,92.5 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtr-text)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-text)",
+      "color": "var(--qtr-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "967e9e22f",
+     "blockName": "cta",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "1.5rem",
+        "margin": "0 auto",
+        "maxWidth": "var(--qtr-container)",
+        "paddingLeft": "var(--qtr-gutter)",
+        "paddingRight": "var(--qtr-gutter)",
+        "textAlign": "center",
+        "width": "100%"
+       },
+       "blockId": "88a0eef58",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "var(--qtr-secondary)",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "0.75rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.3em",
+          "textTransform": "uppercase"
+         },
+         "blockId": "f595c5bb1",
+         "element": "span",
+         "innerHTML": "Réservation"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtr-background)",
+          "fontFamily": "var(--qtr-font-heading)",
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "lineHeight": "1.15",
+          "margin": "0",
+          "maxWidth": "44rem"
+         },
+         "blockId": "818f7aa0d",
+         "element": "h2",
+         "innerHTML": "Réservez votre table <em style=\"font-style: italic; color: var(--qtr-secondary)\">pour la saison</em>",
+         "mobileStyles": {
+          "fontSize": "2rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(255,255,255,0.82)",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "1.35rem",
+          "lineHeight": "1.7",
+          "margin": "0",
+          "maxWidth": "36rem"
+         },
+         "blockId": "4dda552d6",
+         "element": "p",
+         "innerHTML": "Le menu du jour est servi en semaine, la terrasse s’ouvre en été, et la salle privée accueille les groupes jusqu’à vingt-quatre personnes. Pour organiser votre visite, laissez-nous un mot : nous vous répondrons pour choisir la saison qui vous attend."
+        },
+        {
+         "attributes": {
+          "href": "accueil"
+         },
+         "baseStyles": {
+          "color": "var(--qtr-background)",
+          "display": "inline-block",
+          "fontFamily": "var(--qtr-font-body)",
+          "fontSize": "1.0625rem",
+          "fontWeight": "600",
+          "padding": "14px 32px"
+         },
+         "blockId": "8b67ce4a6",
+         "classes": [
+          "u-btn",
+          "u-btn--secondary"
+         ],
+         "element": "a",
+         "innerHTML": "Contactez-nous"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtr-gutter-phone)",
+        "paddingRight": "var(--qtr-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtr-text)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "eba708c101",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,55.6 C7,54.5 27,51.2 40,49.2 C53,47.1 67,45.1 80,43.2 C93,41.3 107,39.5 120,37.7 C133,36.0 147,34.3 160,32.7 C173,31.0 187,29.5 200,28.0 C213,26.6 227,25.2 240,23.8 C253,22.5 267,21.3 280,20.1 C293,18.9 307,17.8 320,16.8 C333,15.8 347,14.8 360,13.9 C373,13.0 387,12.2 400,11.5 C413,10.8 427,10.1 440,9.5 C453,8.9 467,8.4 480,8.0 C493,7.5 507,7.2 520,6.9 C533,6.6 547,6.4 560,6.2 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.2 C653,6.4 667,6.6 680,6.9 C693,7.2 707,7.5 720,8.0 C733,8.4 747,8.9 760,9.5 C773,10.1 787,10.8 800,11.5 C813,12.2 827,13.0 840,13.9 C853,14.8 867,15.8 880,16.8 C893,17.8 907,18.9 920,20.1 C933,21.3 947,22.5 960,23.8 C973,25.2 987,26.6 1000,28.0 C1013,29.5 1027,31.0 1040,32.7 C1053,34.3 1067,36.0 1080,37.7 C1093,39.5 1107,41.3 1120,43.2 C1133,45.1 1147,47.1 1160,49.2 C1173,51.2 1193,54.5 1200,55.6 L1200,106 L0,106 Z\" style=\"fill:#3a4a2e\" fill-opacity=\"0.28\"/><path d=\"M0,71.6 C7,70.5 27,67.2 40,65.2 C53,63.1 67,61.1 80,59.2 C93,57.3 107,55.5 120,53.7 C133,52.0 147,50.3 160,48.7 C173,47.0 187,45.5 200,44.0 C213,42.6 227,41.2 240,39.8 C253,38.5 267,37.3 280,36.1 C293,34.9 307,33.8 320,32.8 C333,31.8 347,30.8 360,29.9 C373,29.0 387,28.2 400,27.5 C413,26.8 427,26.1 440,25.5 C453,24.9 467,24.4 480,24.0 C493,23.5 507,23.2 520,22.9 C533,22.6 547,22.4 560,22.2 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.2 C653,22.4 667,22.6 680,22.9 C693,23.2 707,23.5 720,24.0 C733,24.4 747,24.9 760,25.5 C773,26.1 787,26.8 800,27.5 C813,28.2 827,29.0 840,29.9 C853,30.8 867,31.8 880,32.8 C893,33.8 907,34.9 920,36.1 C933,37.3 947,38.5 960,39.8 C973,41.2 987,42.6 1000,44.0 C1013,45.5 1027,47.0 1040,48.7 C1053,50.3 1067,52.0 1080,53.7 C1093,55.5 1107,57.3 1120,59.2 C1133,61.1 1147,63.1 1160,65.2 C1173,67.2 1193,70.5 1200,71.6 L1200,106 L0,106 Z\" style=\"fill:#3a4a2e\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-11-01 19:29:59.155566",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "La Table des Saisons est un restaurant de cuisine de saison et de produits du terroir. Une carte courte, renouvelée à chaque saison, et un menu du jour servi en semaine.",
+ "modified": "2026-11-01 19:29:59.161026",
+ "modified_by": "template-publisher@neoservice.ai",
+ "name": "page-10ec2e17",
+ "owner": "template-publisher@neoservice.ai",
+ "page_data_script": "",
+ "page_name": "page-10ec2e17",
+ "page_title": "À propos",
+ "preview": "/builder_assets/restaurant/page-10ec2e17/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/restaurant/à_propos",
+ "staging": 0,
+ "template_group": "restaurant"
+}

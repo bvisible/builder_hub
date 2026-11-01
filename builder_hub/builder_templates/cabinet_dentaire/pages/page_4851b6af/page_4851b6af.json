@@ -1,0 +1,1460 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--qtd-background)",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "6d9429dd3",
+     "blockName": "story",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "grid",
+        "gap": "4rem",
+        "gridTemplateColumns": "minmax(0, 7fr) minmax(0, 5fr)",
+        "margin": "0 auto",
+        "maxWidth": "var(--qtd-container)",
+        "paddingLeft": "var(--qtd-gutter)",
+        "paddingRight": "var(--qtd-gutter)"
+       },
+       "blockId": "8d8309b79",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "809af8862",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "color-mix(in srgb, var(--qtd-secondary) 80%, black)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.25rem",
+            "textTransform": "uppercase"
+           },
+           "blockId": "a97abe5da",
+           "element": "p",
+           "innerHTML": "Notre maison"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtd-text)",
+            "fontFamily": "var(--qtd-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 0.75rem",
+            "maxWidth": "34rem"
+           },
+           "blockId": "9be12bfd2",
+           "element": "h2",
+           "innerHTML": "Un cabinet de quartier, pensé pour la <em style=\"font-style: italic; color: var(--qtd-primary)\">calme</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtd-secondary)",
+            "height": "2px",
+            "margin": "0 0 1.5rem",
+            "width": "3rem"
+           },
+           "blockId": "9c114ddbb",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.65)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "32rem"
+           },
+           "blockId": "371e8e9ac",
+           "element": "p",
+           "innerHTML": "Le Cabinet Dentaire du Parc est né d’une conviction simple : la dentisterie se vit mieux quand elle se vit en confiance. Nous avons choisi d’accueillir nos voisins dans un espace apaisé, sans files d’attente bruyantes ni ambiance clinique, où chaque soin est pris à son rythme."
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.65)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "32rem"
+           },
+           "blockId": "62af80960",
+           "element": "p",
+           "innerHTML": "Nos soins conservateurs, notre prophylaxie et notre détartrage partent d’un même principe : prévenir, écouter et soigner en douceur, pour que la visite chez le dentaire reste un moment rassurant et jamais une source de stress."
+          }
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "borderRadius": "16px",
+          "overflow": "hidden",
+          "position": "relative"
+         },
+         "blockId": "b7088c9d4",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Intérieur du cabinet dentaire de quartier, salle d’attente et fauteuil de soins",
+            "src": "/builder_assets/cabinet_dentaire/page-4851b6af/hubpub-cabinet_dentaire-gen_cfccfa8c.jpg"
+           },
+           "baseStyles": {
+            "display": "block",
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "9e62be569",
+           "element": "img"
+          }
+         ],
+         "classes": [
+          "u-media"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gap": "2.5rem",
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "paddingLeft": "var(--qtd-gutter-phone)",
+        "paddingRight": "var(--qtd-gutter-phone)"
+       },
+       "tabletStyles": {
+        "gap": "3rem",
+        "gridTemplateColumns": "minmax(0, 1fr)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "bbe65b4d49",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,72.7 C7,71.2 27,66.8 40,64.1 C53,61.3 67,58.6 80,56.1 C93,53.5 107,51.0 120,48.7 C133,46.3 147,44.0 160,41.9 C173,39.7 187,37.6 200,35.6 C213,33.7 227,31.8 240,30.0 C253,28.2 267,26.5 280,25.0 C293,23.4 307,21.9 320,20.5 C333,19.1 347,17.9 360,16.7 C373,15.5 387,14.4 400,13.4 C413,12.4 427,11.5 440,10.7 C453,10.0 467,9.3 480,8.7 C493,8.1 507,7.6 520,7.2 C533,6.8 547,6.5 560,6.3 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.3 C653,6.5 667,6.8 680,7.2 C693,7.6 707,8.1 720,8.7 C733,9.3 747,10.0 760,10.7 C773,11.5 787,12.4 800,13.4 C813,14.4 827,15.5 840,16.7 C853,17.9 867,19.1 880,20.5 C893,21.9 907,23.4 920,25.0 C933,26.5 947,28.2 960,30.0 C973,31.8 987,33.7 1000,35.6 C1013,37.6 1027,39.7 1040,41.9 C1053,44.0 1067,46.3 1080,48.7 C1093,51.0 1107,53.5 1120,56.1 C1133,58.6 1147,61.3 1160,64.1 C1173,66.8 1193,71.2 1200,72.7 L1200,106 L0,106 Z\" style=\"fill:var(--qtd-primary)\" fill-opacity=\"0.28\"/><path d=\"M0,88.7 C7,87.2 27,82.8 40,80.1 C53,77.3 67,74.6 80,72.1 C93,69.5 107,67.0 120,64.7 C133,62.3 147,60.0 160,57.9 C173,55.7 187,53.6 200,51.6 C213,49.7 227,47.8 240,46.0 C253,44.2 267,42.5 280,41.0 C293,39.4 307,37.9 320,36.5 C333,35.1 347,33.9 360,32.7 C373,31.5 387,30.4 400,29.4 C413,28.4 427,27.5 440,26.7 C453,26.0 467,25.3 480,24.7 C493,24.1 507,23.6 520,23.2 C533,22.8 547,22.5 560,22.3 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.3 C653,22.5 667,22.8 680,23.2 C693,23.6 707,24.1 720,24.7 C733,25.3 747,26.0 760,26.7 C773,27.5 787,28.4 800,29.4 C813,30.4 827,31.5 840,32.7 C853,33.9 867,35.1 880,36.5 C893,37.9 907,39.4 920,41.0 C933,42.5 947,44.2 960,46.0 C973,47.8 987,49.7 1000,51.6 C1013,53.6 1027,55.7 1040,57.9 C1053,60.0 1067,62.3 1080,64.7 C1093,67.0 1107,69.5 1120,72.1 C1133,74.6 1147,77.3 1160,80.1 C1173,82.8 1193,87.2 1200,88.7 L1200,106 L0,106 Z\" style=\"fill:var(--qtd-primary)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-primary)",
+      "padding": "5rem 0",
+      "width": "100%"
+     },
+     "blockId": "e4d6f2154",
+     "blockName": "values",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "column",
+        "margin": "0 auto",
+        "maxWidth": "var(--qtd-container)",
+        "paddingLeft": "var(--qtd-gutter)",
+        "paddingRight": "var(--qtd-gutter)"
+       },
+       "blockId": "8559018fc",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "color-mix(in srgb, var(--qtd-secondary) 70%, white)",
+          "fontFamily": "var(--qtd-font-body)",
+          "fontSize": "0.75rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.3em",
+          "margin": "0 0 1.25rem",
+          "textTransform": "uppercase"
+         },
+         "blockId": "6cb07a3bd",
+         "element": "p",
+         "innerHTML": "Nos valeurs"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtd-background)",
+          "fontFamily": "var(--qtd-font-heading)",
+          "fontSize": "2.75rem",
+          "fontWeight": "700",
+          "lineHeight": "1.15",
+          "margin": "0 0 0.75rem",
+          "maxWidth": "36rem"
+         },
+         "blockId": "2474c4682",
+         "element": "h2",
+         "innerHTML": "Ce qui guide chaque soin, <em style=\"font-style: italic; color: color-mix(in srgb, var(--qtd-secondary) 70%, white)\">chaque jour</em>",
+         "mobileStyles": {
+          "fontSize": "1.75rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtd-secondary)",
+          "height": "2px",
+          "margin": "0 0 2.5rem",
+          "width": "3rem"
+         },
+         "blockId": "0d640706f",
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "width": "100%"
+         },
+         "blockId": "5990c4737",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "2rem"
+           },
+           "blockId": "8181cb718",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "12px",
+              "marginBottom": "1.25rem"
+             },
+             "blockId": "f1eb9b449",
+             "children": [
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "color": "var(--qtd-secondary)",
+                "display": "inline-flex",
+                "flexShrink": 0,
+                "height": "22px",
+                "justifyContent": "center",
+                "lineHeight": "0",
+                "width": "22px"
+               },
+               "blockId": "92cb8d62d",
+               "blockName": "Icon: heart",
+               "children": [],
+               "customAttributes": {
+                "data-lucide": "heart"
+               },
+               "element": "svg",
+               "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5\" /> </svg>"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtd-background)",
+                "fontFamily": "var(--qtd-font-body)",
+                "fontSize": "0.75rem",
+                "fontWeight": "700",
+                "letterSpacing": "0.2em",
+                "textTransform": "uppercase"
+               },
+               "blockId": "deed49fe5",
+               "element": "span",
+               "innerHTML": "Écoute"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-background)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "25904c754",
+             "element": "h3",
+             "innerHTML": "Nous prenons le temps",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(255,255,255,0.72)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0"
+             },
+             "blockId": "e06f0496a",
+             "element": "p",
+             "innerHTML": "Avant de soigner, nous écoutons. Chaque consultation commence par un échange, pour comprendre votre besoin, vos craintes et votre rythme, et vous proposer la démarche qui vous convient le mieux."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--raised"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "2rem"
+           },
+           "blockId": "8ac9b8e90",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "12px",
+              "marginBottom": "1.25rem"
+             },
+             "blockId": "28d609074",
+             "children": [
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "color": "var(--qtd-secondary)",
+                "display": "inline-flex",
+                "flexShrink": 0,
+                "height": "22px",
+                "justifyContent": "center",
+                "lineHeight": "0",
+                "width": "22px"
+               },
+               "blockId": "da3e1a771",
+               "blockName": "Icon: shield-check",
+               "children": [],
+               "customAttributes": {
+                "data-lucide": "shield-check"
+               },
+               "element": "svg",
+               "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\" /> <path d=\"m9 12 2 2 4-4\" /> </svg>"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtd-background)",
+                "fontFamily": "var(--qtd-font-body)",
+                "fontSize": "0.75rem",
+                "fontWeight": "700",
+                "letterSpacing": "0.2em",
+                "textTransform": "uppercase"
+               },
+               "blockId": "6f8e64c5e",
+               "element": "span",
+               "innerHTML": "Transparence"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-background)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "ddd5212fa",
+             "element": "h3",
+             "innerHTML": "Un devis avant chaque traitement",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(255,255,255,0.72)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0"
+             },
+             "blockId": "4ece0817d",
+             "element": "p",
+             "innerHTML": "Nous vous remettons un devis écrit avant de commencer. Vous savez exactement ce qui est prévu, ce que cela implique et ce que cela coûte, afin de décider en toute clarté, sans surprise."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--raised"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "backgroundColor": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.16)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "2rem"
+           },
+           "blockId": "02e55fa76",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "12px",
+              "marginBottom": "1.25rem"
+             },
+             "blockId": "14cca06d8",
+             "children": [
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "color": "var(--qtd-secondary)",
+                "display": "inline-flex",
+                "flexShrink": 0,
+                "height": "22px",
+                "justifyContent": "center",
+                "lineHeight": "0",
+                "width": "22px"
+               },
+               "blockId": "da2746b79",
+               "blockName": "Icon: sparkles",
+               "children": [],
+               "customAttributes": {
+                "data-lucide": "sparkles"
+               },
+               "element": "svg",
+               "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z\" /> <path d=\"M20 2v4\" /> <path d=\"M22 4h-4\" /> <circle cx=\"4\" cy=\"20\" r=\"2\" /> </svg>"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qtd-background)",
+                "fontFamily": "var(--qtd-font-body)",
+                "fontSize": "0.75rem",
+                "fontWeight": "700",
+                "letterSpacing": "0.2em",
+                "textTransform": "uppercase"
+               },
+               "blockId": "ccb323765",
+               "element": "span",
+               "innerHTML": "Douceur"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-background)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "613e8f68f",
+             "element": "h3",
+             "innerHTML": "Un soin sans stress",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(255,255,255,0.72)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0"
+             },
+             "blockId": "456e4320f",
+             "element": "p",
+             "innerHTML": "Notre salle d’attente est calme et notre approche progressive. Nous favorisons la prévention et la douceur, pour que la visite chez le dentaire reste un moment apaisant, du premier rendez-vous au dernier."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--raised"
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--3",
+          "u-reveal-group"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "width": "100%"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtd-gutter-phone)",
+        "paddingRight": "var(--qtd-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "3.5rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-primary)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "4f3ab18dec",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,73.5 C7,72.1 27,67.6 40,64.8 C53,62.0 67,59.3 80,56.7 C93,54.1 107,51.6 120,49.2 C133,46.8 147,44.5 160,42.3 C173,40.1 187,38.0 200,36.0 C213,34.0 227,32.1 240,30.3 C253,28.5 267,26.8 280,25.2 C293,23.6 307,22.1 320,20.7 C333,19.3 347,18.0 360,16.8 C373,15.6 387,14.5 400,13.5 C413,12.5 427,11.6 440,10.8 C453,10.0 467,9.3 480,8.7 C493,8.1 507,7.6 520,7.2 C533,6.8 547,6.5 560,6.3 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.3 C653,6.5 667,6.8 680,7.2 C693,7.6 707,8.1 720,8.7 C733,9.3 747,10.0 760,10.8 C773,11.6 787,12.5 800,13.5 C813,14.5 827,15.6 840,16.8 C853,18.0 867,19.3 880,20.7 C893,22.1 907,23.6 920,25.2 C933,26.8 947,28.5 960,30.3 C973,32.1 987,34.0 1000,36.0 C1013,38.0 1027,40.1 1040,42.3 C1053,44.5 1067,46.8 1080,49.2 C1093,51.6 1107,54.1 1120,56.7 C1133,59.3 1147,62.0 1160,64.8 C1173,67.6 1193,72.1 1200,73.5 L1200,106 L0,106 Z\" style=\"fill:var(--qtd-background)\" fill-opacity=\"0.28\"/><path d=\"M0,89.5 C7,88.1 27,83.6 40,80.8 C53,78.0 67,75.3 80,72.7 C93,70.1 107,67.6 120,65.2 C133,62.8 147,60.5 160,58.3 C173,56.1 187,54.0 200,52.0 C213,50.0 227,48.1 240,46.3 C253,44.5 267,42.8 280,41.2 C293,39.6 307,38.1 320,36.7 C333,35.3 347,34.0 360,32.8 C373,31.6 387,30.5 400,29.5 C413,28.5 427,27.6 440,26.8 C453,26.0 467,25.3 480,24.7 C493,24.1 507,23.6 520,23.2 C533,22.8 547,22.5 560,22.3 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.3 C653,22.5 667,22.8 680,23.2 C693,23.6 707,24.1 720,24.7 C733,25.3 747,26.0 760,26.8 C773,27.6 787,28.5 800,29.5 C813,30.5 827,31.6 840,32.8 C853,34.0 867,35.3 880,36.7 C893,38.1 907,39.6 920,41.2 C933,42.8 947,44.5 960,46.3 C973,48.1 987,50.0 1000,52.0 C1013,54.0 1027,56.1 1040,58.3 C1053,60.5 1067,62.8 1080,65.2 C1093,67.6 1107,70.1 1120,72.7 C1133,75.3 1147,78.0 1160,80.8 C1173,83.6 1193,88.1 1200,89.5 L1200,106 L0,106 Z\" style=\"fill:var(--qtd-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "b29c67a27",
+     "blockName": "team",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "grid",
+        "gap": "4rem",
+        "gridTemplateColumns": "minmax(0, 5fr) minmax(0, 7fr)",
+        "margin": "0 auto",
+        "maxWidth": "var(--qtd-container)",
+        "paddingLeft": "var(--qtd-gutter)",
+        "paddingRight": "var(--qtd-gutter)"
+       },
+       "blockId": "29dddf12b",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "c534386f2",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "color-mix(in srgb, var(--qtd-secondary) 80%, black)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.25rem",
+            "textTransform": "uppercase"
+           },
+           "blockId": "577110e61",
+           "element": "p",
+           "innerHTML": "Notre équipe"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtd-text)",
+            "fontFamily": "var(--qtd-font-heading)",
+            "fontSize": "2.75rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 0.75rem",
+            "maxWidth": "30rem"
+           },
+           "blockId": "0afaa7c1b",
+           "element": "h2",
+           "innerHTML": "Des soignants qui <em style=\"font-style: italic; color: var(--qtd-primary)\">prennent le temps</em>",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtd-secondary)",
+            "height": "2px",
+            "margin": "0 0 1.5rem",
+            "width": "3rem"
+           },
+           "blockId": "2b8bef949",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.65)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "30rem"
+           },
+           "blockId": "0bcb4a847",
+           "element": "p",
+           "innerHTML": "Au Cabinet Dentaire du Parc, nous formons une équipe restreinte qui connaît ses patients par leur prénom. Nous avons choisi de limiter nos consultations pour garder du temps pour chacun, plutôt que de multiplier les rendez-vous."
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(0,0,0,0.65)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "30rem"
+           },
+           "blockId": "775bacb13",
+           "element": "p",
+           "innerHTML": "Nous nous formons en continu, notamment sur la radiographie à faible dose, afin de allier la précision du diagnostic à la douceur du geste, pour vous et pour vos enfants."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "borderRadius": "16px",
+          "overflow": "hidden",
+          "position": "relative"
+         },
+         "blockId": "cbc80e095",
+         "children": [
+          {
+           "attributes": {
+            "alt": "Atelier de soins du cabinet dentaire, préparation d’un fauteuil et d’instruments",
+            "src": "/builder_assets/cabinet_dentaire/page-4851b6af/hubpub-cabinet_dentaire-gen_d51d088b.jpg"
+           },
+           "baseStyles": {
+            "display": "block",
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "515f45701",
+           "element": "img"
+          }
+         ],
+         "classes": [
+          "u-media"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gap": "2.5rem",
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "paddingLeft": "var(--qtd-gutter-phone)",
+        "paddingRight": "var(--qtd-gutter-phone)"
+       },
+       "tabletStyles": {
+        "gap": "3rem",
+        "gridTemplateColumns": "minmax(0, 1fr)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-background)",
+      "height": "clamp(22px, 3.6vw, 46px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "95fb29fc91",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,71.8 C7,70.8 27,67.5 40,65.4 C53,63.3 67,61.4 80,59.4 C93,57.5 107,55.7 120,53.9 C133,52.1 147,50.4 160,48.8 C173,47.2 187,45.6 200,44.1 C213,42.7 227,41.3 240,39.9 C253,38.6 267,37.4 280,36.2 C293,35.0 307,33.9 320,32.9 C333,31.8 347,30.9 360,30.0 C373,29.1 387,28.3 400,27.5 C413,26.8 427,26.1 440,25.5 C453,25.0 467,24.4 480,24.0 C493,23.6 507,23.2 520,22.9 C533,22.6 547,22.4 560,22.2 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.2 C653,22.4 667,22.6 680,22.9 C693,23.2 707,23.6 720,24.0 C733,24.4 747,25.0 760,25.5 C773,26.1 787,26.8 800,27.5 C813,28.3 827,29.1 840,30.0 C853,30.9 867,31.8 880,32.9 C893,33.9 907,35.0 920,36.2 C933,37.4 947,38.6 960,39.9 C973,41.3 987,42.7 1000,44.1 C1013,45.6 1027,47.2 1040,48.8 C1053,50.4 1067,52.1 1080,53.9 C1093,55.7 1107,57.5 1120,59.4 C1133,61.4 1147,63.3 1160,65.4 C1173,67.5 1193,70.8 1200,71.8\" fill=\"none\" style=\"stroke:var(--qtd-primary)\" stroke-width=\"1.25\" stroke-opacity=\"0.5\" vector-effect=\"non-scaling-stroke\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-background)",
+      "padding": "5rem 0",
+      "width": "100%"
+     },
+     "blockId": "9e8c69aed",
+     "blockName": "commitment",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "column",
+        "margin": "0 auto",
+        "maxWidth": "var(--qtd-container)",
+        "paddingLeft": "var(--qtd-gutter)",
+        "paddingRight": "var(--qtd-gutter)"
+       },
+       "blockId": "a2c2c89f6",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "color-mix(in srgb, var(--qtd-secondary) 80%, black)",
+          "fontFamily": "var(--qtd-font-body)",
+          "fontSize": "0.75rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.3em",
+          "margin": "0 0 1.25rem",
+          "textTransform": "uppercase"
+         },
+         "blockId": "9c3e10279",
+         "element": "p",
+         "innerHTML": "Nos engagements"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--qtd-text)",
+          "fontFamily": "var(--qtd-font-heading)",
+          "fontSize": "2.75rem",
+          "fontWeight": "700",
+          "lineHeight": "1.15",
+          "margin": "0 0 0.75rem",
+          "maxWidth": "34rem"
+         },
+         "blockId": "17764377b",
+         "element": "h2",
+         "innerHTML": "Des repères <em style=\"font-style: italic; color: var(--qtd-primary)\">concrets</em>, pour vous rassurer",
+         "mobileStyles": {
+          "fontSize": "1.75rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--qtd-secondary)",
+          "height": "2px",
+          "margin": "0 0 2.5rem",
+          "width": "3rem"
+         },
+         "blockId": "734d398a7",
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "width": "100%"
+         },
+         "blockId": "3f8027934",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "border": "1px solid rgba(0,0,0,0.07)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "1.75rem"
+           },
+           "blockId": "396a36dcd",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "color": "var(--qtd-primary)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "height": "22px",
+              "justifyContent": "center",
+              "lineHeight": "0",
+              "marginBottom": "1rem",
+              "width": "22px"
+             },
+             "blockId": "25e782f65",
+             "blockName": "Icon: calendar",
+             "children": [],
+             "customAttributes": {
+              "data-lucide": "calendar"
+             },
+             "element": "svg",
+             "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M8 2v4\" /> <path d=\"M16 2v4\" /> <rect width=\"18\" height=\"18\" x=\"3\" y=\"4\" rx=\"2\" /> <path d=\"M3 10h18\" /> </svg>"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.25rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.5rem"
+             },
+             "blockId": "c8013bd3b",
+             "element": "h3",
+             "innerHTML": "Urgences le jour même",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(0,0,0,0.55)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0"
+             },
+             "blockId": "82c69e82f",
+             "element": "p",
+             "innerHTML": "Un mal aigu ne peut pas attendre. Nous réservons des créneaux d’urgence pour vous recevoir le jour même, quand c’est possible."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--raised"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "border": "1px solid rgba(0,0,0,0.07)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "1.75rem"
+           },
+           "blockId": "2e9f26c04",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "color": "var(--qtd-primary)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "height": "22px",
+              "justifyContent": "center",
+              "lineHeight": "0",
+              "marginBottom": "1rem",
+              "width": "22px"
+             },
+             "blockId": "b384e96fd",
+             "blockName": "Icon: message-circle",
+             "children": [],
+             "customAttributes": {
+              "data-lucide": "message-circle"
+             },
+             "element": "svg",
+             "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719\" /> </svg>"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.25rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.5rem"
+             },
+             "blockId": "8bf3bb941",
+             "element": "h3",
+             "innerHTML": "Un rappel avant chaque visite",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(0,0,0,0.55)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0"
+             },
+             "blockId": "b572d9f76",
+             "element": "p",
+             "innerHTML": "Nous vous envoyons un message de rappel avant chaque rendez-vous, pour que vous n’ayez plus à mémoriser l’heure ou l’adresse."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--raised"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "border": "1px solid rgba(0,0,0,0.07)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "1.75rem"
+           },
+           "blockId": "96f482a2c",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "color": "var(--qtd-primary)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "height": "22px",
+              "justifyContent": "center",
+              "lineHeight": "0",
+              "marginBottom": "1rem",
+              "width": "22px"
+             },
+             "blockId": "4ce3b4cf7",
+             "blockName": "Icon: door-open",
+             "children": [],
+             "customAttributes": {
+              "data-lucide": "door-open"
+             },
+             "element": "svg",
+             "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M11 20H2\" /> <path d=\"M11 4.562v16.157a1 1 0 0 0 1.242.97L19 20V5.562a2 2 0 0 0-1.515-1.94l-4-1A2 2 0 0 0 11 4.561z\" /> <path d=\"M11 4H8a2 2 0 0 0-2 2v14\" /> <path d=\"M14 12h.01\" /> <path d=\"M22 20h-3\" /> </svg>"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.25rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.5rem"
+             },
+             "blockId": "255a45faf",
+             "element": "h3",
+             "innerHTML": "Un accès de plain-pied",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(0,0,0,0.55)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0"
+             },
+             "blockId": "a02d161a3",
+             "element": "p",
+             "innerHTML": "Le cabinet est accessible de plain-pied, pour que chacun, à toute âge, puisse venir nous voir sans difficulté."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--raised"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "border": "1px solid rgba(0,0,0,0.07)",
+            "display": "flex",
+            "flexDirection": "column",
+            "padding": "1.75rem"
+           },
+           "blockId": "79b2a6136",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "color": "var(--qtd-primary)",
+              "display": "inline-flex",
+              "flexShrink": 0,
+              "height": "22px",
+              "justifyContent": "center",
+              "lineHeight": "0",
+              "marginBottom": "1rem",
+              "width": "22px"
+             },
+             "blockId": "7aa6c8fa4",
+             "blockName": "Icon: radiation",
+             "children": [],
+             "customAttributes": {
+              "data-lucide": "radiation"
+             },
+             "element": "svg",
+             "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M12 12h.01\" /> <path d=\"M14 15.4641a4 4 0 0 1-4 0L7.52786 19.74597 A 1 1 0 0 0 7.99303 21.16211 10 10 0 0 0 16.00697 21.16211 1 1 0 0 0 16.47214 19.74597z\" /> <path d=\"M16 12a4 4 0 0 0-2-3.464l2.472-4.282a1 1 0 0 1 1.46-.305 10 10 0 0 1 4.006 6.94A1 1 0 0 1 21 12z\" /> <path d=\"M8 12a4 4 0 0 1 2-3.464L7.528 4.254a1 1 0 0 0-1.46-.305 10 10 0 0 0-4.006 6.94A1 1 0 0 0 3 12z\" /> </svg>"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qtd-text)",
+              "fontFamily": "var(--qtd-font-heading)",
+              "fontSize": "1.25rem",
+              "fontWeight": "700",
+              "margin": "0 0 0.5rem"
+             },
+             "blockId": "652227e09",
+             "element": "h3",
+             "innerHTML": "Radiographie à faible dose",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(0,0,0,0.55)",
+              "fontFamily": "var(--qtd-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0"
+             },
+             "blockId": "1aa1e3d69",
+             "element": "p",
+             "innerHTML": "Notre équipement de radiographie fonctionne à faible dose, pour obtenir l’image nécessaire avec la plus petite exposition possible."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--raised"
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--4",
+          "u-reveal-group"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "width": "100%"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qtd-gutter-phone)",
+        "paddingRight": "var(--qtd-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "3.5rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "70ac5d7635",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.6 27,72.5 40,69.9 C53,67.2 67,64.7 80,62.3 C93,59.9 107,57.5 120,55.3 C133,53.0 147,50.9 160,48.8 C173,46.8 187,44.8 200,42.9 C213,41.1 227,39.3 240,37.6 C253,35.9 267,34.3 280,32.8 C293,31.4 307,30.0 320,28.6 C333,27.3 347,26.1 360,25.0 C373,23.9 387,22.8 400,21.9 C413,21.0 427,20.1 440,19.4 C453,18.6 467,18.0 480,17.4 C493,16.9 507,16.4 520,16.0 C533,15.6 547,15.4 560,15.2 C573,15.0 587,14.9 600,14.9 C613,14.9 627,15.0 640,15.2 C653,15.4 667,15.6 680,16.0 C693,16.4 707,16.9 720,17.4 C733,18.0 747,18.6 760,19.4 C773,20.1 787,21.0 800,21.9 C813,22.8 827,23.9 840,25.0 C853,26.1 867,27.3 880,28.6 C893,30.0 907,31.4 920,32.8 C933,34.3 947,35.9 960,37.6 C973,39.3 987,41.1 1000,42.9 C1013,44.8 1027,46.8 1040,48.8 C1053,50.9 1067,53.0 1080,55.3 C1093,57.5 1107,59.9 1120,62.3 C1133,64.7 1147,67.2 1160,69.9 C1173,72.5 1193,76.6 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtd-text)\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.6 27,88.5 40,85.9 C53,83.2 67,80.7 80,78.3 C93,75.9 107,73.5 120,71.3 C133,69.0 147,66.9 160,64.8 C173,62.8 187,60.8 200,58.9 C213,57.1 227,55.3 240,53.6 C253,51.9 267,50.3 280,48.8 C293,47.4 307,46.0 320,44.6 C333,43.3 347,42.1 360,41.0 C373,39.9 387,38.8 400,37.9 C413,37.0 427,36.1 440,35.4 C453,34.6 467,34.0 480,33.4 C493,32.9 507,32.4 520,32.0 C533,31.6 547,31.4 560,31.2 C573,31.0 587,30.9 600,30.9 C613,30.9 627,31.0 640,31.2 C653,31.4 667,31.6 680,32.0 C693,32.4 707,32.9 720,33.4 C733,34.0 747,34.6 760,35.4 C773,36.1 787,37.0 800,37.9 C813,38.8 827,39.9 840,41.0 C853,42.1 867,43.3 880,44.6 C893,46.0 907,47.4 920,48.8 C933,50.3 947,51.9 960,53.6 C973,55.3 987,57.1 1000,58.9 C1013,60.8 1027,62.8 1040,64.8 C1053,66.9 1067,69.0 1080,71.3 C1093,73.5 1107,75.9 1120,78.3 C1133,80.7 1147,83.2 1160,85.9 C1173,88.5 1193,92.6 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:var(--qtd-text)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-text)",
+      "color": "var(--qtd-background)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "a096e9d7b",
+     "blockName": "cta",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "display": "grid",
+        "gap": "4rem",
+        "gridTemplateColumns": "minmax(0, 6fr) minmax(0, 6fr)",
+        "margin": "0 auto",
+        "maxWidth": "var(--qtd-container)",
+        "paddingLeft": "var(--qtd-gutter)",
+        "paddingRight": "var(--qtd-gutter)"
+       },
+       "blockId": "bceaab1bd",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "bec2039c3",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtd-secondary)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "0.75rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.25rem",
+            "textTransform": "uppercase"
+           },
+           "blockId": "ba378e650",
+           "element": "p",
+           "innerHTML": "Prendre soin de soi"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--qtd-background)",
+            "fontFamily": "var(--qtd-font-heading)",
+            "fontSize": "3rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 0.75rem",
+            "maxWidth": "32rem"
+           },
+           "blockId": "8746b7764",
+           "element": "h2",
+           "innerHTML": "Prêt à venir <em style=\"font-style: italic; color: var(--qtd-secondary)\">respirer</em> chez nous",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qtd-secondary)",
+            "height": "2px",
+            "margin": "0 0 1.5rem",
+            "width": "3rem"
+           },
+           "blockId": "8370f5098",
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(255,255,255,0.72)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 2rem",
+            "maxWidth": "32rem"
+           },
+           "blockId": "985a6c8db",
+           "element": "p",
+           "innerHTML": "Qu’il s’agisse d’un contrôle, d’un détartrage, d’une urgence ou d’une simple envie d’en parler, nous vous accueillons dans la même sérénité. Écrivez-nous : nous vous répondons et nous vous proposons un créneau qui vous convient."
+          },
+          {
+           "attributes": {
+            "href": "accueil"
+           },
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "var(--qtd-secondary)",
+            "color": "var(--qtd-text)",
+            "display": "inline-flex",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "1rem",
+            "fontWeight": "600",
+            "gap": "10px",
+            "padding": "14px 32px",
+            "textDecoration": "none",
+            "transition": "all 0.2s ease"
+           },
+           "blockId": "b97f83008",
+           "classes": [
+            "u-btn",
+            "u-btn--primary"
+           ],
+           "element": "a",
+           "innerHTML": "Contactez-nous"
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "rgba(255,255,255,0.06)",
+          "border": "1px solid rgba(255,255,255,0.14)",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "1.25rem",
+          "padding": "2.5rem"
+         },
+         "blockId": "94f212652",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qtd-background)",
+            "fontFamily": "var(--qtd-font-heading)",
+            "fontSize": "1.5rem",
+            "fontWeight": "700",
+            "margin": "0"
+           },
+           "blockId": "53122639e",
+           "element": "h3",
+           "innerHTML": "Écrivez-nous en quelques mots",
+           "mobileStyles": {
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "attributes": {
+            "name": "nom",
+            "placeholder": "Votre nom",
+            "type": "text"
+           },
+           "baseStyles": {
+            "backgroundColor": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.18)",
+            "color": "var(--qtd-background)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "1rem",
+            "padding": "14px 16px",
+            "width": "100%"
+           },
+           "blockId": "70210ae2d",
+           "classes": [
+            "u-input"
+           ],
+           "element": "input",
+           "mobileStyles": {
+            "width": "100%"
+           }
+          },
+          {
+           "attributes": {
+            "name": "email",
+            "placeholder": "Votre e-mail",
+            "type": "email"
+           },
+           "baseStyles": {
+            "backgroundColor": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.18)",
+            "color": "var(--qtd-background)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "1rem",
+            "padding": "14px 16px",
+            "width": "100%"
+           },
+           "blockId": "a798f79b0",
+           "classes": [
+            "u-input"
+           ],
+           "element": "input",
+           "mobileStyles": {
+            "width": "100%"
+           }
+          },
+          {
+           "attributes": {
+            "name": "message",
+            "placeholder": "Comment pouvons-nous vous aider ?",
+            "rows": "4"
+           },
+           "baseStyles": {
+            "backgroundColor": "rgba(255,255,255,0.08)",
+            "border": "1px solid rgba(255,255,255,0.18)",
+            "color": "var(--qtd-background)",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "1rem",
+            "padding": "14px 16px",
+            "resize": "vertical",
+            "width": "100%"
+           },
+           "blockId": "4bcab45a2",
+           "classes": [
+            "u-input"
+           ],
+           "element": "textarea",
+           "mobileStyles": {
+            "width": "100%"
+           }
+          },
+          {
+           "attributes": {
+            "href": "accueil"
+           },
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "var(--qtd-secondary)",
+            "color": "var(--qtd-text)",
+            "display": "inline-flex",
+            "fontFamily": "var(--qtd-font-body)",
+            "fontSize": "1rem",
+            "fontWeight": "600",
+            "gap": "10px",
+            "justifyContent": "center",
+            "padding": "14px 32px",
+            "textDecoration": "none",
+            "transition": "all 0.2s ease"
+           },
+           "blockId": "849d1a9e8",
+           "classes": [
+            "u-btn",
+            "u-btn--primary"
+           ],
+           "element": "a",
+           "innerHTML": "Envoyer"
+          }
+         ],
+         "classes": [
+          "u-card",
+          "u-card--raised"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gap": "2.5rem",
+        "gridTemplateColumns": "minmax(0, 1fr)",
+        "paddingLeft": "var(--qtd-gutter-phone)",
+        "paddingRight": "var(--qtd-gutter-phone)"
+       },
+       "tabletStyles": {
+        "gap": "3rem",
+        "gridTemplateColumns": "minmax(0, 1fr)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qtd-text)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "8eb9cc02f4",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.9 27,73.4 40,71.2 C53,69.0 67,66.8 80,64.8 C93,62.7 107,60.8 120,58.9 C133,57.0 147,55.2 160,53.5 C173,51.7 187,50.1 200,48.5 C213,46.9 227,45.4 240,44.0 C253,42.6 267,41.3 280,40.0 C293,38.7 307,37.6 320,36.5 C333,35.4 347,34.3 360,33.4 C373,32.4 387,31.6 400,30.8 C413,30.0 427,29.3 440,28.7 C453,28.0 467,27.5 480,27.0 C493,26.5 507,26.2 520,25.8 C533,25.5 547,25.3 560,25.1 C573,25.0 587,24.9 600,24.9 C613,24.9 627,25.0 640,25.1 C653,25.3 667,25.5 680,25.8 C693,26.2 707,26.5 720,27.0 C733,27.5 747,28.0 760,28.7 C773,29.3 787,30.0 800,30.8 C813,31.6 827,32.4 840,33.4 C853,34.3 867,35.4 880,36.5 C893,37.6 907,38.7 920,40.0 C933,41.3 947,42.6 960,44.0 C973,45.4 987,46.9 1000,48.5 C1013,50.1 1027,51.7 1040,53.5 C1053,55.2 1067,57.0 1080,58.9 C1093,60.8 1107,62.7 1120,64.8 C1133,66.8 1147,69.0 1160,71.2 C1173,73.4 1193,76.9 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:#16343b\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.9 27,89.4 40,87.2 C53,85.0 67,82.8 80,80.8 C93,78.7 107,76.8 120,74.9 C133,73.0 147,71.2 160,69.5 C173,67.7 187,66.1 200,64.5 C213,62.9 227,61.4 240,60.0 C253,58.6 267,57.3 280,56.0 C293,54.7 307,53.6 320,52.5 C333,51.4 347,50.3 360,49.4 C373,48.4 387,47.6 400,46.8 C413,46.0 427,45.3 440,44.7 C453,44.0 467,43.5 480,43.0 C493,42.5 507,42.2 520,41.8 C533,41.5 547,41.3 560,41.1 C573,41.0 587,40.9 600,40.9 C613,40.9 627,41.0 640,41.1 C653,41.3 667,41.5 680,41.8 C693,42.2 707,42.5 720,43.0 C733,43.5 747,44.0 760,44.7 C773,45.3 787,46.0 800,46.8 C813,47.6 827,48.4 840,49.4 C853,50.3 867,51.4 880,52.5 C893,53.6 907,54.7 920,56.0 C933,57.3 947,58.6 960,60.0 C973,61.4 987,62.9 1000,64.5 C1013,66.1 1027,67.7 1040,69.5 C1053,71.2 1067,73.0 1080,74.9 C1093,76.8 1107,78.7 1120,80.8 C1133,82.8 1147,85.0 1160,87.2 C1173,89.4 1193,92.9 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:#16343b\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-11-01 19:29:59.914064",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Le Cabinet Dentaire du Parc est né d’une conviction simple : la dentisterie se vit mieux quand elle se vit en confiance.",
+ "modified": "2026-11-01 19:29:59.921029",
+ "modified_by": "template-publisher@neoservice.ai",
+ "name": "page-4851b6af",
+ "owner": "template-publisher@neoservice.ai",
+ "page_data_script": "",
+ "page_name": "page-4851b6af",
+ "page_title": "À propos",
+ "preview": "/builder_assets/cabinet_dentaire/page-4851b6af/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/cabinet_dentaire/à_propos",
+ "staging": 0,
+ "template_group": "cabinet_dentaire"
+}
