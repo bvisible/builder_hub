@@ -213,7 +213,7 @@
            "blockId": "0e2cd0e7d",
            "blockName": "heading",
            "element": "h2",
-           "innerHTML": "Écrivez-nous.",
+           "innerHTML": "Choisissez votre soin.",
            "mobileStyles": {
             "fontSize": "1.75rem",
             "overflowWrap": "break-word"
@@ -232,7 +232,7 @@
            "blockId": "9f8a46c52",
            "blockName": "lead",
            "element": "p",
-           "innerHTML": "Dites-nous quel soin vous attend et à quel moment, et notre équipe vous répond pour réserver votre créneau."
+           "innerHTML": "Chaque soin se réserve en ligne : choisissez-le, puis la personne et le créneau qui vous conviennent."
           }
          ],
          "classes": [
@@ -243,7 +243,7 @@
         {
          "baseStyles": {
           "margin": "0 auto",
-          "maxWidth": "600px",
+          "maxWidth": "56rem",
           "padding": "2rem",
           "width": "100%"
          },
@@ -252,9 +252,9 @@
          "children": [
           {
            "blockId": "3babbf7d7",
-           "blockName": "form",
+           "blockName": "bookable services",
            "element": "div",
-           "innerHTML": "{%- set site_form = \"qw-tpl-coiffure-contact\" -%}{% include \"builder/templates/includes/site_form.html\" %}"
+           "innerHTML": "{% include \"neoffice_theme/templates/includes/site_services/bookable_services.html\" %}"
           }
          ],
          "classes": [
@@ -487,7 +487,7 @@
              "blockId": "723f02c54",
              "blockName": "detail-value",
              "element": "p",
-             "innerHTML": "Sur demande"
+             "innerHTML": "En ligne, à toute heure"
             }
            ],
            "element": "div"
@@ -531,7 +531,7 @@
              "blockId": "9eb29fa47",
              "blockName": "detail-value",
              "element": "p",
-             "innerHTML": "Sur demande"
+             "innerHTML": "Par le formulaire ci-dessous"
             }
            ],
            "element": "div"
@@ -543,6 +543,24 @@
           "u-reveal-group"
          ],
          "element": "div"
+        },
+        {
+         "blockId": "c959ae733",
+         "element": "div",
+         "blockName": "form",
+         "baseStyles": {
+          "margin": "2rem auto 0",
+          "maxWidth": "600px",
+          "width": "100%"
+         },
+         "children": [
+          {
+           "blockId": "e85e70fd9",
+           "blockName": "form",
+           "element": "div",
+           "innerHTML": "{% include \"builder/templates/includes/site_form.html\" %}"
+          }
+         ]
         }
        ],
        "element": "div",
@@ -672,7 +690,7 @@
            "blockId": "8de902d5f",
            "blockName": "text",
            "element": "p",
-           "innerHTML": "Nous huttons de vous accueillir dans notre espace lumineux."
+           "innerHTML": "Nous avons hâte de vous accueillir dans notre espace lumineux."
           }
          ],
          "classes": [
