@@ -316,7 +316,7 @@
          "baseStyles": {
           "width": "100%"
          },
-         "innerHTML": "{% include \"neoffice_theme/templates/includes/site_services/bookable_services.html\" %}"
+         "innerHTML": "{%- set services_example = \"salon\" -%}{% include \"neoffice_theme/templates/includes/site_services/bookable_services.html\" %}"
         },
         {
          "baseStyles": {

@@ -254,7 +254,7 @@
            "blockId": "3babbf7d7",
            "blockName": "bookable services",
            "element": "div",
-           "innerHTML": "{% include \"neoffice_theme/templates/includes/site_services/bookable_services.html\" %}"
+           "innerHTML": "{%- set services_example = \"salon\" -%}{% include \"neoffice_theme/templates/includes/site_services/bookable_services.html\" %}"
           }
          ],
          "classes": [
