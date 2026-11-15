@@ -1,0 +1,1400 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "#FAF9F6",
+    "display": "flex",
+    "flexDirection": "column"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qti-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "cc17808a3d",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.8 27,72.9 40,70.5 C53,68.1 67,65.8 80,63.5 C93,61.3 107,59.1 120,57.1 C133,55.0 147,53.0 160,51.1 C173,49.2 187,47.4 200,45.7 C213,44.0 227,42.3 240,40.8 C253,39.2 267,37.8 280,36.4 C293,35.0 307,33.7 320,32.5 C333,31.3 347,30.2 360,29.1 C373,28.1 387,27.2 400,26.3 C413,25.4 427,24.7 440,24.0 C453,23.3 467,22.7 480,22.2 C493,21.6 507,21.2 520,20.9 C533,20.5 547,20.3 560,20.1 C573,19.9 587,19.8 600,19.8 C613,19.8 627,19.9 640,20.1 C653,20.3 667,20.5 680,20.9 C693,21.2 707,21.6 720,22.2 C733,22.7 747,23.3 760,24.0 C773,24.7 787,25.4 800,26.3 C813,27.2 827,28.1 840,29.1 C853,30.2 867,31.3 880,32.5 C893,33.7 907,35.0 920,36.4 C933,37.8 947,39.2 960,40.8 C973,42.3 987,44.0 1000,45.7 C1013,47.4 1027,49.2 1040,51.1 C1053,53.0 1067,55.0 1080,57.1 C1093,59.1 1107,61.3 1120,63.5 C1133,65.8 1147,68.1 1160,70.5 C1173,72.9 1193,76.8 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:#FAF9F6\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.8 27,88.9 40,86.5 C53,84.1 67,81.8 80,79.5 C93,77.3 107,75.1 120,73.1 C133,71.0 147,69.0 160,67.1 C173,65.2 187,63.4 200,61.7 C213,60.0 227,58.3 240,56.8 C253,55.2 267,53.8 280,52.4 C293,51.0 307,49.7 320,48.5 C333,47.3 347,46.2 360,45.1 C373,44.1 387,43.2 400,42.3 C413,41.4 427,40.7 440,40.0 C453,39.3 467,38.7 480,38.2 C493,37.6 507,37.2 520,36.9 C533,36.5 547,36.3 560,36.1 C573,35.9 587,35.8 600,35.8 C613,35.8 627,35.9 640,36.1 C653,36.3 667,36.5 680,36.9 C693,37.2 707,37.6 720,38.2 C733,38.7 747,39.3 760,40.0 C773,40.7 787,41.4 800,42.3 C813,43.2 827,44.1 840,45.1 C853,46.2 867,47.3 880,48.5 C893,49.7 907,51.0 920,52.4 C933,53.8 947,55.2 960,56.8 C973,58.3 987,60.0 1000,61.7 C1013,63.4 1027,65.2 1040,67.1 C1053,69.0 1067,71.0 1080,73.1 C1093,75.1 1107,77.3 1120,79.5 C1133,81.8 1147,84.1 1160,86.5 C1173,88.9 1193,92.8 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:#FAF9F6\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "#FAF9F6",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "minHeight": "60vh",
+      "overflow": "hidden",
+      "padding": "6rem 0",
+      "position": "relative",
+      "width": "100%"
+     },
+     "blockId": "a07011e0c",
+     "blockName": "statement",
+     "children": [
+      {
+       "baseStyles": {
+        "height": "260px",
+        "opacity": "0.14",
+        "pointerEvents": "none",
+        "position": "absolute",
+        "right": "4%",
+        "top": "8%",
+        "width": "260px"
+       },
+       "blockId": "916bc87a1",
+       "blockName": "motif",
+       "element": "div",
+       "innerHTML": "<svg viewBox=\"0 0 200 200\" fill=\"none\" stroke=\"#5f7464\" stroke-width=\"1.4\" stroke-linecap=\"round\"><path d=\"M100 190 C 96 150, 104 120, 100 96\"/><path d=\"M100 96 C 70 84, 58 56, 66 30 C 84 48, 96 74, 100 96\"/><path d=\"M100 96 C 130 84, 142 56, 134 30 C 116 48, 104 74, 100 96\"/><path d=\"M100 96 C 84 88, 78 70, 82 52 C 94 64, 98 80, 100 96\"/><path d=\"M100 96 C 116 88, 122 70, 118 52 C 106 64, 102 80, 100 96\"/></svg>",
+       "mobileStyles": {
+        "height": "150px",
+        "right": "8%",
+        "top": "6%",
+        "width": "150px"
+       }
+      },
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "1200px",
+        "paddingLeft": "48px",
+        "paddingRight": "48px",
+        "width": "100%"
+       },
+       "blockId": "dbf10ea1c",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "d6eeed7ba",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--qti-primary)",
+            "fontFamily": "Raleway",
+            "fontSize": "0.875rem",
+            "fontWeight": "700",
+            "letterSpacing": "0.3em",
+            "margin": "0 0 1.5rem",
+            "textTransform": "uppercase"
+           },
+           "blockId": "a11286cf5",
+           "blockName": "label",
+           "element": "p",
+           "innerHTML": "Nos soins"
+          },
+          {
+           "baseStyles": {
+            "borderLeft": "2px solid var(--qti-primary)",
+            "color": "var(--qti-text)",
+            "fontFamily": "Lora",
+            "fontSize": "2rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "42rem",
+            "paddingLeft": "14px"
+           },
+           "blockId": "e803fd909",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Un soin pour <em style=\"font-style: italic; color: color-mix(in srgb, var(--qti-secondary) 70%, black)\">chaque</em> besoin.",
+           "mobileStyles": {
+            "fontSize": "1.5rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "Raleway",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "34rem"
+           },
+           "blockId": "7239f59d2",
+           "blockName": "lead",
+           "element": "p",
+           "innerHTML": "Du visage au regard, chaque prestation est sur mesure après un diagnostic gratuit."
+          }
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "24px",
+        "paddingRight": "24px"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "flexWrap": "wrap",
+      "minHeight": "auto",
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#FAF9F6",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "3b8391fcb1",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.5 27,71.9 40,69.0 C53,66.1 67,63.4 80,60.7 C93,58.0 107,55.4 120,52.9 C133,50.5 147,48.1 160,45.8 C173,43.6 187,41.4 200,39.3 C213,37.3 227,35.3 240,33.5 C253,31.6 267,29.9 280,28.2 C293,26.6 307,25.0 320,23.6 C333,22.1 347,20.8 360,19.5 C373,18.3 387,17.2 400,16.1 C413,15.1 427,14.2 440,13.4 C453,12.5 467,11.8 480,11.2 C493,10.6 507,10.1 520,9.6 C533,9.2 547,8.9 560,8.7 C573,8.5 587,8.4 600,8.4 C613,8.4 627,8.5 640,8.7 C653,8.9 667,9.2 680,9.6 C693,10.1 707,10.6 720,11.2 C733,11.8 747,12.5 760,13.4 C773,14.2 787,15.1 800,16.1 C813,17.2 827,18.3 840,19.5 C853,20.8 867,22.1 880,23.6 C893,25.0 907,26.6 920,28.2 C933,29.9 947,31.6 960,33.5 C973,35.3 987,37.3 1000,39.3 C1013,41.4 1027,43.6 1040,45.8 C1053,48.1 1067,50.5 1080,52.9 C1093,55.4 1107,58.0 1120,60.7 C1133,63.4 1147,66.1 1160,69.0 C1173,71.9 1193,76.5 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:var(--qti-background)\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.5 27,87.9 40,85.0 C53,82.1 67,79.4 80,76.7 C93,74.0 107,71.4 120,68.9 C133,66.5 147,64.1 160,61.8 C173,59.6 187,57.4 200,55.3 C213,53.3 227,51.3 240,49.5 C253,47.6 267,45.9 280,44.2 C293,42.6 307,41.0 320,39.6 C333,38.1 347,36.8 360,35.5 C373,34.3 387,33.2 400,32.1 C413,31.1 427,30.2 440,29.4 C453,28.5 467,27.8 480,27.2 C493,26.6 507,26.1 520,25.6 C533,25.2 547,24.9 560,24.7 C573,24.5 587,24.4 600,24.4 C613,24.4 627,24.5 640,24.7 C653,24.9 667,25.2 680,25.6 C693,26.1 707,26.6 720,27.2 C733,27.8 747,28.5 760,29.4 C773,30.2 787,31.1 800,32.1 C813,33.2 827,34.3 840,35.5 C853,36.8 867,38.1 880,39.6 C893,41.0 907,42.6 920,44.2 C933,45.9 947,47.6 960,49.5 C973,51.3 987,53.3 1000,55.3 C1013,57.4 1027,59.6 1040,61.8 C1053,64.1 1067,66.5 1080,68.9 C1093,71.4 1107,74.0 1120,76.7 C1133,79.4 1147,82.1 1160,85.0 C1173,87.9 1193,92.5 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:var(--qti-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qti-background)",
+      "padding": "7rem 0",
+      "width": "100%"
+     },
+     "blockId": "9d83d9cba",
+     "blockName": "visage-corps",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "1200px",
+        "paddingLeft": "48px",
+        "paddingRight": "48px",
+        "width": "100%"
+       },
+       "blockId": "39af4f9b5",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "marginBottom": "3.5rem"
+         },
+         "blockId": "7296b1e8e",
+         "blockName": "head",
+         "children": [
+          {
+           "baseStyles": {
+            "borderLeft": "2px solid var(--qti-primary)",
+            "color": "var(--qti-text)",
+            "fontFamily": "Lora",
+            "fontSize": "2.75rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "36rem",
+            "paddingLeft": "14px"
+           },
+           "blockId": "8232a0af8",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Visage <em style=\"font-style: italic; color: color-mix(in srgb, var(--qti-secondary) 70%, black)\">&amp;</em> Corps.",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "Raleway",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "34rem"
+           },
+           "blockId": "06f97c93e",
+           "blockName": "lead",
+           "element": "p",
+           "innerHTML": "Des soins profonds pour une peau apaisée et éclatante."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "blockId": "5cf5a9301",
+         "blockName": "features",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderTop": "1px solid rgba(26, 26, 26, 0.16)",
+            "display": "flex",
+            "flexDirection": "column",
+            "paddingTop": "1.5rem"
+           },
+           "blockId": "f38df4878",
+           "blockName": "item",
+           "children": [
+            {
+             "attributes": {
+              "alt": "Soins du visage",
+              "src": "/builder_assets/institut_de_beaute/page-cf4ea63f/hubpub-institut_de_beaute-gen_ca3a3d8f.jpg"
+             },
+             "baseStyles": {
+              "aspectRatio": "4 / 3",
+              "display": "block",
+              "margin": "0 0 1.5rem",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "eb151aa07",
+             "blockName": "photo",
+             "classes": [
+              "u-media"
+             ],
+             "element": "img"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "Raleway",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem",
+              "whiteSpace": "nowrap"
+             },
+             "blockId": "5c053aa81",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "01"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "Lora",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "e03fd0cdb",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Soins du visage",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "Raleway",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "24rem"
+             },
+             "blockId": "1700b98df",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Nettoyage, exfoliation, masque et massage adaptés à votre peau, après un diagnostic offert. Chaque geste est pensé pour apaiser, hydrater et révéler un teint lumineux."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderTop": "1px solid rgba(26, 26, 26, 0.16)",
+            "display": "flex",
+            "flexDirection": "column",
+            "paddingTop": "1.5rem"
+           },
+           "blockId": "a5a07d9f1",
+           "blockName": "item",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "Raleway",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem",
+              "whiteSpace": "nowrap"
+             },
+             "blockId": "c39555b15",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "02"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "Lora",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "c8fd55436",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Massages bien-être",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "Raleway",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "24rem"
+             },
+             "blockId": "5ba2fe053",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Des rituels de détente dans une cabine au calme, pour relâcher les tensions et retrouver un équilibre profond, du corps à l’esprit."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderTop": "1px solid rgba(26, 26, 26, 0.16)",
+            "display": "flex",
+            "flexDirection": "column",
+            "paddingTop": "1.5rem"
+           },
+           "blockId": "d1d3be187",
+           "blockName": "item",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "Raleway",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.35em",
+              "margin": "0 0 1rem",
+              "whiteSpace": "nowrap"
+             },
+             "blockId": "e2e0994b9",
+             "blockName": "numeral",
+             "element": "span",
+             "innerHTML": "03"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "Lora",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "af5ae8abb",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Épilation",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "Raleway",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "24rem"
+             },
+             "blockId": "5888b6919",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Un travail précis et doux, pour une peau lisse et confortable, avec des produits respectueux qui préservent sa sensibilité."
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--flat"
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--3",
+          "u-reveal-group"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "24px",
+        "paddingRight": "24px"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qti-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "2e0e8ec3ad",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.9 27,73.3 40,71.1 C53,68.9 67,66.7 80,64.7 C93,62.6 107,60.6 120,58.7 C133,56.8 147,55.0 160,53.3 C173,51.5 187,49.9 200,48.3 C213,46.7 227,45.2 240,43.8 C253,42.3 267,41.0 280,39.7 C293,38.4 307,37.3 320,36.2 C333,35.0 347,34.0 360,33.1 C373,32.1 387,31.2 400,30.4 C413,29.7 427,28.9 440,28.3 C453,27.7 467,27.1 480,26.6 C493,26.2 507,25.8 520,25.5 C533,25.1 547,24.9 560,24.7 C573,24.6 587,24.5 600,24.5 C613,24.5 627,24.6 640,24.7 C653,24.9 667,25.1 680,25.5 C693,25.8 707,26.2 720,26.6 C733,27.1 747,27.7 760,28.3 C773,28.9 787,29.7 800,30.4 C813,31.2 827,32.1 840,33.1 C853,34.0 867,35.0 880,36.2 C893,37.3 907,38.4 920,39.7 C933,41.0 947,42.3 960,43.8 C973,45.2 987,46.7 1000,48.3 C1013,49.9 1027,51.5 1040,53.3 C1053,55.0 1067,56.8 1080,58.7 C1093,60.6 1107,62.6 1120,64.7 C1133,66.7 1147,68.9 1160,71.1 C1173,73.3 1193,76.9 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:#eeeeea\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.9 27,89.3 40,87.1 C53,84.9 67,82.7 80,80.7 C93,78.6 107,76.6 120,74.7 C133,72.8 147,71.0 160,69.3 C173,67.5 187,65.9 200,64.3 C213,62.7 227,61.2 240,59.8 C253,58.3 267,57.0 280,55.7 C293,54.4 307,53.3 320,52.2 C333,51.0 347,50.0 360,49.1 C373,48.1 387,47.2 400,46.4 C413,45.7 427,44.9 440,44.3 C453,43.7 467,43.1 480,42.6 C493,42.2 507,41.8 520,41.5 C533,41.1 547,40.9 560,40.7 C573,40.6 587,40.5 600,40.5 C613,40.5 627,40.6 640,40.7 C653,40.9 667,41.1 680,41.5 C693,41.8 707,42.2 720,42.6 C733,43.1 747,43.7 760,44.3 C773,44.9 787,45.7 800,46.4 C813,47.2 827,48.1 840,49.1 C853,50.0 867,51.0 880,52.2 C893,53.3 907,54.4 920,55.7 C933,57.0 947,58.3 960,59.8 C973,61.2 987,62.7 1000,64.3 C1013,65.9 1027,67.5 1040,69.3 C1053,71.0 1067,72.8 1080,74.7 C1093,76.6 1107,78.6 1120,80.7 C1133,82.7 1147,84.9 1160,87.1 C1173,89.3 1193,92.9 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:#eeeeea\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "rgba(95, 116, 100, 0.08)",
+      "overflow": "hidden",
+      "padding": "6rem 0",
+      "position": "relative",
+      "width": "100%"
+     },
+     "blockId": "31ea9178c",
+     "blockName": "ongles-regard",
+     "children": [
+      {
+       "baseStyles": {
+        "bottom": "6%",
+        "height": "200px",
+        "left": "3%",
+        "opacity": "0.12",
+        "pointerEvents": "none",
+        "position": "absolute",
+        "width": "200px"
+       },
+       "blockId": "10b06461d",
+       "blockName": "motif",
+       "element": "div",
+       "innerHTML": "<svg viewBox=\"0 0 200 200\" fill=\"none\" stroke=\"#5f7464\" stroke-width=\"1.4\" stroke-linecap=\"round\"><path d=\"M100 190 C 96 150, 104 120, 100 96\"/><path d=\"M100 96 C 70 84, 58 56, 66 30 C 84 48, 96 74, 100 96\"/><path d=\"M100 96 C 130 84, 142 56, 134 30 C 116 48, 104 74, 100 96\"/><path d=\"M100 96 C 84 88, 78 70, 82 52 C 94 64, 98 80, 100 96\"/><path d=\"M100 96 C 116 88, 122 70, 118 52 C 106 64, 102 80, 100 96\"/></svg>",
+       "mobileStyles": {
+        "bottom": "8%",
+        "height": "130px",
+        "left": "8%",
+        "width": "130px"
+       }
+      },
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "1200px",
+        "paddingLeft": "48px",
+        "paddingRight": "48px",
+        "width": "100%"
+       },
+       "blockId": "7cd5b6b71",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "marginBottom": "3.5rem"
+         },
+         "blockId": "b9c40e691",
+         "blockName": "head",
+         "children": [
+          {
+           "baseStyles": {
+            "borderLeft": "2px solid var(--qti-primary)",
+            "color": "var(--qti-text)",
+            "fontFamily": "Lora",
+            "fontSize": "2.75rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1.25rem",
+            "maxWidth": "36rem",
+            "paddingLeft": "14px"
+           },
+           "blockId": "94c7260db",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Ongles <em style=\"font-style: italic; color: color-mix(in srgb, var(--qti-secondary) 70%, black)\">&amp;</em> Regard.",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "Raleway",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.7",
+            "margin": "0",
+            "maxWidth": "34rem"
+           },
+           "blockId": "b8a92a686",
+           "blockName": "lead",
+           "element": "p",
+           "innerHTML": "Une attention aux détails, pour une beauté naturelle et durable."
+          }
+         ],
+         "element": "div"
+        },
+        {
+         "blockId": "79421aaa5",
+         "blockName": "features",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderTop": "1px solid rgba(26, 26, 26, 0.16)",
+            "display": "flex",
+            "flexDirection": "column",
+            "paddingTop": "1.5rem"
+           },
+           "blockId": "6ede3ed2b",
+           "blockName": "item",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "0.75rem",
+              "marginBottom": "1rem"
+             },
+             "blockId": "55b1f3080",
+             "children": [
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "color": "var(--qti-primary)",
+                "display": "inline-flex",
+                "flexShrink": 0,
+                "height": "8px",
+                "justifyContent": "center",
+                "lineHeight": "0",
+                "width": "8px"
+               },
+               "blockId": "df0509e7e",
+               "blockName": "Icon: circle",
+               "children": [],
+               "customAttributes": {
+                "data-lucide": "circle"
+               },
+               "element": "svg",
+               "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <circle cx=\"12\" cy=\"12\" r=\"10\" /> </svg>"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qti-text)",
+                "fontFamily": "Raleway",
+                "fontSize": "0.75rem",
+                "fontWeight": "700",
+                "letterSpacing": "0.35em",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "f12605991",
+               "blockName": "numeral",
+               "element": "span",
+               "innerHTML": "01"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "Lora",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "e65b8e710",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Onglerie",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "Raleway",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "24rem"
+             },
+             "blockId": "a37800b6a",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Manucure, pédicure et pose de vernis semi-permanent. Un travail soigné, du contour des ongles à la couleur choisie, pour des mains et des pieds entretenus."
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderTop": "1px solid rgba(26, 26, 26, 0.16)",
+            "display": "flex",
+            "flexDirection": "column",
+            "paddingTop": "1.5rem"
+           },
+           "blockId": "0ab122873",
+           "blockName": "item",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "0.75rem",
+              "marginBottom": "1rem"
+             },
+             "blockId": "7ff45673d",
+             "children": [
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "color": "var(--qti-primary)",
+                "display": "inline-flex",
+                "flexShrink": 0,
+                "height": "8px",
+                "justifyContent": "center",
+                "lineHeight": "0",
+                "width": "8px"
+               },
+               "blockId": "fd41a0cf6",
+               "blockName": "Icon: circle",
+               "children": [],
+               "customAttributes": {
+                "data-lucide": "circle"
+               },
+               "element": "svg",
+               "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <circle cx=\"12\" cy=\"12\" r=\"10\" /> </svg>"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qti-text)",
+                "fontFamily": "Raleway",
+                "fontSize": "0.75rem",
+                "fontWeight": "700",
+                "letterSpacing": "0.35em",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "e425f7ed3",
+               "blockName": "numeral",
+               "element": "span",
+               "innerHTML": "02"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "Lora",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "97fed3a29",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Beauté du regard",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "Raleway",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "24rem"
+             },
+             "blockId": "17ae383dd",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Rehaussement et teinture des cils, pour un regard ouvert et lumineux au quotidien, sans maquillage."
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "borderTop": "1px solid rgba(26, 26, 26, 0.16)",
+            "display": "flex",
+            "flexDirection": "column",
+            "paddingTop": "1.5rem"
+           },
+           "blockId": "362f165dc",
+           "blockName": "item",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "0.75rem",
+              "marginBottom": "1rem"
+             },
+             "blockId": "7e9eecb1e",
+             "children": [
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "color": "var(--qti-primary)",
+                "display": "inline-flex",
+                "flexShrink": 0,
+                "height": "8px",
+                "justifyContent": "center",
+                "lineHeight": "0",
+                "width": "8px"
+               },
+               "blockId": "95549fd36",
+               "blockName": "Icon: circle",
+               "children": [],
+               "customAttributes": {
+                "data-lucide": "circle"
+               },
+               "element": "svg",
+               "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <circle cx=\"12\" cy=\"12\" r=\"10\" /> </svg>"
+              },
+              {
+               "baseStyles": {
+                "color": "var(--qti-text)",
+                "fontFamily": "Raleway",
+                "fontSize": "0.75rem",
+                "fontWeight": "700",
+                "letterSpacing": "0.35em",
+                "whiteSpace": "nowrap"
+               },
+               "blockId": "474c27a1b",
+               "blockName": "numeral",
+               "element": "span",
+               "innerHTML": "03"
+              }
+             ],
+             "element": "div",
+             "mobileStyles": {
+              "flexWrap": "wrap"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "Lora",
+              "fontSize": "1.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0 0 0.75rem"
+             },
+             "blockId": "6ab941e56",
+             "blockName": "item-title",
+             "element": "h3",
+             "innerHTML": "Maquillage",
+             "mobileStyles": {
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "Raleway",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65",
+              "margin": "0",
+              "maxWidth": "24rem"
+             },
+             "blockId": "28a66be04",
+             "blockName": "item-text",
+             "element": "p",
+             "innerHTML": "Maquillage de mariée et d’événement, réalisé sur place, pour une tenue durable et un rendu qui vous ressemble."
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--3"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "24px",
+        "paddingRight": "24px"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qti-background)",
+      "padding": "7rem 0",
+      "width": "100%"
+     },
+     "blockId": "6b43097ef",
+     "blockName": "visage-corps",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "1200px",
+        "paddingLeft": "48px",
+        "paddingRight": "48px",
+        "width": "100%"
+       },
+       "blockId": "bcbf79514",
+       "children": [
+        {
+         "baseStyles": {
+          "borderLeft": "2px solid var(--qti-primary)",
+          "color": "var(--qti-text)",
+          "fontFamily": "Lora",
+          "fontSize": "2.75rem",
+          "fontWeight": "700",
+          "lineHeight": "1.15",
+          "margin": "0 0 1.25rem",
+          "maxWidth": "36rem",
+          "paddingLeft": "14px"
+         },
+         "blockId": "65deef981",
+         "blockName": "heading",
+         "element": "h2",
+         "innerHTML": "La carte des soins.",
+         "mobileStyles": {
+          "fontSize": "1.75rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(26, 26, 26, 0.72)",
+          "fontFamily": "Raleway",
+          "fontSize": "1.125rem",
+          "lineHeight": "1.7",
+          "margin": "0",
+          "maxWidth": "34rem"
+         },
+         "blockId": "43d292eef",
+         "blockName": "lead",
+         "element": "p",
+         "innerHTML": "Chaque soin se réserve en ligne : choisissez-le, puis la personne et le créneau."
+        },
+        {
+         "baseStyles": {
+          "marginTop": "2rem",
+          "width": "100%"
+         },
+         "blockId": "37a07ee79",
+         "blockName": "bookable services",
+         "element": "div",
+         "innerHTML": "{%- set services_example = \"beauty\" -%}{% include \"neoffice_theme/templates/includes/site_services/bookable_services.html\" %}"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "24px",
+        "paddingRight": "24px"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#eeeeea",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "ad054190e4",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,67.6 C7,66.3 27,62.2 40,59.7 C53,57.1 67,54.7 80,52.3 C93,49.9 107,47.6 120,45.4 C133,43.2 147,41.1 160,39.1 C173,37.1 187,35.2 200,33.4 C213,31.6 227,29.8 240,28.2 C253,26.5 267,25.0 280,23.5 C293,22.1 307,20.7 320,19.4 C333,18.1 347,17.0 360,15.9 C373,14.8 387,13.8 400,12.8 C413,11.9 427,11.1 440,10.4 C453,9.7 467,9.0 480,8.5 C493,7.9 507,7.5 520,7.1 C533,6.7 547,6.5 560,6.3 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.3 C653,6.5 667,6.7 680,7.1 C693,7.5 707,7.9 720,8.5 C733,9.0 747,9.7 760,10.4 C773,11.1 787,11.9 800,12.8 C813,13.8 827,14.8 840,15.9 C853,17.0 867,18.1 880,19.4 C893,20.7 907,22.1 920,23.5 C933,25.0 947,26.5 960,28.2 C973,29.8 987,31.6 1000,33.4 C1013,35.2 1027,37.1 1040,39.1 C1053,41.1 1067,43.2 1080,45.4 C1093,47.6 1107,49.9 1120,52.3 C1133,54.7 1147,57.1 1160,59.7 C1173,62.2 1193,66.3 1200,67.6 L1200,106 L0,106 Z\" style=\"fill:var(--qti-background)\" fill-opacity=\"0.28\"/><path d=\"M0,83.6 C7,82.3 27,78.2 40,75.7 C53,73.1 67,70.7 80,68.3 C93,65.9 107,63.6 120,61.4 C133,59.2 147,57.1 160,55.1 C173,53.1 187,51.2 200,49.4 C213,47.6 227,45.8 240,44.2 C253,42.5 267,41.0 280,39.5 C293,38.1 307,36.7 320,35.4 C333,34.1 347,33.0 360,31.9 C373,30.8 387,29.8 400,28.8 C413,27.9 427,27.1 440,26.4 C453,25.7 467,25.0 480,24.5 C493,23.9 507,23.5 520,23.1 C533,22.7 547,22.5 560,22.3 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.3 C653,22.5 667,22.7 680,23.1 C693,23.5 707,23.9 720,24.5 C733,25.0 747,25.7 760,26.4 C773,27.1 787,27.9 800,28.8 C813,29.8 827,30.8 840,31.9 C853,33.0 867,34.1 880,35.4 C893,36.7 907,38.1 920,39.5 C933,41.0 947,42.5 960,44.2 C973,45.8 987,47.6 1000,49.4 C1013,51.2 1027,53.1 1040,55.1 C1053,57.1 1067,59.2 1080,61.4 C1093,63.6 1107,65.9 1120,68.3 C1133,70.7 1147,73.1 1160,75.7 C1173,78.2 1193,82.3 1200,83.6 L1200,106 L0,106 Z\" style=\"fill:var(--qti-background)\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--qti-background)",
+      "padding": "7rem 0",
+      "width": "100%"
+     },
+     "blockId": "797dc9799",
+     "blockName": "produits",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "1200px",
+        "paddingLeft": "48px",
+        "paddingRight": "48px",
+        "width": "100%"
+       },
+       "blockId": "4d0a9b937",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "grid",
+          "gap": "4rem",
+          "gridTemplateColumns": "minmax(0, 7fr) minmax(0, 5fr)"
+         },
+         "blockId": "1aaa6957a",
+         "blockName": "pair",
+         "children": [
+          {
+           "baseStyles": {
+            "boxShadow": "14px 14px 0 0 rgba(216, 180, 156, 0.35)"
+           },
+           "blockId": "db48d7379",
+           "blockName": "frame",
+           "children": [
+            {
+             "attributes": {
+              "alt": "Des flacons de soin posés sur une étagère en bois, dans une lumière chaude et naturelle",
+              "src": "/builder_assets/institut_de_beaute/page-cf4ea63f/hubpub-institut_de_beaute-gen_913c5d53.jpg"
+             },
+             "baseStyles": {
+              "aspectRatio": "4 / 3",
+              "display": "block",
+              "objectFit": "cover",
+              "width": "100%"
+             },
+             "blockId": "db880ef30",
+             "blockName": "photo",
+             "classes": [
+              "u-media"
+             ],
+             "element": "img"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "boxShadow": "8px 8px 0 0 rgba(216, 180, 156, 0.35)"
+           }
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "ef3b89b97",
+           "blockName": "copy",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "Raleway",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.3em",
+              "margin": "0 0 1.25rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "8167a0483",
+             "blockName": "label",
+             "element": "p",
+             "innerHTML": "Produits"
+            },
+            {
+             "baseStyles": {
+              "borderLeft": "2px solid var(--qti-primary)",
+              "color": "var(--qti-text)",
+              "fontFamily": "Lora",
+              "fontSize": "2.75rem",
+              "fontWeight": "700",
+              "lineHeight": "1.15",
+              "margin": "0 0 1.25rem",
+              "maxWidth": "34rem",
+              "paddingLeft": "14px"
+             },
+             "blockId": "2fee19b21",
+             "blockName": "heading",
+             "element": "h2",
+             "innerHTML": "Des produits <em style=\"font-style: italic; color: color-mix(in srgb, var(--qti-secondary) 70%, black)\">suisses</em>.",
+             "mobileStyles": {
+              "fontSize": "1.75rem",
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "Raleway",
+              "fontSize": "1.25rem",
+              "lineHeight": "1.7",
+              "margin": "0 0 1.25rem",
+              "maxWidth": "34rem"
+             },
+             "blockId": "a92dc949a",
+             "blockName": "lead",
+             "element": "p",
+             "innerHTML": "Nous sélectionnons des marques naturelles et respectueuses de l’environnement."
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "Raleway",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0 0 1.5rem",
+              "maxWidth": "34rem"
+             },
+             "blockId": "7f12ff6e2",
+             "blockName": "text",
+             "element": "p",
+             "innerHTML": "Des formules choisies pour leur douceur et leur respect de la peau, afin que chaque soin continue de la choyer une fois à la maison."
+            },
+            {
+             "attributes": {
+              "href": "prendre_rendez_vous"
+             },
+             "blockId": "331f4e34f",
+             "blockName": "button",
+             "classes": [
+              "u-btn",
+              "u-btn--ghost"
+             ],
+             "element": "a",
+             "innerHTML": "Prendre rendez-vous"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "2rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         },
+         "tabletStyles": {
+          "gap": "2.5rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "24px",
+        "paddingRight": "24px"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qti-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "cf1bbb75c3",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,60.1 C7,58.9 27,55.3 40,53.1 C53,50.9 67,48.7 80,46.6 C93,44.5 107,42.5 120,40.6 C133,38.7 147,36.8 160,35.1 C173,33.3 187,31.6 200,30.0 C213,28.4 227,26.9 240,25.5 C253,24.0 267,22.7 280,21.4 C293,20.1 307,18.9 320,17.8 C333,16.7 347,15.6 360,14.7 C373,13.7 387,12.8 400,12.0 C413,11.2 427,10.5 440,9.8 C453,9.2 467,8.6 480,8.2 C493,7.7 507,7.3 520,7.0 C533,6.6 547,6.4 560,6.2 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.2 C653,6.4 667,6.6 680,7.0 C693,7.3 707,7.7 720,8.2 C733,8.6 747,9.2 760,9.8 C773,10.5 787,11.2 800,12.0 C813,12.8 827,13.7 840,14.7 C853,15.6 867,16.7 880,17.8 C893,18.9 907,20.1 920,21.4 C933,22.7 947,24.0 960,25.5 C973,26.9 987,28.4 1000,30.0 C1013,31.6 1027,33.3 1040,35.1 C1053,36.8 1067,38.7 1080,40.6 C1093,42.5 1107,44.5 1120,46.6 C1133,48.7 1147,50.9 1160,53.1 C1173,55.3 1193,58.9 1200,60.1 L1200,106 L0,106 Z\" style=\"fill:#eeeeea\" fill-opacity=\"0.28\"/><path d=\"M0,76.1 C7,74.9 27,71.3 40,69.1 C53,66.9 67,64.7 80,62.6 C93,60.5 107,58.5 120,56.6 C133,54.7 147,52.8 160,51.1 C173,49.3 187,47.6 200,46.0 C213,44.4 227,42.9 240,41.5 C253,40.0 267,38.7 280,37.4 C293,36.1 307,34.9 320,33.8 C333,32.7 347,31.6 360,30.7 C373,29.7 387,28.8 400,28.0 C413,27.2 427,26.5 440,25.8 C453,25.2 467,24.6 480,24.2 C493,23.7 507,23.3 520,23.0 C533,22.6 547,22.4 560,22.2 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.2 C653,22.4 667,22.6 680,23.0 C693,23.3 707,23.7 720,24.2 C733,24.6 747,25.2 760,25.8 C773,26.5 787,27.2 800,28.0 C813,28.8 827,29.7 840,30.7 C853,31.6 867,32.7 880,33.8 C893,34.9 907,36.1 920,37.4 C933,38.7 947,40.0 960,41.5 C973,42.9 987,44.4 1000,46.0 C1013,47.6 1027,49.3 1040,51.1 C1053,52.8 1067,54.7 1080,56.6 C1093,58.5 1107,60.5 1120,62.6 C1133,64.7 1147,66.9 1160,69.1 C1173,71.3 1193,74.9 1200,76.1 L1200,106 L0,106 Z\" style=\"fill:#eeeeea\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "rgba(95, 116, 100, 0.08)",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "minHeight": "150px",
+      "padding": "4rem 0",
+      "width": "100%"
+     },
+     "blockId": "a04e0a9c7",
+     "blockName": "cta",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "1200px",
+        "paddingLeft": "48px",
+        "paddingRight": "48px",
+        "width": "100%"
+       },
+       "blockId": "4bc64b808",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "grid",
+          "gap": "3rem",
+          "gridTemplateColumns": "minmax(0, 7fr) minmax(0, 5fr)"
+         },
+         "blockId": "0a5057552",
+         "blockName": "pair",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column"
+           },
+           "blockId": "32a6c14a6",
+           "blockName": "invitation",
+           "children": [
+            {
+             "baseStyles": {
+              "borderLeft": "2px solid var(--qti-primary)",
+              "color": "var(--qti-text)",
+              "fontFamily": "Lora",
+              "fontSize": "2.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.15",
+              "margin": "0 0 1.25rem",
+              "maxWidth": "32rem",
+              "paddingLeft": "14px"
+             },
+             "blockId": "98551bc6a",
+             "blockName": "heading",
+             "element": "h2",
+             "innerHTML": "Trouvez <em style=\"font-style: italic; color: color-mix(in srgb, var(--qti-secondary) 70%, black)\">votre</em> soin.",
+             "mobileStyles": {
+              "fontSize": "1.75rem",
+              "overflowWrap": "break-word"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "Raleway",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0",
+              "maxWidth": "32rem"
+             },
+             "blockId": "3046afea2",
+             "blockName": "text",
+             "element": "p",
+             "innerHTML": "Prenez rendez-vous en ligne pour un diagnostic de peau offert."
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "display": "flex",
+            "flexWrap": "wrap",
+            "gap": "1rem",
+            "justifyContent": "flex-end"
+           },
+           "blockId": "ab83bba25",
+           "blockName": "buttons",
+           "children": [
+            {
+             "attributes": {
+              "href": "prendre_rendez_vous"
+             },
+             "blockId": "63c7dd71b",
+             "blockName": "button",
+             "classes": [
+              "u-btn",
+              "u-btn--secondary"
+             ],
+             "element": "a",
+             "innerHTML": "Contactez-nous"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "justifyContent": "flex-start"
+           }
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "2rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         },
+         "tabletStyles": {
+          "gap": "2.5rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "24px",
+        "paddingRight": "24px"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "minHeight": "auto",
+      "padding": "3rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#eeeeea",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "8bc7927f40",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,63.3 C7,62.0 27,58.3 40,55.9 C53,53.5 67,51.2 80,49.0 C93,46.8 107,44.7 120,42.6 C133,40.6 147,38.7 160,36.8 C173,34.9 187,33.1 200,31.4 C213,29.8 227,28.1 240,26.6 C253,25.1 267,23.6 280,22.3 C293,20.9 307,19.7 320,18.5 C333,17.3 347,16.2 360,15.2 C373,14.1 387,13.2 400,12.4 C413,11.5 427,10.8 440,10.1 C453,9.4 467,8.8 480,8.3 C493,7.8 507,7.4 520,7.0 C533,6.7 547,6.4 560,6.3 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.3 C653,6.4 667,6.7 680,7.0 C693,7.4 707,7.8 720,8.3 C733,8.8 747,9.4 760,10.1 C773,10.8 787,11.5 800,12.4 C813,13.2 827,14.1 840,15.2 C853,16.2 867,17.3 880,18.5 C893,19.7 907,20.9 920,22.3 C933,23.6 947,25.1 960,26.6 C973,28.1 987,29.8 1000,31.4 C1013,33.1 1027,34.9 1040,36.8 C1053,38.7 1067,40.6 1080,42.6 C1093,44.7 1107,46.8 1120,49.0 C1133,51.2 1147,53.5 1160,55.9 C1173,58.3 1193,62.0 1200,63.3 L1200,106 L0,106 Z\" style=\"fill:#3a443d\" fill-opacity=\"0.28\"/><path d=\"M0,79.3 C7,78.0 27,74.3 40,71.9 C53,69.5 67,67.2 80,65.0 C93,62.8 107,60.7 120,58.6 C133,56.6 147,54.7 160,52.8 C173,50.9 187,49.1 200,47.4 C213,45.8 227,44.1 240,42.6 C253,41.1 267,39.6 280,38.3 C293,36.9 307,35.7 320,34.5 C333,33.3 347,32.2 360,31.2 C373,30.1 387,29.2 400,28.4 C413,27.5 427,26.8 440,26.1 C453,25.4 467,24.8 480,24.3 C493,23.8 507,23.4 520,23.0 C533,22.7 547,22.4 560,22.3 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.3 C653,22.4 667,22.7 680,23.0 C693,23.4 707,23.8 720,24.3 C733,24.8 747,25.4 760,26.1 C773,26.8 787,27.5 800,28.4 C813,29.2 827,30.1 840,31.2 C853,32.2 867,33.3 880,34.5 C893,35.7 907,36.9 920,38.3 C933,39.6 947,41.1 960,42.6 C973,44.1 987,45.8 1000,47.4 C1013,49.1 1027,50.9 1040,52.8 C1053,54.7 1067,56.6 1080,58.6 C1093,60.7 1107,62.8 1120,65.0 C1133,67.2 1147,69.5 1160,71.9 C1173,74.3 1193,78.0 1200,79.3 L1200,106 L0,106 Z\" style=\"fill:#3a443d\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-11-15 21:16:07.100757",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Du visage au regard, chaque prestation est sur mesure après un diagnostic gratuit.",
+ "modified": "2026-11-15 21:16:07.125658",
+ "modified_by": "Administrator",
+ "name": "page-cf4ea63f",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-cf4ea63f",
+ "page_title": "Prestations",
+ "preview": "/builder_assets/institut_de_beaute/page-cf4ea63f/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/institut_de_beaute/prestations",
+ "staging": 0,
+ "template_group": "institut_de_beaute"
+}

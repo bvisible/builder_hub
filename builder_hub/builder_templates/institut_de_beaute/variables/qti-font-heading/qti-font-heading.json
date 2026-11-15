@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "institut_de_beaute",
+ "name": "qti-font-heading",
+ "token_name": "Institut de beaute font heading",
+ "type": "Font",
+ "value": "Lora"
+}

@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "institut_de_beaute",
+ "name": "qti-primary",
+ "token_name": "Institut de beaute primary",
+ "type": "Color",
+ "value": "#5f7464"
+}

@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "institut_de_beaute",
+ "name": "qti-font-body",
+ "token_name": "Institut de beaute font body",
+ "type": "Font",
+ "value": "Raleway"
+}

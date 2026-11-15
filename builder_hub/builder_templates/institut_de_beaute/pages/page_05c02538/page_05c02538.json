@@ -1,0 +1,850 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "#FAF9F6",
+    "color": "var(--qti-text)",
+    "display": "flex",
+    "flexDirection": "column",
+    "fontFamily": "var(--qti-font-body)"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--qti-background)",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "4b50de43de",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,56.4 C7,55.3 27,52.0 40,49.9 C53,47.8 67,45.8 80,43.9 C93,41.9 107,40.1 120,38.3 C133,36.5 147,34.8 160,33.1 C173,31.5 187,29.9 200,28.4 C213,26.9 227,25.5 240,24.1 C253,22.8 267,21.5 280,20.3 C293,19.1 307,18.0 320,17.0 C333,15.9 347,15.0 360,14.1 C373,13.2 387,12.3 400,11.6 C413,10.9 427,10.2 440,9.6 C453,9.0 467,8.5 480,8.0 C493,7.6 507,7.2 520,6.9 C533,6.6 547,6.4 560,6.2 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.2 C653,6.4 667,6.6 680,6.9 C693,7.2 707,7.6 720,8.0 C733,8.5 747,9.0 760,9.6 C773,10.2 787,10.9 800,11.6 C813,12.3 827,13.2 840,14.1 C853,15.0 867,15.9 880,17.0 C893,18.0 907,19.1 920,20.3 C933,21.5 947,22.8 960,24.1 C973,25.5 987,26.9 1000,28.4 C1013,29.9 1027,31.5 1040,33.1 C1053,34.8 1067,36.5 1080,38.3 C1093,40.1 1107,41.9 1120,43.9 C1133,45.8 1147,47.8 1160,49.9 C1173,52.0 1193,55.3 1200,56.4 L1200,106 L0,106 Z\" style=\"fill:#FAF9F6\" fill-opacity=\"0.28\"/><path d=\"M0,72.4 C7,71.3 27,68.0 40,65.9 C53,63.8 67,61.8 80,59.9 C93,57.9 107,56.1 120,54.3 C133,52.5 147,50.8 160,49.1 C173,47.5 187,45.9 200,44.4 C213,42.9 227,41.5 240,40.1 C253,38.8 267,37.5 280,36.3 C293,35.1 307,34.0 320,33.0 C333,31.9 347,31.0 360,30.1 C373,29.2 387,28.3 400,27.6 C413,26.9 427,26.2 440,25.6 C453,25.0 467,24.5 480,24.0 C493,23.6 507,23.2 520,22.9 C533,22.6 547,22.4 560,22.2 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.2 C653,22.4 667,22.6 680,22.9 C693,23.2 707,23.6 720,24.0 C733,24.5 747,25.0 760,25.6 C773,26.2 787,26.9 800,27.6 C813,28.3 827,29.2 840,30.1 C853,31.0 867,31.9 880,33.0 C893,34.0 907,35.1 920,36.3 C933,37.5 947,38.8 960,40.1 C973,41.5 987,42.9 1000,44.4 C1013,45.9 1027,47.5 1040,49.1 C1053,50.8 1067,52.5 1080,54.3 C1093,56.1 1107,57.9 1120,59.9 C1133,61.8 1147,63.8 1160,65.9 C1173,68.0 1193,71.3 1200,72.4 L1200,106 L0,106 Z\" style=\"fill:#FAF9F6\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "alignItems": "center",
+      "backgroundColor": "#FAF9F6",
+      "display": "flex",
+      "minHeight": "60vh",
+      "overflow": "hidden",
+      "padding": "6.5rem 0",
+      "position": "relative",
+      "width": "100%"
+     },
+     "blockId": "a1746fc52",
+     "blockName": "statement",
+     "children": [
+      {
+       "baseStyles": {
+        "height": "320px",
+        "opacity": "0.14",
+        "pointerEvents": "none",
+        "position": "absolute",
+        "right": "5%",
+        "top": "14%",
+        "width": "320px"
+       },
+       "blockId": "0841befa5",
+       "element": "div",
+       "innerHTML": "<svg viewBox=\"0 0 200 200\" fill=\"none\" stroke=\"#5f7464\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M100 176 C 96 128, 96 84, 100 26\"/><path d=\"M100 150 C 78 146, 58 128, 52 104 C 76 112, 92 128, 100 150 Z\"/><path d=\"M100 150 C 122 146, 142 128, 148 104 C 124 112, 108 128, 100 150 Z\"/><path d=\"M100 116 C 86 108, 76 92, 74 74 C 90 84, 98 98, 100 116 Z\"/><path d=\"M100 116 C 114 108, 124 92, 126 74 C 110 84, 102 98, 100 116 Z\"/><path d=\"M100 60 C 92 48, 90 36, 92 22 C 98 32, 100 46, 100 60 Z\"/><path d=\"M100 60 C 108 48, 110 36, 108 22 C 102 32, 100 46, 100 60 Z\"/></svg>",
+       "mobileStyles": {
+        "height": "200px",
+        "maxWidth": "100%",
+        "right": "8%",
+        "top": "10%",
+        "width": "200px"
+       }
+      },
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qti-container)",
+        "paddingLeft": "var(--qti-gutter)",
+        "paddingRight": "var(--qti-gutter)",
+        "position": "relative",
+        "width": "100%",
+        "zIndex": "1"
+       },
+       "blockId": "007ca30ef",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "var(--qti-primary)",
+          "fontFamily": "var(--qti-font-body)",
+          "fontSize": "0.75rem",
+          "fontWeight": "700",
+          "letterSpacing": "0.3em",
+          "margin": "0 0 1.25rem",
+          "textTransform": "uppercase"
+         },
+         "blockId": "7935076c0",
+         "blockName": "label",
+         "element": "p",
+         "innerHTML": "Rendez-vous"
+        },
+        {
+         "baseStyles": {
+          "borderLeft": "2px solid var(--qti-primary)",
+          "color": "var(--qti-text)",
+          "fontFamily": "var(--qti-font-heading)",
+          "fontSize": "2rem",
+          "fontWeight": "700",
+          "lineHeight": "1.25",
+          "margin": "0 0 1.25rem",
+          "maxWidth": "34rem",
+          "paddingLeft": "12px"
+         },
+         "blockId": "0461ab4eb",
+         "blockName": "heading",
+         "element": "h2",
+         "innerHTML": "Réservez votre <em style=\"font-style: italic; color: color-mix(in srgb, var(--qti-secondary) 70%, black)\">soin</em>.",
+         "mobileStyles": {
+          "fontSize": "1.5rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(26, 26, 26, 0.72)",
+          "fontFamily": "var(--qti-font-body)",
+          "fontSize": "1.125rem",
+          "lineHeight": "1.7",
+          "margin": "0",
+          "maxWidth": "30rem"
+         },
+         "blockId": "3dae0e8d6",
+         "blockName": "lead",
+         "element": "p",
+         "innerHTML": "Choisissez votre prestation et votre créneau. Le diagnostic de peau est offert pour chaque nouveau client."
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qti-gutter-phone)",
+        "paddingRight": "var(--qti-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "flexWrap": "wrap",
+      "minHeight": "auto",
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#FAF9F6",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "3b42d4b82e",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,70.1 C7,68.7 27,64.5 40,61.8 C53,59.2 67,56.6 80,54.2 C93,51.7 107,49.3 120,47.0 C133,44.8 147,42.6 160,40.5 C173,38.4 187,36.4 200,34.5 C213,32.6 227,30.8 240,29.1 C253,27.4 267,25.8 280,24.2 C293,22.7 307,21.3 320,20.0 C333,18.6 347,17.4 360,16.3 C373,15.1 387,14.1 400,13.1 C413,12.2 427,11.3 440,10.6 C453,9.8 467,9.1 480,8.6 C493,8.0 507,7.5 520,7.1 C533,6.8 547,6.5 560,6.3 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.3 C653,6.5 667,6.8 680,7.1 C693,7.5 707,8.0 720,8.6 C733,9.1 747,9.8 760,10.6 C773,11.3 787,12.2 800,13.1 C813,14.1 827,15.1 840,16.3 C853,17.4 867,18.6 880,20.0 C893,21.3 907,22.7 920,24.2 C933,25.8 947,27.4 960,29.1 C973,30.8 987,32.6 1000,34.5 C1013,36.4 1027,38.4 1040,40.5 C1053,42.6 1067,44.8 1080,47.0 C1093,49.3 1107,51.7 1120,54.2 C1133,56.6 1147,59.2 1160,61.8 C1173,64.5 1193,68.7 1200,70.1 L1200,106 L0,106 Z\" style=\"fill:#eeeeea\" fill-opacity=\"0.28\"/><path d=\"M0,86.1 C7,84.7 27,80.5 40,77.8 C53,75.2 67,72.6 80,70.2 C93,67.7 107,65.3 120,63.0 C133,60.8 147,58.6 160,56.5 C173,54.4 187,52.4 200,50.5 C213,48.6 227,46.8 240,45.1 C253,43.4 267,41.8 280,40.2 C293,38.7 307,37.3 320,36.0 C333,34.6 347,33.4 360,32.3 C373,31.1 387,30.1 400,29.1 C413,28.2 427,27.3 440,26.6 C453,25.8 467,25.1 480,24.6 C493,24.0 507,23.5 520,23.1 C533,22.8 547,22.5 560,22.3 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.3 C653,22.5 667,22.8 680,23.1 C693,23.5 707,24.0 720,24.6 C733,25.1 747,25.8 760,26.6 C773,27.3 787,28.2 800,29.1 C813,30.1 827,31.1 840,32.3 C853,33.4 867,34.6 880,36.0 C893,37.3 907,38.7 920,40.2 C933,41.8 947,43.4 960,45.1 C973,46.8 987,48.6 1000,50.5 C1013,52.4 1027,54.4 1040,56.5 C1053,58.6 1067,60.8 1080,63.0 C1093,65.3 1107,67.7 1120,70.2 C1133,72.6 1147,75.2 1160,77.8 C1173,80.5 1193,84.7 1200,86.1 L1200,106 L0,106 Z\" style=\"fill:#eeeeea\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "rgba(95, 116, 100, 0.08)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "a62501ef5",
+     "blockName": "contact",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qti-container)",
+        "paddingLeft": "var(--qti-gutter)",
+        "paddingRight": "var(--qti-gutter)",
+        "width": "100%"
+       },
+       "blockId": "d091ef1c2",
+       "blockName": "container",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "start",
+          "display": "grid",
+          "gap": "4rem",
+          "gridTemplateColumns": "minmax(0, 5fr) minmax(0, 6fr)"
+         },
+         "blockId": "889470557",
+         "blockName": "pair",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column",
+            "minWidth": "0"
+           },
+           "blockId": "0f7e6f32a",
+           "blockName": "copy",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qti-secondary) 80%, var(--qti-text))",
+              "fontFamily": "var(--qti-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 1rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "74b19b99f",
+             "blockName": "label",
+             "element": "p",
+             "innerHTML": "Rendez-vous"
+            },
+            {
+             "baseStyles": {
+              "borderLeft": "2px solid var(--qti-primary)",
+              "color": "var(--qti-text)",
+              "fontFamily": "var(--qti-font-heading)",
+              "fontSize": "2.5rem",
+              "fontWeight": "700",
+              "lineHeight": "1.15",
+              "margin": "0 0 1.25rem",
+              "maxWidth": "36rem",
+              "paddingLeft": "12px"
+             },
+             "blockId": "a3902cd89",
+             "blockName": "heading",
+             "element": "h2",
+             "innerHTML": "Prendre <em style=\"font-style: italic; color: color-mix(in srgb, var(--qti-secondary) 70%, black)\">rendez-vous</em>.",
+             "mobileStyles": {
+              "fontSize": "1.75rem",
+              "overflowWrap": "break-word"
+             },
+             "tabletStyles": {
+              "fontSize": "2.125rem"
+             }
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qti-font-body)",
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.7",
+              "margin": "0",
+              "maxWidth": "34rem"
+             },
+             "blockId": "5d0d7ac91",
+             "blockName": "lead",
+             "element": "p",
+             "innerHTML": "Choisissez votre soin, puis la personne et le créneau qui vous conviennent."
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--qti-background)",
+            "border": "1px solid rgba(26, 26, 26, 0.08)",
+            "color": "var(--qti-text)",
+            "margin": "0 auto",
+            "maxWidth": "56rem",
+            "padding": "2.5rem",
+            "width": "100%"
+           },
+           "blockId": "4713fc32a",
+           "blockName": "card",
+           "children": [
+            {
+             "baseStyles": {
+              "minWidth": "0",
+              "width": "100%"
+             },
+             "blockId": "9c1265198",
+             "blockName": "form",
+             "element": "div",
+             "innerHTML": "{%- set services_example = \"beauty\" -%}{% include \"neoffice_theme/templates/includes/site_services/bookable_services.html\" %}"
+            }
+           ],
+           "classes": [
+            "u-card",
+            "u-card--raised"
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "padding": "1.5rem"
+           }
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gap": "2rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         },
+         "tabletStyles": {
+          "gap": "2.5rem",
+          "gridTemplateColumns": "minmax(0, 1fr)"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qti-gutter-phone)",
+        "paddingRight": "var(--qti-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#eeeeea",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "f2899741c1",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,78.0 C7,76.7 27,72.8 40,70.4 C53,67.9 67,65.5 80,63.2 C93,61.0 107,58.8 120,56.7 C133,54.5 147,52.5 160,50.6 C173,48.7 187,46.8 200,45.1 C213,43.3 227,41.6 240,40.0 C253,38.5 267,37.0 280,35.6 C293,34.2 307,32.8 320,31.6 C333,30.4 347,29.2 360,28.2 C373,27.1 387,26.2 400,25.3 C413,24.4 427,23.6 440,22.9 C453,22.2 467,21.6 480,21.1 C493,20.5 507,20.1 520,19.8 C533,19.4 547,19.1 560,19.0 C573,18.8 587,18.7 600,18.7 C613,18.7 627,18.8 640,19.0 C653,19.1 667,19.4 680,19.8 C693,20.1 707,20.5 720,21.1 C733,21.6 747,22.2 760,22.9 C773,23.6 787,24.4 800,25.3 C813,26.2 827,27.1 840,28.2 C853,29.2 867,30.4 880,31.6 C893,32.8 907,34.2 920,35.6 C933,37.0 947,38.5 960,40.0 C973,41.6 987,43.3 1000,45.1 C1013,46.8 1027,48.7 1040,50.6 C1053,52.5 1067,54.5 1080,56.7 C1093,58.8 1107,61.0 1120,63.2 C1133,65.5 1147,67.9 1160,70.4 C1173,72.8 1193,76.7 1200,78.0 L1200,106 L0,106 Z\" style=\"fill:#FAF9F6\" fill-opacity=\"0.28\"/><path d=\"M0,94.0 C7,92.7 27,88.8 40,86.4 C53,83.9 67,81.5 80,79.2 C93,77.0 107,74.8 120,72.7 C133,70.5 147,68.5 160,66.6 C173,64.7 187,62.8 200,61.1 C213,59.3 227,57.6 240,56.0 C253,54.5 267,53.0 280,51.6 C293,50.2 307,48.8 320,47.6 C333,46.4 347,45.2 360,44.2 C373,43.1 387,42.2 400,41.3 C413,40.4 427,39.6 440,38.9 C453,38.2 467,37.6 480,37.1 C493,36.5 507,36.1 520,35.8 C533,35.4 547,35.1 560,35.0 C573,34.8 587,34.7 600,34.7 C613,34.7 627,34.8 640,35.0 C653,35.1 667,35.4 680,35.8 C693,36.1 707,36.5 720,37.1 C733,37.6 747,38.2 760,38.9 C773,39.6 787,40.4 800,41.3 C813,42.2 827,43.1 840,44.2 C853,45.2 867,46.4 880,47.6 C893,48.8 907,50.2 920,51.6 C933,53.0 947,54.5 960,56.0 C973,57.6 987,59.3 1000,61.1 C1013,62.8 1027,64.7 1040,66.6 C1053,68.5 1067,70.5 1080,72.7 C1093,74.8 1107,77.0 1120,79.2 C1133,81.5 1147,83.9 1160,86.4 C1173,88.8 1193,92.7 1200,94.0 L1200,106 L0,106 Z\" style=\"fill:#FAF9F6\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "#FAF9F6",
+      "padding": "8rem 0",
+      "width": "100%"
+     },
+     "blockId": "e5132b8fa",
+     "blockName": "contact-details",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qti-container)",
+        "paddingLeft": "var(--qti-gutter)",
+        "paddingRight": "var(--qti-gutter)",
+        "width": "100%"
+       },
+       "blockId": "b8cf4f1cc",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column"
+         },
+         "blockId": "b0bf683c4",
+         "blockName": "head",
+         "children": [
+          {
+           "baseStyles": {
+            "borderLeft": "2px solid var(--qti-primary)",
+            "color": "var(--qti-text)",
+            "fontFamily": "var(--qti-font-heading)",
+            "fontSize": "2.5rem",
+            "fontWeight": "700",
+            "lineHeight": "1.15",
+            "margin": "0 0 1rem",
+            "paddingLeft": "12px"
+           },
+           "blockId": "85e2fb8bf",
+           "blockName": "heading",
+           "element": "h2",
+           "innerHTML": "Informations <em style=\"font-style: italic; color: color-mix(in srgb, var(--qti-secondary) 70%, black)\">pratiques</em>.",
+           "mobileStyles": {
+            "fontSize": "1.75rem",
+            "overflowWrap": "break-word"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(26, 26, 26, 0.72)",
+            "fontFamily": "var(--qti-font-body)",
+            "fontSize": "1.0625rem",
+            "lineHeight": "1.7",
+            "margin": "0 0 2.5rem",
+            "maxWidth": "30rem"
+           },
+           "blockId": "e546ed293",
+           "blockName": "lead",
+           "element": "p",
+           "innerHTML": "Nous sommes ouverts du mardi au samedi. Le diagnostic de peau est offert pour chaque nouveau client."
+          }
+         ],
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "div"
+        },
+        {
+         "blockId": "cfe2690a7",
+         "blockName": "details",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column",
+            "width": "100%"
+           },
+           "blockId": "33b69f484",
+           "blockName": "detail",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qti-secondary) 90%, black)",
+              "fontFamily": "var(--qti-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 0.35rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "efdc99455",
+             "blockName": "detail-label",
+             "element": "p",
+             "innerHTML": "Horaires"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "var(--qti-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0"
+             },
+             "blockId": "414ece72d",
+             "blockName": "detail-value",
+             "element": "p",
+             "innerHTML": "Du mardi au samedi"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column",
+            "width": "100%"
+           },
+           "blockId": "10795b654",
+           "blockName": "detail",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qti-secondary) 90%, black)",
+              "fontFamily": "var(--qti-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 0.35rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "7828af6ab",
+             "blockName": "detail-label",
+             "element": "p",
+             "innerHTML": "Contact"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "var(--qti-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0"
+             },
+             "blockId": "e5ead961e",
+             "blockName": "detail-value",
+             "element": "p",
+             "innerHTML": "Par le formulaire ci-dessous"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column",
+            "width": "100%"
+           },
+           "blockId": "674693f89",
+           "blockName": "detail",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "color-mix(in srgb, var(--qti-secondary) 90%, black)",
+              "fontFamily": "var(--qti-font-body)",
+              "fontSize": "0.75rem",
+              "fontWeight": "700",
+              "letterSpacing": "0.25em",
+              "margin": "0 0 0.35rem",
+              "textTransform": "uppercase"
+             },
+             "blockId": "36ff55c6e",
+             "blockName": "detail-label",
+             "element": "p",
+             "innerHTML": "Adresse"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "var(--qti-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.6",
+              "margin": "0"
+             },
+             "blockId": "3d1f51b2f",
+             "blockName": "detail-value",
+             "element": "p",
+             "innerHTML": "Sur rendez-vous"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "u-grid",
+          "u-grid--3",
+          "u-reveal-group"
+         ],
+         "element": "div"
+        },
+        {
+         "baseStyles": {
+          "margin": "2rem auto 0",
+          "maxWidth": "600px",
+          "width": "100%"
+         },
+         "blockId": "d6dbfee76",
+         "blockName": "form",
+         "children": [
+          {
+           "blockId": "60d8bcac3",
+           "blockName": "form",
+           "element": "div",
+           "innerHTML": "{% include \"builder/templates/includes/site_form.html\" %}"
+          }
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qti-gutter-phone)",
+        "paddingRight": "var(--qti-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#FAF9F6",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "transform": "scaleX(-1)",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "9e825843b6",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,54.4 C7,53.3 27,50.1 40,48.1 C53,46.1 67,44.2 80,42.3 C93,40.5 107,38.7 120,37.0 C133,35.2 147,33.6 160,32.0 C173,30.4 187,28.9 200,27.5 C213,26.1 227,24.7 240,23.4 C253,22.1 267,20.9 280,19.8 C293,18.6 307,17.5 320,16.5 C333,15.5 347,14.6 360,13.7 C373,12.9 387,12.1 400,11.4 C413,10.7 427,10.0 440,9.4 C453,8.9 467,8.4 480,7.9 C493,7.5 507,7.1 520,6.9 C533,6.6 547,6.4 560,6.2 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.2 C653,6.4 667,6.6 680,6.9 C693,7.1 707,7.5 720,7.9 C733,8.4 747,8.9 760,9.4 C773,10.0 787,10.7 800,11.4 C813,12.1 827,12.9 840,13.7 C853,14.6 867,15.5 880,16.5 C893,17.5 907,18.6 920,19.8 C933,20.9 947,22.1 960,23.4 C973,24.7 987,26.1 1000,27.5 C1013,28.9 1027,30.4 1040,32.0 C1053,33.6 1067,35.2 1080,37.0 C1093,38.7 1107,40.5 1120,42.3 C1133,44.2 1147,46.1 1160,48.1 C1173,50.1 1193,53.3 1200,54.4 L1200,106 L0,106 Z\" style=\"fill:#eeeeea\" fill-opacity=\"0.28\"/><path d=\"M0,70.4 C7,69.3 27,66.1 40,64.1 C53,62.1 67,60.2 80,58.3 C93,56.5 107,54.7 120,53.0 C133,51.2 147,49.6 160,48.0 C173,46.4 187,44.9 200,43.5 C213,42.1 227,40.7 240,39.4 C253,38.1 267,36.9 280,35.8 C293,34.6 307,33.5 320,32.5 C333,31.5 347,30.6 360,29.7 C373,28.9 387,28.1 400,27.4 C413,26.7 427,26.0 440,25.4 C453,24.9 467,24.4 480,23.9 C493,23.5 507,23.1 520,22.9 C533,22.6 547,22.4 560,22.2 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.2 C653,22.4 667,22.6 680,22.9 C693,23.1 707,23.5 720,23.9 C733,24.4 747,24.9 760,25.4 C773,26.0 787,26.7 800,27.4 C813,28.1 827,28.9 840,29.7 C853,30.6 867,31.5 880,32.5 C893,33.5 907,34.6 920,35.8 C933,36.9 947,38.1 960,39.4 C973,40.7 987,42.1 1000,43.5 C1013,44.9 1027,46.4 1040,48.0 C1053,49.6 1067,51.2 1080,53.0 C1093,54.7 1107,56.5 1120,58.3 C1133,60.2 1147,62.1 1160,64.1 C1173,66.1 1193,69.3 1200,70.4 L1200,106 L0,106 Z\" style=\"fill:#eeeeea\" fill-opacity=\"1.0\"/></g></svg>"
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "rgba(95, 116, 100, 0.08)",
+      "padding": "6rem 0",
+      "width": "100%"
+     },
+     "blockId": "e09dfaaa2",
+     "blockName": "faq",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "var(--qti-container)",
+        "paddingLeft": "var(--qti-gutter)",
+        "paddingRight": "var(--qti-gutter)",
+        "width": "100%"
+       },
+       "blockId": "2def6baa8",
+       "blockName": "container",
+       "children": [
+        {
+         "baseStyles": {
+          "borderLeft": "2px solid var(--qti-primary)",
+          "color": "var(--qti-text)",
+          "fontFamily": "var(--qti-font-heading)",
+          "fontSize": "2.5rem",
+          "fontWeight": "700",
+          "lineHeight": "1.15",
+          "margin": "0 0 1rem",
+          "paddingLeft": "12px"
+         },
+         "blockId": "41f54fd13",
+         "blockName": "heading",
+         "classes": [
+          "u-reveal"
+         ],
+         "element": "h2",
+         "innerHTML": "Questions <em style=\"font-style: italic; color: color-mix(in srgb, var(--qti-secondary) 70%, black)\">fréquentes</em>.",
+         "mobileStyles": {
+          "fontSize": "1.75rem",
+          "overflowWrap": "break-word"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(26, 26, 26, 0.72)",
+          "fontFamily": "var(--qti-font-body)",
+          "fontSize": "1.0625rem",
+          "lineHeight": "1.7",
+          "margin": "0 0 2.5rem",
+          "maxWidth": "30rem"
+         },
+         "blockId": "569ae9a45",
+         "blockName": "lead",
+         "element": "p",
+         "innerHTML": "Tout ce que vous devez savoir avant votre rendez-vous."
+        },
+        {
+         "baseStyles": {
+          "maxWidth": "42rem"
+         },
+         "blockId": "f4387f7c4",
+         "blockName": "faq",
+         "children": [
+          {
+           "blockId": "f7afa9ca8",
+           "blockName": "question",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "var(--qti-font-heading)",
+              "fontSize": "1.125rem",
+              "fontWeight": "600",
+              "lineHeight": "1.4"
+             },
+             "blockId": "9af646048",
+             "blockName": "question",
+             "element": "summary",
+             "innerHTML": "Le diagnostic est-il vraiment offert ?"
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qti-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.7",
+              "margin": "0.5rem 0 0"
+             },
+             "blockId": "46ebc3a87",
+             "blockName": "answer",
+             "element": "p",
+             "innerHTML": "Oui. Pour chaque nouveau client, le diagnostic de peau est offert afin de définir ensemble le soin le plus adapté à votre peau."
+            }
+           ],
+           "element": "details"
+          },
+          {
+           "blockId": "677f36cba",
+           "blockName": "question",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "var(--qti-font-heading)",
+              "fontSize": "1.125rem",
+              "fontWeight": "600",
+              "lineHeight": "1.4"
+             },
+             "blockId": "79a910bd6",
+             "blockName": "question",
+             "element": "summary",
+             "innerHTML": "Puis-je annuler mon rendez-vous ?"
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qti-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.7",
+              "margin": "0.5rem 0 0"
+             },
+             "blockId": "a00e771c7",
+             "blockName": "answer",
+             "element": "p",
+             "innerHTML": "Oui, vous pouvez annuler ou reporter votre rendez-vous à tout moment. Il suffit de nous prévenir en utilisant le formulaire."
+            }
+           ],
+           "element": "details"
+          },
+          {
+           "blockId": "723131043",
+           "blockName": "question",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--qti-text)",
+              "fontFamily": "var(--qti-font-heading)",
+              "fontSize": "1.125rem",
+              "fontWeight": "600",
+              "lineHeight": "1.4"
+             },
+             "blockId": "5aac8875f",
+             "blockName": "question",
+             "element": "summary",
+             "innerHTML": "Quels produits utilisez-vous ?"
+            },
+            {
+             "baseStyles": {
+              "color": "rgba(26, 26, 26, 0.72)",
+              "fontFamily": "var(--qti-font-body)",
+              "fontSize": "1rem",
+              "lineHeight": "1.7",
+              "margin": "0.5rem 0 0"
+             },
+             "blockId": "c9f7b3937",
+             "blockName": "answer",
+             "element": "p",
+             "innerHTML": "Nous utilisons des produits suisses et naturels, choisis pour leur douceur et leur respect de la peau, en accord avec votre diagnostic."
+            }
+           ],
+           "element": "details"
+          }
+         ],
+         "classes": [
+          "u-faq"
+         ],
+         "element": "div"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "paddingLeft": "var(--qti-gutter-phone)",
+        "paddingRight": "var(--qti-gutter-phone)"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "4rem 0"
+     }
+    },
+    {
+     "attributes": {
+      "aria-hidden": "true"
+     },
+     "baseStyles": {
+      "backgroundColor": "#eeeeea",
+      "height": "clamp(24px, 5.5vw, 80px)",
+      "lineHeight": "0",
+      "marginBottom": "-1px",
+      "marginTop": "-1px",
+      "pointerEvents": "none",
+      "position": "relative",
+      "width": "100%",
+      "zIndex": "2"
+     },
+     "blockId": "923aec2e97",
+     "blockName": "section-divider",
+     "children": [],
+     "classes": [
+      "nora-divider"
+     ],
+     "element": "div",
+     "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\" focusable=\"false\" style=\"display:block;width:100%;height:100%;overflow:visible\"><g><path d=\"M0,66.0 C7,64.7 27,60.7 40,58.2 C53,55.7 67,53.3 80,51.0 C93,48.7 107,46.5 120,44.4 C133,42.2 147,40.2 160,38.2 C173,36.3 187,34.4 200,32.6 C213,30.9 227,29.2 240,27.6 C253,26.0 267,24.5 280,23.1 C293,21.6 307,20.3 320,19.1 C333,17.8 347,16.7 360,15.6 C373,14.5 387,13.6 400,12.7 C413,11.8 427,11.0 440,10.3 C453,9.6 467,8.9 480,8.4 C493,7.9 507,7.4 520,7.1 C533,6.7 547,6.4 560,6.3 C573,6.1 587,6.0 600,6.0 C613,6.0 627,6.1 640,6.3 C653,6.4 667,6.7 680,7.1 C693,7.4 707,7.9 720,8.4 C733,8.9 747,9.6 760,10.3 C773,11.0 787,11.8 800,12.7 C813,13.6 827,14.5 840,15.6 C853,16.7 867,17.8 880,19.1 C893,20.3 907,21.6 920,23.1 C933,24.5 947,26.0 960,27.6 C973,29.2 987,30.9 1000,32.6 C1013,34.4 1027,36.3 1040,38.2 C1053,40.2 1067,42.2 1080,44.4 C1093,46.5 1107,48.7 1120,51.0 C1133,53.3 1147,55.7 1160,58.2 C1173,60.7 1193,64.7 1200,66.0 L1200,106 L0,106 Z\" style=\"fill:#3a443d\" fill-opacity=\"0.28\"/><path d=\"M0,82.0 C7,80.7 27,76.7 40,74.2 C53,71.7 67,69.3 80,67.0 C93,64.7 107,62.5 120,60.4 C133,58.2 147,56.2 160,54.2 C173,52.3 187,50.4 200,48.6 C213,46.9 227,45.2 240,43.6 C253,42.0 267,40.5 280,39.1 C293,37.6 307,36.3 320,35.1 C333,33.8 347,32.7 360,31.6 C373,30.5 387,29.6 400,28.7 C413,27.8 427,27.0 440,26.3 C453,25.6 467,24.9 480,24.4 C493,23.9 507,23.4 520,23.1 C533,22.7 547,22.4 560,22.3 C573,22.1 587,22.0 600,22.0 C613,22.0 627,22.1 640,22.3 C653,22.4 667,22.7 680,23.1 C693,23.4 707,23.9 720,24.4 C733,24.9 747,25.6 760,26.3 C773,27.0 787,27.8 800,28.7 C813,29.6 827,30.5 840,31.6 C853,32.7 867,33.8 880,35.1 C893,36.3 907,37.6 920,39.1 C933,40.5 947,42.0 960,43.6 C973,45.2 987,46.9 1000,48.6 C1013,50.4 1027,52.3 1040,54.2 C1053,56.2 1067,58.2 1080,60.4 C1093,62.5 1107,64.7 1120,67.0 C1133,69.3 1147,71.7 1160,74.2 C1173,76.7 1193,80.7 1200,82.0 L1200,106 L0,106 Z\" style=\"fill:#3a443d\" fill-opacity=\"1.0\"/></g></svg>"
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-11-15 21:16:07.139836",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "hide_page_header": 0,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "Choisissez votre prestation et votre créneau. Le diagnostic de peau est offert pour chaque nouveau client.",
+ "modified": "2026-11-15 21:16:07.142843",
+ "modified_by": "Administrator",
+ "name": "page-05c02538",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "page-05c02538",
+ "page_title": "Prendre rendez-vous",
+ "preview": "/builder_assets/institut_de_beaute/page-05c02538/preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "templates/institut_de_beaute/prendre_rendez_vous",
+ "staging": 0,
+ "template_group": "institut_de_beaute"
+}

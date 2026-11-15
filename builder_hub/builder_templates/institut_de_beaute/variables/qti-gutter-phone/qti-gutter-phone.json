@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "institut_de_beaute",
+ "name": "qti-gutter-phone",
+ "token_name": "Institut de beaute gutter phone",
+ "type": "Dimension",
+ "value": "24px"
+}

@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "institut_de_beaute",
+ "name": "qti-text",
+ "token_name": "Institut de beaute text",
+ "type": "Color",
+ "value": "#1a1a1a"
+}

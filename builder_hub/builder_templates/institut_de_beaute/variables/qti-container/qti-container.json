@@ -1,0 +1,9 @@
+{
+ "dark_value": null,
+ "doctype": "Builder Token",
+ "group": "institut_de_beaute",
+ "name": "qti-container",
+ "token_name": "Institut de beaute container",
+ "type": "Dimension",
+ "value": "1280px"
+}
