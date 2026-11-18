@@ -203,7 +203,9 @@ def _attrs(value, where: str, errors: list[str], warnings: list[str], state: dic
 		if not isinstance(item, str):
 			errors.append(f"{here}: must be a string")
 			continue
-		if lowered == "alt":
+		# the words a visitor reads without seeing them (a tooltip, what a screen reader says) are written for each site too: fixed, they
+		# would be the same words, in the hub's language, on every site (2026-11-18)
+		if lowered in {"alt", "title", "aria-label"}:
 			_text(item, here, errors, warnings, state, allow_slot=True)
 		elif lowered == "src":
 			if not re.fullmatch(r"\{\{\s*photo\.\d\s*\}\}", item):
@@ -217,7 +219,7 @@ def _attrs(value, where: str, errors: list[str], warnings: list[str], state: dic
 				errors.append(
 					f"{here}: `{item}` must be `{{{{cta_href}}}}`, a path of the site, an anchor, tel: or mailto:"
 				)
-		elif lowered in {"role", "aria-label", "aria-hidden", "title", "id"} or lowered.startswith("data-"):
+		elif lowered in {"role", "aria-hidden", "id"} or lowered.startswith("data-"):
 			if TOKEN.search(item):
 				errors.append(f"{here}: no token here")
 		else:

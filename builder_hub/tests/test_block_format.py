@@ -91,6 +91,16 @@ class TestWhatIsRefused(unittest.TestCase):
 	def errors(self, tree, **over):
 		return check(tree, **over)[0]
 
+	def test_a_label_or_a_tooltip_in_fixed_words_is_refused(self):
+		# the words a visitor reads without seeing them are written for each site, like a text (2026-11-18)
+		for attr in ("aria-label", "title"):
+			tree = minimal()
+			tree["c"][1]["attrs"][attr] = "Open the menu"
+			with self.subTest(attr):
+				self.assertTrue(any("fixed words" in e for e in self.errors(tree)))
+				tree["c"][1]["attrs"][attr] = "WRITE label: what the button does, 2 to 4 words"
+				self.assertEqual([], self.errors(tree))
+
 	def test_an_id_without_a_family_is_refused(self):
 		self.assertTrue(
 			any("must be <family>.<variant>" in e for e in self.errors(minimal(), block_id="nofamily"))
