@@ -62,6 +62,7 @@
   "show_breadcrumbs": 1,
   "show_cta": 1,
   "show_footer_logo": 1,
+  "show_user": 1,
   "sticky_header": 1,
   "text_color": "#1a1a1a",
   "token_prefix": "qtc"
